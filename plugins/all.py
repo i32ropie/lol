@@ -28,15 +28,15 @@ def command_all_es(m):
         if not txt:
             bot.send_message( cid, "Error, mensaje vacío.")
         else:
-            for uid in users:
-                if users[str(uid)]['notify'] and not is_banned(uid) and lang(uid) == 'es':
+            for x in users:
+                if users[str(x)]['notify'] and not is_banned(x) and lang(x) == 'es':
                     try:
-                        bot.send_message( int(uid), txt)
+                        bot.send_message( int(x), txt)
                     except:
-                        delete.append(uid)
+                        delete.append(x)
                         users.pop(uid)
                     else:
-                        save.append(uid)
+                        save.append(x)
             cont = 1
             aux = "Conservados:"
             for x in save:
@@ -52,7 +52,7 @@ def command_all_es(m):
             bot.send_document( cid, open('tmp.txt' ,'rt'))
 
 @bot.message_handler(commands=['all_en'])
-def command_all_es(m):
+def command_all_en(m):
     cid = m.chat.id
     uid = m.from_user.id
     save = list()
