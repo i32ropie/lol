@@ -48,7 +48,7 @@
     "roles_1":{
         "es":"*Filtro de campeones.*",
         "en":"*Champions filter.*",
-        "it":"",
+        "it":"*Filtro campioni.*",
         "de":"",
         "ca":""
     },
@@ -135,13 +135,13 @@
             "notify":"",
             "help":"Fornisce informazioni sui comandi.",
             "keyboard":"Mostra la tastiera (Non disponibile per gruppi).",
-            "hideboard":"",
+            "hideboard":"Nasconde la tastiera ( Non disponibile per gruppi).",
             "lang":"Mostra una tastiera per cambiare la lingua del bot.",
             "contact":"Invia un messaggio all'amministratore del bot.",
             "cancel":"Cancella il comando attuale.",
             "info":"Fornisce informazioni riguardanti il bot.",
             "champs":"Fornisce una lista con il nome di tutti i campioni.",
-            "roles":"",
+            "roles":"Mostra informazioni per filtrare i campioni per ruolo",
             "patch":"Fornisce informazione circa l'ultimo patch.",
             "sale":"Fornisce i campioni ed aspetti in offerta di questa settimana.",
             "rotation":"Fornisce campioni che sono nella rotazione settimanale",
@@ -149,8 +149,8 @@
             "summoner":"Mostra informazione per la ricerca d'evocatori.",
             "match":"Mostra informazione per la ricerca di partite.",
             "rate":"Qualifica il bot :)",
-            "summoner":"",
-            "match":""
+            "summoner":"Mostra informazioni per la ricerca d'evocatori",
+            "match":"Mostra informazioni per la ricerca di partite"
         },
         "de":{
             "notify":"",

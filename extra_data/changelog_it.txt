@@ -1,11 +1,11 @@
-[02-10-15]
+\[02-10-15]
 · Il bot è stato tradotto in Italiano. Non al 100% ma è abbastanza per il momento. Per vedere il bot tradotto usa /help
 · Creata una tastiera personalizzata per le chat private . Spanish: /teclado  English: /keyboard Italian: /tastiera
 
-[01-10-15]
+\[01-10-15]
 · Aggiunto /Kindred e la skin /Kindred_1
-· Aggiunte le skin: /Alistar_8 /Jax_9 /Karma_5 /Malphite_7 /Olaf_5
-· Aggiornate le skin: /Aatrox_3 /Garen_7 /Quinn_3
+· Aggiunte le skin: /Alistar\_8 /Jax\_9 /Karma\_5 /Malphite\_7 /Olaf\_5
+· Aggiornate le skin: /Aatrox\_3 /Garen\_7 /Quinn\_3
 
-[30-09-15]
+\[30-09-15]
 · Aggiunto il comando /patch
