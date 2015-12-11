@@ -11,16 +11,17 @@ def command_patch(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    aux = dict()
-    with open('extra_data/patch_es.txt', 'rt') as f:
-        aux['es'] = f.read()
-    with open('extra_data/patch_en.txt', 'rt') as f:
-        aux['en'] = f.read()
     if is_banned(uid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
-        bot.send_message( cid, aux[lang(cid)])
+        if lang(cid) == 'es':
+            lan = 'es'
+        else:
+            lan = 'en'
+        with open('extra_data/patch_' + lan+ '.txt', 'rt') as f:
+            patch = f.read()
+        bot.send_message( cid, patch)
     else:
         bot.send_message( cid, responses['not_user'])
