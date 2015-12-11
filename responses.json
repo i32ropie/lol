@@ -118,7 +118,7 @@
             "help":"Shows help about the commands.",
             "keyboard":"Shows the keyboard (Not available for groups).",
             "hideboard":"Hides the keyboard (Not available for groups).",
-            "lang":"Shos a keyboard to change the bot language.",
+            "lang":"Shows a keyboard to change the bot language.",
             "contact":"Send a message to the bot administrator.",
             "cancel":"Cancel the current command.",
             "info":"Gives information aboyt the bot.",
