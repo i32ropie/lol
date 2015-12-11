@@ -12,7 +12,7 @@ changeds = {
     'MonkeyKing': 'Wukong'
 }
 
-@bot.message_handler( func=lambda message: message.text=="CAMPEONES" or message.text=="CHAMPIONS" )
+@bot.message_handler( func=lambda message: message.text=="CAMPEONES" or message.text=="CHAMPIONS" or message.text=="CAMPIONI")
 @bot.message_handler(commands=['champs'])
 def command_champs(m):
     cid = m.chat.id
@@ -34,7 +34,7 @@ def command_champs(m):
     else:
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="POSICIONES" or message.text=="ROLES" )
+@bot.message_handler( func=lambda message: message.text=="POSICIONES" or message.text=="ROLES" or message.text=="ROULI")
 @bot.message_handler(commands=['roles'])
 def command_roles(m):
     cid = m.chat.id
@@ -54,7 +54,7 @@ def command_roles(m):
         bot.send_message( cid, responses['not_user'])
 
 
-@bot.message_handler( func=lambda message: message.text=="ASESINOS" or message.text=="ASSASSINS" )
+@bot.message_handler( func=lambda message: message.text=="ASESINOS" or message.text=="ASSASSINS" or message.text=="ASSASSINI")
 @bot.message_handler(commands=['assassins'])
 def command_assassins(m):
     cid = m.chat.id
@@ -77,7 +77,7 @@ def command_assassins(m):
     else:
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="LUCHADORES" or message.text=="FIGHTERS" )
+@bot.message_handler( func=lambda message: message.text=="LUCHADORES" or message.text=="FIGHTERS" or message.text=="COMBATTENTI")
 @bot.message_handler(commands=['fighters'])
 def command_fighters(m):
     cid = m.chat.id
@@ -100,7 +100,7 @@ def command_fighters(m):
     else:
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="MAGOS" or message.text=="MAGES" )
+@bot.message_handler( func=lambda message: message.text=="MAGOS" or message.text=="MAGES" or message.text=="MAGHI")
 @bot.message_handler(commands=['mages'])
 def command_mages(m):
     cid = m.chat.id
@@ -123,7 +123,7 @@ def command_mages(m):
     else:
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="APOYOS" or message.text=="SUPPORTS" )
+@bot.message_handler( func=lambda message: message.text=="APOYOS" or message.text=="SUPPORTS" or message.text=="SUPPORTI")
 @bot.message_handler(commands=['supports'])
 def command_supports(m):
     cid = m.chat.id
@@ -169,7 +169,7 @@ def command_tanks(m):
     else:
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="TIRADORES" or message.text=="ADCS" )
+@bot.message_handler( func=lambda message: message.text=="TIRADORES" or message.text=="ADCS" or message.text=="TIRATORI")
 @bot.message_handler(commands=['adcs'])
 def command_adcs(m):
     cid = m.chat.id

@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  info.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text=="INFORMACION" or message.text=="INFORMATION" )
+@bot.message_handler( func=lambda message: message.text=="INFO")
 @bot.message_handler(commands=['info'])
 def command_info(m):
     cid = m.chat.id
