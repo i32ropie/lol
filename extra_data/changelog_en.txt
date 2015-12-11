@@ -1,0 +1,14 @@
+\[02-10-15]
+· The bot has been translated into English. It is not 100% translated but is enough for the moment. To see the bot translated use /help
+· Created personalized keyboard for private chats. Spanish: /teclado  English: /keyboard
+
+\[01-10-15]
+· Added /Kindred and the skin /Kindred\_1
+· Added the skins: /Alistar\_8 /Jax\_9 /Karma\_5 /Malphite\_7 /Olaf\_5
+· Updated the skins: /Aatrox\_3 /Garen\_7 /Quinn\_3
+
+\[30-09-15]
+· Added the command /patch
+
+\[19-09-15]
+· Changelog is created after updating the command to contact through the bot

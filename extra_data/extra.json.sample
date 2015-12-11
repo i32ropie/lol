@@ -1,0 +1,14 @@
+{
+    "rotation":"file_id",
+    "sale":"file_id",
+    "token":"<TOKEN>",
+    "token_logbot":"<TOKEN>",
+    "lol_api":"<API_KEY>",
+    "admins":[
+        0
+    ],
+    "banneds":[
+        0
+    ],
+    "muted":false
+}
