@@ -5,12 +5,14 @@ from config import *
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  lang.py importado.{/cyan}'))
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-markup.add('ESPAÑOL','ENGLISH')
+markup.add('ESPAÑOL','ENGLISH','ITALIANO')
 
 @bot.message_handler(commands=['lang'])
 def command_lang(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_banned(uid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])

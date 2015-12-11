@@ -7,6 +7,8 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 @bot.message_handler(commands=['stop'])
 def command_stop(m):
     cid = m.chat.id
+    if not is_recent(m):
+        return None
     if is_user(cid):
         bot.send_message( cid, responses['stop'][lang(cid)])
         users.pop(str(cid))

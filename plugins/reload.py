@@ -8,6 +8,8 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 def command_reload(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         bot.send_message( cid, responses['reload'], parse_mode="Markdown")
         print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}Reiniciando @League_of_Legends_bot{/cyan}'))

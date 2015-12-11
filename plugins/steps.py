@@ -18,6 +18,8 @@ def step_start(m):
             users[str(cid)] = {"lang":"es", "banned": False, "notify": True}
         elif m.text == 'ENGLISH':
             users[str(cid)] = {"lang":"en", "banned": False, "notify": True}
+        elif m.text == 'ITALIANO':
+            users[str(cid)] = {"lang":"it", "banned": False, "notify": True}
         else:
             bot.send_message( cid, "Error, the language *" + m.text + "* is not supported.\nPlease, select one from the keyboard", parse_mode="Markdown")
             return None
@@ -101,6 +103,8 @@ def step_lang(m):
             users[str(cid)]['lang'] = 'es'
         elif m.text == 'ENGLISH':
             users[str(cid)]['lang'] = 'en'
+        elif m.text == 'ITALIANO':
+            users[str(cid)]['lang'] = 'it'
         #elif m.text == 'LANGUAGE':
             #users[str(cid)]['lang'] = 'lng'
         else:

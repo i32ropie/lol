@@ -8,6 +8,8 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 def command_all(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         bot.send_message( cid, responses['all'], reply_markup=types.ForceReply() )
         userStep[cid] = 'all'
@@ -19,6 +21,8 @@ def command_all_es(m):
     save = list()
     delete = list()
     aux = str()
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         txt = ' '.join(m.text.split(' ')[1:])
         if not txt:
@@ -54,6 +58,8 @@ def command_all_es(m):
     save = list()
     delete = list()
     aux = str()
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         txt = ' '.join(m.text.split(' ')[1:])
         if not txt:

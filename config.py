@@ -8,6 +8,7 @@ from riotwatcher import RiotWatcher
 from telebot import types
 from colorclass import Color
 import json
+import time
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -32,6 +33,9 @@ with open('responses.json') as f:
     responses = json.load(f)
 
 userStep = dict()
+
+def is_recent(m):
+    return (time.time() - m.date) < 5
 
 def next_step_handler(uid):
     """ Función para controlar los steps dentro de las diferentes funciones """

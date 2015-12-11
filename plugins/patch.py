@@ -9,6 +9,8 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 def command_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     aux = dict()
     with open('extra_data/patch_es.txt', 'rt') as f:
         aux['es'] = f.read()

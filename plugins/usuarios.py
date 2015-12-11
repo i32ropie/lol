@@ -8,6 +8,8 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 def command_usuarios(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         x = 0
         y = 0

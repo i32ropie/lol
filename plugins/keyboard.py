@@ -30,6 +30,8 @@ markups = {
 def command_help(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_banned(uid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
@@ -47,6 +49,8 @@ def command_help(m):
 def command_hideboard(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_banned(uid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])

@@ -8,6 +8,8 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 def command_ban(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         try:
             banned_id = m.text.split(' ')[1]
@@ -34,6 +36,8 @@ def command_ban(m):
 def command_unban(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         try:
             banned_id = m.text.split(' ')[1]
