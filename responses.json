@@ -383,7 +383,7 @@
     "lang_error":{
         "es": "Lo siento pero el idioma _%s_ no está disponible aún. Porfavor selecciona un idioma del teclado.\n\nSi quieres colaborar para traducir el bot al _%s_ contáctame a @Edurolp",
         "en": "I'm sorry but the language _%s_ is not supported yet. Please select a language from the keyboard.\n\nIf you want to colaborete for translating the bot to _%s_ contact me at @Edurolp",
-        "it":"Mi dispiace ma la lingua _%s_ non è ancora disponibile. Per piacere seleziona un idioma dalla tastiera.\n\n\Se vuoi collaborare a tradurre il bot in _%s_ contattami a @Edurolp",
+        "it":"Mi dispiace ma la lingua _%s_ non è ancora disponibile. Per piacere seleziona un idioma dalla tastiera.\n\nSe vuoi collaborare a tradurre il bot in _%s_ contattami a @Edurolp",
         "de":"",
         "ca":""
     },
