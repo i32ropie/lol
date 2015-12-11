@@ -17,11 +17,7 @@ def command_changelog(m):
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
-        if lang(cid) == 'es':
-            lan = 'es'
-        else:
-            lan = 'en'
-        with open('extra_data/changelog_' + lan+ '.txt', 'rt') as f:
+        with open('extra_data/changelog_' + lang(cid) + '.txt', 'rt') as f:
             changelog = f.read()
         bot.send_message( cid, changelog, parse_mode="Markdown")
     else:

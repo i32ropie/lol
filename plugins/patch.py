@@ -16,11 +16,7 @@ def command_patch(m):
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
-        if lang(cid) == 'es':
-            lan = 'es'
-        else:
-            lan = 'en'
-        with open('extra_data/patch_' + lan+ '.txt', 'rt') as f:
+        with open('extra_data/patch_' + lang(cid) + '.txt', 'rt') as f:
             patch = f.read()
         bot.send_message( cid, patch)
     else:
