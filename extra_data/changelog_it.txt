@@ -3,7 +3,7 @@
 · Creata una tastiera personalizzata per le chat private . Spanish: /teclado  English: /keyboard Italian: /tastiera
 
 \[01-10-15]
-· Aggiunto /Kindred e la skin /Kindred_1
+· Aggiunto /Kindred e la skin /Kindred\n_1
 · Aggiunte le skin: /Alistar\_8 /Jax\_9 /Karma\_5 /Malphite\_7 /Olaf\_5
 · Aggiornate le skin: /Aatrox\_3 /Garen\_7 /Quinn\_3
 
