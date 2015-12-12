@@ -11,16 +11,26 @@ def command_usuarios(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        normal_chat, group_chat, es, en, it = 0, 0, 0, 0, 0
+        x = [0,0,0,0]
+        y = [0,0,0,0]
         for uid in users:
             if int(uid) > 0:
-                normal_chat += 1
+                x[0] += 1
+                if lang(uid) == 'es':
+                    x[1] += 1
+                elif lang(uid) == 'en':
+                    x[2] += 1
+                elif lang(uid) == 'it':
+                    x[3] += 1
             else:
-                group_chat += 1
-            if lang(uid) == 'es':
-                es += 1
-            elif lang(uid) == 'en':
-                en += 1
-            elif lang(uid) == 'it':
-                it += 1
-        bot.send_message( cid, '*>*Usuarios: _%s_\n*>*Grupos: _%s_\n*>*Español: _%s_\n*>*Inglés: _%s_\n*>*Italiano: _%s_' %(normal_chat, group_chat, es, en, it), parse_mode="Markdown")
+                y[0] += 1
+                if lang(uid) == 'es':
+                    y[1] += 1
+                elif lang(uid) == 'en':
+                    y[2] += 1
+                elif lang(uid) == 'it':
+                    y[3] += 1
+        txt = "*Usuarios*: " + str(x[0]) + "\n *-*Español: _" + str(x[1]) + "_\n *-*Inglés: _" \
+        + str(x[2]) + "_\n *-*Italiano: _" + str(x[3]) + "*Grupos*: " + str(y[0]) + \
+        "\n *-*Español: _" + str(y[1]) + "_\n *-*Inglés: _" + str(y[2]) + "_\n *-*Italiano: _" + str(y[3])
+        bot.send_message( cid, txt, parse_mode="Markdown")
