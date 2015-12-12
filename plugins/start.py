@@ -5,7 +5,7 @@ from config import *
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  start.py importado.{/cyan}'))
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-markup.add('ESPAÑOL','ENGLISH') # up to update with more langs
+markup.add('ESPAÑOL','ENGLISH','ITALIANO') # up to update with more langs
 
 @bot.message_handler(commands=['start'])
 def command_start(m):
