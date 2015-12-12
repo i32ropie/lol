@@ -15,6 +15,6 @@ def command_about(m):
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
-        bot.send_message( cid, responses['about'][lang(cid)])
+        bot.send_message( cid, responses['about'][lang(cid)], parse_mode="Markdown")
     else:
         bot.send_message( cid, responses['not_user'])
