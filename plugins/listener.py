@@ -61,7 +61,7 @@ def process_msg(m):
         champ_key = separe[0]
         if separe[0].lower() == 'wukong':
             separe[0] = 'monkeyking'
-        elif separe[0].lower() == 'monkeyking':
+        elif separe[0].lower() in ['monkeyking','bardo']:
             separe[0] = 'nigro'
         #if separe[0] in backward:
             #separe[0] = backward[separe[0]]
