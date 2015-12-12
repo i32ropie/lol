@@ -152,3 +152,12 @@ def step_update_sale_pic(m):
     with open('extra_data/sale.jpg','wb') as new_file:
         new_file.write(downloaded_file)
     bot.send_message( cid, responses['update_sale_pic_2'])
+
+@bot.message_handler(func=lambda msg: next_step_handler(msg.chat.id) in ['patch_es','patch_en','patch_it'] )
+def step_update_patch(m):
+    cid = m.chat.id
+    if m.content_type == 'text':
+        with open('extra_data/patch_' + userStep[cid].split('_')[1] + '.txt','w') as f:
+            f.write(m.text)
+        bot.send_message( cid, "Actualizado _patch\_" + userStep[cid].split('_')[1] + ".txt_", parse_mode="Markdown")
+        userStep[cid] = 0

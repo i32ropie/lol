@@ -1,6 +1,6 @@
 \[02-10-15]
 · Il bot è stato tradotto in Italiano. Non al 100% ma è abbastanza per il momento. Per vedere il bot tradotto usa /help
-· Creata una tastiera personalizzata per le chat private . Spanish: /teclado  English: /keyboard Italian: /tastiera
+· Creata una tastiera personalizzata per le chat private . Spanish: /teclado  English: /keyboard
 
 \[01-10-15]
 · Aggiunto /Kindred e la skin /Kindred\_1
