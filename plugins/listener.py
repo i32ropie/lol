@@ -90,7 +90,7 @@ def process_msg(m):
                         for num in data[lang(cid)][x]['skins']:
                             if num['num'] == int(separe[1]):
                                 try:
-                                    bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + data[lang(cid)][x]['skins'][int(separe[1])]['name'])
+                                    bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + num['name'])
                                 except:
                                     bot.send_message( cid, responses['champ_error'][lang(cid)])
                         #if len(data[lang(cid)][x]['skins']) > int(separe[1]):
