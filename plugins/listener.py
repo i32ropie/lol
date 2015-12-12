@@ -11,6 +11,7 @@ changeds = {
     'LeBlanc':'Leblanc',
     'KhaZix':'Khazix',
     'Wukong':'MonkeyKing'
+    'Bardo':'Bard'
 }
 
 backward = {
