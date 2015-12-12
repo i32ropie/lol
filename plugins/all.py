@@ -34,7 +34,7 @@ def command_all_es(m):
                         bot.send_message( int(x), txt)
                     except:
                         delete.append(x)
-                        users.pop(uid)
+                        #users.pop(uid)
                     else:
                         save.append(x)
             cont = 1
@@ -45,6 +45,7 @@ def command_all_es(m):
             aux += "\nEliminados:"
             cont = 1
             for x in delete:
+                users.pop(x)
                 aux += "\n\t" + str(cont) + ') '+ x
                 cont += 1
             with open('tmp.txt','w') as f:
@@ -71,7 +72,7 @@ def command_all_en(m):
                         bot.send_message( int(uid), txt)
                     except:
                         delete.append(uid)
-                        users.pop(uid)
+                        #users.pop(uid)
                     else:
                         save.append(uid)
             cont = 1
@@ -82,6 +83,7 @@ def command_all_en(m):
             aux += "\nEliminados:"
             cont = 1
             for x in delete:
+                users.pop(x)
                 aux += "\n\t" + str(cont) + ') '+ x
                 cont += 1
             with open('tmp.txt','w') as f:

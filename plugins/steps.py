@@ -44,7 +44,7 @@ def step_all(m):
                     bot.send_message( int(uid), m.text)
                 except:
                     delete.append(uid)
-                    users.pop(uid)
+                    #users.pop(uid)
                 else:
                     save.append(uid)
         cont = 1
@@ -55,6 +55,7 @@ def step_all(m):
         aux += "\nEliminados:"
         cont = 1
         for x in delete:
+            users.pop(x)
             aux += "\n\t" + str(cont) + ') '+ x
             cont += 1
         with open('tmp.txt','w') as f:
