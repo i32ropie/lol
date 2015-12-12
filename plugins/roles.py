@@ -19,7 +19,7 @@ def command_champs(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -41,7 +41,7 @@ def command_roles(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -61,7 +61,7 @@ def command_assassins(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -84,7 +84,7 @@ def command_fighters(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -107,7 +107,7 @@ def command_mages(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -130,7 +130,7 @@ def command_supports(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -153,7 +153,7 @@ def command_tanks(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -176,7 +176,7 @@ def command_adcs(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None

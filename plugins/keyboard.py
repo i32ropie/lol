@@ -41,7 +41,7 @@ def command_help(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
@@ -60,7 +60,7 @@ def command_hideboard(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid):
+    if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.reply_to( m, responses['banned'])
         return None
