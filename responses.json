@@ -132,7 +132,7 @@
             "match":"Shows info to search matches."
         },
         "it":{
-            "notify":"",
+            "notify":"Abilita/Disabilita le notifiche.",
             "help":"Fornisce informazioni sui comandi.",
             "keyboard":"Mostra la tastiera (Non disponibile per gruppi).",
             "hideboard":"Nasconde la tastiera ( Non disponibile per gruppi).",
