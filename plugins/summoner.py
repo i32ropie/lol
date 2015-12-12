@@ -16,8 +16,8 @@ def command_summoner(m):
     if is_user(cid):
         txt = responses['summoner_1'][lang(cid)]
         for region in ['euw','eune','br','na','las','lan','kr','tr','ru','oce']:
-            txt += '\n/' + region + responses['summoner_3'][lang(cid)] + '*' + region.upper() + '*\n'
-        txt += responses['summoner_2'][lang(cid)]
+            txt += '\n/' + region + responses['summoner_3'][lang(cid)] + '*' + region.upper() + '*'
+        txt += '\n' + responses['summoner_2'][lang(cid)]
         bot.send_message(cid, txt, parse_mode="Markdown")
     else:
         bot.send_message( cid, responses['not_user'])

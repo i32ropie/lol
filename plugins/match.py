@@ -16,8 +16,8 @@ def command_match(m):
     if is_user(cid):
         txt = responses['match_1'][lang(cid)]
         for region in ['euw','eune','br','na','las','lan','kr','tr','ru','oce']:
-            txt += '\n/match\_' + region + responses['match_3'][lang(cid)] + '*' + region.upper() + '*\n'
-        txt += responses['match_2'][lang(cid)]
+            txt += '\n/match\_' + region + responses['match_3'][lang(cid)] + '*' + region.upper() + '*'
+        txt += '\n' + responses['match_2'][lang(cid)]
         bot.send_message(cid, txt, parse_mode="Markdown")
     else:
         bot.send_message( cid, responses['not_user'])
