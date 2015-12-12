@@ -87,12 +87,18 @@ def process_msg(m):
                     break
                 elif len(separe) == 2:
                     if isint(separe[1]):
-                        if len(data[lang(cid)][x]['skins']) > int(separe[1]):
+                        for num in data[lang(cid)][x]['skins']:
+                            if num['num'] == int(separe[1]):
+                                try:
+                                    bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + data[lang(cid)][x]['skins'][int(separe[1])]['name'])
+                                except:
+                                    bot.send_message( cid, responses['champ_error'][lang(cid)])
+                        #if len(data[lang(cid)][x]['skins']) > int(separe[1]):
                             # Poner bot.send_photo( cid, file_ids[no_namebot[0].lower()], caption=data[lang(cid)][x]['skins'][int(separe[1])]['name'])
-                            try:
-                                bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + data[lang(cid)][x]['skins'][int(separe[1])]['name'])
-                            except:
-                                bot.send_message( cid, responses['champ_error'][lang(cid)])
+                            #try:
+                                #bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + data[lang(cid)][x]['skins'][int(separe[1])]['name'])
+                            #except:
+                                #bot.send_message( cid, responses['champ_error'][lang(cid)])
                     elif separe[1].lower() == 'extra':
                         txt += champ_info(data[lang(cid)][x], cid, separe[0])
                     #else:
