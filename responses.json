@@ -323,8 +323,8 @@
         "ca":""
     },
     "summoner_3":{
-        "es":"test - Información del invocador `test` en ",
-        "en":"test - Information of the summoner `test` at ",
+        "es":" test - Información del invocador `test` en ",
+        "en":" test - Information of the summoner `test` at ",
         "it":"",
         "de":"",
         "ca":""
@@ -344,8 +344,8 @@
         "ca":""
     },
     "match_3":{
-        "es":"test - Información sobre la partida actual del invocador `test` en ",
-        "en":"test - Information about the current match of the summoner `test` at ",
+        "es":" test - Información sobre la partida actual del invocador `test` en ",
+        "en":" test - Information about the current match of the summoner `test` at ",
         "it":"",
         "de":"",
         "ca":""
