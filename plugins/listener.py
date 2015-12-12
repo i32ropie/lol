@@ -10,7 +10,7 @@ changeds = {
     'Fiddlesticks':'FiddleSticks',
     'LeBlanc':'Leblanc',
     'KhaZix':'Khazix',
-    'Wukong':'MonkeyKing'
+    'Wukong':'MonkeyKing',
     'Bardo':'Bard'
 }
 
