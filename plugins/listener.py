@@ -52,10 +52,6 @@ def process_msg(m):
     uid = m.from_user.id
     if not is_recent(m):
         return None
-    if is_banned(uid) or is_banned(cid):
-        if not extra['muted']:
-            bot.reply_to( m, responses['banned'])
-        return None
     if is_user(cid):
         command = m.text.lstrip('/')
         no_namebot = command.split('@')
@@ -70,6 +66,10 @@ def process_msg(m):
             #separe[0] = backward[separe[0]]
         for x in data[lang(cid)]:
             if separe[0].lower().startswith(data[lang(cid)][x]['key'].lower()):
+                if is_banned(uid) or is_banned(cid):
+                    if not extra['muted']:
+                        bot.reply_to( m, responses['banned'])
+                    return None
                 if len(separe) == 1:
                     try:
                         # Poner bot.send_photo( cid, file_ids[no_namebot[0]])
