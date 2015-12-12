@@ -29,5 +29,5 @@ def command_update_patch(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        bot.send_message( cid, "Envía el texto para actualizar _patch\_" + m.text.split('_')[1] + ".txt_ o escribe /cancel", parse_mode="Markdown")
+        bot.send_message( cid, "Envía el texto para actualizar *patch_" + m.text.split('_')[1] + ".txt* o escribe /cancel", parse_mode="Markdown")
         userStep[cid] = 'patch_' + m.text.split('_')[1]

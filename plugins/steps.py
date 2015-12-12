@@ -159,5 +159,5 @@ def step_update_patch(m):
     if m.content_type == 'text':
         with open('extra_data/patch_' + userStep[cid].split('_')[1] + '.txt','w') as f:
             f.write(m.text)
-        bot.send_message( cid, "Actualizado _patch\_" + userStep[cid].split('_')[1] + ".txt_", parse_mode="Markdown")
+        bot.send_message( cid, "Actualizado *patch_" + userStep[cid].split('_')[1] + ".txt*", parse_mode="Markdown")
         userStep[cid] = 0
