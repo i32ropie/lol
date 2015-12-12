@@ -396,9 +396,9 @@
     "update_sale_pic_1":"Envía la nueva imagen de las ofertas o escribe /cancel para cancelar el comando.",
     "update_sale_pic_2":"Ofertas actualizadas.",
     "about":{
-        "es":"Gracias a toda la comunidad de desarrolladores de bots para Telegram.\nEn especial a @pelijaro, @skgsergio y @rockneurotico por su gran ayuda ^^.\nGracias también a @eternnoir por la maravillosa API.\nMuchas gracias también a todas las personas que uséis el bot. Sabed que me hace muy feliz que este proyecto vaya creciendo :)",
-        "en":"Thanks to all the Telegram's bot developers community.\nIn special to @pelijaro, @skgsergio and @rockneurotico for their great help ^^.\nThanks too to @eternnoir for the wonderful API.\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)",
-        "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.n\nIn speciale a @pelijaro, @skgsergio e @rockneurotico per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa API.\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :) ",
+        "es":"Gracias a toda la comunidad de desarrolladores de bots para Telegram.\nEn especial a @pelijaro, @skgsergio y @rockneurotico por su gran ayuda ^^.\nGracias también a @eternnoir por la maravillosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nMuchas gracias también a todas las personas que uséis el bot. Sabed que me hace muy feliz que este proyecto vaya creciendo :)",
+        "en":"Thanks to all the Telegram's bot developers community.\nIn special to @pelijaro, @skgsergio and @rockneurotico for their great help ^^.\nThanks too to @eternnoir for the wonderful [API](https://github.com/eternnoir/pyTelegramBotAPI).\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)",
+        "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.\nIn speciale a @pelijaro, @skgsergio e @rockneurotico per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :) ",
         "de":"",
         "ca":""
     },
