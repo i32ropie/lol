@@ -76,7 +76,7 @@ def get_info( invocador, region, cid):
         if 'rankeds' in locals():
             if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
                 for x in rankeds[str(summoner_id)][0]['entries']:
-                    if x['playerOrTeamId'] == summoner_id:
+                    if str(x['playerOrTeamId']) == str(summoner_id):
                         info = x
                         break
                 division = info['division']
