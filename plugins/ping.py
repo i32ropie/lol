@@ -11,4 +11,5 @@ def command_COMANDO(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        bot.send_chat_action(cid, 'typing')
         bot.reply_to( m, "pong")

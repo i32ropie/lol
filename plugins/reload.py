@@ -11,6 +11,7 @@ def command_reload(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['reload'], parse_mode="Markdown")
         print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}Reiniciando @League_of_Legends_bot{/cyan}'))
         exit()

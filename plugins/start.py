@@ -15,10 +15,13 @@ def command_start(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if not is_user(cid):
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['start_1']%m.from_user.first_name, reply_markup=markup)
         userStep[cid] = 'start'
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['start_already_user'][lang(cid)])

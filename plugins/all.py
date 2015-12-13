@@ -11,6 +11,7 @@ def command_all(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['all'], reply_markup=types.ForceReply() )
         userStep[cid] = 'all'
 
@@ -26,11 +27,13 @@ def command_all_es(m):
     if is_admin(uid):
         txt = ' '.join(m.text.split(' ')[1:])
         if not txt:
+            bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, "Error, mensaje vacío.")
         else:
             for x in users:
                 if users[str(x)]['notify'] and not is_banned(x) and lang(x) == 'es':
                     try:
+                        bot.send_chat_action( int(uid), 'typing')
                         bot.send_message( int(x), txt)
                     except:
                         delete.append(x)
@@ -50,6 +53,7 @@ def command_all_es(m):
                 cont += 1
             with open('tmp.txt','w') as f:
                 f.write(aux)
+            bot.send_chat_action(cid, 'typing')
             bot.send_document( cid, open('tmp.txt' ,'rt'))
 
 @bot.message_handler(commands=['all_en'])
@@ -64,11 +68,13 @@ def command_all_en(m):
     if is_admin(uid):
         txt = ' '.join(m.text.split(' ')[1:])
         if not txt:
+            bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, "Error, mensaje vacío.")
         else:
             for uid in users:
                 if users[str(uid)]['notify'] and not is_banned(uid) and lang(uid) != 'es':
                     try:
+                        bot.send_chat_action( int(uid), 'typing')
                         bot.send_message( int(uid), txt)
                     except:
                         delete.append(uid)
@@ -88,4 +94,5 @@ def command_all_en(m):
                 cont += 1
             with open('tmp.txt','w') as f:
                 f.write(aux)
+            bot.send_chat_action(cid, 'typing')
             bot.send_document( cid, open('tmp.txt' ,'rt'))

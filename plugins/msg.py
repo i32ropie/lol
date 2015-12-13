@@ -11,5 +11,6 @@ def command_msg(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['msg'][0]['success'], reply_markup=types.ForceReply() )
         userStep[cid] = 'msg_1'

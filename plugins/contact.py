@@ -13,10 +13,13 @@ def command_contact(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['contact_1'][lang(cid)])
         userStep[cid] = 'contact'
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])

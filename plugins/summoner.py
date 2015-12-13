@@ -11,6 +11,7 @@ def command_summoner(m):
     uid = m.from_user.id
     if is_banned(uid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -18,8 +19,10 @@ def command_summoner(m):
         for region in ['euw','eune','br','na','las','lan','kr','tr','ru','oce']:
             txt += '\n/' + region + responses['summoner_3'][lang(cid)] + '*' + region.upper() + '*'
         txt += '\n' + responses['summoner_2'][lang(cid)]
+        bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, txt, parse_mode="Markdown")
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 
@@ -29,16 +32,20 @@ def region(m):
     uid = m.from_user.id
     if is_banned(uid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
         invocador = ' '.join(m.text.split(' ')[1:])
         region = m.text.lstrip('/').split(' ')[0].split('@')[0]
         if not invocador:
+            bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, responses['no_summoner'][lang(cid)]%(region), parse_mode="Markdown")
         else:
+            bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, get_info( invocador, region, cid))
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 def get_info( invocador, region, cid):

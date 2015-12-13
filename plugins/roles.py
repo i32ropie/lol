@@ -21,6 +21,7 @@ def command_champs(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -30,8 +31,10 @@ def command_champs(m):
                 txt += '\n/' + changeds[k] + ' ' + v['title']
             else:
                 txt += '\n/' + k + ' ' + v['title']
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt)
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 @bot.message_handler( func=lambda message: message.text=="POSICIONES" or message.text=="ROLES" or message.text=="ROULI")
@@ -43,14 +46,17 @@ def command_roles(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
         txt = responses['roles_1'][lang(cid)]
         for rol in responses['roles_2'][lang(cid)]:
             txt += '\n/' + rol + ': ' + responses['roles_2'][lang(cid)][rol]
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt, parse_mode="Markdown")
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 
@@ -63,6 +69,7 @@ def command_assassins(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -73,8 +80,10 @@ def command_assassins(m):
                     txt += '\n/' + changeds[k] + ' ' + v['title']
                 else:
                     txt += '\n/' + k + ' ' + v['title']
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt)
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 @bot.message_handler( func=lambda message: message.text=="LUCHADORES" or message.text=="FIGHTERS" or message.text=="COMBATTENTI")
@@ -86,6 +95,7 @@ def command_fighters(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -96,8 +106,10 @@ def command_fighters(m):
                     txt += '\n/' + changeds[k] + ' ' + v['title']
                 else:
                     txt += '\n/' + k + ' ' + v['title']
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt)
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 @bot.message_handler( func=lambda message: message.text=="MAGOS" or message.text=="MAGES" or message.text=="MAGHI")
@@ -109,6 +121,7 @@ def command_mages(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -119,8 +132,10 @@ def command_mages(m):
                     txt += '\n/' + changeds[k] + ' ' + v['title']
                 else:
                     txt += '\n/' + k + ' ' + v['title']
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt)
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 @bot.message_handler( func=lambda message: message.text=="APOYOS" or message.text=="SUPPORTS" or message.text=="SUPPORTI")
@@ -132,6 +147,7 @@ def command_supports(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -142,8 +158,10 @@ def command_supports(m):
                     txt += '\n/' + changeds[k] + ' ' + v['title']
                 else:
                     txt += '\n/' + k + ' ' + v['title']
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt)
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 @bot.message_handler( func=lambda message: message.text=="TANQUES" or message.text=="TANKS" )
@@ -155,6 +173,7 @@ def command_tanks(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -165,8 +184,10 @@ def command_tanks(m):
                     txt += '\n/' + changeds[k] + ' ' + v['title']
                 else:
                     txt += '\n/' + k + ' ' + v['title']
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt)
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
 @bot.message_handler( func=lambda message: message.text=="TIRADORES" or message.text=="ADCS" or message.text=="TIRATORI")
@@ -178,6 +199,7 @@ def command_adcs(m):
         return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
@@ -188,6 +210,8 @@ def command_adcs(m):
                     txt += '\n/' + changeds[k] + ' ' + v['title']
                 else:
                     txt += '\n/' + k + ' ' + v['title']
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt)
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])

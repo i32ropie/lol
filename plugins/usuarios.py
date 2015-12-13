@@ -33,4 +33,5 @@ def command_usuarios(m):
         txt = "*Usuarios*: " + str(x[0]) + "\n *-*Español: _" + str(x[1]) + "_\n *-*Inglés: _" \
         + str(x[2]) + "_\n *-*Italiano: _" + str(x[3]) + "_\n*Grupos*: " + str(y[0]) + \
         "\n *-*Español: _" + str(y[1]) + "_\n *-*Inglés: _" + str(y[2]) + "_\n *-*Italiano: _" + str(y[3]) + "_"
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt, parse_mode="Markdown")

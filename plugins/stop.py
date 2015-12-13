@@ -10,12 +10,15 @@ def command_stop(m):
     if not is_recent(m):
         return None
     if is_user(cid):
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['stop'][lang(cid)])
         users.pop(str(cid))
         # Enviar sticker de Amumu llorando
         with open( 'usuarios.json' ,'w') as f:
             json.dump( users, f)
         for id in admins:
+            bot.send_chat_action(cid, 'typing')
             bot.send_message( id, "Usuario eliminado:\n\nNombre: " + str(m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nID: " + str(cid))
     else:
+        bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['stop_already_unuser'])

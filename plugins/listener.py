@@ -69,6 +69,7 @@ def process_msg(m):
             if separe[0].lower().startswith(data[lang(cid)][x]['key'].lower()):
                 if is_banned(uid) or is_banned(cid):
                     if not extra['muted']:
+                        bot.send_chat_action(cid, 'typing')
                         bot.reply_to( m, responses['banned'])
                     return None
                 if len(separe) == 1:
@@ -76,6 +77,7 @@ def process_msg(m):
                         # Poner bot.send_photo( cid, file_ids[no_namebot[0]])
                         bot.send_message( cid, file_ids[no_namebot[0].lower()])
                     except:
+                        bot.send_chat_action(cid, 'typing')
                         bot.send_message( cid, responses['champ_error'][lang(cid)])
                     #txt += '_'+data[lang(cid)][x]['name'] + ', ' + data[lang(cid)][x]['title'] + '_\n\n*Skins:*'
                     #for skin in data[lang(cid)][x]['skins']:
@@ -92,6 +94,7 @@ def process_msg(m):
                                 try:
                                     bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + num['name'])
                                 except:
+                                    bot.send_chat_action(cid, 'typing')
                                     bot.send_message( cid, responses['champ_error'][lang(cid)])
                         #if len(data[lang(cid)][x]['skins']) > int(separe[1]):
                             # Poner bot.send_photo( cid, file_ids[no_namebot[0].lower()], caption=data[lang(cid)][x]['skins'][int(separe[1])]['name'])
@@ -106,6 +109,7 @@ def process_msg(m):
                         #txt += 'Error, prueba con /' + data[lang(cid)][x]['name'] + ' para ver info básica del campeón, /' + data[lang(cid)][x]['name'] + '_X para ver la skin número X de ' + data[lang(cid)][x]['name'] + ' o /' + data[lang(cid)][x]['name'] + '_extra para ver información detallada.'
                     break
         if txt:
+            bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, txt, parse_mode="Markdown")
     #else:
         #bot.send_message( cid, responses['not_user'])
