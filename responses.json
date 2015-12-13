@@ -97,7 +97,7 @@
     "help_2":{
         "es":{
             "notify":"Activa/Desactiva las notificaciones.",
-            "about":"Créditos del bot.",
+            "credits":"Créditos del bot.",
             "help":"Proporciona información sobre los comandos.",
             "keyboard":"Muestra el teclado (No disponible para grupos).",
             "hideboard":"Oculta el teclado (No disponible para grupos).",
@@ -116,7 +116,7 @@
         },
         "en":{
             "notify":"Enable/Disable the notifications.",
-            "about":"Bot credits.",
+            "credits":"Bot credits.",
             "help":"Shows help about the commands.",
             "keyboard":"Shows the keyboard (Not available for groups).",
             "hideboard":"Hides the keyboard (Not available for groups).",
@@ -135,7 +135,7 @@
         },
         "it":{
             "notify":"Abilita/Disabilita le notifiche.",
-            "about":"Crediti del bot.",
+            "credits":"Crediti del bot.",
             "help":"Fornisce informazioni sui comandi.",
             "keyboard":"Mostra la tastiera (Non disponibile per gruppi).",
             "hideboard":"Nasconde la tastiera ( Non disponibile per gruppi).",
@@ -157,7 +157,7 @@
         },
         "de":{
             "notify":"",
-            "about":"",
+            "credits":"",
             "help":"",
             "keyboard":"",
             "hideboard":"",
@@ -176,7 +176,7 @@
         },
         "ca":{
             "notify":"",
-            "about":"",
+            "credits":"",
             "help":"",
             "keyboard":"",
             "hideboard":"",

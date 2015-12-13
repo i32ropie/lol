@@ -9,8 +9,8 @@ markup_es.add( 'AYUDA', 'CONTACTO', 'INFO')
 markup_es.add( 'PARCHE', 'CHANGELOG', 'CALIFICAR')
 markup_es.add( 'OFERTA', 'CAMPEONES', 'ROTACION')
 markup_es.add( 'INVOCADOR', 'OCULTAR TECLADO' ,'PARTIDA')
-markup_es.add( 'ASESINOS', 'LUCHADORES', 'TANQUES')
-markup_es.add( 'APOYOS', 'MAGOS', 'TIRADORES')
+markup_es.add( 'POSICIONES', 'NOTIFICACIONES', 'CRÉDITOS')
+markup_es.add( 'IDIOMA')
 
 
 markup_en = types.ReplyKeyboardMarkup(resize_keyboard=True)
@@ -18,16 +18,16 @@ markup_en.add( 'HELP', 'CONTACT', 'INFO')
 markup_en.add( 'PATCH', 'CHANGELOG', 'RATE')
 markup_en.add( 'SALE', 'CHAMPIONS', 'ROTATION')
 markup_en.add( 'SUMMONER', 'HIDE KEYBOARD', 'MATCH')
-markup_en.add( 'ASSASSINS', 'FIGHTERS', 'TANKS')
-markup_en.add( 'SUPPORTS', 'MAGES', 'ADCS')
+markup_en.add( 'ROLES', 'NOTIFICATIONS', 'CREDITS')
+markup_en.add( 'LANGUAGE')
 
 markup_it = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_it.add( 'AIUTO', 'CONTATTO', 'INFO')
 markup_it.add( 'PATCH', 'CHANGELOG', 'QUALIFICARE')
 markup_it.add( 'OFFERTA', 'CAMPIONI', 'ROTAZIONE')
 markup_it.add( 'EVOCATORE', 'NASCONDI TASTIERA' ,'PARTITA')
-markup_it.add( 'ASSASSINI', 'COMBATTENTI', 'TANKS')
-markup_it.add( 'SUPPORTI', 'MAGHI', 'TIRATORI')
+markup_it.add( 'ROULI', 'NOTIFICHE', 'CREDITI')
+markup_it.add( 'LINGUA')
 
 markups = {
     "es": markup_es,

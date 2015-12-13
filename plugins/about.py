@@ -4,8 +4,9 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  about.py importado.{/cyan}'))
 
-@bot.message_handler(commands=['about'])
-def command_about(m):
+@bot.message_handler( func=lambda message: message.text=="CRÉDITOS" or message.text=="CREDITS" or message.text=="CREDITI")
+@bot.message_handler(commands=['credits'])
+def command_credits(m):
     cid = m.chat.id
     uid = m.from_user.id
     if not is_recent(m):
