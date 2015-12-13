@@ -321,16 +321,16 @@
         "ca":""
     },
     "summoner_2":{
-        "es":"Recuerda cambiar `test` por el nombre de invocador que estés buscando.",
-        "en":"Remember to change `test` for the name of the summoner you are searching.",
-        "it":"Ricorda cambiare `test` per il nome dell'evocatore che stai cercando.",
+        "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
+        "en":"Remember to change '`test`' for the name of the summoner you are searching.",
+        "it":"Ricorda di cambiare '`test`' per il nome dell'evocatore che stai cercando.",
         "de":"",
         "ca":""
     },
     "summoner_3":{
-        "es":" test - Información del invocador `test` en ",
-        "en":" test - Information of the summoner `test` at ",
-        "it":" test - Informazioni dell'evocatore `test` in ",
+        "es":" test - Información del invocador '`test`' en ",
+        "en":" test - Information of the summoner '`test`' at ",
+        "it":" test - Informazioni dell'evocatore '`test`' in ",
         "de":"",
         "ca":""
     },
@@ -342,16 +342,16 @@
         "ca":""
     },
     "match_2":{
-        "es":"Recuerda cambiar `test` por el nombre de invocador que estés buscando.",
-        "en":"Remember to change `test` for the name of the summoner you are searching.",
-        "it":"Ricorda di cambiare `test` per il nome dell'evocatore che stai cercando.",
+        "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
+        "en":"Remember to change '`test`' for the name of the summoner you are searching.",
+        "it":"Ricorda di cambiare '`test`' per il nome dell'evocatore che stai cercando.",
         "de":"",
         "ca":""
     },
     "match_3":{
-        "es":" test - Información sobre la partida actual del invocador `test` en ",
-        "en":" test - Information about the current match of the summoner `test` at ",
-        "it":" test - Informazioni sulla corrente partita dell'evocatore `test` in ",
+        "es":" test - Información sobre la partida actual del invocador '`test`' en ",
+        "en":" test - Information about the current match of the summoner '`test`' at ",
+        "it":" test - Informazioni sulla corrente partita dell'evocatore '`test`' in ",
         "de":"",
         "ca":""
     },
