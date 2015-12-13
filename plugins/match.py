@@ -11,6 +11,19 @@ locales = {
     "de":"de_DE"
 }
 
+platform = {
+    "euw":"EUW1",
+    "eune":"EUN1",
+    "br":"BR1",
+    "na":"NA1",
+    "las":"LA2",
+    "lan":"LA1",
+    "kr":"KR",
+    "tr":"TR1",
+    "ru":"RU",
+    "oce":"OC1"
+}
+
 @bot.message_handler( func=lambda message: message.text=="PARTIDA" or message.text=="MATCH" or message.text=="PARTITA" )
 @bot.message_handler(commands=['match'])
 def command_match(m):
@@ -69,7 +82,7 @@ def get_match_info( invocador, region, cid):
     summoner_name = summoner['name']
     summoner_id = summoner['id']
     try:
-        partida = lol_api.get_current_game(summoner_id=summoner_id, platform_id=None, region=region)
+        partida = lol_api.get_current_game(summoner_id=summoner_id, platform_id=platform[region], region=region)
     except:
         bot.send_chat_action( cid, 'typing')
         bot.send_message( cid, responses['match_error'][lang(cid)]%(summoner_name), parse_mode="Markdown")
