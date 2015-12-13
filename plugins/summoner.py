@@ -33,9 +33,11 @@ def region(m):
         return None
     if is_user(cid):
         invocador = ' '.join(m.text.split(' ')[1:])
+        region = m.text.lstrip('/').split(' ')[0].split('@')[0]
         if not invocador:
             bot.send_message( cid, responses['no_summoner'][lang(cid)])
-
+        else:
+            bot.send_message( cid, get_info( invocador, region, cid))
     else:
         bot.send_message( cid, responses['not_user'])
 
