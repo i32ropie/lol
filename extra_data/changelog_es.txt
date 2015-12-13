@@ -1,20 +1,21 @@
-\[xx-12-15]
+*\[xx-12-15]*
 · El bot ha sido reescrito desde 0 con las siguientes modificaciones:
 -> Multi-idioma.
+-> Actualizados comandos.
 -> Notificaciones opcionales.
 -> Teclado opcional.
--> Actualizado todo lo referente a los campeones.
+-> Actualizado formato de campeones y añadida información extra.
 
-\[02-10-15]
+*\[02-10-15]*
 · El bot ha sido traducido al inglés. No está traducido al 100% pero es suficiente por ahora. Para ver el bot traducido utiliza /help
 · Creado teclado personalizado para chats privados. Español: /teclado  Inglés: /keyboard
 
-\[01-10-15]
+*\[01-10-15]*
 · Añadido /Kindred junto su aspecto /Kindred\_1
 · Añadidos los aspectos: /Alistar\_8 /Jax\_9 /Karma\_5 /Malphite\_7 /Olaf\_5
 · Actualizados los aspectos: /Aatrox\_3 /Garen\_7 /Quinn\_3
 
-\[30-09-15]
+*\[30-09-15]*
 · Añadido comando /parche
 
 \[19-09-15]
