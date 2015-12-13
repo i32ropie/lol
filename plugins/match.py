@@ -93,7 +93,7 @@ def get_summoner_info_2( invocador, region, champion, cid):
     try:
         summoner = lol_api.get_summoner(name=invocador,region=region)
     except:
-        txt = responses['summoner_error'][lang(cid)]%(invocador,region.upper(), parse_mode="Markdown")
+        txt = responses['summoner_error'][lang(cid)]%(invocador,region.upper())
         return txt
     summoner_name = summoner['name']
     summoner_id = summoner['id']
