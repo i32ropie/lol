@@ -135,7 +135,7 @@
         },
         "it":{
             "notify":"Abilita/Disabilita le notifiche.",
-            "about":"",
+            "about":"Crediti del bot.",
             "help":"Fornisce informazioni sui comandi.",
             "keyboard":"Mostra la tastiera (Non disponibile per gruppi).",
             "hideboard":"Nasconde la tastiera ( Non disponibile per gruppi).",
@@ -330,7 +330,7 @@
     "summoner_3":{
         "es":" test - Información del invocador `test` en ",
         "en":" test - Information of the summoner `test` at ",
-        "it":"",
+        "it":" test - Informazioni dell'evocatore `test` in ",
         "de":"",
         "ca":""
     },
@@ -351,7 +351,7 @@
     "match_3":{
         "es":" test - Información sobre la partida actual del invocador `test` en ",
         "en":" test - Information about the current match of the summoner `test` at ",
-        "it":"",
+        "it":" test - Informazioni sulla corrente partita dell'evocatore `test` in ",
         "de":"",
         "ca":""
     },
@@ -640,70 +640,70 @@
     "no_summoner":{
         "es":"Error. Debes introducir el nombre del invocador.\n\nEjemplo: `/%s test`",
         "en":"Error. You must enter the name of the summoner.\n\nExample: `/%s tets`",
-        "it":"",
+        "it":"Errore. Devi inserire il nome dell'evocatore.\n\nEsempio: `/%s test` ",
         "de":"",
         "ca":""
     },
     "summoner_error":{
         "es":"Error obteniendo información del invocador `%s` en `%s`",
         "en":"Error obtaining information of the summoner `%s` at `%s`",
-        "it":"",
+        "it":"Errore nell'ottenimento di informazioni dell'evocatore `%s` in `%s`",
         "de":"",
         "ca":""
     },
     "summoner<30":{
         "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s",
         "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s",
-        "it":"",
+        "it":"Nome: %s\nLivello: %s\n\nPartite normali: \n\tVittorie 5c5: %s\n\tVittorie 3c3: %s\n\tVittorie Aram: %s",
         "de":"",
         "ca":""
     },
     "summoner<30_2":{
         "es":"Nombre: %s\nNivel: %s\n\nCampeón: %s",
         "en":"Name: %s\nLevel: %s\n\nChampion: %s",
-        "it":"",
+        "it":"Nome: %s\nLivello: %s\n\nCampione: %s",
         "de":"",
         "ca":""
     },
     "summoner_30":{
         "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s\n\nPartidas clasifactorias:\n\tLiga: %s %s\n\tVictorias: %s\n\tDerrotas: %s\n\tWinrate: %s\n\tPuntos de liga: %s",
         "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s\n\nRanked games:\n\tLeague: %s %s\n\tWins: %s\n\tDefeats: %s\n\tWinrate: %s\n\tLeague points: %s",
-        "it":"",
+        "it":"Nome: %s\nLivello: %s\n\nPartite normali:\n\tVittorie 5c5: %s\n\tVittorie 3c3: %s\n\tVittorie Aram: %s\n\nPartite classificate:\n\tLega: %s\n\tVittorie: %s\n\tWinRate: %s\n\tPunti lega: %s",
         "de":"",
         "ca":""
     },
     "summoner_30_2":{
         "es":"Nombre: %s\nLiga: %s %s\nWinrate: %s\n\nCampeón: %s",
         "en":"Name: %s\nLeague: %s %s\nWinrate: %s\n\nChampion: %s",
-        "it":"",
+        "it":"Nome: %s\nLega: %s %s\nWinrate: %s\n\nCampione: %s",
         "de":"",
         "ca":""
     },
     "match_private":{
         "es":"Este comando sólo está disponible en chat personal para evitar flood en grupos. Pruébalo en una conversación personal con el bot @League_of_Legends_bot",
         "en":"This command is only available in private chats to avoid flood at groups. Try it in a private chat with the bot @League_of_Legends_bot",
-        "it":"",
+        "it":"Questo comando è disponibile nelle chat private per evitare il flood nei gruppi. Provalo in una chat privata con il bot @League_of_Legends_bot",
         "de":"",
         "ca":""
     },
     "match_error":{
         "es":"El invocador `%s` no se encuentra en partida.",
         "en":"The summoner `%s` is not currently playing.",
-        "it":"",
+        "it":"L'evocatore `%s` non sta giocando adesso.",
         "de":"",
         "ca":""
     },
     "match_blue":{
         "es":"Tipo de partida: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "en":"Game mode: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
-        "it":"",
+        "it":"Tipo di partita: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "de":"",
         "ca":""
     },
     "match_red":{
         "es":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Equipo rojo\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "en":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
-        "it":"",
+        "it":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Squadra rossa\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "de":"",
         "ca":""
     }
