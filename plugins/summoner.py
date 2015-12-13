@@ -49,7 +49,7 @@ def get_info( invocador, region, cid):
         return txt
     summoner_name = summoner['name']
     summoner_id = summoner['id']
-    summoner_level = summoner['level']
+    summoner_level = summoner['summonerLevel']
     partidas = lol_api.get_stat_summary(summoner_id, region=region, season=None)
     if 'playerStatSummaries' in partidas:
         for data in partidas['playerStatSummaries']:
