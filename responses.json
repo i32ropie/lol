@@ -680,5 +680,12 @@
         "it":"",
         "de":"",
         "ca":""
+    },
+    "match_error":{
+        "es":"El invocador `%s` no se encuentra en partida.",
+        "en":"The summoner `%s` is not currently playing.",
+        "it":"",
+        "de":"",
+        "ca":""
     }
 }

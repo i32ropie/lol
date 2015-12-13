@@ -71,7 +71,7 @@ def get_match_info( invocador, region, cid):
         partida = lol_api.get_current_game(summoner_id, platform_id=None, region=region)
     except:
         bot.send_chat_action( cid, 'typing')
-        bot.send_message( cid, responses['match_error'][lang(cid)]%(invocador))
+        bot.send_message( cid, responses['match_error'][lang(cid)]%(invocador), parse_mode="Markdown")
         return None
     for jugadores in partida['participants']:
         if jugadores['teamId'] == 100:
