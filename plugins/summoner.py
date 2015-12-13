@@ -69,6 +69,8 @@ def get_info( invocador, region, cid):
     if summoner_level == 30:
         try:
             rankeds = lol.get_league(summoner_ids=[summoner_id], region=region)
+        except:
+            pass
         if 'rankeds' in locals():
             if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
                 for x in rankeds[str(summoner_id)][0]['entries']:
