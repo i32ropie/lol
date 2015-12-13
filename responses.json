@@ -584,5 +584,73 @@
         "it":"Passiva",
         "de":"",
         "ca":""
+    },
+    "tier":{
+        "es":{
+            "BRONZE":"Bronce",
+            "SILVER":"Plata",
+            "GOLD":"Oro",
+            "PLATINUM":"Platino",
+            "DIAMOND":"Diamante",
+            "MASTER":"Maestro",
+            "CHALLENGER":"Aspirante"
+        },
+        "en":{
+            "BRONZE":"Bronze",
+            "SILVER":"Silver",
+            "GOLD":"Gold",
+            "PLATINUM":"Platinumº",
+            "DIAMOND":"Diamond",
+            "MASTER":"Master",
+            "CHALLENGER":"Challenger"
+        },
+        "it":{
+            "BRONZE":"",
+            "SILVER":"",
+            "GOLD":"",
+            "PLATINUM":"",
+            "DIAMOND":"",
+            "MASTER":"",
+            "CHALLENGER":""
+        },
+        "de":{
+            "BRONZE":"",
+            "SILVER":"",
+            "GOLD":"",
+            "PLATINUM":"",
+            "DIAMOND":"",
+            "MASTER":"",
+            "CHALLENGER":""
+        },
+        "ca":{
+            "BRONZE":"",
+            "SILVER":"",
+            "GOLD":"",
+            "PLATINUM":"",
+            "DIAMOND":"",
+            "MASTER":"",
+            "CHALLENGER":""
+        }
+    },
+    "summoner_error":{
+        "es":"Error obteniendo información del invocador %s en %s",
+        "en":"Error obtaining information of the summoner %s at %s",
+        "it":"",
+        "de":"",
+        "ca":""
+    },
+    "summoner<30":{
+        "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s",
+        "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s",
+        "it":"",
+        "de":"",
+        "ca":""
+    },
+    "summoner_30":{
+        "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s\n\nPartidas clasifactorias:\n\tLiga: %s %s\n\tVictorias: %s\n\tDerrotas: %s\n\tWinrate: %s\n\tPuntos de liga: %s",
+        "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s\n\nRanked games:\n\tLeague: %s %s\n\tWins: %s\n\tDefeats: %s\n\tWinrate: %s\n\tLeague points: %s",
+        "it":"",
+        "de":"",
+        "ca":""
     }
 }

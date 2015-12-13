@@ -4,7 +4,7 @@
 
 import os
 import telebot
-from riotwatcher import RiotWatcher
+from riotwatcher import RiotWatcher, player_stat_summary_types
 from telebot import types
 from colorclass import Color
 import json
