@@ -66,12 +66,13 @@ def get_match_info( invocador, region, cid):
         bot.send_message( cid, responses['summoner_error'][lang(cid)]%(invocador,region.upper()), parse_mode="Markdown")
         return None
     campeones = lol_api.static_get_champion_list(region=region, locale=locales[lang(cid)], champ_data='altimages', data_by_id=True)['data']
+    summoner_name = summoner['name']
     summoner_id = summoner['id']
     try:
         partida = lol_api.get_current_game(summoner_id, platform_id=None, region=region)
     except:
         bot.send_chat_action( cid, 'typing')
-        bot.send_message( cid, responses['match_error'][lang(cid)]%(invocador), parse_mode="Markdown")
+        bot.send_message( cid, responses['match_error'][lang(cid)]%(summoner_name), parse_mode="Markdown")
         return None
     for jugadores in partida['participants']:
         if jugadores['teamId'] == 100:
