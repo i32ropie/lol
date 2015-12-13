@@ -69,7 +69,7 @@ def get_match_info( invocador, region, cid):
     summoner_name = summoner['name']
     summoner_id = summoner['id']
     try:
-        partida = lol_api.get_current_game(summoner_id, platform_id=None, region=region)
+        partida = lol_api.get_current_game(summoner_id=summoner_id, platform_id=None, region=region)
     except:
         bot.send_chat_action( cid, 'typing')
         bot.send_message( cid, responses['match_error'][lang(cid)]%(summoner_name), parse_mode="Markdown")
