@@ -56,7 +56,7 @@ def match_info(m):
         return None
     if is_user(cid):
         if cid < 0:
-            bot.send_message( cid, responses['match_private'][lang(cid)], parse_mode="Markdown")
+            bot.send_message( cid, responses['match_private'][lang(cid)])
             return None
         invocador = ' '.join(m.text.split(' ')[1:])
         region = m.text.lstrip('/').split(' ')[0].split('@')[0].split('_')[1]
