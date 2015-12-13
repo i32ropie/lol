@@ -42,6 +42,7 @@ def region(m):
         bot.send_message( cid, responses['not_user'])
 
 def get_info( invocador, region, cid):
+    z = True
     try:
         summoner = lol_api.get_summoner(name=invocador,region=region)
     except:
@@ -72,8 +73,8 @@ def get_info( invocador, region, cid):
         try:
             rankeds = lol.get_league(summoner_ids=[summoner_id], region=region)
         except:
-            pass
-        if 'rankeds' in locals():
+            z = False
+        if z:
             if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
                 for x in rankeds[str(summoner_id)][0]['entries']:
                     if x['playerOrTeamId'] == summoner_id:
