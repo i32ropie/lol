@@ -83,9 +83,9 @@ def contact_format(m):
     uid = str(m.from_user.id)
     msg = m.text
     if cid == uid:
-        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: _" + alias + "_\n*ID*: _" + cid + "_\n\n*Mensaje*: _" + msg + "_"
+        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: @" + alias + "\n*Idioma*: _" + lang(cid) + "_\n*ID*: _" + cid + "_\n\n*Mensaje*: _" + msg + "_"
     else:
-        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: _" + alias + "_\n*CID*: _" + cid + "_\n*UID*:_" + uid + "_\n\n*Mensaje*: _" + msg + "_"
+        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: @" + alias + "\n*Idioma*: _" + lang(cid) + "_\n*CID*: _" + cid + "_\n*UID*:_" + uid + "_\n\n*Mensaje*: _" + msg + "_"
     return txt
 
 with open('extra_data/file_ids.json','r') as f:

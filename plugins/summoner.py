@@ -26,7 +26,7 @@ def command_summoner(m):
         bot.send_message( cid, responses['not_user'])
 
 
-@bot.message_handler( func=lambda message: message.text.lstrip('/').split(' ')[0].split('@')[0] in ['euw','eune','br','na','las','lan','kr','tr','ru','oce'] )
+@bot.message_handler( func=lambda message: message.text.split(' ')[0].split('@')[0] in ['/euw','/eune','/br','/na','/las','/lan','/kr','/tr','/ru','/oce'] )
 def summoner_info(m):
     cid = m.chat.id
     uid = m.from_user.id

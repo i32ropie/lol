@@ -45,7 +45,7 @@ def command_match(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text.lstrip('/').split(' ')[0].split('@')[0] in ['match_euw','match_eune','match_br','match_na','match_las','match_lan','match_kr','match_tr','match_ru','match_oce'] )
+@bot.message_handler( func=lambda message: message.text.lstrip('/').split(' ')[0].split('@')[0] in ['/match_euw','/match_eune','/match_br','/match_na','/match_las','/match_lan','/match_kr','/match_tr','/match_ru','/match_oce'] )
 def match_info(m):
     cid = m.chat.id
     uid = m.from_user.id
