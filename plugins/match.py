@@ -63,7 +63,7 @@ def get_match_info( invocador, region, cid):
         summoner = lol_api.get_summoner(name=invocador,region=region)
     except:
         bot.send_chat_action( cid, 'typing')
-        bot.send_message( cid, responses['summoner_error'][lang(cid)]%(invocador,region.upper()))
+        bot.send_message( cid, responses['summoner_error'][lang(cid)]%(invocador,region.split('_')[1].upper()), parse_mode="Markdown")
         return None
     campeones = lol_api.static_get_champion_list(region=region, locale=locales[lang(cid)], champ_data='altimages', data_by_id=True)['data']
     summoner_id = summoner['id']
@@ -93,7 +93,7 @@ def get_summoner_info_2( invocador, region, champion, cid):
     try:
         summoner = lol_api.get_summoner(name=invocador,region=region)
     except:
-        txt = responses['summoner_error'][lang(cid)]%(invocador,region.upper())
+        txt = responses['summoner_error'][lang(cid)]%(invocador,region.upper(), parse_mode="Markdown")
         return txt
     summoner_name = summoner['name']
     summoner_id = summoner['id']
