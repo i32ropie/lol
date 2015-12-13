@@ -1,2 +1,8 @@
-/Elise: 487RP
-/Vladimir: 487RP
+/Gnar: 487RP
+/Wukong: 440RP
+/Sion: 292RP
+/Twitch: 395RP
+/Ashe_2: 260RP
+/Trundle_4: 375RP
+/Mordekaiser_3: 487RP
+/Annie_6: 487RP

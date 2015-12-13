@@ -1,0 +1,10 @@
+/Blitzcrank
+/ChoGath
+/JarvanIV
+/Kalista
+/Karthus
+/Leona
+/MissFortune
+/Olaf
+/TwistedFate
+/Zac
