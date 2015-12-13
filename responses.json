@@ -323,7 +323,7 @@
     "summoner_2":{
         "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
         "en":"Remember to change '`test`' for the name of the summoner you are searching.",
-        "it":"Ricorda di cambiare '`test`' per il nome dell'evocatore che stai cercando.",
+        "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"",
         "ca":""
     },
@@ -344,7 +344,7 @@
     "match_2":{
         "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
         "en":"Remember to change '`test`' for the name of the summoner you are searching.",
-        "it":"Ricorda di cambiare '`test`' per il nome dell'evocatore che stai cercando.",
+        "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"",
         "ca":""
     },
