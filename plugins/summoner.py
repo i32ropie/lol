@@ -52,14 +52,14 @@ def get_info( invocador, region, cid):
     if 'playerStatSummaries' in partidas:
         for data in partidas['playerStatSummaries']:
             if data['playerStatSummaryType'] == player_stat_summary_types[0]:
-                    normales = data
-                    wins5 = str(normales['wins'])
-                elif data['playerStatSummaryType'] == player_stat_summary_types[1]:
-                    tresVtres = data
-                    wins3 = str(tresVtres['wins'])
-                elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
-                    arams = data
-                    winsA = str(arams['wins'])
+                normales = data
+                wins5 = str(normales['wins'])
+            elif data['playerStatSummaryType'] == player_stat_summary_types[1]:
+                tresVtres = data
+                wins3 = str(tresVtres['wins'])
+            elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
+                arams = data
+                winsA = str(arams['wins'])
     if not 'wins5' in locals():
         wins5 = '-'
     if not 'wins3' in locals():
