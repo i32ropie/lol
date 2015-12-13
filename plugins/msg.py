@@ -11,6 +11,18 @@ def command_msg(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message( cid, responses['msg'][0]['success'], reply_markup=types.ForceReply() )
-        userStep[cid] = 'msg_1'
+        if len(m.text.split(' ')) >= 3:
+            if isint(m.text.split(' ')[1]):
+                if is_user(m.text.split(' ')[1]):
+                    try:
+                        bot.send_message( m.text.split(' ')[1], ' '.join(m.text.split(' ')[2:]))
+                    except:
+                        bot.send_message( cid, "Error. No se pudo enviar mensaje, quizá ya no es usuario.")
+                    else:
+                        bot.send_message( cid, "Éxito. Mensaje enviado satisfactoriamente.")
+                else:
+                    bot.send_message( cid, "Error. El usuario no se encuentra en la base de datos.")
+            else:
+                bot.send_message( cid, "Error. Debes introducir un número como ID.")
+        else:
+            bot.send_message( cid, "Error. Debes introducir `/msg <ID> <Mensaje>`", parse_mode="Markdown")

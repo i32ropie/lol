@@ -21,4 +21,5 @@ Comandos de administración
 /unban _[id]_ - Desbanea un ID
 /mute - No responder a baneados
 /unmute - Responder a baneados
+
 """
