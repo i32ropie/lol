@@ -27,7 +27,7 @@ def command_summoner(m):
 
 
 @bot.message_handler( func=lambda message: message.text.lstrip('/').split(' ')[0].split('@')[0] in ['euw','eune','br','na','las','lan','kr','tr','ru','oce'] )
-def region(m):
+def summoner_info(m):
     cid = m.chat.id
     uid = m.from_user.id
     if is_banned(uid):
@@ -43,12 +43,12 @@ def region(m):
             bot.send_message( cid, responses['no_summoner'][lang(cid)]%(region), parse_mode="Markdown")
         else:
             bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, get_info( invocador, region, cid))
+            bot.send_message( cid, get_summoner_info( invocador, region, cid))
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-def get_info( invocador, region, cid):
+def get_summoner_info( invocador, region, cid):
     try:
         summoner = lol_api.get_summoner(name=invocador,region=region)
     except:

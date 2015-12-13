@@ -234,7 +234,7 @@
     "info":{
         "es":"@League_of_Legends_bot es un bot de Telegram que dispone de todos los splasharts de los campeones junto con sus aspectos.\nTodas las imágenes pertenencen a 'Riot Games, Inc'.\nEl autor del bot y 'Riot Games, Inc' NO están relacionados.\nEl autor de este Bot es @Edurolp\nSi quieres apoyar el proyecto, puedes contribuir dejando una donacion https://www.paypal.me/edurolp",
         "en":"@League_of_Legends_bot is a Telegram bot that has every champion splashart and skin.\n\nAll the images belong to 'Riot Games, Inc'.\nThe author of the bot and 'Riot Games, Inc' are not related.\nThe author of the bot is @Edurolp\nIf you want to support the project, you can help me with a donation https://www.paypal.me/edurolp",
-        "it":"@League_of_Legenda_bot è un bot Telegram che dispone di tutti gli splasharts dei campioni insieme ai suoi aspetti. \nTutte le immagini appartengono a 'Riot Games, Inc'.\nL'autore del bot e 'Riot Games, Inc' NON sono relazionati.\nL'autore di questo bot è @Edurolp\nSe vuoi appoggiare il progetto, puoi contribuire lasciando una donazione https://www.paypal.me/edurolp",
+        "it":"@League_of_Legends_bot è un bot Telegram che dispone di tutti gli splasharts dei campioni insieme ai suoi aspetti. \nTutte le immagini appartengono a 'Riot Games, Inc'.\nL'autore del bot e 'Riot Games, Inc' NON sono relazionati.\nL'autore di questo bot è @Edurolp\nSe vuoi appoggiare il progetto, puoi contribuire lasciando una donazione https://www.paypal.me/edurolp",
         "de":"",
         "ca":""
     },
@@ -653,9 +653,30 @@
         "de":"",
         "ca":""
     },
+    "summoner<30_2":{
+        "es":"Nombre: %s\nNivel: %s\n\nCampeón: %s",
+        "en":"Name: %s\nLevel: %s\n\nChampion: %s",
+        "it":"",
+        "de":"",
+        "ca":""
+    },
     "summoner_30":{
         "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s\n\nPartidas clasifactorias:\n\tLiga: %s %s\n\tVictorias: %s\n\tDerrotas: %s\n\tWinrate: %s\n\tPuntos de liga: %s",
         "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s\n\nRanked games:\n\tLeague: %s %s\n\tWins: %s\n\tDefeats: %s\n\tWinrate: %s\n\tLeague points: %s",
+        "it":"",
+        "de":"",
+        "ca":""
+    },
+    "summoner_30_2":{
+        "es":"Nombre: %s\nLiga: %s %s\nWinrate: %s\n\nCampeón: %s",
+        "en":"Name: %s\nLeague: %s %s\nWinrate: %s\n\nChampion: %s",
+        "it":"",
+        "de":"",
+        "ca":""
+    },
+    "match_private":{
+        "es":"Este comando sólo está disponible en chat personal para evitar flood en grupos. Pruébalo en una conversación personal con el bot @League_of_Legends_bot",
+        "en":"This command is only available in private chats to avoid flood at groups. Try it in a private chat with the bot @League_of_Legends_bot",
         "it":"",
         "de":"",
         "ca":""
