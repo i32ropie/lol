@@ -645,9 +645,9 @@
         "ca":""
     },
     "summoner_error":{
-        "es":"Error obteniendo información del invocador `%s` en `%s`",
-        "en":"Error obtaining information of the summoner `%s` at `%s`",
-        "it":"Errore nell'ottenimento di informazioni dell'evocatore `%s` in `%s`",
+        "es":"Error obteniendo información del invocador '`%s`' en '`%s`'",
+        "en":"Error obtaining information of the summoner '`%s`' at '`%s`'",
+        "it":"Errore nell'ottenimento di informazioni dell'evocatore '`%s`' in '`%s`'",
         "de":"",
         "ca":""
     },

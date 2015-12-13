@@ -43,7 +43,7 @@ def summoner_info(m):
             bot.send_message( cid, responses['no_summoner'][lang(cid)]%(region), parse_mode="Markdown")
         else:
             bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, get_summoner_info( invocador, region, cid))
+            bot.send_message( cid, get_summoner_info( invocador, region, cid), parse_mode="Markdown")
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
