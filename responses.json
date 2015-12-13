@@ -687,5 +687,19 @@
         "it":"",
         "de":"",
         "ca":""
+    },
+    "match_blue":{
+        "es":"Tipo de partida: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "en":"Game mode: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "it":"",
+        "de":"",
+        "ca":""
+    },
+    "match_red":{
+        "es":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Equipo rojo\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "en":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "it":"",
+        "de":"",
+        "ca":""
     }
 }
