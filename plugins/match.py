@@ -89,9 +89,9 @@ def get_match_info( invocador, region, cid):
         return None
     for jugadores in partida['participants']:
         if jugadores['teamId'] == 100:
-                azul[str(jugadores['summonerName'])] = str(campeones[str(jugadores['championId'])]['name'])
-            else:
-                rojo[str(jugadores['summonerName'])] = str(campeones[str(jugadores['championId'])]['name'])
+            azul[str(jugadores['summonerName'])] = str(campeones[str(jugadores['championId'])]['name'])
+        else:
+            rojo[str(jugadores['summonerName'])] = str(campeones[str(jugadores['championId'])]['name'])
     bot.send_chat_action( cid, 'typing')
     bot.send_message( cid, responses['match_blue'][lang(cid)]%(partida['gameMode']))
     for a,b in azul.items():
