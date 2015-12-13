@@ -19,7 +19,7 @@ def command_cancel(m):
         if next_step_handler(cid) != 0:
             userStep[cid] = 0
             bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, responses['cancel_1'][lang(cid)])
+            bot.send_message( cid, responses['cancel_1'][lang(cid)], reply_markup=types.ReplyKeyboardHide())
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, responses['cancel_2'][lang(cid)])
