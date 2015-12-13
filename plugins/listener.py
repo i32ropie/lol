@@ -66,7 +66,7 @@ def process_msg(m):
         #if separe[0] in backward:
             #separe[0] = backward[separe[0]]
         for x in data[lang(cid)]:
-            if separe[0].lower().startswith(data[lang(cid)][x]['key'].lower()):
+            if separe[0].lower() == data[lang(cid)][x]['key'].lower():
                 if is_banned(uid) or is_banned(cid):
                     if not extra['muted']:
                         bot.send_chat_action(cid, 'typing')
