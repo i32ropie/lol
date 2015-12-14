@@ -96,12 +96,12 @@ def get_match_info( invocador, region, cid):
     bot.send_message( cid, responses['match_blue'][lang(cid)]%(partida['gameMode']))
     for a,b in azul.items():
         bot.send_chat_action( cid, 'typing')
-        bot.send_message( cid, get_summoner_info_2( invocador=a, region=region, champion=b, cid=cid))
+        bot.send_message( cid, get_summoner_info_2( invocador=a, region=region, champion=b, cid=cid), parse_mode="Markdown")
     bot.send_chat_action( cid, 'typing')
     bot.send_message( cid, responses['match_red'][lang(cid)])
     for a,b in rojo.items():
         bot.send_chat_action( cid, 'typing')
-        bot.send_message( cid, get_summoner_info_2( invocador=a, region=region, champion=b, cid=cid))
+        bot.send_message( cid, get_summoner_info_2( invocador=a, region=region, champion=b, cid=cid), parse_mode="Markdown")
 
 def get_summoner_info_2( invocador, region, champion, cid):
     try:

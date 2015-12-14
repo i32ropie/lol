@@ -652,30 +652,30 @@
         "pl":""
     },
     "summoner<30":{
-        "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s",
-        "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s",
-        "it":"Nome: %s\nLivello: %s\n\nPartite normali:\n\tVittorie 5c5: %s\n\tVittorie 3c3: %s\n\tVittorie Aram: %s",
+        "es":"*Nombre*: _%s_\n*Nivel*: _%s*\n\n*Partidas normales:\n\tVictorias 5c5*: _%s_\n\t*Victorias 3c3*: _%s_\n\t*Victorias Aram*: _%s_",
+        "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Normal games:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_",
+        "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_",
         "de":"",
         "pl":""
     },
     "summoner<30_2":{
-        "es":"Nombre: %s\nNivel: %s\n\nCampeón: %s",
-        "en":"Name: %s\nLevel: %s\n\nChampion: %s",
-        "it":"Nome: %s\nLivello: %s\n\nCampione: %s",
+        "es":"*Nombre*: _%s_\n*Nivel*: _%s_\n\n*Campeón*: _%s_",
+        "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Champion*: _%s_",
+        "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Campione*: _%s_",
         "de":"",
         "pl":""
     },
     "summoner_30":{
-        "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s\n\nPartidas clasifactorias:\n\tLiga: %s %s\n\tVictorias: %s\n\tDerrotas: %s\n\tWinrate: %s\n\tPuntos de liga: %s",
-        "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s\n\nRanked games:\n\tLeague: %s %s\n\tWins: %s\n\tDefeats: %s\n\tWinrate: %s\n\tLeague points: %s",
-        "it":"Nome: %s\nLivello: %s\n\nPartite normali:\n\tVittorie 5c5: %s\n\tVittorie 3c3: %s\n\tVittorie Aram: %s\n\nPartite classificate:\n\tLega: %s %s\n\tVittorie: %s\n\tSconfitte: %s\n\tWinRate: %s\n\tPunti lega: %s",
+        "es":"*Nombre*: _%s_\n*Nivel*: _%s_\n\n*Partidas normales:\n\tVictorias 5c5*: _%s_\n\tV*ictorias 3c3*: _%s_\n\t*Victorias Aram*: _%s_\n\n*Partidas clasifactorias:\n\tLiga*: _%s_ _%s_\n\t*Victorias*: _%s_\n\t*Derrotas*: _%s_\n\t*Winrate*: _%s_\n\t*Puntos de liga*: _%s_",
+        "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Normal games:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_\n\n*Ranked games:\n\tLeague*: _%s_ _%s_\n\t*Wins*: _%s_\n\t*Defeats*: _%s_\n\t*Winrate*: _%s_\n\t*League points*: _%s_",
+        "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_\n\nPartite classificate:\n\tLega: _%s_ _%s_\n\t*Vittorie*: _%s_\n\t*Sconfitte*: _%s_\n\t*WinRate*: _%s_\n\t*Punti lega*: _%s_",
         "de":"",
         "pl":""
     },
     "summoner_30_2":{
-        "es":"Nombre: %s\nLiga: %s %s\nWinrate: %s\n\nCampeón: %s",
-        "en":"Name: %s\nLeague: %s %s\nWinrate: %s\n\nChampion: %s",
-        "it":"Nome: %s\nLega: %s %s\nWinrate: %s\n\nCampione: %s",
+        "es":"*Nombre*: _%s_\n*Liga*: _%s_ _%s_\n*Winrate*: _%s_\n\n*Campeón*: _%s_",
+        "en":"*Name*: _%s_\n*League*: _%s_ _%s_\n*Winrate*: _%s_\n\n*Champion*: _%s_",
+        "it":"*Nome*: _%s_\n*Lega*: _%s_ _%s_\n*Winrate*: _%s_\n\n*Campione*: _%s_",
         "de":"",
         "pl":""
     },
@@ -687,9 +687,9 @@
         "pl":""
     },
     "match_error":{
-        "es":"El invocador `%s` no se encuentra en partida.",
-        "en":"The summoner `%s` is not currently playing.",
-        "it":"L'evocatore `%s` non sta giocando adesso.",
+        "es":"El invocador '`%s`' no se encuentra en partida.",
+        "en":"The summoner '`%s`' is not currently playing.",
+        "it":"L'evocatore '`%s`' non sta giocando adesso.",
         "de":"",
         "pl":""
     },
