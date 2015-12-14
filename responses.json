@@ -652,7 +652,7 @@
         "pl":""
     },
     "summoner<30":{
-        "es":"*Nombre*: _%s_\n*Nivel*: _%s\n\n*Partidas normales:\n\tVictorias 5c5*: _%s_\n\t*Victorias 3c3*: _%s_\n\t*Victorias Aram*: _%s_",
+        "es":"*Nombre*: _%s_\n*Nivel*: _%s_\n\n*Partidas normales:\n\tVictorias 5c5*: _%s_\n\t*Victorias 3c3*: _%s_\n\t*Victorias Aram*: _%s_",
         "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Normal games:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_",
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_",
         "de":"",
