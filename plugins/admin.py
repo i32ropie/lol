@@ -4,8 +4,8 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  admin.py importado.{/cyan}'))
 
-@bot.message_handler(commands=['all'])
-def command_all(m):
+@bot.message_handler(commands=['admin'])
+def command_admin(m):
     cid = m.chat.id
     uid = m.from_user.id
     if not is_recent(m):
