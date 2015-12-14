@@ -71,7 +71,7 @@ def command_hideboard(m):
         return None
     if is_user(cid):
         bot.send_chat_action(cid, 'typing')
-        bot.send_message( cid, responses['hideboard_1'][lang(cid)], reply_markup=types.ReplyKeyboardHide()))
+        bot.send_message( cid, responses['hideboard_1'][lang(cid)], reply_markup=types.ReplyKeyboardHide())
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
