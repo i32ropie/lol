@@ -29,8 +29,8 @@ Comandos de administración
 /reload - Reiniciar el bot.
 /update\_rotation_pic - Actualizar imagen de rotación gratuita.
 /update\_rotation_text - Actualizar texto de rotación gratuita.
-/update\_sale_pic - Actualizar imagen de ofertas.
-/update\_sale_text - Actualizar texto de ofertas.
+/update\_sale\_pic - Actualizar imagen de ofertas.
+/update\_sale\_text - Actualizar texto de ofertas.
 /stats - Información de usuarios del bot.
 """
         bot.send_message( cid, txt, parse_mode="Markdown")
