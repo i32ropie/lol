@@ -27,8 +27,8 @@ Comandos de administración
 /patch\_it - Actualizar parche italiano.
 /ping - Comprobar si el bot está activo.
 /reload - Reiniciar el bot.
-/update\_rotation_pic - Actualizar imagen de rotación gratuita.
-/update\_rotation_text - Actualizar texto de rotación gratuita.
+/update\_rotation\_pic - Actualizar imagen de rotación gratuita.
+/update\_rotation\_text - Actualizar texto de rotación gratuita.
 /update\_sale\_pic - Actualizar imagen de ofertas.
 /update\_sale\_text - Actualizar texto de ofertas.
 /stats - Información de usuarios del bot.
