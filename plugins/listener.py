@@ -36,10 +36,14 @@ content_types = [
 def listener(messages):
     for m in messages:
         cid = m.chat.id
+        uid = m.from_user.id
         if m.content_type == 'text':
             if m.text.startswith('/'):
                 process_msg(m)
-            log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(cid) + "]: " + m.text + "\n"
+            if cid > 0:
+                log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(cid) + "]: " + m.text + "\n"
+            else:
+                log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(uid) + "][" + str(cid) + "]: " + m.text + "\n"
             log( cid, log_line)
             logBot.send_message(52033876, log_line)
         #elif m.content_type in content_types:
