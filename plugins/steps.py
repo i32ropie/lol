@@ -92,7 +92,7 @@ def step_lang(m):
             #users[str(cid)]['lang'] = 'lng'
         else:
             bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, responses['lang_error'][str(cid)]%( m.text, m.text), parse_mode="Markdown", reply_markup=hideBoard)
+            bot.send_message( cid, responses['lang_error'][lang(cid)]%( m.text, m.text), parse_mode="Markdown", reply_markup=hideBoard)
             return None
         userStep[cid] = 0
         with open('usuarios.json', 'w') as f:
