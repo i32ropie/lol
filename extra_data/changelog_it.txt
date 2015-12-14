@@ -1,4 +1,4 @@
-*[xx-12-15]*
+*[14-12-15]*
 · Il bot è stato riscritto da 0 con le seguenti modifiche:
 -> Multi-lingue
 -> Comandi aggiornati
