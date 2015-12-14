@@ -78,7 +78,7 @@ def process_msg(m):
                     return None
                 if len(separe) == 1:
                     try:
-                        # Poner bot.send_photo( cid, file_ids[no_namebot[0]])
+                        # bot.send_photo( cid, file_ids[no_namebot[0].lower()])
                         bot.send_message( cid, file_ids[no_namebot[0].lower()])
                     except:
                         bot.send_chat_action(cid, 'typing')
@@ -96,6 +96,7 @@ def process_msg(m):
                         for num in data[lang(cid)][x]['skins']:
                             if num['num'] == int(separe[1]):
                                 try:
+                                    # Poner bot.send_photo( cid, file_ids[no_namebot[0].lower()], caption=num['name'])
                                     bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + num['name'])
                                 except:
                                     bot.send_chat_action(cid, 'typing')

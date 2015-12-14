@@ -53,15 +53,18 @@ def log(cid,msg):
         f.write(msg)
 
 def is_banned(uid):
+    """ Función para comprobar si un ID está baneado """
     if str(uid) in users:
         return users[str(uid)]['banned']
     else:
         return False
 
 def is_user(cid):
+    """ Función para comprobar si un ID es usuario """
     return str(cid) in users
 
 def is_admin(cid):
+    """ Función para comprobar si un ID es admin """
     return int(cid) in admins
 
 def isint(s):
