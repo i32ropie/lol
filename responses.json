@@ -5,21 +5,21 @@
         "en":"Welcome to @League_of_Legends_bot. This bot will show you all the skins and champions, will notify you when new sales are rotations are availables, will let you see information about summoners and matches, who is weak or strong versus each champion and more things in the future! :)",
         "it":"Benvenuto a @League_of_Legends_bot. Questo bot ti mostrerà tutti i campioni disponibili e i loro rispettivi aspetti, ti avviserà delle nuove offerte e rotazioni, ti permetterà vedere informazioni su evocatori e partite, contro chi è debole e contro chi è forte ogni personaggio e più cose nel futuro! :)",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "start_already_user":{
         "es":"Ya estabas en nuestra base de datos :)",
         "en":"You already were in our data base :)",
         "it":"Già eri nel nostro data base :)",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "stop":{
         "es":"Esto ha hecho llorar a Amumu :'(\nGracias por haber usado el bot, espero volver a verte por aquí dentro de poco :)",
         "en":"This made Amumu cry :'(\nThanks for using the bot, I hope to see you soon :)",
         "it":"Questo ha fatto piangere Amumu :'(\nGrazie per aver utilizzato il bot, spero di rivederti presto :)",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "stop_already_unuser":"You are already unsubscribed :'(",
     "not_user":"Sorry but there were a problem locating you in the DB, please use /start to register.",
@@ -29,28 +29,28 @@
         "en":"Command canceled :)",
         "it":"Comando cancellato :)",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "cancel_2":{
         "es":"No hay ningún comando que cancelar :)",
         "en":"There are no commands to cancel :)",
         "it":"Non c'è nessun comando da cancellare :)",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "help_1":{
         "es":"El bot dispone de los siguientes comandos:",
         "en":"The bot has de following commands:",
         "it":"Il bot dispone dei seguenti comandi:",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "roles_1":{
         "es":"*Filtro de campeones.*",
         "en":"*Champions filter.*",
         "it":"*Filtro campioni.*",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "roles_2":{
         "es":{
@@ -85,7 +85,7 @@
             "tanks":"",
             "adcs":""
         },
-        "ca":{
+        "pl":{
             "assassins":"",
             "fighters":"",
             "mages":"",
@@ -174,7 +174,7 @@
             "summoner":"",
             "match":""
         },
-        "ca":{
+        "pl":{
             "notify":"",
             "credits":"",
             "help":"",
@@ -199,161 +199,161 @@
         "en":"Keyboard enabled.",
         "it":"Tastiera attivata.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "keyboard_2":{
         "es":"Teclado solo disponible para conversaciones privadas.",
         "en":"The keyboard is only available for personal chats.",
         "it":"La tastiera è disponibile soltanto per chat private.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "hideboard_1":{
         "es":"Teclado desactivado.",
         "en":"Keyboard disabled",
         "it":"Tastiera disattivata.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "hideboard_2":{
         "es":"Teclado solo disponible para conversaciones privadas.",
         "en":"The keyboard is only available for personal chats.",
         "it":"La tastiera è disponibile soltanto per chat private.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "contact_1":{
         "es":"Escribe el mensaje que quieras enviarme.",
         "en":"Write the message you want to send me.",
         "it":"Scrivi il messaggio che vuoi inviarmi.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "contact_2":{
         "es":"El mensaje ha sido enviado con éxito.",
         "en":"The message has been sent correctly.",
         "it":"Il messaggio è stato inviato correttamente.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "info":{
         "es":"@League_of_Legends_bot es un bot de Telegram que dispone de todos los splasharts de los campeones junto con sus aspectos.\nTodas las imágenes pertenencen a 'Riot Games, Inc'.\nEl autor del bot y 'Riot Games, Inc' NO están relacionados.\nEl autor de este Bot es @Edurolp\nSi quieres apoyar el proyecto, puedes contribuir dejando una donacion https://www.paypal.me/edurolp",
         "en":"@League_of_Legends_bot is a Telegram bot that has every champion splashart and skin.\n\nAll the images belong to 'Riot Games, Inc'.\nThe author of the bot and 'Riot Games, Inc' are not related.\nThe author of the bot is @Edurolp\nIf you want to support the project, you can help me with a donation https://www.paypal.me/edurolp",
         "it":"@League_of_Legends_bot è un bot Telegram che dispone di tutti gli splasharts dei campioni insieme ai suoi aspetti. \nTutte le immagini appartengono a 'Riot Games, Inc'.\nL'autore del bot e 'Riot Games, Inc' NON sono relazionati.\nL'autore di questo bot è @Edurolp\nSe vuoi sostenere il progetto, puoi contribuire lasciando una donazione https://www.paypal.me/edurolp",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "champs":{
         "es":"Los campeones que hay hasta el momento son: ",
         "en":"The champions are: ",
         "it":"I campioni disponibili sono: ",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "sale":{
         "es":"Las ofertas de esta semana son:",
         "en":"The sale for this week are:",
         "it":"Le offerte di questa settimana sono:",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "rotation":{
         "es":"La rotación de esta semana es:",
         "en":"The rotation for this week is:",
         "it":"La rotazione di questa settimana è:",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "assassins":{
         "es":"Campeones filtrados por: Asesino\n",
         "en":"Champions filtered by: Assassin\n",
         "it":"Campioni filtrati per: Assassino\n",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "fighters":{
         "es":"Campeones filtrados por: Luchador\n",
         "en":"Champions filtered by: Fighter\n",
         "it":"Campioni filtrati per: Combattente\n",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "mages":{
         "es":"Campeones filtrados por: Mago\n",
         "en":"Champions filtered by: Mage\n",
         "it":"Campioni filtrati per: Mago\n",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "supports":{
         "es":"Campeones filtrados por: Apoyo\n",
         "en":"Champions filtered by: Support\n",
         "it":"Campioni filtrati per: Supporto\n",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "tanks":{
         "es":"Campeones filtrados por: Tanque\n",
         "en":"Champions filtered by: Tank\n",
         "it":"Campioni filtrati per: Tank\n",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "adcs":{
         "es":"Campeones filtrados por: Tirador\n",
         "en":"Champions filtered by: Marksman\n",
         "it":"Campioni filtrati per: Tiratore\n",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "rate":{
         "es":"Hola, puedes ayudar al bot enormemente califcándolo con ⭐️⭐️⭐️⭐️⭐️ en el siguiente enlace:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nMuchas gracias! ^^",
         "en":"Hi, you can help the bot a lot rating it with ⭐️⭐️⭐️⭐️⭐️ in the following link:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nThanks a lot! ^^",
         "it":"Salve, puoi aiutare enormemente il bot votandolo con ⭐️⭐️⭐️⭐️⭐️ nel seguente link:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nGrazie mille! ^^",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner_1":{
         "es":"El bot dispone de una serie de comandos para obtener información sobre invocadores de los distitos servidores. Los comandos son:",
         "en":"The bot has some commands for obtaining information about summoners in the differents servers. The commands are:",
         "it":"Il bot dispone di una serie di comandi per ottenere informazione riguardo evocatori dei vari servers. I comandi sono:",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner_2":{
         "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
         "en":"Remember to change '`test`' for the name of the summoner you are searching.",
         "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner_3":{
         "es":" test - Información del invocador '`test`' en ",
         "en":" test - Information of the summoner '`test`' at ",
         "it":" test - Informazioni dell'evocatore '`test`' in ",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "match_1":{
         "es":"El bot dispone de una serie de comandos para obtener información partidas en los distintos servidores. Los comandos son:",
         "en":"The bot has some commands for obtaining information about matches in the differents servers. The commands are:",
         "it":"Il bot dispone di una serie di comandi per ottenere informazione riguardo partite dei vari servers. I comandi sono:",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "match_2":{
         "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
         "en":"Remember to change '`test`' for the name of the summoner you are searching.",
         "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "match_3":{
         "es":" test - Información sobre la partida actual del invocador '`test`' en ",
         "en":" test - Information about the current match of the summoner '`test`' at ",
         "it":" test - Informazioni sulla corrente partita dell'evocatore '`test`' in ",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "all": "Escribe el mensaje a difundir o usa /cancel para cancelar el comando.",
     "msg":[
@@ -390,21 +390,21 @@
         "en": "Select a language or type /cancel to cancel the command.",
         "it":"Seleziona una lingua o scrivi /cancel per cancellare il comando.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "lang_2":{
         "es": "El idioma ha sido actualizado al Español.",
         "en": "The language has been updated to English",
         "it":"La lingua è stata cambiata in Italiano",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "lang_error":{
         "es": "Lo siento pero el idioma _%s_ no está disponible aún. Porfavor selecciona un idioma del teclado.\n\nSi quieres colaborar para traducir el bot al _%s_ contáctame a @Edurolp",
         "en": "I'm sorry but the language _%s_ is not supported yet. Please select a language from the keyboard.\n\nIf you want to colaborete for translating the bot to _%s_ contact me at @Edurolp",
         "it":"Mi dispiace ma la lingua _%s_ non è ancora disponibile. Per piacere seleziona un idioma dalla tastiera.\n\nSe vuoi collaborare a tradurre il bot in _%s_ contattami a @Edurolp",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "update_rotation_text_1":"Envía la nueva rotación o escribe /cancel para cancelar el comando.",
     "update_rotation_text_2":"Rotación actualizada.",
@@ -419,7 +419,7 @@
         "en":"Thanks to all the Telegram's bot developers community.\nIn special to @pelijaro, @luksireiku, @skgsergio and @rockneurotiko for their great help ^^.\nThanks too to @eternnoir for the wonderful [API](https://github.com/eternnoir/pyTelegramBotAPI).\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)\nThanks to the translators: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca",
         "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.\nIn speciale a @pelijaro, @luksireiku, @skgsergio e @rockneurotiko per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :)\nGrazie ai traduttori: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "reload":"Reestarting. Wait for `20` seconds.",
     "notifications_1":{
@@ -427,14 +427,14 @@
         "en":"Notifications disabled. Now you _won't_ receive broadcast messages nor warnings. To enable it again use /notify",
         "it":"Notifiche disattivate. Ora _non_ riceverai più messaggi generali ne avvisi. Per attivarlo di nuovo usa /notify",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "notifications_2":{
         "es":"Notificaciones activadas. Ahora _si_ recibirás mensajes difundidos y avisos. Para desactivarlo utiliza /notify",
         "en":"Notifications enabled. Now you _will_ receive broadcast messages and warnings. To disable it use /notify",
         "it":"Notifiche attivate. Adesso _ti_ verranno inviati messaggi generali e avvisi. Per disattivarli usa /notify",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "mute":[
         "Elige MUTE para silenciar a los baneados o UNMUTE para hacerles sufrir. O /cancel para no hacer nada.",
@@ -449,14 +449,14 @@
         "en":"I'm sorry but we haven't added it yet to the bot!",
         "it":"Mi dispiace ma non l'abbiamo ancora aggiunto nel bot!",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "extra_info":{
         "es":"Para ver información detallada del campeón usa",
         "en":"To see detailed info about the champion use",
         "it":"Per vedere informazioni dettagliate del campione usa",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "champ_info":{
         "tags":{
@@ -464,21 +464,21 @@
             "en":"Roles",
             "it":"Rouli",
             "de":"Rollen",
-            "ca":""
+            "pl":""
         },
         "stats":{
             "es":"Estadísticas",
             "en":"Stats",
             "it":"Statistiche",
             "de":"",
-            "ca":""
+            "pl":""
         },
         "spells":{
             "es":"Habilidades",
             "en":"Abilities",
             "it":"Abilità",
             "de":"Fähigkeiten",
-            "ca":""
+            "pl":""
         }
     },
     "stats":{
@@ -487,49 +487,49 @@
             "en":"Health",
             "it":"Salute",
             "de":"Leben",
-            "ca":""
+            "pl":""
         },
         "hpregen":{
             "es":"Regeneración de Vida",
             "en":"Health Regen",
             "it":"Rigen. salute",
             "de":"Lebensregen.",
-            "ca":""
+            "pl":""
         },
         "attackdamage":{
             "es":"Daño de Ataque",
             "en":"Attack Damage",
             "it":"Attacco fisico",
             "de":"Angriffsschaden",
-            "ca":""
+            "pl":""
         },
         "attackrange":{
             "es":"Rango de ataque",
             "en":"Attack Range",
             "it":"Raggio d'attacco",
             "de":"",
-            "ca":""
+            "pl":""
         },
         "movespeed":{
             "es":"Velocidad de Movimiento",
             "en":"Movement Speed",
             "it":"Velocità di movimento",
             "de":"Lauftempo",
-            "ca":""
+            "pl":""
         },
         "armor":{
             "es":"Armadura",
             "en":"Armor",
             "it":"Armatura",
             "de":"Rüstung",
-            "ca":""
+            "pl":""
         },
         "spellblock":{
             "es":"Resistencia Mágica",
             "en":"Magic Resist",
             "it":"Resist. magica",
             "de":"Magieresistenz",
-            "ca":""
+            "pl":""
         }
     },
     "tags":{
@@ -538,42 +538,42 @@
             "en":"Assassin",
             "it":"Assassino",
             "de":"Assassine",
-            "ca":""
+            "pl":""
         },
         "Fighter":{
             "es":"Luchador",
             "en":"Fighter",
             "it":"Combattente",
             "de":"Kämpfer",
-            "ca":""
+            "pl":""
         },
         "Mage":{
             "es":"Mago",
             "en":"Mage",
             "it":"Mago",
             "de":"Magier",
-            "ca":""
+            "pl":""
         },
         "Support":{
             "es":"Apoyo",
             "en":"Support",
             "it":"Supporto",
             "de":"Unterstützung",
-            "ca":""
+            "pl":""
         },
         "Tank":{
             "es":"Tanque",
             "en":"Tank",
             "it":"Tank",
             "de":"Tank",
-            "ca":""
+            "pl":""
         },
         "Marksman":{
             "es":"Tirador",
             "en":"Marksman",
             "it":"Tiratore",
             "de":"Schütze",
-            "ca":""
+            "pl":""
         }
     },
     "continue":{
@@ -581,14 +581,14 @@
         "en":"Keep reading",
         "it":"Continua a leggere",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "passive":{
         "es":"Pasiva",
         "en":"Passive",
         "it":"Passiva",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "tier":{
         "es":{
@@ -627,7 +627,7 @@
             "MASTER":"",
             "CHALLENGER":""
         },
-        "ca":{
+        "pl":{
             "BRONZE":"",
             "SILVER":"",
             "GOLD":"",
@@ -642,69 +642,69 @@
         "en":"Error. You must enter the name of the summoner.\n\nExample: `/%s tets`",
         "it":"Errore. Devi inserire il nome dell'evocatore.\n\nEsempio: `/%s test` ",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner_error":{
         "es":"Error obteniendo información del invocador '`%s`' en '`%s`'",
         "en":"Error obtaining information of the summoner '`%s`' at '`%s`'",
         "it":"Errore nell'ottenimento di informazioni dell'evocatore '`%s`' in '`%s`'",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner<30":{
         "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s",
         "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s",
         "it":"Nome: %s\nLivello: %s\n\nPartite normali:\n\tVittorie 5c5: %s\n\tVittorie 3c3: %s\n\tVittorie Aram: %s",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner<30_2":{
         "es":"Nombre: %s\nNivel: %s\n\nCampeón: %s",
         "en":"Name: %s\nLevel: %s\n\nChampion: %s",
         "it":"Nome: %s\nLivello: %s\n\nCampione: %s",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner_30":{
         "es":"Nombre: %s\nNivel: %s\n\nPartidas normales:\n\tVictorias 5c5: %s\n\tVictorias 3c3: %s\n\tVictorias Aram: %s\n\nPartidas clasifactorias:\n\tLiga: %s %s\n\tVictorias: %s\n\tDerrotas: %s\n\tWinrate: %s\n\tPuntos de liga: %s",
         "en":"Name: %s\nLevel: %s\n\nNormal games:\n\t5v5 wins: %s\n\t3v3 wins: %s\n\tAram wins: %s\n\nRanked games:\n\tLeague: %s %s\n\tWins: %s\n\tDefeats: %s\n\tWinrate: %s\n\tLeague points: %s",
         "it":"Nome: %s\nLivello: %s\n\nPartite normali:\n\tVittorie 5c5: %s\n\tVittorie 3c3: %s\n\tVittorie Aram: %s\n\nPartite classificate:\n\tLega: %s %s\n\tVittorie: %s\n\tSconfitte: %s\n\tWinRate: %s\n\tPunti lega: %s",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "summoner_30_2":{
         "es":"Nombre: %s\nLiga: %s %s\nWinrate: %s\n\nCampeón: %s",
         "en":"Name: %s\nLeague: %s %s\nWinrate: %s\n\nChampion: %s",
         "it":"Nome: %s\nLega: %s %s\nWinrate: %s\n\nCampione: %s",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "match_private":{
         "es":"Este comando sólo está disponible en chat personal para evitar flood en grupos. Pruébalo en una conversación personal con el bot @League_of_Legends_bot",
         "en":"This command is only available in private chats to avoid flood at groups. Try it in a private chat with the bot @League_of_Legends_bot",
         "it":"Questo comando è disponibile nelle chat private per evitare il flood nei gruppi. Provalo in una chat privata con il bot @League_of_Legends_bot",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "match_error":{
         "es":"El invocador `%s` no se encuentra en partida.",
         "en":"The summoner `%s` is not currently playing.",
         "it":"L'evocatore `%s` non sta giocando adesso.",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "match_blue":{
         "es":"Tipo de partida: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "en":"Game mode: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "it":"Tipo di partita: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "de":"",
-        "ca":""
+        "pl":""
     },
     "match_red":{
         "es":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Equipo rojo\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "en":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "it":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Squadra rossa\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "de":"",
-        "ca":""
+        "pl":""
     }
 }
