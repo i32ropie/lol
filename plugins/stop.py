@@ -10,6 +10,7 @@ def command_stop(m):
     if not is_recent(m):
         return None
     if is_user(cid):
+        bot.send_sticker(cid, open('amumu.webp','rb'))
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['stop'][lang(cid)])
         users.pop(str(cid))
