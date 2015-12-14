@@ -59,10 +59,11 @@ def match_info(m):
             bot.send_message( cid, responses['match_private'][lang(cid)])
             return None
         invocador = ' '.join(m.text.split(' ')[1:])
-        region = m.text.lstrip('/').split(' ')[0].split('@')[0].split('_')[1]
+        cmd = m.text.lstrip('/').split(' ')[0].split('@')[0]
+        region = cmd.split('_')[1]
         if not invocador:
             bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, responses['no_summoner'][lang(cid)]%(region), parse_mode="Markdown")
+            bot.send_message( cid, responses['no_summoner'][lang(cid)]%(cmd), parse_mode="Markdown")
         else:
             get_match_info( invocador, region, cid)
     else:

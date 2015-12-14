@@ -70,12 +70,8 @@ def command_hideboard(m):
             bot.reply_to( m, responses['banned'])
         return None
     if is_user(cid):
-        if cid > 0:
-            bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, responses['hideboard_1'][lang(cid)], reply_markup=types.ReplyKeyboardHide())
-        else:
-            bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, responses['hideboard_2'][lang(cid)])
+        bot.send_chat_action(cid, 'typing')
+        bot.send_message( cid, responses['hideboard_1'][lang(cid)], reply_markup=types.ReplyKeyboardHide()))
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
