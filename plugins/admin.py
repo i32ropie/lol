@@ -22,15 +22,15 @@ Comandos de administración
 /mute - No responder a baneados.
 /unmute - Responder a baneados.
 /msg _<id>_ _<mensaje>_ - Envia un mensaje a un ID.
-/patch_es - Actualizar parche español.
-/patch_en - Actualizar parche inglés.
-/patch_it - Actualizar parche italiano.
+/patch\_es - Actualizar parche español.
+/patch\_en - Actualizar parche inglés.
+/patch\_it - Actualizar parche italiano.
 /ping - Comprobar si el bot está activo.
 /reload - Reiniciar el bot.
-/update_rotation_pic - Actualizar imagen de rotación gratuita.
-/update_rotation_text - Actualizar texto de rotación gratuita.
-/update_sale_pic - Actualizar imagen de ofertas.
-/update_sale_text - Actualizar texto de ofertas.
+/update\_rotation_pic - Actualizar imagen de rotación gratuita.
+/update\_rotation_text - Actualizar texto de rotación gratuita.
+/update\_sale_pic - Actualizar imagen de ofertas.
+/update\_sale_text - Actualizar texto de ofertas.
 /stats - Información de usuarios del bot.
 """
         bot.send_message( cid, txt, parse_mode="Markdown")
