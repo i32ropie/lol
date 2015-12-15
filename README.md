@@ -78,3 +78,18 @@ The bot has some commands for obtaining information about matches in the differe
 /match_oce test - Information about the current match of the summoner 'test' at OCE
 Remember to change 'test' for the name of the summoner you are searching.
 ```
+
+# Screenshots
+
+![](http://i.imgur.com/LXSlNVK.jpg)
+![](http://i.imgur.com/hqbhwps.jpg)
+![](http://i.imgur.com/Z7b1PqC.jpg)
+![](http://i.imgur.com/k7Y9uhB.jpg)
+![](http://i.imgur.com/817Vuys.jpg)
+![](http://i.imgur.com/GfKEyTE.jpg)
+![](http://i.imgur.com/ZHOzTZA.jpg)
+![](http://i.imgur.com/eYRFMlY.jpg)
+![](http://i.imgur.com/jPTRiqJ.jpg)
+![](http://i.imgur.com/zqq3mBO.jpg)
+![](http://i.imgur.com/uHuBn2h.jpg)
+![](http://i.imgur.com/ymBSpIG.jpg)
