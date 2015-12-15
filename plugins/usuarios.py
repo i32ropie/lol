@@ -11,27 +11,19 @@ def command_usuarios(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        x = [0,0,0,0]
-        y = [0,0,0,0]
+        x = dict()
         for uid in users:
             if int(uid) > 0:
-                x[0] += 1
-                if lang(uid) == 'es':
-                    x[1] += 1
-                elif lang(uid) == 'en':
-                    x[2] += 1
-                elif lang(uid) == 'it':
-                    x[3] += 1
+                x['usuarios']['total'] += 1
+                x['usuarios'][lang(uid)] += 1
             else:
-                y[0] += 1
-                if lang(uid) == 'es':
-                    y[1] += 1
-                elif lang(uid) == 'en':
-                    y[2] += 1
-                elif lang(uid) == 'it':
-                    y[3] += 1
-        txt = "*Usuarios*: " + str(x[0]) + "\n *-*Español: _" + str(x[1]) + "_\n *-*Inglés: _" \
-        + str(x[2]) + "_\n *-*Italiano: _" + str(x[3]) + "_\n*Grupos*: " + str(y[0]) + \
-        "\n *-*Español: _" + str(y[1]) + "_\n *-*Inglés: _" + str(y[2]) + "_\n *-*Italiano: _" + str(y[3]) + "_"
+                x['grupos']['total'] += 1
+                x['grupos'][lang(uid)] += 1
+        txt = "*Usuarios*: " + str(x['usuarios']['total']) + "\n *-*Español: _" + str(x['usuarios']['es']) + "_\n *-*Inglés: _" \
+        + str(x['usuarios']['en']) + "_\n *-*Italiano: _" + str(x['usuarios']['it']) + "_\n *-*Polaco: _" + str(x['usuarios']['pl'])\
+        + "_\n *-*Francés: _" + str(x['usuarios']['fr']) + "_\n *-*Alemán: _" + str(x['usuarios']['de']) + "_\n *-*Portugués: _" + str(x['usuarios']['pt'])\
+        + '\n\n*Grupos*: ' + str(x['grupos']['total']) + "\n *-*Español: _" + str(x['grupos']['es']) + "_\n *-*Inglés: _" \
+        + str(x['grupos']['en']) + "_\n *-*Italiano: _" + str(x['grupos']['it']) + "_\n *-*Polaco: _" + str(x['grupos']['pl'])\
+        + "_\n *-*Francés: _" + str(x['grupos']['fr']) + "_\n *-*Alemán: _" + str(x['grupos']['de']) + "_\n *-*Portugués: _" + str(x['grupos']['pt'])\
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt, parse_mode="Markdown")
