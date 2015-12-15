@@ -29,13 +29,23 @@ markup_it.add( 'EVOCATORE', 'NASCONDI TASTIERA' ,'PARTITA')
 markup_it.add( 'ROULI', 'NOTIFICHE', 'CREDITI')
 markup_it.add( 'LINGUA')
 
-markup_pl = markup_en
+markup_de = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_de.add( 'HILFE', 'KONTAKT', 'INFO')
+markup_de.add( 'PATCH', 'ÄNDERUNGSPROTOKOLL', 'SIEGESRATE')
+markup_de.add( 'ANGEBOTE', 'CHAMPIONS', 'ROTATION')
+markup_de.add( 'BESCHWÖRER', 'VERBERGE TASTATUR', 'SPIEL')
+markup_de.add( 'ROLLEN', 'BENACHRICHTIGUNGEN', 'DANKSAGUNGEN')
+markup_de.add( 'SPRACHE')
+
+markup_pl, markup_fa = markup_en, markup_en
 
 markups = {
     "es": markup_es,
     "en": markup_en,
     "it": markup_it,
-    "pl": markup_pl
+    "pl": markup_pl,
+    "de": markup_de,
+    "fa": markup_fa
 }
 
 @bot.message_handler(commands=['keyboard'])

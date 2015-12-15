@@ -1,0 +1,13 @@
+Welcome to patch 5.24, the last one of 2015. It’s been a wild ride with Cinderhulks, Juggernauts and Devourers in-between, but this is no time to get sentimental. It’s still preseason, there are still outliers to balance, systems to maintain and bad jokes to make.
+
+Speaking of balance outliers, we’ve got a lot of balance changes below for champions you might not see often - let’s dive into that for a bit. Like preseasons past, we’ve traveled (via the diversity dirigible, naturally) to an entirely new ecosystem of champion balance, where many old “champion power” assumptions just don’t hold water. A moment of silence, please, for 4.20 Warwick and 6-cleaver everyone. New systems, masteries and items combine to make weak champions strong, strong champions weak, and Brand a god. So while it may shock you to see champions like Swain and Anivia nerfs, or Riven buffs (gasp!), keep in mind that we’re working off of as much objective data as we can.
+
+Then there’s Soraka.
+
+Don’t worry, we didn’t forget.
+
+With that out of the way, what else is there? Poppy’s looking cuter and more imposing than ever, Snowdown’s back and brought the Legend of the Poro King game mode with it, and we’ve put the finishing touches on our item and champion tuning before taking a balance break to January.
+
+So, from all of us at Riot Games: good luck, have fun, and we’ll see you in 2016.
+
+Patch 5.24 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-524-notes

@@ -100,4 +100,7 @@ for x in ['es','en','de','it','fr','pl','pt']:
     with open('champs_%s.json'%x,'r') as f:
         data[x] = json.load(f)
 
+with open('champs_en.json','r') as f:
+    data['fa'] = json.load(f)
+
 # champs_es = lol_api.static_get_champion_list(region='euw', locale='es_ES', champ_data=['all'], data_by_id=False)['data']

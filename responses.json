@@ -7,6 +7,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Witaj w @League_of_Legends_bot. Bot pokaże Ci wszystkie skiny i bohaterów, poinformuje Cię o nowych wyprzedażach oraz dostępnych rotacjach, pokaże informacje na temat przywoływaczy i meczów, który bohater jest słaby lub silny przeciwko innemu, i więcej w niedalekiej przyszłości! :)"
     },
     "start_already_user":{
@@ -16,6 +17,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Już jesteś w naszej bazie danych :)"
     },
     "stop":{
@@ -25,6 +27,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Amumu się popłakał :'(\nDziękuję za użycie bota, widzimy się niebawem :)"
     },
     "stop_already_unuser":"You are already unsubscribed :'(",
@@ -37,6 +40,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Komenda anulowana :)"
     },
     "cancel_2":{
@@ -46,6 +50,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Brak komend do anulowania :)"
     },
     "help_1":{
@@ -55,6 +60,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bot posiada następujące komendy:"
     },
     "roles_1":{
@@ -64,6 +70,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"*Filtr bohaterów.*"
     },
     "roles_2":{
@@ -269,6 +276,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Klawiatura uaktywniona."
     },
     "keyboard_2":{
@@ -278,6 +286,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów."
     },
     "hideboard_1":{
@@ -287,6 +296,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Klawiatura dezaktywowana."
     },
     "hideboard_2":{
@@ -296,6 +306,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów."
     },
     "contact_1":{
@@ -305,6 +316,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Napisz wiadomość którą chcesz mi wysłać."
     },
     "contact_2":{
@@ -314,6 +326,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Wiadomość została wysłana poprawnie."
     },
     "info":{
@@ -323,6 +336,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"@League_of_Legends_bot jest botem do Telegram który posiada splashart każdego bohatera jak i skiny.\n\nWszystkie poniższe grafiki należą do 'Riot Games, Inc'.\nAutor bota i 'Riot Games, Inc' nie są ze sobą powiązani.\nAutorem bota jest @Edurolp\nJeśli chcesz wesprzeć projekt, możesz mnie wspomóc dotacją https://www.paypal.me/edurolp"
     },
     "champs":{
@@ -332,6 +346,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bohaterami są:"
     },
     "sale":{
@@ -341,6 +356,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Wyprzedażą tego tygodnia jest:"
     },
     "rotation":{
@@ -350,6 +366,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Rotacją na ten tydzień jest:"
     },
     "assassins":{
@@ -359,6 +376,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bohaterowie filtrowani według: Zabójca\n"
     },
     "fighters":{
@@ -368,6 +386,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bohaterowie filtrowani według: Wojownik\n"
     },
     "mages":{
@@ -377,6 +396,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bohaterowie filtrowani według: Mag\n"
     },
     "supports":{
@@ -386,6 +406,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bohaterowie filtrowani według: Wsparcie\n"
     },
     "tanks":{
@@ -395,6 +416,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bohaterowie filtrowani według: Obrońca\n"
     },
     "adcs":{
@@ -404,6 +426,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bohaterowie filtrowani według: Strzelec\n"
     },
     "rate":{
@@ -413,6 +436,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Witaj, możesz wspomóc bota oceniając go ⭐️⭐️⭐️⭐️⭐️ pod następującym linkiem:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nBardzo dziękuję! ^^"
     },
     "summoner_1":{
@@ -422,6 +446,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bot posiada komendy do uzyskania informacji na temat przywoływaczy na różnych serwerach. Komendy te to:"
     },
     "summoner_2":{
@@ -431,6 +456,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz."
     },
     "summoner_3":{
@@ -440,6 +466,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":" test - Informacje przywoływacza '`test`' pod "
     },
     "match_1":{
@@ -449,6 +476,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Bot posiada komendy do uzyskania informacji na temat meczów na różnych serwerach. Komendy te to:"
     },
     "match_2":{
@@ -458,6 +486,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz."
     },
     "match_3":{
@@ -467,6 +496,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":" test - Informacje na temat aktualnego meczu przywoływacza '`test`' pod "
     },
     "all": "Escribe el mensaje a difundir o usa /cancel para cancelar el comando.",
@@ -506,6 +536,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Wybierz język lub wpisz /cancel aby anulować komendę."
     },
     "lang_2":{
@@ -515,6 +546,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Język został ustawiony na Polski"
     },
     "lang_error":{
@@ -524,6 +556,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Przepraszam, ale język _%s_ nie jest wspierany. Proszę wybrać język z klawiatury.\n\nJeśli chcesz wspomóc tłumaczenie bota na _%s_ skontaktuj się ze mną pod @Edurolp"
     },
     "update_rotation_text_1":"Envía la nueva rotación o escribe /cancel para cancelar el comando.",
@@ -541,6 +574,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Dziękuję społeczności developerskiej bota Telegram.\nA szczególnie @pelijaro, @luksireiku, @skgsergio oraz @rockneurotiko za ich pomoc ^^.\nPodziękowania również dla @eternnoir za świetne [API](https://github.com/eternnoir/pyTelegramBotAPI).\nWielkie dzięki wszystkim korzystającym z bota. Chcę abyście wiedzieli iż jestem bardzo szczęśliwy ponieważ ten projekt wciąż się rozrasta :)\nDziękuję tłumaczom: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik"
     },
     "reload":"Reestarting. Wait for `20` seconds.",
@@ -551,6 +585,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Notyfikacje dezaktywowane. _Nie będziesz_ teraz otrzymywał wiadomości broadcastowych ani ostrzeżeń. Aby ponownie je uaktywnić użyj /notify"
     },
     "notifications_2":{
@@ -560,6 +595,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Notyfikacje aktywowane. _Będziesz_ teraz otrzymywał wiadomości broadcastowe oraz ostrzeżenia. Aby dezaktywować użyj /notify"
     },
     "mute":[
@@ -577,6 +613,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Przykro mi, ale nie dodaliśmy go jeszcze do bota!"
     },
     "extra_info":{
@@ -586,6 +623,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Aby uzyskać szczegółowe informacje na temat bohatera, użyj"
     },
     "champ_info":{
@@ -596,6 +634,7 @@
             "de":"Rollen",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Role"
         },
         "stats":{
@@ -605,6 +644,7 @@
             "de":"",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Statystyki"
         },
         "spells":{
@@ -614,6 +654,7 @@
             "de":"Fähigkeiten",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Umiejętności"
         }
     },
@@ -625,6 +666,7 @@
             "de":"Leben",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Życie"
         },
         "hpregen":{
@@ -634,6 +676,7 @@
             "de":"Lebensregen.",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Regeneracja życia"
         },
         "attackdamage":{
@@ -643,6 +686,7 @@
             "de":"Angriffsschaden",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Obrażenia"
         },
         "attackrange":{
@@ -652,6 +696,7 @@
             "de":"",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Zasięg ataku"
         },
         "movespeed":{
@@ -661,6 +706,7 @@
             "de":"Lauftempo",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Szybkość ruchu"
         },
         "armor":{
@@ -670,6 +716,7 @@
             "de":"Rüstung",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Pancerz"
         },
         "spellblock":{
@@ -679,6 +726,7 @@
             "de":"Magieresistenz",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Odporność na magię"
         }
     },
@@ -690,6 +738,7 @@
             "de":"Assassine",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Zabójca"
         },
         "Fighter":{
@@ -699,6 +748,7 @@
             "de":"Kämpfer",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Wojownik"
         },
         "Mage":{
@@ -708,6 +758,7 @@
             "de":"Magier",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Mag"
         },
         "Support":{
@@ -717,6 +768,7 @@
             "de":"Unterstützung",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Wsparcie"
         },
         "Tank":{
@@ -726,6 +778,7 @@
             "de":"Tank",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Obrońca"
         },
         "Marksman":{
@@ -735,6 +788,7 @@
             "de":"Schütze",
             "pt":"",
             "fr":"",
+            "fa":"",
             "pl":"Strzelec"
         }
     },
@@ -745,6 +799,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Kontynuuj czytanie"
     },
     "passive":{
@@ -754,6 +809,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Pasyw"
     },
     "tier":{
@@ -823,11 +879,12 @@
     },
     "no_summoner":{
         "es":"Error. Debes introducir el nombre del invocador.\n\nEjemplo: `/%s test`",
-        "en":"Error. You must enter the name of the summoner.\n\nExample: `/%s tets`",
+        "en":"Error. You must enter the name of the summoner.\n\nExample: `/%s test`",
         "it":"Errore. Devi inserire il nome dell'evocatore.\n\nEsempio: `/%s test` ",
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Błąd. Musisz wprowadzić imię wywoływacza.\n\nPrzykład: `/%s test`"
     },
     "summoner_error":{
@@ -837,6 +894,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Błąd pozyskania informacji wywoływacza '`%s`' na '`%s`'"
     },
     "summoner<30":{
@@ -846,6 +904,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_"
     },
     "summoner<30_2":{
@@ -855,6 +914,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Bohater*: _%s_"
     },
     "summoner_30":{
@@ -864,6 +924,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_\n\n*Rankingowe gry:\n\tLiga*: _%s_ _%s_\n\t*Wygrane*: _%s_\n\t*Przegrane*: _%s_\n\t*Winrate*: _%s_\n\t*Punkty ligowe*: _%s_"
     },
     "summoner_30_2":{
@@ -873,6 +934,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"*Imię*: _%s_\n*Liga*: %s _%s_\n*Winrate*: _%s_\n\n*Bohater*: _%s_"
     },
     "match_private":{
@@ -882,6 +944,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Komenda dostępna wyłącznie w czatach prywatnych aby zapobiec spamowi w grupach. Wypróbuj ją w czacie prywatnym z botem @League_of_Legends_bot"
     },
     "match_error":{
@@ -891,6 +954,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Przywoływacz '`%s`' aktualnie nie jest w grze."
     },
     "match_blue":{
@@ -900,6 +964,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"Tryb gry: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Niebieska drużyna\ud83d\udd35\ud83d\udd35\ud83d\udd35"
     },
     "match_red":{
@@ -909,6 +974,7 @@
         "de":"",
         "pt":"",
         "fr":"",
+        "fa":"",
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34"
     }
 }
