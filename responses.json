@@ -6,7 +6,7 @@
         "it":"Benvenuto a @League_of_Legends_bot. Questo bot ti mostrerà tutti i campioni disponibili e i loro rispettivi aspetti, ti avviserà delle nuove offerte e rotazioni, ti permetterà vedere informazioni su evocatori e partite, contro chi è debole e contro chi è forte ogni personaggio e più cose nel futuro! :)",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Bienvenue sur le @League_of_Legends_bot. Ce bot te permet de consulter tous les champions et leurs skins, te prévient quand des nouvelles offres et rotations de champions sont disponibles, te donne accès aux informations sur les invocateurs et les parties, ainsi qu'un aperçu des matchups (qui est fort/faible contre qui) des champions et bien plus encore dans un futur proche ! :) ",
         "pl":"Witaj w @League_of_Legends_bot. Bot pokaże Ci wszystkie skiny i bohaterów, poinformuje Cię o nowych wyprzedażach oraz dostępnych rotacjach, pokaże informacje na temat przywoływaczy i meczów, który bohater jest słaby lub silny przeciwko innemu, i więcej w niedalekiej przyszłości! :)"
     },
     "start_already_user":{
@@ -15,7 +15,7 @@
         "it":"Già eri nel nostro data base :)",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Tu étais déjà dans notre base de données :)",
         "pl":"Już jesteś w naszej bazie danych :)"
     },
     "stop":{
@@ -24,7 +24,7 @@
         "it":"Questo ha fatto piangere Amumu :'(\nGrazie per aver utilizzato il bot, spero di rivederti presto :)",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Amumu est triste :'(\nMerci d'avoir utilisé le bot, j'espère te revoir très vite !",
         "pl":"Amumu się popłakał :'(\nDziękuję za użycie bota, widzimy się niebawem :)"
     },
     "stop_already_unuser":"You are already unsubscribed :'(",
@@ -36,7 +36,7 @@
         "it":"Comando cancellato :)",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Commande annulée :)",
         "pl":"Komenda anulowana :)"
     },
     "cancel_2":{
@@ -45,16 +45,16 @@
         "it":"Non c'è nessun comando da cancellare :)",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Il n'y a pas de commande à annuler :)",
         "pl":"Brak komend do anulowania :)"
     },
     "help_1":{
         "es":"El bot dispone de los siguientes comandos:",
-        "en":"The bot has de following commands:",
+        "en":"The bot has the following commands:",
         "it":"Il bot dispone dei seguenti comandi:",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Le bot dispose des commandes suivantes:",
         "pl":"Bot posiada następujące komendy:"
     },
     "roles_1":{
@@ -63,7 +63,7 @@
         "it":"*Filtro campioni.*",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"*Filtrer les champions.*",
         "pl":"*Filtr bohaterów.*"
     },
     "roles_2":{
@@ -108,12 +108,12 @@
             "adcs":""
         },
         "fr":{
-            "assassins":"",
-            "fighters":"",
-            "mages":"",
-            "supports":"",
-            "tanks":"",
-            "adcs":""
+            "assassins":"Filtrer les champions par rôle: Assassin",
+            "fighters":"Filtrer les champions par rôle: Combattant",
+            "mages":"Filtrer les champions par rôle: Mage",
+            "supports":"Filtrer les champions par rôle: Support",
+            "tanks":"Filtrer les champions par rôle: Tank",
+            "adcs":"Filtrer les champions par rôle: Tireur"
         },
         "pl":{
             "assassins":"Filtruj bohaterów według roli: Zabójca",
@@ -224,23 +224,23 @@
             "match":""
         },
         "fr":{
-            "notify":"",
-            "credits":"",
-            "help":"",
-            "keyboard":"",
-            "hideboard":"",
-            "lang":"",
-            "contact":"",
-            "cancel":"",
-            "info":"",
-            "champs":"",
-            "roles":"",
-            "patch":"",
-            "sale":"",
-            "rotation":"",
-            "rate":"",
-            "summoner":"",
-            "match":""
+            "notify":"Active/Désactive les notifications.",
+            "credits":"Crédits du bot",
+            "help":"Affiche l'aide sur les commandes.",
+            "keyboard":"Affiche le clavier (Pas disponible pour les groupes).",
+            "hideboard":"Cache le clavier (Pas disponible pour les groupes).",
+            "lang":"Affiche un clavier pour changer la langue du bot.",
+            "contact":"Envoie un message à l'administrateur du bot.",
+            "cancel":"Annule la commande en cours.",
+            "info":"Fournit des informations sur le bot",
+            "champs":"Fournit une liste contenant le nom de tous les champions.",
+            "roles":"Affiche des infos pour filtrer les champions par leur rôle.",
+            "patch":"Fournit les informations concernant le dernier patch.",
+            "sale":"Indique les champions et skins en vente.",
+            "rotation":"Indique les champions en rotation cette semaine.",
+            "rate":"Noter le bot :)",
+            "summoner":"Affiche les infos pour rechercher un invocateur.",
+            "match":"Affiche les infos pour rechercher une partie."
         },
         "pl":{
             "notify":"Aktywuj/Dezaktywuj notyfikacje.",
@@ -268,7 +268,7 @@
         "it":"Tastiera attivata.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Clavier activé.",
         "pl":"Klawiatura uaktywniona."
     },
     "keyboard_2":{
@@ -277,7 +277,7 @@
         "it":"La tastiera è disponibile soltanto per chat private.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Le clavier est uniquement disponible pour les conversations privées.",
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów."
     },
     "hideboard_1":{
@@ -286,7 +286,7 @@
         "it":"Tastiera disattivata.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Clavier désactivé.",
         "pl":"Klawiatura dezaktywowana."
     },
     "hideboard_2":{
@@ -295,7 +295,7 @@
         "it":"La tastiera è disponibile soltanto per chat private.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Le clavier est uniquement disponible pour les conversations privées.",
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów."
     },
     "contact_1":{
@@ -304,7 +304,7 @@
         "it":"Scrivi il messaggio che vuoi inviarmi.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Ecris le message que tu souhaites envoyer.",
         "pl":"Napisz wiadomość którą chcesz mi wysłać."
     },
     "contact_2":{
@@ -313,7 +313,7 @@
         "it":"Il messaggio è stato inviato correttamente.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Le message a bien été envoyé.",
         "pl":"Wiadomość została wysłana poprawnie."
     },
     "info":{
@@ -322,7 +322,7 @@
         "it":"@League_of_Legends_bot è un bot Telegram che dispone di tutti gli splasharts dei campioni insieme ai suoi aspetti. \nTutte le immagini appartengono a 'Riot Games, Inc'.\nL'autore del bot e 'Riot Games, Inc' NON sono relazionati.\nL'autore di questo bot è @Edurolp\nSe vuoi sostenere il progetto, puoi contribuire lasciando una donazione https://www.paypal.me/edurolp",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"@League_of_Legends_bot est un bot Telegram qui contient tous les splasharts et skins de champions.\n\nToutes les images appartiennent à 'Riot Games, Inc'.\nL'auteur du bot et 'Riot Games, Inc' ne sont pas liés.\nL'auteur du bot est @Edurolp\nSi tu veux supporter le projet, tu peux m'aider avec une donation https://www.paypal.me/edurolp",
         "pl":"@League_of_Legends_bot jest botem do Telegram który posiada splashart każdego bohatera jak i skiny.\n\nWszystkie poniższe grafiki należą do 'Riot Games, Inc'.\nAutor bota i 'Riot Games, Inc' nie są ze sobą powiązani.\nAutorem bota jest @Edurolp\nJeśli chcesz wesprzeć projekt, możesz mnie wspomóc dotacją https://www.paypal.me/edurolp"
     },
     "champs":{
@@ -331,7 +331,7 @@
         "it":"I campioni disponibili sono: ",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Les champions disponibles sont: ",
         "pl":"Bohaterami są:"
     },
     "sale":{
@@ -340,7 +340,7 @@
         "it":"Le offerte di questa settimana sono:",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Les offres de la semaine sont:",
         "pl":"Wyprzedażą tego tygodnia jest:"
     },
     "rotation":{
@@ -349,7 +349,7 @@
         "it":"La rotazione di questa settimana è:",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"La rotation de cette semaine est:",
         "pl":"Rotacją na ten tydzień jest:"
     },
     "assassins":{
@@ -358,7 +358,7 @@
         "it":"Campioni filtrati per: Assassino\n",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Champions filtrés par: Assassin",
         "pl":"Bohaterowie filtrowani według: Zabójca\n"
     },
     "fighters":{
@@ -367,7 +367,7 @@
         "it":"Campioni filtrati per: Combattente\n",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Champions filtrés par: Combattant",
         "pl":"Bohaterowie filtrowani według: Wojownik\n"
     },
     "mages":{
@@ -376,7 +376,7 @@
         "it":"Campioni filtrati per: Mago\n",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Champions filtrés par: Mage",
         "pl":"Bohaterowie filtrowani według: Mag\n"
     },
     "supports":{
@@ -385,7 +385,7 @@
         "it":"Campioni filtrati per: Supporto\n",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Champions filtrés par: Support",
         "pl":"Bohaterowie filtrowani według: Wsparcie\n"
     },
     "tanks":{
@@ -394,7 +394,7 @@
         "it":"Campioni filtrati per: Tank\n",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Champions filtrés par: Tank",
         "pl":"Bohaterowie filtrowani według: Obrońca\n"
     },
     "adcs":{
@@ -403,7 +403,7 @@
         "it":"Campioni filtrati per: Tiratore\n",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Champions filtrés par: Tireur",
         "pl":"Bohaterowie filtrowani według: Strzelec\n"
     },
     "rate":{
@@ -412,7 +412,7 @@
         "it":"Salve, puoi aiutare enormemente il bot votandolo con ⭐️⭐️⭐️⭐️⭐️ nel seguente link:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nGrazie mille! ^^",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Salut, tu peux aider énormément le bot en le notant avec ⭐️⭐️⭐️⭐️⭐️ via le lien suivant:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nThanks a lot! ^^",
         "pl":"Witaj, możesz wspomóc bota oceniając go ⭐️⭐️⭐️⭐️⭐️ pod następującym linkiem:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nBardzo dziękuję! ^^"
     },
     "summoner_1":{
@@ -421,7 +421,7 @@
         "it":"Il bot dispone di una serie di comandi per ottenere informazione riguardo evocatori dei vari servers. I comandi sono:",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Le bot dispose de plusieurs commandes pour obtenir des informations à propos des invocateurs sur les différents serveurs. Les commandes sont:",
         "pl":"Bot posiada komendy do uzyskania informacji na temat przywoływaczy na różnych serwerach. Komendy te to:"
     },
     "summoner_2":{
@@ -430,7 +430,7 @@
         "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Rappelle toi de remplacer '`test`' par le nom de l'invocateur que tu recherches.",
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz."
     },
     "summoner_3":{
@@ -439,7 +439,7 @@
         "it":" test - Informazioni dell'evocatore '`test`' in ",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":" test - Informations sur l'invocateur '`test`' à ",
         "pl":" test - Informacje przywoływacza '`test`' pod "
     },
     "match_1":{
@@ -448,7 +448,7 @@
         "it":"Il bot dispone di una serie di comandi per ottenere informazione riguardo partite dei vari servers. I comandi sono:",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Le bot dispose de plusieurs commandes pour obtenir des informations sur les parties dans les differents serveurs. Les commandes sont:",
         "pl":"Bot posiada komendy do uzyskania informacji na temat meczów na różnych serwerach. Komendy te to:"
     },
     "match_2":{
@@ -457,7 +457,7 @@
         "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Rappelle toi de remplacer '`test`' par le nom de l'invocateur que tu recherches.",
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz."
     },
     "match_3":{
@@ -466,7 +466,7 @@
         "it":" test - Informazioni sulla corrente partita dell'evocatore '`test`' in ",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":" test - Informations sur la partie en cours de l'invocateur '`test`' à ",
         "pl":" test - Informacje na temat aktualnego meczu przywoływacza '`test`' pod "
     },
     "all": "Escribe el mensaje a difundir o usa /cancel para cancelar el comando.",
@@ -505,7 +505,7 @@
         "it":"Seleziona una lingua o scrivi /cancel per cancellare il comando.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Sélectionne une langue ou écris /cancel pour annuler la commande.",
         "pl":"Wybierz język lub wpisz /cancel aby anulować komendę."
     },
     "lang_2":{
@@ -514,7 +514,7 @@
         "it":"La lingua è stata cambiata in Italiano",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"La langue a été modifée en Français.",
         "pl":"Język został ustawiony na Polski"
     },
     "lang_error":{
@@ -523,7 +523,7 @@
         "it":"Mi dispiace ma la lingua _%s_ non è ancora disponibile. Per piacere seleziona un idioma dalla tastiera.\n\nSe vuoi collaborare a tradurre il bot in _%s_ contattami a @Edurolp",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Désolé mais la langue _%s_ n'est pas encore supportée. Choisis s'il te plait une langue à partir du clavier.\n\n Si tu veux collaborer à la traduction du bot en _%s_ contacte moi à @Edurolp",
         "pl":"Przepraszam, ale język _%s_ nie jest wspierany. Proszę wybrać język z klawiatury.\n\nJeśli chcesz wspomóc tłumaczenie bota na _%s_ skontaktuj się ze mną pod @Edurolp"
     },
     "update_rotation_text_1":"Envía la nueva rotación o escribe /cancel para cancelar el comando.",
@@ -540,7 +540,7 @@
         "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.\nIn speciale a @pelijaro, @luksireiku, @skgsergio e @rockneurotiko per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :)\nGrazie ai traduttori: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Merci à toute la communauté des développeurs de bot Telegram.\nSpécialement à @pelijaro, @luksireiku, @skgsergio et @rockneurotiko pour leur grande aide ^^.\nMerci aussi à @eternnoir pour la merveilleuse [API](https://github.com/eternnoir/pyTelegramBotAPI).\nMerci beaucoup à toutes les personnes qui utilisent ce bot. Sachez que je suis très heureux de voir ce projet s'agrandir de jour en jour :)\nMerci aux traducteurs: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik",
         "pl":"Dziękuję społeczności developerskiej bota Telegram.\nA szczególnie @pelijaro, @luksireiku, @skgsergio oraz @rockneurotiko za ich pomoc ^^.\nPodziękowania również dla @eternnoir za świetne [API](https://github.com/eternnoir/pyTelegramBotAPI).\nWielkie dzięki wszystkim korzystającym z bota. Chcę abyście wiedzieli iż jestem bardzo szczęśliwy ponieważ ten projekt wciąż się rozrasta :)\nDziękuję tłumaczom: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik"
     },
     "reload":"Reestarting. Wait for `20` seconds.",
@@ -550,7 +550,7 @@
         "it":"Notifiche disattivate. Ora _non_ riceverai più messaggi generali ne avvisi. Per attivarlo di nuovo usa /notify",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Notifications désactivées. Maintenant tu _ne_ recevras _plus_ de messages diffusés ni avertissements. Pour les activer à nouveau, utilise /notify",
         "pl":"Notyfikacje dezaktywowane. _Nie będziesz_ teraz otrzymywał wiadomości broadcastowych ani ostrzeżeń. Aby ponownie je uaktywnić użyj /notify"
     },
     "notifications_2":{
@@ -559,7 +559,7 @@
         "it":"Notifiche attivate. Adesso _ti_ verranno inviati messaggi generali e avvisi. Per disattivarli usa /notify",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Notifications activées. Maintenant tu _recevras_ des messages diffusés et des avertissements. Pour les désactiver, utilise /notify",
         "pl":"Notyfikacje aktywowane. _Będziesz_ teraz otrzymywał wiadomości broadcastowe oraz ostrzeżenia. Aby dezaktywować użyj /notify"
     },
     "mute":[
@@ -576,7 +576,7 @@
         "it":"Mi dispiace ma non l'abbiamo ancora aggiunto nel bot!",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Désolé mais nous ne l'avons pas encore ajouté au bot!",
         "pl":"Przykro mi, ale nie dodaliśmy go jeszcze do bota!"
     },
     "extra_info":{
@@ -585,7 +585,7 @@
         "it":"Per vedere informazioni dettagliate del campione usa",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Pour voir des informations détaillées sur les champions, utilise",
         "pl":"Aby uzyskać szczegółowe informacje na temat bohatera, użyj"
     },
     "champ_info":{
@@ -595,7 +595,7 @@
             "it":"Rouli",
             "de":"Rollen",
             "pt":"",
-            "fr":"",
+            "fr":"Rôles",
             "pl":"Role"
         },
         "stats":{
@@ -604,7 +604,7 @@
             "it":"Statistiche",
             "de":"",
             "pt":"",
-            "fr":"",
+            "fr":"Statistiques",
             "pl":"Statystyki"
         },
         "spells":{
@@ -613,7 +613,7 @@
             "it":"Abilità",
             "de":"Fähigkeiten",
             "pt":"",
-            "fr":"",
+            "fr":"Compétences",
             "pl":"Umiejętności"
         }
     },
@@ -624,7 +624,7 @@
             "it":"Salute",
             "de":"Leben",
             "pt":"",
-            "fr":"",
+            "fr":"Santé",
             "pl":"Życie"
         },
         "hpregen":{
@@ -633,7 +633,7 @@
             "it":"Rigen. salute",
             "de":"Lebensregen.",
             "pt":"",
-            "fr":"",
+            "fr":"Régénération de Santé",
             "pl":"Regeneracja życia"
         },
         "attackdamage":{
@@ -642,7 +642,7 @@
             "it":"Attacco fisico",
             "de":"Angriffsschaden",
             "pt":"",
-            "fr":"",
+            "fr":"Dommages d'Attaque",
             "pl":"Obrażenia"
         },
         "attackrange":{
@@ -651,7 +651,7 @@
             "it":"Raggio d'attacco",
             "de":"",
             "pt":"",
-            "fr":"",
+            "fr":"Distance d'Attaque",
             "pl":"Zasięg ataku"
         },
         "movespeed":{
@@ -660,7 +660,7 @@
             "it":"Velocità di movimento",
             "de":"Lauftempo",
             "pt":"",
-            "fr":"",
+            "fr":"Vitesse de Mouvement",
             "pl":"Szybkość ruchu"
         },
         "armor":{
@@ -669,7 +669,7 @@
             "it":"Armatura",
             "de":"Rüstung",
             "pt":"",
-            "fr":"",
+            "fr":"Armure",
             "pl":"Pancerz"
         },
         "spellblock":{
@@ -678,7 +678,7 @@
             "it":"Resist. magica",
             "de":"Magieresistenz",
             "pt":"",
-            "fr":"",
+            "fr":"Resistence Magique",
             "pl":"Odporność na magię"
         }
     },
@@ -689,7 +689,7 @@
             "it":"Assassino",
             "de":"Assassine",
             "pt":"",
-            "fr":"",
+            "fr":"Assassin",
             "pl":"Zabójca"
         },
         "Fighter":{
@@ -698,7 +698,7 @@
             "it":"Combattente",
             "de":"Kämpfer",
             "pt":"",
-            "fr":"",
+            "fr":"Combattant",
             "pl":"Wojownik"
         },
         "Mage":{
@@ -707,7 +707,7 @@
             "it":"Mago",
             "de":"Magier",
             "pt":"",
-            "fr":"",
+            "fr":"Mage",
             "pl":"Mag"
         },
         "Support":{
@@ -716,7 +716,7 @@
             "it":"Supporto",
             "de":"Unterstützung",
             "pt":"",
-            "fr":"",
+            "fr":"Support",
             "pl":"Wsparcie"
         },
         "Tank":{
@@ -725,7 +725,7 @@
             "it":"Tank",
             "de":"Tank",
             "pt":"",
-            "fr":"",
+            "fr":"Tank",
             "pl":"Obrońca"
         },
         "Marksman":{
@@ -734,7 +734,7 @@
             "it":"Tiratore",
             "de":"Schütze",
             "pt":"",
-            "fr":"",
+            "fr":"Tireur",
             "pl":"Strzelec"
         }
     },
@@ -744,7 +744,7 @@
         "it":"Continua a leggere",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Continuer à lire",
         "pl":"Kontynuuj czytanie"
     },
     "passive":{
@@ -753,7 +753,7 @@
         "it":"Passiva",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Passive",
         "pl":"Pasyw"
     },
     "tier":{
@@ -803,13 +803,13 @@
             "CHALLENGER":""
         },
         "fr":{
-            "BRONZE":"",
-            "SILVER":"",
-            "GOLD":"",
-            "PLATINUM":"",
-            "DIAMOND":"",
-            "MASTER":"",
-            "CHALLENGER":""
+            "BRONZE":"Bronze",
+            "SILVER":"Argent",
+            "GOLD":"Or",
+            "PLATINUM":"Platine",
+            "DIAMOND":"Diamant",
+            "MASTER":"Maître",
+            "CHALLENGER":"Challenger"
         },
         "pl":{
             "BRONZE":"Brąz",
@@ -823,11 +823,11 @@
     },
     "no_summoner":{
         "es":"Error. Debes introducir el nombre del invocador.\n\nEjemplo: `/%s test`",
-        "en":"Error. You must enter the name of the summoner.\n\nExample: `/%s tets`",
+        "en":"Error. You must enter the name of the summoner.\n\nExample: `/%s test`",
         "it":"Errore. Devi inserire il nome dell'evocatore.\n\nEsempio: `/%s test` ",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Erreur. Tu dois entrer le nom de l'invocateur.\n\nExemple: `/%s test`",
         "pl":"Błąd. Musisz wprowadzić imię wywoływacza.\n\nPrzykład: `/%s test`"
     },
     "summoner_error":{
@@ -836,7 +836,7 @@
         "it":"Errore nell'ottenimento di informazioni dell'evocatore '`%s`' in '`%s`'",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Erreur dans l'obtention des informations de l'invocateur '`%s`' sur '`%s`'",
         "pl":"Błąd pozyskania informacji wywoływacza '`%s`' na '`%s`'"
     },
     "summoner<30":{
@@ -845,7 +845,7 @@
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n\n*Parties normales:\n\t5v5 victoires*: _%s_\n\t*3v3 victoires*: _%s_\n\t*Aram victoires*: _%s_",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_"
     },
     "summoner<30_2":{
@@ -854,7 +854,7 @@
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Campione*: _%s_",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n\n*Champion*: _%s_",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Bohater*: _%s_"
     },
     "summoner_30":{
@@ -863,7 +863,7 @@
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_\n\nPartite classificate:\n\tLega: _%s_ _%s_\n\t*Vittorie*: _%s_\n\t*Sconfitte*: _%s_\n\t*WinRate*: _%s_\n\t*Punti lega*: _%s_",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n\n*Parties normales:\n\t5v5 victoires*: _%s_\n\t*3v3 victoires*: _%s_\n\t*Aram victoires*: _%s_\n\n*Parties classées:\n\tLigue*: _%s_ _%s_\n\t*Victoires*: _%s_\n\t*Défaites*: _%s_\n\t*RatioVictoires*: _%s_\n\t*Ligue points*: _%s_",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_\n\n*Rankingowe gry:\n\tLiga*: _%s_ _%s_\n\t*Wygrane*: _%s_\n\t*Przegrane*: _%s_\n\t*Winrate*: _%s_\n\t*Punkty ligowe*: _%s_"
     },
     "summoner_30_2":{
@@ -872,7 +872,7 @@
         "it":"*Nome*: _%s_\n*Lega*: _%s_ _%s_\n*Winrate*: _%s_\n\n*Campione*: _%s_",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"*Nom*: _%s_\n*Ligue*: _%s_ _%s_\n*RatioVictoires*: _%s_\n\n*Champion*: _%s_",
         "pl":"*Imię*: _%s_\n*Liga*: %s _%s_\n*Winrate*: _%s_\n\n*Bohater*: _%s_"
     },
     "match_private":{
@@ -881,7 +881,7 @@
         "it":"Questo comando è disponibile nelle chat private per evitare il flood nei gruppi. Provalo in una chat privata con il bot @League_of_Legends_bot",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Cette commande est uniquement disponible en conversations privées pour éviter de 'flooder' les groupes. Essayez la dans une conversation privée avec le bot @League_of_Legends_bot",
         "pl":"Komenda dostępna wyłącznie w czatach prywatnych aby zapobiec spamowi w grupach. Wypróbuj ją w czacie prywatnym z botem @League_of_Legends_bot"
     },
     "match_error":{
@@ -890,7 +890,7 @@
         "it":"L'evocatore '`%s`' non sta giocando adesso.",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"L'invocateur '`%s`' n'est pas en train de jouer.",
         "pl":"Przywoływacz '`%s`' aktualnie nie jest w grze."
     },
     "match_blue":{
@@ -899,7 +899,7 @@
         "it":"Tipo di partita: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"Mode de jeu: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "pl":"Tryb gry: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Niebieska drużyna\ud83d\udd35\ud83d\udd35\ud83d\udd35"
     },
     "match_red":{
@@ -908,7 +908,7 @@
         "it":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Squadra rossa\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "de":"",
         "pt":"",
-        "fr":"",
+        "fr":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34"
     }
 }
