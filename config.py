@@ -96,23 +96,8 @@ with open('extra_data/file_ids.json','r') as f:
 
 data = dict()
 
-with open('champs_es.json','r') as f:
-    data['es'] = json.load(f)
+for x in ['es','en','de','it','fr','pl','pt']:
+    with open('champs_%s.json'%x,'r') as f:
+        data[x] = json.load(f)
 
-with open('champs_en.json','r') as f:
-    data['en'] = json.load(f)
-
-with open('champs_de.json','r') as f:
-    data['de'] = json.load(f)
-
-with open('champs_it.json','r') as f:
-    data['it'] = json.load(f)
-
-with open('champs_fr.json','r') as f:
-    data['fr'] = json.load(f)
-
-with open('champs_pl.json','r') as f:
-    data['pl'] = json.load(f)
-
-with open('champs_pt.json','r') as f:
-    data['pt'] = json.load(f)
+# champs_es = lol_api.static_get_champion_list(region='euw', locale='es_ES', champ_data=['all'], data_by_id=False)['data']

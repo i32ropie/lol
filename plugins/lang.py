@@ -5,7 +5,7 @@ from config import *
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  lang.py importado.{/cyan}'))
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-markup.add('ESPAÑOL','ENGLISH','ITALIANO')
+markup.add('ESPAÑOL','ENGLISH','ITALIANO','POLSKI')
 
 @bot.message_handler( func=lambda message: message.text=="IDIOMA" or message.text=="LANGUAGE" or message.text=="LINGUA")
 @bot.message_handler(commands=['lang'])

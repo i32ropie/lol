@@ -20,6 +20,8 @@ def step_start(m):
             users[str(cid)] = {"lang":"en", "banned": False, "notify": True}
         elif m.text == 'ITALIANO':
             users[str(cid)] = {"lang":"it", "banned": False, "notify": True}
+        elif m.text == 'POLSKI':
+            users[str(cid)] = {"lang":"pl", "banned": False, "notify": True}
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, "Error, the language *" + m.text + "* is not supported.\nPlease, select one from the keyboard", parse_mode="Markdown")
@@ -88,6 +90,8 @@ def step_lang(m):
             users[str(cid)]['lang'] = 'en'
         elif m.text == 'ITALIANO':
             users[str(cid)]['lang'] = 'it'
+        elif m.text == 'POLSKI':
+            users[str(cid)]['lang'] = 'pl'
         #elif m.text == 'LANGUAGE':
             #users[str(cid)]['lang'] = 'lng'
         else:
@@ -142,7 +146,7 @@ def step_update_sale_pic(m):
     bot.send_chat_action(cid, 'typing')
     bot.send_message( cid, responses['update_sale_pic_2'])
 
-@bot.message_handler(func=lambda msg: next_step_handler(msg.chat.id) in ['patch_es','patch_en','patch_it'] )
+@bot.message_handler(func=lambda msg: next_step_handler(msg.chat.id) in ['patch_es','patch_en','patch_it','patch_pl'] )
 def step_update_patch(m):
     cid = m.chat.id
     if m.content_type == 'text':

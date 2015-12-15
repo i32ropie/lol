@@ -29,10 +29,13 @@ markup_it.add( 'EVOCATORE', 'NASCONDI TASTIERA' ,'PARTITA')
 markup_it.add( 'ROULI', 'NOTIFICHE', 'CREDITI')
 markup_it.add( 'LINGUA')
 
+markup_pl = markup_en
+
 markups = {
     "es": markup_es,
     "en": markup_en,
-    "it": markup_it
+    "it": markup_it,
+    "pl": markup_pl
 }
 
 @bot.message_handler(commands=['keyboard'])
