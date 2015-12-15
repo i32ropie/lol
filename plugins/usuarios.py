@@ -11,7 +11,7 @@ def command_usuarios(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        x = dict()
+        x = {'usuarios':{},'grupos':{}}
         for uid in users:
             if int(uid) > 0:
                 x['usuarios']['total'] += 1
