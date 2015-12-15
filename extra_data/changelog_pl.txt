@@ -1,0 +1,22 @@
+*[14-12-15]*
+·Bot został napisany od zera z następującymi nowościami:
+->Wsparcie dla wielu języków.
+->Aktualizacja komend.
+->Opcjonalne notyfikacje.
+->Opcjonalna klawiatura.
+->Uaktualniony format bohaterów i dodane więcej informacji.
+
+*[02-10-15]*
+·Bot został przetłumaczony na język angielski. Nie jest to jeszcze 100% ale na teraz wystarczy. Aby zobaczyć przetłumaczonego bota użyj /help
+·Dodana spersonalizowana klawiatura dla czatów prywatnych. Hiszpański:/teclado  Angielski:/keyboard
+
+*[01-10-15]*
+·Dodane /Kindred i skin /Kindred\_1
+·Dodane skiny:/Alistar\_8 /Jax\_9 /Karma\_5 /Malphite\_7 /Olaf\_5
+·Uaktualniono skiny:/Aatrox\_3 /Garen\_7 /Quinn\_3
+
+*[30-09-15]*
+·Dodano komendę /patch
+
+*[19-09-15]*
+·Changelog jest tworzony po aktualizacji komendy kontaktu przez bota
