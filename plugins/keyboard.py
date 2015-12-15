@@ -29,12 +29,21 @@ markup_it.add( 'EVOCATORE', 'NASCONDI TASTIERA' ,'PARTITA')
 markup_it.add( 'ROULI', 'NOTIFICHE', 'CREDITI')
 markup_it.add( 'LINGUA')
 
+markup_fr = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_fr.add( 'AIDE', 'CONTACT', 'INFO')
+markup_fr.add( 'PATCH', 'CHANGELOG', 'NOTER')
+markup_fr.add( 'VENTE', 'CHAMPIONS', 'ROTATION')
+markup_fr.add( 'INVOCATEUR', 'CACHER CLAVIER', 'PARTIE')
+markup_fr.add( 'RÔLES', 'NOTIFICATIONS', 'CRÉDITS')
+markup_fr.add( 'LANGUE')
+
 markup_pl = markup_en
 
 markups = {
     "es": markup_es,
     "en": markup_en,
     "it": markup_it,
+    "fr": markup_fr,
     "pl": markup_pl
 }
 
@@ -60,7 +69,7 @@ def command_help(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="OCULTAR TECLADO" or message.text=="HIDE KEYBOARD" or message.text=="NASCONDI TASTIERA" )
+@bot.message_handler( func=lambda message: message.text=="OCULTAR TECLADO" or message.text=="HIDE KEYBOARD" or message.text=="NASCONDI TASTIERA" or message.text=="CACHER CLAVIER")
 @bot.message_handler(commands=['hideboard'])
 def command_hideboard(m):
     cid = m.chat.id
