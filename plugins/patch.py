@@ -25,7 +25,7 @@ def command_patch(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler(commands=['patch_es','patch_en','patch_it','patch_pl'])
+@bot.message_handler(commands=['patch_es','patch_en','patch_it','patch_pl','patch_de','patch_fr','patch_pt'])
 def command_update_patch(m):
     cid = m.chat.id
     uid = m.from_user.id

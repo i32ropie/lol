@@ -155,7 +155,7 @@
             "cancel":"Cancel the current command.",
             "info":"Gives information about the bot.",
             "champs":"Gives a list with the name of all the champions.",
-            "roles":"Shows info to filter the champios by them role.",
+            "roles":"Shows info to filter the champions by them role.",
             "patch":"Gives information about the last patch.",
             "sale":"Gives the champions and skins on sale.",
             "rotation":"Gives the champions on rotation this week.",
