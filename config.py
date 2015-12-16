@@ -71,7 +71,7 @@ def isint(s):
     if not s:
         return False
     if s[0] in ('-', '+'):
-    	return s[1:].isdigit()
+        return s[1:].isdigit()
     return s.isdigit()
 
 #def upper_first(string):
