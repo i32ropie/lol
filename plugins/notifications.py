@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  notifications.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text=="NOTIFICACIONES" or message.text=="NOTIFICATIONS" or message.text=="NOTIFICHE")
+@bot.message_handler( func=lambda message: message.text in ['NOTIFICATIONS','NOTIFICACIONES','NOTIFICHE','BENACHRICHTIGUNGEN'])
 @bot.message_handler(commands=['notify'])
 def command_notify(m):
     cid = m.chat.id

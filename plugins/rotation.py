@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  rotation.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text=="ROTACION" or message.text=="ROTATION" or message.text=="ROTAZIONE")
+@bot.message_handler( func=lambda message: message.text in ['ROTACION','ROTATION','ROTAZIONE'])
 @bot.message_handler(commands=['rotation'])
 def command_rotation(m):
     cid = m.chat.id

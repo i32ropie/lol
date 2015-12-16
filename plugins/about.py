@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  about.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text in ['CRÉDITOS', 'CREDITS', 'CREDITI', 'DANKSAGUNGEN'])
+@bot.message_handler( func=lambda message: message.text in ['CRÉDITOS', 'CREDITS', 'CREDITI', 'DANKSAGUNGEN','CRÉDITS'])
 @bot.message_handler(commands=['credits'])
 def command_credits(m):
     cid = m.chat.idz

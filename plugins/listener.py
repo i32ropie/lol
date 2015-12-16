@@ -58,6 +58,8 @@ def process_msg(m):
     if not is_recent(m):
         return None
     if is_user(cid):
+        if m.text.lower() == 'edu':
+            bot.send_message( cid, "`smellz`", parse_mode="Markdown")
         command = m.text.lstrip('/')
         no_namebot = command.split('@')
         txt = ""
@@ -134,7 +136,10 @@ def champ_basic( chmp, cid):
             txt += ', '
         i +=1
     # Descripción
-    txt += '\n\n_' + chmp['blurb'].replace('<br><br>','\n') + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
+    if lang(cid) != 'fa':
+        txt += '\n\n_' + chmp['blurb'].replace('<br><br>','\n') + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
+    else:
+        txt += '\n\n_' + chmp['blurb'].replace('<br><br>','\n') + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/' + key.lower() + '/)'
     # Skins
     txt += '\n\n*Skins:*'
     for skin in chmp['skins']:

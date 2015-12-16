@@ -25,7 +25,7 @@ markup_it.add( 'AIUTO', 'CONTATTO', 'INFO')
 markup_it.add( 'PATCH', 'CHANGELOG', 'QUALIFICARE')
 markup_it.add( 'OFFERTA', 'CAMPIONI', 'ROTAZIONE')
 markup_it.add( 'EVOCATORE', 'NASCONDI TASTIERA' ,'PARTITA')
-markup_it.add( 'ROULI', 'NOTIFICHE', 'CREDITI')
+markup_it.add( 'RUOLI', 'NOTIFICHE', 'CREDITI')
 markup_it.add( 'LINGUA')
 
 markup_de = types.ReplyKeyboardMarkup(resize_keyboard=True)
