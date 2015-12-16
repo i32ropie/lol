@@ -7,7 +7,7 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 @bot.message_handler( func=lambda message: message.text in ['CRÉDITOS', 'CREDITS', 'CREDITI', 'DANKSAGUNGEN','CRÉDITS'])
 @bot.message_handler(commands=['credits'])
 def command_credits(m):
-    cid = m.chat.idz
+    cid = m.chat.id
     uid = m.from_user.id
     if not is_recent(m):
         return None
