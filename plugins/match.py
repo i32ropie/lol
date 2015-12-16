@@ -24,7 +24,7 @@ platform = {
     "oce":"OC1"
 }
 
-@bot.message_handler( func=lambda message: message.text in ['PARTIDA','MATCH','PARTITA','SPIEL','PARTIE'])
+@bot.message_handler( func=lambda message: message.text in ['MECZ','PARTIDA','MATCH','PARTITA','SPIEL','PARTIE'])
 @bot.message_handler(commands=['match'])
 def command_match(m):
     cid = m.chat.id

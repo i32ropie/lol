@@ -44,7 +44,14 @@ markup_fr.add( 'INVOCATEUR', 'CACHER CLAVIER', 'PARTIE')
 markup_fr.add( 'RÔLES', 'NOTIFICATIONS', 'CRÉDITS')
 markup_fr.add( 'LANGUE')
 
-markup_pl, markup_fa = markup_en, markup_en
+markup_pl.add( 'POMOC', 'KONTAKT', 'INFO')
+markup_pl.add( 'PATCH', 'CHANGELOG', 'KWALIFIKOWAĆ')
+markup_pl.add( 'WYPRZEDAŻ', 'BOHATEROWIE', 'ROTACJA')
+markup_pl.add( 'PRZYWOŁYWACZ', 'UKRYJ KLAWIATURĘ', 'MECZ')
+markup_pl.add( 'ROLE', 'NOTYFIKACJE', 'CREDITS')
+markup_pl.add( 'JĘZYK')
+
+markup_fa = markup_en
 
 markups = {
     "es": markup_es,
@@ -78,7 +85,7 @@ def command_help(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text in ["OCULTAR TECLADO","HIDE KEYBOARD","NASCONDI TASTIERA","VERBERGE TASTATUR","CACHER CLAVIER"])
+@bot.message_handler( func=lambda message: message.text in ["UKRYJ KLAWIATURĘ","OCULTAR TECLADO","HIDE KEYBOARD","NASCONDI TASTIERA","VERBERGE TASTATUR","CACHER CLAVIER"])
 @bot.message_handler(commands=['hideboard'])
 def command_hideboard(m):
     cid = m.chat.id

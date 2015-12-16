@@ -12,7 +12,7 @@ changeds = {
     'MonkeyKing': 'Wukong'
 }
 
-@bot.message_handler( func=lambda message: message.text in ['CAMPEONES','CHAMPIONS','CAMPIONI'])
+@bot.message_handler( func=lambda message: message.text in ['BOHATEROWIE','CAMPEONES','CHAMPIONS','CAMPIONI'])
 @bot.message_handler(commands=['champs'])
 def command_champs(m):
     cid = m.chat.id
@@ -37,7 +37,7 @@ def command_champs(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text in ['POSICIONES','ROLES','RUOLI','ROLLEN','RÔLES'])
+@bot.message_handler( func=lambda message: message.text in ['ROLE','POSICIONES','ROLES','RUOLI','ROLLEN','RÔLES'])
 @bot.message_handler(commands=['roles'])
 def command_roles(m):
     cid = m.chat.id

@@ -7,7 +7,7 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup.add('ESPAÑOL','ENGLISH','ITALIANO','POLSKI','DEUTSCH','FRANÇAIS','PERSIAN')
 
-@bot.message_handler( func=lambda message: message.text in ['IDIOMA','LANGUAGE','LINGUA','SPRACHE','LANGUE'])
+@bot.message_handler( func=lambda message: message.text in ['JĘZYK','IDIOMA','LANGUAGE','LINGUA','SPRACHE','LANGUE'])
 @bot.message_handler(commands=['lang'])
 def command_lang(m):
     cid = m.chat.id
