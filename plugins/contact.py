@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  contact.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text in ['CONTACTO','CONTACT','CONTATTO','KONTAKT'])
+@bot.message_handler( func=lambda message: message.text in ['CONTATO','CONTACTO','CONTACT','CONTATTO','KONTAKT'])
 @bot.message_handler(commands=['contact'])
 def command_contact(m):
     cid = m.chat.id

@@ -5,7 +5,7 @@
         "en":"Welcome to @League_of_Legends_bot. This bot will show you all the skins and champions, will notify you when new sales are rotations are availables, will let you see information about summoners and matches, who is weak or strong versus each champion and more things in the future! :)",
         "it":"Benvenuto a @League_of_Legends_bot. Questo bot ti mostrerà tutti i campioni disponibili e i loro rispettivi aspetti, ti avviserà delle nuove offerte e rotazioni, ti permetterà vedere informazioni su evocatori e partite, contro chi è debole e contro chi è forte ogni personaggio e più cose nel futuro! :)",
         "de":"Willkommen beim @League_of_Legends_bot. Dieser Bot zeigt alle Skins und Champions an, benachrichtigt dich, wenn neue Angebote im Store oder neue Championrotationen verfügbar sind, zeigt dir Informationen über Beschwörer und aktive Spiele, offenbart, welcher Champion schwach oder stark gegen welchen Champion ist und wird noch vieles mehr in Zukunft können! :)",
-        "pt":"",
+        "pt":"Bem vindo ao @League_of_Legends_bot. Este bot mostrará todas as skins e campeões, vai te avisar das novas promoções e rotações, vai permitir ver informações de invocadores e partidas, para cada campeão quem é mais forte ou mais fraco que ele e mais coisas no futuro! :) ",
         "fr":"Bienvenue sur le @League_of_Legends_bot. Ce bot te permet de consulter tous les champions et leurs skins, te prévient quand des nouvelles offres et rotations de champions sont disponibles, te donne accès aux informations sur les invocateurs et les parties, ainsi qu'un aperçu des matchups (qui est fort/faible contre qui) des champions et bien plus encore dans un futur proche ! :) ",
         "fa":"خوش آمدید به @League_of_Legends_bot . این بات به شما نشان میدهد تمام چمپیون ها و اسکین هایشان را،همچنین جدیدترین چمپ های فیری هفته و تخفیف های هفتگی ، اطلاعات درباره بازیکنان و بازی ها، کدام چمپ در مقابل کدام ضعیف و یا قوی هست و اضافه میشود امکانات بیشتر در آینده! :)",
         "pl":"Witaj w @League_of_Legends_bot. Bot pokaże Ci wszystkie skiny i bohaterów, poinformuje Cię o nowych wyprzedażach oraz dostępnych rotacjach, pokaże informacje na temat przywoływaczy i meczów, który bohater jest słaby lub silny przeciwko innemu, i więcej w niedalekiej przyszłości! :)"
@@ -15,7 +15,7 @@
         "en":"You already were in our data base :)",
         "it":"Già eri nel nostro data base :)",
         "de":"Du befindest dich bereits in unserer Datenbank :)",
-        "pt":"",
+        "pt":"Você já está em nossa base de dados :)",
         "fr":"Bienvenue sur le @League_of_Legends_bot. Ce bot te permet de consulter tous les champions et leurs skins, te prévient quand des nouvelles offres et rotations de champions sont disponibles, te donne accès aux informations sur les invocateurs et les parties, ainsi qu'un aperçu des matchups (qui est fort/faible contre qui) des champions et bien plus encore dans un futur proche ! :) ",
         "fa":"شما الان عضو بات هستید :)",
         "pl":"Już jesteś w naszej bazie danych :)"
@@ -25,7 +25,7 @@
         "en":"This made Amumu cry :'(\nThanks for using the bot, I hope to see you soon :)",
         "it":"Questo ha fatto piangere Amumu :'(\nGrazie per aver utilizzato il bot, spero di rivederti presto :)",
         "de":"Das brachte Amumu zum Weinen :'(\nDanke, dass du den Bot verwendet hast, hoffentlich sehen wir uns bald wieder :)",
-        "pt":"",
+        "pt":"Isto fez o Amumu chorar :'(\nObrigado por usar o bot, espero te ver em breve :)",
         "fr":"Amumu est triste :'(\nMerci d'avoir utilisé le bot, j'espère te revoir très vite !",
         "fa":"اِمومو ناراحت شد :'(\nممنونم بابت استفاده از بات،امیدوارم بزودی برگردی :)",
         "pl":"Amumu się popłakał :'(\nDziękuję za użycie bota, widzimy się niebawem :)"
@@ -38,7 +38,7 @@
         "en":"Command cancelled :)",
         "it":"Comando cancellato :)",
         "de":"Kommando abgebrochen :)",
-        "pt":"",
+        "pt":"Comando cancelado :)",
         "fr":"Commande annulée :)",
         "fa":"دستور کنسل شد :)",
         "pl":"Komenda anulowana :)"
@@ -48,7 +48,7 @@
         "en":"There are no commands to cancel :)",
         "it":"Non c'è nessun comando da cancellare :)",
         "de":"Es gibt kein Kommando, das abgebrochen werden könnte :)",
-        "pt":"",
+        "pt":"Não há comando a ser cancelado :)",
         "fr":"Il n'y a pas de commande à annuler :)",
         "fa":"هیچ دستوری برای لغو وجود ندارد :)",
         "pl":"Brak komend do anulowania :)"
@@ -58,7 +58,7 @@
         "en":"The bot has de following commands:",
         "it":"Il bot dispone dei seguenti comandi:",
         "de":"Der Bot verfügt über folgende Kommandos:",
-        "pt":"",
+        "pt":"O bot possui os seguintes comandos:",
         "fr":"Le bot dispose des commandes suivantes:",
         "fa":"دستورات قابل استفاده در این بات: ",
         "pl":"Bot posiada następujące komendy:"
@@ -67,8 +67,8 @@
         "es":"*Filtro de campeones.*",
         "en":"*Champions filter.*",
         "it":"*Filtro campioni.*",
-        "de":"*Championfilter.*",
-        "pt":"",
+        "de":"*Championfilter*",
+        "pt":"*Filtro de Campeões.*",
         "fr":"*Filtrer les champions.*",
         "fa":"*فیلتر چمپیون ها*",
         "pl":"*Filtr bohaterów.*"
@@ -107,12 +107,12 @@
             "adcs":"Filtert alle Champions nach der Rolle der: Schützen"
         },
         "pt":{
-            "assassins":"",
-            "fighters":"",
-            "mages":"",
-            "supports":"",
-            "tanks":"",
-            "adcs":""
+            "assassins":"Filtra os campeões pelo papel: _Assassino_",
+            "fighters":"Filtra os campeões pelo papel: _Lutador_",
+            "mages":"Filtra os campeões pelo papel: _Mago_",
+            "supports":"Filtra os campeões pelo papel: _Suporte_",
+            "tanks":"Filtra os campeões pelo papel: _Tanque_",
+            "adcs":"Filtra os campeões pelo papel: _Atirador_"
         },
         "fr":{
             "assassins":"Filtrer les champions par rôle: Assassin",
@@ -220,23 +220,23 @@
             "match":"Zeigt Informationen, um nach Spielen zu suchen."
         },
         "pt":{
-            "notify":"",
-            "credits":"",
-            "help":"",
-            "keyboard":"",
-            "hideboard":"",
-            "lang":"",
-            "contact":"",
-            "cancel":"",
-            "info":"",
-            "champs":"",
-            "roles":"",
-            "patch":"",
-            "sale":"",
-            "rotation":"",
-            "rate":"",
-            "summoner":"",
-            "match":""
+            "notify":"Habilita ou desabilita as notificações".,
+            "credits":"Créditos do bot.",
+            "help":"Ajuda sobre comandos",
+            "keyboard":"Mostra o teclado (não disponível em grupos).",
+            "hideboard":"Esconde o teclado (não disponível em grupos).",
+            "lang":"Mostra o teclado de mudança de idioma.",
+            "contact":"Manda mensagem para o administrador do bot.",
+            "cancel":"Cancela o comando atual.",
+            "info":"Mostra informações sobre o bot.",
+            "champs":"Mostra lista com nome de todos os campeões.",
+            "roles":"Mostra informações para filtrar campeões por papéis.",
+            "patch":"Mostra informações da atualização mais recente.",
+            "sale":"Mostra os campeões e skins que estão em promoção nesta semana.",
+            "rotation":"Mostra a rotação de campeões desta semana.",
+            "rate":"Avalie o Bot :)",
+            "summoner":"Mostra informações para buscar por invocadores.",
+            "match":"Mostra informações para buscar partidas em andamento."
         },
         "fr":{
             "notify":"Active/Désactive les notifications.",
@@ -301,7 +301,7 @@
         "en":"Keyboard enabled.",
         "it":"Tastiera attivata.",
         "de":"Tastatur aktiviert.",
-        "pt":"",
+        "pt":"Teclado ativado.",
         "fr":"Clavier activé.",
         "fa":"کیبورد فعال شد",
         "pl":"Klawiatura uaktywniona."
@@ -311,7 +311,7 @@
         "en":"The keyboard is only available for personal chats.",
         "it":"La tastiera è disponibile soltanto per chat private.",
         "de":"Die Tastatur ist nur für persönliche Chats verfügbar.",
-        "pt":"",
+        "pt":"O teclado só está disponível em conversas privadas.",
         "fr":"Le clavier est uniquement disponible pour les conversations privées.",
         "fa":"کیبورد فقط توی پیوی قابل استفاده است",
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów."
@@ -321,7 +321,7 @@
         "en":"Keyboard disabled",
         "it":"Tastiera disattivata.",
         "de":"Tastatur deaktiviert.",
-        "pt":"",
+        "pt":"Teclado desativado.",
         "fr":"Clavier désactivé.",
         "fa":"کیبورد غیرفعال شد",
         "pl":"Klawiatura dezaktywowana."
@@ -331,7 +331,7 @@
         "en":"The keyboard is only available for personal chats.",
         "it":"La tastiera è disponibile soltanto per chat private.",
         "de":"Die Tastatur ist nur für persönliche Chats verfügbar.",
-        "pt":"",
+        "pt":"O teclado só está disponível em conversas privadas.",
         "fr":"Le clavier est uniquement disponible pour les conversations privées.",
         "fa":"کیبورد فقط توی پیوی قابل استفاده است",
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów."
@@ -341,7 +341,7 @@
         "en":"Write the message you want to send me.",
         "it":"Scrivi il messaggio che vuoi inviarmi.",
         "de":"Schreibe die Nachricht, die du mir schicken willst.",
-        "pt":"",
+        "pt":"Escreva a mensagem que deseja me enviar.",
         "fr":"Ecris le message que tu souhaites envoyer.",
         "fa":"پیامی که میخوای واسم بفرستی رو تایپ کن",
         "pl":"Napisz wiadomość którą chcesz mi wysłać."
@@ -351,7 +351,7 @@
         "en":"The message has been sent correctly.",
         "it":"Il messaggio è stato inviato correttamente.",
         "de":"Die Nachricht wurde erfolgreich übermittelt.",
-        "pt":"",
+        "pt":"A mensagem foi enviada com sucesso.",
         "fr":"Le message a bien été envoyé.",
         "fa":"پیام ارسال شد",
         "pl":"Wiadomość została wysłana poprawnie."
@@ -361,7 +361,7 @@
         "en":"@League_of_Legends_bot is a Telegram bot that has every champion splashart and skin.\n\nAll the images belong to 'Riot Games, Inc'.\nThe author of the bot and 'Riot Games, Inc' are not related.\nThe author of the bot is @Edurolp\nIf you want to support the project, you can help me with a donation https://www.paypal.me/edurolp",
         "it":"@League_of_Legends_bot è un bot Telegram che dispone di tutti gli splasharts dei campioni insieme ai suoi aspetti. \nTutte le immagini appartengono a 'Riot Games, Inc'.\nL'autore del bot e 'Riot Games, Inc' NON sono relazionati.\nL'autore di questo bot è @Edurolp\nSe vuoi sostenere il progetto, puoi contribuire lasciando una donazione https://www.paypal.me/edurolp",
         "de":"@League_of_Legends_bot ist ein Bot auf Telegram, der über jedes Champion-Splashart und jeden Skin verfügt.\n\nAlle diese Bilder gehören 'Riot Games, Inc'.\nDer Autor des Bots und 'Riot Games Inc' gehören nicht zusammen.\nDer Autor des Bots ist @Edurolp\nWenn du das Projekt unterstützen möchtest, kannst du mir mittels einer Spende helfen https://www.paypal.me/edurolp",
-        "pt":"",
+        "pt":"@League_of_Legends_bot é um bot do Telegram que tem todas as artes e skins dos campeões.\n\nTodas as imagens pertencem a 'Riot Games, Inc'.\nO autor do bot não tem relações com a 'Riot Games, Inc'.\nO autor do bot é @Edurolp\nSe quiser ajudar o projeto, pode contribuir com uma doação https://www.paypal.me/edurolp",
         "fr":"@League_of_Legends_bot est un bot Telegram qui contient tous les splasharts et skins de champions.\n\nToutes les images appartiennent à 'Riot Games, Inc'.\nL'auteur du bot et 'Riot Games, Inc' ne sont pas liés.\nL'auteur du bot est @Edurolp\nSi tu veux supporter le projet, tu peux m'aider avec une donation https://www.paypal.me/edurolp",
         "fa":"@League_of_Legends_bot is یک بات تلگرامی است که توش همه اسکین ها و چمپیون ها هست.\n\nتمام تصاویر مطعلق هست به 'Riot Games, Inc'.\nنویسنده این بات هیچ ارتباطی با  'Riot Games, Inc' ندارد.\nسازنده بات: @Edurolp\nاما اگر میخواهید از این پروژه همایت کنید میتوانید از طریق لینک زیر این کار را انجام دهید https://www.paypal.me/edurolp",
         "pl":"@League_of_Legends_bot jest botem do Telegram który posiada splashart każdego bohatera jak i skiny.\n\nWszystkie poniższe grafiki należą do 'Riot Games, Inc'.\nAutor bota i 'Riot Games, Inc' nie są ze sobą powiązani.\nAutorem bota jest @Edurolp\nJeśli chcesz wesprzeć projekt, możesz mnie wspomóc dotacją https://www.paypal.me/edurolp"
@@ -371,7 +371,7 @@
         "en":"The champions are: ",
         "it":"I campioni disponibili sono: ",
         "de":"Die Champions sind: ",
-        "pt":"",
+        "pt":"Os campeões são:",
         "fr":"Les champions disponibles sont: ",
         "fa":"چمپیون ها: ",
         "pl":"Bohaterami są: "
@@ -381,7 +381,7 @@
         "en":"The sale for this week are:",
         "it":"Le offerte di questa settimana sono:",
         "de":"Die Angebote für diese Woche sind:",
-        "pt":"",
+        "pt":"As ofertas da semana são:",
         "fr":"Les offres de la semaine sont:",
         "fa":"تخفیف ها و فروش های هفته: ",
         "pl":"Wyprzedażą tego tygodnia jest:"
@@ -391,7 +391,7 @@
         "en":"The rotation for this week is:",
         "it":"La rotazione di questa settimana è:",
         "de":"Die Championrotation für diese Woche ist:",
-        "pt":"",
+        "pt":"A rotação desta semana é:",
         "fr":"La rotation de cette semaine est:",
         "fa":"چمپیون های رایگان این هفته: ",
         "pl":"Rotacją na ten tydzień jest:"
@@ -401,7 +401,7 @@
         "en":"Champions filtered by: Assassin\n",
         "it":"Campioni filtrati per: Assassino\n",
         "de":"Champions gefiltert nach: Assassinen\n",
-        "pt":"",
+        "pt":"Campeões filtrados por: Assassino\n",
         "fr":"Champions filtrés par: Assassin\n",
         "fa":"چمپیون های فیلتر شده بر اساس: Assassin\n",
         "pl":"Bohaterowie filtrowani według: Zabójca\n"
@@ -411,7 +411,7 @@
         "en":"Champions filtered by: Fighter\n",
         "it":"Campioni filtrati per: Combattente\n",
         "de":"Champions gefiltert nach: Kämpfern\n",
-        "pt":"",
+        "pt":"Campeões filtrados por: Lutadores\n",
         "fr":"Champions filtrés par: Combattant\n",
         "fa":"چمپیون های فیلتر شده بر اساس: Fighter\n",
         "pl":"Bohaterowie filtrowani według: Wojownik\n"
@@ -421,7 +421,7 @@
         "en":"Champions filtered by: Mage\n",
         "it":"Campioni filtrati per: Mago\n",
         "de":"Champions gefiltert nach: Magiern\n",
-        "pt":"",
+        "pt":"Campeões filtrados por: Mago\n",
         "fr":"Champions filtrés par: Mage\n",
         "fa":"چمپیون های فیلتر شده بر اساس: Mage\n",
         "pl":"Bohaterowie filtrowani według: Mag\n"
@@ -431,7 +431,7 @@
         "en":"Champions filtered by: Support\n",
         "it":"Campioni filtrati per: Supporto\n",
         "de":"Champions gefiltert nach: Suppotern\n",
-        "pt":"",
+        "pt":"Campeões filtrados por: Suporte\n",
         "fr":"Champions filtrés par: Support\n",
         "fa":"چمپیون های فیلتر شده بر اساس: Support\n",
         "pl":"Bohaterowie filtrowani według: Wsparcie\n"
@@ -441,7 +441,7 @@
         "en":"Champions filtered by: Tank\n",
         "it":"Campioni filtrati per: Tank\n",
         "de":"Champions gefiltert nach: Tanks\n",
-        "pt":"",
+        "pt":"Campeões filtrados por: Tanque\n",
         "fr":"Champions filtrés par: Tank\n",
         "fa":"چمپیون های فیلتر شده بر اساس: Tank\n",
         "pl":"Bohaterowie filtrowani według: Obrońca\n"
@@ -451,7 +451,7 @@
         "en":"Champions filtered by: Marksman\n",
         "it":"Campioni filtrati per: Tiratore\n",
         "de":"Champions gefiltert nach: Schützen\n",
-        "pt":"",
+        "pt":"Campeões filtrados por: Atirador\n",
         "fr":"Champions filtrés par: Tireur\n",
         "fa":"چمپیون های فیلتر شده بر اساس: Marksman\n",
         "pl":"Bohaterowie filtrowani według: Strzelec\n"
@@ -461,7 +461,7 @@
         "en":"Hi, you can help the bot a lot rating it with ⭐️⭐️⭐️⭐️⭐️ in the following link:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nThanks a lot! ^^",
         "it":"Salve, puoi aiutare enormemente il bot votandolo con ⭐️⭐️⭐️⭐️⭐️ nel seguente link:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nGrazie mille! ^^",
         "de":"Hallo, du kannst dem Bot eine große Hilfe sein, indem du ihn mit ⭐️⭐️⭐️⭐️⭐️ im folgenden Link bewertest:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nVielen Dank! ^^",
-        "pt":"",
+        "pt":"Olá, você pode ajudar o bot avaliando com ⭐️⭐️⭐️⭐️⭐️ no seguinte link\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nMuito Obrigado! ^^ ",
         "fr":"Salut, tu peux aider énormément le bot en le notant avec ⭐️⭐️⭐️⭐️⭐️ via le lien suivant:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nThanks a lot! ^^",
         "fa":"سلام, شما میتونید برای کمک به بات از طریق لینک پایین  ⭐️⭐️⭐️⭐️⭐️ بدید:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nخیلی ممنونیم! ^^",
         "pl":"Witaj, możesz wspomóc bota oceniając go ⭐️⭐️⭐️⭐️⭐️ pod następującym linkiem:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nBardzo dziękuję! ^^"
@@ -471,7 +471,7 @@
         "en":"The bot has some commands for obtaining information about summoners in the different servers. The commands are:",
         "it":"Il bot dispone di una serie di comandi per ottenere informazione riguardo evocatori dei vari servers. I comandi sono:",
         "de":"Der Bot verfügt über einige Kommandos, um Informationen über Beschwörer auf verschiedenen Servern zu erhalten. Die Kommandos lauten:",
-        "pt":"",
+        "pt":"O bot dispõe de uma série de comandos para obter informação sobre invocadores de diversos servidores. Os comandos são:",
         "fr":"Le bot dispose de plusieurs commandes pour obtenir des informations à propos des invocateurs sur les différents serveurs. Les commandes sont:",
         "fa":"این بات تعدادی دستورات دارد برای جستجو اطلاعات درباره بازیکنان سرور های مختلف. دستورات این ها هستند: ",
         "pl":"Bot posiada komendy do uzyskania informacji na temat przywoływaczy na różnych serwerach. Komendy te to:"
@@ -481,7 +481,7 @@
         "en":"Remember to change '`test`' for the name of the summoner you are searching.",
         "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"Vergiss nicht, '`test`' durch den den Beschwörer, den du suchst, zu ersetzen.",
-        "pt":"",
+        "pt":"Lembre de trocar '`test`' pelo nome do invocador que você está procurando.",
         "fr":"Rappelle toi de remplacer '`test`' par le nom de l'invocateur que tu recherches.",
         "fa":"فراموش نکنید که تغییر دهید '`test`' را به اسم کسی که میخواهید جستجو کنید.",
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz."
@@ -491,7 +491,7 @@
         "en":" test - Information of the summoner '`test`' at ",
         "it":" test - Informazioni dell'evocatore '`test`' in ",
         "de":" test - Informationen über den Beschwörer '`test`' auf ",
-        "pt":"",
+        "pt":" test - Informações do invocador '`test`' em ",
         "fr":" test - Informations sur l'invocateur '`test`' à ",
         "fa":" test - اطلاعات درباره بازیکن '`test`' در",
         "pl":" test - Informacje przywoływacza '`test`' pod "
@@ -501,7 +501,7 @@
         "en":"The bot has some commands for obtaining information about matches in the different servers. The commands are:",
         "it":"Il bot dispone di una serie di comandi per ottenere informazione riguardo partite dei vari servers. I comandi sono:",
         "de":"Der Bot verfügt über einige Kommandos, um Informationen über Spiele auf verschiedenen Servern zu erhalten. Die Kommandos lauten:",
-        "pt":"",
+        "pt":"O bot dispõe de uma série de comandos para obter informações das partidas nos diversos servidores. Os comandos são:",
         "fr":"Le bot dispose de plusieurs commandes pour obtenir des informations sur les parties dans les differents serveurs. Les commandes sont:",
         "fa":"این بات تعدادی دستورات دارد برای جستجو اطلاعات درباره بازی های  سرور های مختلف. دستورات این ها هستند: ",
         "pl":"Bot posiada komendy do uzyskania informacji na temat meczów na różnych serwerach. Komendy te to:"
@@ -511,7 +511,7 @@
         "en":"Remember to change '`test`' for the name of the summoner you are searching.",
         "it":"Ricorda di cambiare '`test`' con il nome dell'evocatore che stai cercando.",
         "de":"Vergiss nicht, '`test`' durch den den Beschwörer, den du suchst, zu ersetzen",
-        "pt":"",
+        "pt":"Lembre de trocar '`test`' pelo nome do invocador que você está procurando.",
         "fr":"Rappelle toi de remplacer '`test`' par le nom de l'invocateur que tu recherches.",
         "fa":"فراموش نکنید که تغییر دهید '`test`' را به اسم کسی که میخواهید جستجو کنید.",
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz."
@@ -521,7 +521,7 @@
         "en":" test - Information about the current match of the summoner '`test`' at ",
         "it":" test - Informazioni sulla corrente partita dell'evocatore '`test`' in ",
         "de":" test - Informationen über das aktuelle Spiel des Beschwörers '`test`' auf ",
-        "pt":"",
+        "pt":" test - Informação sobre a partida atual do invocador '`test`' em ",
         "fr":" test - Informations sur la partie en cours de l'invocateur '`test`' à ",
         "fa":" test - اطلاعات درباره بازی یی که بازیکن در حال بازی است '`test`' در",
         "pl":" test - Informacje na temat aktualnego meczu przywoływacza '`test`' pod "
@@ -561,7 +561,7 @@
         "en": "Select a language or type /cancel to cancel the command.",
         "it":"Seleziona una lingua o scrivi /cancel per cancellare il comando.",
         "de":"Wähle eine Sprache aus oder schreibe /cancel um das Kommando abzubrechen.",
-        "pt":"",
+        "pt":"Selecione um idioma ou digite /cancel para cancelar o comando.",
         "fr":"Sélectionne une langue ou écris /cancel pour annuler la commande.",
         "fa":"زبان را انتخاب کنید یا برای لغو از دستور روبرو استفاده کنید: /cancel",
         "pl":"Wybierz język lub wpisz /cancel aby anulować komendę."
@@ -571,7 +571,7 @@
         "en": "The language has been updated to English",
         "it":"La lingua è stata cambiata in Italiano",
         "de":"Die Sprache wurde auf Deutsch aktualisiert",
-        "pt":"",
+        "pt":"O Idioma foi alterado para Português",
         "fr":"La langue a été modifée en Français.",
         "fa":"زبان بات به فارسی تغییر کرد",
         "pl":"Język został ustawiony na Polski"
@@ -581,7 +581,7 @@
         "en": "I'm sorry but the language _%s_ is not supported yet. Please select a language from the keyboard.\n\nIf you want to colaborete for translating the bot to _%s_ contact me at @Edurolp",
         "it":"Mi dispiace ma la lingua _%s_ non è ancora disponibile. Per piacere seleziona un idioma dalla tastiera.\n\nSe vuoi collaborare a tradurre il bot in _%s_ contattami a @Edurolp",
         "de":"Tut mir leid, aber die Sprache _%s_ wird noch nicht unterstützt. Bitte wähle eine Sprache von der Tastatur.\n\nWenn du mithelfen willst, den Bot auf _%s_ zu übersetzen, kontaktiere mich auf @Edurolp",
-        "pt":"",
+        "pt":"Desculpe, mas o idima _%s_ não está disponível ainda. Por favor selecione um idioma no teclado.\n\nSe quiser colaborar para traduzir o bot para _%s_ entre em contato com @Edurolp",
         "fr":"Désolé mais la langue _%s_ n'est pas encore supportée. Choisis s'il te plait une langue à partir du clavier.\n\n Si tu veux collaborer à la traduction du bot en _%s_ contacte moi à @Edurolp",
         "fa":"متاسفم زبان _%s_ پشتیبانی نمیشود. لطفا برای انتخاب زبان از کیبورد استفاده کنید.\n\nاما اگر میخواهید بات از زبان _%s_ پشتیبانی کند میتوانید برای کمک به ترجمه به من پیام بدهید @Edurolp",
         "pl":"Przepraszam, ale język _%s_ nie jest wspierany. Proszę wybrać język z klawiatury.\n\nJeśli chcesz wspomóc tłumaczenie bota na _%s_ skontaktuj się ze mną pod @Edurolp"
@@ -595,14 +595,14 @@
     "update_sale_pic_1":"Envía la nueva imagen de las ofertas o escribe /cancel para cancelar el comando.",
     "update_sale_pic_2":"Ofertas actualizadas.",
     "about":{
-        "es":"Gracias a toda la comunidad de desarrolladores de bots para Telegram.\nEn especial a @pelijaro, @luksireiku, @skgsergio y @rockneurotiko por su gran ayuda ^^.\nGracias también a @eternnoir por la maravillosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nMuchas gracias también a todas las personas que uséis el bot. Sabed que me hace muy feliz que este proyecto vaya creciendo :)\nGracias a los traductores: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat @Reza6612",
-        "en":"Thanks to all the Telegram's bot developers community.\nIn special to @pelijaro, @luksireiku, @skgsergio and @rockneurotiko for their great help ^^.\nThanks too to @eternnoir for the wonderful [API](https://github.com/eternnoir/pyTelegramBotAPI).\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)\nThanks to the translators: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat @Reza6612",
-        "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.\nIn speciale a @pelijaro, @luksireiku, @skgsergio e @rockneurotiko per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :)\nGrazie ai traduttori: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat @Reza6612",
-        "de":"Danke an die Gemeinschaft der Bot-Entwickler auf Telegram\nBesonders an @pelijaro, @luksireiku, @skgsergio und @rockneurotiko für ihre große Hilfe ^^.\nVielen Dank auch an @eternnoir für das wundervolle [API](https://github.com/eternnoir/pyTelegramBotAPI).\nDanke an alle, die den Bot verwenden. Ich möchte, dass ihr wisst, dass es mich wirklich glücklich stimmt, zu sehen, wie das Projekt wächst. :)\nDanke an die Übersetzer: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat @Reza6612",
-        "pt":"",
-        "fr":"Merci à toute la communauté des développeurs de bot Telegram.\nSpécialement à @pelijaro, @luksireiku, @skgsergio et @rockneurotiko pour leur grande aide ^^.\nMerci aussi à @eternnoir pour la merveilleuse [API](https://github.com/eternnoir/pyTelegramBotAPI).\nMerci beaucoup à toutes les personnes qui utilisent ce bot. Sachez que je suis très heureux de voir ce projet s'agrandir de jour en jour :)\nMerci aux traducteurs: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat @Reza6612",
-        "fa":"با تشکر از تمام توسعه دهندگان ربات.\nتشکر ویژه از @pelijaro, @luksireiku, @skgsergio و @rockneurotiko برای کمک های بسیار ^^.\nهمچنین تشکر از  @eternnoir برای کد رباتی از نوع [API](https://github.com/eternnoir/pyTelegramBotAPI).\nممنونیم از تمام استفاده کنندگان بات. من می خواهم شما بدانید که من بسیار خوشحال هستم چرا که این پروژه در حال رشد است :)\nتشکر از ترجمه کنندگان: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat @Reza6612",
-        "pl":"Dziękuję społeczności developerskiej bota Telegram.\nA szczególnie @pelijaro, @luksireiku, @skgsergio oraz @rockneurotiko za ich pomoc ^^.\nPodziękowania również dla @eternnoir za świetne [API](https://github.com/eternnoir/pyTelegramBotAPI).\nWielkie dzięki wszystkim korzystającym z bota. Chcę abyście wiedzieli iż jestem bardzo szczęśliwy ponieważ ten projekt wciąż się rozrasta :)\nDziękuję tłumaczom: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat @Reza6612"
+        "es":"Gracias a toda la comunidad de desarrolladores de bots para Telegram.\nEn especial a @pelijaro, @luksireiku, @skgsergio y @rockneurotiko por su gran ayuda ^^.\nGracias también a @eternnoir por la maravillosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nMuchas gracias también a todas las personas que uséis el bot. Sabed que me hace muy feliz que este proyecto vaya creciendo :)\nGracias a los traductores: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago",
+        "en":"Thanks to all the Telegram's bot developers community.\nIn special to @pelijaro, @luksireiku, @skgsergio and @rockneurotiko for their great help ^^.\nThanks too to @eternnoir for the wonderful [API](https://github.com/eternnoir/pyTelegramBotAPI).\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)\nThanks to the translators: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago",
+        "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.\nIn speciale a @pelijaro, @luksireiku, @skgsergio e @rockneurotiko per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :)\nGrazie ai traduttori: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago",
+        "de":"Danke an die Gemeinschaft der Bot-Entwickler auf Telegram\nBesonders an @pelijaro, @luksireiku, @skgsergio und @rockneurotiko für ihre große Hilfe ^^.\nVielen Dank auch an @eternnoir für das wundervolle [API](https://github.com/eternnoir/pyTelegramBotAPI).\nDanke an alle, die den Bot verwenden. Ich möchte, dass ihr wisst, dass es mich wirklich glücklich stimmt, zu sehen, wie das Projekt wächst. :)\nDanke an die Übersetzer: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago",
+        "pt":"Agradeço à toda comunidade de desenvolvedores de bots para Telegram.\nEm especial a @pelijaro, @luksireiku, @skgsergio e @rockneurotiko por sua grande ajuda ^^.\nAgradeço também a @eternnoir pela maravilhosa [API](https://github.com/eternnoir/pyTelegramBotAPI).\nMuito obrigado a todas as pessoas que usam o bot. Saiba que estou muito feliz que este projeto continue crescendo :)\nObrigado aos tradutores: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago",
+        "fr":"Merci à toute la communauté des développeurs de bot Telegram.\nSpécialement à @pelijaro, @luksireiku, @skgsergio et @rockneurotiko pour leur grande aide ^^.\nMerci aussi à @eternnoir pour la merveilleuse [API](https://github.com/eternnoir/pyTelegramBotAPI).\nMerci beaucoup à toutes les personnes qui utilisent ce bot. Sachez que je suis très heureux de voir ce projet s'agrandir de jour en jour :)\nMerci aux traducteurs: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago",
+        "fa":"با تشکر از تمام توسعه دهندگان ربات.\nتشکر ویژه از @pelijaro, @luksireiku, @skgsergio و @rockneurotiko برای کمک های بسیار ^^.\nهمچنین تشکر از  @eternnoir برای کد رباتی از نوع [API](https://github.com/eternnoir/pyTelegramBotAPI).\nممنونیم از تمام استفاده کنندگان بات. من می خواهم شما بدانید که من بسیار خوشحال هستم چرا که این پروژه در حال رشد است :)\nتشکر از ترجمه کنندگان: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago",
+        "pl":"Dziękuję społeczności developerskiej bota Telegram.\nA szczególnie @pelijaro, @luksireiku, @skgsergio oraz @rockneurotiko za ich pomoc ^^.\nPodziękowania również dla @eternnoir za świetne [API](https://github.com/eternnoir/pyTelegramBotAPI).\nWielkie dzięki wszystkim korzystającym z bota. Chcę abyście wiedzieli iż jestem bardzo szczęśliwy ponieważ ten projekt wciąż się rozrasta :)\nDziękuję tłumaczom: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago"
     },
     "reload":"Reestarting. Wait for `20` seconds.",
     "notifications_1":{
@@ -610,7 +610,7 @@
         "en":"Notifications disabled. Now you _won't_ receive broadcast messages nor warnings. To enable it again use /notify",
         "it":"Notifiche disattivate. Ora _non_ riceverai più messaggi generali ne avvisi. Per attivarlo di nuovo usa /notify",
         "de":"Benachrichtigungen deaktiviert. Du wirst nun _keine_ allgemeinen Nachrichten oder Warungen mehr erhalten. Um sie wieder zu aktivieren, verwende /notify",
-        "pt":"",
+        "pt":"Notificações desativadas. Agora você _não_ receberá mensagens distribuidas nem avisos. Para ativar de novo use o comando /notify",
         "fr":"Notifications désactivées. Maintenant tu _ne_ recevras _plus_ de messages diffusés ni avertissements. Pour les activer à nouveau, utilise /notify",
         "fa":"دریافت پیام ها لغو شد. شما الان _دریافت نمیکنید_ پیام های ارسالی بات را. برای روشن کردن استفاده کنید از /notify",
         "pl":"Notyfikacje dezaktywowane. _Nie będziesz_ teraz otrzymywał wiadomości broadcastowych ani ostrzeżeń. Aby ponownie je uaktywnić użyj /notify"
@@ -620,7 +620,7 @@
         "en":"Notifications enabled. Now you _will_ receive broadcast messages and warnings. To disable it use /notify",
         "it":"Notifiche attivate. Adesso _ti_ verranno inviati messaggi generali e avvisi. Per disattivarli usa /notify",
         "de":"Benachrichtigungen aktiviert. Du _wirst_ nun allgemeine Nachrichten und Warnungen erhalten. Um sie zu deaktivieren, verwende /notify",
-        "pt":"",
+        "pt":"Notificações ativadas. Agora você _receberá_ mensagens distribuidas e avisos. Para desativar utilize o comando /notify",
         "fr":"Notifications activées. Maintenant tu _recevras_ des messages diffusés et des avertissements. Pour les désactiver, utilise /notify",
         "fa":"دریافت پیام ها فعال شد. شما الان _دریافت میکنید_ پیام های ارسالی بات را. برای خاموش کردن استفاده کنید از /notify",
         "pl":"Notyfikacje aktywowane. _Będziesz_ teraz otrzymywał wiadomości broadcastowe oraz ostrzeżenia. Aby dezaktywować użyj /notify"
@@ -638,7 +638,7 @@
         "en":"I'm sorry but we haven't added it yet to the bot!",
         "it":"Mi dispiace ma non l'abbiamo ancora aggiunto nel bot!",
         "de":"Es tut mir leid, aber das haben wir leider noch nicht zum Bot hinzugefügt.",
-        "pt":"",
+        "pt":"Desculpe, mas ainda não adicionamos ao bot!",
         "fr":"Désolé mais nous ne l'avons pas encore ajouté au bot!",
         "fa":"من متاسفم،اما هنوز اضافه نشده به بات",
         "pl":"Przykro mi, ale nie dodaliśmy go jeszcze do bota!"
@@ -648,7 +648,7 @@
         "en":"To see detailed info about the champion use",
         "it":"Per vedere informazioni dettagliate del campione usa",
         "de":"Um detailliertere Infos über den Champion zu erhalten, verwende",
-        "pt":"",
+        "pt":"Para ver informações detalhadas do campeão use",
         "fr":"Pour voir des informations détaillées sur les champions, utilise",
         "fa":"برای دیدن اطلاعات دقیق در مورد استفاده از چمپیون",
         "pl":"Aby uzyskać szczegółowe informacje na temat bohatera, użyj"
@@ -659,7 +659,7 @@
             "en":"Roles",
             "it":"Rouli",
             "de":"Rollen",
-            "pt":"",
+            "pt":"Papéis",
             "fr":"Rôles",
             "fa":"فیلتر ها",
             "pl":"Role"
@@ -669,7 +669,7 @@
             "en":"Stats",
             "it":"Statistiche",
             "de":"Statistiken",
-            "pt":"",
+            "pt":"Estatísticas",
             "fr":"Statistiques",
             "fa":"اطلاعات",
             "pl":"Statystyki"
@@ -679,7 +679,7 @@
             "en":"Abilities",
             "it":"Abilità",
             "de":"Fähigkeiten",
-            "pt":"",
+            "pt":"Habilidades",
             "fr":"Compétences",
             "fa":"قدرت های جادویی",
             "pl":"Umiejętności"
@@ -691,7 +691,7 @@
             "en":"Health",
             "it":"Salute",
             "de":"Leben",
-            "pt":"",
+            "pt":"Vida",
             "fr":"Santé",
             "fa":"خون(هِلت)",
             "pl":"Życie"
@@ -701,7 +701,7 @@
             "en":"Health Regen",
             "it":"Rigen. salute",
             "de":"Lebensregen.",
-            "pt":"",
+            "pt":"Regeneração de Vida",
             "fr":"Régénération de Santé",
             "fa":"لایف استیل",
             "pl":"Regeneracja życia"
@@ -711,7 +711,7 @@
             "en":"Attack Damage",
             "it":"Attacco fisico",
             "de":"Angriffsschaden",
-            "pt":"",
+            "pt":"Dano de Ataque",
             "fr":"Dommages d'Attaque",
             "fa":"اَتک دَمِج",
             "pl":"Obrażenia"
@@ -721,7 +721,7 @@
             "en":"Attack Range",
             "it":"Raggio d'attacco",
             "de":"Angriffsreichweite",
-            "pt":"",
+            "pt":"Distância de Ataque",
             "fr":"Distance d'Attaque",
             "fa":"اَتک رِنج",
             "pl":"Zasięg ataku"
@@ -731,7 +731,7 @@
             "en":"Movement Speed",
             "it":"Velocità di movimento",
             "de":"Lauftempo",
-            "pt":"",
+            "pt":"Velocidade de Movimento",
             "fr":"Vitesse de Mouvement",
             "fa":"سرعت حرکت",
             "pl":"Szybkość ruchu"
@@ -741,7 +741,7 @@
             "en":"Armor",
             "it":"Armatura",
             "de":"Rüstung",
-            "pt":"",
+            "pt":"Armadura",
             "fr":"Armure",
             "fa":"آرمور",
             "pl":"Pancerz"
@@ -751,7 +751,7 @@
             "en":"Magic Resist",
             "it":"Resist. magica",
             "de":"Magie resistenz",
-            "pt":"",
+            "pt":"Resistência Mágica",
             "fr":"Resistence Magique",
             "fa":"مقاومت در برابر قدرت های جادویی",
             "pl":"Odporność na magię"
@@ -763,7 +763,7 @@
             "en":"Assassin",
             "it":"Assassino",
             "de":"Assassine",
-            "pt":"",
+            "pt":"Assassino",
             "fr":"Assassin",
             "fa":"Assassin",
             "pl":"Zabójca"
@@ -773,7 +773,7 @@
             "en":"Fighter",
             "it":"Combattente",
             "de":"Kämpfer",
-            "pt":"",
+            "pt":"Lutador",
             "fr":"Combattant",
             "fa":"Fighter",
             "pl":"Wojownik"
@@ -783,7 +783,7 @@
             "en":"Mage",
             "it":"Mago",
             "de":"Magier",
-            "pt":"",
+            "pt":"Mago",
             "fr":"Mage",
             "fa":"Mage",
             "pl":"Mag"
@@ -793,7 +793,7 @@
             "en":"Support",
             "it":"Supporto",
             "de":"Unterstützung",
-            "pt":"",
+            "pt":"Suporte",
             "fr":"Support",
             "fa":"Support",
             "pl":"Wsparcie"
@@ -803,7 +803,7 @@
             "en":"Tank",
             "it":"Tank",
             "de":"Tank",
-            "pt":"",
+            "pt":"Tanque",
             "fr":"Tank",
             "fa":"Tank",
             "pl":"Obrońca"
@@ -813,7 +813,7 @@
             "en":"Marksman",
             "it":"Tiratore",
             "de":"Schütze",
-            "pt":"",
+            "pt":"Atirador",
             "fr":"Tireur",
             "fa":"Marksman",
             "pl":"Strzelec"
@@ -824,7 +824,7 @@
         "en":"Keep reading",
         "it":"Continua a leggere",
         "de":"Weiter lesen",
-        "pt":"",
+        "pt":"Continuar lendo",
         "fr":"Continuer à lire",
         "fa":"ادامه مطلب را بخوانید",
         "pl":"Kontynuuj czytanie"
@@ -834,7 +834,7 @@
         "en":"Passive",
         "it":"Passiva",
         "de":"Passive",
-        "pt":"",
+        "pt":"Passiva",
         "fr":"Passive",
         "fa":"پَسیو(لول خودکار)",
         "pl":"Pasyw"
@@ -877,13 +877,13 @@
             "CHALLENGER":"Herausforderer"
         },
         "pt":{
-            "BRONZE":"",
-            "SILVER":"",
-            "GOLD":"",
-            "PLATINUM":"",
-            "DIAMOND":"",
-            "MASTER":"",
-            "CHALLENGER":""
+            "BRONZE":"Bronze",
+            "SILVER":"Prata",
+            "GOLD":"Ouro",
+            "PLATINUM":"Platina",
+            "DIAMOND":"Diamante",
+            "MASTER":"Mestre",
+            "CHALLENGER":"Desafiante"
         },
         "fr":{
             "BRONZE":"Bronze",
@@ -918,7 +918,7 @@
         "en":"Error. You must enter the name of the summoner.\n\nExample: `/%s test`",
         "it":"Errore. Devi inserire il nome dell'evocatore.\n\nEsempio: `/%s test` ",
         "de":"Fehler. Du musst den Namen des Beschwörers eingeben.\n\nBeispiel: `/%s test`",
-        "pt":"",
+        "pt":"Erro. Você deve digitar o nome do invocador.\n\nExemplo: `/%s test` ",
         "fr":"Erreur. Tu dois entrer le nom de l'invocateur.\n\nExemple: `/%s test`",
         "fa":"ارور. شما باید اسم بازیکن را تایپ کنید.\n\nمثال: `/%s test`",
         "pl":"Błąd. Musisz wprowadzić imię wywoływacza.\n\nPrzykład: `/%s test`"
@@ -928,7 +928,7 @@
         "en":"Error obtaining information of the summoner '`%s`' at '`%s`'",
         "it":"Errore nell'ottenimento di informazioni dell'evocatore '`%s`' in '`%s`'",
         "de":"Fehler beim Versuch, Informationen über den Beschwörer '`%s`' auf '`%s`' zu erhalten",
-        "pt":"",
+        "pt":"Erro ao obter a informação do invocador '`%s`' em '`%s`'",
         "fr":"Erreur dans l'obtention des informations de l'invocateur '`%s`' sur '`%s`'",
         "fa":"مشکلی هست برای جستجو اطلاعات '`%s`' در '`%s`'",
         "pl":"Błąd pozyskania informacji wywoływacza '`%s`' na '`%s`'"
@@ -938,7 +938,7 @@
         "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Normal games:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_",
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_",
         "de":"*Name*: _%s_\n*Stufe*: _%s_\n\n*Normale Spiele:\n\tSiege im 5 gegen 5*: _%s_\n\t*Siege im 3 gegen 3*: _%s_\n\t*Siege auf ARAM*: _%s_",
-        "pt":"",
+        "pt":"Nome*: _%s_\n*Nivel*: _%s_\n\n*Partidas normais: \n\tVitórias 5x5*: _%s_\n\t*Vitórias 3x3*: _%s_\n\t*Vitórias Aram*: _%s_",
         "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n\n*Parties normales:\n\t5v5 victoires*: _%s_\n\t*3v3 victoires*: _%s_\n\t*Aram victoires*: _%s_",
         "fa":"*اسم*: _%s_\n*لِوِل*: _%s_\n\n*بازی های نرمال:\n\t5v5 برد ها*: _%s_\n\t*3v3 بردها*: _%s_\n\t*برد ها در آرام*: _%s_",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_"
@@ -948,7 +948,7 @@
         "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Champion*: _%s_",
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Campione*: _%s_",
         "de":"*Name*: _%s_\n*Stufe*: _%s_\n\n*Champion*: _%s_",
-        "pt":"",
+        "pt":"*Nome*: _%s_\n*Nível*: _%s_\n\n*Campeão*: _%s_",
         "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n\n*Champion*: _%s_",
         "fa":"*اسم*: _%s_\n*لِوِل*: _%s_\n\n*چمپیون*: _%s_",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Bohater*: _%s_"
@@ -958,7 +958,7 @@
         "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Normal games:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_\n\n*Ranked games:\n\tLeague*: _%s_ _%s_\n\t*Wins*: _%s_\n\t*Defeats*: _%s_\n\t*Winrate*: _%s_\n\t*League points*: _%s_",
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_\n\nPartite classificate:\n\tLega: _%s_ _%s_\n\t*Vittorie*: _%s_\n\t*Sconfitte*: _%s_\n\t*WinRate*: _%s_\n\t*Punti lega*: _%s_",
         "de":"*Name*: _%s_\n*Stufe*: _%s_\n\n*Normale Spiele:\n\tSiege im 5 gegen 5*: _%s_\n\t*Siege im 3 gegen 3*: _%s_\n\t*Siege auf ARAm*: _%s_\n\n*Spiele mit Rangliste:\n\tLiga*: _%s_ _%s_\n\t*Siege*: _%s_\n\t*Niederlagen*: _%s_\n\t*Siegesquote*: _%s_\n\t*Ligapunkte*: _%s_",
-        "pt":"",
+        "pt":"*Nome*: _%s_\n*Nível*: _%s_\n\n*Partidas normais:\n\tVitórias 5x5*: _%s_\n\t*Vitórias 3x3*: _%s_\n\t*Vitórias Aram*: _%s_\n\n*Partidas Ranqueadas:\n\tLiga*: _%s_ _%s_\n\t*Vitórias*: _%s_\n\t*Derrotas*: _%s_\n\t*Porcentagem de vitórias*: _%s_\n\t*Pontos de Liga*: _%s_",
         "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n\n*Parties normales:\n\t5v5 victoires*: _%s_\n\t*3v3 victoires*: _%s_\n\t*Aram victoires*: _%s_\n\n*Parties classées:\n\tLigue*: _%s_ _%s_\n\t*Victoires*: _%s_\n\t*Défaites*: _%s_\n\t*RatioVictoires*: _%s_\n\t*Ligue points*: _%s_",
         "fa":"*اسم*: _%s_\n*لِوِل*: _%s_\n\n*بازی های نرمال:\n\t5v5 بردها*: _%s_\n\t*3v3 بردها*: _%s_\n\t*برد ها در آرام*: _%s_\n\n*بازی های رَنک:\n\tلیگ*: _%s_ _%s_\n\t*بردها*: _%s_\n\t*باخت ها*: _%s_\n\t*درصد پیروزی*: _%s_\n\t*امتیاز لیگ*: _%s_",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_\n\n*Rankingowe gry:\n\tLiga*: _%s_ _%s_\n\t*Wygrane*: _%s_\n\t*Przegrane*: _%s_\n\t*Winrate*: _%s_\n\t*Punkty ligowe*: _%s_"
@@ -968,7 +968,7 @@
         "en":"*Name*: _%s_\n*League*: _%s_ _%s_\n*Winrate*: _%s_\n\n*Champion*: _%s_",
         "it":"*Nome*: _%s_\n*Lega*: _%s_ _%s_\n*Winrate*: _%s_\n\n*Campione*: _%s_",
         "de":"*Name*  _%s_\n*Liga*: _%s_ _%s_\n*Siegesquote*: _%s_\n\n*Champion*: _%s_",
-        "pt":"",
+        "pt":"*Nome*: _%s_\n*Liga*: _%s_ _%s_\n*Porcentagem de Vitórias*: _%s_\n\n*Campeão*: _%s_",
         "fr":"*Nom*: _%s_\n*Ligue*: _%s_ _%s_\n*RatioVictoires*: _%s_\n\n*Champion*: _%s_",
         "fa":"*اسم*: _%s_\n*لیگ*: _%s_ _%s_\n*درصد پیروزی*: _%s_\n\n*چمپیون*: _%s_",
         "pl":"*Imię*: _%s_\n*Liga*: %s _%s_\n*Winrate*: _%s_\n\n*Bohater*: _%s_"
@@ -978,7 +978,7 @@
         "en":"This command is only available in private chats to avoid flood at groups. Try it in a private chat with the bot @League_of_Legends_bot",
         "it":"Questo comando è disponibile nelle chat private per evitare il flood nei gruppi. Provalo in una chat privata con il bot @League_of_Legends_bot",
         "de":"Dieses Kommando ist nur in privaten Chats verfügbar, um Textüberflutungen in Gruppen zu vermeiden. Versuche es in einem privaten Chat mit dem Bot @League_of_Legends_bot",
-        "pt":"",
+        "pt":"Este comando só está disponível em chats privados para evitar flood em grupos. Tente um chat privado com o bot @League_of_Legends_bot",
         "fr":"Cette commande est uniquement disponible en conversations privées pour éviter de 'flooder' les groupes. Essayez la dans une conversation privée avec le bot @League_of_Legends_bot",
         "fa":"این دستور قابل استفاده در گروه نیست. توی پیوی بات دستور را ارسال کنید @League_of_Legends_bot",
         "pl":"Komenda dostępna wyłącznie w czatach prywatnych aby zapobiec spamowi w grupach. Wypróbuj ją w czacie prywatnym z botem @League_of_Legends_bot"
@@ -988,7 +988,7 @@
         "en":"The summoner '`%s`' is not currently playing.",
         "it":"L'evocatore '`%s`' non sta giocando adesso.",
         "de":"Der Beschwörer '`%s`' spielt im Moment nicht.",
-        "pt":"",
+        "pt":"O invocador '`%s`' não está jogando no momento",
         "fr":"L'invocateur '`%s`' n'est pas en train de jouer.",
         "fa":"بازیکن '`%s`' در حال بازی نیست",
         "pl":"Przywoływacz '`%s`' aktualnie nie jest w grze."
@@ -998,7 +998,7 @@
         "en":"Game mode: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "it":"Tipo di partita: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "de":"Spieltyp: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blaues Team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
-        "pt":"",
+        "pt":"Tipo de partida: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipe azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "fr":"Mode de jeu: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "fa":"مود بازی: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "pl":"Tryb gry: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Niebieska drużyna\ud83d\udd35\ud83d\udd35\ud83d\udd35"
@@ -1008,7 +1008,7 @@
         "en":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "it":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Squadra rossa\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "de":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Rotes Team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
-        "pt":"",
+        "pt":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Equipe vermelha\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "fr":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "fa":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34"

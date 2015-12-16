@@ -1,0 +1,22 @@
+*[14-12-15]*
+· Este bot foi reescrito do 0 com as seguintes modificações:
+-> Múltiplos idiomas.
+-> Comandos Atualizados.
+-> Notificações Opcionais.
+-> Teclado Opcional.
+-> Formato de campeões atualizado e adição de informações extras.
+
+*[02-10-15]*
+· O bot foi traduzido para Inglês. Não foi 100% traduzido, mas é o suficiente até o momento. Para ver o bot traduzido use /help
+· Foi criado um teclado personalizado para chats privados. Espanhol: /teclado  Inglês: /keyboard
+
+*[01-10-15]*
+· Adicionado /Kindred e a skin /Kindred\_1
+· Skins adicionadas: /Alistar\_8 /Jax\_9 /Karma\_5 /Malphite\_7 /Olaf\_5
+· Skins atualizadas: /Aatrox\_3 /Garen\_7 /Quinn\_3
+
+*[30-09-15]*
+· Comando /patch adicionado
+
+*[19-09-15]*
+· A lista de alterações foi criada após atualizaçao do comando para contato através do bot

@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  changelog.py importado.{/cyan}'))
 
-@bot.message_handler( content_types=['text'], func=lambda message: message.text in ["CHANGELOG","ÄNDERUNGSPROTOKOLL"])
+@bot.message_handler( content_types=['text'], func=lambda message: message.text in ["ALTERAÇÕES","CHANGELOG","ÄNDERUNGSPROTOKOLL"])
 @bot.message_handler(commands=['changelog'])
 def command_changelog(m):
     cid = m.chat.id

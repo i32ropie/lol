@@ -12,6 +12,14 @@ markup_es.add( 'INVOCADOR', 'OCULTAR TECLADO' ,'PARTIDA')
 markup_es.add( 'POSICIONES', 'NOTIFICACIONES', 'CRÉDITOS')
 markup_es.add( 'IDIOMA')
 
+markup_pt = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_pt.add( 'AJUDA', 'CONTATO', 'INFO')
+markup_pt.add( 'ATUALIZAÇÃO', 'ALTERAÇÕES', 'AVALIAR')
+markup_pt.add( 'PROMOÇÕES', 'CAMPEÕES', 'ROTAÇÃO')
+markup_pt.add( 'INVOCADOR', 'ESCONDER TECLADO', 'PARTIDA')
+markup_pt.add( 'PAPÉIS', 'NOTIFICAÇÕES', 'CRÉDITOS')
+markup_pt.add( 'IDIOMA')
+
 markup_en = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_en.add( 'HELP', 'CONTACT', 'INFO')
 markup_en.add( 'PATCH', 'CHANGELOG', 'RATE')
@@ -60,6 +68,7 @@ markups = {
     "it": markup_it,
     "pl": markup_pl,
     "fr": markup_fr,
+    "pt": markup_pt,
     "de": markup_de,
     "fa": markup_fa
 }
@@ -86,7 +95,7 @@ def command_help(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text in ["UKRYJ KLAWIATURĘ","OCULTAR TECLADO","HIDE KEYBOARD","NASCONDI TASTIERA","VERBERGE TASTATUR","CACHER CLAVIER"])
+@bot.message_handler( func=lambda message: message.text in ["ESCONDER TECLADO","UKRYJ KLAWIATURĘ","OCULTAR TECLADO","HIDE KEYBOARD","NASCONDI TASTIERA","VERBERGE TASTATUR","CACHER CLAVIER"])
 @bot.message_handler(commands=['hideboard'])
 def command_hideboard(m):
     cid = m.chat.id

@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  rate.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text in ['KWALIFIKOWAĆ','CALIFICAR','RATE','QUALIFICARE','SIEGESRATE','NOTER'])
+@bot.message_handler( func=lambda message: message.text in ['AVALIAR','KWALIFIKOWAĆ','CALIFICAR','RATE','QUALIFICARE','SIEGESRATE','NOTER'])
 @bot.message_handler(commands=['rate'])
 def command_rate(m):
     cid = m.chat.id

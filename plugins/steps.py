@@ -28,6 +28,8 @@ def step_start(m):
             users[str(cid)] = {"lang":"fr", "banned": False, "notify": True}
         elif m.text == 'PERSIAN':
             users[str(cid)] = {"lang":"fa", "banned": False, "notify": True}
+        elif m.text == 'PORTUGUÊS':
+            users[str(cid)] = {"lang":"pt", "banned": False, "notify": True}
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, responses['lang_error'][lang(cid)]%( m.text, m.text), parse_mode="Markdown")
@@ -104,8 +106,8 @@ def step_lang(m):
             users[str(cid)]['lang'] = 'fr'
         elif m.text == 'PERSIAN':
             users[str(cid)]['lang'] = 'fa'
-        #elif m.text == 'LANGUAGE':
-            #users[str(cid)]['lang'] = 'lng'
+        elif m.text == 'PORTUGUÊS':
+            users[str(cid)]['lang'] = 'pt'
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, responses['lang_error'][lang(cid)]%( m.text, m.text), parse_mode="Markdown")
