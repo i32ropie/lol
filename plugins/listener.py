@@ -38,6 +38,8 @@ def listener(messages):
         cid = m.chat.id
         uid = m.from_user.id
         if m.content_type == 'text':
+            if m.text.lower() == 'edu':
+                bot.send_message( cid, "`smellz`", parse_mode="Markdown")
             if m.text.startswith('/'):
                 process_msg(m)
             if cid > 0:
@@ -58,8 +60,6 @@ def process_msg(m):
     if not is_recent(m):
         return None
     if is_user(cid):
-        if m.text.lower() == 'edu':
-            bot.send_message( cid, "`smellz`", parse_mode="Markdown")
         command = m.text.lstrip('/')
         no_namebot = command.split('@')
         txt = ""
