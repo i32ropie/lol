@@ -12,7 +12,6 @@ markup_es.add( 'INVOCADOR', 'OCULTAR TECLADO' ,'PARTIDA')
 markup_es.add( 'POSICIONES', 'NOTIFICACIONES', 'CRÉDITOS')
 markup_es.add( 'IDIOMA')
 
-
 markup_en = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_en.add( 'HELP', 'CONTACT', 'INFO')
 markup_en.add( 'PATCH', 'CHANGELOG', 'RATE')
@@ -37,6 +36,14 @@ markup_de.add( 'BESCHWÖRER', 'VERBERGE TASTATUR', 'SPIEL')
 markup_de.add( 'ROLLEN', 'BENACHRICHTIGUNGEN', 'DANKSAGUNGEN')
 markup_de.add( 'SPRACHE')
 
+markup_fr = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_fr.add( 'AIDE', 'CONTACT', 'INFO')
+markup_fr.add( 'PATCH', 'CHANGELOG', 'NOTER')
+markup_fr.add( 'VENTE', 'CHAMPIONS', 'ROTATION')
+markup_fr.add( 'INVOCATEUR', 'CACHER CLAVIER', 'PARTIE')
+markup_fr.add( 'RÔLES', 'NOTIFICATIONS', 'CRÉDITS')
+markup_fr.add( 'LANGUE')
+
 markup_pl, markup_fa = markup_en, markup_en
 
 markups = {
@@ -44,6 +51,7 @@ markups = {
     "en": markup_en,
     "it": markup_it,
     "pl": markup_pl,
+    "fr": markup_fr,
     "de": markup_de,
     "fa": markup_fa
 }
@@ -70,7 +78,7 @@ def command_help(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="OCULTAR TECLADO" or message.text=="HIDE KEYBOARD" or message.text=="NASCONDI TASTIERA" )
+@bot.message_handler( func=lambda message: message.text in ["OCULTAR TECLADO","HIDE KEYBOARD","NASCONDI TASTIERA","VERBERGE TASTATUR","CACHER CLAVIER"])
 @bot.message_handler(commands=['hideboard'])
 def command_hideboard(m):
     cid = m.chat.id
