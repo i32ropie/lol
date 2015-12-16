@@ -11,7 +11,7 @@ def command_usuarios(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        x = {'usuarios':{'total':0,'es':0,'en':0,'it':0,'de':0,'pl':0,'pt':0,'fr':0},'grupos':{'total':0,'es':0,'en':0,'it':0,'de':0,'pl':0,'pt':0,'fr':0}}
+        x = {'usuarios':{'total':0,'es':0,'en':0,'it':0,'de':0,'pl':0,'pt':0,'fr':0,'fa':0},'grupos':{'total':0,'es':0,'en':0,'it':0,'de':0,'pl':0,'pt':0,'fr':0,'fa':0}}
         for uid in users:
             if int(uid) > 0:
                 x['usuarios']['total'] += 1
@@ -21,9 +21,9 @@ def command_usuarios(m):
                 x['grupos'][lang(uid)] += 1
         txt = "*Usuarios*: " + str(x['usuarios']['total']) + "\n *-*Español: _" + str(x['usuarios']['es']) + "_\n *-*Inglés: _" \
         + str(x['usuarios']['en']) + "_\n *-*Italiano: _" + str(x['usuarios']['it']) + "_\n *-*Polaco: _" + str(x['usuarios']['pl'])\
-        + "_\n *-*Francés: _" + str(x['usuarios']['fr']) + "_\n *-*Alemán: _" + str(x['usuarios']['de']) + "_\n *-*Portugués: _" + str(x['usuarios']['pt'])\
+        + "_\n *-*Francés: _" + str(x['usuarios']['fr']) + "_\n *-*Alemán: _" + str(x['usuarios']['de']) + "_\n *-*Portugués: _" + str(x['usuarios']['pt']) + "_\n *-*Persa: _" + str(x['usuarios']['fa'])\
         + '_\n\n*Grupos*: ' + str(x['grupos']['total']) + "\n *-*Español: _" + str(x['grupos']['es']) + "_\n *-*Inglés: _" \
         + str(x['grupos']['en']) + "_\n *-*Italiano: _" + str(x['grupos']['it']) + "_\n *-*Polaco: _" + str(x['grupos']['pl'])\
-        + "_\n *-*Francés: _" + str(x['grupos']['fr']) + "_\n *-*Alemán: _" + str(x['grupos']['de']) + "_\n *-*Portugués: _" + str(x['grupos']['pt']) + '_'
+        + "_\n *-*Francés: _" + str(x['grupos']['fr']) + "_\n *-*Alemán: _" + str(x['grupos']['de']) + "_\n *-*Portugués: _" + str(x['grupos']['pt']) + "_\n *-*Persa: _" + str(x['grupos']['fa']) + '_'
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, txt, parse_mode="Markdown")
