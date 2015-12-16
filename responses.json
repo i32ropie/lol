@@ -220,7 +220,7 @@
             "match":"Zeigt Informationen, um nach Spielen zu suchen."
         },
         "pt":{
-            "notify":"Habilita ou desabilita as notificações".,
+            "notify":"Habilita ou desabilita as notificações.",
             "credits":"Créditos do bot.",
             "help":"Ajuda sobre comandos",
             "keyboard":"Mostra o teclado (não disponível em grupos).",
