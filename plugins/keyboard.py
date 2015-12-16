@@ -44,6 +44,7 @@ markup_fr.add( 'INVOCATEUR', 'CACHER CLAVIER', 'PARTIE')
 markup_fr.add( 'RÔLES', 'NOTIFICATIONS', 'CRÉDITS')
 markup_fr.add( 'LANGUE')
 
+markup_pl = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_pl.add( 'POMOC', 'KONTAKT', 'INFO')
 markup_pl.add( 'PATCH', 'CHANGELOG', 'KWALIFIKOWAĆ')
 markup_pl.add( 'WYPRZEDAŻ', 'BOHATEROWIE', 'ROTACJA')
