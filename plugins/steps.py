@@ -96,6 +96,8 @@ def step_lang(m):
             users[str(cid)]['lang'] = 'de'
         elif m.text == 'FRANÇAIS':
             users[str(cid)]['lang'] = 'fr'
+        elif m.text == 'PERSIAN':
+            users[str(cid)]['lang'] = 'fa'
         #elif m.text == 'LANGUAGE':
             #users[str(cid)]['lang'] = 'lng'
         else:
