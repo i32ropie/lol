@@ -8,7 +8,11 @@ locales = {
     "es":"es_ES",
     "en":"en_US",
     "it":"it_IT",
-    "de":"de_DE"
+    "de":"de_DE",
+    "pt":"pt_BR",
+    "pl":"pl_PL",
+    "fr":"fr_FR",
+    "fa":"en_US"
 }
 
 platform = {
