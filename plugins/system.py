@@ -2,6 +2,7 @@
 
 from config import *
 import platform, psutil, subprocess
+from datetime import timedelta
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  rotation.py importado.{/cyan}'))
 
