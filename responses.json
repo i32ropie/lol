@@ -16,7 +16,7 @@
         "it":"Già eri nel nostro data base :)",
         "de":"Du befindest dich bereits in unserer Datenbank :)",
         "pt":"Você já está em nossa base de dados :)",
-        "fr":"Bienvenue sur le @League_of_Legends_bot. Ce bot te permet de consulter tous les champions et leurs skins, te prévient quand des nouvelles offres et rotations de champions sont disponibles, te donne accès aux informations sur les invocateurs et les parties, ainsi qu'un aperçu des matchups (qui est fort/faible contre qui) des champions et bien plus encore dans un futur proche ! :) ",
+        "fr":"Tu étais déjà dans notre base de données :)",
         "fa":"شما الان عضو بات هستید :)",
         "pl":"Już jesteś w naszej bazie danych :)"
     },
@@ -55,7 +55,7 @@
     },
     "help_1":{
         "es":"El bot dispone de los siguientes comandos:",
-        "en":"The bot has de following commands:",
+        "en":"The bot has the following commands:",
         "it":"Il bot dispone dei seguenti comandi:",
         "de":"Der Bot verfügt über folgende Kommandos:",
         "pt":"O bot possui os seguintes comandos:",
@@ -462,7 +462,7 @@
         "it":"Salve, puoi aiutare enormemente il bot votandolo con ⭐️⭐️⭐️⭐️⭐️ nel seguente link:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nGrazie mille! ^^",
         "de":"Hallo, du kannst dem Bot eine große Hilfe sein, indem du ihn mit ⭐️⭐️⭐️⭐️⭐️ im folgenden Link bewertest:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nVielen Dank! ^^",
         "pt":"Olá, você pode ajudar o bot avaliando com ⭐️⭐️⭐️⭐️⭐️ no seguinte link\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nMuito Obrigado! ^^ ",
-        "fr":"Salut, tu peux aider énormément le bot en le notant avec ⭐️⭐️⭐️⭐️⭐️ via le lien suivant:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nThanks a lot! ^^",
+        "fr":"Salut, tu peux aider énormément le bot en le notant avec ⭐️⭐️⭐️⭐️⭐️ via le lien suivant:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nMerci beaucoup ! ^^",
         "fa":"سلام, شما میتونید برای کمک به بات از طریق لینک پایین  ⭐️⭐️⭐️⭐️⭐️ بدید:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nخیلی ممنونیم! ^^",
         "pl":"Witaj, możesz wspomóc bota oceniając go ⭐️⭐️⭐️⭐️⭐️ pod następującym linkiem:\nhttps://telegram.me/storebot?start=league_of_legends_bot\n\nBardzo dziękuję! ^^"
     },
@@ -752,7 +752,7 @@
             "it":"Resist. magica",
             "de":"Magie resistenz",
             "pt":"Resistência Mágica",
-            "fr":"Resistence Magique",
+            "fr":"Résistance Magique",
             "fa":"مقاومت در برابر قدرت های جادویی",
             "pl":"Odporność na magię"
         }
@@ -1014,3 +1014,4 @@
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34"
     }
 }
+
