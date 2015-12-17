@@ -179,8 +179,11 @@ def champ_info( chmp, cid, key):
     i = 0
     j = ['Q','W','E','R']
     for habilidad in chmp['spells']:
-        txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
-        txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
-        txt += '\n_' + habilidad['description'].replace('<br>','\n') + '_' + '\n'
-        i += 1
+        if i in range(4):
+            txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
+            txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
+            txt += '\n_' + habilidad['description'].replace('<br>','\n') + '_' + '\n'
+            i += 1
+        else:
+            break
     return txt
