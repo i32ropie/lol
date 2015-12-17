@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  sales.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text=="OFERTA" or message.text=="SALE" or message.text=="OFFERTA")
+@bot.message_handler( func=lambda message: message.text in ['PROMOÇÕES','WYPRZEDAŻ','OFERTA','SALE','OFFERTA','ANGEBOTE','VENTE'])
 @bot.message_handler(commands=['sale'])
 def command_sale(m):
     cid = m.chat.id

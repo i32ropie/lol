@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  help.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text=="AYUDA" or message.text=="HELP" or message.text=="AIUTO")
+@bot.message_handler( func=lambda message: message.text in ['AJUDA','POMOC','AYUDA','HELP','AIUTO','HILFE','AIDE'])
 @bot.message_handler( commands=['help'] )
 def command_help(m):
     cid = m.chat.id

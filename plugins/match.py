@@ -8,7 +8,11 @@ locales = {
     "es":"es_ES",
     "en":"en_US",
     "it":"it_IT",
-    "de":"de_DE"
+    "de":"de_DE",
+    "pt":"pt_BR",
+    "pl":"pl_PL",
+    "fr":"fr_FR",
+    "fa":"en_US"
 }
 
 platform = {
@@ -24,7 +28,7 @@ platform = {
     "oce":"OC1"
 }
 
-@bot.message_handler( func=lambda message: message.text=="PARTIDA" or message.text=="MATCH" or message.text=="PARTITA" )
+@bot.message_handler( func=lambda message: message.text in ['MECZ','PARTIDA','MATCH','PARTITA','SPIEL','PARTIE'])
 @bot.message_handler(commands=['match'])
 def command_match(m):
     cid = m.chat.id

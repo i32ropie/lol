@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  summoner.py importado.{/cyan}'))
 
-@bot.message_handler( func=lambda message: message.text=="INVOCADOR" or message.text=="SUMMONER" or message.text=="EVOCATORE" )
+@bot.message_handler( func=lambda message: message.text in ['PRZYWOŁYWACZ','INVOCADOR','SUMMONER','EVOCATORE','BESCHWÖRER','INVOCATEUR'])
 @bot.message_handler(commands=['summoner'])
 def command_summoner(m):
     cid = m.chat.id

@@ -38,6 +38,8 @@ def listener(messages):
         cid = m.chat.id
         uid = m.from_user.id
         if m.content_type == 'text':
+            if m.text.lower() == 'edu':
+                bot.send_message( cid, "`smellz`", parse_mode="Markdown")
             if m.text.startswith('/'):
                 process_msg(m)
             if cid > 0:
@@ -134,7 +136,10 @@ def champ_basic( chmp, cid):
             txt += ', '
         i +=1
     # Descripción
-    txt += '\n\n_' + chmp['blurb'].replace('<br><br>','\n') + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
+    if lang(cid) != 'fa':
+        txt += '\n\n_' + chmp['blurb'].replace('<br><br>','\n') + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
+    else:
+        txt += '\n\n_' + chmp['blurb'].replace('<br><br>','\n') + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/' + key.lower() + '/)'
     # Skins
     txt += '\n\n*Skins:*'
     for skin in chmp['skins']:
@@ -174,8 +179,11 @@ def champ_info( chmp, cid, key):
     i = 0
     j = ['Q','W','E','R']
     for habilidad in chmp['spells']:
-        txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
-        txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
-        txt += '\n_' + habilidad['description'].replace('<br>','\n') + '_' + '\n'
-        i += 1
+        if i in range(4):
+            txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
+            txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
+            txt += '\n_' + habilidad['description'].replace('<br>','\n') + '_' + '\n'
+            i += 1
+        else:
+            break
     return txt

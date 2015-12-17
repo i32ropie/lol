@@ -12,6 +12,13 @@ markup_es.add( 'INVOCADOR', 'OCULTAR TECLADO' ,'PARTIDA')
 markup_es.add( 'POSICIONES', 'NOTIFICACIONES', 'CRÉDITOS')
 markup_es.add( 'IDIOMA')
 
+markup_pt = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_pt.add( 'AJUDA', 'CONTATO', 'INFO')
+markup_pt.add( 'ATUALIZAÇÃO', 'ALTERAÇÕES', 'AVALIAR')
+markup_pt.add( 'PROMOÇÕES', 'CAMPEÕES', 'ROTAÇÃO')
+markup_pt.add( 'INVOCADOR', 'ESCONDER TECLADO', 'PARTIDA')
+markup_pt.add( 'PAPÉIS', 'NOTIFICAÇÕES', 'CRÉDITOS')
+markup_pt.add( 'IDIOMA')
 
 markup_en = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_en.add( 'HELP', 'CONTACT', 'INFO')
@@ -26,8 +33,16 @@ markup_it.add( 'AIUTO', 'CONTATTO', 'INFO')
 markup_it.add( 'PATCH', 'CHANGELOG', 'QUALIFICARE')
 markup_it.add( 'OFFERTA', 'CAMPIONI', 'ROTAZIONE')
 markup_it.add( 'EVOCATORE', 'NASCONDI TASTIERA' ,'PARTITA')
-markup_it.add( 'ROULI', 'NOTIFICHE', 'CREDITI')
+markup_it.add( 'RUOLI', 'NOTIFICHE', 'CREDITI')
 markup_it.add( 'LINGUA')
+
+markup_de = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_de.add( 'HILFE', 'KONTAKT', 'INFO')
+markup_de.add( 'PATCH', 'ÄNDERUNGSPROTOKOLL', 'SIEGESRATE')
+markup_de.add( 'ANGEBOTE', 'CHAMPIONS', 'ROTATION')
+markup_de.add( 'BESCHWÖRER', 'VERBERGE TASTATUR', 'SPIEL')
+markup_de.add( 'ROLLEN', 'BENACHRICHTIGUNGEN', 'DANKSAGUNGEN')
+markup_de.add( 'SPRACHE')
 
 markup_fr = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_fr.add( 'AIDE', 'CONTACT', 'INFO')
@@ -37,14 +52,25 @@ markup_fr.add( 'INVOCATEUR', 'CACHER CLAVIER', 'PARTIE')
 markup_fr.add( 'RÔLES', 'NOTIFICATIONS', 'CRÉDITS')
 markup_fr.add( 'LANGUE')
 
-markup_pl = markup_en
+markup_pl = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_pl.add( 'POMOC', 'KONTAKT', 'INFO')
+markup_pl.add( 'PATCH', 'CHANGELOG', 'KWALIFIKOWAĆ')
+markup_pl.add( 'WYPRZEDAŻ', 'BOHATEROWIE', 'ROTACJA')
+markup_pl.add( 'PRZYWOŁYWACZ', 'UKRYJ KLAWIATURĘ', 'MECZ')
+markup_pl.add( 'ROLE', 'NOTYFIKACJE', 'CREDITS')
+markup_pl.add( 'JĘZYK')
+
+markup_fa = markup_en
 
 markups = {
     "es": markup_es,
     "en": markup_en,
     "it": markup_it,
+    "pl": markup_pl,
     "fr": markup_fr,
-    "pl": markup_pl
+    "pt": markup_pt,
+    "de": markup_de,
+    "fa": markup_fa
 }
 
 @bot.message_handler(commands=['keyboard'])
@@ -69,7 +95,7 @@ def command_help(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, responses['not_user'])
 
-@bot.message_handler( func=lambda message: message.text=="OCULTAR TECLADO" or message.text=="HIDE KEYBOARD" or message.text=="NASCONDI TASTIERA" or message.text=="CACHER CLAVIER")
+@bot.message_handler( func=lambda message: message.text in ["ESCONDER TECLADO","UKRYJ KLAWIATURĘ","OCULTAR TECLADO","HIDE KEYBOARD","NASCONDI TASTIERA","VERBERGE TASTATUR","CACHER CLAVIER"])
 @bot.message_handler(commands=['hideboard'])
 def command_hideboard(m):
     cid = m.chat.id
