@@ -10,7 +10,7 @@
 · Der Bot wurde auf Englisch übersetzt. Er ist noch nicht 100% übersetzt aber für den Moment reicht es. Um den Bot übersetzt zu sehen, verwende /help
 · Personalisierte Tastaturen für private Chats wurden erstellt. Spanisch: /teclado  Englisch: /keyboard
 
-*[01-10-15]**
+*[01-10-15]*
 · /Kindred und der Skin /Kindred\_1 wurden hinzugefügt.
 · Die Skins /Alistar\_8 /Jax\_9 /Karma\_5 /Malphite\_7 /Olaf\_5 wurden hinzugefügt.
 · Die Skins /Aatrox\_3 /Garen\_7 /Quinn\_3 wurden erneuert.
