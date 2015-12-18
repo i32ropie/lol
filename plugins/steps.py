@@ -32,7 +32,7 @@ def step_start(m):
             users[str(cid)] = {"lang":"pt", "banned": False, "notify": True}
         else:
             bot.send_chat_action(cid, 'typing')
-            bot.send_message( cid, responses['lang_error'][lang(cid)]%( m.text, m.text), parse_mode="Markdown")
+            bot.send_message( cid, responses['lang_error']['en']%( m.text, m.text), parse_mode="Markdown")
             return None
         with open( 'usuarios.json', 'w') as f:
             json.dump( users, f)
