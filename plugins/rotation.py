@@ -22,6 +22,7 @@ def command_rotation(m):
             txt += f.read()
         bot.send_chat_action(cid, 'typing')
         #bot.send_photo( cid, open('extra_data/rotation.jpg','rb'))
+        bot.send_photo( cid, extra['rotation'])
         bot.send_message( cid, txt)
     else:
         bot.send_message( cid, responses['not_user'])

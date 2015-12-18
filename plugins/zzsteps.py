@@ -132,10 +132,14 @@ def step_update_rotation_text(m):
 def step_update_rotation_pic(m):
     cid = m.chat.id
     userStep[cid] = 0
-    file_info = bot.get_file(m.photo[-1].file_id)
-    downloaded_file = bot.download_file(file_info.file_path)
-    with open('extra_data/rotation.jpg','wb') as new_file:
-        new_file.write(downloaded_file)
+    file_id = m.photo[-1].file_id
+    extra['rotation'] = file_id
+    with open('extra_data/extra.json','w') as f:
+        json.dump(extra,f)
+    #file_info = bot.get_file(m.photo[-1].file_id)
+    #downloaded_file = bot.download_file(file_info.file_path)
+    #with open('extra_data/rotation.jpg','wb') as new_file:
+        #new_file.write(downloaded_file)
     bot.send_chat_action(cid, 'typing')
     bot.send_message( cid, responses['update_rotation_pic_2'])
 
@@ -153,10 +157,14 @@ def step_update_sale_text(m):
 def step_update_sale_pic(m):
     cid = m.chat.id
     userStep[cid] = 0
-    file_info = bot.get_file(m.photo[-1].file_id)
-    downloaded_file = bot.download_file(file_info.file_path)
-    with open('extra_data/sale.jpg','wb') as new_file:
-        new_file.write(downloaded_file)
+    file_id = m.photo[-1].file_id
+    extra['sale'] = file_id
+    with open('extra_data/extra.json','w') as f:
+        json.dump(extra,f)
+    #file_info = bot.get_file(m.photo[-1].file_id)
+    #downloaded_file = bot.download_file(file_info.file_path)
+    #with open('extra_data/sale.jpg','wb') as new_file:
+        #new_file.write(downloaded_file)
     bot.send_chat_action(cid, 'typing')
     bot.send_message( cid, responses['update_sale_pic_2'])
 
