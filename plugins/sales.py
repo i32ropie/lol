@@ -21,7 +21,7 @@ def command_sale(m):
         with open('extra_data/sale.txt', 'rt') as f:
             txt += f.read()
         bot.send_chat_action(cid, 'typing')
-        bot.send_photo( cid, open('extra_data/sale.jpg','rb'))
+        #bot.send_photo( cid, open('extra_data/sale.jpg','rb'))
         bot.send_message( cid, txt)
     else:
         bot.send_message( cid, responses['not_user'])
