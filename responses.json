@@ -938,7 +938,7 @@
         "en":"*Name*: _%s_\n*Level*: _%s_\n\n*Normal games:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_",
         "it":"*Nome*: _%s_\n*Livello*: _%s_\n\n*Partite normali:\n\tVittorie 5c5*: _%s_\n\t*Vittorie 3c3*: _%s_\n\t*Vittorie Aram*: _%s_",
         "de":"*Name*: _%s_\n*Stufe*: _%s_\n\n*Normale Spiele:\n\tSiege im 5 gegen 5*: _%s_\n\t*Siege im 3 gegen 3*: _%s_\n\t*Siege auf ARAM*: _%s_",
-        "pt":"Nome*: _%s_\n*Nivel*: _%s_\n\n*Partidas normais: \n\tVitórias 5x5*: _%s_\n\t*Vitórias 3x3*: _%s_\n\t*Vitórias Aram*: _%s_",
+        "pt":"*Nome*: _%s_\n*Nivel*: _%s_\n\n*Partidas normais: \n\tVitórias 5x5*: _%s_\n\t*Vitórias 3x3*: _%s_\n\t*Vitórias Aram*: _%s_",
         "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n\n*Parties normales:\n\t5v5 victoires*: _%s_\n\t*3v3 victoires*: _%s_\n\t*Aram victoires*: _%s_",
         "fa":"*اسم*: _%s_\n*لِوِل*: _%s_\n\n*بازی های نرمال:\n\t5v5 برد ها*: _%s_\n\t*3v3 بردها*: _%s_\n\t*برد ها در آرام*: _%s_",
         "pl":"*Imię*: _%s_\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_"
@@ -1014,4 +1014,3 @@
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34"
     }
 }
-
