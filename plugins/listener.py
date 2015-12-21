@@ -38,6 +38,8 @@ def listener(messages):
         if m.content_type == 'text':
             if m.text.lower() == 'edu':
                 bot.send_message( cid, "`smellz`", parse_mode="Markdown")
+            if m.text.lower() == 'raina':
+                bot.send_message( cid, "🌧🌧🌧")
             if m.text.startswith('/'):
                 process_msg(m)
             if cid > 0:
