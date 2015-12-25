@@ -36,7 +36,8 @@ easter_eggs = {
     "igriv":"vir",
     "loma":"Best streamer EUW: http://www.twitch.tv/lomavid",
     "lomavid":"Best streamer EUW: http://www.twitch.tv/lomavid",
-    "lomadien":"Best streamer EUW: http://www.twitch.tv/lomavid"
+    "lomadien":"Best streamer EUW: http://www.twitch.tv/lomavid",
+    "mega":"flipetis"
 }
 
 with open('usuarios.json') as f:
