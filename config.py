@@ -26,6 +26,19 @@ admins = extra['admins']
 
 banneds = []
 
+easter_eggs = {
+    "edu":"`smellz`",
+    "raina":"🌧🌧🌧",
+    "rapsodas":"rapsidas",
+    "alin":"nigro",
+    "abu":"matas",
+    "vir":"igriv",
+    "igriv":"vir",
+    "loma":"Best streamer EUW: http://www.twitch.tv/lomavid",
+    "lomavid":"Best streamer EUW: http://www.twitch.tv/lomavid",
+    "lomadien":"Best streamer EUW: http://www.twitch.tv/lomavid"
+}
+
 with open('usuarios.json') as f:
     users = json.load(f)
 

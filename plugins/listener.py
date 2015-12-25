@@ -36,10 +36,8 @@ def listener(messages):
         cid = m.chat.id
         uid = m.from_user.id
         if m.content_type == 'text':
-            if m.text.lower() == 'edu':
-                bot.send_message( cid, "`smellz`", parse_mode="Markdown")
-            if m.text.lower() == 'raina':
-                bot.send_message( cid, "🌧🌧🌧")
+            if m.text.lower() in easter_eggs:
+                bot.send_message( cid, easter_eggs[m.text.lower()], parse_mode="Markdown")
             if m.text.startswith('/'):
                 process_msg(m)
             if cid > 0:
