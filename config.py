@@ -39,7 +39,8 @@ easter_eggs = {
     "lomadien":"Best streamer EUW: http://www.twitch.tv/lomavid",
     "mega":"flipetis",
     "putaama":"xeha",
-    "xeha":"putaama"
+    "xeha":"putaama",
+    "zewi":"Fanático de lo homosexual"
 }
 
 with open('usuarios.json') as f:
