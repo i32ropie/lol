@@ -37,7 +37,7 @@ def listener(messages):
         uid = m.from_user.id
         if m.content_type == 'text':
             if m.text.lower() in easter_eggs:
-                bot.send_message( cid, easter_eggs[m.text.lower()], parse_mode="Markdown")
+                bot.send_message( cid, easter_eggs[m.text.lower()], reply_to_message_id=m.message_id, parse_mode="Markdown")
             if m.text.startswith('/'):
                 process_msg(m)
             if cid > 0:
