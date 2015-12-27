@@ -15,7 +15,7 @@ languages = {
     "ITALIANO":"it",
     "POLSKI":"pl",
     "DEUTSCH":"de",
-    "FRANÇAIS":"fr"
+    "FRANÇAIS":"fr",
     "PERSIAN":"fa",
     "PORTUGUÊS":"pt"
 }
