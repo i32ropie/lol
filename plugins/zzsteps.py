@@ -26,22 +26,6 @@ def step_start(m):
     if m.content_type == 'text':
         if m.text in languages:
             users[str(cid)] = {"lang":languages[m.text], "banned": False, "notify": True, "server":"", "summoner":""}
-        # if m.text == 'ESPAÑOL':
-        #     users[str(cid)] = {"lang":"es", "banned": False, "notify": True, "server":"", "summoner":""}
-        # elif m.text == 'ENGLISH':
-        #     users[str(cid)] = {"lang":"en", "banned": False, "notify": True, "server":"", "summoner":""}
-        # elif m.text == 'ITALIANO':
-        #     users[str(cid)] = {"lang":"it", "banned": False, "notify": True, "server":"", "summoner":""}
-        # elif m.text == 'POLSKI':
-        #     users[str(cid)] = {"lang":"pl", "banned": False, "notify": True, "server":"", "summoner":""}
-        # elif m.text == 'DEUTSCH':
-        #     users[str(cid)] = {"lang":"de", "banned": False, "notify": True, "server":"", "summoner":""}
-        # elif m.text == 'FRANÇAIS':
-        #     users[str(cid)] = {"lang":"fr", "banned": False, "notify": True, "server":"", "summoner":""}
-        # elif m.text == 'PERSIAN':
-        #     users[str(cid)] = {"lang":"fa", "banned": False, "notify": True, "server":"", "summoner":""}
-        # elif m.text == 'PORTUGUÊS':
-        #     users[str(cid)] = {"lang":"pt", "banned": False, "notify": True, "server":"", "summoner":""}
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, responses['lang_error']['en']%( m.text, m.text), parse_mode="Markdown")
@@ -106,22 +90,6 @@ def step_lang(m):
     if m.content_type == 'text':
         if m.text in languages:
             users[str(cid)]['lang'] = languages[m.text]
-        # if m.text == 'ESPAÑOL':
-        #     users[str(cid)]['lang'] = 'es'
-        # elif m.text == 'ENGLISH':
-        #     users[str(cid)]['lang'] = 'en'
-        # elif m.text == 'ITALIANO':
-        #     users[str(cid)]['lang'] = 'it'
-        # elif m.text == 'POLSKI':
-        #     users[str(cid)]['lang'] = 'pl'
-        # elif m.text == 'DEUTSCH':
-        #     users[str(cid)]['lang'] = 'de'
-        # elif m.text == 'FRANÇAIS':
-        #     users[str(cid)]['lang'] = 'fr'
-        # elif m.text == 'PERSIAN':
-        #     users[str(cid)]['lang'] = 'fa'
-        # elif m.text == 'PORTUGUÊS':
-        #     users[str(cid)]['lang'] = 'pt'
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, responses['lang_error'][lang(cid)]%( m.text, m.text), parse_mode="Markdown")
