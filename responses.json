@@ -1012,5 +1012,45 @@
         "fr":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "fa":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34"
+    },
+    "twitch_1":{
+        "es":"Escribe tu nombre de twitch.",
+        "en":"Write your twitch name.",
+        "it":"Write your twitch name.",
+        "de":"Write your twitch name.",
+        "pt":"Write your twitch name.",
+        "fr":"Write your twitch name.",
+        "fa":"Write your twitch name.",
+        "pl":"Write your twitch name."
+    },
+    "twitch_2":{
+        "es":"Comando solo válido en conversaciones privadas.",
+        "en":"Command only available for private chats.",
+        "it":"Command only available for private chats.",
+        "de":"Command only available for private chats.",
+        "pt":"Command only available for private chats.",
+        "fr":"Command only available for private chats.",
+        "fa":"Command only available for private chats.",
+        "pl":"Command only available for private chats."
+    },
+    "twitch_3":{
+        "es":"¡Añadido! Tus lomos serán añadidos a lo largo del stream ^^",
+        "en":"Added! Your lomos will be added along the stream ^^",
+        "it":"Added! Your lomos will be added along the stream ^^",
+        "de":"Added! Your lomos will be added along the stream ^^",
+        "pt":"Added! Your lomos will be added along the stream ^^",
+        "fr":"Added! Your lomos will be added along the stream ^^",
+        "fa":"Added! Your lomos will be added along the stream ^^",
+        "pl":"Added! Your lomos will be added along the stream ^^"
+    },
+    "twitch_4":{
+        "es":"Nombre actualizado ^^",
+        "en":"Name updated ^^",
+        "it":"Name updated ^^",
+        "de":"Name updated ^^",
+        "pt":"Name updated ^^",
+        "fr":"Name updated ^^",
+        "fa":"Name updated ^^",
+        "pl":"Name updated ^^"
     }
 }

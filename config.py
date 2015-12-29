@@ -49,6 +49,9 @@ with open('usuarios.json') as f:
 with open('responses.json') as f:
     responses = json.load(f)
 
+with open('twitch.json') as f:
+    twitch_users = json.load(f)
+
 userStep = dict()
 
 def is_recent(m):
