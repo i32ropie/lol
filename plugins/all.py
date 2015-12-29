@@ -30,8 +30,9 @@ def command_all_es(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, "Error, mensaje vacío.")
         else:
-            for x in users:
-                if users[str(x)]['notify'] and not is_banned(x) and lang(x) == 'es':
+            usuarios = users
+            for x in usuarios:
+                if usuarios[str(x)]['notify'] and not is_banned(x) and lang(x) == 'es':
                     try:
                         bot.send_chat_action( int(uid), 'typing')
                         bot.send_message( int(x), txt)
@@ -71,8 +72,9 @@ def command_all_en(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_message( cid, "Error, mensaje vacío.")
         else:
-            for uid in users:
-                if users[str(uid)]['notify'] and not is_banned(uid) and lang(uid) != 'es':
+            usuarios = users
+            for uid in usuarios:
+                if usuarios[str(uid)]['notify'] and not is_banned(uid) and lang(uid) != 'es':
                     try:
                         bot.send_chat_action( int(uid), 'typing')
                         bot.send_message( int(uid), txt)
