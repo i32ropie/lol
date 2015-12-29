@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  twitch.py importado.{/cyan}'))
 
-@bot.message_handler(commands=['twitch'])
+@bot.message_handler(commands=['tw'])
 def command_twitch(m):
     cid = m.chat.id
     uid = m.from_user.id
