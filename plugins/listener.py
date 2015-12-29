@@ -122,8 +122,10 @@ def process_msg(m):
 def champ_basic( chmp, cid):
     if chmp['key'] in backward:
         key = backward[chmp['key']]
+        key2 = chmp['key']
     else:
         key = chmp['key']
+        key2 = chmp['key']
     txt = '_'+chmp['name'] + ', ' + chmp['title'] + '_'
     # Roles
     txt += '\n⁣  *' + responses['champ_info']['tags'][lang(cid)] + '*: '
@@ -143,6 +145,7 @@ def champ_basic( chmp, cid):
     for skin in chmp['skins']:
         if skin['num'] != 0:
             txt += '\n⁣  /' + key + '\_' + str(skin['num']) + ': ' + skin['name']
+    txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     #txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
     txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
     return txt
