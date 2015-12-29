@@ -2,7 +2,7 @@
 
 Documentation of my [League of Legends](http://telegram.me/league_of_legends_bot) Bot for Telegram.
 
-# Requirements
+<!-- # Requirements
 
 ### [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
 
@@ -10,7 +10,48 @@ Documentation of my [League of Legends](http://telegram.me/league_of_legends_bot
 
 ### [Riot-Watcher](https://github.com/pseudonym117/Riot-Watcher)
 
-### [ColorClass](https://github.com/Robpol86/colorclass)
+### [ColorClass](https://github.com/Robpol86/colorclass) -->
+
+# Getting Started
+
+First of all, this bot is running in Python 3 so you need to install it and also pip for installing the modules.
+```bash
+sudo apt-get install python3 python3-pip
+```
+
+Then, you need the used modules.
+```markdown
+Tip: Type `pip` and double-tab to see different possibilities, maybe you need to need to use `pip-3.X` or only `pip`.
+```
+```bash
+sudo pip3 install colorclass
+sudo pip3 install pyTelegramBotAPI
+sudo pip3 install riotwatcher
+sudo pip3 install psutil
+```
+
+Then, you need an `API key` from here https://developer.riotgames.com/ and a `Token` from http://telegram.me/BotFather.
+
+When you have the `API key` and the Token, paste them into `extra_data/extra.json.sample` and delete the `.sample` from the filename.
+
+Remove also `.sample` from `usuarios.json.sample`.
+
+Also, the `extra_data/file_ids.json` won't work for you, so you need to download the pictures and create your own `file_ids.json` file. For this, go to http://ddragon.leagueoflegends.com/tool/ and download the `dragontail-VERSION.tgz`. Extract the pics (located at `img/champion/splash/`) and use this little script in the same folder as the extracted pics are:
+```bash
+wget https://gist.githubusercontent.com/i32ropie/895ce1c9e4cb3a822c19/raw/d975557a5511fc6488a70a08505409daa39f4f65/script.py
+# Now edit the script and add your personal ID and your Token to it, I'll use nano for this. Tip: To leave&save use ctrl+X, Y, ENTER.
+nano script.py
+python3 script.py
+```
+
+Once you have your `file_ids.json`, replace the one at `extra_data` with yours.
+
+We are almost done, now go to the project folder and create a new folder called `logs`.
+```bash
+mkdir logs
+```
+
+Finally, to run our bot we just need to type: `./LCS_bot.py`.
 
 # Commands
 
