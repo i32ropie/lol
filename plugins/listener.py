@@ -135,6 +135,7 @@ def champ_basic( chmp, cid):
         if i == 0:
             txt += ', '
         i +=1
+    txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     # Descripción
     if lang(cid) != 'fa':
         txt += '\n\n_' + chmp['blurb'].replace('<br><br>','\n') + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
@@ -145,7 +146,6 @@ def champ_basic( chmp, cid):
     for skin in chmp['skins']:
         if skin['num'] != 0:
             txt += '\n⁣  /' + key + '\_' + str(skin['num']) + ': ' + skin['name']
-    txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     #txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
     txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
     return txt
