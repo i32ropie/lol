@@ -31,6 +31,7 @@ def command_all_es(m):
             bot.send_message( cid, "Error, mensaje vacío.")
         else:
             usuarios = users
+            userStep[0] = 'all'
             for x in usuarios:
                 if usuarios[str(x)]['notify'] and not is_banned(x) and lang(x) == 'es':
                     try:
@@ -56,6 +57,7 @@ def command_all_es(m):
                 f.write(aux)
             bot.send_chat_action(cid, 'typing')
             bot.send_document( cid, open('tmp.txt' ,'rt'))
+            userStep[0] = 0
 
 @bot.message_handler(commands=['all_en'])
 def command_all_en(m):
@@ -73,6 +75,7 @@ def command_all_en(m):
             bot.send_message( cid, "Error, mensaje vacío.")
         else:
             usuarios = users
+            userStep[0] = 'all'
             for uid in usuarios:
                 if usuarios[str(uid)]['notify'] and not is_banned(uid) and lang(uid) != 'es':
                     try:
@@ -98,3 +101,10 @@ def command_all_en(m):
                 f.write(aux)
             bot.send_chat_action(cid, 'typing')
             bot.send_document( cid, open('tmp.txt' ,'rt'))
+            userStep[0] = 0
+
+@bot.message_handler(commands=['test'])
+def command_test(m):
+    userStep[0] = 'asd'
+    time.sleep(10)
+    userStep[0] = 0

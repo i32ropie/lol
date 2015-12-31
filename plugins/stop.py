@@ -4,7 +4,7 @@ from config import *
 
 print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  stop.py importado.{/cyan}'))
 
-@bot.message_handler(commands=['stop'])
+@bot.message_handler(commands=['stop'], func=lambda msg: next_step_handler(0) == 0)
 def command_stop(m):
     cid = m.chat.id
     if not is_recent(m):
