@@ -7,7 +7,7 @@ print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup.add('ESPAÑOL','ENGLISH','ITALIANO','POLSKI','DEUTSCH','FRANÇAIS','PORTUGUÊS','PERSIAN')
 
-@bot.message_handler(commands=['start'])
+@bot.message_handler(commands=['start'], func=lambda msg: next_step_handler(0) == 0)
 def command_start(m):
     cid = m.chat.id
     uid = m.from_user.id

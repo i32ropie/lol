@@ -36,6 +36,11 @@ def listener(messages):
         cid = m.chat.id
         uid = m.from_user.id
         if m.content_type == 'text':
+            if is_banned(uid) or is_banned(cid):
+                if not extra['muted']:
+                    bot.send_chat_action(cid, 'typing')
+                    bot.reply_to( m, responses['banned'])
+                return None
             if m.text.lower() in easter_eggs:
                 bot.send_message( cid, easter_eggs[m.text.lower()], reply_to_message_id=m.message_id, parse_mode="Markdown")
             if m.text.startswith('/'):
