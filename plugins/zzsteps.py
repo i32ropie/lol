@@ -159,15 +159,3 @@ def step_update_patch(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message( cid, "Actualizado *patch_" + userStep[cid].split('_')[1] + ".txt*", parse_mode="Markdown")
         userStep[cid] = 0
-
-@bot.message_handler(func=lambda msg: next_step_handler(msg.chat.id) == 'twitch')
-def step_twitch(m):
-    cid = m.chat.id
-    if str(cid) not in twitch_users:
-        bot.send_message( cid, responses['twitch_3'][lang(cid)])
-    else:
-        bot.send_message( cid, responses['twitch_4'][lang(cid)])
-    twitch_users[str(cid)] = m.text
-    with open('twitch.json', 'w') as f:
-        json.dump(twitch_users, f)
-    userStep[cid] = 0
