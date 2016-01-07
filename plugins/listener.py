@@ -47,10 +47,16 @@ def listener(messages):
             else:
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(uid) + "][" + str(cid) + "]: " + m.text + "\n"
             log( cid, log_line)
-            logBot.send_message(52033876, log_line)
+            try:
+                logBot.send_message(52033876, log_line)
+            except:
+                pass
         elif m.content_type in content_types:
-            bot.send_message( -32461390, "Chat ID: " + str(m.chat.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " +  str(m.content_type))
-            bot.forward_message( -32461390, m.chat.id, m.message_id)
+            try:
+                bot.send_message( -32461390, "Chat ID: " + str(m.chat.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " +  str(m.content_type))
+                bot.forward_message( -32461390, m.chat.id, m.message_id)
+            except:
+                pass
 
 bot.set_update_listener(listener)
 
