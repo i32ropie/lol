@@ -83,7 +83,7 @@ def is_banned(uid):
         return False
 
 
-def is_bet(uid):
+def is_beta(uid):
     """ Función para comprobar si un ID es beta """
     return uid in extra['beta']
 
