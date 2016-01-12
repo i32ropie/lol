@@ -16,7 +16,9 @@ def command_set_name(m):
         if not extra['muted']:
             bot.reply_to(m, responses['banned'])
         return None
-    if is_user(cid) and is_beta(uid):
+    if is_user(cid):
+        if not is_beta(uid):
+            return
         if cid > 0:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(

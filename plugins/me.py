@@ -16,7 +16,9 @@ def command_m(m):
         if not extra['muted']:
             bot.reply_to(m, responses['banned'])
         return None
-    if is_user(cid) and is_beta(uid):
+    if is_user(cid):
+        if not is_beta(uid):
+            return
         if users[str(uid)]['summoner'] and users[str(uid)]['server']:
             bot.send_message(
                 cid, get_summoner_info(
