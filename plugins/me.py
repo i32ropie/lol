@@ -3,80 +3,27 @@
 from config import *
 
 print(Color(
-    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  summoner.py importado.{/cyan}'))
+    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  .py importado.{/cyan}'))
 
 
-@bot.message_handler(
-    func=lambda message: message.text in [
-        'PRZYWOŁYWACZ',
-        'INVOCADOR',
-        'SUMMONER',
-        'EVOCATORE',
-        'BESCHWÖRER',
-        'INVOCATEUR'])
-@bot.message_handler(commands=['summoner'])
-def command_summoner(m):
+@bot.message_handler(commands=['me'])
+def command_m(m):
     cid = m.chat.id
     uid = m.from_user.id
     if is_banned(uid):
         if not extra['muted']:
-            bot.send_chat_action(cid, 'typing')
             bot.reply_to(m, responses['banned'])
         return None
-    if is_user(cid):
-        txt = responses['summoner_1'][lang(cid)]
-        for region in ['euw', 'eune', 'br', 'na',
-                       'las', 'lan', 'kr', 'tr', 'ru', 'oce']:
-            txt += '\n/' + region + \
-                responses['summoner_3'][lang(cid)] + '*' + region.upper() + '*'
-        txt += '\n' + responses['summoner_2'][lang(cid)]
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(cid, txt, parse_mode="Markdown")
-    else:
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(cid, responses['not_user'])
-
-
-@bot.message_handler(
-    func=lambda message: message.text.split(' ')[0].split('@')[0].lower() in [
-        '/euw',
-        '/eune',
-        '/br',
-        '/na',
-        '/las',
-        '/lan',
-        '/kr',
-        '/tr',
-        '/ru',
-        '/oce'])
-def summoner_info(m):
-    cid = m.chat.id
-    uid = m.from_user.id
-    if is_banned(uid):
-        if not extra['muted']:
-            bot.send_chat_action(cid, 'typing')
-            bot.reply_to(m, responses['banned'])
-        return None
-    if is_user(cid):
-        invocador = ' '.join(m.text.split(' ')[1:])
-        region = m.text.lstrip('/').split(' ')[0].split('@')[0].lower()
-        if not invocador:
-            bot.send_chat_action(cid, 'typing')
+    if is_user(cid) and is_beta(uid):
+        if user[str(uid)]['summoner'] and user[str(uid)]['server']:
             bot.send_message(
-                cid, responses['no_summoner'][
-                    lang(cid)] %
-                (region), parse_mode="Markdown")
+                cid, get_summoner_info(
+                    user[
+                        str(uid)]['summoner'], user[
+                        str(uid)]['server'], cid), parse_mode="Markdown")
         else:
-            bot.send_chat_action(cid, 'typing')
-            bot.send_message(
-                cid,
-                get_summoner_info(
-                    invocador,
-                    region,
-                    cid),
-                parse_mode="Markdown")
+            bot.send_message(cid, responses['me_error'][lang(cid)])
     else:
-        bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
 
 

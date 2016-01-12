@@ -973,7 +973,7 @@
         "fa":"*اسم*: _%s_\n*لیگ*: _%s_ _%s_\n*درصد پیروزی*: _%s_\n\n*چمپیون*: _%s_",
         "pl":"*Imię*: _%s_\n*Liga*: %s _%s_\n*Winrate*: _%s_\n\n*Bohater*: _%s_"
     },
-    "match_private":{
+    "private":{
         "es":"Este comando sólo está disponible en chat personal para evitar flood en grupos. Pruébalo en una conversación personal con el bot @League_of_Legends_bot",
         "en":"This command is only available in private chats to avoid flood at groups. Try it in a private chat with the bot @League_of_Legends_bot",
         "it":"Questo comando è disponibile nelle chat private per evitare il flood nei gruppi. Provalo in una chat privata con il bot @League_of_Legends_bot",
@@ -1012,5 +1012,65 @@
         "fr":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "fa":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34"
-    }
+    },
+    "region_1":{
+        "es":"Selecciona tu región de la lista o presiona /cancel para cancelar el comando actual.",
+        "en":"Select your region from the list or press /cancel to cancel the current command.",
+        "it":"-",
+        "de":"-",
+        "pt":"-",
+        "fr":"-",
+        "fa":"-",
+        "pl":"-"
+    },
+    "region_success":{
+        "es":"Región actualizada a: %s",
+        "en":"Region updated to: %s",
+        "it":"-",
+        "de":"-",
+        "pt":"-",
+        "fr":"-",
+        "fa":"-",
+        "pl":"-"
+    },
+    "region_failure":{
+        "es":"Lo siento pero esa región no está disponible.",
+        "en":"I'm sorry but that region is not available.",
+        "it":"-",
+        "de":"-",
+        "pt":"-",
+        "fr":"-",
+        "fa":"-",
+        "pl":"-"
+    },
+    "name_1":{
+        "es":"Introduce tu nombre de invocador.",
+        "en":"Introduce your summoner name.",
+        "it":"-",
+        "de":"-",
+        "pt":"-",
+        "fr":"-",
+        "fa":"-",
+        "pl":"-"
+    },
+    "name_2":{
+        "es":"Tu nombre de invocador ha sido actualizado.",
+        "en":"Your summoner name has been updated.",
+        "it":"-",
+        "de":"-",
+        "pt":"-",
+        "fr":"-",
+        "fa":"-",
+        "pl":"-"
+    },
+    "me_error":{
+        "es":"Para poder utilizar este comando, primero debes usar /set_region y /set_name.",
+        "en":"For being able to use this command, you must use /set_region and /set_name first.",
+        "it":"-",
+        "de":"-",
+        "pt":"-",
+        "fr":"-",
+        "fa":"-",
+        "pl":"-"
+    },
 }

@@ -2,7 +2,9 @@
 
 from config import *
 
-print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  admin.py importado.{/cyan}'))
+print(Color(
+    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  admin.py importado.{/cyan}'))
+
 
 @bot.message_handler(commands=['admin'])
 def command_admin(m):
@@ -31,4 +33,4 @@ Comandos de administración
 /update\_sale\_text - Actualizar texto de ofertas.
 /stats - Información de usuarios del bot.
 """
-        bot.send_message( cid, txt, parse_mode="Markdown")
+        bot.send_message(cid, txt, parse_mode="Markdown")

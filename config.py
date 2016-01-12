@@ -14,7 +14,7 @@ import time
 #          USEFUL FUNCTIONS AND DATAS           #
 #################################################
 
-with open('extra_data/extra.json','r') as f:
+with open('extra_data/extra.json', 'r') as f:
     extra = json.load(f)
 
 bot = telebot.TeleBot(extra['token'])
@@ -24,23 +24,21 @@ lol_api = RiotWatcher(extra['lol_api'])
 
 admins = extra['admins']
 
-banneds = []
-
 easter_eggs = {
-    "edu":"`smellz`",
-    "raina":"🌧🌧🌧",
-    "rapsodas":"rapsidas",
-    "alin":"nigro",
-    "abu":"matas",
-    "vir":"igriv",
-    "igriv":"vir",
-    "loma":"Best streamer EUW: http://www.twitch.tv/lomavid",
-    "lomavid":"Best streamer EUW: http://www.twitch.tv/lomavid",
-    "lomadien":"Best streamer EUW: http://www.twitch.tv/lomavid",
-    "mega":"flipetis",
-    "putaama":"xeha",
-    "xeha":"putaama",
-    "zewi":"Fanático de lo homosexual"
+    "edu": "`smellz`",
+    "raina": "🌧🌧🌧",
+    "rapsodas": "rapsidas",
+    "alin": "nigro",
+    "abu": "matas",
+    "vir": "igriv",
+    "igriv": "vir",
+    "loma": "Best streamer EUW: http://www.twitch.tv/lomavid",
+    "lomavid": "Best streamer EUW: http://www.twitch.tv/lomavid",
+    "lomadien": "Best streamer EUW: http://www.twitch.tv/lomavid",
+    "mega": "flipetis",
+    "putaama": "xeha",
+    "xeha": "putaama",
+    "zewi": "Fanático de lo homosexual"
 }
 
 with open('usuarios.json') as f:
@@ -54,8 +52,10 @@ with open('twitch.json') as f:
 
 userStep = dict()
 
+
 def is_recent(m):
     return (time.time() - m.date) < 5
+
 
 def next_step_handler(uid):
     """ Función para controlar los steps dentro de las diferentes funciones """
@@ -63,14 +63,17 @@ def next_step_handler(uid):
         userStep[uid] = 0
     return userStep[uid]
 
+
 def lang(uid):
     """ Función que devuelve el idioma del usuario """
     return users[str(uid)]['lang']
 
-def log(cid,msg):
+
+def log(cid, msg):
     """ Función que guarda un mensaje en el archivo de log """
-    with open( 'logs/log.' + str(cid) + '.txt', 'a') as f:
+    with open('logs/log.' + str(cid) + '.txt', 'a') as f:
         f.write(msg)
+
 
 def is_banned(uid):
     """ Función para comprobar si un ID está baneado """
@@ -79,13 +82,21 @@ def is_banned(uid):
     else:
         return False
 
+
+def is_bet(uid):
+    """ Función para comprobar si un ID es beta """
+    return uid in extra['beta']
+
+
 def is_user(cid):
     """ Función para comprobar si un ID es usuario """
     return str(cid) in users
 
+
 def is_admin(cid):
     """ Función para comprobar si un ID es admin """
     return int(cid) in admins
+
 
 def isint(s):
     if not s:
@@ -94,10 +105,11 @@ def isint(s):
         return s[1:].isdigit()
     return s.isdigit()
 
-#def upper_first(string):
+# def upper_first(string):
     #vector = list(string)
     #vector[0] = vector[0].upper()
-    #return "".join(vector)
+    # return "".join(vector)
+
 
 def contact_format(m):
     name = m.from_user.first_name
@@ -106,21 +118,24 @@ def contact_format(m):
     uid = str(m.from_user.id)
     msg = m.text
     if cid == uid:
-        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: @" + alias + "\n*Idioma*: _" + lang(cid) + "_\n*ID*: _" + cid + "_\n\n*Mensaje*: _" + msg + "_"
+        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: @" + alias + \
+            "\n*Idioma*: _" + lang(cid) + "_\n*ID*: _" + \
+            cid + "_\n\n*Mensaje*: _" + msg + "_"
     else:
-        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: @" + alias + "\n*Idioma*: _" + lang(cid) + "_\n*CID*: _" + cid + "_\n*UID*: _" + uid + "_\n\n*Mensaje*: _" + msg + "_"
+        txt = "Nuevo mensaje\n\n*Nombre*: _" + name + "_\n*Alias*: @" + alias + "\n*Idioma*: _" + \
+            lang(cid) + "_\n*CID*: _" + cid + "_\n*UID*: _" + uid + "_\n\n*Mensaje*: _" + msg + "_"
     return txt
 
-with open('extra_data/file_ids.json','r') as f:
+with open('extra_data/file_ids.json', 'r') as f:
     file_ids = json.load(f)
 
 data = dict()
 
-for x in ['es','en','de','it','fr','pl','pt']:
-    with open('champs_%s.json'%x,'r') as f:
+for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt']:
+    with open('champs_%s.json' % x, 'r') as f:
         data[x] = json.load(f)
 
-with open('champs_en.json','r') as f:
+with open('champs_en.json', 'r') as f:
     data['fa'] = json.load(f)
 
 # champs_es = lol_api.static_get_champion_list(region='euw', locale='es_ES', champ_data=['all'], data_by_id=False)['data']

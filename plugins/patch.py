@@ -2,9 +2,12 @@
 
 from config import *
 
-print(Color('{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  patch.py importado.{/cyan}'))
+print(Color(
+    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  patch.py importado.{/cyan}'))
 
-@bot.message_handler(func=lambda message: message.text in ['ATUALIZAÇÃO','PARCHE','PATCH'])
+
+@bot.message_handler(func=lambda message: message.text in [
+                     'ATUALIZAÇÃO', 'PARCHE', 'PATCH'])
 @bot.message_handler(commands=['patch'])
 def command_patch(m):
     cid = m.chat.id
@@ -14,18 +17,28 @@ def command_patch(m):
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.send_chat_action(cid, 'typing')
-            bot.reply_to( m, responses['banned'])
+            bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
         with open('extra_data/patch_' + lang(cid) + '.txt', 'rt') as f:
             patch = f.read()
         bot.send_chat_action(cid, 'typing')
-        bot.send_message( cid, patch)
+        bot.send_message(cid, patch)
     else:
         bot.send_chat_action(cid, 'typing')
-        bot.send_message( cid, responses['not_user'])
+        bot.send_message(cid, responses['not_user'])
 
-@bot.message_handler(commands=['patch_es','patch_en','patch_it','patch_pl','patch_de','patch_fr','patch_pt','patch_fa'])
+
+@bot.message_handler(
+    commands=[
+        'patch_es',
+        'patch_en',
+        'patch_it',
+        'patch_pl',
+        'patch_de',
+        'patch_fr',
+        'patch_pt',
+        'patch_fa'])
 def command_update_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
@@ -33,5 +46,10 @@ def command_update_patch(m):
         return None
     if is_admin(uid):
         bot.send_chat_action(cid, 'typing')
-        bot.send_message( cid, "Envía el texto para actualizar *patch_" + m.text.split('_')[1] + ".txt* o escribe /cancel", parse_mode="Markdown")
+        bot.send_message(
+            cid,
+            "Envía el texto para actualizar *patch_" +
+            m.text.split('_')[1] +
+            ".txt* o escribe /cancel",
+            parse_mode="Markdown")
         userStep[cid] = 'patch_' + m.text.split('_')[1]
