@@ -12,6 +12,8 @@ markup.add('EUW', 'EUNE', 'BR', 'NA', 'LAS', 'LAN', 'KR', 'TR', 'RU', 'OCE')
 @bot.message_handler(commands=['set_region'])
 def command_set_region(m):
     cid = m.chat.id
+    if not is_recent(m):
+        return None
     uid = m.from_user.id
     if is_banned(uid):
         if not extra['muted']:

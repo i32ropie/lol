@@ -13,6 +13,8 @@ print(Color(
 def command_system(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_admin(uid):
         uptime = subprocess.getoutput('uptime')
         running = '\n*Running on*:\n'

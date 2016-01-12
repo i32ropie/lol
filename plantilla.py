@@ -12,6 +12,8 @@ print(Color(
 def command_COMANDO(m):
     cid = m.chat.id
     uid = m.from_user.id
+    if not is_recent(m):
+        return None
     if is_banned(uid):
         if not extra['muted']:
             bot.reply_to(m, responses['banned'])
