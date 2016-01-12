@@ -245,5 +245,3 @@ def step_name(m):
         users[str(cid)]['summoner'] = m.text
         with open('usuarios.json', 'w') as f:
             json.dump(users, f)
-if not is_recent(m):
-        return None
