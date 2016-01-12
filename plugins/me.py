@@ -15,11 +15,11 @@ def command_m(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid) and is_beta(uid):
-        if user[str(uid)]['summoner'] and user[str(uid)]['server']:
+        if users[str(uid)]['summoner'] and users[str(uid)]['server']:
             bot.send_message(
                 cid, get_summoner_info(
-                    user[
-                        str(uid)]['summoner'], user[
+                    users[
+                        str(uid)]['summoner'], users[
                         str(uid)]['server'], cid), parse_mode="Markdown")
         else:
             bot.send_message(cid, responses['me_error'][lang(cid)])
