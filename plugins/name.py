@@ -21,7 +21,7 @@ def command_set_name(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['name_1'][
-                    lang(cid)], reply_markup=markup)
+                    lang(cid)])
             userStep[cid] = 'name'
         else:
             bot.send_message(cid, responses['private'][lang(cid)])
