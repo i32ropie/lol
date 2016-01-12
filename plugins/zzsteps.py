@@ -227,9 +227,10 @@ def step_region(m):
                 responses['region_success'][
                     lang(cid)] %
                 (m.text.upper()),
-                parse_mode="Markdown")
+                parse_mode="Markdown",
+                reply_markup=hideBoard)
         else:
-            bot.send_message(cid, responses['region_failure'][lang(cid)])
+            bot.send_message(cid, responses['region_failure'][lang(cid)], reply_markup=hideBoard)
             return None
         with open('usuarios.json', 'w') as f:
             json.dump(users, f)
@@ -244,3 +245,5 @@ def step_name(m):
         users[str(cid)]['summoner'] = m.text
         with open('usuarios.json', 'w') as f:
             json.dump(users, f)
+if not is_recent(m):
+        return None
