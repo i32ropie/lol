@@ -6,8 +6,8 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  update_champs.py importado.{/cyan}'))
 
 
-@bot.message_handler(commands=['admin'])
-def command_admin(m):
+@bot.message_handler(commands=['update_champs'])
+def command_update_champs(m):
     cid = m.chat.id
     uid = m.from_user.id
     if not is_recent(m):

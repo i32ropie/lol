@@ -27,10 +27,11 @@ Comandos de administración
 /patch\_XX - Actualizar parche.
 /ping - Comprobar si el bot está activo.
 /reload - Reiniciar el bot.
+/stats - Información de usuarios del bot.
+/update\_champs - Actualizar base de datos de campeones.
 /update\_rotation\_pic - Actualizar imagen de rotación gratuita.
 /update\_rotation\_text - Actualizar texto de rotación gratuita.
 /update\_sale\_pic - Actualizar imagen de ofertas.
 /update\_sale\_text - Actualizar texto de ofertas.
-/stats - Información de usuarios del bot.
 """
         bot.send_message(cid, txt, parse_mode="Markdown")
