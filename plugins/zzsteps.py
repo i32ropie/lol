@@ -230,7 +230,9 @@ def step_region(m):
                 parse_mode="Markdown",
                 reply_markup=hideBoard)
         else:
-            bot.send_message(cid, responses['region_failure'][lang(cid)], reply_markup=hideBoard)
+            bot.send_message(
+                cid, responses['region_failure'][
+                    lang(cid)], reply_markup=hideBoard)
             return None
         with open('usuarios.json', 'w') as f:
             json.dump(users, f)

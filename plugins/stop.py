@@ -10,9 +10,16 @@ print(Color(
     commands=['stop'], func=lambda msg: next_step_handler(0) == 0)
 def command_stop(m):
     cid = m.chat.id
+    uid = m.from_user.id
     if not is_recent(m):
         return None
     if is_user(cid):
+        botan.track(
+            botan_token,
+            cid,
+            json.dumps(to_json(m)),
+            "/stop"
+        )
         #bot.send_sticker(cid, open('amumu.webp','rb'))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])

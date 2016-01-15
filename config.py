@@ -9,6 +9,8 @@ from telebot import types
 from colorclass import Color
 import json
 import time
+import six
+import botan
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -19,7 +21,7 @@ with open('extra_data/extra.json', 'r') as f:
 
 bot = telebot.TeleBot(extra['token'])
 logBot = telebot.TeleBot(extra['token_logbot'])
-
+botan_token = extra['botan_token']
 lol_api = RiotWatcher(extra['lol_api'])
 
 admins = extra['admins']
@@ -138,4 +140,12 @@ for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt']:
 with open('champs_en.json', 'r') as f:
     data['fa'] = json.load(f)
 
+def to_json(m):
+    d = {}
+    for x, y in six.iteritems(m.__dict__):
+        if hasattr(y, '__dict__'):
+            d[x] = to_json(y)
+        else:
+            d[x] = y
+    return d
 # champs_es = lol_api.static_get_champion_list(region='euw', locale='es_ES', champ_data=['all'], data_by_id=False)['data']

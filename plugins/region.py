@@ -12,9 +12,15 @@ markup.add('EUW', 'EUNE', 'BR', 'NA', 'LAS', 'LAN', 'KR', 'TR', 'RU', 'OCE')
 @bot.message_handler(commands=['set_region'])
 def command_set_region(m):
     cid = m.chat.id
+    uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/set_region"
+    )
     if not is_recent(m):
         return None
-    uid = m.from_user.id
     if is_banned(uid):
         if not extra['muted']:
             bot.reply_to(m, responses['banned'])

@@ -10,6 +10,12 @@ print(Color(
 def command_cancel(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/cancel"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

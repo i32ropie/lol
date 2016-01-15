@@ -10,6 +10,12 @@ print(Color(
 def command_admin(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/admin"
+    )
     if not is_recent(m):
         return None
     if is_admin(uid):

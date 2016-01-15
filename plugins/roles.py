@@ -25,6 +25,12 @@ changeds = {
 def command_champs(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/champs"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -60,6 +66,12 @@ def command_champs(m):
 def command_roles(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/roles"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -82,6 +94,12 @@ def command_roles(m):
 def command_assassins(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/assassins"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -109,6 +127,12 @@ def command_assassins(m):
 def command_fighters(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/fighters"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -136,6 +160,12 @@ def command_fighters(m):
 def command_mages(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/mages"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -163,6 +193,12 @@ def command_mages(m):
 def command_supports(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/supports"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -190,6 +226,12 @@ def command_supports(m):
 def command_tanks(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/tanks"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -217,6 +259,12 @@ def command_tanks(m):
 def command_adcs(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/adcs"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

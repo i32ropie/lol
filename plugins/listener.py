@@ -41,6 +41,12 @@ def listener(messages):
             return None
         if m.content_type == 'text':
             if m.text.lower() in easter_eggs:
+                botan.track(
+                    botan_token,
+                    cid,
+                    json.dumps(to_json(m)),
+                    "Easteregg: " + m.text.lower()
+                )
                 bot.send_message(
                     cid,
                     easter_eggs[
@@ -96,26 +102,31 @@ def process_msg(m):
                         bot.reply_to(m, responses['banned'])
                     return None
                 if len(separe) == 1:
+                    botan.track(
+                        botan_token,
+                        cid,
+                        json.dumps(to_json(m)),
+                        "CAMPEÓN: " + no_namebot[0].lower()
+                    )
                     try:
                         bot.send_photo(cid, file_ids[no_namebot[0].lower()])
-                        #bot.send_message( cid, file_ids[no_namebot[0].lower()])
                     except:
                         bot.send_chat_action(cid, 'typing')
                         bot.send_message(
                             cid, responses['champ_error'][
                                 lang(cid)])
-                    #txt += '_'+data[lang(cid)][x]['name'] + ', ' + data[lang(cid)][x]['title'] + '_\n\n*Skins:*'
-                    # for skin in data[lang(cid)][x]['skins']:
-                        # if skin['num'] != 0:
-                        #txt += '\n⁣  /' + champ_key + '\_' + str(skin['num']) + ': ' + skin['name']
-                    # txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
-                    #txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + champ_key + '\_extra'
                     txt += champ_basic(data[lang(cid)][x], cid)
                     break
                 elif len(separe) == 2:
                     if isint(separe[1]):
                         for num in data[lang(cid)][x]['skins']:
                             if num['num'] == int(separe[1]):
+                                botan.track(
+                                    botan_token,
+                                    cid,
+                                    json.dumps(to_json(m)),
+                                    "SKIN: " + no_namebot[0].lower()
+                                )
                                 try:
                                     bot.send_photo(
                                         cid, file_ids[

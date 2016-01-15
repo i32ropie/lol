@@ -12,6 +12,12 @@ print(Color(
 def command_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/patch"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -42,6 +48,12 @@ def command_patch(m):
 def command_update_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        m.text
+    )
     if not is_recent(m):
         return None
     if is_admin(uid):

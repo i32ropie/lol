@@ -3,13 +3,19 @@
 from config import *
 
 print(Color(
-    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  .py importado.{/cyan}'))
+    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  me.py importado.{/cyan}'))
 
 
 @bot.message_handler(commands=['me'])
 def command_m(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/me"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid):

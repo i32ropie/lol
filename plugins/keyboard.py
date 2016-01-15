@@ -79,6 +79,12 @@ markups = {
 def command_help(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/keyboard"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -114,6 +120,12 @@ def command_help(m):
 def command_hideboard(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/hideboard"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

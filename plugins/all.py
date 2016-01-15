@@ -10,6 +10,12 @@ print(Color(
 def command_all(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/all"
+    )
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -25,6 +31,12 @@ def command_all(m):
 def command_all_es(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/all_es"
+    )
     save = list()
     delete = list()
     aux = str()
@@ -71,6 +83,12 @@ def command_all_es(m):
 def command_all_en(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/all_en"
+    )
     save = list()
     delete = list()
     aux = str()
@@ -111,10 +129,3 @@ def command_all_en(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_document(cid, open('tmp.txt', 'rt'))
             userStep[0] = 0
-
-
-@bot.message_handler(commands=['test'])
-def command_test(m):
-    userStep[0] = 'asd'
-    time.sleep(10)
-    userStep[0] = 0

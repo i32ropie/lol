@@ -10,6 +10,12 @@ print(Color(
 def command_ban(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/ban"
+    )
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -51,6 +57,12 @@ def command_ban(m):
 def command_unban(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/unban"
+    )
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -86,6 +98,12 @@ def command_unban(m):
 def command_mute(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/mute"
+    )
     if is_admin(uid):
         extra['muted'] = True
         bot.send_chat_action(cid, 'typing')
@@ -96,6 +114,12 @@ def command_mute(m):
 def command_unmute(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/unmute"
+    )
     if is_admin(uid):
         extra['muted'] = False
         bot.send_chat_action(cid, 'typing')

@@ -36,6 +36,12 @@ platform = {
 def command_match(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        "/match"
+    )
     if not is_recent(m):
         return None
     if is_banned(uid):
@@ -72,6 +78,12 @@ def command_match(m):
 def match_info(m):
     cid = m.chat.id
     uid = m.from_user.id
+    botan.track(
+        botan_token,
+        cid,
+        json.dumps(to_json(m)),
+        m.text.split(' ')[0].split('@')[0]
+    )
     if is_banned(uid):
         if not extra['muted']:
             bot.send_chat_action(cid, 'typing')
