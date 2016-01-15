@@ -23,6 +23,7 @@ def command_credits(m):
         json.dumps(to_json(m)),
         "/credits"
     )
+    url = botan.shorten_url('https://github.com/eternnoir/pyTelegramBotAPI', botan_token, cid)
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -34,7 +35,7 @@ def command_credits(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message(
             cid, responses['about'][
-                lang(cid)], parse_mode="Markdown")
+                lang(cid)] % (url), parse_mode="Markdown")
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])

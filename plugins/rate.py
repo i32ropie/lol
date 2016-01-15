@@ -25,6 +25,7 @@ def command_rate(m):
         json.dumps(to_json(m)),
         "/rate"
     )
+    url = botan.shorten_url( 'https://telegram.me/storebot?start=league_of_legends_bot', botan_token, cid)
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -34,7 +35,7 @@ def command_rate(m):
         return None
     if is_user(cid):
         bot.send_chat_action(cid, 'typing')
-        bot.send_message(cid, responses['rate'][lang(cid)])
+        bot.send_message(cid, responses['rate'][lang(cid)] % (url))
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
