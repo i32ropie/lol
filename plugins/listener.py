@@ -73,12 +73,6 @@ def listener(messages):
             except:
                 pass
         elif m.content_type in content_types:
-            botan.track(
-                botan_token,
-                cid,
-                json.dumps(to_json(m)),
-                "<media>"
-            )
             try:
                 bot.send_message(-32461390, "Chat ID: " + str(m.chat.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(
                     m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
