@@ -22,7 +22,7 @@ def command_set_name(m):
         if not extra['muted']:
             bot.reply_to(m, responses['banned'])
         return None
-    if is_user(cid):
+    if is_user(uid):
         if not is_beta(uid):
             return
         if cid > 0:
