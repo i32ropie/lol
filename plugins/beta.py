@@ -37,7 +37,7 @@ def command_admin(m):
                         extra["beta"].append(int(ID))
                         with open("extra_data/extra.json","w") as f:
                             json.dump(extra,f)
-                elif action = "del":
+                elif action == "del":
                     if not is_beta(int(ID)):
                         bot.send_message(cid, responses["beta"]["del"]["error"], parse_mode="Markdown")
                     else:
