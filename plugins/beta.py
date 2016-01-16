@@ -29,19 +29,19 @@ def command_beta(m):
             else:
                 if action == "add":
                     if ID not in users:
-                        bot.send_message(cid, responses["beta"]["add"]["error"]["not_user"], parse_mode="Markdown")
+                        bot.send_message(cid, responses["beta"]["add"]["error"]["not_user"] %(ID), parse_mode="Markdown")
                     elif is_beta(int(ID)):
-                        bot.send_message(cid, responses["beta"]["add"]["error"]["already_beta"], parse_mode="Markdown")
+                        bot.send_message(cid, responses["beta"]["add"]["error"]["already_beta"] %(ID), parse_mode="Markdown")
                     else:
-                        bot.send_message(cid, responses["beta"]["add"]["success"])
+                        bot.send_message(cid, responses["beta"]["add"]["success"] %(ID))
                         extra["beta"].append(int(ID))
                         with open("extra_data/extra.json","w") as f:
                             json.dump(extra,f)
                 elif action == "del":
                     if not is_beta(int(ID)):
-                        bot.send_message(cid, responses["beta"]["del"]["error"], parse_mode="Markdown")
+                        bot.send_message(cid, responses["beta"]["del"]["error"] %(ID), parse_mode="Markdown")
                     else:
-                        bot.send_message(cid, responses["beta"]["del"]["success"])
+                        bot.send_message(cid, responses["beta"]["del"]["success"] %(ID))
                         extra["beta"].pop(int(ID))
                         with open("extra_data/extra.json","w") as f:
                             json.dump(extra,f)
