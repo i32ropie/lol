@@ -1018,59 +1018,59 @@
         "en":"Select your region from the list or press /cancel to cancel the current command.",
         "it":"-",
         "de":"-",
-        "pt":"-",
-        "fr":"-",
-        "fa":"-",
-        "pl":"-"
+        "pt":"Selecione sua regiçao na lista ou digite /cancel para cancelar o comando atual.",
+        "fr":"Selectionne ta région à partir de la liste ou utilise /cancel pour annuler la commande actuelle.",
+        "fa":"منطقه خود را از لیست انتخاب کنید یا با کلیک روی /cancel دستور را لغو کنید.",
+        "pl":"Wybierz swój region z listy lub wciśnij /cancel aby anulować aktualną komendę."
     },
     "region_success":{
         "es":"Región actualizada a: %s",
         "en":"Region updated to: %s",
         "it":"-",
         "de":"-",
-        "pt":"-",
-        "fr":"-",
-        "fa":"-",
-        "pl":"-"
+        "pt":"Região atualizada para: %s",
+        "fr":"Région mise à jour à: %s",
+        "fa":"منطقه آپدیت شد به: %s",
+        "pl":"Region zaktualizowany na: %s"
     },
     "region_failure":{
         "es":"Lo siento pero esa región no está disponible.",
         "en":"I'm sorry but that region is not available.",
         "it":"-",
         "de":"-",
-        "pt":"-",
-        "fr":"-",
-        "fa":"-",
-        "pl":"-"
+        "pt":"Desculpe, mas esta regição não está disponível",
+        "fr":"Je suis désolé mais cette région n'est pas disponible.",
+        "fa":"متاسفم،اما منطقه شما موجود نیست.",
+        "pl":"Przykro mi, ten region nie jest dostępny."
     },
     "name_1":{
         "es":"Introduce tu nombre de invocador.",
         "en":"Introduce your summoner name.",
         "it":"-",
         "de":"-",
-        "pt":"-",
-        "fr":"-",
-        "fa":"-",
-        "pl":"-"
+        "pt":"Introduza seu nome de invocador.",
+        "fr":"Introduis ton nom d'invocateur.",
+        "fa":"معرفی کردن اسم بازیکن.",
+        "pl":"Przedstaw imię swojego przywoływacza."
     },
     "name_2":{
         "es":"Tu nombre de invocador ha sido actualizado.",
         "en":"Your summoner name has been updated.",
         "it":"-",
         "de":"-",
-        "pt":"-",
-        "fr":"-",
-        "fa":"-",
-        "pl":"-"
+        "pt":"Seu nome de invocador foi atualizado",
+        "fr":"Ton nom d'invocateur a été actualisé.",
+        "fa":"اسم بازیکن تغییر کرد.",
+        "pl":"Imię twojego przywoływacza zostało uaktualnione."
     },
     "me_error":{
         "es":"Para poder utilizar este comando, primero debes usar /set_region y /set_name.",
         "en":"For being able to use this command, you must use /set_region and /set_name first.",
         "it":"-",
         "de":"-",
-        "pt":"-",
-        "fr":"-",
-        "fa":"-",
-        "pl":"-"
+        "pt":"Para poder utilizar este comando, primeiro deve usar /set_region e /set_name.",
+        "fr":"Pour pouvoir utiliser cette commande, tu dois d'abord utiliser /set_region et /set_name.",
+        "fa":"برای استفاده از این دستور شما باید ابتدا استفاده کنید از /set_region و /set_name .",
+        "pl":"Aby użyć tej komendy, musisz wpierw użyć /set_region oraz /set_name."
     }
 }

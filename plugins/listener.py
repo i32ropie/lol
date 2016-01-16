@@ -41,7 +41,7 @@ def listener(messages):
             botan.track(
                 botan_token,
                 cid,
-                json.dumps(to_json(m)),
+                to_json(m),
                 "msg from banned: [" + str(cid) + "] [" + str(uid) + "]"
             )
             return None
@@ -50,10 +50,10 @@ def listener(messages):
                 botan.track(
                     botan_token,
                     cid,
-                    json.dumps(to_json(m)),
+                    to_json(m),
                     "Easteregg: " + m.text.lower()
                 )
-                print(str(json.dumps(to_json(m))))
+                print(str(to_json(m)))
                 bot.send_message(
                     cid,
                     easter_eggs[
@@ -112,7 +112,7 @@ def process_msg(m):
                     botan.track(
                         botan_token,
                         cid,
-                        json.dumps(to_json(m)),
+                        to_json(m),
                         "CAMPEÓN: " + no_namebot[0].lower()
                     )
                     try:
@@ -131,7 +131,7 @@ def process_msg(m):
                                 botan.track(
                                     botan_token,
                                     cid,
-                                    json.dumps(to_json(m)),
+                                    to_json(m),
                                     "SKIN: " + no_namebot[0].lower()
                                 )
                                 try:

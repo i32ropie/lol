@@ -16,7 +16,7 @@ def command_system(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/system"
     )
     if not is_recent(m):

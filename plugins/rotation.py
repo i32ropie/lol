@@ -20,7 +20,7 @@ def command_rotation(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/rotation"
     )
     if not is_recent(m):
@@ -49,7 +49,7 @@ def command_update_rotation(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/update_rotation_text"
     )
     if not is_recent(m):
@@ -67,7 +67,7 @@ def command_update_pic(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/update_rotation_pic"
     )
     if not is_recent(m):

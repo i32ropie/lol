@@ -15,7 +15,7 @@ def command_patch(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/patch"
     )
     if not is_recent(m):
@@ -51,7 +51,7 @@ def command_update_patch(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         m.text
     )
     if not is_recent(m):

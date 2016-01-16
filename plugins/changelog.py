@@ -19,7 +19,7 @@ def command_changelog(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/changelog"
     )
     aux = dict()

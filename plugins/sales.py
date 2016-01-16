@@ -22,7 +22,7 @@ def command_sale(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/sale"
     )
     if not is_recent(m):
@@ -51,7 +51,7 @@ def command_update_sale(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/update_sale_text"
     )
     if not is_recent(m):
@@ -69,7 +69,7 @@ def command_update_pic(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/update_sale_pic"
     )
     if not is_recent(m):

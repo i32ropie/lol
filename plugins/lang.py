@@ -32,7 +32,7 @@ def command_lang(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/lang"
     )
     if not is_recent(m):

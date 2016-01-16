@@ -21,7 +21,7 @@ def command_summoner(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/summoner"
     )
     if not is_recent(m):
@@ -63,7 +63,7 @@ def summoner_info(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         m.text.split(' ')[0].split('@')[0].lower()
     )
     if is_banned(uid):

@@ -82,7 +82,7 @@ def command_help(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/keyboard"
     )
     if not is_recent(m):
@@ -123,7 +123,7 @@ def command_hideboard(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/hideboard"
     )
     if not is_recent(m):

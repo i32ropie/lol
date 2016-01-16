@@ -13,7 +13,7 @@ def command_ban(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/ban"
     )
     if not is_recent(m):
@@ -60,7 +60,7 @@ def command_unban(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/unban"
     )
     if not is_recent(m):
@@ -101,7 +101,7 @@ def command_mute(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/mute"
     )
     if is_admin(uid):
@@ -117,7 +117,7 @@ def command_unmute(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/unmute"
     )
     if is_admin(uid):

@@ -28,7 +28,7 @@ def command_champs(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/champs"
     )
     if not is_recent(m):
@@ -69,7 +69,7 @@ def command_roles(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/roles"
     )
     if not is_recent(m):
@@ -97,7 +97,7 @@ def command_assassins(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/assassins"
     )
     if not is_recent(m):
@@ -130,7 +130,7 @@ def command_fighters(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/fighters"
     )
     if not is_recent(m):
@@ -163,7 +163,7 @@ def command_mages(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/mages"
     )
     if not is_recent(m):
@@ -196,7 +196,7 @@ def command_supports(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/supports"
     )
     if not is_recent(m):
@@ -229,7 +229,7 @@ def command_tanks(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/tanks"
     )
     if not is_recent(m):
@@ -262,7 +262,7 @@ def command_adcs(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/adcs"
     )
     if not is_recent(m):

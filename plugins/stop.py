@@ -17,7 +17,7 @@ def command_stop(m):
         botan.track(
             botan_token,
             cid,
-            json.dumps(to_json(m)),
+            to_json(m),
             "/stop"
         )
         #bot.send_sticker(cid, open('amumu.webp','rb'))

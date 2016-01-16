@@ -15,7 +15,7 @@ def command_contact(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/contact"
     )
     if not is_recent(m):

@@ -13,7 +13,7 @@ def command_all(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/all"
     )
     if not is_recent(m):
@@ -34,7 +34,7 @@ def command_all_es(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/all_es"
     )
     save = list()
@@ -86,7 +86,7 @@ def command_all_en(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/all_en"
     )
     save = list()

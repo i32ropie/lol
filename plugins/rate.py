@@ -22,7 +22,7 @@ def command_rate(m):
     botan.track(
         botan_token,
         cid,
-        json.dumps(to_json(m)),
+        to_json(m),
         "/rate"
     )
     url = botan.shorten_url( 'https://telegram.me/storebot?start=league_of_legends_bot', botan_token, cid)
