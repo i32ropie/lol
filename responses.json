@@ -1072,5 +1072,19 @@
         "fr":"Pour pouvoir utiliser cette commande, tu dois d'abord utiliser /set_region et /set_name.",
         "fa":"برای استفاده از این دستور شما باید ابتدا استفاده کنید از /set_region و /set_name .",
         "pl":"Aby użyć tej komendy, musisz wpierw użyć /set_region oraz /set_name."
+    },
+    "beta":{
+        "error":"Uso del comando:\n/beta add/del ID",
+        "add":{
+            "success":"El usuario con ID <%s> ha sido añadido correctamente.",
+            "error":{
+                "not_user":"El usuario con ID <%s> *no* es usuario del bot.",
+                "already_beta":"El usuario con ID <%s> *ya* era betatester."
+            }
+        },
+        "del":{
+            "success":"El usuario con ID <%s> ha sido eliminado correctamente.",
+            "error":"El usuario con ID <%s> *no* era betatester."
+        }
     }
 }
