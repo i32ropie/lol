@@ -42,6 +42,6 @@ def command_beta(m):
                         bot.send_message(cid, responses["beta"]["del"]["error"] %(ID), parse_mode="Markdown")
                     else:
                         bot.send_message(cid, responses["beta"]["del"]["success"] %(ID))
-                        extra["beta"].pop(int(ID))
+                        extra["beta"].remove(int(ID))
                         with open("extra_data/extra.json","w") as f:
                             json.dump(extra,f)
