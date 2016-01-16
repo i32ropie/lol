@@ -53,7 +53,6 @@ def listener(messages):
                     to_json(m),
                     "Easteregg: " + m.text.lower()
                 )
-                print(str(to_json(m)))
                 bot.send_message(
                     cid,
                     easter_eggs[
