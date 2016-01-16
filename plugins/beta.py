@@ -6,8 +6,8 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  beta.py importado.{/cyan}'))
 
 
-@bot.message_handler(commands=['admin'])
-def command_admin(m):
+@bot.message_handler(commands=['beta'])
+def command_beta(m):
     cid = m.chat.id
     uid = m.from_user.id
     botan.track(
