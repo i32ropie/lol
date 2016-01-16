@@ -1076,15 +1076,15 @@
     "beta":{
         "error":"Uso del comando:\n/beta add/del ID",
         "add":{
-            "success":"El usuario con ID <%s> ha sido añadido correctamente.",
+            "success":"✔️ El usuario con ID <%s> ha sido añadido correctamente.",
             "error":{
-                "not_user":"El usuario con ID <%s> *no* es usuario del bot.",
-                "already_beta":"El usuario con ID <%s> *ya* era betatester."
+                "not_user":"✖️ El usuario con ID <%s> *no* es usuario del bot.",
+                "already_beta":"✖️ El usuario con ID <%s> *ya* era betatester."
             }
         },
         "del":{
-            "success":"El usuario con ID <%s> ha sido eliminado correctamente.",
-            "error":"El usuario con ID <%s> *no* era betatester."
+            "success":"✔️ El usuario con ID <%s> ha sido eliminado correctamente.",
+            "error":"✖️ El usuario con ID <%s> *no* era betatester."
         }
     }
 }
