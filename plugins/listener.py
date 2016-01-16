@@ -42,7 +42,7 @@ def listener(messages):
                 botan_token,
                 cid,
                 json.dumps(to_json(m)),
-                "msg from banned: " + str(cid)
+                "msg from banned: [" + str(cid) + "] [" + str(uid) + "]"
             )
             return None
         if m.content_type == 'text':
