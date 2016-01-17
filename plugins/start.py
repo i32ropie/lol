@@ -30,12 +30,15 @@ def command_start(m):
             bot.reply_to(m, responses['banned'])
         return None
     if not is_user(cid):
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/start"
-        )
+        try:
+            botan.track(
+                botan_token,
+                cid,
+                to_json(m),
+                "/start"
+            )
+        except:
+            pass
         bot.send_chat_action(cid, 'typing')
         bot.send_message(
             cid,

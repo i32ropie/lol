@@ -19,12 +19,15 @@ print(Color(
 def command_sale(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/sale"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/sale"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -48,12 +51,15 @@ def command_sale(m):
 def command_update_sale(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/update_sale_text"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/update_sale_text"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -66,12 +72,15 @@ def command_update_sale(m):
 def command_update_pic(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/update_sale_pic"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/update_sale_pic"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_admin(uid):

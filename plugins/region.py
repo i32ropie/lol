@@ -13,12 +13,15 @@ markup.add('EUW', 'EUNE', 'BR', 'NA', 'LAS', 'LAN', 'KR', 'TR', 'RU', 'OCE')
 def command_set_region(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/set_region"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/set_region"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_banned(uid):

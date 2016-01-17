@@ -10,12 +10,15 @@ print(Color(
 def command_m(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/me"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/me"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_banned(uid):

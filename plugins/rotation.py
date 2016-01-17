@@ -17,12 +17,15 @@ print(Color(
 def command_rotation(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/rotation"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/rotation"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -46,12 +49,15 @@ def command_rotation(m):
 def command_update_rotation(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/update_rotation_text"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/update_rotation_text"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -64,12 +70,15 @@ def command_update_rotation(m):
 def command_update_pic(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/update_rotation_pic"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/update_rotation_pic"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_admin(uid):

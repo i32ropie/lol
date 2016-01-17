@@ -50,12 +50,15 @@ def listener(messages):
             return None
         if m.content_type == 'text':
             if m.text.lower() in easter_eggs:
-                botan.track(
-                    botan_token,
-                    cid,
-                    to_json(m),
-                    "Easteregg: " + m.text.lower()
-                )
+                try:
+                    botan.track(
+                        botan_token,
+                        cid,
+                        to_json(m),
+                        "Easteregg: " + m.text.lower()
+                    )
+                except:
+                    pass
                 bot.send_message(
                     cid,
                     easter_eggs[
@@ -111,12 +114,15 @@ def process_msg(m):
                         bot.reply_to(m, responses['banned'])
                     return None
                 if len(separe) == 1:
-                    botan.track(
-                        botan_token,
-                        cid,
-                        to_json(m),
-                        "CAMPEÓN: " + no_namebot[0].lower()
-                    )
+                    try:
+                        botan.track(
+                            botan_token,
+                            cid,
+                            to_json(m),
+                            "CAMPEÓN: " + no_namebot[0].lower()
+                        )
+                    except:
+                        pass
                     try:
                         bot.send_photo(cid, file_ids[no_namebot[0].lower()])
                     except:
@@ -130,12 +136,15 @@ def process_msg(m):
                     if isint(separe[1]):
                         for num in data[lang(cid)][x]['skins']:
                             if num['num'] == int(separe[1]):
-                                botan.track(
-                                    botan_token,
-                                    cid,
-                                    to_json(m),
-                                    "SKIN: " + no_namebot[0].lower()
-                                )
+                                try:
+                                    botan.track(
+                                        botan_token,
+                                        cid,
+                                        to_json(m),
+                                        "SKIN: " + no_namebot[0].lower()
+                                    )
+                                except:
+                                    pass
                                 try:
                                     bot.send_photo(
                                         cid, file_ids[

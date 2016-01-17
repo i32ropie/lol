@@ -19,12 +19,15 @@ print(Color(
 def command_rate(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/rate"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/rate"
+        )
+    except:
+        pass
     url = botan.shorten_url( 'https://telegram.me/storebot?start=league_of_legends_bot', botan_token, cid)
     if not is_recent(m):
         return None

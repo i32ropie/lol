@@ -29,12 +29,15 @@ markup.add(
 def command_lang(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/lang"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/lang"
+        )
+    except:
+        pass
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
