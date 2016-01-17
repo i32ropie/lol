@@ -17,7 +17,7 @@ def command_contact(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/contact"
         )
     except:
         pass

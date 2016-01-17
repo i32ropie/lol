@@ -16,7 +16,7 @@ def command_info(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/info"
         )
     except:
         pass

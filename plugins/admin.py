@@ -15,7 +15,7 @@ def command_admin(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/admin"
         )
     except:
         pass

@@ -15,7 +15,7 @@ def command_all(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/all"
         )
     except:
         pass

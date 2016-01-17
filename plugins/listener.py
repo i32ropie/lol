@@ -43,7 +43,7 @@ def listener(messages):
                     botan_token,
                     cid,
                     to_json(m),
-                    "/cancel"
+                    "msg from banned: [" + str(cid) + "] [" + str(uid) + "]"
                 )
             except:
                 pass

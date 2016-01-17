@@ -84,7 +84,7 @@ def command_help(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/keyboard"
         )
     except:
         pass
@@ -128,7 +128,7 @@ def command_hideboard(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/hideboard"
         )
     except:
         pass

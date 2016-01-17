@@ -22,7 +22,7 @@ def command_credits(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/credits"
         )
     except:
         pass

@@ -24,7 +24,7 @@ def command_help(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/help"
         )
     except:
         pass

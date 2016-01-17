@@ -15,7 +15,7 @@ def command_ban(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/ban"
         )
     except:
         pass

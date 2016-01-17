@@ -15,7 +15,7 @@ def command_beta(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/beta"
         )
     except:
         pass

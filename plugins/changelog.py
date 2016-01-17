@@ -21,7 +21,7 @@ def command_changelog(m):
             botan_token,
             cid,
             to_json(m),
-            "/cancel"
+            "/changelog"
         )
     except:
         pass
