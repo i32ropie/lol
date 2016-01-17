@@ -27,16 +27,16 @@ def command_system(m):
     if is_admin(uid):
         uptime = subprocess.getoutput('uptime')
         running = '\n*Running on*:\n'
-        running += '\tSystem: {0}\n'.format(
+        running += '\t*System*: {0}\n'.format(
             subprocess.getoutput('head -n1 /etc/issue | cut -d " " -f -3'))
-        running += '\tKernel: {0}\n'.format(subprocess.getoutput('uname -rs'))
-        running += '\tProcessor: {0}\n'.format(subprocess.getoutput(
+        running += '\t*Kernel*: {0}\n'.format(subprocess.getoutput('uname -rs'))
+        running += '\t*Processor*: {0}\n'.format(subprocess.getoutput(
             'cat /proc/cpuinfo | grep "model name" | tr -s " " | cut -d " " -f 3-'))
-        running += '\tRAM: {0}MB ({1}% used)\n'.format(
+        running += '\t*RAM*: {0}MB ({1}% used)\n'.format(
             int(psutil.virtual_memory()[0] / 1000 / 1000), psutil.virtual_memory()[2])
-        running += '\tPython: {0} ({1})\n'.format(
+        running += '\t*Python*: {0} ({1})\n'.format(
             str(platform.python_version()), str(platform.python_compiler()))
-        running += '\tServer time: {0}\n'.format(time.strftime("%c"))
-        running += '\tUptime: Server up for {0} d, {1} h, {2} m\n'.format(
+        running += '\t*Server time*: {0}\n'.format(time.strftime("%c"))
+        running += '\t*Uptime*: Server up for {0} d, {1} h, {2} m\n'.format(
             uptime.split()[2], uptime.split(':')[0], uptime.split(':')[1])
         bot.send_message(cid, running, parse_mode="Markdown")
