@@ -28,9 +28,7 @@ def command_set_region(m):
         if not extra['muted']:
             bot.reply_to(m, responses['banned'])
         return None
-    if is_user(uid):
-        if not is_beta(uid):
-            return
+    if is_user(cid):
         if cid > 0:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
