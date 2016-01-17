@@ -38,12 +38,15 @@ def listener(messages):
         cid = m.chat.id
         uid = m.from_user.id
         if is_banned(uid) or is_banned(cid):
-            botan.track(
-                botan_token,
-                cid,
-                to_json(m),
-                "msg from banned: [" + str(cid) + "] [" + str(uid) + "]"
-            )
+            try:
+                botan.track(
+                    botan_token,
+                    cid,
+                    to_json(m),
+                    "/cancel"
+                )
+            except:
+                pass
             return None
         if m.content_type == 'text':
             if m.text.lower() in easter_eggs:

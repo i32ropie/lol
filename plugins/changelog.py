@@ -16,12 +16,15 @@ print(Color(
 def command_changelog(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/changelog"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/cancel"
+        )
+    except:
+        pass
     aux = dict()
     if not is_recent(m):
         return None

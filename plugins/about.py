@@ -17,12 +17,15 @@ print(Color(
 def command_credits(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/credits"
-    )
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/cancel"
+        )
+    except:
+        pass
     url = botan.shorten_url('https://github.com/eternnoir/pyTelegramBotAPI', botan_token, cid)
     if not is_recent(m):
         return None
