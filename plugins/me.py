@@ -26,12 +26,13 @@ def command_m(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        if users[str(uid)]['summoner'] and users[str(uid)]['server']:
-            bot.send_message(
-                cid, get_summoner_info(
-                    users[
-                        str(uid)]['summoner'], users[
-                        str(uid)]['server'], cid), parse_mode="Markdown")
+        try:
+            summoner, region = users[str(uid)]['summoner'], users[str(uid)]['server']
+        except:
+            bot.send_message(cid, responses['not_user'])
+            return
+        if summoner and region:
+            bot.send_message( cid, get_summoner_info( summoner, region, cid), parse_mode="Markdown")
         else:
             bot.send_message(cid, responses['me_error'][lang(cid)])
     else:

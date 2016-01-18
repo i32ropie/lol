@@ -45,10 +45,12 @@ def command_ban(m):
                         banned_id)
             else:
                 users[
-                    str(banned_id)] = {
+                    str(cid)] = {
                     "lang": "en",
-                    "banned": True,
-                    "notify": True}
+                    "banned": False,
+                    "notify": True,
+                    "server": "",
+                    "summoner": ""}}
                 with open('usuarios.json', 'w') as f:
                     json.dump(users, f)
                 bot.send_chat_action(cid, 'typing')
