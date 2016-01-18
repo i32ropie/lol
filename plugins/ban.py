@@ -50,7 +50,7 @@ def command_ban(m):
                     "banned": False,
                     "notify": True,
                     "server": "",
-                    "summoner": ""}}
+                    "summoner": ""}
                 with open('usuarios.json', 'w') as f:
                     json.dump(users, f)
                 bot.send_chat_action(cid, 'typing')
