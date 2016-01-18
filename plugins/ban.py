@@ -45,7 +45,7 @@ def command_ban(m):
                         banned_id)
             else:
                 users[
-                    str(cid)] = {
+                    str(banned_id)] = {
                     "lang": "en",
                     "banned": False,
                     "notify": True,
