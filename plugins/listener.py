@@ -80,7 +80,7 @@ def listener(messages):
                 pass
         elif m.content_type in content_types:
             try:
-                bot.send_message(-32461390, "Chat ID: " + str(m.chat.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(
+                bot.send_message(-32461390, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(
                     m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
                 bot.forward_message(-32461390, m.chat.id, m.message_id)
             except:
