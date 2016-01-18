@@ -47,7 +47,7 @@ def command_ban(m):
                 users[
                     str(banned_id)] = {
                     "lang": "en",
-                    "banned": False,
+                    "banned": True,
                     "notify": True,
                     "server": "",
                     "summoner": ""}
