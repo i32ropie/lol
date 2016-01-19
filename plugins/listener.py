@@ -37,6 +37,8 @@ def listener(messages):
     for m in messages:
         cid = m.chat.id
         uid = m.from_user.id
+        if not is_recent(m):
+            return None
         if is_banned(uid) or is_banned(cid):
             try:
                 botan.track(
