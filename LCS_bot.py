@@ -26,7 +26,7 @@ print(Color(
 
 
 try:
-    logBot.send_message(52033876, "@League_of_Legends_bot ha sido encendido")
+    bot.send_message(52033876, "@League_of_Legends_bot ha sido encendido")
 except Exception as e:
     bot.send_message(52033876, str(e))
 

@@ -113,6 +113,8 @@ def command_mute(m):
         extra['muted'] = True
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, "Mensajes a baneados desactivados")
+        with open("extra_data/extra.json","w") as f:
+            json.dump(extra, f)
 
 
 @bot.message_handler(commands=['unmute'])
@@ -129,3 +131,5 @@ def command_unmute(m):
         extra['muted'] = False
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, "Mensajes a baneados activados")
+        with open("extra_data/extra.json","w") as f:
+            json.dump(extra, f)
