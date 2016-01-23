@@ -123,7 +123,7 @@ def process_msg(m):
                             botan_token,
                             cid,
                             to_json(m),
-                            "CAMPEÓN: " + no_namebot[0].lower()
+                            "CHAMP: " + no_namebot[0].lower()
                         )
                     except:
                         pass
