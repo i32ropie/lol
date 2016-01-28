@@ -802,6 +802,16 @@
             "fa":"Fighter",
             "pl":"Wojownik"
         },
+        "Melee":{
+            "es":"Luchador",
+            "en":"Fighter",
+            "it":"Combattente",
+            "de":"Kämpfer",
+            "pt":"Lutador",
+            "fr":"Combattant",
+            "fa":"Fighter",
+            "pl":"Wojownik"
+        },
         "Mage":{
             "es":"Mago",
             "en":"Mage",
