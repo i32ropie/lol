@@ -11,6 +11,7 @@ import json
 import time
 import six
 import botan
+import re
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -98,6 +99,11 @@ def is_user(cid):
 def is_admin(cid):
     """ Función para comprobar si un ID es admin """
     return int(cid) in admins
+
+
+def remove_tag(text):
+    TAG_RE = re.compile(r'<[^>]+>')
+    return TAG_RE.sub('', text)
 
 
 def isint(s):
