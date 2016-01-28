@@ -186,7 +186,7 @@ def champ_basic(chmp, cid):
         key2 = chmp['key']
     txt = '_' + chmp['name'] + ', ' + chmp['title'] + '_'
     # Roles
-    txt += '\n⁣  *' + responses['champ_info']['tags'][lang(cid)] + '*: '
+    txt += '*' + responses['champ_info']['tags'][lang(cid)] + '*: '
     i = 0
     for tag in chmp['tags']:
         txt += '_' + responses['tags'][tag][lang(cid)] + '_'
