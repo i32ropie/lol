@@ -115,11 +115,11 @@ def get_summoner_info(invocador, region, cid):
     if 'playerStatSummaries' in partidas:
         for data in partidas['playerStatSummaries']:
             if data['playerStatSummaryType'] == player_stat_summary_types[0]:
-                normales = data
-                wins5 = str(normales['wins'])
+                normals = data
+                wins5 = str(normals['wins'])
             elif data['playerStatSummaryType'] == player_stat_summary_types[1]:
-                tresVtres = data
-                wins3 = str(tresVtres['wins'])
+                v3 = data
+                wins3 = str(v3['wins'])
             elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
                 arams = data
                 winsA = str(arams['wins'])
