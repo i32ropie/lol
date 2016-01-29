@@ -82,7 +82,7 @@ def listener(messages):
                 except:
                     pass
         elif m.content_type in content_types:
-            print(to_json()))
+            print(to_json())
             if extra["log"]:
                 try:
                     logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(
