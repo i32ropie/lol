@@ -84,9 +84,9 @@ def listener(messages):
         elif m.content_type in content_types:
             if extra["log"]:
                 try:
-                    bot.send_message(-32461390, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(
+                    logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(
                         m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
-                    bot.forward_message(-32461390, m.chat.id, m.message_id)
+                    bot.forward_message(-1001011373048, m.chat.id, m.message_id)
                 except:
                     pass
 
