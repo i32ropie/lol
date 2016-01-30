@@ -248,10 +248,10 @@ def champ_info(chmp, cid, key):
     txt += '\n\n*' + responses['champ_info']['spells'][lang(cid)] + '*:'
     txt += '\n*' + \
         responses['passive'][lang(cid)] + ': ' + chmp['passive']['name']
-    txt += '\n*_' + chmp['passive']['description'].replace(
+    txt += '\n*_' + remove_tag(chmp['passive']['description'].replace(
         '<br>', '\n').replace(
         '<mainText>', '').replace(
-            '</mainText>', '') + '_\n'
+            '</mainText>', '')) + '_\n'
     # Hechizos
     i = 0
     j = ['Q', 'W', 'E', 'R']
