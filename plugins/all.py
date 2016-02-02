@@ -6,30 +6,6 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  all.py importado.{/cyan}'))
 
 
-@bot.message_handler(commands=['all'])
-def command_all(m):
-    cid = m.chat.id
-    uid = m.from_user.id
-    try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/all"
-        )
-    except:
-        pass
-    if not is_recent(m):
-        return None
-    if is_admin(uid):
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(
-            cid,
-            responses['all'],
-            reply_markup=types.ForceReply())
-        userStep[cid] = 'all'
-
-
 @bot.message_handler(commands=['all_es'])
 def command_all_es(m):
     cid = m.chat.id
@@ -40,6 +16,7 @@ def command_all_es(m):
         to_json(m),
         "/all_es"
     )
+    errors = dict()
     save = list()
     delete = list()
     aux = str()
@@ -51,19 +28,19 @@ def command_all_es(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_message(cid, "Error, mensaje vacío.")
         else:
-            usuarios = users
-            userStep[0] = 'all'
-            for x in usuarios:
-                if usuarios[str(x)]['notify'] and not is_banned(
-                        x) and lang(x) == 'es':
-                    try:
-                        bot.send_chat_action(int(uid), 'typing')
-                        bot.send_message(int(x), txt)
-                    except:
+            # userStep[0] = 'all'
+            for x in [y for y in users if users[y]['notify'] and lang(y) == 'es' and not is_banned(y)]:
+                try:
+                    bot.send_chat_action(int(uid), 'typing')
+                    bot.send_message(int(x), txt)
+                except Exception as e:
+                    if e.result.status_code == 403:
                         delete.append(x)
-                        # users.pop(uid)
+                        users.pop(uid)
                     else:
-                        save.append(x)
+                        errors[x] = json.loads(e.result.text)
+                else:
+                    save.append(x)
             cont = 1
             aux = "Conservados:"
             for x in save:
@@ -72,14 +49,20 @@ def command_all_es(m):
             aux += "\nEliminados:"
             cont = 1
             for x in delete:
-                users.pop(x)
                 aux += "\n\t" + str(cont) + ') ' + x
                 cont += 1
             with open('tmp.txt', 'w') as f:
                 f.write(aux)
             bot.send_chat_action(cid, 'typing')
             bot.send_document(cid, open('tmp.txt', 'rt'))
-            userStep[0] = 0
+            if len(errors) != 0:
+                aux = "Hubo error en:\n"
+                for x in errors:
+                    aux += "\n" + x + "\n\terror_code: " + errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
+                with open('tmp.txt', 'w') as f:
+                    f.write(aux)
+                bot.send_document(cid, open('tmp.txt','rt'))
+            # userStep[0] = 0
 
 
 @bot.message_handler(commands=['all_en'])
@@ -92,6 +75,7 @@ def command_all_en(m):
         to_json(m),
         "/all_en"
     )
+    errors = dict()
     save = list()
     delete = list()
     aux = str()
@@ -103,19 +87,19 @@ def command_all_en(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_message(cid, "Error, mensaje vacío.")
         else:
-            usuarios = users
-            userStep[0] = 'all'
-            for uid in usuarios:
-                if usuarios[str(uid)]['notify'] and not is_banned(
-                        uid) and lang(uid) != 'es':
-                    try:
-                        bot.send_chat_action(int(uid), 'typing')
-                        bot.send_message(int(uid), txt)
-                    except:
-                        delete.append(uid)
-                        # users.pop(uid)
+            # userStep[0] = 'all'
+            for x in [y for y in users if users[y]['notify'] and lang(y) != 'es' and not is_banned(y)]:
+                try:
+                    bot.send_chat_action(int(uid), 'typing')
+                    bot.send_message(int(x), txt)
+                except Exception as e:
+                    if e.result.status_code == 403:
+                        delete.append(x)
+                        users.pop(uid)
                     else:
-                        save.append(uid)
+                        errors[x] = json.loads(e.result.text)
+                else:
+                    save.append(x)
             cont = 1
             aux = "Conservados:"
             for x in save:
@@ -124,11 +108,17 @@ def command_all_en(m):
             aux += "\nEliminados:"
             cont = 1
             for x in delete:
-                users.pop(x)
                 aux += "\n\t" + str(cont) + ') ' + x
                 cont += 1
             with open('tmp.txt', 'w') as f:
                 f.write(aux)
             bot.send_chat_action(cid, 'typing')
             bot.send_document(cid, open('tmp.txt', 'rt'))
-            userStep[0] = 0
+            if len(errors) != 0:
+                aux = "Hubo error en:\n"
+                for x in errors:
+                    aux += "\n" + x + "\n\terror_code: " + errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
+                with open('tmp.txt', 'w') as f:
+                    f.write(aux)
+                bot.send_document(cid, open('tmp.txt','rt'))
+            # userStep[0] = 0
