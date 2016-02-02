@@ -28,7 +28,10 @@ def command_rate(m):
         )
     except:
         pass
-    url = botan.shorten_url( 'https://telegram.me/storebot?start=league_of_legends_bot', botan_token, cid)
+    url = botan.shorten_url(
+        'https://telegram.me/storebot?start=league_of_legends_bot',
+        botan_token,
+        cid)
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

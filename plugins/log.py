@@ -28,5 +28,5 @@ def command_log(m):
         else:
             extra["log"] = True
             bot.send_message(cid, "Log activado")
-        with open("extra_data/extra.json","w") as f:
-            json.dump(extra,f)
+        with open("extra_data/extra.json", "w") as f:
+            json.dump(extra, f)

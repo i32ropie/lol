@@ -26,7 +26,10 @@ def command_credits(m):
         )
     except:
         pass
-    url = botan.shorten_url('https://github.com/eternnoir/pyTelegramBotAPI', botan_token, cid)
+    url = botan.shorten_url(
+        'https://github.com/eternnoir/pyTelegramBotAPI',
+        botan_token,
+        cid)
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

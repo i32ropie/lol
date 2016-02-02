@@ -29,7 +29,8 @@ def command_all_es(m):
             bot.send_message(cid, "Error, mensaje vacío.")
         else:
             # userStep[0] = 'all'
-            for x in [y for y in users if users[y]['notify'] and lang(y) == 'es' and not is_banned(y)]:
+            for x in [y for y in users if users[y]['notify']
+                      and lang(y) == 'es' and not is_banned(y)]:
                 try:
                     bot.send_chat_action(int(uid), 'typing')
                     bot.send_message(int(x), txt)
@@ -58,10 +59,11 @@ def command_all_es(m):
             if len(errors) != 0:
                 aux = "Hubo error en:\n"
                 for x in errors:
-                    aux += "\n" + x + "\n\terror_code: " + errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
+                    aux += "\n" + x + "\n\terror_code: " + \
+                        errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
                 with open('tmp.txt', 'w') as f:
                     f.write(aux)
-                bot.send_document(cid, open('tmp.txt','rt'))
+                bot.send_document(cid, open('tmp.txt', 'rt'))
             # userStep[0] = 0
 
 
@@ -88,7 +90,8 @@ def command_all_en(m):
             bot.send_message(cid, "Error, mensaje vacío.")
         else:
             # userStep[0] = 'all'
-            for x in [y for y in users if users[y]['notify'] and lang(y) != 'es' and not is_banned(y)]:
+            for x in [y for y in users if users[y]['notify']
+                      and lang(y) != 'es' and not is_banned(y)]:
                 try:
                     bot.send_chat_action(int(uid), 'typing')
                     bot.send_message(int(x), txt)
@@ -117,8 +120,9 @@ def command_all_en(m):
             if len(errors) != 0:
                 aux = "Hubo error en:\n"
                 for x in errors:
-                    aux += "\n" + x + "\n\terror_code: " + errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
+                    aux += "\n" + x + "\n\terror_code: " + \
+                        errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
                 with open('tmp.txt', 'w') as f:
                     f.write(aux)
-                bot.send_document(cid, open('tmp.txt','rt'))
+                bot.send_document(cid, open('tmp.txt', 'rt'))
             # userStep[0] = 0

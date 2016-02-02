@@ -51,47 +51,14 @@ def step_start(m):
                              "\nAlias: @" +
                              str(m.from_user.username) +
                              "\nID: " +
-                             str(cid))
+                             str(cid) +
+                             "\nIdioma: " +
+                             str(lang(cid)))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(
             cid, responses['start_2'][
                 lang(cid)], reply_markup=hideBoard)
         userStep[cid] = 0
-
-
-@bot.message_handler(func=lambda msg: next_step_handler(msg.chat.id) == 'all')
-def step_all(m):
-    cid = m.chat.id
-    save = list()
-    delete = list()
-    aux = str()
-    if m.content_type == 'text':
-        userStep[cid] = 0
-        for uid in users:
-            if users[str(uid)]['notify'] and not is_banned(uid):
-                try:
-                    bot.send_chat_action(int(uid), 'typing')
-                    bot.send_message(int(uid), m.text)
-                except:
-                    delete.append(uid)
-                    # users.pop(uid)
-                else:
-                    save.append(uid)
-        cont = 1
-        aux = "Conservados:"
-        for x in save:
-            aux += "\n\t" + str(cont) + ') ' + x
-            cont += 1
-        aux += "\nEliminados:"
-        cont = 1
-        for x in delete:
-            users.pop(x)
-            aux += "\n\t" + str(cont) + ') ' + x
-            cont += 1
-        with open('tmp.txt', 'w') as f:
-            f.write(aux)
-        bot.send_chat_action(cid, 'typing')
-        bot.send_document(cid, open('tmp.txt', 'rt'))
 
 
 @bot.message_handler(

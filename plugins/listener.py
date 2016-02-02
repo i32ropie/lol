@@ -85,9 +85,10 @@ def listener(messages):
             # print(to_json(m))
             if extra["log"]:
                 try:
-                    logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(m.message_id) + "\nNombre: " + str(
-                        m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
-                    bot.forward_message(-1001011373048, m.chat.id, m.message_id)
+                    logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(
+                        m.message_id) + "\nNombre: " + str(m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
+                    bot.forward_message(-1001011373048,
+                                        m.chat.id, m.message_id)
                 except Exception as e:
                     # print(str(e))
                     pass

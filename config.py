@@ -146,6 +146,7 @@ for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt']:
 with open('champs_en.json', 'r') as f:
     data['fa'] = json.load(f)
 
+
 def to_json(m):
     d = {}
     for x, y in six.iteritems(m.__dict__):

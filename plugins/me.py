@@ -27,12 +27,20 @@ def command_m(m):
         return None
     if is_user(cid):
         try:
-            summoner, region = users[str(uid)]['summoner'], users[str(uid)]['server']
+            summoner, region = users[
+                str(uid)]['summoner'], users[
+                str(uid)]['server']
         except:
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return
         if summoner and region:
-            bot.send_message( cid, get_summoner_info( summoner, region, cid), parse_mode="Markdown")
+            bot.send_message(
+                cid,
+                get_summoner_info(
+                    summoner,
+                    region,
+                    cid),
+                parse_mode="Markdown")
         else:
             bot.send_message(cid, responses['me_error'][lang(cid)])
     else:

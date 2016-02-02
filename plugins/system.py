@@ -29,7 +29,8 @@ def command_system(m):
         running = '\n*Running on*:\n'
         running += '\t*System*: {0}\n'.format(
             subprocess.getoutput('head -n1 /etc/issue | cut -d " " -f -3'))
-        running += '\t*Kernel*: {0}\n'.format(subprocess.getoutput('uname -rs'))
+        running += '\t*Kernel*: {0}\n'.format(
+            subprocess.getoutput('uname -rs'))
         running += '\t*Processor*: {0}\n'.format(subprocess.getoutput(
             'cat /proc/cpuinfo | grep "model name" | tr -s " " | cut -d " " -f 3-'))
         running += '\t*RAM*: {0}MB ({1}% used)\n'.format(
