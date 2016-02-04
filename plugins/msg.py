@@ -24,21 +24,17 @@ def command_msg(m):
     if is_admin(uid):
         if len(m.text.split(' ')) >= 3:
             if isint(m.text.split(' ')[1]):
-                if is_user(m.text.split(' ')[1]):
-                    try:
-                        bot.send_message(
-                            m.text.split(' ')[1], ' '.join(
-                                m.text.split(' ')[
-                                    2:]))
-                    except:
-                        bot.send_message(
-                            cid, "Error. No se pudo enviar mensaje, quizá ya no es usuario.")
-                    else:
-                        bot.send_message(
-                            cid, "Éxito. Mensaje enviado satisfactoriamente.")
+                try:
+                    bot.send_message(
+                        m.text.split(' ')[1], ' '.join(
+                            m.text.split(' ')[
+                                2:]))
+                except:
+                    bot.send_message(
+                        cid, "Error. No se pudo enviar mensaje, quizá ya no es usuario.")
                 else:
                     bot.send_message(
-                        cid, "Error. El usuario no se encuentra en la base de datos.")
+                        cid, "Éxito. Mensaje enviado satisfactoriamente.")
             else:
                 bot.send_message(
                     cid, "Error. Debes introducir un número como ID.")
