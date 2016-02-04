@@ -37,7 +37,7 @@ def command_all_es(m):
                 except Exception as e:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        users.pop(str(uid))
+                        users.pop(x)
                     else:
                         errors[x] = json.loads(e.result.text)
                 else:
@@ -98,7 +98,7 @@ def command_all_en(m):
                 except Exception as e:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        users.pop(str(uid))
+                        users.pop(x)
                     else:
                         errors[x] = json.loads(e.result.text)
                 else:
