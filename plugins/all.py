@@ -32,7 +32,7 @@ def command_all_es(m):
             for x in [y for y in users if users[y]['notify']
                       and lang(y) == 'es' and not is_banned(y)]:
                 try:
-                    bot.send_chat_action(int(uid), 'typing')
+                    bot.send_chat_action(int(x), 'typing')
                     bot.send_message(int(x), txt)
                 except Exception as e:
                     if e.result.status_code == 403:
@@ -93,7 +93,7 @@ def command_all_en(m):
             for x in [y for y in users if users[y]['notify']
                       and lang(y) != 'es' and not is_banned(y)]:
                 try:
-                    bot.send_chat_action(int(uid), 'typing')
+                    bot.send_chat_action(int(x), 'typing')
                     bot.send_message(int(x), txt)
                 except Exception as e:
                     if e.result.status_code == 403:
