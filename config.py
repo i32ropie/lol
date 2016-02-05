@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 #################################################
 #                   BOT TOKEN                   #
 #################################################
@@ -31,7 +29,7 @@ admins = extra['admins']
 
 easter_eggs = {
     "edu": "`smellz`",
-    "raina": u"\xf0\x9f\x8c\xa7\xf0\x9f\x8c\xa7\xf0\x9f\x8c\xa7",
+    "raina": "🌧🌧🌧",
     "rapsodas": "rapsidas",
     "alin": "nigro",
     "abu": "matas",
