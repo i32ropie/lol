@@ -29,7 +29,7 @@ admins = extra['admins']
 
 easter_eggs = {
     "edu": "`smellz`",
-    "raina": "🌧🌧🌧",
+    "raina": u"\xf0\x9f\x8c\xa7\xf0\x9f\x8c\xa7\xf0\x9f\x8c\xa7",
     "rapsodas": "rapsidas",
     "alin": "nigro",
     "abu": "matas",
