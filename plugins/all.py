@@ -60,7 +60,7 @@ def command_all_es(m):
                 aux = "Hubo error en:\n"
                 for x in errors:
                     aux += "\n" + x + "\n\terror_code: " + \
-                        errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
+                        str(errors[x]['error_code']) + "\n\tdescription: " + errors[x]['description']
                 with open('tmp.txt', 'w') as f:
                     f.write(aux)
                 bot.send_document(cid, open('tmp.txt', 'rt'))
@@ -121,7 +121,7 @@ def command_all_en(m):
                 aux = "Hubo error en:\n"
                 for x in errors:
                     aux += "\n" + x + "\n\terror_code: " + \
-                        errors[x]['error_code'] + "\n\tdescription: " + errors[x]['description']
+                        str(errors[x]['error_code']) + "\n\tdescription: " + errors[x]['description']
                 with open('tmp.txt', 'w') as f:
                     f.write(aux)
                 bot.send_document(cid, open('tmp.txt', 'rt'))
