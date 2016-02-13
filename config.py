@@ -41,7 +41,8 @@ easter_eggs = {
     "mega": "flipetis",
     "putaama": "xeha",
     "xeha": "putaama",
-    "zewi": "Fanático de lo homosexual"
+    "zewi": "Fanático de lo homosexual",
+    "hernando": "vinicius"
 }
 
 with open('usuarios.json') as f:
