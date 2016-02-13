@@ -15,7 +15,7 @@ changeds = {
 
 
 @bot.message_handler(
-    func=lambda message: message.text in [
+    func=lambda m: m.content_type == 'text' and m.text in [
         'CAMPEÕES',
         'BOHATEROWIE',
         'CAMPEONES',
@@ -57,7 +57,7 @@ def command_champs(m):
 
 
 @bot.message_handler(
-    func=lambda message: message.text in [
+    func=lambda m: m.content_type == 'text' and m.text in [
         'PAPÉIS',
         'ROLE',
         'POSICIONES',

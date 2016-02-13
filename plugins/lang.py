@@ -18,7 +18,7 @@ markup.add(
 
 
 @bot.message_handler(
-    func=lambda message: message.text in [
+    func=lambda m: m.content_type == 'text' and m.text in [
         'JĘZYK',
         'IDIOMA',
         'LANGUAGE',

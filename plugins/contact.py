@@ -6,7 +6,7 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  contact.py importado.{/cyan}'))
 
 
-@bot.message_handler(func=lambda message: message.text in [
+@bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
                      'CONTATO', 'CONTACTO', 'CONTACT', 'CONTATTO', 'KONTAKT'])
 @bot.message_handler(commands=['contact'])
 def command_contact(m):

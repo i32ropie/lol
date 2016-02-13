@@ -7,7 +7,7 @@ print(Color(
 
 
 @bot.message_handler(
-    func=lambda message: message.text in [
+    func=lambda m: m.content_type == 'text' and m.text in [
         'PRZYWOŁYWACZ',
         'INVOCADOR',
         'SUMMONER',
@@ -49,7 +49,7 @@ def command_summoner(m):
 
 
 @bot.message_handler(
-    func=lambda message: message.text.split(' ')[0].split('@')[0].lower() in [
+    func=lambda m: m.content_type == 'text' and m.text.split(' ')[0].split('@')[0].lower() in [
         '/euw',
         '/eune',
         '/br',

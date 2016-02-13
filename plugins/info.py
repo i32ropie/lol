@@ -6,7 +6,8 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  info.py importado.{/cyan}'))
 
 
-@bot.message_handler(func=lambda message: message.text == "INFO")
+@bot.message_handler(func=lambda m: m.content_type ==
+                     'text' and m.text == "INFO")
 @bot.message_handler(commands=['info'])
 def command_info(m):
     cid = m.chat.id

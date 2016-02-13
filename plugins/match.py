@@ -30,7 +30,7 @@ platform = {
 }
 
 
-@bot.message_handler(func=lambda message: message.text in [
+@bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
                      'MECZ', 'PARTIDA', 'MATCH', 'PARTITA', 'SPIEL', 'PARTIE'])
 @bot.message_handler(commands=['match'])
 def command_match(m):
@@ -67,7 +67,7 @@ def command_match(m):
 
 
 @bot.message_handler(
-    func=lambda message: message.text.split(' ')[0].split('@')[0] in [
+    func=lambda m: m.content_type == 'text' and m.text.split(' ')[0].split('@')[0] in [
         '/match_euw',
         '/match_eune',
         '/match_br',

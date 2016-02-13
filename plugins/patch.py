@@ -6,7 +6,7 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  patch.py importado.{/cyan}'))
 
 
-@bot.message_handler(func=lambda message: message.text in [
+@bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
                      'ATUALIZAÇÃO', 'PARCHE', 'PATCH'])
 @bot.message_handler(commands=['patch'])
 def command_patch(m):

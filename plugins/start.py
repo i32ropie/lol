@@ -17,8 +17,7 @@ markup.add(
     'PERSIAN')
 
 
-@bot.message_handler(commands=['start'],
-                     func=lambda msg: next_step_handler(0) == 0)
+@bot.message_handler(commands=['start'])
 def command_start(m):
     cid = m.chat.id
     uid = m.from_user.id

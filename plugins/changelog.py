@@ -8,7 +8,7 @@ print(Color(
 
 @bot.message_handler(
     content_types=['text'],
-    func=lambda message: message.text in [
+    func=lambda m: m.content_type == 'text' and m.text in [
         "ALTERAÇÕES",
         "CHANGELOG",
         "ÄNDERUNGSPROTOKOLL"])

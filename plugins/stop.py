@@ -6,8 +6,7 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  stop.py importado.{/cyan}'))
 
 
-@bot.message_handler(
-    commands=['stop'], func=lambda msg: next_step_handler(0) == 0)
+@bot.message_handler(commands=['stop'])
 def command_stop(m):
     cid = m.chat.id
     uid = m.from_user.id

@@ -111,7 +111,7 @@ def command_help(m):
 
 
 @bot.message_handler(
-    func=lambda message: message.text in [
+    func=lambda m: m.content_type == 'text' and m.text in [
         "ESCONDER TECLADO",
         "UKRYJ KLAWIATURĘ",
         "OCULTAR TECLADO",
