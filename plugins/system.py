@@ -25,7 +25,6 @@ def command_system(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        uptime = subprocess.getoutput('uptime')
         running = '\n*Running on*:\n'
         running += '\t*System*: {0}\n'.format(
             subprocess.getoutput('head -n1 /etc/issue | cut -d " " -f -3'))
@@ -38,6 +37,5 @@ def command_system(m):
         running += '\t*Python*: {0} ({1})\n'.format(
             str(platform.python_version()), str(platform.python_compiler()))
         running += '\t*Server time*: {0}\n'.format(time.strftime("%c"))
-        running += '\t*Uptime*: Server up for {0} d, {1} h, {2} m\n'.format(
-            uptime.split()[2], uptime.split(':')[0], uptime.split(':')[1])
+        running += '\t*Uptime*: {}m\n'.format(subprocess.getoutput('uptime -p'))
         bot.send_message(cid, running, parse_mode="Markdown")

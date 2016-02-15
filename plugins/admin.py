@@ -39,6 +39,7 @@ Comandos de administración
 /ping - Comprobar si el bot está activo.
 /reload - Reiniciar el bot.
 /stats - Información de usuarios del bot.
+/system - Información del servidor.
 /update\_champs - Actualizar base de datos de campeones.
 /update\_rotation\_pic - Actualizar imagen de rotación gratuita.
 /update\_rotation\_text - Actualizar texto de rotación gratuita.
