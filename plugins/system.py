@@ -37,5 +37,5 @@ def command_system(m):
         running += '\t*Python*: {0} ({1})\n'.format(
             str(platform.python_version()), str(platform.python_compiler()))
         running += '\t*Server time*: {0}\n'.format(time.strftime("%c"))
-        running += '\t*Uptime*: {}m\n'.format(subprocess.getoutput('uptime -p'))
+        running += '\t*Uptime*: {}\n'.format(subprocess.getoutput('uptime -p'))
         bot.send_message(cid, running, parse_mode="Markdown")
