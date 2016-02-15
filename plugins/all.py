@@ -126,3 +126,70 @@ def command_all_en(m):
                     f.write(aux)
                 bot.send_document(cid, open('tmp.txt', 'rt'))
             # userStep[0] = 0
+
+@bot.message_handler(commands=['all_s'])
+def command_all_s(m):
+    cid = m.chat.id
+    uid = m.from_user.id
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/all_s"
+        )
+    except:
+        pass
+    save = list()
+    delete = list()
+    if not is_recent(m):
+        return None
+    if is_admin(uid):
+        for x in [y for y in users if users[y]['notify']
+                  and not is_banned(y)]:
+            try:
+                bot.send_chat_action(int(x), 'typing')
+                bot.send_message(int(x), responses['all_s'][lang(cid)])
+            except Exception as e:
+                if e.result.status_code == 403:
+                    delete.append(x)
+                    users.pop(x)
+            else:
+                save.append(x)
+        aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
+        bot.send_chat_action(cid, 'typing')
+        bot.send_message(cid, aux)
+
+
+@bot.message_handler(commands=['all_r'])
+def command_all_r(m):
+    cid = m.chat.id
+    uid = m.from_user.id
+    try:
+        botan.track(
+            botan_token,
+            cid,
+            to_json(m),
+            "/all_r"
+        )
+    except:
+        pass
+    save = list()
+    delete = list()
+    if not is_recent(m):
+        return None
+    if is_admin(uid):
+        for x in [y for y in users if users[y]['notify']
+                  and not is_banned(y)]:
+            try:
+                bot.send_chat_action(int(x), 'typing')
+                bot.send_message(int(x), responses['all_r'][lang(cid)])
+            except Exception as e:
+                if e.result.status_code == 403:
+                    delete.append(x)
+                    users.pop(x)
+            else:
+                save.append(x)
+        aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
+        bot.send_chat_action(cid, 'typing')
+        bot.send_message(cid, aux)

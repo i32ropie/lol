@@ -205,9 +205,7 @@
             "vote":"Qualifica il bot :)",
             "summoner":"Mostra informazione per la ricerca d'evocatori.",
             "match":"Mostra informazione per la ricerca di partite.",
-            "rate":"Qualifica il bot :)",
-            "summoner":"Mostra informazioni per la ricerca d'evocatori",
-            "match":"Mostra informazioni per la ricerca di partite"
+            "rate":"Qualifica il bot :)"
         },
         "de":{
             "notify":"Aktiviert/Deaktiviert die Benachrichtigungen.",
@@ -1120,5 +1118,25 @@
             "success":"✔️ El usuario con ID <%s> ha sido eliminado correctamente.",
             "error":"✖️ El usuario con ID <%s> *no* era betatester."
         }
+    },
+    "all_s":{
+        "es":"¡Saludos, Invocadores! 😁\nSe han actualizado los campeones y aspectos en oferta. (Activo a partir de mañana)\nÉchales un vistazo con /sale 😄",
+        "en":"Greetings, Summoners! 😁\nThe champions and skins on sale have been updated. (Active from tomorrow)\nCheck them out with /sale 😄",
+        "it":"Saluti, Evocatori! 😁\nI campioni e gli aspetti in saldo sono stati aggiornati. (A partire da domani)\nPuoi controllarli con /sale 😄",
+        "de":"Hallo, Beschwörer! 😁\nDie Champions im Sale wurden geupdatet! (Ab Morgen verfügbar)\nSchau Sie dir jetzt unter /sale an! 😄",
+        "pt":"Saudações, Invocadores! 😁\nAs promoções de campeões e skins foi atualizada. (Ativo a partir de amanhã)\nConfira usando /sale 😄",
+        "fr":"Bonjour, Invocateurs! 😁\nLes champions et skins en vente ont été mis à jour. (Actif dès demain)\nConsultez les avec /sale 😄",
+        "fa":"سلام کاربران گرامی! 😁 \n تخفیف های چمپ ها  و  اسکین ها تغییر کرد. (از فردا) \n برای آگاه شدن از آن ها از دستور روبرو استفاده کنید /sale 😄",
+        "pl":"Witajcie, Przywoływacze! 😁\nCzempioni i skiny na wyprzedaży zostały uaktualnione. (Aktywne od jutra)\nSprawdź pozycje przy pomocy /sale 😁"
+    },
+    "all_r":{
+        "es":"¡Saludos, Invocadores! 😁\nSe han actualizado los campeones y aspectos en oferta, y también la rotación semanal. (Activo a partir de mañana)\nÉchales un vistazo con /sale y /rotation 😄",
+        "en":"Greetings, Summoners! 😁\nThe champions and skins on sale have been updated, and also the weekly rotation. (Active from tomorrow)\nCheck them out with /sale and /rotation 😄",
+        "it":"Saluti, Evocatori! 😄\nI campioni, gli aspetti in saldo e la rotazione settimanale sono stati aggiornati. (A partire da domani)\nPuoi controllarli con /sale e /rotation 😄",
+        "de":"Hallo, Beschwörer! 😁\nDie Champions und Skins im Sale sowie die wöchentliche Drehung wurden geupdatet! (Ab Morgen verfügba)\nSchau Sie dir jetzt unter /sale und /rotation an! 😄",
+        "pt":"Saudações, Invocadores! 😁\nAs promoções de campeões e skins, e também a rotação semanal foram atualizadas. (Ativo a partir de amanhã)\nConsulte usando /sale e /rotation 😄",
+        "fr":"Bonjour, Invocateurs! 😁\nLes champions et skins en vente ont été mis à jour, ainsi que la rotation hebdomadaire. (Actif dès demain)\nConsultez les avec /sale et /rotation 😄",
+        "fa":"سلام کاربران گرامی! 😁 \n چمپ های رایگان و تخفیف های اسکین ها تغییر کرد. (از فردا) \n برای آگاه شدن از آن ها از دستورها استفاده کنید /sale و /rotation 😄",
+        "pl":"Witajcie, Przywoływacze! 😁\nCzempioni i skiny na wyprzedaży zostały uaktualnione, dostępna nowa tygodniowa rotacja. (Aktywne od jutra)\nSprawdź pozycje przy pomocy /sale i /rotation 😁"
     }
 }
