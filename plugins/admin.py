@@ -28,6 +28,8 @@ Comandos de administración
 /all - Difundido a TODOS.
 /all\_es _<mensaje>_ - Difundido a chats españoles.
 /all\_en _<mensaje>_- Difundido a chats *NO* españoles.
+/all\_s - Difundido de ofertas (Usar los jueves).
+/all\_r - Difundido de ofertas+rotación (Usar los lunes).
 /ban _<id>_ - Banea un ID.
 /unban _<id>_ - Desbanea un ID.
 /mute - No responder a baneados.
