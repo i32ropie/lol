@@ -149,7 +149,7 @@ def command_all_s(m):
                   and not is_banned(y)]:
             try:
                 bot.send_chat_action(int(x), 'typing')
-                bot.send_message(int(x), responses['all_s'][lang(cid)])
+                bot.send_message(int(x), responses['all_s'][lang(x)])
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
@@ -183,7 +183,7 @@ def command_all_r(m):
                   and not is_banned(y)]:
             try:
                 bot.send_chat_action(int(x), 'typing')
-                bot.send_message(int(x), responses['all_r'][lang(cid)])
+                bot.send_message(int(x), responses['all_r'][lang(x)])
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
