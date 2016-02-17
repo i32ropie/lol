@@ -26,7 +26,7 @@ def command_exec(m):
         return None
     if is_admin(uid):
         if len(m.text.split()) == 1:
-            bot.send_message(cid, "Uso: /exec _<code>_ - Ejecuta el siguiente bloque de código.")
+            bot.send_message(cid, "Uso: /exec _<code>_ - Ejecuta el siguiente bloque de código.", parse_mode="Markdown")
             return
         cout = StringIO()
         sys.stdout = cout
