@@ -31,6 +31,7 @@ Comandos de administración
 /all\_s - Difundido de ofertas (Usar los jueves).
 /all\_r - Difundido de ofertas+rotación (Usar los lunes).
 /ban _<id>_ - Banea un ID.
+/exec _<code>_ - Ejecuta el siguiente bloque de código.
 /unban _<id>_ - Desbanea un ID.
 /mute - No responder a baneados.
 /unmute - Responder a baneados.
