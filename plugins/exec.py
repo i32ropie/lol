@@ -36,8 +36,8 @@ def command_exec(m):
         try:
             exec(code)
         except:
-            bot.send_message(cid, "STDERR\n\n" + str(cerr.getvalue()))
+            bot.send_message(cid, "ERROR\n\n" + str(cerr.getvalue()))
         else:
-            bot.send_message(cid, "STDOUT\n\n" + str(cout.getvalue()))
+            bot.send_message(cid, str(cout.getvalue()))
         sys.stdout = sys.__stdout__
         sys.stderr = sys.__stderr__
