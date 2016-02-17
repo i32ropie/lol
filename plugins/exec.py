@@ -38,6 +38,7 @@ def command_exec(m):
         except:
             bot.send_message(cid, "ERROR\n\n" + str(cerr.getvalue()))
         else:
-            bot.send_message(cid, str(cout.getvalue()))
+            if cout.getvalue():
+                bot.send_message(cid, str(cout.getvalue()))
         sys.stdout = sys.__stdout__
         sys.stderr = sys.__stderr__
