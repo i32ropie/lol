@@ -127,6 +127,7 @@ def command_all_en(m):
                 bot.send_document(cid, open('tmp.txt', 'rt'))
             # userStep[0] = 0
 
+
 @bot.message_handler(commands=['all_s'])
 def command_all_s(m):
     cid = m.chat.id

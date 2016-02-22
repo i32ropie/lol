@@ -114,10 +114,14 @@ def isint(s):
         return s[1:].isdigit()
     return s.isdigit()
 
-# def upper_first(string):
-    #vector = list(string)
-    #vector[0] = vector[0].upper()
-    # return "".join(vector)
+
+def escape_markup(text):
+    if not isinstance(text, str):
+        return text
+    characters = ['_', '*', '[']
+    for character in characters:
+        text = text.replace(character, '\\' + character)
+    return text
 
 
 def contact_format(m):
@@ -127,12 +131,11 @@ def contact_format(m):
     uid = str(m.from_user.id)
     msg = m.text
     if cid == uid:
-        txt = "Nuevo mensaje\n\nNombre: " + name + "\nAlias: @" + alias + \
-            "\nIdioma: " + lang(cid) + "\nID: " + \
-            cid + "\n\nMensaje: " + msg
+        txt = "*Nuevo mensaje\n\nNombre*: _" + escape_markup(name) + "_\n*Alias*: _@" + alias + "_\n*Idioma*: _" + lang(
+            cid) + "_\n*ID*: _" + cid + "_\n\n*Mensaje*: _" + escape_markup(msg) + "_"
     else:
-        txt = "Nuevo mensaje\n\nNombre: " + name + "\nAlias: @" + alias + "\nIdioma: " + \
-            lang(cid) + "\nCID: " + cid + "\nUID: " + uid + "\n\nMensaje: " + msg
+        txt = "*Nuevo mensaje\n\nNombre*: _" + escape_markup(name) + "_\n*Alias*: _@" + alias + "_\n*Idioma*: _" + lang(
+            cid) + "_\n*ID*: _" + cid + "_\n*UID*: _" + uid + "_\n\n*Mensaje*: _" + escape_markup(msg) + "_"
     return txt
 
 with open('extra_data/file_ids.json', 'r') as f:
