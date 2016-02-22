@@ -69,7 +69,10 @@ def step_contact(m):
         userStep[cid] = 0
         for x in admins:
             bot.send_chat_action(x, 'typing')
-            bot.send_message(x, contact_format(m))
+            try:
+                bot.send_message(x, contact_format(m), parse_mode="Markdown")
+            except:
+                bot.send_message(x, contact_format(m))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['contact_2'][lang(cid)])
 
