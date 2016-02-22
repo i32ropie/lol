@@ -34,6 +34,6 @@ def command_media(m):
             else:
                 bot.send_message(cid, "Error, el argumento debe ser un número entero.")
         else:
-            bot.send_message(cid, "Error, la sintaxis del comando es:\n/media _<id>_ - Reenvía al id el mensaje al que se le responde.")
+            bot.send_message(cid, "Error, la sintaxis del comando es:\n/media _<id>_ - Reenvía al id el mensaje al que se le responde.", parse_mode="Markdown")
 
 
