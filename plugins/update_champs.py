@@ -75,7 +75,7 @@ def command_update_champs(m):
                     region='euw',
                     locale='th_TH',
                     champ_data=['all'],
-                    data_by_id=False)['data'],}
+                    data_by_id=False)['data']}
         except:
             bot.send_message(cid, "Error descargando nuevas bases de datos.")
             return
