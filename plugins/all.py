@@ -24,11 +24,14 @@ def command_all_es(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        if len(m.text.split()) == 1:
+            bot.send_message(cid, "Error, no hay nada para enviar.")
+            return
         for x in [y for y in users if users[y]['notify']
                   and lang(y) == 'es' and not is_banned(y)]:
             try:
                 bot.send_chat_action(int(x), 'typing')
-                bot.send_message(int(x), responses['all_s'][lang(x)])
+                bot.send_message(int(x), ' '.join(m.text.split()[1:]))
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
@@ -58,11 +61,14 @@ def command_all_en(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        if len(m.text.split()) == 1:
+            bot.send_message(cid, "Error, no hay nada para enviar.")
+            return
         for x in [y for y in users if users[y]['notify']
                   and lang(y) != 'es' and not is_banned(y)]:
             try:
                 bot.send_chat_action(int(x), 'typing')
-                bot.send_message(int(x), responses['all_s'][lang(x)])
+                bot.send_message(int(x), ' '.join(m.text.split()[1:]))
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
