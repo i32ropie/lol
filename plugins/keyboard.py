@@ -7,61 +7,86 @@ print(Color(
 
 markup_es = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_es.add('AYUDA', 'CONTACTO', 'INFO')
-markup_es.add('PARCHE', 'CHANGELOG', 'CALIFICAR')
+markup_es.add('PARCHE', 'IDIOMA', 'CALIFICAR')
 markup_es.add('OFERTA', 'CAMPEONES', 'ROTACION')
 markup_es.add('INVOCADOR', 'OCULTAR TECLADO', 'PARTIDA')
 markup_es.add('POSICIONES', 'NOTIFICACIONES', 'CRÉDITOS')
-markup_es.add('IDIOMA')
+
 
 markup_pt = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_pt.add('AJUDA', 'CONTATO', 'INFO')
-markup_pt.add('ATUALIZAÇÃO', 'ALTERAÇÕES', 'AVALIAR')
+markup_pt.add('ATUALIZAÇÃO', 'IDIOMA', 'AVALIAR')
 markup_pt.add('PROMOÇÕES', 'CAMPEÕES', 'ROTAÇÃO')
 markup_pt.add('INVOCADOR', 'ESCONDER TECLADO', 'PARTIDA')
 markup_pt.add('PAPÉIS', 'NOTIFICAÇÕES', 'CRÉDITOS')
-markup_pt.add('IDIOMA')
+
 
 markup_en = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_en.add('HELP', 'CONTACT', 'INFO')
-markup_en.add('PATCH', 'CHANGELOG', 'RATE')
+markup_en.add('PATCH', 'LANGUAGE', 'RATE')
 markup_en.add('SALE', 'CHAMPIONS', 'ROTATION')
 markup_en.add('SUMMONER', 'HIDE KEYBOARD', 'MATCH')
 markup_en.add('ROLES', 'NOTIFICATIONS', 'CREDITS')
-markup_en.add('LANGUAGE')
+
 
 markup_it = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_it.add('AIUTO', 'CONTATTO', 'INFO')
-markup_it.add('PATCH', 'CHANGELOG', 'QUALIFICARE')
+markup_it.add('PATCH', 'LINGUA', 'QUALIFICARE')
 markup_it.add('OFFERTA', 'CAMPIONI', 'ROTAZIONE')
 markup_it.add('EVOCATORE', 'NASCONDI TASTIERA', 'PARTITA')
 markup_it.add('RUOLI', 'NOTIFICHE', 'CREDITI')
-markup_it.add('LINGUA')
+
 
 markup_de = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_de.add('HILFE', 'KONTAKT', 'INFO')
-markup_de.add('PATCH', 'ÄNDERUNGSPROTOKOLL', 'SIEGESRATE')
+markup_de.add('PATCH', 'SPRACHE', 'SIEGESRATE')
 markup_de.add('ANGEBOTE', 'CHAMPIONS', 'ROTATION')
 markup_de.add('BESCHWÖRER', 'VERBERGE TASTATUR', 'SPIEL')
 markup_de.add('ROLLEN', 'BENACHRICHTIGUNGEN', 'DANKSAGUNGEN')
-markup_de.add('SPRACHE')
+
 
 markup_fr = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_fr.add('AIDE', 'CONTACT', 'INFO')
-markup_fr.add('PATCH', 'CHANGELOG', 'NOTER')
+markup_fr.add('PATCH', 'LANGUE', 'NOTER')
 markup_fr.add('VENTE', 'CHAMPIONS', 'ROTATION')
 markup_fr.add('INVOCATEUR', 'CACHER CLAVIER', 'PARTIE')
 markup_fr.add('RÔLES', 'NOTIFICATIONS', 'CRÉDITS')
-markup_fr.add('LANGUE')
+markup_fr.add('')
 
 markup_pl = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_pl.add('POMOC', 'KONTAKT', 'INFO')
-markup_pl.add('PATCH', 'CHANGELOG', 'KWALIFIKOWAĆ')
+markup_pl.add('PATCH', 'JĘZYK', 'KWALIFIKOWAĆ')
 markup_pl.add('WYPRZEDAŻ', 'BOHATEROWIE', 'ROTACJA')
 markup_pl.add('PRZYWOŁYWACZ', 'UKRYJ KLAWIATURĘ', 'MECZ')
 markup_pl.add('ROLE', 'NOTYFIKACJE', 'CREDITS')
-markup_pl.add('JĘZYK')
+
+
+markup_th = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+
+
+markup_el = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+
+
+markup_ru = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+markup_pl.add('', '', '')
+
 
 markup_fa = markup_en
+
 
 markups = {
     "es": markup_es,
@@ -71,7 +96,10 @@ markups = {
     "fr": markup_fr,
     "pt": markup_pt,
     "de": markup_de,
-    "fa": markup_fa
+    "fa": markup_fa,
+    "th": markup_th,
+    "el": markup_el,
+    "ru": markup_ru
 }
 
 

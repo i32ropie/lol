@@ -47,24 +47,39 @@ def command_update_champs(m):
                     champ_data=['all'],
                     data_by_id=False)['data'],
                 "champs_fr.json": lol_api.static_get_champion_list(
-                        region='euw',
-                        locale='fr_FR',
-                        champ_data=['all'],
-                        data_by_id=False)['data'],
+                    region='euw',
+                    locale='fr_FR',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],
                 "champs_pl.json": lol_api.static_get_champion_list(
-                            region='euw',
-                            locale='pl_PL',
-                            champ_data=['all'],
-                            data_by_id=False)['data'],
+                    region='euw',
+                    locale='pl_PL',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],
                 "champs_pt.json": lol_api.static_get_champion_list(
-                                region='euw',
-                                locale='pt_BR',
-                                champ_data=['all'],
-                    data_by_id=False)['data']}
+                    region='euw',
+                    locale='pt_BR',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],
+                "champs_el.json": lol_api.static_get_champion_list(
+                    region='euw',
+                    locale='el_GR',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],
+                "champs_ru.json": lol_api.static_get_champion_list(
+                    region='euw',
+                    locale='ru_RU',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],
+                "champs_th.json": lol_api.static_get_champion_list(
+                    region='euw',
+                    locale='th_TH',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],}
         except:
             bot.send_message(cid, "Error descargando nuevas bases de datos.")
             return
-        bot.send_message(cid, "Bases de datos descargadas.")
+        bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
         bot.send_message(cid, "Actualizando archivos...")
         try:
             for x in aux:

@@ -25,7 +25,6 @@ def command_admin(m):
         txt = """
 Comandos de administración
 
-/all - Difundido a TODOS.
 /all\_es _<mensaje>_ - Difundido a chats españoles.
 /all\_en _<mensaje>_- Difundido a chats *NO* españoles.
 /all\_s - Difundido de ofertas (Usar los jueves).
@@ -38,7 +37,6 @@ Comandos de administración
 /msg _<id>_ _<mensaje>_ - Envia un mensaje a un ID.
 /media _<id>_ - Reenvía al id el mensaje al que se le responde.
 /patch\_XX - Actualizar parche.
-/ping - Comprobar si el bot está activo.
 /reload - Reiniciar el bot.
 /stats - Información de usuarios del bot.
 /system - Información del servidor.

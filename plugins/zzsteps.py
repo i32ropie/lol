@@ -18,7 +18,10 @@ languages = {
     "DEUTSCH": "de",
     "FRANÇAIS": "fr",
     "PERSIAN": "fa",
-    "PORTUGUÊS": "pt"
+    "PORTUGUÊS": "pt",
+    "РУССКИЙ": "ru",
+    "ไทย": "th",
+    "ΕΛΛΗΝΙΚΆ": "el"
 }
 
 
@@ -120,10 +123,6 @@ def step_update_rotation_pic(m):
     extra['rotation'] = file_id
     with open('extra_data/extra.json', 'w') as f:
         json.dump(extra, f)
-    #file_info = bot.get_file(m.photo[-1].file_id)
-    #downloaded_file = bot.download_file(file_info.file_path)
-    # with open('extra_data/rotation.jpg','wb') as new_file:
-        # new_file.write(downloaded_file)
     bot.send_chat_action(cid, 'typing')
     bot.send_message(cid, responses['update_rotation_pic_2'])
 
@@ -149,10 +148,6 @@ def step_update_sale_pic(m):
     extra['sale'] = file_id
     with open('extra_data/extra.json', 'w') as f:
         json.dump(extra, f)
-    #file_info = bot.get_file(m.photo[-1].file_id)
-    #downloaded_file = bot.download_file(file_info.file_path)
-    # with open('extra_data/sale.jpg','wb') as new_file:
-        # new_file.write(downloaded_file)
     bot.send_chat_action(cid, 'typing')
     bot.send_message(cid, responses['update_sale_pic_2'])
 
@@ -167,7 +162,10 @@ def step_update_sale_pic(m):
             'patch_fr',
             'patch_de',
             'patch_pt',
-        'patch_fa'])
+            'patch_fa',
+            'patch_th',
+            'patch_ru',
+            'patch_el'])
 def step_update_patch(m):
     cid = m.chat.id
     if m.content_type == 'text':
