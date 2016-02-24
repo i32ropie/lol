@@ -24,7 +24,7 @@ def command_update_champs_1(m):
         return None
     if is_admin(uid):
         bot.send_message(
-            cid, "Descargando nuevas bases de datos de campeones:\n```-Español\n-Inglés\n-Italiano\n-Alemán\n-Francés```", parse_mode="Markdown")
+            cid, "Descargando nuevas bases de datos de campeones:\n``` -Español\n-Inglés\n-Italiano\n-Alemán\n-Francés```", parse_mode="Markdown")
         try:
             aux = {
                 "champs_es.json": lol_api.static_get_champion_list(
@@ -86,7 +86,7 @@ def command_update_champs_2(m):
         return None
     if is_admin(uid):
         bot.send_message(
-            cid, "Descargando nuevas bases de datos de campeones:\n```-Polaco\n-Portugués\n-Griego\n-Ruso\nTailandés```", parse_mode="Markdown")
+            cid, "Descargando nuevas bases de datos de campeones:\n``` -Polaco\n-Portugués\n-Griego\n-Ruso\nTailandés```", parse_mode="Markdown")
         try:
             aux = {
                 "champs_pl.json": lol_api.static_get_champion_list(
