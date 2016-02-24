@@ -60,21 +60,21 @@ def command_update_champs(m):
                     region='euw',
                     locale='pt_BR',
                     champ_data=['all'],
-                #     data_by_id=False)['data'],
-                # "champs_el.json": lol_api.static_get_champion_list(
-                #     region='euw',
-                #     locale='el_GR',
-                #     champ_data=['all'],
-                #     data_by_id=False)['data'],
-                # "champs_ru.json": lol_api.static_get_champion_list(
-                #     region='euw',
-                #     locale='ru_RU',
-                #     champ_data=['all'],
-                #     data_by_id=False)['data'],
-                # "champs_th.json": lol_api.static_get_champion_list(
-                #     region='euw',
-                #     locale='th_TH',
-                #     champ_data=['all'],
+                    data_by_id=False)['data'],
+                "champs_el.json": lol_api.static_get_champion_list(
+                    region='euw',
+                    locale='el_GR',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],
+                "champs_ru.json": lol_api.static_get_champion_list(
+                    region='euw',
+                    locale='ru_RU',
+                    champ_data=['all'],
+                    data_by_id=False)['data'],
+                "champs_th.json": lol_api.static_get_champion_list(
+                    region='euw',
+                    locale='th_TH',
+                    champ_data=['all'],
                     data_by_id=False)['data']}
         except:
             bot.send_message(cid, "Error descargando nuevas bases de datos.")
