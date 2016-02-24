@@ -79,7 +79,7 @@ def command_update_champs(m):
         except:
             bot.send_message(cid, "Error descargando nuevas bases de datos.")
             return
-        bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
+        bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join(aux.keys()) + "`", parse_mode="Markdown")
         bot.send_message(cid, "Actualizando archivos...")
         try:
             for x in aux:
