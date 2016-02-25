@@ -19,7 +19,7 @@ languages = {
     "FRANÇAIS": "fr",
     "PERSIAN": "fa",
     "PORTUGUÊS": "pt"
-    # "РУССКИЙ": "ru",
+    "РУССКИЙ": "ru",
     # "ไทย": "th",
     # "ΕΛΛΗΝΙΚΆ": "el"
 }
