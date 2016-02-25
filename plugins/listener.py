@@ -214,7 +214,7 @@ def champ_basic(chmp, cid):
                 str(skin['num']) + ': ' + skin['name']
     # txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
     txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
-    if not is_admin(cid):
+    if not is_beta(cid):
         return text
 
     r = requests.get('http://www.championselect.net/champions/' + key.lower())
