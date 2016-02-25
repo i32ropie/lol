@@ -12,6 +12,7 @@ import time
 import six
 import botan
 import re
+from collections import OrderedDict
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -49,7 +50,7 @@ with open('usuarios.json') as f:
     users = json.load(f)
 
 with open('responses.json') as f:
-    responses = json.load(f)
+    responses = json.load(f, object_pairs_hook=OrderedDict)
 
 with open('twitch.json') as f:
     twitch_users = json.load(f)
