@@ -222,7 +222,7 @@ def champ_basic(chmp, cid):
         soup = BeautifulSoup(r.text, 'html.parser')
         weak_against = [x.string for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')]
         strong_against = [x.string for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')]
-        txt += '\n\n*Weak against:* ' + ', '.join(weak_against[:5]) + '\n*Strong against:* ' + ', '.join(strong_against[:5])
+        txt += '\n\n*Weak against:* /' + ', /'.join(weak_against[:5]) + '\n*Strong against:* /' + ', /'.join(strong_against[:5])
     return txt
 
 
