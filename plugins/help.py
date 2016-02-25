@@ -9,6 +9,7 @@ print(Color(
 @bot.message_handler(
     func=lambda m: m.content_type == 'text' and m.text in [
         'AJUDA',
+        'ПОМОЩЬ',
         'POMOC',
         'AYUDA',
         'HELP',

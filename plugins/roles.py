@@ -19,6 +19,7 @@ changeds = {
         'CAMPEÕES',
         'BOHATEROWIE',
         'CAMPEONES',
+        'ЧЕМПИОНЫ',
         'CHAMPIONS',
         'CAMPIONI'])
 @bot.message_handler(commands=['champs'])
@@ -62,6 +63,7 @@ def command_champs(m):
         'ROLE',
         'POSICIONES',
         'ROLES',
+        'РОЛИ',
         'RUOLI',
         'ROLLEN',
         'RÔLES'])

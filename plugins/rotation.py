@@ -10,6 +10,7 @@ print(Color(
     func=lambda m: m.content_type == 'text' and m.text in [
         'ROTAÇÃO',
         'ROTACJA',
+        'ФРИПИК',
         'ROTACION',
         'ROTATION',
         'ROTAZIONE'])

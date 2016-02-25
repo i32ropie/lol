@@ -12,6 +12,7 @@ print(Color(
         'INVOCADOR',
         'SUMMONER',
         'EVOCATORE',
+        'ПРИЗЫВАТЕЛЬ',
         'BESCHWÖRER',
         'INVOCATEUR'])
 @bot.message_handler(commands=['summoner'])

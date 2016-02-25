@@ -13,6 +13,7 @@ print(Color(
         'NOTIFICATIONS',
         'NOTIFICACIONES',
         'NOTIFICHE',
+        'УВЕДОМЛЕНИЯ',
         'BENACHRICHTIGUNGEN'])
 @bot.message_handler(commands=['notify'])
 def command_notify(m):

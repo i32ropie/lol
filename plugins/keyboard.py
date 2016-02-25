@@ -70,19 +70,19 @@ markup_pl.add('', '', '')
 
 
 markup_el = types.ReplyKeyboardMarkup(resize_keyboard=True)
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
+markup_el.add('', '', '')
+markup_el.add('', '', '')
+markup_el.add('', '', '')
+markup_el.add('', '', '')
+markup_el.add('', '', '')
 
 
 markup_ru = types.ReplyKeyboardMarkup(resize_keyboard=True)
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
-markup_pl.add('', '', '')
+markup_ru.add('ПОМОЩЬ', 'КОНТАКТЫ', 'ИНФОРМАЦИЯ')
+markup_ru.add('ПАТЧ', 'ЯЗЫК', 'ОТЗЫВ')
+markup_ru.add('РАСПРОДАЖА', 'ЧЕМПИОНЫ', 'ФРИПИК')
+markup_ru.add('ПРИЗЫВАТЕЛЬ', 'СКРЫТЬ КЛАВИАТУРУ', 'МАТЧ')
+markup_ru.add('РОЛИ', 'УВЕДОМЛЕНИЯ', 'АВТОРЫ')
 
 
 markup_fa = markup_en
@@ -144,6 +144,7 @@ def command_help(m):
         "UKRYJ KLAWIATURĘ",
         "OCULTAR TECLADO",
         "HIDE KEYBOARD",
+        "СКРЫТЬ КЛАВИАТУРУ",
         "NASCONDI TASTIERA",
         "VERBERGE TASTATUR",
         "CACHER CLAVIER"])

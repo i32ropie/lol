@@ -31,7 +31,7 @@ platform = {
 
 
 @bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
-                     'MECZ', 'PARTIDA', 'MATCH', 'PARTITA', 'SPIEL', 'PARTIE'])
+                     'MECZ', 'PARTIDA', 'МАТЧ', 'MATCH', 'PARTITA', 'SPIEL', 'PARTIE'])
 @bot.message_handler(commands=['match'])
 def command_match(m):
     cid = m.chat.id

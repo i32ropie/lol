@@ -24,6 +24,7 @@ markup.add(
     func=lambda m: m.content_type == 'text' and m.text in [
         'JĘZYK',
         'IDIOMA',
+        'ЯЗЫК',
         'LANGUAGE',
         'LINGUA',
         'SPRACHE',

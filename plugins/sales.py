@@ -13,6 +13,7 @@ print(Color(
         'OFERTA',
         'SALE',
         'OFFERTA',
+        'РАСПРОДАЖА',
         'ANGEBOTE',
         'VENTE'])
 @bot.message_handler(commands=['sale'])

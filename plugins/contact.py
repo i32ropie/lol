@@ -7,7 +7,7 @@ print(Color(
 
 
 @bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
-                     'CONTATO', 'CONTACTO', 'CONTACT', 'CONTATTO', 'KONTAKT'])
+                     'CONTATO', 'КОНТАКТЫ', 'CONTACTO', 'CONTACT', 'CONTATTO', 'KONTAKT'])
 @bot.message_handler(commands=['contact'])
 def command_contact(m):
     cid = m.chat.id
