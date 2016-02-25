@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from config import *
+from bs4 import BeautifulSoup
+import requests
 import time
 
 print(Color(
@@ -212,6 +214,15 @@ def champ_basic(chmp, cid):
                 str(skin['num']) + ': ' + skin['name']
     # txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
     txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
+    if not is_admin(cid):
+        return text
+
+    r = requests.get('http://www.championselect.net/champions/' + key.lower())
+    if r.status_code == 200:
+        soup = BeautifulSoup(r.text, 'html.parser')
+        weak_against = [x.string for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')]
+        strong_against = [x.string for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')]
+        txt += '\nWeak against: ' + ', '.join(weak_against[:5]) + '\nStrong against: ' + ', '.join(strong_against[:5])
     return txt
 
 
