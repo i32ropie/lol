@@ -18,8 +18,8 @@ languages = {
     "DEUTSCH": "de",
     "FRANÇAIS": "fr",
     "PERSIAN": "fa",
-    "PORTUGUÊS": "pt"
-    "РУССКИЙ": "ru",
+    "PORTUGUÊS": "pt",
+    "РУССКИЙ": "ru"
     # "ไทย": "th",
     # "ΕΛΛΗΝΙΚΆ": "el"
 }
