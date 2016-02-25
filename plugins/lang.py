@@ -14,7 +14,7 @@ markup.add(
     'DEUTSCH',
     'FRANÇAIS',
     'PORTUGUÊS',
-    # 'РУССКИЙ',
+    'РУССКИЙ',
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
     'PERSIAN')
