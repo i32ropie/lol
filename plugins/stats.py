@@ -63,6 +63,6 @@ def command_usuarios(m):
             + '_\n\n*Grupos*: ' + str(x['grupos']['total']) + "\n *-*Español: _" + str(x['grupos']['es']) + "_\n *-*Inglés: _" \
             + str(x['grupos']['en']) + "_\n *-*Italiano: _" + str(x['grupos']['it']) + "_\n *-*Polaco: _" + str(x['grupos']['pl'])\
             + "_\n *-*Francés: _" + str(x['grupos']['fr']) + "_\n *-*Alemán: _" + str(x['grupos']['de']) + "_\n *-*Portugués: _" + str(x['grupos']['pt']) + "_\n *-*Persa: _" \
-            + str(x['grupos']['fa']) + + "_\n *-*Ruso: _" + str(x['grupos']['ru']) + "_\n *-*Tailandés: _" + str(x['grupos']['th']) + "_\n *-*Griego: _" + str(x['grupos']['el']) + '_'
+            + str(x['grupos']['fa']) + "_\n *-*Ruso: _" + str(x['grupos']['ru']) + "_\n *-*Tailandés: _" + str(x['grupos']['th']) + "_\n *-*Griego: _" + str(x['grupos']['el']) + '_'
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, txt, parse_mode="Markdown")
