@@ -24,8 +24,6 @@ markup.add(
 def command_start(m):
     cid = m.chat.id
     uid = m.from_user.id
-    if not is_recent(m):
-        return None
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.send_chat_action(cid, 'typing')

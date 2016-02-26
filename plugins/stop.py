@@ -10,8 +10,6 @@ print(Color(
 def command_stop(m):
     cid = m.chat.id
     uid = m.from_user.id
-    if not is_recent(m):
-        return None
     if is_user(cid):
         try:
             botan.track(
