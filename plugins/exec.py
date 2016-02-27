@@ -2,7 +2,6 @@
 
 from config import *
 from io import StringIO
-import sys
 
 
 print(Color(
@@ -38,8 +37,8 @@ def command_exec(m):
         code = ' '.join(m.text.split()[1:])
         try:
             exec(code)
-        except:
-            bot.send_message(cid, "ERROR\n\n" + str(cerr.getvalue()))
+        except Exception as e:
+            bot.send_message(cid, send_exception(e), parse_mode="Markdown")
         else:
             if cout.getvalue():
                 bot.send_message(cid, str(cout.getvalue()))

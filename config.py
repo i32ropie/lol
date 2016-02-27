@@ -11,6 +11,8 @@ import json
 import time
 import six
 import botan
+import sys
+import traceback
 import re
 from collections import OrderedDict
 
@@ -151,6 +153,22 @@ for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt','ru','el','th']:
 with open('champs_en.json', 'r') as f:
     data['fa'] = json.load(f)
 
+def line(alt=False):
+    if alt:
+        return u'\n—————————————————————————\n'
+    else:
+        return u'\n`—————————————————————————`\n'
+
+def send_exception(exception):
+    exc_type, exc_obj, exc_tb = sys.exc_info()
+    tb = traceback.extract_tb(exc_tb, 4)
+    message = '\n`' + str(exc_type) + '`'
+    message += '\n\n`' + str(exc_obj) + '`'
+    for row in tb:
+        message += line()
+        for val in row:
+            message += '`' + str(val) + '`\n'
+    return message
 
 def to_json(m):
     d = {}
