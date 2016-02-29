@@ -212,13 +212,13 @@ def champ_basic(chmp, cid):
             txt += '\n⁣  /' + key + '\_' + \
                 str(skin['num']) + ': ' + skin['name']
     # txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
-    if is_beta(cid):
-        r = requests.get('http://www.championselect.net/champions/' + key.lower())
-        if r.status_code == 200:
-            soup = BeautifulSoup(r.text, 'html.parser')
-            weak_against = [x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')]
-            strong_against = [x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')]
-            txt += '\n\n*Weak against:* /' + ', /'.join(weak_against[:5]) + '\n*Strong against:* /' + ', /'.join(strong_against[:5])
+    # if is_beta(cid):
+    r = requests.get('http://www.championselect.net/champions/' + key.lower())
+    if r.status_code == 200:
+        soup = BeautifulSoup(r.text, 'html.parser')
+        weak_against = [x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')]
+        strong_against = [x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')]
+        txt += '\n\n*Weak against:* /' + ', /'.join(weak_against[:5]) + '\n*Strong against:* /' + ', /'.join(strong_against[:5])
     txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
     return txt
