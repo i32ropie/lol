@@ -45,7 +45,8 @@ easter_eggs = {
     "putaama": "xeha",
     "xeha": "putaama",
     "zewi": "Fanático de lo homosexual",
-    "hernando": "vinicius"
+    "hernando": "vinicius",
+    "programame esta": "`#include <iostream>\n\nvoid main(){\n    std::cout << \"Programame esta\" << std::endl;\n}`"
 }
 
 with open('usuarios.json') as f:
