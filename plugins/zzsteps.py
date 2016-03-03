@@ -68,6 +68,12 @@ def step_start(m):
     func=lambda msg: next_step_handler(msg.chat.id) == 'contact')
 def step_contact(m):
     cid = m.chat.id
+    uid = m.from_user.id
+    if is_banned(uid) or is_banned(cid):
+        if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
+            bot.reply_to(m, responses['banned'])
+        return None
     if m.content_type == 'text':
         userStep[cid] = 0
         for x in admins:
