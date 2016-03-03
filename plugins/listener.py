@@ -80,7 +80,7 @@ def listener(messages):
             log(cid, log_line)
             if extra["log"]:
                 try:
-                    logBot.send_message(-1001047635136, log_line)
+                    logBot.send_message(52033876, log_line)
                 except:
                     pass
         elif m.content_type in content_types:
