@@ -200,10 +200,10 @@ def champ_basic(chmp, cid):
         i += 1
     # Descripción
     if lang(cid) != 'fa':
-        txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n') + '_ ' + '[' + responses['continue'][lang(
+        txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
             cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
     else:
-        txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n') + '_ ' + '[' + responses['continue'][lang(
+        txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
             cid)] + '](http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/' + key.lower() + '/)'
     # Skins
     txt += '\n\n*Skins:*'
@@ -220,8 +220,8 @@ def champ_basic(chmp, cid):
     if r.status_code == 200:
         try:
             soup = BeautifulSoup(r.text, 'html.parser')
-            weak_against = [x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')]
-            strong_against = [x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')]
+            weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
+            strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
             txt += '\n\n*Weak against:* /' + ', /'.join(weak_against[:5]) + '\n*Strong against:* /' + ', /'.join(strong_against[:5])
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
