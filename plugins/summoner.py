@@ -203,7 +203,11 @@ def get_summoner_info(invocador, region, cid):
             icon_url, summoner_name, summoner_level, wins5, wins3, winsA)
     if is_beta(cid):
         try:
-            txt += '\n\nBest champions:\n-' + '\n-'.join(get_3_best_champs(summoner['id'],region,cid))
+            bst = get_3_best_champs(summoner['id'],region,cid)
+            txt += '\n\nBest champions:'
+            if bst:
+                for x in bst:
+                    txt += '\n- ' + x
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
