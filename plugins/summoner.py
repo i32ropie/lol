@@ -214,6 +214,7 @@ def get_summoner_info(invocador, region, cid):
 
 def get_3_best_champs(summonerId, region, cid):
     url = 'https://euw.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(platform[region],summonerId)
+    bot.send_message(cid, '[DEBUG] url = \n\n' + url + '?api_key='+extra['lol_api'])
     params = {
         "api_key":extra['lol_api']
     }
@@ -221,6 +222,7 @@ def get_3_best_champs(summonerId, region, cid):
         url=url,
         params=params
     )
+    bot.send_message(cid, '[DEBUG] jstr.text = \n\n' + jstr.text)
     if jstr.status_code != 200:
         return None
     else:
