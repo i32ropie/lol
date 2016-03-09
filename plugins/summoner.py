@@ -207,14 +207,13 @@ def get_summoner_info(invocador, region, cid):
             if bst:
                 txt += '\n\nBest champions:'
                 for x,y in bst.items():
-                    txt += '\n- ' + x + '_(Level: ' + y + ')_'
+                    txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
 
 def get_3_best_champs(summonerId, region, cid):
     url = 'https://global.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(platform[region],summonerId)
-    bot.send_message(cid, '[DEBUG] url = \n\n' + url + '?api_key='+extra['lol_api'])
     params = {
         "api_key":extra['lol_api']
     }
@@ -222,7 +221,6 @@ def get_3_best_champs(summonerId, region, cid):
         url=url,
         params=params
     )
-    bot.send_message(cid, '[DEBUG] jstr.text = \n\n' + jstr.text)
     if jstr.status_code != 200:
         return None
     else:
