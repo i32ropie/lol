@@ -204,8 +204,8 @@ def get_summoner_info(invocador, region, cid):
     if is_beta(cid):
         try:
             bst = get_3_best_champs(summoner['id'],region,cid)
-            txt += '\n\nBest champions:'
             if bst:
+                txt += '\n\nBest champions:'
                 for x in bst:
                     txt += '\n- ' + x
         except Exception as e:
@@ -214,15 +214,13 @@ def get_summoner_info(invocador, region, cid):
 
 def get_3_best_champs(summonerId, region, cid):
     url = 'https://euw.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(platform[region],summonerId)
-    bot.send_message(cid, '[DEBUG] url = \n\n' + url)
     params = {
-        "api_key":lol_api
+        "api_key":extra['lol_api']
     }
     jstr = requests.get(
         url=url,
         params=params
     )
-    bot.send_message(cid, '[DEBUG] jstr.text = \n\n' + jstr.text)
     if jstr.status_code != 200:
         return None
     else:
