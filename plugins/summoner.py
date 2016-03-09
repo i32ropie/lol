@@ -222,8 +222,8 @@ def get_3_best_champs(summonerId, region, cid):
         url=url,
         params=params
     )
+    bot.send_message(cid, '[DEBUG] jstr.text = \n\n' + jstr.text)
     if jstr.status_code != 200:
         return None
     else:
-        bot.send_message(cid, '[DEBUG] jstr.text = \n\n' + jstr.text)
         return [data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'] for x in json.loads(jstr.text)]
