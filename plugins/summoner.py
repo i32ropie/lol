@@ -213,7 +213,7 @@ def get_summoner_info(invocador, region, cid):
     return txt
 
 def get_3_best_champs(summonerId, region, cid):
-    url = 'https://global.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(platform[region],summonerId)
+    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(region.lower(),platform[region],summonerId)
     params = {
         "api_key":extra['lol_api']
     }
