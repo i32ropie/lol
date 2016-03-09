@@ -206,8 +206,8 @@ def get_summoner_info(invocador, region, cid):
             bst = get_3_best_champs(summoner['id'],region,cid)
             if bst:
                 txt += '\n\nBest champions:'
-                for x in bst:
-                    txt += '\n- ' + x
+                for x,y in bst:
+                    txt += '\n- ' + x + '_(Level: ' + y + ')_'
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
@@ -226,4 +226,4 @@ def get_3_best_champs(summonerId, region, cid):
     if jstr.status_code != 200:
         return None
     else:
-        return [data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'] for x in json.loads(jstr.text)]
+        return {data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name']:str(x['championLevel']) for x in json.loads(jstr.text)}
