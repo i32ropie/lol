@@ -1472,7 +1472,7 @@
         "es":"¡Saludos, Invocadores! 😁\nSe han actualizado los campeones y aspectos en oferta, y también la rotación semanal. (Activo a partir de mañana)\nÉchales un vistazo con /sale y /rotation 😄",
         "en":"Greetings, Summoners! 😁\nThe champions and skins on sale have been updated, and also the weekly rotation. (Active from tomorrow)\nCheck them out with /sale and /rotation 😄",
         "it":"Saluti, Evocatori! 😄\nI campioni, gli aspetti in saldo e la rotazione settimanale sono stati aggiornati. (A partire da domani)\nPuoi controllarli con /sale e /rotation 😄",
-        "de":"Hallo, Beschwörer! 😁\nDie Champions und Skins im Sale sowie die wöchentliche Drehung wurden geupdatet! (Ab Morgen verfügba)\nSchau Sie dir jetzt unter /sale und /rotation an! 😄",
+        "de":"Hallo, Beschwörer! 😁\nDie Champions und Skins im Sale sowie die wöchentliche Drehung wurden geupdatet! (Ab Morgen verfügbar)\nSchau Sie dir jetzt unter /sale und /rotation an! 😄",
         "pt":"Saudações, Invocadores! 😁\nAs promoções de campeões e skins, e também a rotação semanal foram atualizadas. (Ativo a partir de amanhã)\nConsulte usando /sale e /rotation 😄",
         "fr":"Bonjour, Invocateurs! 😁\nLes champions et skins en vente ont été mis à jour, ainsi que la rotation hebdomadaire. (Actif dès demain)\nConsultez les avec /sale et /rotation 😄",
         "fa":"سلام کاربران گرامی! 😁 \n چمپ های رایگان و تخفیف های اسکین ها تغییر کرد. (از فردا) \n برای آگاه شدن از آن ها از دستورها استفاده کنید /sale و /rotation 😄",
@@ -1482,42 +1482,42 @@
         "ru":"Приветствую, призыватель! 😁\nЧемпионы и скины были обновлены для продажи и так же обновлен список доступных героев на неделе. (Будет активно завтра)\nПроверь это командой /sale и /rotation 😄"
     },
     "weak_against":{
-        "es":"*Débil contra:* ",
-        "en":"*Weak against:* ",
-        "it":"",
-        "de":"*Stark gegen:* ",
-        "pt":"*Fraco contra:* ",
-        "fr":"*Faible contre:* ",
-        "fa":"*ضعیف در برابر:* ",
-        "pl":"*Słaby przeciwko:* ",
+        "es":"*Débil contra:* /",
+        "en":"*Weak against:* /",
+        "it":"*Debole contro:* /",
+        "de":"*Stark gegen:* /",
+        "pt":"*Fraco contra:* /",
+        "fr":"*Faible contre:* /",
+        "fa":"*ضعیف در برابر:* /",
+        "pl":"*Słaby przeciwko:* /",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"*Слаб против:* /"
     },
     "strong_against":{
-        "es":"*Fuerte contra:* ",
-        "en":"*Strong against:* ",
-        "it":"",
-        "de":"*Schwach gegen:* ",
-        "pt":"*Forte contra:* ",
-        "fr":"*Fort contre:* ",
-        "fa":"*قوی در برابر:* ",
-        "pl":"*Silny przeciwko:* ",
+        "es":"*Fuerte contra:* /",
+        "en":"*Strong against:* /",
+        "it":"*Forte contro:* /",
+        "de":"*Stark gegen:* /",
+        "pt":"*Forte contra:* /",
+        "fr":"*Fort contre:* /",
+        "fa":"*قوی در برابر:* /",
+        "pl":"*Silny przeciwko:* /",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"*Силён против:* /"
     },
     "warning":{
         "es":"*Esta información está sacada de internet así que no es 100% fiable porque el meta cambia.*",
         "en":"*This information is taken from internet so it isn't 100% reliable because the meta changes.*",
-        "it":"",
-        "de":"",
+        "it":"*Questa informazione è presa da internet quindi non è accurata al 100% perchè la Meta cambia.* ",
+        "de":"Die Informationen sind aus dem Internet, was bedeutet, dass sie nicht zu 100% korrekt sind, da sich die Meta ändert.",
         "pt":"*Estas informações foram obtidas da internet, então não é 100% confiável, pois as metas mudam.*",
-        "fr":"",
+        "fr":"*Cette information est récupérée sur internet et n'est pas 100% fiable puisque la meta peut changer.*",
         "fa":"*این اطلاعات از اینترنت گرفته شده،پس 100% قابل اعتماد نیست.*",
         "pl":"*Ta informacja pochodzi z internetu, tak więc nie jest w 100% wiarygodna z powodu zmian w meta.*",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"*Эта информация была взята из сети Интернет, поэтому из-за изменений в тактике она не может быть верна на 100%*"
     }
 }
