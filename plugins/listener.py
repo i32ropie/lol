@@ -212,34 +212,34 @@ def champ_basic(chmp, cid):
             txt += '\n⁣  /' + key + '\_' + \
                 str(skin['num']) + ': ' + skin['name']
     # txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
-    if not is_beta(cid):
+    # if not is_beta(cid):
+    #     try:
+    #         r = requests.get('http://www.championselect.net/champions/' + key.lower())
+    #     except Exception as e:
+    #         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    #     if r.status_code == 200:
+    #         try:
+    #             soup = BeautifulSoup(r.text, 'html.parser')
+    #             weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
+    #             strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
+    #             txt += '\n\n*Weak against:* /' + ', /'.join(list(weak_against)[:5]) + '\n*Strong against:* /' + ', /'.join(list(strong_against)[:5])
+    #         except Exception as e:
+    #             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    # else:
+    try:
+        r = requests.get('http://www.championselect.net/champions/' + key.lower())
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    if r.status_code == 200:
         try:
-            r = requests.get('http://www.championselect.net/champions/' + key.lower())
+            soup = BeautifulSoup(r.text, 'html.parser')
+            weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
+            strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
+            txt += '\n\n' + responses['warning'][lang(cid)]
+            txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
+            txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-        if r.status_code == 200:
-            try:
-                soup = BeautifulSoup(r.text, 'html.parser')
-                weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
-                strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
-                txt += '\n\n*Weak against:* /' + ', /'.join(list(weak_against)[:5]) + '\n*Strong against:* /' + ', /'.join(list(strong_against)[:5])
-            except Exception as e:
-                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    else:
-        try:
-            r = requests.get('http://www.championselect.net/champions/' + key.lower())
-        except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-        if r.status_code == 200:
-            try:
-                soup = BeautifulSoup(r.text, 'html.parser')
-                weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
-                strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
-                txt += '\n\n' + responses['warning'][lang(cid)]
-                txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
-                txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
-            except Exception as e:
-                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
     return txt
