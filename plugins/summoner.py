@@ -206,7 +206,7 @@ def get_summoner_info(invocador, region, cid):
             bst = get_3_best_champs(summoner['id'],region,cid)
             if bst:
                 txt += '\n\nBest champions:'
-                for x,y in bst:
+                for x,y in bst.items():
                     txt += '\n- ' + x + '_(Level: ' + y + ')_'
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
