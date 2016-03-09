@@ -1,10 +1,24 @@
 # -*- coding: utf-8 -*-
 
 from config import *
+import requests
 
 print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  summoner.py importado.{/cyan}'))
 
+
+platform = {
+    "euw": "EUW1",
+    "eune": "EUN1",
+    "br": "BR1",
+    "na": "NA1",
+    "las": "LA2",
+    "lan": "LA1",
+    "kr": "KR",
+    "tr": "TR1",
+    "ru": "RU",
+    "oce": "OC1"
+}
 
 @bot.message_handler(
     func=lambda m: m.content_type == 'text' and m.text in [
@@ -187,4 +201,23 @@ def get_summoner_info(invocador, region, cid):
     else:
         txt = responses['summoner<30'][lang(cid)] % (
             icon_url, summoner_name, summoner_level, wins5, wins3, winsA)
+    if is_beta(cid):
+        try:
+            txt += '\n\nBest champions:\n-' + '\n-'.join(get_3_best_champs(summoner['id'],region,cid))
+        except Exception as e:
+            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
+
+def get_3_best_champs(summonerId, region, cid):
+    url = 'https://euw.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(platform[region],summonerId)
+    params = {
+        "api_key":lol_api
+    }
+    jstr = requests.get(
+        url=url,
+        params=params
+    )
+    if jstr.status_code != 200:
+        return None
+    else:
+        return [data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'] for x in json.loads(jstr.text)]

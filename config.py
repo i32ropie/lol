@@ -154,6 +154,9 @@ for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt','ru','el','th']:
 with open('champs_en.json', 'r') as f:
     data['fa'] = json.load(f)
 
+with open('champs_keys.json', 'r') as f:
+    data['keys'] = json.load(f)
+
 def line(alt=False):
     if alt:
         return u'\n—————————————————————————\n'

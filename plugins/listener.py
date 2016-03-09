@@ -34,7 +34,6 @@ content_types = [
     'video'
 ]
 
-
 def listener(messages):
     for m in messages:
         cid = m.chat.id
@@ -211,21 +210,6 @@ def champ_basic(chmp, cid):
         if skin['num'] != 0:
             txt += '\n⁣  /' + key + '\_' + \
                 str(skin['num']) + ': ' + skin['name']
-    # txt += '\n\n' + responses['guide'][lang(cid)] #%(champ_key.lower())
-    # if not is_beta(cid):
-    #     try:
-    #         r = requests.get('http://www.championselect.net/champions/' + key.lower())
-    #     except Exception as e:
-    #         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    #     if r.status_code == 200:
-    #         try:
-    #             soup = BeautifulSoup(r.text, 'html.parser')
-    #             weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
-    #             strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
-    #             txt += '\n\n*Weak against:* /' + ', /'.join(list(weak_against)[:5]) + '\n*Strong against:* /' + ', /'.join(list(strong_against)[:5])
-    #         except Exception as e:
-    #             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    # else:
     try:
         r = requests.get('http://www.championselect.net/champions/' + key.lower())
     except Exception as e:
@@ -248,16 +232,6 @@ def champ_basic(chmp, cid):
 def champ_info(chmp, cid, key):
     # Nombre + título
     txt = '*' + chmp['name'] + ', ' + chmp['title'] + '*'
-    # Roles
-    #txt += '\n⁣  *' + responses['champ_info']['tags'][lang(cid)] + '*: '
-    #i = 0
-    # for tag in chmp['tags']:
-    #txt += '_' + responses['tags'][tag][lang(cid)] + '_'
-    # if i == 0:
-    #txt += ', '
-    #i +=1
-    # Descripción
-    #txt += '\n\n_' + chmp['blurb'] + '_ ' + '[' + responses['continue'][lang(cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
     # Estadísticas
     txt += '\n\n*' + responses['champ_info']['stats'][lang(cid)] + ':*'
     txt += '\n⁣  *' + responses['stats']['hp'][lang(cid)] + ':* ' + str(
