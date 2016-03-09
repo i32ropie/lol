@@ -236,8 +236,8 @@ def champ_basic(chmp, cid):
                 weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
                 strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
             txt += '\n\n' + responses['warning'][lang(cid)]
-            text += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
-            text += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
+            txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
+            txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
