@@ -224,4 +224,4 @@ def get_3_best_champs(summonerId, region, cid):
     if jstr.status_code != 200:
         return None
     else:
-        return {data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name']:str(x['championLevel']) for x in json.loads(jstr.text)}
+        return OrderedDict({data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name']:str(x['championLevel']) for x in json.loads(jstr.text)})
