@@ -264,9 +264,23 @@ def champ_info(chmp, cid, key):
         if i in range(4):
             txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
             txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
-            txt += '\n_' + \
-                remove_tag(habilidad['description'].replace('<br>', '\n')) + '_' + '\n'
+            if not is_beta(cid):
+                txt += '\n_' + \
+                    remove_tag(habilidad['description'].replace('<br>', '\n')) + '_' + '\n'
+            else:
+                txt += '\n_' + format_spell + '_\n'
             i += 1
         else:
             break
     return txt
+
+
+def format_spell(s):
+    effect = s['effectBurn']
+    vars = s['vars']
+    tooltip = s['sanitizedTooltip']
+    for x in effect:
+            tooltip = tooltip.replace('{{ e%s }}'%(effect.index(x)), x)
+    for x in vars:
+            tooltip = tooltip.replace('{{ %s }}'%(x['key'], str(x['coeff'][0])))
+    return tooltip
