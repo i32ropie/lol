@@ -268,7 +268,7 @@ def champ_info(chmp, cid, key):
                 txt += '\n_' + \
                     remove_tag(habilidad['description'].replace('<br>', '\n')) + '_' + '\n'
             else:
-                txt += '\n_' + format_spell + '_\n'
+                txt += '\n_' + format_spell(habilidad) + '_\n'
             i += 1
         else:
             break
