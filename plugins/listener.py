@@ -290,7 +290,7 @@ def format_spell(s):
     if var:
         for x in var:
                 try:
-                    tooltip = tooltip.replace('{{ %s }}'%(x['key'], str(x['coeff'][0])))
+                    tooltip = tooltip.replace('{{ %s }}'%(x['key']), str(x['coeff'][0]))
                 except Exception as e:
                     bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return tooltip
