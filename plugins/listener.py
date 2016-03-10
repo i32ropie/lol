@@ -277,16 +277,20 @@ def champ_info(chmp, cid, key):
 
 def format_spell(s):
     effect = s['effectBurn']
-    vars = s['vars']
+    if 'vars' in s:
+        var = s['vars']
+    else:
+        var = None
     tooltip = s['sanitizedTooltip']
     for x in effect:
             try:
                 tooltip = tooltip.replace('{{ e%s }}'%(effect.index(x)), x)
             except Exception as e:
                 bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    for x in vars:
-            try:
-                tooltip = tooltip.replace('{{ %s }}'%(x['key'], str(x['coeff'][0])))
-            except Exception as e:
-                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    if var:
+        for x in var:
+                try:
+                    tooltip = tooltip.replace('{{ %s }}'%(x['key'], str(x['coeff'][0])))
+                except Exception as e:
+                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return tooltip
