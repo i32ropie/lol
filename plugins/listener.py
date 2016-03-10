@@ -280,7 +280,13 @@ def format_spell(s):
     vars = s['vars']
     tooltip = s['sanitizedTooltip']
     for x in effect:
-            tooltip = tooltip.replace('{{ e%s }}'%(effect.index(x)), x)
+            try:
+                tooltip = tooltip.replace('{{ e%s }}'%(effect.index(x)), x)
+            except Exception as e:
+                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     for x in vars:
-            tooltip = tooltip.replace('{{ %s }}'%(x['key'], str(x['coeff'][0])))
+            try:
+                tooltip = tooltip.replace('{{ %s }}'%(x['key'], str(x['coeff'][0])))
+            except Exception as e:
+                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return tooltip
