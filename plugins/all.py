@@ -27,15 +27,17 @@ def command_all_es(m):
         if len(m.text.split()) == 1:
             bot.send_message(cid, "Error, no hay nada para enviar.")
             return
-        for x in [y for y in users if users[y]['notify']
-                  and lang(y) == 'es' and not is_banned(y)]:
+        # for x in [y for y in users if users[y]['notify']
+        #           and lang(y) == 'es' and not is_banned(y)]:
+        for x in [y['_id'] for y in db.usuarios.find({"notify":True,"lang":"es","banned":False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), ' '.join(m.text.split(' ')[1:]))
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
-                    users.pop(x)
+                    # users.pop(x)
+                    db.usuarios.remove(x)
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -64,15 +66,17 @@ def command_all_en(m):
         if len(m.text.split()) == 1:
             bot.send_message(cid, "Error, no hay nada para enviar.")
             return
-        for x in [y for y in users if users[y]['notify']
-                  and lang(y) != 'es' and not is_banned(y)]:
+        # for x in [y for y in users if users[y]['notify']
+        #           and lang(y) != 'es' and not is_banned(y)]:
+        for x in [y['_id'] for y in db.usuarios.find({"notify":True,"lang":{"$ne":"es"},"banned":False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), ' '.join(m.text.split(' ')[1:]))
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
-                    users.pop(x)
+                    # users.pop(x)
+                    db.usuarios.remove(x)
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -98,15 +102,17 @@ def command_all_s(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        for x in [y for y in users if users[y]['notify']
-                  and not is_banned(y)]:
+        # for x in [y for y in users if users[y]['notify']
+        #           and not is_banned(y)]:
+        for x in [y['_id'] for y in db.usuarios.find({"notify":True,"banned":False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_s'][lang(x)])
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
-                    users.pop(x)
+                    # users.pop(x)
+                    db.usuarios.remove(x)
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -132,15 +138,17 @@ def command_all_r(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        for x in [y for y in users if users[y]['notify']
-                  and not is_banned(y)]:
+        # for x in [y for y in users if users[y]['notify']
+        #           and not is_banned(y)]:
+        for x in [y['_id'] for y in db.usuarios.find({"notify":True,"banned":False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_r'][lang(x)])
             except Exception as e:
                 if e.result.status_code == 403:
                     delete.append(x)
-                    users.pop(x)
+                    # users.pop(x)
+                    db.usuarios.remove(x)
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))

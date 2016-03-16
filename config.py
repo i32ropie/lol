@@ -28,7 +28,6 @@ bot = telebot.TeleBot(extra['token'])
 logBot = telebot.TeleBot(extra['token_logbot'])
 botan_token = extra['botan_token']
 lol_api = RiotWatcher(extra['lol_api'])
-
 admins = extra['admins']
 
 easter_eggs = {
@@ -50,14 +49,17 @@ easter_eggs = {
     "programame esta": "`#include <iostream>\n\nvoid main(){\n    std::cout << \"Prográmame esta\" << std::endl;\n}`"
 }
 
-with open('usuarios.json') as f:
-    users = json.load(f)
+# with open('usuarios.json') as f:
+#     users = json.load(f)
+
+client = MongoClient('localhost:27017')
+db = client.users
 
 with open('responses.json') as f:
     responses = json.load(f, object_pairs_hook=OrderedDict)
 
-with open('twitch.json') as f:
-    twitch_users = json.load(f)
+# with open('twitch.json') as f:
+#     twitch_users = json.load(f)
 
 userStep = dict()
 
@@ -73,9 +75,13 @@ def next_step_handler(uid):
     return userStep[uid]
 
 
+# def lang(uid):
+#     """ Función que devuelve el idioma del usuario """
+#     return users[str(uid)]['lang']
+
+
 def lang(uid):
-    """ Función que devuelve el idioma del usuario """
-    return users[str(uid)]['lang']
+    return db.usuarios.find_one(str(uid))['lang']
 
 
 def log(cid, msg):
@@ -84,10 +90,17 @@ def log(cid, msg):
         f.write(msg)
 
 
+# def is_banned(uid):
+#     """ Función para comprobar si un ID está baneado """
+#     if str(uid) in users:
+#         return users[str(uid)]['banned']
+#     else:
+#         return False
+
+
 def is_banned(uid):
-    """ Función para comprobar si un ID está baneado """
-    if str(uid) in users:
-        return users[str(uid)]['banned']
+    if is_user(uid):
+        return db.usuarios.find_one(str(uid))['banned']
     else:
         return False
 
@@ -97,9 +110,13 @@ def is_beta(uid):
     return uid in extra['beta']
 
 
+# def is_user(cid):
+#     """ Función para comprobar si un ID es usuario """
+#     return str(cid) in users
+
+
 def is_user(cid):
-    """ Función para comprobar si un ID es usuario """
-    return str(cid) in users
+    return db.usuarios.find_one(str(uid)) != None
 
 
 def is_admin(cid):
@@ -180,11 +197,6 @@ def to_json(m):
     for x, y in six.iteritems(m.__dict__):
         if hasattr(y, '__dict__'):
             d[x] = to_json(y)
-        elif hasattr(y, '__list__'):
-            v = y[:]
-            y.clear()
-            for z in v:
-                y.append(to_json(z))
         else:
             d[x] = y
     return d

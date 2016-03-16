@@ -29,30 +29,41 @@ def command_ban(m):
             bot.send_message(cid, responses['ban']['failure'][0])
             return None
         if isint(banned_id):
-            if banned_id in users:
+            # if banned_id in users:
+            if is_user(banned_id):
                 if is_banned(banned_id):
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
                         cid, responses['ban']['failure'][1] %
                         banned_id)
                 else:
-                    users[str(banned_id)]['banned'] = True
-                    with open('usuarios.json', 'w') as f:
-                        json.dump(users, f)
+                    # users[str(banned_id)]['banned'] = True
+                    # with open('usuarios.json', 'w') as f:
+                    #     json.dump(users, f)
+                    db.usuarios.update({"_id": banned_id},
+                        {"$set": {"banned": True}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
                         cid, responses['ban']['success'] %
                         banned_id)
             else:
-                users[
-                    str(banned_id)] = {
+                # users[
+                #     str(banned_id)] = {
+                #     "lang": "en",
+                #     "banned": True,
+                #     "notify": True,
+                #     "server": "",
+                #     "summoner": ""}
+                # with open('usuarios.json', 'w') as f:
+                #     json.dump(users, f)
+                db.usuarios.insert({
+                    "_id":banned_id,
                     "lang": "en",
                     "banned": True,
                     "notify": True,
                     "server": "",
-                    "summoner": ""}
-                with open('usuarios.json', 'w') as f:
-                    json.dump(users, f)
+                    "summoner" ""
+                    })
                 bot.send_chat_action(cid, 'typing')
                 bot.send_message(cid, responses['ban']['success'] % banned_id)
                 #bot.send_message( cid, responses['ban']['failure'][2]%banned_id)
@@ -78,11 +89,13 @@ def command_unban(m):
             bot.send_message(cid, responses['unban']['failure'][0])
             return None
         if isint(banned_id):
-            if banned_id in users:
+            if is_user(banned_id):
                 if is_banned(banned_id):
-                    users[str(banned_id)]['banned'] = False
-                    with open('usuarios.json', 'w') as f:
-                        json.dump(users, f)
+                    # users[str(banned_id)]['banned'] = False
+                    # with open('usuarios.json', 'w') as f:
+                    #     json.dump(users, f)
+                    db.usuarios.update({"_id": banned_id},
+                        {"$set": {"banned": False}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
                         cid, responses['unban']['success'] %

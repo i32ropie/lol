@@ -42,9 +42,11 @@ def command_m(m):
         return None
     if is_user(cid):
         try:
-            summoner, region = users[
-                str(uid)]['summoner'], users[
-                str(uid)]['server']
+            # summoner, region = users[
+            #     str(uid)]['summoner'], users[
+            #     str(uid)]['server']
+            summoner = db.usuarios.find_one(str(uid))['summoner']
+            region = db.usuarios.find_one(str(uid))['server']
         except:
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return

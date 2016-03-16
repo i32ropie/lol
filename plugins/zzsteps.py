@@ -31,22 +31,30 @@ def step_start(m):
     cid = m.chat.id
     if m.content_type == 'text':
         if m.text in languages:
-            users[
-                str(cid)] = {
-                "lang": languages[
-                    m.text],
+            # users[
+            #     str(cid)] = {
+            #     "lang": languages[
+            #         m.text],
+            #     "banned": False,
+            #     "notify": True,
+            #     "server": "",
+            #     "summoner": ""}
+            db.usuarios.insert({
+                "_id": str(cid),
+                "lang": languages[m.text],
                 "banned": False,
                 "notify": True,
                 "server": "",
-                "summoner": ""}
+                "summoner": ""
+            })
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['lang_error']['en'] %
                 (m.text, m.text), parse_mode="Markdown")
             return None
-        with open('usuarios.json', 'w') as f:
-            json.dump(users, f)
+        # with open('usuarios.json', 'w') as f:
+        #     json.dump(users, f)
         for id in admins:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(id, "Nuevo usuario\n\nNombre: " +
@@ -91,7 +99,11 @@ def step_lang(m):
     cid = m.chat.id
     if m.content_type == 'text':
         if m.text in languages:
-            users[str(cid)]['lang'] = languages[m.text]
+            # users[str(cid)]['lang'] = languages[m.text]
+            db.usuarios.update(
+                {"_id": str(cid)},
+                {"$set": {"lang": languages[m.text]}}
+            )
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
@@ -100,8 +112,8 @@ def step_lang(m):
                 (m.text, m.text), parse_mode="Markdown")
             return None
         userStep[cid] = 0
-        with open('usuarios.json', 'w') as f:
-            json.dump(users, f)
+        # with open('usuarios.json', 'w') as f:
+        #     json.dump(users, f)
         bot.send_chat_action(cid, 'typing')
         bot.send_message(
             cid, responses['lang_2'][
@@ -195,7 +207,11 @@ def step_region(m):
         userStep[cid] = 0
         if m.text.upper() in ['EUW', 'EUNE', 'BR', 'NA',
                               'LAS', 'LAN', 'KR', 'TR', 'RU', 'OCE']:
-            users[str(cid)]['server'] = m.text.lower()
+            # users[str(cid)]['server'] = m.text.lower()
+            db.usuarios.update(
+                {"_id": str(cid)},
+                {"$set": {"server": m.text.lower()}}
+            )
             bot.send_message(
                 cid,
                 responses['region_success'][
@@ -208,8 +224,8 @@ def step_region(m):
                 cid, responses['region_failure'][
                     lang(cid)], reply_markup=hideBoard)
             return None
-        with open('usuarios.json', 'w') as f:
-            json.dump(users, f)
+        # with open('usuarios.json', 'w') as f:
+        #     json.dump(users, f)
 
 
 @bot.message_handler(func=lambda msg: next_step_handler(msg.chat.id) == 'name')
@@ -218,6 +234,10 @@ def step_name(m):
     if m.content_type == 'text':
         userStep[cid] = 0
         bot.send_message(cid, responses['name_2'][lang(cid)])
-        users[str(cid)]['summoner'] = m.text
-        with open('usuarios.json', 'w') as f:
-            json.dump(users, f)
+        # users[str(cid)]['summoner'] = m.text
+        db.usuarios.update(
+            {"_id": str(cid)},
+            {"$set": {"summoner": m.text}}
+        )
+        # with open('usuarios.json', 'w') as f:
+        #     json.dump(users, f)

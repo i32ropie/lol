@@ -31,7 +31,7 @@ def command_beta(m):
                 bot.send_message(cid, responses["beta"]["error"])
             else:
                 if action == "add":
-                    if ID not in users:
+                    if not is_user(ID):
                         bot.send_message(
                             cid, responses["beta"]["add"]["error"]["not_user"] %
                             (ID), parse_mode="Markdown")

@@ -49,7 +49,8 @@ def command_usuarios(m):
                 'pt': 0,
                 'fr': 0,
                 'fa': 0}}
-        for uid in users:
+        # for uid in users:
+        for uid in [z['_id'] for z in db.usuarios.find()]:
             if int(uid) > 0:
                 x['usuarios']['total'] += 1
                 x['usuarios'][lang(uid)] += 1

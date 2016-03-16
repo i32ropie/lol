@@ -23,10 +23,11 @@ def command_stop(m):
         #bot.send_sticker(cid, open('amumu.webp','rb'))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])
-        users.pop(str(cid))
+        # users.pop(str(cid))
         # Enviar sticker de Amumu llorando
-        with open('usuarios.json', 'w') as f:
-            json.dump(users, f)
+        # with open('usuarios.json', 'w') as f:
+        #     json.dump(users, f)
+        db.usuarios.remove(str(cid))
         for id in admins:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(id, "Usuario eliminado:\n\nNombre: " +
