@@ -15,6 +15,7 @@ import sys
 import traceback
 import re
 from collections import OrderedDict
+from pymongo import MongoClient
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
