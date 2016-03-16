@@ -116,7 +116,7 @@ def is_beta(uid):
 
 
 def is_user(cid):
-    return db.usuarios.find_one(str(uid)) != None
+    return db.usuarios.find_one(str(cid)) != None
 
 
 def is_admin(cid):
