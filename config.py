@@ -179,6 +179,11 @@ def to_json(m):
     for x, y in six.iteritems(m.__dict__):
         if hasattr(y, '__dict__'):
             d[x] = to_json(y)
+        elif hasattr(y, '__list__'):
+            v = y[:]
+            y.clear()
+            for z in v:
+                y.append(to_json(z))
         else:
             d[x] = y
     return d
