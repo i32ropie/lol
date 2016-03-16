@@ -62,7 +62,7 @@ def command_ban(m):
                     "banned": True,
                     "notify": True,
                     "server": "",
-                    "summoner" ""
+                    "summoner": ""
                     })
                 bot.send_chat_action(cid, 'typing')
                 bot.send_message(cid, responses['ban']['success'] % banned_id)
