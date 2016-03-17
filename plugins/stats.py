@@ -10,15 +10,19 @@ print(Color(
 def command_usuarios(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/stats"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/stats"
-        )
-    except:
-        pass
+        send_udp('stats')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):

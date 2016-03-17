@@ -20,19 +20,20 @@ print(Color(
 def command_rate(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/rate"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/rate"
-        )
-    except:
-        pass
-    url = botan.shorten_url(
-        'https://telegram.me/storebot?start=league_of_legends_bot',
-        botan_token,
-        cid)
+        send_udp('rate')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    url = 'https://telegram.me/storebot?start=league_of_legends_bot'
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

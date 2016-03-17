@@ -11,15 +11,19 @@ def command_stop(m):
     cid = m.chat.id
     uid = m.from_user.id
     if is_user(cid):
+        # try:
+        #     botan.track(
+        #         botan_token,
+        #         cid,
+        #         to_json(m),
+        #         "/stop"
+        #     )
+        # except:
+        #     pass
         try:
-            botan.track(
-                botan_token,
-                cid,
-                to_json(m),
-                "/stop"
-            )
-        except:
-            pass
+            send_udp('stop')
+        except Exception as e:
+            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         #bot.send_sticker(cid, open('amumu.webp','rb'))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])

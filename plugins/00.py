@@ -10,15 +10,19 @@ print(Color(
 def command_cancel(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/cancel"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/cancel"
-        )
-    except:
-        pass
+        send_udp('cancel')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

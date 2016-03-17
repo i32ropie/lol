@@ -13,15 +13,19 @@ print(Color(
 def command_system(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/system"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/system"
-        )
-    except:
-        pass
+        send_udp('system')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):

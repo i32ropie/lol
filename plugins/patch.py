@@ -12,15 +12,19 @@ print(Color(
 def command_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/patch"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/patch"
-        )
-    except:
-        pass
+        send_udp('patch')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -54,15 +58,19 @@ def command_patch(m):
 def command_update_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         m.text
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            m.text
-        )
-    except:
-        pass
+        send_udp(m.text.lstrip('/').split(' ')[0].split('@')[0].lower())
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):

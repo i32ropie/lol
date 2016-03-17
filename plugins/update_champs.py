@@ -11,15 +11,19 @@ print(Color(
 def command_update_champs_1(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/update_champs_1"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/update_champs_1"
-        )
-    except:
-        pass
+        send_udp('update_champs_1')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -73,20 +77,24 @@ def command_update_champs_1(m):
 def command_update_champs_2(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/update_champs_2"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/update_champs_2"
-        )
-    except:
-        pass
+        send_udp('update_champs_2')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):
         bot.send_message(
-            cid, "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`Tailandés`", parse_mode="Markdown")
+            cid, "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`-Tailandés`", parse_mode="Markdown")
         try:
             aux = {
                 "champs_pl.json": lol_api.static_get_champion_list(

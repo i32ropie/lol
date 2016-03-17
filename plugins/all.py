@@ -10,15 +10,19 @@ print(Color(
 def command_all_es(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/all_es"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/all_es"
-        )
-    except:
-        pass
+        send_udp('all_es')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):
@@ -49,15 +53,19 @@ def command_all_es(m):
 def command_all_en(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/all_en"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/all_en"
-        )
-    except:
-        pass
+        send_udp('all_en')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):
@@ -88,15 +96,19 @@ def command_all_en(m):
 def command_all_s(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/all_s"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/all_s"
-        )
-    except:
-        pass
+        send_udp('all_s')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):
@@ -124,15 +136,19 @@ def command_all_s(m):
 def command_all_r(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/all_r"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/all_r"
-        )
-    except:
-        pass
+        send_udp('all_r')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):

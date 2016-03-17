@@ -10,15 +10,19 @@ print(Color(
 def command_ban(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/ban"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/ban"
-        )
-    except:
-        pass
+        send_udp('ban')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -73,14 +77,18 @@ def command_ban(m):
 def command_unban(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/unban"
-    )
-    if not is_recent(m):
-        return None
+    # botan.track(
+    #     botan_token,
+    #     cid,
+    #     to_json(m),
+    #     "/unban"
+    # )
+    # if not is_recent(m):
+    #     return None
+    try:
+        send_udp('unban')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(uid):
         try:
             banned_id = m.text.split(' ')[1]
@@ -116,12 +124,16 @@ def command_unban(m):
 def command_mute(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/mute"
-    )
+    # botan.track(
+    #     botan_token,
+    #     cid,
+    #     to_json(m),
+    #     "/mute"
+    # )
+    try:
+        send_udp('mute')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(uid):
         extra['muted'] = True
         bot.send_chat_action(cid, 'typing')
@@ -134,12 +146,16 @@ def command_mute(m):
 def command_unmute(m):
     cid = m.chat.id
     uid = m.from_user.id
-    botan.track(
-        botan_token,
-        cid,
-        to_json(m),
-        "/unmute"
-    )
+    # botan.track(
+    #     botan_token,
+    #     cid,
+    #     to_json(m),
+    #     "/unmute"
+    # )
+    try:
+        send_udp('unmute')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(uid):
         extra['muted'] = False
         bot.send_chat_action(cid, 'typing')

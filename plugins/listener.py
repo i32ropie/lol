@@ -41,15 +41,15 @@ def listener(messages):
         # if not is_recent(m):
         #     return None
         if is_banned(uid) or is_banned(cid):
-            try:
-                botan.track(
-                    botan_token,
-                    cid,
-                    to_json(m),
-                    "msg from banned: [" + str(cid) + "] [" + str(uid) + "]"
-                )
-            except:
-                pass
+            # try:
+            #     botan.track(
+            #         botan_token,
+            #         cid,
+            #         to_json(m),
+            #         "msg from banned: [" + str(cid) + "] [" + str(uid) + "]"
+            #     )
+            # except:
+            #     pass
             return None
         try:
             send_udp('rcvd')
@@ -57,15 +57,19 @@ def listener(messages):
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         if m.content_type == 'text':
             if m.text.lower() in easter_eggs:
+                # try:
+                #     botan.track(
+                #         botan_token,
+                #         cid,
+                #         to_json(m),
+                #         "Easteregg: " + m.text.lower()
+                #     )
+                # except:
+                #     pass
                 try:
-                    botan.track(
-                        botan_token,
-                        cid,
-                        to_json(m),
-                        "Easteregg: " + m.text.lower()
-                    )
-                except:
-                    pass
+                    send_udp('easteregg')
+                except Exception as e:
+                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
                 bot.send_message(
                     cid,
                     easter_eggs[
@@ -126,15 +130,19 @@ def process_msg(m):
                         bot.reply_to(m, responses['banned'])
                     return None
                 if len(separe) == 1:
+                    # try:
+                    #     botan.track(
+                    #         botan_token,
+                    #         cid,
+                    #         to_json(m),
+                    #         "CHAMP: " + no_namebot[0].lower()
+                    #     )
+                    # except:
+                    #     pass
                     try:
-                        botan.track(
-                            botan_token,
-                            cid,
-                            to_json(m),
-                            "CHAMP: " + no_namebot[0].lower()
-                        )
-                    except:
-                        pass
+                        send_udp('get_champ')
+                    except Exception as e:
+                        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
                     try:
                         bot.send_photo(cid, file_ids[no_namebot[0].lower()])
                     except:
@@ -148,15 +156,19 @@ def process_msg(m):
                     if isint(separe[1]):
                         for num in data[lang(cid)][x]['skins']:
                             if num['num'] == int(separe[1]):
+                                # try:
+                                #     botan.track(
+                                #         botan_token,
+                                #         cid,
+                                #         to_json(m),
+                                #         "SKIN: " + no_namebot[0].lower()
+                                #     )
+                                # except:
+                                #     pass
                                 try:
-                                    botan.track(
-                                        botan_token,
-                                        cid,
-                                        to_json(m),
-                                        "SKIN: " + no_namebot[0].lower()
-                                    )
-                                except:
-                                    pass
+                                    send_udp('get_skin')
+                                except Exception as e:
+                                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
                                 try:
                                     bot.send_photo(
                                         cid, file_ids[

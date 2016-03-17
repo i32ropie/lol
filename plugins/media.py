@@ -10,15 +10,19 @@ print(Color(
 def command_media(m):
     cid = m.chat.id
     uid = m.from_user.id
+    # try:
+    #     botan.track(
+    #         botan_token,
+    #         cid,
+    #         to_json(m),
+    #         "/media"
+    #     )
+    # except:
+    #     pass
     try:
-        botan.track(
-            botan_token,
-            cid,
-            to_json(m),
-            "/media"
-        )
-    except:
-        pass
+        send_udp('media')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -35,5 +39,3 @@ def command_media(m):
                 bot.send_message(cid, "Error, el argumento debe ser un número entero.")
         else:
             bot.send_message(cid, "Error, la sintaxis del comando es:\n/media _<id>_ - Reenvía al id el mensaje al que se le responde.", parse_mode="Markdown")
-
-
