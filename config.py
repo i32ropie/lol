@@ -14,6 +14,7 @@ import botan
 import sys
 import traceback
 import re
+import socket
 from collections import OrderedDict
 from pymongo import MongoClient
 
@@ -29,6 +30,11 @@ logBot = telebot.TeleBot(extra['token_logbot'])
 botan_token = extra['botan_token']
 lol_api = RiotWatcher(extra['lol_api'])
 admins = extra['admins']
+sock = socket.socket(socket.AF_INET,
+             socket.SOCK_DGRAM)
+MESSAGE = extra['udp_message']
+UDP_IP = extra['udp_ip']
+UDP_PORT = extra['udp_port']
 
 easter_eggs = {
     "edu": "`smellz`",
@@ -49,17 +55,18 @@ easter_eggs = {
     "programame esta": "`#include <iostream>\n\nvoid main(){\n    std::cout << \"Prográmame esta\" << std::endl;\n}`"
 }
 
-# with open('usuarios.json') as f:
-#     users = json.load(f)
 
 client = MongoClient('localhost:27017')
 db = client.users
 
+
 with open('responses.json') as f:
     responses = json.load(f, object_pairs_hook=OrderedDict)
 
-# with open('twitch.json') as f:
-#     twitch_users = json.load(f)
+
+def send_udp():
+    sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
+
 
 userStep = dict()
 
@@ -75,11 +82,6 @@ def next_step_handler(uid):
     return userStep[uid]
 
 
-# def lang(uid):
-#     """ Función que devuelve el idioma del usuario """
-#     return users[str(uid)]['lang']
-
-
 def lang(uid):
     return db.usuarios.find_one(str(uid))['lang']
 
@@ -88,14 +90,6 @@ def log(cid, msg):
     """ Función que guarda un mensaje en el archivo de log """
     with open('logs/log.' + str(cid) + '.txt', 'a') as f:
         f.write(msg)
-
-
-# def is_banned(uid):
-#     """ Función para comprobar si un ID está baneado """
-#     if str(uid) in users:
-#         return users[str(uid)]['banned']
-#     else:
-#         return False
 
 
 def is_banned(uid):
@@ -108,11 +102,6 @@ def is_banned(uid):
 def is_beta(uid):
     """ Función para comprobar si un ID es beta """
     return uid in extra['beta']
-
-
-# def is_user(cid):
-#     """ Función para comprobar si un ID es usuario """
-#     return str(cid) in users
 
 
 def is_user(cid):
@@ -200,4 +189,3 @@ def to_json(m):
         else:
             d[x] = y
     return d
-# champs_es = lol_api.static_get_champion_list(region='euw', locale='es_ES', champ_data=['all'], data_by_id=False)['data']

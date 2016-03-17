@@ -12,5 +12,8 @@
     "beta":[
         0
     ],
-    "muted":false
+    "muted":false,
+    "udp_ip":"<SERVER>",
+    "udp_port":"<PORT>",
+    "udp_message":"<PREFIX>"
 }
