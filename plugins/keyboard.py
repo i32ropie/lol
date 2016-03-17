@@ -8,7 +8,7 @@ print(Color(
 markup_es = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_es.add('AYUDA', 'CONTACTO', 'INFO')
 markup_es.add('PARCHE', 'IDIOMA', 'CALIFICAR')
-markup_es.add('OFERTA', 'CAMPEONES', 'ROTACION')
+markup_es.add('OFERTA', 'CAMPEONES', 'ROTACIÓN')
 markup_es.add('INVOCADOR', 'OCULTAR TECLADO', 'PARTIDA')
 markup_es.add('POSICIONES', 'NOTIFICACIONES', 'CRÉDITOS')
 
