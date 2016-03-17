@@ -52,7 +52,7 @@ def listener(messages):
                 pass
             return None
         try:
-            send_udp()
+            send_udp('rcvd')
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         if m.content_type == 'text':
