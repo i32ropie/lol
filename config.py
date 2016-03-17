@@ -65,7 +65,7 @@ with open('responses.json') as f:
 
 
 def send_udp():
-    sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
+    sock.sendto(MESSAGE.encode(), (UDP_IP, UDP_PORT))
 
 
 userStep = dict()
