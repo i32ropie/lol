@@ -56,6 +56,11 @@ def listener(messages):
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         if m.content_type == 'text':
+            if m.text.startswith('/'):
+                try:
+                    send_udp('command')
+                except Exception as e:
+                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
             if m.text.lower() in easter_eggs:
                 # try:
                 #     botan.track(
