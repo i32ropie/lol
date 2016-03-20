@@ -12,6 +12,9 @@ locales = {
     "de": "de_DE",
     "pt": "pt_BR",
     "pl": "pl_PL",
+    "ru": "ru_RU",
+    "th": "th_TH",
+    "el": "el_GR",
     "fr": "fr_FR",
     "fa": "en_US"
 }
