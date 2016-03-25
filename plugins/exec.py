@@ -38,7 +38,7 @@ def command_exec(m):
         sys.stdout = cout
         cerr = StringIO()
         sys.stderr = cerr
-        code = ' '.join(m.text.split()[1:])
+        code = ' '.join(m.text.split(' ')[1:])
         try:
             exec(code)
         except Exception as e:
