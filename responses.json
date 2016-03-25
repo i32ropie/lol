@@ -1040,6 +1040,19 @@
             "el":"",
             "ru":"Воин"
         },
+        "Figher":{
+            "es":"Luchador",
+            "en":"Fighter",
+            "it":"Combattente",
+            "de":"Kämpfer",
+            "pt":"Lutador",
+            "fr":"Combattant",
+            "fa":"Fighter",
+            "pl":"Wojownik",
+            "th":"",
+            "el":"",
+            "ru":"Воин"
+        },
         "Melee":{
             "es":"Luchador",
             "en":"Fighter",
