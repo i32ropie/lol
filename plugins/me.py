@@ -80,6 +80,7 @@ def get_summoner_info(invocador, region, cid):
     icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(lattest_version, icon_id)
     summoner_name = summoner['name']
     summoner_id = summoner['id']
+    lolking = "http://www.lolking.net/summoner/" + region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
     partidas = lol_api.get_stat_summary(
         summoner_id, region=region, season=None)
@@ -141,6 +142,7 @@ def get_summoner_info(invocador, region, cid):
         txt = responses['summoner_30'][
             lang(cid)] % (icon_url,
                           summoner_name,
+                          lolking,
                           summoner_level,
                           wins5,
                           wins3,
@@ -153,7 +155,7 @@ def get_summoner_info(invocador, region, cid):
                           lp)
     else:
         txt = responses['summoner<30'][lang(cid)] % (
-            icon_url, summoner_name, summoner_level, wins5, wins3, winsA)
+            icon_url, summoner_name, lolking, summoner_level, wins5, wins3, winsA)
     if is_beta(cid):
         try:
             bst = get_3_best_champs(summoner['id'],region,cid)
