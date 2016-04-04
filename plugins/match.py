@@ -188,7 +188,7 @@ def get_match_info(invocador, region, cid):
                     cid=cid),
                 parse_mode="Markdown")
         else:
-            txt += get_summoner_info_2(
+            txt += '\n\n' + get_summoner_info_2(
                 invocador=a,
                 region=region,
                 champion=b,
@@ -198,7 +198,7 @@ def get_match_info(invocador, region, cid):
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['match_red'][lang(cid)])
     else:
-        txt += '\n' + responses['match_red'][lang(cid)]
+        txt += '\n\n' + responses['match_red'][lang(cid)]
     for a, b in rojo.items():
         if not is_beta(cid):
             bot.send_chat_action(cid, 'typing')
@@ -211,7 +211,7 @@ def get_match_info(invocador, region, cid):
                     cid=cid),
                 parse_mode="Markdown")
         else:
-            txt += get_summoner_info_2(
+            txt += '\n\n' + get_summoner_info_2(
                 invocador=a,
                 region=region,
                 champion=b,
