@@ -107,9 +107,10 @@ def match_info(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        if cid < 0:
-            bot.send_message(cid, responses['private'][lang(cid)])
-            return None
+        if not is_beta(cid):
+            if cid < 0:
+                bot.send_message(cid, responses['private'][lang(cid)])
+                return None
         invocador = ' '.join(m.text.split(' ')[1:])
         cmd = m.text.lstrip('/').split(' ')[0].split('@')[0]
         region = cmd.split('_')[1]
