@@ -129,6 +129,7 @@ def match_info(m):
 def get_match_info(invocador, region, cid):
     azul = {}
     rojo = {}
+    txt = ""
     try:
         summoner = lol_api.get_summoner(name=invocador, region=region)
     except:
@@ -167,34 +168,57 @@ def get_match_info(invocador, region, cid):
         else:
             rojo[str(jugadores['summonerName'])] = str(
                 campeones[str(jugadores['championId'])]['name'])
-    bot.send_chat_action(cid, 'typing')
-    bot.send_message(
-        cid, responses['match_blue'][
-            lang(cid)] %
-        (partida['gameMode']))
+    if not is_beta(cid):
+        bot.send_chat_action(cid, 'typing')
+        bot.send_message(
+            cid, responses['match_blue'][
+                lang(cid)] %
+            (partida['gameMode']))
+    else:
+        txt += responses['match_blue'][lang(cid)] % (partida['gameMode'])
     for a, b in azul.items():
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(
-            cid,
-            get_summoner_info_2(
+        if not is_beta(cid):
+            bot.send_chat_action(cid, 'typing')
+            bot.send_message(
+                cid,
+                get_summoner_info_2(
+                    invocador=a,
+                    region=region,
+                    champion=b,
+                    cid=cid),
+                parse_mode="Markdown")
+        else:
+            txt += get_summoner_info_2(
                 invocador=a,
                 region=region,
                 champion=b,
-                cid=cid),
-            parse_mode="Markdown")
-    bot.send_chat_action(cid, 'typing')
-    bot.send_message(cid, responses['match_red'][lang(cid)])
+                cid=cid
+            )
+    if not is_beta(cid):
+        bot.send_chat_action(cid, 'typing')
+        bot.send_message(cid, responses['match_red'][lang(cid)])
+    else:
+        txt += '\n' + responses['match_red'][lang(cid)]
     for a, b in rojo.items():
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(
-            cid,
-            get_summoner_info_2(
+        if not is_beta(cid):
+            bot.send_chat_action(cid, 'typing')
+            bot.send_message(
+                cid,
+                get_summoner_info_2(
+                    invocador=a,
+                    region=region,
+                    champion=b,
+                    cid=cid),
+                parse_mode="Markdown")
+        else:
+            txt += get_summoner_info_2(
                 invocador=a,
                 region=region,
                 champion=b,
-                cid=cid),
-            parse_mode="Markdown")
-
+                cid=cid
+            )
+    if is_beta(cid):
+        bot.send_message(cid, txt, parse_mode="Markdown")
 
 def get_summoner_info_2(invocador, region, champion, cid):
     try:
