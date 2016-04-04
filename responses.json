@@ -1286,14 +1286,14 @@
         "ru":"[⁣](%s)*Имя*: _%s_\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_"
     },
     "summoner<30_2":{
-        "es":"*Nombre*: _%s_\n*Nivel*: _%s_\n*Campeón*: _%s_",
-        "en":"*Name*: _%s_\n*Level*: _%s_\n*Champion*: _%s_",
-        "it":"*Nome*: _%s_\n*Livello*: _%s_\n*Campione*: _%s_",
-        "de":"*Name*: _%s_\n*Stufe*: _%s_\n*Champion*: _%s_",
-        "pt":"*Nome*: _%s_\n*Nível*: _%s_\n*Campeão*: _%s_",
-        "fr":"*Nom*: _%s_\n*Niveau*: _%s_\n*Champion*: _%s_",
-        "fa":"*اسم*: _%s_\n*لِوِل*: _%s_\n*چمپیون*: _%s_",
-        "pl":"*Imię*: _%s_\n*Level*: _%s_\n*Bohater*: _%s_",
+        "es":"*Nombre*: [%s](%s)\n*Nivel*: _%s_\n*Campeón*: _%s_",
+        "en":"*Name*: [%s](%s)\n*Level*: _%s_\n*Champion*: _%s_",
+        "it":"*Nome*: [%s](%s)\n*Livello*: _%s_\n*Campione*: _%s_",
+        "de":"*Name*: [%s](%s)\n*Stufe*: _%s_\n*Champion*: _%s_",
+        "pt":"*Nome*: [%s](%s)\n*Nível*: _%s_\n*Campeão*: _%s_",
+        "fr":"*Nom*: [%s](%s)\n*Niveau*: _%s_\n*Champion*: _%s_",
+        "fa":"*اسم*: [%s](%s)\n*لِوِل*: _%s_\n*چمپیون*: _%s_",
+        "pl":"*Imię*: [%s](%s)\n*Level*: _%s_\n*Bohater*: _%s_",
         "th":"",
         "el":"",
         "ru":"*Имя*: _%s_\n*Уровень*: _%s_\n*Чемпион*: _%s_"
@@ -1312,17 +1312,17 @@
         "ru":"[⁣](%s)*Имя*: _%s_\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_\n\n*Пробед в ранкеде:\n\tЛига*: _%s_ _%s_\n\t*Побед*: _%s_\n\t*Поражений*: _%s_\n\t*Винрейт*: _%s_\n\t*Очки лиги*: _%s_"
     },
     "summoner_30_2":{
-        "es":"*Nombre*: _%s_\n*Liga*: _%s_ _%s_\n*Winrate*: _%s_\n*Campeón*: _%s_",
-        "en":"*Name*: _%s_\n*League*: _%s_ _%s_\n*Winrate*: _%s_\n*Champion*: _%s_",
-        "it":"*Nome*: _%s_\n*Lega*: _%s_ _%s_\n*Winrate*: _%s_\n*Campione*: _%s_",
-        "de":"*Name*  _%s_\n*Liga*: _%s_ _%s_\n*Siegesquote*: _%s_\n*Champion*: _%s_",
-        "pt":"*Nome*: _%s_\n*Liga*: _%s_ _%s_\n*Porcentagem de Vitórias*: _%s_\n*Campeão*: _%s_",
-        "fr":"*Nom*: _%s_\n*Ligue*: _%s_ _%s_\n*RatioVictoires*: _%s_\n*Champion*: _%s_",
-        "fa":"*اسم*: _%s_\n*لیگ*: _%s_ _%s_\n*درصد پیروزی*: _%s_\n*چمپیون*: _%s_",
-        "pl":"*Imię*: _%s_\n*Liga*: %s _%s_\n*Winrate*: _%s_\n*Bohater*: _%s_",
+        "es":"*Nombre*: [%s](%s)\n*Liga*: _%s_ _%s_\n*Winrate*: _%s_\n*Campeón*: _%s_",
+        "en":"*Name*: [%s](%s)\n*League*: _%s_ _%s_\n*Winrate*: _%s_\n*Champion*: _%s_",
+        "it":"*Nome*: [%s](%s)\n*Lega*: _%s_ _%s_\n*Winrate*: _%s_\n*Campione*: _%s_",
+        "de":"*Name*  [%s](%s)\n*Liga*: _%s_ _%s_\n*Siegesquote*: _%s_\n*Champion*: _%s_",
+        "pt":"*Nome*: [%s](%s)\n*Liga*: _%s_ _%s_\n*Porcentagem de Vitórias*: _%s_\n*Campeão*: _%s_",
+        "fr":"*Nom*: [%s](%s)\n*Ligue*: _%s_ _%s_\n*RatioVictoires*: _%s_\n*Champion*: _%s_",
+        "fa":"*اسم*: [%s](%s)\n*لیگ*: _%s_ _%s_\n*درصد پیروزی*: _%s_\n*چمپیون*: _%s_",
+        "pl":"*Imię*: [%s](%s)\n*Liga*: %s _%s_\n*Winrate*: _%s_\n*Bohater*: _%s_",
         "th":"",
         "el":"",
-        "ru":"*Имя*: _%s_\n*Лига*: _%s_ _%s_\n*Винрейт*: _%s_\n*Чемпион*: _%s_"
+        "ru":"*Имя*: [%s](%s)\n*Лига*: _%s_ _%s_\n*Винрейт*: _%s_\n*Чемпион*: _%s_"
     },
     "private":{
         "es":"Este comando sólo está disponible en chat personal para evitar flood en grupos. Pruébalo en una conversación personal con el bot @League_of_Legends_bot",
@@ -1351,30 +1351,30 @@
         "ru":"Призыватель '`%s`' сейчас не играет."
     },
     "match_blue":{
-        "es":"Tipo de partida: %s\n\n\ud83d\udd35Equipo azul\ud83d\udd35",
-        "en":"Game mode: %s\n\n\ud83d\udd35Blue team\ud83d\udd35",
-        "it":"Tipo di partita: %s\n\n\ud83d\udd35Equipo azul\ud83d\udd35",
-        "de":"Spieltyp: %s\n\n\ud83d\udd35Blaues Team\ud83d\udd35",
-        "pt":"Tipo de partida: %s\n\n\ud83d\udd35Equipe azul\ud83d\udd35",
-        "fr":"Mode de jeu: %s\n\n\ud83d\udd35Blue team\ud83d\udd35",
-        "fa":"مود بازی: %s\n\n\ud83d\udd35Blue team\ud83d\udd35",
-        "pl":"Tryb gry: %s\n\n\ud83d\udd35Niebieska drużyna\ud83d\udd35",
+        "es":"Tipo de partida: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "en":"Game mode: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "it":"Tipo di partita: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "de":"Spieltyp: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blaues Team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "pt":"Tipo de partida: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipe azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "fr":"Mode de jeu: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "fa":"مود بازی: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Blue team\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "pl":"Tryb gry: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Niebieska drużyna\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "th":"",
         "el":"",
-        "ru":"Игровой режим: %s\n\n\ud83d\udd35Синяя команда\ud83d\udd35"
+        "ru":"Игровой режим: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Синяя команда\ud83d\udd35\ud83d\udd35\ud83d\udd35"
     },
     "match_red":{
-        "es":"\ud83d\udd34Equipo rojo\ud83d\udd34",
-        "en":"\ud83d\udd34Red team\ud83d\udd34",
-        "it":"\ud83d\udd34Squadra rossa\ud83d\udd34",
-        "de":"\ud83d\udd34Rotes Team\ud83d\udd34",
-        "pt":"\ud83d\udd34Equipe vermelha\ud83d\udd34",
-        "fr":"\ud83d\udd34Red team\ud83d\udd34",
-        "fa":"\ud83d\udd34Red team\ud83d\udd34",
-        "pl":"\ud83d\udd34Czerwona drużyna\ud83d\udd34",
+        "es":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Equipo rojo\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "en":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "it":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Squadra rossa\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "de":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Rotes Team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "pt":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Equipe vermelha\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "fr":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "fa":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Red team\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "th":"",
         "el":"",
-        "ru":"\ud83d\udd34Красная команда\ud83d\udd34"
+        "ru":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Красная команда\ud83d\udd34\ud83d\udd34\ud83d\udd34"
     },
     "region_1":{
         "es":"Selecciona tu región de la lista o presiona /cancel para cancelar el comando actual.",

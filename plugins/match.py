@@ -187,7 +187,9 @@ def get_match_info(invocador, region, cid):
                     region=region,
                     champion=b,
                     cid=cid),
-                parse_mode="Markdown")
+                parse_mode="Markdown",
+                disable_web_page_preview=True
+            )
         else:
             txt += '\n\n' + get_summoner_info_2(
                 invocador=a,
@@ -210,7 +212,9 @@ def get_match_info(invocador, region, cid):
                     region=region,
                     champion=b,
                     cid=cid),
-                parse_mode="Markdown")
+                parse_mode="Markdown",
+                disable_web_page_preview=True
+            )
         else:
             txt += '\n\n' + get_summoner_info_2(
                 invocador=a,
@@ -219,7 +223,7 @@ def get_match_info(invocador, region, cid):
                 cid=cid
             )
     if is_beta(cid):
-        bot.send_message(cid, txt, parse_mode="Markdown")
+        bot.send_message(cid, txt, parse_mode="Markdown", disable_web_page_preview=True)
 
 def get_summoner_info_2(invocador, region, champion, cid):
     try:
@@ -230,6 +234,7 @@ def get_summoner_info_2(invocador, region, champion, cid):
         return txt
     summoner_name = summoner['name']
     summoner_id = summoner['id']
+    lolking = "http://www.lolking.net/summoner/" + region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
     if summoner_level == 30:
         try:
@@ -263,8 +268,8 @@ def get_summoner_info_2(invocador, region, champion, cid):
             division = ''
             winrate = '-'
         txt = responses['summoner_30_2'][lang(cid)] % (
-            summoner_name, liga, division, winrate, champion)
+            summoner_name, lolking,liga, division, winrate, champion)
     else:
         txt = responses['summoner<30_2'][lang(cid)] % (
-            summoner_name, summoner_level, champion)
+            summoner_name, lolking,summoner_level, champion)
     return txt
