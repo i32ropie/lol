@@ -36,7 +36,7 @@ def command_patch(m):
         with open('extra_data/patch_' + lang(cid) + '.txt', 'rt') as f:
             patch = f.read()
         bot.send_chat_action(cid, 'typing')
-        bot.send_message(cid, patch)
+        bot.send_message(cid, patch, parse_mode="Markdown")
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
