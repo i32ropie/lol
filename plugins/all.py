@@ -38,10 +38,13 @@ def command_all_es(m):
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), ' '.join(m.text.split(' ')[1:]))
             except Exception as e:
-                if e.result.status_code == 403:
-                    delete.append(x)
-                    # users.pop(x)
-                    db.usuarios.remove(x)
+                try:
+                    if e.result.status_code == 403:
+                        delete.append(x)
+                        db.usuarios.remove(x)
+                except Exception as z:
+                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -81,10 +84,13 @@ def command_all_en(m):
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), ' '.join(m.text.split(' ')[1:]))
             except Exception as e:
-                if e.result.status_code == 403:
-                    delete.append(x)
-                    # users.pop(x)
-                    db.usuarios.remove(x)
+                try:
+                    if e.result.status_code == 403:
+                        delete.append(x)
+                        db.usuarios.remove(x)
+                except Exception as z:
+                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -121,10 +127,13 @@ def command_all_s(m):
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_s'][lang(x)])
             except Exception as e:
-                if e.result.status_code == 403:
-                    delete.append(x)
-                    # users.pop(x)
-                    db.usuarios.remove(x)
+                try:
+                    if e.result.status_code == 403:
+                        delete.append(x)
+                        db.usuarios.remove(x)
+                except Exception as z:
+                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -161,10 +170,13 @@ def command_all_r(m):
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_r'][lang(x)])
             except Exception as e:
-                if e.result.status_code == 403:
-                    delete.append(x)
-                    # users.pop(x)
-                    db.usuarios.remove(x)
+                try:
+                    if e.result.status_code == 403:
+                        delete.append(x)
+                        db.usuarios.remove(x)
+                except Exception as z:
+                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
