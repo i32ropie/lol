@@ -83,7 +83,10 @@ def next_step_handler(uid):
 
 
 def lang(uid):
-    return db.usuarios.find_one(str(uid))['lang']
+    if db.usuarios.find_one(str(uid)):
+        return db.usuarios.find_one(str(uid))['lang']
+    else:
+        return 'en'
 
 
 def log(cid, msg):
