@@ -120,12 +120,12 @@
             "adcs":"Filtra i campioni per il ruolo di: _Tiratore_"
         },
         "de":{
-            "assassins":"Filtert alle Champions nach der Rolle der: Assassinen",
-            "fighters":"Filtert alle Champions nach der Rolle der: Kämpfer",
-            "mages":"Filtert alle Champions nach der Rolle der: Magier",
-            "supports":"Filtert alle Champions nach der Rolle der: Supporter",
-            "tanks":"Filtert alle Champions nach der Rolle der: Tanks",
-            "adcs":"Filtert alle Champions nach der Rolle der: Schützen"
+            "assassins":"Filtert alle Champions nach der Rolle der: _Assassinen_",
+            "fighters":"Filtert alle Champions nach der Rolle der: _Kämpfer_",
+            "mages":"Filtert alle Champions nach der Rolle der: _Magier_",
+            "supports":"Filtert alle Champions nach der Rolle der: _Supporter_",
+            "tanks":"Filtert alle Champions nach der Rolle der: _Tanks_",
+            "adcs":"Filtert alle Champions nach der Rolle der: _Schützen_"
         },
         "pt":{
             "assassins":"Filtra os campeões pelo papel: _Assassino_",
@@ -247,7 +247,6 @@
             "patch":"Fornisce informazione circa l'ultimo patch.",
             "sale":"Fornisce i campioni ed aspetti in offerta di questa settimana.",
             "rotation":"Fornisce campioni che sono nella rotazione settimanale",
-            "vote":"Qualifica il bot :)",
             "summoner":"Mostra informazione per la ricerca d'evocatori.",
             "match":"Mostra informazione per la ricerca di partite.",
             "rate":"Qualifica il bot :)"
