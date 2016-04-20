@@ -26,25 +26,3 @@ def query_info(q):
                 bot.answer_inline_query(q.id, to_send)
         except:
             pass
-
-
-@bot.message_handler(func=lambda message: message.text ==
-                     "ESPAÑOL" or message.text == "INGLES")
-@bot.message_handler(commands=['comando'])
-def command_COMANDO(m):
-    cid = m.chat.id
-    uid = m.from_user.id
-    try:
-        send_udp('comando')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    if not is_recent(m):
-        return None
-    if is_banned(uid):
-        if not extra['muted']:
-            bot.reply_to(m, responses['banned'])
-        return None
-    if is_user(cid):
-        # Comando
-    else:
-        bot.send_message(cid, responses['not_user'])
