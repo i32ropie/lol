@@ -7,17 +7,17 @@ print(Color(
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup.add(
-    'ESPAÑOL',
-    'ENGLISH',
-    'ITALIANO',
-    'POLSKI',
-    'DEUTSCH',
-    'FRANÇAIS',
-    'PORTUGUÊS',
-    'РУССКИЙ',
+    types.KeyboardButton('ESPAÑOL'),
+    types.KeyboardButton('ENGLISH'),
+    types.KeyboardButton('ITALIANO'),
+    types.KeyboardButton('POLSKI'),
+    types.KeyboardButton('DEUTSCH'),
+    types.KeyboardButton('FRANÇAIS'),
+    types.KeyboardButton('PORTUGUÊS'),
+    types.KeyboardButton('РУССКИЙ'),
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
-    'PERSIAN')
+    types.KeyboardButton('PERSIAN'))
 
 
 @bot.message_handler(commands=['start'])

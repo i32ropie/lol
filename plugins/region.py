@@ -6,7 +6,16 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  region.py importado.{/cyan}'))
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-markup.add('EUW', 'EUNE', 'BR', 'NA', 'LAS', 'LAN', 'KR', 'TR', 'RU', 'OCE')
+markup.add(types.KeyboardButton('EUW'),
+            types.KeyboardButton('EUNE'),
+            types.KeyboardButton('BR'),
+            types.KeyboardButton('NA'),
+            types.KeyboardButton('LAS'),
+            types.KeyboardButton('LAN'),
+            types.KeyboardButton('KR'),
+            types.KeyboardButton('TR'),
+            types.KeyboardButton('RU'),
+            types.KeyboardButton('OCE'))
 
 
 @bot.message_handler(commands=['set_region'])
