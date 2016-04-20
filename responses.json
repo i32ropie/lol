@@ -136,12 +136,12 @@
             "adcs":"Filtra os campeões pelo papel: _Atirador_"
         },
         "fr":{
-            "assassins":"Filtrer les champions par rôle: Assassin",
-            "fighters":"Filtrer les champions par rôle: Combattant",
-            "mages":"Filtrer les champions par rôle: Mage",
-            "supports":"Filtrer les champions par rôle: Support",
-            "tanks":"Filtrer les champions par rôle: Tank",
-            "adcs":"Filtrer les champions par rôle: Tireur"
+            "assassins":"Filtrer les champions par rôle: _Assassin_",
+            "fighters":"Filtrer les champions par rôle: _Combattant_",
+            "mages":"Filtrer les champions par rôle: _Mage_",
+            "supports":"Filtrer les champions par rôle: _Support_",
+            "tanks":"Filtrer les champions par rôle: _Tank_",
+            "adcs":"Filtrer les champions par rôle: _Tireur_"
         },
         "fa":{
             "assassins":"فیلتر چمپیون ها بر اساس: _Assassin_",
