@@ -144,19 +144,27 @@ def query_summoner(q):
                             invocador,
                             region,
                             cid), parse_mode="Markdown"),
-                thumb_url=icon_url)
+                thumb_url=icon_url,
+                description=responses['inline_summoner_d'][lang(cid)].format(
+                            summoner['name']))
             to_send.append(aux)
         if to_send:
             bot.answer_inline_query(q.id, to_send)
         else:
             aux = types.InlineQueryResultArticle("1",
-                "Summoner not found",
-                types.InputTextMessageContent(
-                    responses['summoner_error'][
-                            lang(cid)] % (invocador, region.upper()),
-                    parse_mode="Markdown"),
-                thumb_url="http://i.imgur.com/IRTLKz4.jpg")
+                responses['inline_me_error_ttl_2'][lang(cid)],
+                types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()) ),
+                description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
+                thumb_url='http://i.imgur.com/IRTLKz4.jpg')
             bot.answer_inline_query(q.id, [aux])
+            # aux = types.InlineQueryResultArticle("1",
+            #     "Summoner not found",
+            #     types.InputTextMessageContent(
+            #         responses['summoner_error'][
+            #                 lang(cid)] % (invocador, region.upper()),
+            #         parse_mode="Markdown"),
+            #     thumb_url="http://i.imgur.com/IRTLKz4.jpg")
+            # bot.answer_inline_query(q.id, [aux])
 
 def get_summoner_info(invocador, region, cid):
     try:
