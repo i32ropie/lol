@@ -1533,6 +1533,19 @@
         "ru":"*Эта информация была взята из сети Интернет, поэтому из-за изменений в тактике она не может быть верна на 100%*"
     },
     "updates":"@League_of_Legends_channel",
+    "inline_champ_d":{
+        "es":"Información de {}",
+        "en":"Information about {}",
+        "it":"",
+        "de":"",
+        "pt":"",
+        "fr":"",
+        "fa":"",
+        "pl":"",
+        "th":"",
+        "el":"",
+        "ru":""
+    },
     "inline_summoner_d":{
         "es":"Información del invocador {}",
         "en":"Information about the summoner {}",
