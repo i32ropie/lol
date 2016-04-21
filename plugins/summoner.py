@@ -134,13 +134,17 @@ def query_summoner(q):
         except:
             pass
         else:
+            lattest_version = lol_api.static_get_versions()[0]
+            icon_id = summoner['profileIconId']
+            icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(lattest_version, icon_id)
             aux = types.InlineQueryResultArticle("1",
                 '['+region.upper()+'] '+summoner['name'],
                 types.InputTextMessageContent(
                         get_summoner_info(
                             invocador,
                             region,
-                            cid), parse_mode="Markdown"))
+                            cid), parse_mode="Markdown"),
+                thumb_url=icon_url)
             to_send.append(aux)
         if to_send:
             bot.answer_inline_query(q.id, to_send)
@@ -150,7 +154,8 @@ def query_summoner(q):
                 types.InputTextMessageContent(
                     responses['summoner_error'][
                             lang(cid)] % (invocador, region.upper()),
-                    parse_mode="Markdown"))
+                    parse_mode="Markdown"),
+                thumb_url="http://i.imgur.com/IRTLKz4.jpg")
             bot.answer_inline_query(q.id, [aux])
 
 def get_summoner_info(invocador, region, cid):
