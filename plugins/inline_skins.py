@@ -48,25 +48,27 @@ def query_champ_basic(q):
         try:
             to_send = list()
             c_name = q.query.split()[1].lower()
-            print('\nC_NAME = ' + c_name)
-            if c_name == 'wukong':
-                c_name = 'monkeyking'
-            elif c_name == 'monkeyking':
-                c_name = 'wukong'
-            for x in data[lang(cid)]:
-                if c_name == data[lang(cid)][x]['key'].lower():
-                    champ=data[lang(cid)][x]
-                    txt = champ_basic(data[lang(cid)][x], cid)
-                    print('\n'+txt+'\n')
-                    aux = types.InlineQueryResultArticle("1",
-                            champ['name'],
-                            types.InputTextMessageContent(txt,
-                                parse_mode="Markdown"),
-                            description=responses['inline_champ_d'][lang(cid)],
-                            thumb_url='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_0.jpg')
-                    to_send.append(aux)
-            if to_send:
-                bot.answer_inline_query(q.id, to_send)
+            r = types.InlineQueryResultArticle("1", c_name, types.InputTextMessageContent(c_name))
+            bot.answer_inline_query(q.id, [r])
+            # print('\nC_NAME = ' + c_name)
+            # if c_name == 'wukong':
+            #     c_name = 'monkeyking'
+            # elif c_name == 'monkeyking':
+            #     c_name = 'wukong'
+            # for x in data[lang(cid)]:
+            #     if c_name == data[lang(cid)][x]['key'].lower():
+            #         champ=data[lang(cid)][x]
+            #         txt = champ_basic(data[lang(cid)][x], cid)
+            #         print('\n'+txt+'\n')
+            #         aux = types.InlineQueryResultArticle("1",
+            #                 champ['name'],
+            #                 types.InputTextMessageContent(txt,
+            #                     parse_mode="Markdown"),
+            #                 description=responses['inline_champ_d'][lang(cid)],
+            #                 thumb_url='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_0.jpg')
+            #         to_send.append(aux)
+            # if to_send:
+            #     bot.answer_inline_query(q.id, to_send)
         except:
             pass
 
