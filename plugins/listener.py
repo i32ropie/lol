@@ -216,7 +216,6 @@ def query_skins(q):
                 if c_name == data[lang(cid)][x]['key'].lower():
                     champ=data[lang(cid)][x]
                     txt = champ_basic(data[lang(cid)][x], cid, inline=True)
-                    print('\n'+txt+'\n')
                     aux = types.InlineQueryResultArticle("1",
                             champ['name'],
                             types.InputTextMessageContent(txt,
