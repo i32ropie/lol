@@ -122,6 +122,31 @@ def summoner_info(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
 
+@bot.inline_handler(lambda query: query.query.startswith('s ') and len(query.query.split()) > 1)
+def query_summoner(q):
+    cid = q.from_user.id
+    if is_beta(cid):
+        invocador = q.query.split(None, 1)[1]
+        to_send=list()
+        indice = 1
+        for region in ['euw', 'eune', 'br', 'na', 'las', 'lan', 'kr', 'tr', 'ru', 'oce']:
+            try:
+                summoner = lol_api.get_summoner(name=invocador, region=region)
+            except:
+                pass
+            else:
+                aux = types.InlineQueryResultArticle(str(indice),
+                    '['+region.upper()+'] 'summoner['name'],
+                    types.InputTextMessageContent(
+                            get_summoner_info(
+                                    invocador,
+                                    region, 
+                                    cid))
+                    )
+                to_send.append(aux)
+                indice += 1
+        if to_send:
+            bot.answer_inline_query(q.id, to_send)
 
 def get_summoner_info(invocador, region, cid):
     try:
