@@ -217,6 +217,7 @@ def query_champ_basic(q):
                 if c_name == data[lang(cid)][x]['key'].lower():
                     champ=data[lang(cid)][x]
                     txt = champ_basic(data[lang(cid)][x], cid)
+                    print('\n'+txt+'\n')
                     aux = types.InlineQueryResultArticle("1",
                             champ['name'],
                             types.InputTextMessageContent(txt,
