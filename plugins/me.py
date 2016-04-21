@@ -67,6 +67,55 @@ def command_m(m):
     else:
         bot.send_message(cid, responses['not_user'])
 
+@bot.inline_handler(lambda query: query.query.lower() == 'me')
+def query_summoner(q):
+    cid = q.from_user.id
+    if is_beta(cid):
+        if not is_user(cid):
+            aux = types.InlineQueryResultArticle("1",
+                'Error. You are not an user.',
+                types.InputTextMessageContent(
+                responses['not_user_inline'][lang(cid)]),
+                description='This inline query is only available for users.',
+                thumb_url='http://i.imgur.com/IRTLKz4.jpg')
+            bot.answer_inline_query(q.id, [aux])
+        else:
+            try:
+                invocador = db.usuarios.find_one(str(uid))['summoner']
+                region = db.usuarios.find_one(str(uid))['server']
+            except:
+                aux = types.InlineQueryResultArticle("1",
+                    responses['inline_me_error_ttl_1'][lang(cid)],
+                    types.InputTextMessageContent(
+                    responses['inline_me_error_txt_1'][lang(cid)]),
+                    description=responses['inline_me_error_d_1'][lang(cid)],
+                    thumb_url='http://i.imgur.com/IRTLKz4.jpg')
+                bot.answer_inline_query(q.id, [aux])
+            else:
+                try:
+                    summoner = lol_api.get_summoner(name=invocador, region=region)
+                except:
+                    aux = types.InlineQueryResultArticle("1",
+                        responses['inline_me_error_ttl_2'][lang(cid)],
+                        types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()) ),
+                        description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
+                        thumb_url='http://i.imgur.com/IRTLKz4.jpg')
+                    bot.answer_inline_query(q.id, [aux])
+                else:
+                    lattest_version = lol_api.static_get_versions()[0]
+                    icon_id = summoner['profileIconId']
+                    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(lattest_version, icon_id)
+                    aux = types.InlineQueryResultArticle("1",
+                        '['+region.upper()+'] '+summoner['name'],
+                        types.InputTextMessageContent(
+                                get_summoner_info(
+                                    invocador,
+                                    region,
+                                    cid), parse_mode="Markdown"),
+                        thumb_url=icon_url,
+                        description=responses['inline_summoner_d'][lang(cid)].format(
+                                    summoner['name']))
+                    bot.answer_inline_query(q.id, [aux])
 
 def get_summoner_info(invocador, region, cid):
     try:

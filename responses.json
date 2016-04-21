@@ -1532,5 +1532,84 @@
         "el":"",
         "ru":"*Эта информация была взята из сети Интернет, поэтому из-за изменений в тактике она не может быть верна на 100%*"
     },
-    "updates":"@League_of_Legends_channel"
+    "updates":"@League_of_Legends_channel",
+    "inline_summoner_d":{
+        "es":"Información del invocador {}",
+        "en":"Information about the summoner {}",
+        "it":"",
+        "de":"",
+        "pt":"",
+        "fr":"",
+        "fa":"",
+        "pl":"",
+        "th":"",
+        "el":"",
+        "ru":""
+    },
+    "not_user_inline":"Sorry but this feature is only available for users. Please, go to @League_of_Legends_channel and become an user :)",
+    "inline_me_error_ttl_1":{
+        "es":"Invocador o región no guardadas.",
+        "en":"Summoner or region not saved yet.",
+        "it":"",
+        "de":"",
+        "pt":"",
+        "fr":"",
+        "fa":"",
+        "pl":"",
+        "th":"",
+        "el":"",
+        "ru":""
+    },
+    "inline_me_error_txt_1":{
+        "es":"",
+        "en":"",
+        "it":"",
+        "de":"",
+        "pt":"",
+        "fr":"",
+        "fa":"",
+        "pl":"",
+        "th":"",
+        "el":"",
+        "ru":""
+    },
+    "inline_me_error_d_1":{
+        "es":"Parece que no guardastes tu nombre de invocador o región aún.",
+        "en":"It seems that you didn't save your summoner name or your region yet.",
+        "it":"",
+        "de":"",
+        "pt":"",
+        "fr":"",
+        "fa":"",
+        "pl":"",
+        "th":"",
+        "el":"",
+        "ru":""
+    },
+    "inline_me_error_ttl_2":{
+        "es":"Invocador no encontrado.",
+        "en":"Summoner not found.",
+        "it":"",
+        "de":"",
+        "pt":"",
+        "fr":"",
+        "fa":"",
+        "pl":"",
+        "th":"",
+        "el":"",
+        "ru":""
+    },
+    "inline_me_error_d_2":{
+        "es":"Parece que no existe ningún jugador llamado %s en %s.",
+        "en":"It seems that there isn't any player called %s in %s.",
+        "it":"",
+        "de":"",
+        "pt":"",
+        "fr":"",
+        "fa":"",
+        "pl":"",
+        "th":"",
+        "el":"",
+        "ru":""
+    }
 }
