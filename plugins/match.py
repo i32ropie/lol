@@ -149,9 +149,9 @@ def query_summoner(q):
             to_send.append(aux)
         if to_send:
             bot.answer_inline_query(q.id, to_send)
-        else:
-        aux = types.InlineQueryResultArticle("1",
-                "Match not found.")
+        # else:
+        # aux = types.InlineQueryResultArticle("1",
+        #         "Match not found.")
 
 def get_match_info(invocador, region, cid, inline=False):
     azul = {}
