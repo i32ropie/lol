@@ -209,6 +209,7 @@ def query_champ_basic(q):
         try:
             to_send = list()
             c_name = q.query.split()[1].lower()
+            print('\nC_NAME = ' + c_name)
             if c_name == 'wukong':
                 c_name = 'monkeyking'
             elif c_name == 'monkeyking':
