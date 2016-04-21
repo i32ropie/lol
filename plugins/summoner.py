@@ -157,14 +157,6 @@ def query_summoner(q):
                 description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
                 thumb_url='http://i.imgur.com/IRTLKz4.jpg')
             bot.answer_inline_query(q.id, [aux])
-            # aux = types.InlineQueryResultArticle("1",
-            #     "Summoner not found",
-            #     types.InputTextMessageContent(
-            #         responses['summoner_error'][
-            #                 lang(cid)] % (invocador, region.upper()),
-            #         parse_mode="Markdown"),
-            #     thumb_url="http://i.imgur.com/IRTLKz4.jpg")
-            # bot.answer_inline_query(q.id, [aux])
 
 def get_summoner_info(invocador, region, cid):
     try:
