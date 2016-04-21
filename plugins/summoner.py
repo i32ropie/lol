@@ -153,7 +153,7 @@ def query_summoner(q):
         else:
             aux = types.InlineQueryResultArticle("1",
                 responses['inline_me_error_ttl_2'][lang(cid)],
-                types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()) ),
+                types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown" ),
                 description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
                 thumb_url='http://i.imgur.com/IRTLKz4.jpg')
             bot.answer_inline_query(q.id, [aux])
