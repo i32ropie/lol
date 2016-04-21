@@ -126,20 +126,47 @@ def match_info(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
 
+@bot.inline_handler(lambda query: len(query.query.split()) > 1 and query.query.split()[0] in ['#euw', '#eune', '#br', '#na', '#las', '#lan', '#kr', '#tr', '#ru', '#oce'])
+def query_summoner(q):
+    cid = q.from_user.id
+    if is_beta(cid):
+        invocador = q.query.split(None, 1)[1]
+        region = q.query.split()[0].strip('#')
+        to_send=list()
+        try:
+            summoner = lol_api.get_summoner(name=invocador, region=region)
+        except:
+            pass
+        else:
+            aux = types.InlineQueryResultArticle("1",
+                '['+region.upper()+'] '+summoner['name'],
+                types.InputTextMessageContent(
+                        get_match_info(
+                            invocador,
+                            region,
+                            cid,
+                            inline=True), parse_mode="Markdown"))
+            to_send.append(aux)
+        if to_send:
+            bot.answer_inline_query(q.id, to_send)
+        else:
+        aux = types.InlineQueryResultArticle("1",
+                "Match not found.")
 
-def get_match_info(invocador, region, cid):
+def get_match_info(invocador, region, cid, inline=False):
     azul = {}
     rojo = {}
     txt = ""
     try:
         summoner = lol_api.get_summoner(name=invocador, region=region)
     except:
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(
-            cid, responses['summoner_error'][
-                lang(cid)] %
-            (invocador, region.upper()), parse_mode="Markdown")
-        return None
+        if not inline:
+            bot.send_chat_action(cid, 'typing')
+            bot.send_message(
+                cid, responses['summoner_error'][
+                    lang(cid)] %
+                (invocador, region.upper()), parse_mode="Markdown")
+            return None
     campeones = lol_api.static_get_champion_list(
         region=region,
         locale=locales[
@@ -222,8 +249,10 @@ def get_match_info(invocador, region, cid):
             champion=b,
             cid=cid
         )
-    # if is_beta(cid):
-    bot.send_message(cid, txt, parse_mode="Markdown", disable_web_page_preview=True)
+    if inline:
+        return txt
+    else:
+        bot.send_message(cid, txt, parse_mode="Markdown", disable_web_page_preview=True)
 
 def get_summoner_info_2(invocador, region, champion, cid):
     try:

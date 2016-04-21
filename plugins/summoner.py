@@ -149,7 +149,8 @@ def query_summoner(q):
                 "Summoner not found",
                 types.InputTextMessageContent(
                     responses['summoner_error'][
-                            lang(cid)] % (invocador, region.upper())))
+                            lang(cid)] % (invocador, region.upper()),
+                    parse_mode="Markdown"))
             bot.answer_inline_query(q.id, [aux])
 
 def get_summoner_info(invocador, region, cid):
