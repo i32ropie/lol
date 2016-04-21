@@ -6,8 +6,8 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  inline_skins.py importado.{/cyan}'))
 
 
-@bot.inline_handler(lambda query: query.query.startswith('s ') and len(query.query.split()) == 2)
-def query_info(q):
+@bot.inline_handler(lambda query: query.query.startswith('c ') and len(query.query.split()) == 2)
+def query_skins(q):
     cid = q.from_user.id
     if is_beta(cid):
         try:
