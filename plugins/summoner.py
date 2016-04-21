@@ -142,8 +142,15 @@ def query_summoner(q):
                             region,
                             cid), parse_mode="Markdown"))
             to_send.append(aux)
-    if to_send:
-        bot.answer_inline_query(q.id, to_send)
+        if to_send:
+            bot.answer_inline_query(q.id, to_send)
+        else:
+            aux = types.InlineQueryResultArticle("1",
+                "Summoner not found",
+                types.InputTextMessageContent(
+                    responses['summoner_error'][
+                            lang(cid)] % (invocador, region.upper())))
+            bot.answer_inline_query(q.id, [aux])
 
 def get_summoner_info(invocador, region, cid):
     try:
