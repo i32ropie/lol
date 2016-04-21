@@ -13,6 +13,11 @@ def query_skins(q):
         try:
             to_send=list()
             c_name=q.query.split()[1].lower()
+            c_name =
+            if c_name == 'wukong':
+                c_name = 'monkeyking'
+            elif c_name == 'monkeyking':
+                c_name = 'wukong'
             for x in data[lang(cid)]:
                 if c_name == data[lang(cid)][x]['key'].lower():
                     champ=data[lang(cid)][x]
