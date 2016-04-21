@@ -136,11 +136,11 @@ def query_summoner(q):
                 pass
             else:
                 aux = types.InlineQueryResultArticle(str(indice),
-                    '['+region.upper()+'] 'summoner['name'],
+                    '['+region.upper()+'] '+summoner['name'],
                     types.InputTextMessageContent(
                             get_summoner_info(
                                     invocador,
-                                    region, 
+                                    region,
                                     cid))
                     )
                 to_send.append(aux)
