@@ -138,7 +138,7 @@ def query_summoner(q):
         except:
             pass
         else:
-            if get_match_info(invocador, region, cid) != 'match_error':
+            if get_match_info(invocador, region, cid, inline=True) != 'match_error':
                 aux = types.InlineQueryResultArticle("1",
                     '['+region.upper()+'] '+summoner['name'],
                     types.InputTextMessageContent(
