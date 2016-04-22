@@ -216,12 +216,14 @@ def query_skins(q):
             for x in data[lang(cid)]:
                 if c_name == data[lang(cid)][x]['key'].lower():
                     champ = data[lang(cid)][x]
+                    lattest_version = lol_api.static_get_versions()[0]
+                    thumb='http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(lattest_version, champ['key'])
                     txt = champ_basic(data[lang(cid)][x], cid, inline=True)
                     aux = types.InlineQueryResultArticle("1",
                             champ['name'],
                             types.InputTextMessageContent(txt, parse_mode="Markdown"),
                             description=responses['inline_champ_d'][lang(cid)].format(champ['name']),
-                            thumb_url='http://i.imgur.com/IRTLKz4.jpg')
+                            thumb_url=thumb)
                     to_send.append(aux)
             if to_send:
                 bot.answer_inline_query(q.id, to_send)
