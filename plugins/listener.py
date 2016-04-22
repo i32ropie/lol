@@ -246,18 +246,10 @@ def query_skins(q):
                     txt = champ_basic(data[lang(cid)][x], cid, inline=True)
                     aux = types.InlineQueryResultArticle("1",
                             champ['name'],
-                            types.InputTextMessageContent(txt, parse_mode="Markdown")
+                            types.InputTextMessageContent(txt, parse_mode="Markdown"),
+                            thumb_url='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_0.jpg'
                             )
                     to_send.append(aux)
-            # for x in data[lang(cid)]:
-            #     if c_name == data[lang(cid)][x]['key'].lower():
-            #         champ=data[lang(cid)][x]
-            #         for i in champ['skins']:
-            #             aux = types.InlineQueryResultPhoto(str(champ['skins'].index(i)),
-            #                 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
-            #                 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
-            #                 caption=i['name'])
-            #             to_send.append(aux)
             if to_send:
                 bot.answer_inline_query(q.id, to_send)
         except:
@@ -294,7 +286,7 @@ def champ_basic(chmp, cid, inline=False):
                 txt += '\n⁣  /' + key + '\_' + \
                     str(skin['num']) + ': ' + skin['name']
             else:
-                txt += '\n ⚫ ' + skin['name']
+                txt += '\n  • ' + skin['name']
     if not inline:
         try:
             r = requests.get('http://www.championselect.net/champions/' + key.lower())
