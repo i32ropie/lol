@@ -147,7 +147,7 @@ def query_summoner(q):
                                 region,
                                 cid,
                                 inline=True), parse_mode="Markdown"),
-                    description=responses['inline_match_d'][lang(cid)],
+                    description=responses['inline_match_d'][lang(cid)].format(summoner['name']),
                     thumb_url='http://i.imgur.com/IRTLKz4.jpg')
                 to_send.append(aux)
             else:
