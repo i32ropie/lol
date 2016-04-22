@@ -243,7 +243,7 @@ def query_skins(q):
             for x in data[lang(cid)]:
                 if c_name == data[lang(cid)][x]['key'].lower():
                     champ = data[lang(cid)][x]
-                    txt = champ_basic(data[lang(cid)][x], cid)
+                    txt = champ_basic(data[lang(cid)][x], cid, inline=True)
                     aux = types.InlineQueryResultArticle("1",
                             champ['name'],
                             types.InputTextMessageContent(txt, parse_mode="Markdown")
@@ -263,7 +263,7 @@ def query_skins(q):
         except:
             pass
 
-def champ_basic(chmp, cid):
+def champ_basic(chmp, cid, inline=False):
     if chmp['key'] in backward:
         key = backward[chmp['key']]
         key2 = chmp['key']
@@ -290,24 +290,29 @@ def champ_basic(chmp, cid):
     txt += '\n\n*Skins:*'
     for skin in chmp['skins']:
         if skin['num'] != 0:
-            txt += '\n⁣  /' + key + '\_' + \
-                str(skin['num']) + ': ' + skin['name']
-    try:
-        r = requests.get('http://www.championselect.net/champions/' + key.lower())
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    if r.status_code == 200:
+            if not inline:
+                txt += '\n⁣  /' + key + '\_' + \
+                    str(skin['num']) + ': ' + skin['name']
+            else:
+                txt += '\n ⚫ ' + skin['name']
+    if not inline:
         try:
-            soup = BeautifulSoup(r.text, 'html.parser')
-            weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
-            strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
-            txt += '\n\n' + responses['warning'][lang(cid)]
-            txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
-            txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
+            r = requests.get('http://www.championselect.net/champions/' + key.lower())
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+        if r.status_code == 200:
+            try:
+                soup = BeautifulSoup(r.text, 'html.parser')
+                weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
+                strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
+                txt += '\n\n' + responses['warning'][lang(cid)]
+                txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
+                txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
+            except Exception as e:
+                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
-    txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
+    if not inline:
+        txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
     return txt
 
 
