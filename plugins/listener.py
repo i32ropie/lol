@@ -247,6 +247,7 @@ def query_skins(q):
                     aux = types.InlineQueryResultArticle("1",
                             champ['name'],
                             types.InputTextMessageContent(txt, parse_mode="Markdown"),
+                            description=responses['inline_champ_d'][lang(cid)].format(champ['name']),
                             thumb_url='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_0.jpg'
                             )
                     to_send.append(aux)
@@ -263,6 +264,8 @@ def champ_basic(chmp, cid, inline=False):
         key = chmp['key']
         key2 = chmp['key']
     txt = '_' + chmp['name'] + ', ' + chmp['title'] + '_'
+    if inline:
+        txt += '[⁣](http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+chmp['key']+'_0.jpg)'
     # Roles
     txt += '\n⁣*' + responses['champ_info']['tags'][lang(cid)] + '*: '
     i = 0
