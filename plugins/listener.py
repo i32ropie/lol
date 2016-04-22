@@ -242,13 +242,22 @@ def query_skins(q):
                 c_name = 'wukong'
             for x in data[lang(cid)]:
                 if c_name == data[lang(cid)][x]['key'].lower():
-                    champ=data[lang(cid)][x]
-                    for i in champ['skins']:
-                        aux = types.InlineQueryResultPhoto(str(champ['skins'].index(i)),
-                            'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
-                            'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
-                            caption=i['name'])
-                        to_send.append(aux)
+                    champ = data[lang(cid)][x]
+                    txt = champ_basic(data[lang(cid)][x], cid)
+                    aux = types.InlineQueryResultArticle("1",
+                            champ['name'],
+                            types.InputTextMessageContent(txt, parse_mode="Markdown")
+                            )
+                    to_send.append(aux)
+            # for x in data[lang(cid)]:
+            #     if c_name == data[lang(cid)][x]['key'].lower():
+            #         champ=data[lang(cid)][x]
+            #         for i in champ['skins']:
+            #             aux = types.InlineQueryResultPhoto(str(champ['skins'].index(i)),
+            #                 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
+            #                 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
+            #                 caption=i['name'])
+            #             to_send.append(aux)
             if to_send:
                 bot.answer_inline_query(q.id, to_send)
         except:
