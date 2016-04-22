@@ -201,33 +201,6 @@ def process_msg(m):
     # else:
         #bot.send_message( cid, responses['not_user'])
 
-# @bot.inline_handler(lambda query: query.query.startswith('c ') and len(query.query.split()) == 2)
-# def query_skins(q):
-#     cid = q.from_user.id
-#     if is_beta(cid):
-#         try:
-#             to_send=list()
-#             c_name=q.query.split()[1].lower()
-#             if c_name == 'wukong':
-#                 c_name = 'monkeyking'
-#             elif c_name == 'monkeyking':
-#                 c_name = 'wukong'
-#             for x in data[lang(cid)]:
-#                 if c_name == data[lang(cid)][x]['key'].lower():
-#                     champ=data[lang(cid)][x]
-#                     txt = champ_basic(data[lang(cid)][x], cid)
-#                     print('\n'+txt+'\n')
-#                     aux = types.InlineQueryResultArticle("1",
-#                             champ['name'],
-#                             types.InputTextMessageContent(txt,
-#                                 parse_mode="Markdown"),
-#                             description=responses['inline_champ_d'][lang(cid)] % (champ['name']),
-#                             thumb_url='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_0.jpg')
-#                     to_send.append(aux)
-#             if to_send:
-#                 bot.answer_inline_query(q.id, to_send)
-#         except:
-#             pass
 
 @bot.inline_handler(lambda query: query.query.startswith('c ') and len(query.query.split()) == 2)
 def query_skins(q):
@@ -248,8 +221,7 @@ def query_skins(q):
                             champ['name'],
                             types.InputTextMessageContent(txt, parse_mode="Markdown"),
                             description=responses['inline_champ_d'][lang(cid)].format(champ['name']),
-                            thumb_url='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_0.jpg'
-                            )
+                            thumb_url='http://i.imgur.com/IRTLKz4.jpg')
                     to_send.append(aux)
             if to_send:
                 bot.answer_inline_query(q.id, to_send)
