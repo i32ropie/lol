@@ -14,6 +14,10 @@ Documentation of my [League of Legends](http://telegram.me/league_of_legends_bot
 
 # Getting Started
 
+## IMPORTANT
+
+This is outdated. I'll update it as soon as possible. Stay tunned :)
+
 First of all, this bot is running in Python 3 so you need to install it and also pip for installing the modules.
 ```bash
 sudo apt-get install python3 python3-pip
