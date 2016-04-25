@@ -206,6 +206,8 @@ def process_msg(m):
 def query_champ_basic(q):
     cid = q.from_user.id
     if is_beta(cid):
+        if is_banned(cid):
+            return None
         try:
             to_send=list()
             c_name=q.query.split()[1].lower()

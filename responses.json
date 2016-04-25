@@ -205,7 +205,8 @@
             "rotation":"Proporciona los campeones que están en rotación esta semana.",
             "rate":"Califica el bot :)",
             "summoner":"Muestra información para buscar invocadores.",
-            "match":"Muestra información para buscar partidas."
+            "match":"Muestra información para buscar partidas.",
+            "inline":"Muestra ayuda para el uso inline del bot."
         },
         "en":{
             "notify":"Enable/Disable the notifications.",
@@ -227,7 +228,8 @@
             "rotation":"Gives the champions on rotation this week.",
             "rate":"Rate the bot :)",
             "summoner":"Shows info to search for summoners.",
-            "match":"Shows info to search matches."
+            "match":"Shows info to search matches.",
+            "inline":"Shows help for the inline use of the bot."
         },
         "it":{
             "notify":"Abilita/Disabilita le notifiche.",
@@ -249,7 +251,8 @@
             "rotation":"Fornisce campioni che sono nella rotazione settimanale",
             "summoner":"Mostra informazione per la ricerca d'evocatori.",
             "match":"Mostra informazione per la ricerca di partite.",
-            "rate":"Qualifica il bot :)"
+            "rate":"Qualifica il bot :)",
+            "inline":""
         },
         "de":{
             "notify":"Aktiviert/Deaktiviert die Benachrichtigungen.",
@@ -271,7 +274,8 @@
             "rotation":"Zeigt die Championrotation für diese Woche an.",
             "rate":"Bewerte diesen Bot :)",
             "summoner":"Zeigt Informationen, um nach Beschwörern zu suchen.",
-            "match":"Zeigt Informationen, um nach Spielen zu suchen."
+            "match":"Zeigt Informationen, um nach Spielen zu suchen.",
+            "inline":""
         },
         "pt":{
             "notify":"Habilita ou desabilita as notificações.",
@@ -293,7 +297,8 @@
             "rotation":"Mostra a rotação de campeões desta semana.",
             "rate":"Avalie o Bot :)",
             "summoner":"Mostra informações para buscar por invocadores.",
-            "match":"Mostra informações para buscar partidas em andamento."
+            "match":"Mostra informações para buscar partidas em andamento.",
+            "inline":""
         },
         "fr":{
             "notify":"Active/Désactive les notifications.",
@@ -315,7 +320,8 @@
             "rotation":"Indique les champions en rotation cette semaine.",
             "rate":"Noter le bot :)",
             "summoner":"Affiche les infos pour rechercher un invocateur.",
-            "match":"Affiche les infos pour rechercher une partie."
+            "match":"Affiche les infos pour rechercher une partie.",
+            "inline":""
         },
         "fa":{
             "notify":"روشن و خاموش کردن دریافت پیام ها",
@@ -337,7 +343,8 @@
             "rotation":"دریافت اطلاعات چمپیون های رایگان در این هفته",
             "rate":"امتیاز دادن به بات :)",
             "summoner":"جستجو اطلاعات یک بازیکن",
-            "match":"جستجو اطلاعات بازی یی که بازیکن در حال بازی است"
+            "match":"جستجو اطلاعات بازی یی که بازیکن در حال بازی است",
+            "inline":""
         },
         "pl":{
             "notify":"Aktywuj/Dezaktywuj notyfikacje.",
@@ -359,7 +366,8 @@
             "rotation":"Pokazuje bohaterów w aktualnej rotacji",
             "rate":"Oceń bota :)",
             "summoner":"Pokazuje informacje do wyszukiwania przywoływaczy.",
-            "match":"Pokazuje informacje do wyszukiwania meczy."
+            "match":"Pokazuje informacje do wyszukiwania meczy.",
+            "inline":""
         },
         "th":{
             "notify":"",
@@ -381,7 +389,8 @@
             "rotation":"",
             "rate":"",
             "summoner":"",
-            "match":""
+            "match":"",
+            "inline":""
         },
         "el":{
             "notify":"",
@@ -403,7 +412,8 @@
             "rotation":"",
             "rate":"",
             "summoner":"",
-            "match":""
+            "match":"",
+            "inline":""
         },
         "ru":{
             "notify":"Включить/Выключить уведомления.",
@@ -425,7 +435,8 @@
             "rotation":"Выводит бесплатных чемпионов недели.",
             "rate":"Оценить бота :)",
             "summoner":"Показывает данные для поиска призывателей.",
-            "match":"Показать данные для поиска матча."
+            "match":"Показать данные для поиска матча.",
+            "inline":""
         }
     },
     "keyboard_1":{
@@ -1534,61 +1545,113 @@
     },
     "updates":"@League_of_Legends_channel",
     "inline_champ_d":{
-        "es":"Información de {}",
-        "en":"Information about {}",
-        "it":"",
-        "de":"",
-        "pt":"",
-        "fr":"",
-        "fa":"",
-        "pl":"",
+        "es":"Información de {}.",
+        "en":"Information about {}.",
+        "it":"Informazioni riguardo {}.",
+        "de":"Informationen über {}.",
+        "pt":"Informação sobre {}.",
+        "fr":"Information à propos de {}.",
+        "fa":"اطلاعات درباره {}.",
+        "pl":"Informacje o {}.",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"Информация о {}."
     },
     "inline_summoner_d":{
-        "es":"Información del invocador {}",
-        "en":"Information about the summoner {}",
-        "it":"",
-        "de":"",
-        "pt":"",
-        "fr":"",
-        "fa":"",
-        "pl":"",
+        "es":"Información del invocador {}.",
+        "en":"Information about the summoner {}.",
+        "it":"Informazioni riguardo l'evocatore {}.",
+        "de":"Informationen über den Beschwörer {}.",
+        "pt":"Informação sobre o invocador {}.",
+        "fr":"Information à propos de l'invocateur {}.",
+        "fa":"اطلاعات درباره بازیکن {}.",
+        "pl":"Informacje o przywoływaczu {}.",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"Информация о призывателе {}."
     },
     "inline_match_d":{
-        "es":"Información de la partida actual del invocador {}",
-        "en":"Information about the current match of the summoner {}",
-        "it":"",
-        "de":"",
-        "pt":"",
-        "fr":"",
-        "fa":"",
-        "pl":"",
+        "es":"Información de la partida actual del invocador {}.",
+        "en":"Information about the current match of the summoner {}.",
+        "it":"Informazioni riguardo la partita in corso dell'evocatore {}.",
+        "de":"Informationen über das derzeitige Match mit dem Beschwörer {}.",
+        "pt":"Informação sobre a partida atual do invocador {}.",
+        "fr":"Information sur la partie en cours de l'invocateur {}.",
+        "fa":"اطلاعات درباره بازی در حال حاضر بازیکن {}.",
+        "pl":"Informacje o aktualnej rozgrywce przywoływacza {}.",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"Информация о текущем матче призывателя {}."
     },
     "not_user_inline":"Sorry but this feature is only available for users. Please, go to @League_of_Legends_channel and become an user :)",
     "inline_me_error_ttl_2":{
         "es":"Invocador no encontrado.",
         "en":"Summoner not found.",
-        "it":"",
-        "de":"",
-        "pt":"",
-        "fr":"",
-        "fa":"",
-        "pl":"",
+        "it":"Evocatore non trovato.",
+        "de":"Beschwörer nicht gefunden.",
+        "pt":"Invocador não encontrado.",
+        "fr":"Invocateur non trouvé.",
+        "fa":"بازیکن یافت نشد.",
+        "pl":"Przywoływacz nie został odnaleziony.",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"Призыватель не найден."
     },
     "inline_me_error_d_2":{
         "es":"Parece que no existe ningún jugador llamado %s en %s.",
         "en":"It seems that there isn't any player called %s in %s.",
+        "it":"Sembra che non ci sia nessun evocatore chiamato %s in %sd,.",
+        "de":"Es sieht so aus als gäbe es keine Spieler namens %s in %s.",
+        "pt":"Parece que não existe um jogador chamado %s no %s.",
+        "fr":"Il semble n'y avoir aucun joueur nommé %s en %s.",
+        "fa":"موجود نیست بازیکن به نام %s در %s.",
+        "pl":"Wygląda na to, że nie ma gracza o nazwie %s w %s.",
+        "th":"",
+        "el":"",
+        "ru":"Кажется, что нет игрока с именем %s в %s."
+    },
+    "inline_match_error":{
+        "es":"Partida no encontrada.",
+        "en":"Match not found.",
+        "it":"Partita non trovata.",
+        "de":"Match nicht gefunden.",
+        "pt":"Partida não encontrada.",
+        "fr":"Partie non trouvée.",
+        "fa":"بازیی یافت نشد.",
+        "pl":"Mecz nie został odnaleziony.",
+        "th":"",
+        "el":"",
+        "ru":"Матч не найден."
+    },
+    "best_champs":{
+        "es":"Mejores campeones",
+        "en":"Best champions",
+        "it":"Miglior campioni.",
+        "de":"Beste Champions.",
+        "pt":"Melhores campeões.",
+        "fr":"Meilleurs champions.",
+        "fa":"بهترین چمپیون ها.",
+        "pl":"Najlepsi bohaterowie.",
+        "th":"",
+        "el":"",
+        "ru":"Лучший чемпион."
+    },
+    "inline_help_t":{
+        "es":"AYUDA",
+        "en":"HELP",
+        "it":"AIUTO",
+        "de":"HILFE",
+        "pt":"AJUDA",
+        "fr":"AIDE",
+        "fa":"HELP",
+        "pl":"POMOC",
+        "th":"",
+        "el":"",
+        "ru":"ПОМОЩЬ"
+    },
+    "inline_help_1":{
+        "es":"El bot dispone de los siguientes comandos inline:",
+        "en":"The bot has the following inline commands:",
         "it":"",
         "de":"",
         "pt":"",
@@ -1599,17 +1662,94 @@
         "el":"",
         "ru":""
     },
-    "inline_match_error":{
-        "es":"Partida no encontrada.",
-        "en":"Match not found.",
-        "it":"",
-        "de":"",
-        "pt":"",
-        "fr":"",
-        "fa":"",
-        "pl":"",
-        "th":"",
-        "el":"",
-        "ru":""
+    "inline_help_2":{
+        "es":{
+            "help":"`- Muestra esta ayuda.",
+            "s":" <campeón> `- Muestra las skins del campeón.",
+            "c":" <campeón> `- Muestra información del campeón.",
+            "#c":" <campeón> `- Muestra información extra del campeón.",
+            "region":" <invocador> `- Muestra información de un invocador en una región.",
+            "#region":" <invocador> `- Muestra información de la partida actual de un invocador en una región."
+        },
+        "en":{
+            "help":"`- Shows this help.",
+            "s":" <champion> `- Shows the champion skins.",
+            "c":" <champion> `- Shows info about the champion.",
+            "#c":" <champion> `- Shows extra info about the champion",
+            "region":" <summoner> `- Shows info about a summoner in a region.",
+            "#region":" <summoner> `- Shows info about the current match of a summoner in a region."
+        },
+        "it":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "de":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "pt":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "fr":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "fa":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "pl":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "th":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "el":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        },
+        "ru":{
+            "help":"",
+            "s":"",
+            "c":"",
+            "#c":"",
+            "region":"",
+            "#region":""
+        }
     }
 }
