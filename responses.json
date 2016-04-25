@@ -1664,7 +1664,7 @@
     },
     "inline_help_2":{
         "es":{
-            "help":"`- Muestra esta ayuda.",
+            "help":" `- Muestra esta ayuda.",
             "s":" <campeón> `- Muestra las skins del campeón.",
             "c":" <campeón> `- Muestra información del campeón.",
             "#c":" <campeón> `- Muestra información extra del campeón.",
@@ -1672,7 +1672,7 @@
             "#region":" <invocador> `- Muestra información de la partida actual de un invocador en una región."
         },
         "en":{
-            "help":"`- Shows this help.",
+            "help":" `- Shows this help.",
             "s":" <champion> `- Shows the champion skins.",
             "c":" <champion> `- Shows info about the champion.",
             "#c":" <champion> `- Shows extra info about the champion",

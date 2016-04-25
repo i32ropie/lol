@@ -26,5 +26,7 @@ def command_COMANDO(m):
             for x,y in responses['inline_help_2'][lang(cid)].items():
                 txt += '\n`@League_of_Legends_bot ' + x + y
             bot.send_message(cid, txt, parse_mode="Markdown")
+        else:
+            bot.send_message(cid, "Command in development")
     else:
         bot.send_message(cid, responses['not_user'])
