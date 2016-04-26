@@ -298,7 +298,7 @@
             "rate":"Avalie o Bot :)",
             "summoner":"Mostra informações para buscar por invocadores.",
             "match":"Mostra informações para buscar partidas em andamento.",
-            "inline":""
+            "inline":"Mostra a ajuda para o uso inline do bot."
         },
         "fr":{
             "notify":"Active/Désactive les notifications.",
@@ -436,7 +436,7 @@
             "rate":"Оценить бота :)",
             "summoner":"Показывает данные для поиска призывателей.",
             "match":"Показать данные для поиска матча.",
-            "inline":""
+            "inline":"Показать помощь для использования инлайн возможности у бота."
         }
     },
     "keyboard_1":{
@@ -1654,13 +1654,13 @@
         "en":"The bot has the following inline commands:",
         "it":"",
         "de":"",
-        "pt":"",
+        "pt":"O bot está aceitando os seguintes comandos inline:",
         "fr":"",
         "fa":"",
         "pl":"",
         "th":"",
         "el":"",
-        "ru":""
+        "ru":"Бот поддерживает инлайн команды:"
     },
     "inline_help_2":{
         "es":{
@@ -1696,12 +1696,12 @@
             "#region":""
         },
         "pt":{
-            "help":"",
-            "s":"",
-            "c":"",
-            "#c":"",
-            "region":"",
-            "#region":""
+            "help":" `- Mostra esta ajuda.",
+            "s":" <champion> `-  Mostra as skins do campeão.",
+            "c":" <champion> `- Mostra informações sobre o campeão.",
+            "#c":" <champion> `- Mostra informações extras sobre o campeão.",
+            "region":" <summoner> `- Mostra informações sobre um invocador em uma região.",
+            "#region":" <summoner> `- Mostra informações sobre a partida atual do invocador em uma região."
         },
         "fr":{
             "help":"",
@@ -1744,12 +1744,12 @@
             "#region":""
         },
         "ru":{
-            "help":"",
-            "s":"",
-            "c":"",
-            "#c":"",
-            "region":"",
-            "#region":""
+            "help":" `- Показать помощь.",
+            "s":" <champion> `- Показать скин чемпиона.",
+            "c":" <champion> `- Показать информацию о чемпионе.",
+            "#c":" <champion> `- Показать дополнительную информацию о чемпионе.",
+            "region":" <summoner> `- Показать информацию о чемпионе по региону.",
+            "#region":" <summoner> `- Показать информацию о текущем матче и чемпионе по региону."
         }
     }
 }
