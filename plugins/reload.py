@@ -10,15 +10,6 @@ print(Color(
 def command_reload(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/reload"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('reload')
     except Exception as e:

@@ -10,15 +10,6 @@ print(Color(
 def command_ban(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/ban"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('ban')
     except Exception as e:
@@ -33,7 +24,6 @@ def command_ban(m):
             bot.send_message(cid, responses['ban']['failure'][0])
             return None
         if isint(banned_id):
-            # if banned_id in users:
             if is_user(banned_id):
                 if is_banned(banned_id):
                     bot.send_chat_action(cid, 'typing')
@@ -41,9 +31,6 @@ def command_ban(m):
                         cid, responses['ban']['failure'][1] %
                         banned_id)
                 else:
-                    # users[str(banned_id)]['banned'] = True
-                    # with open('usuarios.json', 'w') as f:
-                    #     json.dump(users, f)
                     db.usuarios.update({"_id": banned_id},
                         {"$set": {"banned": True}})
                     bot.send_chat_action(cid, 'typing')
@@ -51,15 +38,6 @@ def command_ban(m):
                         cid, responses['ban']['success'] %
                         banned_id)
             else:
-                # users[
-                #     str(banned_id)] = {
-                #     "lang": "en",
-                #     "banned": True,
-                #     "notify": True,
-                #     "server": "",
-                #     "summoner": ""}
-                # with open('usuarios.json', 'w') as f:
-                #     json.dump(users, f)
                 db.usuarios.insert({
                     "_id":banned_id,
                     "lang": "en",
@@ -70,21 +48,12 @@ def command_ban(m):
                     })
                 bot.send_chat_action(cid, 'typing')
                 bot.send_message(cid, responses['ban']['success'] % banned_id)
-                #bot.send_message( cid, responses['ban']['failure'][2]%banned_id)
 
 
 @bot.message_handler(commands=['unban'])
 def command_unban(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # botan.track(
-    #     botan_token,
-    #     cid,
-    #     to_json(m),
-    #     "/unban"
-    # )
-    # if not is_recent(m):
-    #     return None
     try:
         send_udp('unban')
     except Exception as e:
@@ -99,9 +68,6 @@ def command_unban(m):
         if isint(banned_id):
             if is_user(banned_id):
                 if is_banned(banned_id):
-                    # users[str(banned_id)]['banned'] = False
-                    # with open('usuarios.json', 'w') as f:
-                    #     json.dump(users, f)
                     db.usuarios.update({"_id": banned_id},
                         {"$set": {"banned": False}})
                     bot.send_chat_action(cid, 'typing')
@@ -124,12 +90,6 @@ def command_unban(m):
 def command_mute(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # botan.track(
-    #     botan_token,
-    #     cid,
-    #     to_json(m),
-    #     "/mute"
-    # )
     try:
         send_udp('mute')
     except Exception as e:
@@ -146,12 +106,6 @@ def command_mute(m):
 def command_unmute(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # botan.track(
-    #     botan_token,
-    #     cid,
-    #     to_json(m),
-    #     "/unmute"
-    # )
     try:
         send_udp('unmute')
     except Exception as e:

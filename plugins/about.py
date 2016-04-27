@@ -18,15 +18,6 @@ print(Color(
 def command_credits(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/credits"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('credits')
     except Exception as e:

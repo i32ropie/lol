@@ -13,15 +13,6 @@ print(Color(
 def command_system(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/system"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('system')
     except Exception as e:

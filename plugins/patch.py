@@ -12,15 +12,6 @@ print(Color(
 def command_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/patch"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('patch')
     except Exception as e:
@@ -58,15 +49,6 @@ def command_patch(m):
 def command_update_patch(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         m.text
-    #     )
-    # except:
-    #     pass
     try:
         send_udp(m.text.lstrip('/').split(' ')[0].split('@')[0].lower())
     except Exception as e:

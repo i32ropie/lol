@@ -39,15 +39,6 @@ platform = {
 def command_match(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/match"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('match')
     except Exception as e:
@@ -88,15 +79,6 @@ def command_match(m):
 def match_info(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         m.text.split(' ')[0].split('@')[0]
-    #     )
-    # except:
-    #     pass
     try:
         send_udp(m.text.lstrip('/').split(' ')[0].split('@')[0].lower())
     except Exception as e:
@@ -217,53 +199,16 @@ def get_match_info(invocador, region, cid, inline=False):
         else:
             rojo[str(jugadores['summonerName'])] = str(
                 campeones[str(jugadores['championId'])]['name'])
-    # if not is_beta(cid):
-    #     bot.send_chat_action(cid, 'typing')
-    #     bot.send_message(
-    #         cid, responses['match_blue'][
-    #             lang(cid)] %
-    #         (partida['gameMode']))
-    # else:
     txt += responses['match_blue'][lang(cid)] % (partida['gameMode'])
     for a, b in azul.items():
-        # if not is_beta(cid):
-        #     bot.send_chat_action(cid, 'typing')
-        #     bot.send_message(
-        #         cid,
-        #         get_summoner_info_2(
-        #             invocador=a,
-        #             region=region,
-        #             champion=b,
-        #             cid=cid),
-        #         parse_mode="Markdown",
-        #         disable_web_page_preview=True
-        #     )
-        # else:
         txt += '\n\n' + get_summoner_info_2(
             invocador=a,
             region=region,
             champion=b,
             cid=cid
         )
-    # if not is_beta(cid):
-    #     bot.send_chat_action(cid, 'typing')
-    #     bot.send_message(cid, responses['match_red'][lang(cid)])
-    # else:
     txt += '\n\n' + responses['match_red'][lang(cid)]
     for a, b in rojo.items():
-        # if not is_beta(cid):
-        #     bot.send_chat_action(cid, 'typing')
-        #     bot.send_message(
-        #         cid,
-        #         get_summoner_info_2(
-        #             invocador=a,
-        #             region=region,
-        #             champion=b,
-        #             cid=cid),
-        #         parse_mode="Markdown",
-        #         disable_web_page_preview=True
-        #     )
-        # else:
         txt += '\n\n' + get_summoner_info_2(
             invocador=a,
             region=region,

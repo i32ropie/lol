@@ -25,15 +25,6 @@ platform = {
 def command_m(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/me"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('me')
     except Exception as e:
@@ -46,9 +37,6 @@ def command_m(m):
         return None
     if is_user(cid):
         try:
-            # summoner, region = users[
-            #     str(uid)]['summoner'], users[
-            #     str(uid)]['server']
             summoner = db.usuarios.find_one(str(uid))['summoner']
             region = db.usuarios.find_one(str(uid))['server']
         except:

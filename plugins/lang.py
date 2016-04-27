@@ -33,15 +33,6 @@ markup.add(
 def command_lang(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/lang"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('lang')
     except Exception as e:

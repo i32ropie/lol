@@ -11,15 +11,6 @@ print(Color(
 def command_update_champs_1(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/update_champs_1"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('update_champs_1')
     except Exception as e:
@@ -77,15 +68,6 @@ def command_update_champs_1(m):
 def command_update_champs_2(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/update_champs_2"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('update_champs_2')
     except Exception as e:

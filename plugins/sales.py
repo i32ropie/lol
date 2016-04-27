@@ -20,15 +20,6 @@ print(Color(
 def command_sale(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/sale"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('sale')
     except Exception as e:
@@ -45,7 +36,6 @@ def command_sale(m):
         with open('extra_data/sale.txt', 'rt') as f:
             txt += f.read()
         bot.send_chat_action(cid, 'typing')
-        #bot.send_photo( cid, open('extra_data/sale.jpg','rb'))
         bot.send_photo(cid, extra['sale'])
         bot.send_message(cid, txt)
     else:
@@ -56,15 +46,6 @@ def command_sale(m):
 def command_update_sale(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/update_sale_text"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('update_sale_text')
     except Exception as e:
@@ -81,15 +62,6 @@ def command_update_sale(m):
 def command_update_pic(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/update_sale_pic"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('update_sale_pic')
     except Exception as e:

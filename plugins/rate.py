@@ -20,15 +20,6 @@ print(Color(
 def command_rate(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/rate"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('rate')
     except Exception as e:

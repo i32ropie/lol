@@ -10,15 +10,6 @@ print(Color(
 def command_set_name(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/set_name"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('set_name')
     except Exception as e:

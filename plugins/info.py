@@ -12,15 +12,6 @@ print(Color(
 def command_info(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/info"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('info')
     except Exception as e:

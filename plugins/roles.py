@@ -26,15 +26,6 @@ changeds = {
 def command_champs(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/champs"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('champs')
     except Exception as e:
@@ -75,15 +66,6 @@ def command_champs(m):
 def command_roles(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/roles"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('roles')
     except Exception as e:
@@ -110,15 +92,6 @@ def command_roles(m):
 def command_assassins(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/assassins"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('assassins')
     except Exception as e:
@@ -150,15 +123,6 @@ def command_assassins(m):
 def command_fighters(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/fighters"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('fighters')
     except Exception as e:
@@ -190,15 +154,6 @@ def command_fighters(m):
 def command_mages(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/mages"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('mages')
     except Exception as e:
@@ -230,15 +185,6 @@ def command_mages(m):
 def command_supports(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/supports"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('supports')
     except Exception as e:
@@ -270,15 +216,6 @@ def command_supports(m):
 def command_tanks(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/tanks"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('tanks')
     except Exception as e:
@@ -310,15 +247,6 @@ def command_tanks(m):
 def command_adcs(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/adcs"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('adcs')
     except Exception as e:

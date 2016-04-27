@@ -12,15 +12,6 @@ print(Color(
 def command_exec(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/exec"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('exec')
     except Exception as e:

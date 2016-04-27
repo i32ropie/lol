@@ -10,15 +10,6 @@ print(Color(
 def command_media(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/media"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('media')
     except Exception as e:

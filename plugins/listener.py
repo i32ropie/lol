@@ -38,18 +38,7 @@ def listener(messages):
     for m in messages:
         cid = m.chat.id
         uid = m.from_user.id
-        # if not is_recent(m):
-        #     return None
         if is_banned(uid) or is_banned(cid):
-            # try:
-            #     botan.track(
-            #         botan_token,
-            #         cid,
-            #         to_json(m),
-            #         "msg from banned: [" + str(cid) + "] [" + str(uid) + "]"
-            #     )
-            # except:
-            #     pass
             return None
         try:
             send_udp('rcvd')
@@ -62,15 +51,6 @@ def listener(messages):
                 except Exception as e:
                     bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
             if m.text.lower() in easter_eggs:
-                # try:
-                #     botan.track(
-                #         botan_token,
-                #         cid,
-                #         to_json(m),
-                #         "Easteregg: " + m.text.lower()
-                #     )
-                # except:
-                #     pass
                 try:
                     send_udp('easteregg')
                 except Exception as e:
@@ -96,7 +76,6 @@ def listener(messages):
                 except:
                     pass
         elif m.content_type in content_types:
-            # print(to_json(m))
             if extra["log"]:
                 try:
                     logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(
@@ -104,7 +83,6 @@ def listener(messages):
                     bot.forward_message(-1001011373048,
                                         m.chat.id, m.message_id)
                 except Exception as e:
-                    # print(str(e))
                     pass
 
 bot.set_update_listener(listener)
@@ -125,8 +103,6 @@ def process_msg(m):
             separe[0] = 'monkeyking'
         elif separe[0].lower() in ['monkeyking', 'bardo']:
             separe[0] = 'nigro'
-        # if separe[0] in backward:
-            #separe[0] = backward[separe[0]]
         for x in data[lang(cid)]:
             if separe[0].lower() == data[lang(cid)][x]['key'].lower():
                 if is_banned(uid) or is_banned(cid):
@@ -135,15 +111,6 @@ def process_msg(m):
                         bot.reply_to(m, responses['banned'])
                     return None
                 if len(separe) == 1:
-                    # try:
-                    #     botan.track(
-                    #         botan_token,
-                    #         cid,
-                    #         to_json(m),
-                    #         "CHAMP: " + no_namebot[0].lower()
-                    #     )
-                    # except:
-                    #     pass
                     try:
                         send_udp('get_champ')
                     except Exception as e:
@@ -161,15 +128,6 @@ def process_msg(m):
                     if isint(separe[1]):
                         for num in data[lang(cid)][x]['skins']:
                             if num['num'] == int(separe[1]):
-                                # try:
-                                #     botan.track(
-                                #         botan_token,
-                                #         cid,
-                                #         to_json(m),
-                                #         "SKIN: " + no_namebot[0].lower()
-                                #     )
-                                # except:
-                                #     pass
                                 try:
                                     send_udp('get_skin')
                                 except Exception as e:
@@ -178,28 +136,16 @@ def process_msg(m):
                                     bot.send_photo(
                                         cid, file_ids[
                                             no_namebot[0].lower()], caption=num['name'])
-                                    #bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + num['name'])
                                 except:
                                     bot.send_chat_action(cid, 'typing')
                                     bot.send_message(
                                         cid, responses['champ_error'][lang(cid)])
-                        # if len(data[lang(cid)][x]['skins']) > int(separe[1]):
-                            # Poner bot.send_photo( cid, file_ids[no_namebot[0].lower()], caption=data[lang(cid)][x]['skins'][int(separe[1])]['name'])
-                            # try:
-                                #bot.send_message( cid, file_ids[no_namebot[0].lower()] + '\n\n' + data[lang(cid)][x]['skins'][int(separe[1])]['name'])
-                            # except:
-                                #bot.send_message( cid, responses['champ_error'][lang(cid)])
                     elif separe[1].lower() == 'extra':
                         txt += champ_info(data[lang(cid)][x], cid)
-                    # else:
-                        # Mensaje de error ¿?
-                        #txt += 'Error, prueba con /' + data[lang(cid)][x]['name'] + ' para ver info básica del campeón, /' + data[lang(cid)][x]['name'] + '_X para ver la skin número X de ' + data[lang(cid)][x]['name'] + ' o /' + data[lang(cid)][x]['name'] + '_extra para ver información detallada.'
                     break
         if txt:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(cid, txt, parse_mode="Markdown")
-    # else:
-        #bot.send_message( cid, responses['not_user'])
 
 
 @bot.inline_handler(lambda query: query.query.startswith('c ') and len(query.query.split()) == 2)

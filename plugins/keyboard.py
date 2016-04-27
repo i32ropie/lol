@@ -107,15 +107,6 @@ markups = {
 def command_help(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/keyboard"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('keyboard')
     except Exception as e:
@@ -156,15 +147,6 @@ def command_help(m):
 def command_hideboard(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/hideboard"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('hideboard')
     except Exception as e:

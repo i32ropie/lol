@@ -30,15 +30,6 @@ def command_start(m):
             bot.reply_to(m, responses['banned'])
         return None
     if not is_user(cid):
-        # try:
-        #     botan.track(
-        #         botan_token,
-        #         cid,
-        #         to_json(m),
-        #         "/start"
-        #     )
-        # except:
-        #     pass
         try:
             send_udp('start')
         except Exception as e:

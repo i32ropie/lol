@@ -10,7 +10,6 @@ from colorclass import Color
 import json
 import time
 import six
-import botan
 import sys
 import traceback
 import re
@@ -27,7 +26,6 @@ with open('extra_data/extra.json', 'r') as f:
 
 bot = telebot.TeleBot(extra['token'])
 logBot = telebot.TeleBot(extra['token_logbot'])
-botan_token = extra['botan_token']
 lol_api = RiotWatcher(extra['lol_api'])
 admins = extra['admins']
 sock = socket.socket(socket.AF_INET,

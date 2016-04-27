@@ -10,15 +10,6 @@ print(Color(
 def command_cancel(m):
     cid = m.chat.id
     uid = m.from_user.id
-    # try:
-    #     botan.track(
-    #         botan_token,
-    #         cid,
-    #         to_json(m),
-    #         "/cancel"
-    #     )
-    # except:
-    #     pass
     try:
         send_udp('cancel')
     except Exception as e:
