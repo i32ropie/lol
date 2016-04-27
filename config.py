@@ -35,8 +35,6 @@ UDP_IP = extra['udp_ip']
 UDP_PORT = extra['udp_port']
 
 easter_eggs = {
-    "edu": "`smellz`",
-    "raina": "🌧🌧🌧",
     "rapsodas": "rapsidas",
     "alin": "nigro",
     "abu": "matas",
@@ -46,6 +44,7 @@ easter_eggs = {
     "lomavid": "Best streamer EUW: http://www.twitch.tv/lomavid",
     "lomadien": "Best streamer EUW: http://www.twitch.tv/lomavid",
     "mega": "flipetis",
+    "vikked": "p̄̄u͑͑t̽̽o̾̾ ̽̽҉҉rͤͤa̒̒n͂͂dͫͫoͥͥm̾̾ ヽ༼ຈل͜ຈ༽ﾉ"
     "putaama": "xeha",
     "xeha": "putaama",
     "zewi": "Fanático de lo sensual",
