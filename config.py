@@ -44,7 +44,7 @@ easter_eggs = {
     "lomavid": "Best streamer EUW: http://www.twitch.tv/lomavid",
     "lomadien": "Best streamer EUW: http://www.twitch.tv/lomavid",
     "mega": "flipetis",
-    "vikked": "p̄̄u͑͑t̽̽o̾̾ ̽̽҉҉rͤͤa̒̒n͂͂dͫͫoͥͥm̾̾ ヽ༼ຈل͜ຈ༽ﾉ",
+    "vikked": "pͪͪuͮͮt̐̐ő̋ ̞͆r̉̉a̓̓n̒̒d͛͛o̍̍m͔͐ ヽ༼ຈل͜ຈ༽ﾉ",
     "putaama": "xeha",
     "xeha": "putaama",
     "zewi": "Fanático de lo sensual",
