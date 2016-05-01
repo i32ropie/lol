@@ -69,7 +69,6 @@ def listener(messages):
             else:
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(
                     m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(uid) + "][" + str(cid) + "]: " + m.text + "\n"
-            log(cid, log_line)
             if extra["log"]:
                 try:
                     logBot.send_message(52033876, log_line)

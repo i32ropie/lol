@@ -275,7 +275,7 @@
             "rate":"Bewerte diesen Bot :)",
             "summoner":"Zeigt Informationen, um nach Beschwörern zu suchen.",
             "match":"Zeigt Informationen, um nach Spielen zu suchen.",
-            "inline":""
+            "inline":"Zeigt Hilfe für die Inline Benutzung des Bots an."
         },
         "pt":{
             "notify":"Habilita ou desabilita as notificações.",
@@ -321,7 +321,7 @@
             "rate":"Noter le bot :)",
             "summoner":"Affiche les infos pour rechercher un invocateur.",
             "match":"Affiche les infos pour rechercher une partie.",
-            "inline":""
+            "inline":"Montre l'aide pour l'utilisation en ligne du bot."
         },
         "fa":{
             "notify":"روشن و خاموش کردن دریافت پیام ها",
@@ -344,7 +344,7 @@
             "rate":"امتیاز دادن به بات :)",
             "summoner":"جستجو اطلاعات یک بازیکن",
             "match":"جستجو اطلاعات بازی یی که بازیکن در حال بازی است",
-            "inline":""
+            "inline":"نمایش راهنما برای استفاده از بات inline."
         },
         "pl":{
             "notify":"Aktywuj/Dezaktywuj notyfikacje.",
@@ -367,7 +367,7 @@
             "rate":"Oceń bota :)",
             "summoner":"Pokazuje informacje do wyszukiwania przywoływaczy.",
             "match":"Pokazuje informacje do wyszukiwania meczy.",
-            "inline":""
+            "inline":"Pokazuje pomoc o komendach inline dla bota."
         },
         "th":{
             "notify":"",
@@ -1653,11 +1653,11 @@
         "es":"El bot dispone de los siguientes comandos inline:",
         "en":"The bot has the following inline commands:",
         "it":"",
-        "de":"",
+        "de":"Der Bot hat folgende Inline Befehle:",
         "pt":"O bot está aceitando os seguintes comandos inline:",
         "fr":"",
-        "fa":"",
-        "pl":"",
+        "fa":"دستورات قابل استفاده در بات inline:",
+        "pl":"Bot ma następujące komendy inline:",
         "th":"",
         "el":"",
         "ru":"Бот поддерживает инлайн команды:"
@@ -1688,12 +1688,12 @@
             "#region":""
         },
         "de":{
-            "help":"",
-            "s":"",
-            "c":"",
-            "#c":"",
-            "region":"",
-            "#region":""
+            "help":" `- Zeigt die Hilfe an.",
+            "s":" <champion> `- Zeigt die Champion Skins.",
+            "c":" <champion> `- Zeigt Informationen über den Champion an.",
+            "#c":" <champion> `- Zeigt extra Informationen über den Champion an.",
+            "region":" <summoner> `- Zeigt Informationen über den Beschwörer in der Region an.",
+            "#region":" <summoner> `- Zeigt Informationen über das derzeitige Match des Beschwörer in der Region."
         },
         "pt":{
             "help":" `- Mostra esta ajuda.",
@@ -1712,20 +1712,20 @@
             "#region":""
         },
         "fa":{
-            "help":"",
-            "s":"",
-            "c":"",
-            "#c":"",
-            "region":"",
-            "#region":""
+            "help":" `- نمایش این راهنما.",
+            "s":" <champion> `- نمایش اسکین چمپیون ها.",
+            "c":" <champion> `- نمایش خصوصیات چمپیون.",
+            "#c":" <champion> `- نمایش توضیحات بیشتر درباره خصوصیات چمپیون.",
+            "region":" <summoner> `- نمایش اطلاعات اکانت بازیکن.",
+            "#region":" <summoner> `- نمایش اطلاعات بازی یی که بازیکن در حال انجام است ."
         },
         "pl":{
-            "help":"",
-            "s":"",
-            "c":"",
-            "#c":"",
-            "region":"",
-            "#region":""
+            "help":" `- Pokazuje tą pomoc.",
+            "s":" <champion> `- Pokazuje skiny bohaterów.",
+            "c":" <champion> `- Pokazuje informacje o bohaterze.",
+            "#c":" <champion> `- Pokazuje dodatkowe informacje o bohaterze.",
+            "region":" <summoner> `- Pokazuje informacje o przywoływaczu w danym regionie.",
+            "#region":" <summoner> `- Pokazuje informacje o aktualnym meczu danego przywoływacza w danym regionie."
         },
         "th":{
             "help":"",

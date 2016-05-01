@@ -86,12 +86,6 @@ def lang(uid):
         return 'en'
 
 
-def log(cid, msg):
-    """ Función que guarda un mensaje en el archivo de log """
-    with open('logs/log.' + str(cid) + '.txt', 'a') as f:
-        f.write(msg)
-
-
 def is_banned(uid):
     if is_user(uid):
         return db.usuarios.find_one(str(uid))['banned']
