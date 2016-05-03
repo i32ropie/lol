@@ -29,7 +29,7 @@ languages = {
     func=lambda msg: next_step_handler(msg.chat.id) == 'start')
 def step_start(m):
     cid = m.chat.id
-    if m.content_type == 'text':
+    if m.content_type == 'text' and not db.usuarios.find_one(str(cid)):
         if m.text in languages:
             db.usuarios.insert({
                 "_id": str(cid),
