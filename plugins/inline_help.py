@@ -19,4 +19,4 @@ def query_help(q):
                 types.InputTextMessageContent(txt, parse_mode="Markdown"),
                 description=responses['help_2'][lang(cid)]['inline'],
                 thumb_url='http://i.imgur.com/IRTLKz4.jpg')
-        bot.answer_inline_query(q.id, [aux])
+        bot.answer_inline_query(q.id, [aux], cache_time=0)

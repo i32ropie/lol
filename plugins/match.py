@@ -146,14 +146,14 @@ def query_summoner(q):
                     thumb_url = 'http://i.imgur.com/IRTLKz4.jpg')
                 to_send.append(aux)
         if to_send:
-            bot.answer_inline_query(q.id, to_send)
+            bot.answer_inline_query(q.id, to_send, cache_time)
         else:
             aux = types.InlineQueryResultArticle("1",
                 responses['inline_me_error_ttl_2'][lang(cid)],
                 types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown" ),
                 description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
                 thumb_url='http://i.imgur.com/IRTLKz4.jpg')
-            bot.answer_inline_query(q.id, [aux])
+            bot.answer_inline_query(q.id, [aux], cache_time=0)
 
 def get_match_info(invocador, region, cid, inline=False):
     azul = {}

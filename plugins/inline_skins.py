@@ -39,6 +39,6 @@ def query_skins(q):
                             caption=i['name'])
                         to_send.append(aux)
             if to_send:
-                bot.answer_inline_query(q.id, to_send)
+                bot.answer_inline_query(q.id, to_send, cache_time=0)
         except:
             pass
