@@ -18,7 +18,7 @@ def command_update_champs_1(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        bot.send_message(
+        msg = bot.send_message(
             cid, "Descargando nuevas bases de datos de campeones:\n`-Español`\n`-Inglés`\n`-Italiano`\n`-Alemán`\n`-Francés`", parse_mode="Markdown")
         try:
             aux = {
@@ -48,20 +48,26 @@ def command_update_champs_1(m):
                     champ_data=['all'],
                     data_by_id=False)['data']}
         except:
-            bot.send_message(cid, "Error descargando nuevas bases de datos.")
+            # bot.send_message(cid, "Error descargando nuevas bases de datos.")
+            bot.edit_message_text("Error descargando nuevas bases de datos.", cid, msg.message_id)
             return
-        bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
-        bot.send_message(cid, "Actualizando archivos...")
+        # bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
+        bot.edit_message_text("Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", cid, msg.message_id, parse_mode="Markdown")
+        # bot.send_message(cid, "Actualizando archivos...")
+        bot.edit_message_text("Actualizando archivos...", cid, msg.message_id)
         try:
             for x in aux:
                 with open(x, 'w') as f:
                     json.dump(aux[x], f)
         except:
-            bot.send_message(cid, "Error actualizando archivos.")
+            # bot.send_message(cid, "Error actualizando archivos.")
+            bot.edit_message_text("Error actualizando archivos.", cid, msg.message_id)
             return
 
-        bot.send_message(cid, "Archivos actualizados correctamente.")
-        bot.send_message(cid, "Reiniciando bot...")
+        # bot.send_message(cid, "Archivos actualizados correctamente.")
+        bot.edit_message_text("Archivos actualizados correctamente.", cid, msg.message_id)
+        # bot.send_message(cid, "Reiniciando bot...")
+        bot.edit_message_text("Reiniciando bot...", cid, msg.message_id)
         exit()
 
 @bot.message_handler(commands=['update_champs_2'])
@@ -75,7 +81,7 @@ def command_update_champs_2(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        bot.send_message(
+        msg = bot.send_message(
             cid, "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`-Tailandés`", parse_mode="Markdown")
         try:
             aux = {
@@ -105,18 +111,24 @@ def command_update_champs_2(m):
                     champ_data=['all'],
                     data_by_id=False)['data']}
         except:
-            bot.send_message(cid, "Error descargando nuevas bases de datos.")
+            # bot.send_message(cid, "Error descargando nuevas bases de datos.")
+            bot.edit_message_text("Error descargando nuevas bases de datos.", cid, msg.message_id)
             return
-        bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
-        bot.send_message(cid, "Actualizando archivos...")
+        # bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
+        bot.edit_message_text("Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", cid, msg.message_id, parse_mode="Markdown")
+        # bot.send_message(cid, "Actualizando archivos...")
+        bot.edit_message_text("Actualizando archivos...", cid, msg.message_id)
         try:
             for x in aux:
                 with open(x, 'w') as f:
                     json.dump(aux[x], f)
         except:
-            bot.send_message(cid, "Error actualizando archivos.")
+            # bot.send_message(cid, "Error actualizando archivos.")
+            bot.edit_message_text("Error actualizando archivos.", cid, msg.message_id)
             return
 
-        bot.send_message(cid, "Archivos actualizados correctamente.")
-        bot.send_message(cid, "Reiniciando bot...")
+        # bot.send_message(cid, "Archivos actualizados correctamente.")
+        bot.edit_message_text("Archivos actualizados correctamente.", cid, msg.message_id)
+        # bot.send_message(cid, "Reiniciando bot...")
+        bot.edit_message_text("Reiniciando bot...", cid, msg.message_id)
         exit()
