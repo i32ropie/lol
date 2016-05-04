@@ -173,7 +173,7 @@ def query_champ_basic(q):
                             thumb_url=thumb)
                     to_send.append(aux)
             if to_send:
-                bot.answer_inline_query(q.id, to_send, cache_time=0)
+                bot.answer_inline_query(q.id, to_send, cache_time=1)
         except:
             pass
 
@@ -202,7 +202,7 @@ def query_champ_extra(q):
                             thumb_url=thumb)
                     to_send.append(aux)
             if to_send:
-                bot.answer_inline_query(q.id, to_send, cache_time=0)
+                bot.answer_inline_query(q.id, to_send, cache_time=1)
         except:
             pass
 
