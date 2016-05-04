@@ -252,7 +252,7 @@
             "summoner":"Mostra informazione per la ricerca d'evocatori.",
             "match":"Mostra informazione per la ricerca di partite.",
             "rate":"Qualifica il bot :)",
-            "inline":""
+            "inline":"Mostra informazioni per l'uso inline del bot"
         },
         "de":{
             "notify":"Aktiviert/Deaktiviert die Benachrichtigungen.",
@@ -1652,7 +1652,7 @@
     "inline_help_1":{
         "es":"El bot dispone de los siguientes comandos inline:",
         "en":"The bot has the following inline commands:",
-        "it":"",
+        "it":"Il bot ha i seguenti comandi inline",
         "de":"Der Bot hat folgende Inline Befehle:",
         "pt":"O bot está aceitando os seguintes comandos inline:",
         "fr":"Le bot dispose des commandes alignées suivantes:",
@@ -1680,12 +1680,12 @@
             "#region":" <summoner> `- Shows info about the current match of a summoner in a region."
         },
         "it":{
-            "help":"",
-            "s":"",
-            "c":"",
-            "#c":"",
-            "region":"",
-            "#region":""
+            "help":" `- Mostra questo aiuto.",
+            "s":" <champion> `- Mostra gli aspetti del campione.",
+            "c":" <champion> `- Mostra informazioni riguardo il campione.",
+            "#c":" <champion> `- Mostra informazioni extra riguardo il campione.",
+            "region":" <summoner> `- Mostra informazioni riguardo un evocatore in una regione.",
+            "#region":" <summoner> `- Mostra informazioni riguardo la partita corrente di un evocatore in una regione."
         },
         "de":{
             "help":" `- Zeigt die Hilfe an.",
