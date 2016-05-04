@@ -107,40 +107,40 @@ def summoner_info(m):
 @bot.inline_handler(lambda query: len(query.query.split()) > 1 and query.query.split()[0] in ['euw', 'eune', 'br', 'na', 'las', 'lan', 'kr', 'tr', 'ru', 'oce'])
 def query_summoner(q):
     cid = q.from_user.id
-    if is_beta(cid):
-        if is_banned(cid):
-            return None
-        invocador = q.query.split(None, 1)[1]
-        region = q.query.split()[0]
-        to_send=list()
-        try:
-            summoner = lol_api.get_summoner(name=invocador, region=region)
-        except:
-            pass
-        else:
-            lattest_version = lol_api.static_get_versions()[0]
-            icon_id = summoner['profileIconId']
-            icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(lattest_version, icon_id)
-            aux = types.InlineQueryResultArticle("1",
-                '['+region.upper()+'] '+summoner['name'],
-                types.InputTextMessageContent(
-                        get_summoner_info(
-                            invocador,
-                            region,
-                            cid), parse_mode="Markdown"),
-                thumb_url=icon_url,
-                description=responses['inline_summoner_d'][lang(cid)].format(
-                            summoner['name']))
-            to_send.append(aux)
-        if to_send:
-            bot.answer_inline_query(q.id, to_send, cache_time=1)
-        else:
-            aux = types.InlineQueryResultArticle("1",
-                responses['inline_me_error_ttl_2'][lang(cid)],
-                types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown" ),
-                description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
-                thumb_url='http://i.imgur.com/IRTLKz4.jpg')
-            bot.answer_inline_query(q.id, [aux], cache_time=1)
+    # if is_beta(cid):
+    if is_banned(cid):
+        return None
+    invocador = q.query.split(None, 1)[1]
+    region = q.query.split()[0]
+    to_send=list()
+    try:
+        summoner = lol_api.get_summoner(name=invocador, region=region)
+    except:
+        pass
+    else:
+        lattest_version = lol_api.static_get_versions()[0]
+        icon_id = summoner['profileIconId']
+        icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(lattest_version, icon_id)
+        aux = types.InlineQueryResultArticle("1",
+            '['+region.upper()+'] '+summoner['name'],
+            types.InputTextMessageContent(
+                    get_summoner_info(
+                        invocador,
+                        region,
+                        cid), parse_mode="Markdown"),
+            thumb_url=icon_url,
+            description=responses['inline_summoner_d'][lang(cid)].format(
+                        summoner['name']))
+        to_send.append(aux)
+    if to_send:
+        bot.answer_inline_query(q.id, to_send, cache_time=1)
+    else:
+        aux = types.InlineQueryResultArticle("1",
+            responses['inline_me_error_ttl_2'][lang(cid)],
+            types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown" ),
+            description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
+            thumb_url='http://i.imgur.com/IRTLKz4.jpg')
+        bot.answer_inline_query(q.id, [aux], cache_time=1)
 
 def get_summoner_info(invocador, region, cid):
     try:
