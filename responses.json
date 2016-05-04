@@ -1655,7 +1655,7 @@
         "it":"",
         "de":"Der Bot hat folgende Inline Befehle:",
         "pt":"O bot está aceitando os seguintes comandos inline:",
-        "fr":"",
+        "fr":"Le bot dispose des commandes alignées suivantes:",
         "fa":"دستورات قابل استفاده در بات inline:",
         "pl":"Bot ma następujące komendy inline:",
         "th":"",
@@ -1704,12 +1704,12 @@
             "#region":" <summoner> `- Mostra informações sobre a partida atual do invocador em uma região."
         },
         "fr":{
-            "help":"",
-            "s":"",
-            "c":"",
-            "#c":"",
-            "region":"",
-            "#region":""
+            "help":" `- Montrer l'aide.",
+            "s":" <champion> `- Montrer les skins du champion.",
+            "c":" <champion> `- Montrer des infos à propos du champion.",
+            "#c":" <champion> `- Montrer de l'info supplémentaire à propos du champion.",
+            "region":" <summoner> `- Montrer des infos à propos de l'invocateur.",
+            "#region":" <summoner> `- Montrer l'information sur la partie en cours de l'invocateur dans une région."
         },
         "fa":{
             "help":" `- نمایش این راهنما.",
