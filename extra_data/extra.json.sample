@@ -4,7 +4,7 @@
     "token":"<TOKEN>",
     "token_logbot":"<TOKEN>",
     "lol_api":"<API_KEY>",
-    "botan_token":"<BOTAN_TOKEN>"
+    "botan_token":"<BOTAN_TOKEN>",
     "log":true,
     "admins":[
         0
