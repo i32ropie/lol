@@ -46,23 +46,24 @@ def listener(messages):
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         if m.content_type == 'text':
             if m.text.startswith('/'):
+                process_msg(m)
                 try:
                     send_udp('command')
                 except Exception as e:
                     bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-            if m.text.lower() in easter_eggs:
-                try:
-                    send_udp('easteregg')
-                except Exception as e:
-                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-                bot.send_message(
-                    cid,
-                    easter_eggs[
-                        m.text.lower()],
-                    reply_to_message_id=m.message_id,
-                    parse_mode="Markdown")
-            if m.text.startswith('/'):
-                process_msg(m)
+            # if m.text.lower() in easter_eggs:
+            #     try:
+            #         send_udp('easteregg')
+            #     except Exception as e:
+            #         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            #     bot.send_message(
+            #         cid,
+            #         easter_eggs[
+            #             m.text.lower()],
+            #         reply_to_message_id=m.message_id,
+            #         parse_mode="Markdown")
+            # if m.text.startswith('/'):
+            #     process_msg(m)
             if cid > 0:
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(
                     m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(cid) + "]: " + m.text + "\n"
@@ -74,15 +75,15 @@ def listener(messages):
                     logBot.send_message(52033876, log_line)
                 except:
                     pass
-        elif m.content_type in content_types:
-            if extra["log"]:
-                try:
-                    logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(
-                        m.message_id) + "\nNombre: " + str(m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
-                    bot.forward_message(-1001011373048,
-                                        m.chat.id, m.message_id)
-                except Exception as e:
-                    pass
+        # elif m.content_type in content_types:
+        #     if extra["log"]:
+        #         try:
+        #             logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(
+        #                 m.message_id) + "\nNombre: " + str(m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
+        #             bot.forward_message(-1001011373048,
+        #                                 m.chat.id, m.message_id)
+        #         except Exception as e:
+        #             pass
 
 bot.set_update_listener(listener)
 
