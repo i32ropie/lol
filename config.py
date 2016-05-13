@@ -134,13 +134,14 @@ def contact_format(m):
     alias = str(m.from_user.username)
     cid = str(m.chat.id)
     uid = str(m.from_user.id)
+    m_id = str(m.message_id)
     msg = m.text
     if cid == uid:
-        txt = "*Nuevo mensaje\n\nNombre*: _" + escape_markup(name) + "_\n*Alias*: _@" + alias + "_\n*Idioma*: _" + lang(
-            cid) + "_\n*ID*: _" + cid + "_\n\n*Mensaje*: _" + escape_markup(msg) + "_"
+        txt = "Nuevo mensaje\n\nNombre: " + name + "\nAlias: @" + alias + "\nIdioma: " + lang(
+            cid) + "\nM_ID: " + m_id + "\nID: " + cid + "\n\nMensaje: " + msg
     else:
-        txt = "*Nuevo mensaje\n\nNombre*: _" + escape_markup(name) + "_\n*Alias*: _@" + alias + "_\n*Idioma*: _" + lang(
-            cid) + "_\n*ID*: _" + cid + "_\n*UID*: _" + uid + "_\n\n*Mensaje*: _" + escape_markup(msg) + "_"
+        txt = "Nuevo mensaje\n\nNombre: " + name + "\nAlias: @" + alias + "\nIdioma: " + lang(
+            cid) + "\nM_ID: " + m_id + "\nID: " + cid + "\nUID: " + uid + "\n\nMensaje: " + msg
     return txt
 
 with open('extra_data/file_ids.json', 'r') as f:
