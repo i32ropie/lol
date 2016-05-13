@@ -15,7 +15,7 @@ def command_COMANDO(m):
     except Exception as e:
         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(cid):
-        answer = m.text.split(None,1)
+        answer = m.text.split(None,1)[1]
         parse_mode = "Markdown" if answer.startswith('!') else None
         m_text = m.reply_to_message.text.split('\n')
         m_id = m_text[5].split(': ')[1]
