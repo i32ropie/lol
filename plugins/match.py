@@ -194,11 +194,17 @@ def get_match_info(invocador, region, cid, inline=False):
         return 'match_error'
     for jugadores in partida['participants']:
         if jugadores['teamId'] == 100:
-            azul[str(jugadores['summonerName'])] = str(
-                campeones[str(jugadores['championId'])]['name'])
+            try:
+                azul[str(jugadores['summonerName'])] = str(
+                    campeones[str(jugadores['championId'])]['name'])
+            except:
+                azul[str(jugadores['summonerName'])] = 'Taliyah'
         else:
-            rojo[str(jugadores['summonerName'])] = str(
-                campeones[str(jugadores['championId'])]['name'])
+            try:
+                rojo[str(jugadores['summonerName'])] = str(
+                    campeones[str(jugadores['championId'])]['name'])
+            except:
+                rojo[str(jugadores['summonerName'])] = 'Taliyah'
     txt += responses['match_blue'][lang(cid)] % (partida['gameMode'])
     for a, b in azul.items():
         txt += '\n\n' + get_summoner_info_2(
