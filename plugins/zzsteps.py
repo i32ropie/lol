@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from config import *
+from keyboard import markups
 
 print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  steps.py importado.{/cyan}'))
@@ -56,9 +57,9 @@ def step_start(m):
                              "\nIdioma: " +
                              str(lang(cid)))
         bot.send_chat_action(cid, 'typing')
-        bot.send_message(
-            cid, responses['start_2'][
-                lang(cid)], reply_markup=hideBoard)
+            bot.send_message(
+                cid, responses['start_2'][
+                    lang(cid)], reply_markup=hideBoard if cid < 0 else markups[lang(cid)])
         userStep[cid] = 0
 
 
