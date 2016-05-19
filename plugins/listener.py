@@ -228,16 +228,16 @@ def champ_basic(chmp, cid, inline=False):
             txt += ', '
         i += 1
     # Descripción
-    if not is_beta(cid):
-        if lang(cid) != 'fa':
-            txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
-                cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
-        else:
-            txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
-                cid)] + '](http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/' + key.lower() + '/)'
+    # if not is_beta(cid):
+    #     if lang(cid) != 'fa':
+    #         txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
+    #             cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
+    #     else:
+    #         txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
+    #             cid)] + '](http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/' + key.lower() + '/)'
     # Descripción
-    else:
-        txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '/' + key + '\_lore'
+    # else:
+    txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '/' + key + '\_lore'
     # Skins
     txt += '\n\n*Skins:*'
     for skin in chmp['skins']:
