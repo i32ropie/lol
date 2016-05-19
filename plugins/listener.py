@@ -237,7 +237,7 @@ def champ_basic(chmp, cid, inline=False):
                 cid)] + '](http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/' + key.lower() + '/)'
     # Descripción
     else:
-        txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '/' + key + '_lore'
+        txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '/' + key + '\_lore'
     # Skins
     txt += '\n\n*Skins:*'
     for skin in chmp['skins']:
