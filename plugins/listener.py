@@ -142,6 +142,8 @@ def process_msg(m):
                                         cid, responses['champ_error'][lang(cid)])
                     elif separe[1].lower() == 'extra':
                         txt += champ_info(data[lang(cid)][x], cid)
+                    elif separe[1].lower() == 'lore' and is_beta(uid):
+                        txt += champ_lore(data[lang(cid)][x], cid)
                     break
         if txt:
             bot.send_chat_action(cid, 'typing')
@@ -327,3 +329,6 @@ def format_spell(s):
                 except Exception as e:
                     bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return tooltip
+
+def champ_lore(chmp, cid):
+    return remove_tag(chmp['lore'].replace('<br>', '\n'))
