@@ -161,6 +161,7 @@ def get_summoner_info(invocador, region, cid):
             summoner_id, region=region, season=None)
     except:
         txt = "Error with RIOT servers :("
+        bot.send_message(52033876, "Error obteniendo información de <{}> en <{}>".format(summoner_name, region))
         return txt
     if 'playerStatSummaries' in partidas:
         for data in partidas['playerStatSummaries']:
