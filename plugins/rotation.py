@@ -11,7 +11,7 @@ print(Color(
         'ROTAÇÃO',
         'ROTACJA',
         'ФРИПИК',
-        'ROTACION',
+        'ROTACIÓN',
         'ROTATION',
         'ROTAZIONE'])
 @bot.message_handler(commands=['rotation'])
