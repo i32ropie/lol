@@ -28,6 +28,7 @@ bot = telebot.TeleBot(extra['token'])
 logBot = telebot.TeleBot(extra['token_logbot'])
 lol_api = RiotWatcher(extra['lol_api'])
 admins = extra['admins']
+filtered = list()
 sock = socket.socket(socket.AF_INET,
              socket.SOCK_DGRAM)
 MESSAGE = extra['udp_message']

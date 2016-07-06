@@ -51,39 +51,19 @@ def listener(messages):
                     send_udp('command')
                 except Exception as e:
                     bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-            # if m.text.lower() in easter_eggs:
-            #     try:
-            #         send_udp('easteregg')
-            #     except Exception as e:
-            #         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-            #     bot.send_message(
-            #         cid,
-            #         easter_eggs[
-            #             m.text.lower()],
-            #         reply_to_message_id=m.message_id,
-            #         parse_mode="Markdown")
-            # if m.text.startswith('/'):
-            #     process_msg(m)
             if cid > 0:
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(
                     m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(cid) + "]: " + m.text + "\n"
             else:
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(
                     m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(uid) + "][" + str(cid) + "]: " + m.text + "\n"
-            if extra["log"]:
+            if cid in filtered:
+                bot.send_message(52033876, log_line)
+            elif extra["log"]:
                 try:
                     logBot.send_message(52033876, log_line)
                 except:
                     pass
-        # elif m.content_type in content_types:
-        #     if extra["log"]:
-        #         try:
-        #             logBot.send_message(-1001011373048, "Chat ID: " + str(m.chat.id) + "\nUser ID: " + str(m.from_user.id) + "\nMensaje ID: " + str(
-        #                 m.message_id) + "\nNombre: " + str(m.from_user.first_name) + "\nAlias: @" + str(m.from_user.username) + "\nTipo de archivo: " + str(m.content_type))
-        #             bot.forward_message(-1001011373048,
-        #                                 m.chat.id, m.message_id)
-        #         except Exception as e:
-        #             pass
 
 bot.set_update_listener(listener)
 
@@ -153,7 +133,6 @@ def process_msg(m):
 @bot.inline_handler(lambda query: query.query.startswith('c ') and len(query.query.split()) == 2)
 def query_champ_basic(q):
     cid = q.from_user.id
-    # if is_beta(cid):
     if is_banned(cid):
         return None
     try:
@@ -184,7 +163,6 @@ def query_champ_basic(q):
 @bot.inline_handler(lambda query: query.query.startswith('#c ') and len(query.query.split()) == 2)
 def query_champ_extra(q):
     cid = q.from_user.id
-    # if is_beta(cid):
     try:
         to_send=list()
         c_name=q.query.split()[1].lower()
@@ -228,15 +206,6 @@ def champ_basic(chmp, cid, inline=False):
             txt += ', '
         i += 1
     # Descripción
-    # if not is_beta(cid):
-    #     if lang(cid) != 'fa':
-    #         txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
-    #             cid)] + '](http://gameinfo.euw.leagueoflegends.com/' + lang(cid) + '/game-info/champions/' + key.lower() + '/)'
-    #     else:
-    #         txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '[' + responses['continue'][lang(
-    #             cid)] + '](http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/' + key.lower() + '/)'
-    # Descripción
-    # else:
     txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '/' + key + '\_lore'
     # Skins
     txt += '\n\n*Skins:*'
