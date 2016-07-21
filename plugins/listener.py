@@ -220,7 +220,7 @@ def champ_basic(chmp, cid, inline=False):
         try:
             r = requests.get('http://www.championselect.net/champions/' + key.lower())
         except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            return bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         if r.status_code == 200:
             try:
                 soup = BeautifulSoup(r.text, 'html.parser')
