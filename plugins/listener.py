@@ -216,21 +216,21 @@ def champ_basic(chmp, cid, inline=False):
                     str(skin['num']) + ': ' + skin['name']
             else:
                 txt += '\n  • ' + skin['name']
-    if not inline:
-        try:
-            r = requests.get('http://www.championselect.net/champions/' + key.lower())
-        except Exception as e:
-            return bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-        if r.status_code == 200:
-            try:
-                soup = BeautifulSoup(r.text, 'html.parser')
-                weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
-                strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
-                txt += '\n\n' + responses['warning'][lang(cid)]
-                txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
-                txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
-            except Exception as e:
-                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    # if not inline:
+    #     try:
+    #         r = requests.get('http://www.championselect.net/champions/' + key.lower())
+    #     except Exception as e:
+    #         return bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    #     if r.status_code == 200:
+    #         try:
+    #             soup = BeautifulSoup(r.text, 'html.parser')
+    #             weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
+    #             strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
+    #             txt += '\n\n' + responses['warning'][lang(cid)]
+    #             txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
+    #             txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
+    #         except Exception as e:
+    #             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     if not inline:
         txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
