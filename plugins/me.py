@@ -21,6 +21,7 @@ platform = {
     "oce": "OC1"
 }
 
+
 @bot.message_handler(commands=['me'])
 def command_m(m):
     cid = m.chat.id
@@ -55,6 +56,7 @@ def command_m(m):
     else:
         bot.send_message(cid, responses['not_user'])
 
+
 def get_summoner_info(invocador, region, cid):
     try:
         summoner = lol_api.get_summoner(name=invocador, region=region)
@@ -87,11 +89,11 @@ def get_summoner_info(invocador, region, cid):
             elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
                 arams = data
                 winsA = str(arams['wins'])
-    if not 'wins5' in locals():
+    if 'wins5' not in locals():
         wins5 = '-'
-    if not 'wins3' in locals():
+    if 'wins3' not in locals():
         wins3 = '-'
-    if not 'winsA' in locals():
+    if 'winsA' not in locals():
         winsA = '-'
     if summoner_level == 30:
         try:
@@ -150,19 +152,20 @@ def get_summoner_info(invocador, region, cid):
             icon_url, summoner_name, lolking, summoner_level, wins5, wins3, winsA)
     if is_beta(cid):
         try:
-            bst = get_3_best_champs(summoner['id'],region,cid)
+            bst = get_3_best_champs(summoner['id'], region, cid)
             if bst:
                 txt += '\n\nBest champions:'
-                for x,y in bst.items():
+                for x, y in bst.items():
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
 
+
 def get_3_best_champs(summonerId, region, cid):
-    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(region.lower(),platform[region],summonerId)
+    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(region.lower(), platform[region], summonerId)
     params = {
-        "api_key":extra['lol_api']
+        "api_key": extra['lol_api']
     }
     jstr = requests.get(
         url=url,
@@ -171,4 +174,4 @@ def get_3_best_champs(summonerId, region, cid):
     if jstr.status_code != 200:
         return None
     else:
-        return OrderedDict([(data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'],str(x['championLevel'])) for x in json.loads(jstr.text)])
+        return OrderedDict([(data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'], str(x['championLevel'])) for x in json.loads(jstr.text)])

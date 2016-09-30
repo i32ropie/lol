@@ -22,8 +22,8 @@ def query_skins(q):
     if is_banned(cid):
         return None
     try:
-        to_send=list()
-        c_name=q.query.split()[1].lower()
+        to_send = list()
+        c_name = q.query.split()[1].lower()
 
         if c_name == 'wukong':
             c_name = 'monkeyking'
@@ -31,7 +31,7 @@ def query_skins(q):
             c_name = 'wukong'
         for x in data[lang(cid)]:
             if c_name == data[lang(cid)][x]['key'].lower():
-                champ=data[lang(cid)][x]
+                champ = data[lang(cid)][x]
                 for i in champ['skins']:
                     aux = types.InlineQueryResultPhoto(str(champ['skins'].index(i)),
                         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',

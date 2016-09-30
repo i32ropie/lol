@@ -6,7 +6,6 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  update_champs.py importado.{/cyan}'))
 
 
-
 @bot.message_handler(commands=['update_champs_1'])
 def command_update_champs_1(m):
     cid = m.chat.id
@@ -70,6 +69,7 @@ def command_update_champs_1(m):
         bot.edit_message_text("Reiniciando bot...", cid, msg.message_id)
         exit()
 
+
 @bot.message_handler(commands=['update_champs_2'])
 def command_update_champs_2(m):
     cid = m.chat.id
@@ -131,4 +131,27 @@ def command_update_champs_2(m):
         bot.edit_message_text("Archivos actualizados correctamente.", cid, msg.message_id)
         # bot.send_message(cid, "Reiniciando bot...")
         bot.edit_message_text("Reiniciando bot...", cid, msg.message_id)
+        exit()
+
+
+@bot.message_handler(commands=['update_champs_keys'])
+def command_update_champs_keys(m):
+    cid = m.chat.id
+    uid = m.from_user.id
+    try:
+        send_udp('update_champs_2')
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    if not is_recent(m):
+        return None
+    if is_admin(uid):
+        msg = bot.send_message(cid, "Actualizando fichero `champs_keys.json` ...", parse_mode="Markdown")
+        try:
+            req = lol_api.static_get_champion_list(data_by_id=True)[['data']]
+        except:
+            bot.edit_message_text("Error descargando el fichero.", cid, msg.message_id)
+            return
+        with open('champs_keys.json', 'w') as f:
+            json.dump(req, f)
+        bot.edit_message_text("Éxito. Reiniciando bot...", cid, msg.message_id)
         exit()

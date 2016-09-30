@@ -29,8 +29,7 @@ logBot = telebot.TeleBot(extra['token_logbot'])
 lol_api = RiotWatcher(extra['lol_api'])
 admins = extra['admins']
 filtered = list()
-sock = socket.socket(socket.AF_INET,
-             socket.SOCK_DGRAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 MESSAGE = extra['udp_message']
 UDP_IP = extra['udp_ip']
 UDP_PORT = extra['udp_port']
@@ -100,7 +99,7 @@ def is_beta(uid):
 
 
 def is_user(cid):
-    return db.usuarios.find_one(str(cid)) != None
+    return db.usuarios.find_one(str(cid)) is not None
 
 
 def is_admin(cid):
@@ -150,7 +149,7 @@ with open('extra_data/file_ids.json', 'r') as f:
 
 data = dict()
 
-for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt','ru','el','th']:
+for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt', 'ru', 'el', 'th']:
     with open('champs_%s.json' % x, 'r') as f:
         data[x] = json.load(f)
 
@@ -160,11 +159,13 @@ with open('champs_en.json', 'r') as f:
 with open('champs_keys.json', 'r') as f:
     data['keys'] = json.load(f)
 
+
 def line(alt=False):
     if alt:
         return u'\n—————————————————————————\n'
     else:
         return u'\n`—————————————————————————`\n'
+
 
 def send_exception(exception):
     exc_type, exc_obj, exc_tb = sys.exc_info()
@@ -176,6 +177,7 @@ def send_exception(exception):
         for val in row:
             message += '`' + str(val) + '`\n'
     return message
+
 
 def to_json(m):
     d = {}

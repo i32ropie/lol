@@ -108,6 +108,7 @@ def match_info(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
 
+
 @bot.inline_handler(lambda query: len(query.query.split()) > 1 and query.query.split()[0] in ['#euw', '#eune', '#br', '#na', '#las', '#lan', '#kr', '#tr', '#ru', '#oce'])
 def query_summoner(q):
     cid = q.from_user.id
@@ -116,7 +117,7 @@ def query_summoner(q):
         return None
     invocador = q.query.split(None, 1)[1]
     region = q.query.split()[0].strip('#')
-    to_send=list()
+    to_send = list()
     try:
         summoner = lol_api.get_summoner(name=invocador, region=region)
     except:
@@ -142,18 +143,19 @@ def query_summoner(q):
                 types.InputTextMessageContent(
                         responses['match_error'][lang(cid)] % (summoner['name']),
                         parse_mode="Markdown"),
-                description = responses['match_error'][lang(cid)] % (summoner['name']),
-                thumb_url = 'http://i.imgur.com/IRTLKz4.jpg')
+                description=responses['match_error'][lang(cid)] % (summoner['name']),
+                thumb_url='http://i.imgur.com/IRTLKz4.jpg')
             to_send.append(aux)
     if to_send:
         bot.answer_inline_query(q.id, to_send, cache_time=1)
     else:
         aux = types.InlineQueryResultArticle("1",
             responses['inline_me_error_ttl_2'][lang(cid)],
-            types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown" ),
+            types.InputTextMessageContent(responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown"),
             description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
             thumb_url='http://i.imgur.com/IRTLKz4.jpg')
         bot.answer_inline_query(q.id, [aux], cache_time=1)
+
 
 def get_match_info(invocador, region, cid, inline=False):
     azul = {}
@@ -226,6 +228,7 @@ def get_match_info(invocador, region, cid, inline=False):
     else:
         bot.send_message(cid, txt, parse_mode="Markdown", disable_web_page_preview=True)
 
+
 def get_summoner_info_2(invocador, region, champion, cid):
     try:
         summoner = lol_api.get_summoner(name=invocador, region=region)
@@ -269,8 +272,8 @@ def get_summoner_info_2(invocador, region, champion, cid):
             division = ''
             winrate = '-'
         txt = responses['summoner_30_2'][lang(cid)] % (
-            summoner_name, lolking,liga, division, winrate, champion)
+            summoner_name, lolking, liga, division, winrate, champion)
     else:
         txt = responses['summoner<30_2'][lang(cid)] % (
-            summoner_name, lolking,summoner_level, champion)
+            summoner_name, lolking, summoner_level, champion)
     return txt

@@ -6,7 +6,7 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  filter.py importado.{/cyan}'))
 
 
-@bot.message_handler(commands=['filter'], func=lambda m: m.content_type == 'text' and len(m.text.split()) == 2 and isint(m.text.split()[1]) )
+@bot.message_handler(commands=['filter'], func=lambda m: m.content_type == 'text' and len(m.text.split()) == 2 and isint(m.text.split()[1]))
 def command_COMANDO(m):
     cid = m.chat.id
     uid = m.from_user.id

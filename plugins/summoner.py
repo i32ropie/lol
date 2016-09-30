@@ -20,6 +20,7 @@ platform = {
     "oce": "OC1"
 }
 
+
 @bot.message_handler(
     func=lambda m: m.content_type == 'text' and m.text in [
         'PRZYWOŁYWACZ',
@@ -104,6 +105,7 @@ def summoner_info(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
 
+
 @bot.inline_handler(lambda query: len(query.query.split()) > 1 and query.query.split()[0] in ['euw', 'eune', 'br', 'na', 'las', 'lan', 'kr', 'tr', 'ru', 'oce'])
 def query_summoner(q):
     cid = q.from_user.id
@@ -112,7 +114,7 @@ def query_summoner(q):
         return None
     invocador = q.query.split(None, 1)[1]
     region = q.query.split()[0]
-    to_send=list()
+    to_send = list()
     try:
         summoner = lol_api.get_summoner(name=invocador, region=region)
     except:
@@ -137,10 +139,11 @@ def query_summoner(q):
     else:
         aux = types.InlineQueryResultArticle("1",
             responses['inline_me_error_ttl_2'][lang(cid)],
-            types.InputTextMessageContent( responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown" ),
+            types.InputTextMessageContent(responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown"),
             description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
             thumb_url='http://i.imgur.com/IRTLKz4.jpg')
         bot.answer_inline_query(q.id, [aux], cache_time=1)
+
 
 def get_summoner_info(invocador, region, cid):
     try:
@@ -174,11 +177,11 @@ def get_summoner_info(invocador, region, cid):
             elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
                 arams = data
                 winsA = str(arams['wins'])
-    if not 'wins5' in locals():
+    if 'wins5' not in locals():
         wins5 = '-'
-    if not 'wins3' in locals():
+    if 'wins3' not in locals():
         wins3 = '-'
-    if not 'winsA' in locals():
+    if 'winsA' not in locals():
         winsA = '-'
     if summoner_level == 30:
         try:
@@ -237,19 +240,20 @@ def get_summoner_info(invocador, region, cid):
             icon_url, summoner_name, lolking, summoner_level, wins5, wins3, winsA)
     if is_beta(cid):
         try:
-            bst = get_3_best_champs(summoner['id'],region,cid)
+            bst = get_3_best_champs(summoner['id'], region, cid)
             if bst:
                 txt += '\n\nBest champions:'
-                for x,y in bst.items():
+                for x, y in bst.items():
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
 
+
 def get_3_best_champs(summonerId, region, cid):
-    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(region.lower(),platform[region],summonerId)
+    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(region.lower(), platform[region], summonerId)
     params = {
-        "api_key":extra['lol_api']
+        "api_key": extra['lol_api']
     }
     jstr = requests.get(
         url=url,
@@ -258,4 +262,4 @@ def get_3_best_champs(summonerId, region, cid):
     if jstr.status_code != 200:
         return None
     else:
-        return OrderedDict([(data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'],str(x['championLevel'])) for x in json.loads(jstr.text)])
+        return OrderedDict([(data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'], str(x['championLevel'])) for x in json.loads(jstr.text)])

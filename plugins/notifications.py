@@ -37,16 +37,16 @@ def command_notify(m):
                 cid, responses['notifications_1'][
                     lang(cid)], parse_mode="Markdown")
             db.usuarios.update(
-                {"_id":str(cid)},
-                {"$set":{"notify": False}})
+                {"_id": str(cid)},
+                {"$set": {"notify": False}})
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['notifications_2'][
                     lang(cid)], parse_mode="Markdown")
             db.usuarios.update(
-                {"_id":str(cid)},
-                {"$set":{"notify": True}})
+                {"_id": str(cid)},
+                {"$set": {"notify": True}})
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])

@@ -34,6 +34,7 @@ content_types = [
     'video'
 ]
 
+
 def listener(messages):
     for m in messages:
         cid = m.chat.id
@@ -136,8 +137,8 @@ def query_champ_basic(q):
     if is_banned(cid):
         return None
     try:
-        to_send=list()
-        c_name=q.query.split()[1].lower()
+        to_send = list()
+        c_name = q.query.split()[1].lower()
         if c_name == 'wukong':
             c_name = 'monkeyking'
         elif c_name == 'monkeyking':
@@ -146,7 +147,7 @@ def query_champ_basic(q):
             if c_name == data[lang(cid)][x]['key'].lower():
                 champ = data[lang(cid)][x]
                 lattest_version = lol_api.static_get_versions()[0]
-                thumb='http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(lattest_version, champ['key'])
+                thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(lattest_version, champ['key'])
                 txt = champ_basic(data[lang(cid)][x], cid, inline=True)
                 aux = types.InlineQueryResultArticle("1",
                         champ['name'],
@@ -164,8 +165,8 @@ def query_champ_basic(q):
 def query_champ_extra(q):
     cid = q.from_user.id
     try:
-        to_send=list()
-        c_name=q.query.split()[1].lower()
+        to_send = list()
+        c_name = q.query.split()[1].lower()
         if c_name == 'wukong':
             c_name = 'monkeyking'
         elif c_name == 'monkeyking':
@@ -174,7 +175,7 @@ def query_champ_extra(q):
             if c_name == data[lang(cid)][x]['key'].lower():
                 champ = data[lang(cid)][x]
                 lattest_version = lol_api.static_get_versions()[0]
-                thumb='http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(lattest_version, champ['key'])
+                thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(lattest_version, champ['key'])
                 txt = champ_info(data[lang(cid)][x], cid)
                 aux = types.InlineQueryResultArticle("1",
                         champ['name'],
@@ -186,6 +187,7 @@ def query_champ_extra(q):
             bot.answer_inline_query(q.id, to_send, cache_time=1)
     except:
         pass
+
 
 def champ_basic(chmp, cid, inline=False):
     if chmp['key'] in backward:
@@ -292,16 +294,17 @@ def format_spell(s):
     tooltip = s['sanitizedTooltip']
     for x in effect:
             try:
-                tooltip = tooltip.replace('{{ e%s }}'%(effect.index(x)), x)
+                tooltip = tooltip.replace('{{ e%s }}' % (effect.index(x)), x)
             except Exception as e:
                 bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if var:
         for x in var:
                 try:
-                    tooltip = tooltip.replace('{{ %s }}'%(x['key']), str(x['coeff'][0]))
+                    tooltip = tooltip.replace('{{ %s }}' % (x['key']), str(x['coeff'][0]))
                 except Exception as e:
                     bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return tooltip
+
 
 def champ_lore(chmp, cid):
     return remove_tag(chmp['lore'].replace('<br>', '\n'))

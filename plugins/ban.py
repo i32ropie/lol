@@ -39,7 +39,7 @@ def command_ban(m):
                         banned_id)
             else:
                 db.usuarios.insert({
-                    "_id":banned_id,
+                    "_id": banned_id,
                     "lang": "en",
                     "banned": True,
                     "notify": True,
