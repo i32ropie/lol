@@ -33,10 +33,12 @@ Comandos de administración
 /media _<id>_ - Reenvía al id el mensaje al que se le responde.
 /patch\_XX - Actualizar parche.
 /reload - Reiniciar el bot.
+/res _[!]_- Usado respondiendo a un mensaje de contacto le responde. Empieza la respuesta por ! para usar Markdown.
 /stats - Información de usuarios del bot.
 /system - Información del servidor.
 /update\_champs\_1 - Actualizar base de datos de campeones.
 /update\_champs\_2 - Actualizar base de datos de campeones.
+/update\_champs\_keys - Actualizar ese archivo.
 /update\_rotation\_pic - Actualizar imagen de rotación gratuita.
 /update\_rotation\_text - Actualizar texto de rotación gratuita.
 /update\_sale\_pic - Actualizar imagen de ofertas.
