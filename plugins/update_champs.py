@@ -147,7 +147,7 @@ def command_update_champs_keys(m):
     if is_admin(uid):
         msg = bot.send_message(cid, "Actualizando fichero `champs_keys.json` ...", parse_mode="Markdown")
         try:
-            req = lol_api.static_get_champion_list(data_by_id=True)[['data']]
+            req = lol_api.static_get_champion_list(data_by_id=True)['data']
         except:
             bot.edit_message_text("Error descargando el fichero.", cid, msg.message_id)
             return
