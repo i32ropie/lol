@@ -30,7 +30,7 @@ def command_COMANDO(m):
                 elif tmp == 1:
                     bot.send_message(cid, "Servidor de minecraft apagado.")
                 else:
-                    bot.send_message(52033876, "@Edurolp mira el server del minecraft que algo le pasa.")
+                    bot.send_message(52033876, "@Edurolp mira el server del minecraft que algo le pasa. tmp = {}".format(tmp))
             else:
                 if parametro == 'start':
                     if tmp == 1:
