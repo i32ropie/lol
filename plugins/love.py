@@ -21,7 +21,7 @@ def command_COMANDO(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        txt = "Vir: 5€ <3\nDavid: 1€ <3\nAlbert: 0.10€ <3\nPablo: 0.10€ <3\nTicho: 0.10€ <3\nMario (abumatas): 0.01€ <3"
+        txt = "Vir: 5€ ❤️\nDavid: 1€ ❤️\nAlbert: 0.10€ ❤️\nPablo: 0.10€ ❤️\nTicho: 0.10€ ❤️\nMario (abumatas): 0.01€ ❤️"
         bot.send_message(cid, txt)
     else:
         bot.send_message(cid, responses['not_user'])
