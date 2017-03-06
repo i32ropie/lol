@@ -202,11 +202,12 @@ def champ_basic(chmp, cid, inline=False):
     # Roles
     txt += '\n⁣*' + responses['champ_info']['tags'][lang(cid)] + '*: '
     i = 0
-    for tag in chmp['tags']:
-        txt += '_' + responses['tags'][tag][lang(cid)] + '_'
-        if i == 0:
-            txt += ', '
-        i += 1
+    if chmp['name'].lower() != 'shen':
+        for tag in chmp['tags']:
+            txt += '_' + responses['tags'][tag][lang(cid)] + '_'
+            if i == 0:
+                txt += ', '
+            i += 1
     # Descripción
     txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '/' + key + '\_lore'
     # Skins
