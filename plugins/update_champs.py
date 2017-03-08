@@ -82,7 +82,7 @@ def command_update_champs_2(m):
         return None
     if is_admin(uid):
         msg = bot.send_message(
-            cid, "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`-Tailandés`", parse_mode="Markdown")
+            cid, "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`-Tailandés`\n`-Turco`", parse_mode="Markdown")
         try:
             aux = {
                 "champs_pl.json": lol_api.static_get_champion_list(

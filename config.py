@@ -149,7 +149,7 @@ with open('extra_data/file_ids.json', 'r') as f:
 
 data = dict()
 
-for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt', 'ru', 'el', 'th']:
+for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt', 'ru', 'el', 'th', 'tr']:
     with open('champs_%s.json' % x, 'r') as f:
         data[x] = json.load(f)
 
