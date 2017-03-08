@@ -3,7 +3,7 @@
 from config import *
 
 print(Color(
-    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  update_champs.py importado.{/cyan}'))
+    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  log.py importado.{/cyan}'))
 
 
 @bot.message_handler(commands=['log'])

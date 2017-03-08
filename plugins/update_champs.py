@@ -109,6 +109,11 @@ def command_update_champs_2(m):
                     region='euw',
                     locale='th_TH',
                     champ_data=['all'],
+                    data_by_id=False)['data'],
+                "champs_tr.json": lol_api.static_get_champion_list(
+                    region='euw',
+                    locale='tr_TR',
+                    champ_data=['all'],
                     data_by_id=False)['data']}
         except:
             # bot.send_message(cid, "Error descargando nuevas bases de datos.")

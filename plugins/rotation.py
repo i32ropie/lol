@@ -13,7 +13,8 @@ print(Color(
         'ФРИПИК',
         'ROTACIÓN',
         'ROTATION',
-        'ROTAZIONE'])
+        'ROTAZIONE',
+        'ROTASYON'])
 @bot.message_handler(commands=['rotation'])
 def command_rotation(m):
     cid = m.chat.id

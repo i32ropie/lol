@@ -15,7 +15,7 @@ markup.add(b4)
 
 
 @bot.message_handler(func=lambda m: m.content_type ==
-                     'text' and m.text in ['INFO', 'ИНФОРМАЦИЯ'])
+                     'text' and m.text in ['INFO', 'ИНФОРМАЦИЯ', 'BİLGİ'])
 @bot.message_handler(commands=['info'])
 def command_info(m):
     cid = m.chat.id

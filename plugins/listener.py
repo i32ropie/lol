@@ -25,16 +25,6 @@ backward = {
     'MonkeyKing': 'Wukong'
 }
 
-content_types = [
-    'audio',
-    'voice',
-    'document',
-    'photo',
-    'sticker',
-    'video'
-]
-
-
 def listener(messages):
     for m in messages:
         cid = m.chat.id

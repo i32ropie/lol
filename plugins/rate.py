@@ -15,7 +15,8 @@ print(Color(
         'QUALIFICARE',
         'ОТЗЫВ',
         'SIEGESRATE',
-        'NOTER'])
+        'NOTER',
+        'DEĞER'])
 @bot.message_handler(commands=['rate'])
 def command_rate(m):
     cid = m.chat.id

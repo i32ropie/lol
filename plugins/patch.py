@@ -7,7 +7,7 @@ print(Color(
 
 
 @bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
-                     'ATUALIZAÇÃO', 'ПАТЧ', 'PARCHE', 'PATCH'])
+                     'ATUALIZAÇÃO', 'ПАТЧ', 'PARCHE', 'PATCH', 'YAMA'])
 @bot.message_handler(commands=['patch'])
 def command_patch(m):
     cid = m.chat.id
@@ -43,7 +43,7 @@ def command_patch(m):
         'patch_de',
         'patch_pt',
         'patch_fa',
-        'patch_th',
+        'patch_tr',
         'patch_ru',
         'patch_el'])
 def command_update_patch(m):

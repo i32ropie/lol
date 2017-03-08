@@ -14,7 +14,8 @@ print(Color(
         'NOTIFICACIONES',
         'NOTIFICHE',
         'УВЕДОМЛЕНИЯ',
-        'BENACHRICHTIGUNGEN'])
+        'BENACHRICHTIGUNGEN',
+        'BİLDİRİMLER'])
 @bot.message_handler(commands=['notify'])
 def command_notify(m):
     cid = m.chat.id

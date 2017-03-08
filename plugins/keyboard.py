@@ -77,6 +77,14 @@ markup_el = types.ReplyKeyboardMarkup(resize_keyboard=True)
 # markup_el.add('', '', '')
 
 
+markup_tr = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_tr.add(types.KeyboardButton('YARDIM'), types.KeyboardButton('İLETİŞİM'), types.KeyboardButton('BİLGİ'))
+markup_tr.add(types.KeyboardButton('YAMA'), types.KeyboardButton('DİL'), types.KeyboardButton('DEĞER'))
+markup_tr.add(types.KeyboardButton('SATIŞ'), types.KeyboardButton('ŞAMPİYONLAR'), types.KeyboardButton('ROTASYON'))
+markup_tr.add(types.KeyboardButton('SİHİRDAR'), types.KeyboardButton('KLAVYEYİ GİZLE'), types.KeyboardButton('KARŞILAŞMA'))
+markup_tr.add(types.KeyboardButton('ROLLER'), types.KeyboardButton('BİLDİRİMLER'), types.KeyboardButton('JENERİK'))
+
+
 markup_ru = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_ru.add(types.KeyboardButton('ПОМОЩЬ'), types.KeyboardButton('КОНТАКТЫ'), types.KeyboardButton('ИНФОРМАЦИЯ'))
 markup_ru.add(types.KeyboardButton('ПАТЧ'), types.KeyboardButton('ЯЗЫК'), types.KeyboardButton('ОТЗЫВ'))
@@ -99,7 +107,8 @@ markups = {
     "fa": markup_fa,
     "th": markup_th,
     "el": markup_el,
-    "ru": markup_ru
+    "ru": markup_ru,
+    "tr": markup_tr
 }
 
 
@@ -142,7 +151,8 @@ def command_help(m):
         "СКРЫТЬ КЛАВИАТУРУ",
         "NASCONDI TASTIERA",
         "VERBERGE TASTATUR",
-        "CACHER CLAVIER"])
+        "CACHER CLAVIER",
+        "KLAVYEYİ GİZLE"])
 @bot.message_handler(commands=['hideboard'])
 def command_hideboard(m):
     cid = m.chat.id

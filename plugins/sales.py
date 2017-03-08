@@ -15,7 +15,8 @@ print(Color(
         'OFFERTA',
         'РАСПРОДАЖА',
         'ANGEBOTE',
-        'VENTE'])
+        'VENTE',
+        'SATIŞ'])
 @bot.message_handler(commands=['sale'])
 def command_sale(m):
     cid = m.chat.id

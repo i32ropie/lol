@@ -21,7 +21,8 @@ changeds = {
         'CAMPEONES',
         'ЧЕМПИОНЫ',
         'CHAMPIONS',
-        'CAMPIONI'])
+        'CAMPIONI',
+        'ŞAMPİYONLAR'])
 @bot.message_handler(commands=['champs'])
 def command_champs(m):
     cid = m.chat.id
@@ -61,7 +62,8 @@ def command_champs(m):
         'РОЛИ',
         'RUOLI',
         'ROLLEN',
-        'RÔLES'])
+        'RÔLES',
+        'ROLLER'])
 @bot.message_handler(commands=['roles'])
 def command_roles(m):
     cid = m.chat.id

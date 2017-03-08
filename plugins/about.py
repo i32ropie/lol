@@ -13,7 +13,8 @@ print(Color(
         'CREDITI',
         'DANKSAGUNGEN',
         'CRÉDITS',
-        'АВТОРЫ'])
+        'АВТОРЫ',
+        'JENERİK'])
 @bot.message_handler(commands=['credits'])
 def command_credits(m):
     cid = m.chat.id

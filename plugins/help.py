@@ -15,7 +15,8 @@ print(Color(
         'HELP',
         'AIUTO',
         'HILFE',
-        'AIDE'])
+        'AIDE',
+        'YARDIM'])
 @bot.message_handler(commands=['help'])
 def command_help(m):
     cid = m.chat.id

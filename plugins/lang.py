@@ -17,7 +17,8 @@ markup.add(
     types.KeyboardButton('РУССКИЙ'),
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
-    types.KeyboardButton('PERSIAN'))
+    types.KeyboardButton('PERSIAN'),
+    types.KeyboardButton('TÜRKÇE'))
 
 
 @bot.message_handler(
@@ -28,7 +29,8 @@ markup.add(
         'LANGUAGE',
         'LINGUA',
         'SPRACHE',
-        'LANGUE'])
+        'LANGUE',
+        'DİL'])
 @bot.message_handler(commands=['lang'])
 def command_lang(m):
     cid = m.chat.id

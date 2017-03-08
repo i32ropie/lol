@@ -29,7 +29,8 @@ platform = {
         'EVOCATORE',
         'ПРИЗЫВАТЕЛЬ',
         'BESCHWÖRER',
-        'INVOCATEUR'])
+        'INVOCATEUR',
+        'SİHİRDAR'])
 @bot.message_handler(commands=['summoner'])
 def command_summoner(m):
     cid = m.chat.id

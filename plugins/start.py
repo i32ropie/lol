@@ -17,7 +17,8 @@ markup.add(
     types.KeyboardButton('РУССКИЙ'),
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
-    types.KeyboardButton('PERSIAN'))
+    types.KeyboardButton('PERSIAN'),
+    types.KeyboardButton('TÜRKÇE'))
 
 
 @bot.message_handler(commands=['start'])
