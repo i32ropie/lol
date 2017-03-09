@@ -23,7 +23,7 @@ def command_COMANDO(m):
     if is_user(cid):
         txt = responses['inline_help_1'][lang(cid)]
         for x, y in responses['inline_help_2'][lang(cid)].items():
-            txt += '\n`@League_of_Legends_bot ' + x + y
+            txt += '\n`@LoL_bot ' + x + y
         bot.send_message(cid, txt, parse_mode="Markdown")
     else:
         bot.send_message(cid, responses['not_user'])

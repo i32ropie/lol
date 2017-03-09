@@ -25,7 +25,7 @@ def command_rate(m):
         send_udp('rate')
     except Exception as e:
         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    url = 'https://telegram.me/storebot?start=league_of_legends_bot'
+    url = 'https://telegram.me/storebot?start=LoL_bot'
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

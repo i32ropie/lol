@@ -26,12 +26,12 @@ print(Color(
 
 
 try:
-    bot.send_message(52033876, "@League_of_Legends_bot ha sido encendido")
+    bot.send_message(52033876, "@LoL_bot ha sido encendido")
 except Exception as e:
     bot.send_message(52033876, str(e))
 
 print(Color(
-    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}@League_of_Legends_bot ha sido encendido.{/cyan}\n'))
+    '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}@LoL_bot ha sido encendido.{/cyan}\n'))
 
 #################################################
 #                    POLLING                    #

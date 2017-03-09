@@ -1,6 +1,6 @@
 # League of Legends bot
 
-Documentation of my [League of Legends](http://telegram.me/league_of_legends_bot) Bot for Telegram.
+Documentation of my [League of Legends](http://telegram.me/LoL_bot) Bot for Telegram.
 
 <!-- # Requirements
 
