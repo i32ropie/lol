@@ -72,9 +72,16 @@ def is_recent(m):
     return (time.time() - m.date) < 5
 
 
+def is_banned(uid):
+    if is_user(uid):
+        return db.usuarios.find_one(str(uid))['banned']
+    else:
+        return False
+
+
 def next_step_handler(uid):
     """ Función para controlar los steps dentro de las diferentes funciones """
-    if uid not in userStep:
+    if uid not in userStep or is_banned(uid):
         userStep[uid] = 0
     return userStep[uid]
 
@@ -84,13 +91,6 @@ def lang(uid):
         return db.usuarios.find_one(str(uid))['lang']
     else:
         return 'en'
-
-
-def is_banned(uid):
-    if is_user(uid):
-        return db.usuarios.find_one(str(uid))['banned']
-    else:
-        return False
 
 
 def is_beta(uid):
