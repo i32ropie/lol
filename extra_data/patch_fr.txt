@@ -1,15 +1,11 @@
-Bonjour, invocateurs.
+Bonjour à tous !
 
-Bienvenue dans le patch 5.24, le dernier de l'an 2015. La route aura été semée d'embûches appelées Titan cendré, Colosse et Dévoreur, mais ce n'est pas le moment d'être sentimental. C'est toujours la présaison et il y a toujours des anomalies à équilibrer, des systèmes à entretenir et des jeux de mots (Ramoucho !) à faire.
+Bienvenue dans les notes du patch 7.7, celui avec lequel nous apportons des changements à des tas de choses différentes, dont des supports oubliés et des junglers un poil trop faibles. Et nous avons aussi changé l'image d'en-tête. Pas mal, non ? (Nous avons retrouvé un dossier contenant de superbes images datant des précédentes saisons, alors nous allons changer d'image à chaque patch !)
 
-En parlant d'équilibrage, nous avons beaucoup de changements pour des champions que vous n'avez sans doute pas l'habitude de voir. Explication : comme lors des précédentes présaisons, nous débarquons (avec notre dirigeable de la diversité, évidemment) dans un tout nouvel écosystème où bon nombre de certitudes sur la « force des champions » n'ont pu lieu d'être. Je propose une minute de silence en hommage à Warwick 4.20 et aux builds à base de 6 Couperets noirs. De nouveaux systèmes, de nouvelles maîtrises et de nouveaux objets se sont combinés pour rendre puissants les champions faibles, faibles les champions puissants et divins les Brand du monde entier. Alors cela vous paraîtra peut-être étonnant de voir que nous nerfons Swain et Anivia, ou que nous buffons Riven (houla !), mais n'oubliez pas que nous appuyons nos décisions sur un maximum de données objectives.
+Parmi les changements les plus notables, on notera que la collecte des carillons sera plus gratifiante pour Bard et qu'Amumu sera plus apte à aider ses équipiers. Peut-être que ces derniers voudront enfin l'ajouter dans leurs listes d'amis à la fin de la partie ! Nous avons également des buffs qualitatifs pour certains junglers peu populaires, tels que Volibear et Jarvan IV. Et comme le MSI est à l'horizon, nous avons fait le tour de ce qui n'allait pas sur la scène compétitive (les champions concernés vous sembleront familiers, vous verrez).
 
-Et puis il y a Soraka.
+Concernant les temps forts que vous pouvez enregistrer, nous avons facilité leur visionnage en améliorant le client mis à jour (spoiler : plus la peine de farfouiller dans votre explorateur de fichiers). Ces détails, plus le reste des mises à jour du client, se trouvent un peu plus bas, comme d'habitude.
 
-Ne vous en faites pas, nous ne l'avons pas oubliée.
+C'est tout pour cette intro ! Accrochez vos ceintures et foncez lire ce qui suit. À bientôt dans la Faille ! 
 
-À part ça, qu'avons-nous cette semaine ? Poppy a l'air plus mignonne et plus imposante que jamais, la saison du Solstice est arrivée accompagnée du mode de jeu Légende du roi des Poros, et nous avons peaufiné les objets et les champions avant de faire une pause jusqu'en janvier.
-
-De notre part à tous chez Riot Games : GL, HF et à bientôt pour l'an 2016!
-
-Notes de patch 5.24 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-524
+Notes de patch 7.7 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-77

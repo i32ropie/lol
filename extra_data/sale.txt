@@ -1,8 +1,8 @@
-/Gnar: 487RP
-/Wukong: 440RP
-/Sion: 292RP
-/Twitch: 395RP
-/Ashe_2: 260RP
-/Trundle_4: 375RP
-/Mordekaiser_3: 487RP
-/Annie_6: 487RP
+/Ekko: 487 RP
+/Vayne: 440 RP
+/Karma: 395 RP
+/Yorick: 440 RP
+/Irelia_2: 260 RP
+/ChoGath_6: 375 RP
+/Thresh_1: 487 RP
+/Teemo_6: 487 RP

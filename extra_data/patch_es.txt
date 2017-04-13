@@ -1,15 +1,11 @@
-¡Saludos, invocadores!
+¡Saludos!
 
-Bienvenidos a la versión 5.24, la última de 2015. Ha sido una locura de viaje, con infinidad de moles de ceniza, colosos y devoradores. Pero no es momento de ponerse sentimentales. Todavía estamos en plena pretemporada y hay numerosos elementos por pulir, sistemas por mantener y chistes malos por hacer.
+Os damos la bienvenida a la versión 7.7, en la que hemos implementado múltiples cambios a muchas cosas diferentes. Para empezar, a algunos apoyos olvidados y a junglas débiles.
 
-En cuanto a los ajustes del juego, tenemos numerosos cambios para mejorar el equilibrio del mismo. Afectan a campeones que puede que no veáis a menudo, así que a continuación profundizaremos un poco más en el tema. Como en las pretemporadas pasadas, hemos viajado a un ecosistema completamente nuevo en cuanto a equilibrio de campeones y en este ecosistema el concepto que teníamos de "poder de campeón" ya no tiene cabida. Os pedimos un momento de silencio por el Warwick de la 4.20 y las 6 Cuchillas. Nuevos sistemas, maestrías y objetos se combinan para hacer que los campeones más fuertes sean débiles, los más débiles fuertes y que Brand sea un poco como Dios. Así aunque os parezca raro ver que Swain y Anivia reciben debilitaciones o que Riven recibe mejoras (¡cáspita!), estamos trabajando con toda la información objetiva disponible.
+Entre lo más destacado, hemos hecho que recoger campanas sea más gratificante para Bardo y le hemos dado a Amumu mejores herramientas para ayudar a sus compañeros de equipo. Quizás ahora se queden después de la partida y se hagan amigos. También hemos implementado algunas mejoras de calidad para los junglas que son menos populares ahora mismo, como Volibear y Jarvan IV. Además, como ya estamos calentando motores para el MSI, vamos a darle otro repaso a la escena competitiva (las caras os resultarán familiares).
 
-Y luego está Soraka.
+Hablando de otros destacados diferentes, le hemos dado algunos retoques a la experiencia de visionado de los momentos destacados en el cliente actualizado (os damos una pista: ya no tendréis que buscar desde el navegador de archivos de vuestro ordenador). Esos detalles, además del resto de actualizaciones del cliente, podréis leerlos en las notas de la versión, como siempre.
 
-Tranquilos, no nos hemos olvidado.
+¡Eso es todo para esta versión! Abrochaos el cinturón y adentraos en los diversos cambios que os presentamos más abajo. ¡Nos vemos en la Grieta! 
 
-Ya hemos resuelto ese tema, ¿y ahora qué? Ahora Poppy es mucho más mona e imponente que antes, también ha vuelto el Duelo de las Nieves con La Leyenda del Rey Poro y hemos acabado de ajustar un poco a los campeones antes del descanso de equilibrio en enero.
-
-Así que, desde Riot Games os deseamos buena suerte, que lo paséis bien y nos vemos en 2016.
-
-Notas de la Versión 5.24 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-del-parche-524
+Notas de la Versión 7.7 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-77

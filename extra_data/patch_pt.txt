@@ -1,15 +1,11 @@
-Saudações, Invocadores.
+Saudações!
 
-Boas vindas à Atualização 5.24, a última de 2015. Foi um rolê muito louco com Titãs Ardentes, Colossos e Devoradores a se enfrentar no meio do caminho, mas chegou a hora de ficar sentimental. Ainda é Pré-Temporada; ainda temos pontos fora da curva que precisamos manobrar, sistemas a dar manutenção e piadas ruins a fazer.
+Boas vindas às Notas da Atualização 7.7, aquela em que temos mudanças em uma porção de coisas diferentes — começando com suportes esquecidos e caçadores fracos. A arte do cabeçalho também mudou, o que é bem legal. (Encontramos uma pasta com imagens legais de temporadas anteriores, então vamos começar a alterná-las a cada atualização!)
 
-Por falar em pontos fora da curva, temos uma boa porção de alterações de balanceamento para campeões que você não costuma ver por aí — vamos nos aprofundar nisso em breve. Assim como em Pré-Temporadas passadas, viajamos (com o dirigível da diversidade, é óbvio) a um ecossistema totalmente novo de balanceamento de campeões, onde muito do que se presumia ser "poder de campeão" simplesmente cai por terra. Um minuto de silêncio para o Warwick da 4.20 carregando 6 cutelos. Todos vocês. Novos sistemas, talentos e itens combinam-se para deixar Campeões fracos fortes, Campeões fortes fracos e Brand em deus. Então, embora possa lhe ser um choque ver campeões como Swain e Anivia sendo nerfados, ou Riven sendo buffada (eita!), tenha em mente que estamos trabalhando em cima de dados muito objetivos.
+Em relação aos destaques, o Bardo será mais bem recompensado pela coleta de sinos e Amumu terá ferramentas melhores para ajudar os aliados. Talvez agora eles fiquem mais tempo na partida e se tornem amigos. Também melhoramos alguns aspectos da qualidade de vida de alguns caçadores que não são tão populares no momento, como Volibear e o príncipe Jarvan IV. Além disso, considerando que a ansiedade pelo MSI está esquentando, nós vamos dar mais uma olhada no cenário competitivo (os rostos serão bem familiares).
 
-E tem a Soraka também.
+Em relação a outros tipos de Destaque, o cliente atualizado traz algumas melhorias à exibição dos Destaques (spoiler: você não vai mais precisar ficar fuçando seu explorador de arquivos). Esses detalhes, juntamente com as outras atualizações do cliente, podem ser encontrados mais adiante nas notas da atualização, como de costume.
 
-Não se preocupe, não esquecemos.
+E isso é tudo para esta atualização! Apertem os cintos e se joguem nesse banquete de mudanças abaixo. Vemos vocês em Summoner's Rift! 
 
-Com isso fora do caminho, o que sobrou? Poppy nunca esteve tão imponente e kawaii quanto agora; a Friaca voltou e trouxe o modo de jogo "Lenda do Rei Poro" com ela; e demos uns toques finais em nossos ajustes para itens e campeões antes de fechar para balanço e abrir de novo só em janeiro.
-
-Sendo assim, lhes desejamos boa sorte, muita diversão e uma boa passagem para 2016.
-
-Notas da Atualização 5.24 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-524
+Notas da Atualização 7.7 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-77

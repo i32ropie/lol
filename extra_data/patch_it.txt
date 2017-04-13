@@ -1,15 +1,11 @@
-Ciao, evocatori.
+Ciao a tutti!
 
-Benvenuti alla patch 5.24, l'ultima del 2015. È stato un anno intenso, tra colossi, colossi cinerei e divoratori, ma non è il momento di darsi ai sentimentalismi. Siamo ancora in pre-stagione, ci sono ancora campioni da bilanciare, sistemi da rifinire e freddure da inventare.
+Benvenuti nelle note sulla patch 7.7, quella dove apportiamo modifiche a un po' di roba, come i supporti dimenticati e i jungler più deboli. E poi l'immagine dell'intestazione è diversa, quindi è tutto più bello. (Abbiamo trovato una cartella piena di immagini delle vecchie stagioni, ve le proporremo, patch dopo patch!)
 
-A proposito di bilanciamento, abbiamo delle modifiche per dei campioni che non si vedono molto spesso. Vediamo insieme il perché. Come nelle scorse pre-stagioni, abbiamo viaggiato (a bordo del dirigibile della diversità, ovviamente) verso nuovi ecosistemi di bilanciamento, dove molte valutazioni sulla "potenza dei campioni" si sono rivelate sbagliate. Un momento di silenzio per il Warwick della 4.20 e per le 6 mannaie, per favore. I nuovi sistemi, le maestrie e gli oggetti possono rendere forti i campioni deboli, deboli i forti... e Brand un dio. Potreste rimanere stupiti dal vedere nerf a campioni come Swain e Anivia, o addirittura buff a Riven (gasp!), ma tenete presente che stiamo lavorando partendo da tutti i dati obiettivi a nostra disposizione.
+I punti salienti sono che abbiamo reso più remunerativa la raccolta delle campanelle di Bard e abbiamo dato ad Amumu degli strumenti migliori per aiutare i compagni. Ora, magari, saranno suoi amici anche dopo la partita. Abbiamo semplificato la vita ad alcuni dei jungler meno popolari, come Volibear e Jarvan IV. Poi, visto che l'hype per l'MSI sta montando, abbiamo fatto un ulteriore passaggio sulla scena competitiva (i volti saranno familiari, vedrete).
 
-Poi ci sarebbe Soraka.
+Parlando di altri punti salienti, il client aggiornato ha delle migliorie per chi vuole rivedere i momenti migliori (spoiler: non dovete più cipollare in giro per le cartelle del vostro computer). Questi dettagli, più il resto degli aggiornamenti al client, sono in fondo alle note sulla patch, come al solito.
 
-Non temete, non ci siamo dimenticati.
+Per questa patch è tutto! Allacciate le cinture e lanciatevi su questo ricco buffet di modifiche. Ci vediamo nella Landa! 
 
-Detto questo, cos'altro rimane? Poppy è più carina e incute più rispetto che mai, i Duelli Glaciali sono tornati e ci hanno portato la modalità Leggenda del Re dei poro, mentre noi abbiamo dato gli ultimi ritocchi a oggetti e campioni prima della pausa di gennaio.
-
-Quindi, da tutti noi di Riot Games: buona fortuna, divertitevi e ci vediamo nel 2016.
-
-Note sulla patch 5.24 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-524
+Note sulla patch 7.7 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-77

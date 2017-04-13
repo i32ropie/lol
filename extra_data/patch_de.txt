@@ -1,15 +1,11 @@
-Seid gegrüßt, Beschwörer.
+Sei gegrüßt!
 
-Willkommen zu Patch 5.24, dem letzten von 2015. Es war eine wilde Fahrt mit Glutkolossen, Molochen und Verschlingern, aber jetzt ist nicht die Zeit, sentimental zu werden. Es ist immer noch Vorsaison, ein paar Ausreißer müssen noch ausbalanciert, Systeme verwaltet und schlechte Witze gemacht werden.
+Willkommen bei den Patchnotizen zu Patch 7.7, in dem mal wieder eine ganze Reihe von Änderungen ins Haus stehen – zu allererst an ein paar vergessenen Supportern und schwachen Junglern. Außerdem sieht die Kopfzeilengrafik jetzt anders aus – nicht schlecht, oder? (Wir haben einen ganzen Ordner voller cooler Bilder aus früheren Saisons gefunden, deshalb werden wir sie ab jetzt von Patch zu Patch immer mal wieder austauschen!)
 
-Apropos auszubalancierende Ausreißer, in Sachen Balance findet ihr in weiterer Folge etliche Änderungen für Champions, die ihr vielleicht nicht so oft seht – lasst uns das etwas näher beleuchten. Wie bei vergangenen Vorsaisonen haben wir uns auf die Reise (natürlich über die Vielfalts-Maschinerie) zu einem gänzlich neuen Ökosystem in Sachen Champion-Balance gemacht, wo vieles weder Hand noch Fuß hatte. Halten wir bitte einen kurzen Moment inne, für Warwick 4.20 und 6 Beile, Leute. Neue Systeme, Meisterschaften und Gegenstände werden kombiniert, um schwache Champions stark, starke Champions schwach und Brand zu einem Gott zu machen. Während ihr vielleicht schockiert sein werdet, dass Champions wie Swain und Anivia geschwächt und Riven verstärkt (*staun*!) werden, solltet ihr daran denken, dass wir nur mit objektiven Daten arbeiten.
+Und wo wir schon bei Höhepunkten sind: Wir haben das Aufsammeln von Glocken lohnender für Bard gestaltet und Amumu einige bessere Werkzeuge an die Hand gegeben, um seinen Teamkollegen zu helfen. Vielleicht bleiben sie so jetzt nach dem Match auch seine Freunde. Außerdem haben wir ein paar Verbesserungen für die Spielerfahrung einiger Jungler parat, die im Augenblick eher weniger beliebt sind, wie zum Beispiel Volibear oder Jarvan IV. Zusätzlich zu alledem werfen wir auch einen Blick auf die eher wettkampforientierte Seite des Spiels (die Gesichter unter diesem Punkt werden dir wahrscheinlich schon vertraut vorkommen) – schließlich ist das MSI schon wieder ziemlich nah!
 
-Dann wäre da ja noch Soraka.
+Auch bei Höhepunkten der anderen Art haben wir dem aktualisierten Client einige Verbesserungen in Bezug auf das Betrachtungserlebnis verpasst (so viel sei verraten: du musst jetzt nicht mehr ewig in deinem Explorer herumwühlen, um sie zu finden). Diese ganzen Details und den Rest unserer Client-Aktualisierungen findest du, wie gewöhnlich, weiter unten in den Patchnotizen.
 
-Keine Sorge, das haben wir nicht vergessen.
+Soviel erst mal zu diesem Patch! Also schnall dich an und genieße, was wir im Folgenden an Änderungen für dich aufgetischt haben. Wir sehen uns in der Kluft! 
 
-Das hätten wir also geklärt, aber was gibt es noch? Poppy sieht süßer und imposanter aus als je zuvor, Winterfreuden ist zurück und hat den Spielmodus Legende des Poro-Königs dabei und wir haben den letzten Feinschliff an Gegenständen und Champions durchgeführt, bevor wir bis Januar eine Balance-Pause einlegen.
-
-In diesem Sinne wünschen wir euch hier von Riot Games viel Glück, Spaß und wir sehen uns 2016.
-
-Patchnotizen 5.24 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-524-0
+Patchnotizen 7.7 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-77

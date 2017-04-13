@@ -1,15 +1,11 @@
-Witajcie, przywoływacze!
+Czołem!
 
-Oto patch 5.24, ostatni w 2015 roku. Był to szalony okres dla wszystkich miłośników Żaru, molochów i Pożeraczy, ale nie pora teraz na sentymenty. Wciąż jesteśmy w przedsezonie, wciąż trzeba wprowadzić trochę zmian, zająć się systemami i opowiedzieć kilka kiepskich żartów.
+Witajcie w opisie patcha 7.7, tego, w którym zmieniamy sporo rzeczy — na przykład zapomnianych wspierających oraz słabych dżunglerów. Dodatkowo grafika nagłówka zmieniła się na fajniejszą. (Znaleźliśmy folder z fajnymi zdjęciami z poprzednich sezonów, więc będziemy je zmieniać między patchami!).
 
-Skoro mowa o zmianach, sporo z nich dotyczy równowagi i bohaterów, których nie widujecie zbyt często – pomówmy o tym chwilę. Jak w poprzednich przedsezonach, wyruszyliśmy w podróż (sterowcem różnorodności, oczywiście) do zupełnie nowego ekosystemu równowagi bohaterów, w którym wiele starych założeń co do ich mocy nie jest już aktualnych. Uczcijmy minutą ciszy Warwicka z 4.20 i wszystkich z 6 Tasakami. Nowe systemy, specjalizacje i przedmioty sprawiają, że słabi bohaterowie stają się silni, silni ─ słabi, a Brand zostanie bogiem. Możecie przeżyć szok, widząc osłabienia dla takich bohaterów jak Swain i Anivia albo wzmocnienia dla Riven (szok!). Pamiętajcie, że pracujemy na podstawie tak dużej liczby danych, jak to możliwe.
+Jeżeli chodzi o ważne zmiany, to lepiej nagradzamy Barda za zbieranie dzwonków, a Amumu dostaje lepsze narzędzia do wspierania sojuszników. Może teraz zostaną dłużej po zakończeniu meczu i się zaprzyjaźnią. Mamy także trochę wzmocnień dla niektórych dżunglerów, którzy nie są teraz zbyt popularni, jak na przykład Volibear czy też Jarvan IV. Ponadto, biorąc pod uwagę, że niedługo zaczyna się MSI, po raz kolejny przyglądamy się profesjonalnej scenie (twarze będą znajome).
 
-No i mamy Sorakę.
+Jeżeli natomiast chodzi o inne najważniejsze rzeczy, to zaktualizowany klient wprowadził usprawnienia do oglądania najlepszych zagrywek (spoiler: nie musicie już korzystać z eksploratora plików). Te szczegóły oraz resztę rzeczy związanych z aktualizacją klienta można znaleźć, jak zwykle, niżej w opisie patcha.
 
-Spokojnie, pamiętamy o niej.
+To wszystko w tym patchu! Zapnijcie pasy i rzućcie się na zmiany znajdujące się poniżej. Do zobaczenia na Summoner’s Rift! 
 
-Skoro to już omówiliśmy, to co jeszcze mamy? Poppy jest bardziej urocza i imponująca niż kiedykolwiek, Snowdown powraca i przyprowadza ze sobą Legendę o Królu Poro, a my wprowadziliśmy końcowe zmiany do równowagi przedmiotów oraz bohaterów i robimy przerwę aż do stycznia.
-
-Wszyscy w Riot Games życzą wam powodzenia i dobrej zabawy. Do zobaczenia w 2016 roku.
-
-Opis patcha 5.24 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-524
+Opis patcha 7.7 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-77

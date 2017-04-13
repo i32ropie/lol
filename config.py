@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+ 
 #################################################
-#                   BOT TOKEN                   #
+#                   BOT TOKEN #
 #################################################
 
 import os
@@ -57,7 +60,7 @@ client = MongoClient('localhost:27017')
 db = client.users
 
 
-with open('responses.json') as f:
+with open('responses.json', encoding='utf-8') as f:
     responses = json.load(f, object_pairs_hook=OrderedDict)
 
 
