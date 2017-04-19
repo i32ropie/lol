@@ -1,8 +1,8 @@
-/Ekko: 487 RP
-/Vayne: 440 RP
-/Karma: 395 RP
-/Yorick: 440 RP
-/Irelia_2: 260 RP
-/ChoGath_6: 375 RP
-/Thresh_1: 487 RP
-/Teemo_6: 487 RP
+/Braum: 487 RP
+/LeeSin: 440 RP
+/Zilean: 292 RP
+/Gragas: 395 RP
+/Karma_2: 260 RP
+/Rammus_2: 375 RP
+/Elise_3: 487 RP
+/Zed_3: 675 RP
