@@ -1,11 +1,15 @@
-Czołem!
+Hej, ludziska.
 
-Witajcie w opisie patcha 7.7, tego, w którym zmieniamy sporo rzeczy — na przykład zapomnianych wspierających oraz słabych dżunglerów. Dodatkowo grafika nagłówka zmieniła się na fajniejszą. (Znaleźliśmy folder z fajnymi zdjęciami z poprzednich sezonów, więc będziemy je zmieniać między patchami!).
+Zbliża się środek sezonu i wyważanie będzie trochę utrudnione na czas jednego patcha, więc ten patch możecie uznać za przygotowanie do tego. To powiedziawszy, skupiamy się na zmianach, które albo muszą zdarzyć się teraz, albo ich rezultaty będą utrzymywać się przez długi czas.
 
-Jeżeli chodzi o ważne zmiany, to lepiej nagradzamy Barda za zbieranie dzwonków, a Amumu dostaje lepsze narzędzia do wspierania sojuszników. Może teraz zostaną dłużej po zakończeniu meczu i się zaprzyjaźnią. Mamy także trochę wzmocnień dla niektórych dżunglerów, którzy nie są teraz zbyt popularni, jak na przykład Volibear czy też Jarvan IV. Ponadto, biorąc pod uwagę, że niedługo zaczyna się MSI, po raz kolejny przyglądamy się profesjonalnej scenie (twarze będą znajome).
+Po pierwsze, wykorzystujemy tę okazję, by przyjrzeć się temu, jak opóźnienie wpływa na rozgrywkę. Oczywiście nikt nie lubi grać z dużym opóźnieniem, ale niektórzy bohaterowie odczuwają to bardziej niż inni. Wprowadzamy kilka zmian, które sprawią, że nie będą oni aż tak poszkodowani, gdy będą reagować na polecenia z opóźnieniem.
 
-Jeżeli natomiast chodzi o inne najważniejsze rzeczy, to zaktualizowany klient wprowadził usprawnienia do oglądania najlepszych zagrywek (spoiler: nie musicie już korzystać z eksploratora plików). Te szczegóły oraz resztę rzeczy związanych z aktualizacją klienta można znaleźć, jak zwykle, niżej w opisie patcha.
+Następnie przechodzimy do rozgrywek profesjonalnych. Ponieważ zbliża się MSI, zajmujemy się kilkoma silnymi postaciami, aby mieć pewność, że nie zdominują całkowicie etapu wyboru i banowania, więc wprowadzamy niezbędne zmiany.
 
-To wszystko w tym patchu! Zapnijcie pasy i rzućcie się na zmiany znajdujące się poniżej. Do zobaczenia na Summoner’s Rift! 
+Z drugiej strony teraz nadarza się idealna okazja do wzmocnienia kilku słabszych bohaterów, którzy potrzebują miłości. Aatrox otrzymuje trochę dodatkowej mocy w związku z ostatnią aktualizacją, a Udyr dostaje kilka drobnych zmian.
 
-Opis patcha 7.7 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-77
+Kończąc, wykorzystujemy okazję, aby poprawić kilka rzeczy związanych z rozgrywką na Twisted Treeline i w trybie ARAM, aby grało się przyjemniej.
+
+Ruszajcie do walki i rzucania Poro!
+
+Opis patcha 7.8 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-78

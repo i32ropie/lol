@@ -1,11 +1,15 @@
-Saudações!
+Fala, galera!
 
-Boas vindas às Notas da Atualização 7.7, aquela em que temos mudanças em uma porção de coisas diferentes — começando com suportes esquecidos e caçadores fracos. A arte do cabeçalho também mudou, o que é bem legal. (Encontramos uma pasta com imagens legais de temporadas anteriores, então vamos começar a alterná-las a cada atualização!)
+A meia-temporada está chegando e o balanceamento vai ficar um pouco instável, então vamos encarar esta Atualização como uma espécie de configuração. Dito isso, vamos nos concentrar em mudanças que precisam ser feitas agora ou mudanças cujos resultados gerarão frutos no futuro.
 
-Em relação aos destaques, o Bardo será mais bem recompensado pela coleta de sinos e Amumu terá ferramentas melhores para ajudar os aliados. Talvez agora eles fiquem mais tempo na partida e se tornem amigos. Também melhoramos alguns aspectos da qualidade de vida de alguns caçadores que não são tão populares no momento, como Volibear e o príncipe Jarvan IV. Além disso, considerando que a ansiedade pelo MSI está esquentando, nós vamos dar mais uma olhada no cenário competitivo (os rostos serão bem familiares).
+Primeiro, vamos aproveitar a oportunidade para analisar a forma como a latência interage com a jogabilidade. Obviamente, ninguém gosta de jogar com a latência alta, mas alguns Campeões são mais afetados do que outros. Vamos incluir algumas mudanças na Qualidade de Vida para deixar esses Campeões menos vulneráveis quando seus comandos não estiverem sendo enviados no tempo ideal.
 
-Em relação a outros tipos de Destaque, o cliente atualizado traz algumas melhorias à exibição dos Destaques (spoiler: você não vai mais precisar ficar fuçando seu explorador de arquivos). Esses detalhes, juntamente com as outras atualizações do cliente, podem ser encontrados mais adiante nas notas da atualização, como de costume.
+Depois temos a cena profissional. Com a chegada do MSI, gostaríamos de ajustar alguns Campeões que estão acima da curva para que eles não dominem totalmente a fase de escolha/banimento.
 
-E isso é tudo para esta atualização! Apertem os cintos e se joguem nesse banquete de mudanças abaixo. Vemos vocês em Summoner's Rift! 
+Por outro lado, agora é o momento perfeito para cuidar melhor de alguns Campeões mais fraquinhos que precisam de um empurrãozinho no estilo de jogo. Aatrox vai ficar um pouco mais forte após sua atualização, e Udyr também vai ganhar uma pequena atualização para chamar de sua.
 
-Notas da Atualização 7.7 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-77
+Finalmente, nós vamos aproveitar esta oportunidade para fazer ajustes finos nos sistemas de jogo em Twisted Treeline e no ARAM e proporcionar uma experiência mais enxuta em nossos modos de jogo mais rápidos.
+
+Então vá já arremessar uns Poros pelo mapa.
+
+Notas da Atualização 7.8 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-78

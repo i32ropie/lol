@@ -1,11 +1,15 @@
-¡Saludos!
+¡Hola, amigos!
 
-Os damos la bienvenida a la versión 7.7, en la que hemos implementado múltiples cambios a muchas cosas diferentes. Para empezar, a algunos apoyos olvidados y a junglas débiles.
+La mitad de la temporada está a la vuelta de la esquina y los ajustes de equilibrio requerirán más de una actualización, así que tomaos esta versión como una puesta en marcha. Dicho esto, nos vamos a centrar en los cambios necesarios en este momento y en aquellos que darán su fruto más adelante.
 
-Entre lo más destacado, hemos hecho que recoger campanas sea más gratificante para Bardo y le hemos dado a Amumu mejores herramientas para ayudar a sus compañeros de equipo. Quizás ahora se queden después de la partida y se hagan amigos. También hemos implementado algunas mejoras de calidad para los junglas que son menos populares ahora mismo, como Volibear y Jarvan IV. Además, como ya estamos calentando motores para el MSI, vamos a darle otro repaso a la escena competitiva (las caras os resultarán familiares).
+En primer lugar, vamos a aprovechar la oportunidad para estudiar cómo afecta la latencia a la experiencia de juego. Obviamente, a nadie le gusta jugar con mucha latencia, pero algunos campeones se ven más afectados. Vamos a implementar algunos cambios de calidad de la experiencia para hacer que esos campeones sufran menos las consecuencias cuando la respuesta no es tan rápida como debería.
 
-Hablando de otros destacados diferentes, le hemos dado algunos retoques a la experiencia de visionado de los momentos destacados en el cliente actualizado (os damos una pista: ya no tendréis que buscar desde el navegador de archivos de vuestro ordenador). Esos detalles, además del resto de actualizaciones del cliente, podréis leerlos en las notas de la versión, como siempre.
+Por otra parte, vamos a estudiar la escena profesional. Con la inminente celebración del MSI, queremos equilibrar a los campeones más fuertes para que no dominen por completo la fase de selección y bloqueo, y para ello vamos a tomar las medidas necesarias.
 
-¡Eso es todo para esta versión! Abrochaos el cinturón y adentraos en los diversos cambios que os presentamos más abajo. ¡Nos vemos en la Grieta! 
+Por otro lado, este es el momento perfecto para darles un poco de amor a los campeones más débiles que necesitan un empujoncito en su estilo de juego. Vamos a otorgarle un poco más de poder a Aatrox después de sus últimas actualizaciones, y vamos a actualizar a Udyr.
 
-Notas de la Versión 7.7 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-77
+Por último, vamos a aprovechar la ocasión para poner a punto algunos de los sistemas de juego del Bosque Retorcido y de ARAM para hacer que la experiencia de los modos de juego más rápidos sea más satisfactoria.
+
+¡Preparaos para lanzar unos cuantos poros!
+
+Notas de la Versión 7.8 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-78

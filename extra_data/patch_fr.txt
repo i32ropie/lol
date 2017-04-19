@@ -1,11 +1,15 @@
-Bonjour à tous !
+Bonjour tout le monde !
 
-Bienvenue dans les notes du patch 7.7, celui avec lequel nous apportons des changements à des tas de choses différentes, dont des supports oubliés et des junglers un poil trop faibles. Et nous avons aussi changé l'image d'en-tête. Pas mal, non ? (Nous avons retrouvé un dossier contenant de superbes images datant des précédentes saisons, alors nous allons changer d'image à chaque patch !)
+La mi-saison est sur le point d'arriver et l'équilibrage va être quelque peu approximatif d'ici là, alors voyez ce patch comme une sorte de préparation des choses à venir. Nous nous concentrons cependant sur des changements qui devaient avoir lieu maintenant ou qui auront des effets durables.
 
-Parmi les changements les plus notables, on notera que la collecte des carillons sera plus gratifiante pour Bard et qu'Amumu sera plus apte à aider ses équipiers. Peut-être que ces derniers voudront enfin l'ajouter dans leurs listes d'amis à la fin de la partie ! Nous avons également des buffs qualitatifs pour certains junglers peu populaires, tels que Volibear et Jarvan IV. Et comme le MSI est à l'horizon, nous avons fait le tour de ce qui n'allait pas sur la scène compétitive (les champions concernés vous sembleront familiers, vous verrez).
+Tout d'abord, nous nous sommes penchés sur les interactions de la latence avec le jeu. Personne n'aime jouer avec une latence élevée, c'est évident, mais certains champions en souffrent beaucoup plus que d'autres. Nous apportons donc quelques changements pour que ces champions soient moins pénalisés lorsque vos contrôles ne sont pas particulièrement réactifs.
 
-Concernant les temps forts que vous pouvez enregistrer, nous avons facilité leur visionnage en améliorant le client mis à jour (spoiler : plus la peine de farfouiller dans votre explorateur de fichiers). Ces détails, plus le reste des mises à jour du client, se trouvent un peu plus bas, comme d'habitude.
+Ensuite, nous nous intéressons à la scène pro. Le MSI approche lui aussi et nous aimerions nous assurer que certaines aberrations ne dominent pas la phase de choix/bannissement, c'est pourquoi nous leur offrons des modifications bien méritées.
 
-C'est tout pour cette intro ! Accrochez vos ceintures et foncez lire ce qui suit. À bientôt dans la Faille ! 
+C'est également le moment idéal d'apporter un peu de réconfort à plusieurs champions un peu faiblards. Aatrox reçoit un supplément de force, tandis qu'Udyr bénéficie à son tour d'une petite mise à jour.
 
-Notes de patch 7.7 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-77
+Pour finir, nous en avons aussi profité pour revoir certains systèmes de jeu dans la Forêt torturée et en ARAM, afin d'améliorer nos modes de jeu les plus frénétiques.
+
+Allez-y, les Poros n'attendent que vous !
+
+Notes de patch 7.8 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-78

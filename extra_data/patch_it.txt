@@ -1,11 +1,15 @@
-Ciao a tutti!
+Ciao amici,
 
-Benvenuti nelle note sulla patch 7.7, quella dove apportiamo modifiche a un po' di roba, come i supporti dimenticati e i jungler più deboli. E poi l'immagine dell'intestazione è diversa, quindi è tutto più bello. (Abbiamo trovato una cartella piena di immagini delle vecchie stagioni, ve le proporremo, patch dopo patch!)
+la metà stagione è alle porte e il bilanciamento sarà un po' instabile per una patch, quindi considerate questa una patch di preparazione. Detto questo, ci stiamo concentrando su modifiche che devono essere applicate subito o che avranno risultati sempreverdi, pensando al futuro.
 
-I punti salienti sono che abbiamo reso più remunerativa la raccolta delle campanelle di Bard e abbiamo dato ad Amumu degli strumenti migliori per aiutare i compagni. Ora, magari, saranno suoi amici anche dopo la partita. Abbiamo semplificato la vita ad alcuni dei jungler meno popolari, come Volibear e Jarvan IV. Poi, visto che l'hype per l'MSI sta montando, abbiamo fatto un ulteriore passaggio sulla scena competitiva (i volti saranno familiari, vedrete).
+Per cominciare, cogliamo l'occasione per studiare come la latenza interagisce con il gameplay. Ovviamente a nessuno piace giocare con alta latenza, ma alcuni campioni ne soffrono di più. Abbiamo apportato dei piccoli ritocchi per semplificare la vita a quei campioni, in modo che non vengano puniti troppo quando gli input non sono particolarmente reattivi.
 
-Parlando di altri punti salienti, il client aggiornato ha delle migliorie per chi vuole rivedere i momenti migliori (spoiler: non dovete più cipollare in giro per le cartelle del vostro computer). Questi dettagli, più il resto degli aggiornamenti al client, sono in fondo alle note sulla patch, come al solito.
+Poi c'è la scena professionale. Con l'MSI alle porte, ci sono alcuni casi estremi che rischierebbero di dominare la fase di scelta/ban, quindi interveniamo con delle modifiche appropriate.
 
-Per questa patch è tutto! Allacciate le cinture e lanciatevi su questo ricco buffet di modifiche. Ci vediamo nella Landa! 
+Allo stesso tempo, questo è il momento perfetto per dare un po' di attenzioni ai campioni meno potenti, che hanno bisogno di un po' di affetto. Aatrox riceve un po' di potere in più e Udyr avrà un suo piccolo aggiornamento.
 
-Note sulla patch 7.7 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-77
+Per finire, cogliamo l'occasione per rivedere alcuni dei sistemi di gioco di Selva demoniaca e ARAM, per ripulire l'esperienza delle nostre modalità più rapide.
+
+Quindi ora uscite e andate a lanciare qualche poro!
+
+Note sulla patch 7.8 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-78

@@ -1,11 +1,15 @@
-Selamlar!
+Merhaba millet,
 
-7.7 Yama Notları'na hoş geldiniz! Bu yama döneminde bizi çeşitli değişiklikler bekliyor. Unutulup giden desteklerle zayıf ormancılar listenin başını çekiyor. Ayrıca başlık görseli de değişti; umarız beğenirsiniz. (Geçmiş sezonlardan güzel resimler içeren bir klasör bulduk ve bunları her yama döneminde değiştire değiştire kullanalım dedik!)
+Sezon Ortası'nın eli kulağında ve bir yama boyunca denge biraz 'dengesiz' olabilir; o yüzden, bu yamayı Sezon Ortası'na bir hazırlık olarak düşünürseniz seviniriz. Bu yama döneminde şimdi gerçekleşmesi şart olan, aksi hâlde bundan sonra muallak sonuçlar doğurmaları muhtemel değişikliklere odaklanıyoruz.
 
-Tını topladığında Bard'ın daha kârlı çıkması ve Amumu'nun takım arkadaşlarına yardım edebilecek daha fazla araca kavuşması, bu yama döneminin öne çıkan başlıkları. Kim bilir, belki de Bard'la Amumu oyunlardan sonra beraber takılıp arkadaş olur. Şu sıralar gözlerden biraz ırak kalan Volibear Jarvan IV gibi bazı ormancılara da birkaç değişiklikle sevgi gösteriyoruz. Ayrıca MSI heyecanı artarken rekabet sahnesine yönelik kimi düzenlemeler yapmanın da faydalı olacağını düşündük (tabii ki sürpriz simalar yok).
+Öncelikle fırsattan istifade, gecikmenin (lag) oynanışa etkisini gözden geçiriyoruz. Elbette kimse yüksek gecikmeyle oynamaktan hoşlanmaz ama bazı şampiyonların gecikmeden daha olumsuz etkilendiğini görüyoruz. Bu yüzden girdileriniz yeterince hızlı olmadığında bu şampiyonların daha az acı çekmesini sağlayacak, hayat kolaylaştıran nitelikte bazı değişiklikler getiriyoruz.
 
-Başka öne çıkan bir gelişmeye gelecek olursak, güncellenen yeni istemcinin Önemli Anlar izleme deneyiminde de bazı gelişimler bizi bekliyor (özet: artık dosya gezginiyle debelenmenize gerek kalmıyor). Bu ayrıntılar ve istemci güncellemelerinin geri kalanını her zamanki gibi notların alt bölümlerinde bulabilirsiniz.
+Tabii profesyonel sahneyi de unutmamak gerek. Sezon Ortası Özel Turnuvası (MSI) yaklaşırken seçim/yasaklama safhasına tamamen damga vurmasını istemediğimiz bazı aşırı güçlü isimlerde gerekli değişiklikleri yapmak istiyoruz.
 
-Bu yamalık bu kadar! Şimdi gözlerinizi bir güzel ovuşturun ve aşağıdaki değişiklikleri okumanın tadını çıkarın. Vadi'de görüşmek üzere! 
+Öte yandan oynanış açısından sevgiye muhtaç olan güçsüz birkaç şampiyona da ihtiyaç duydukları sevgiyi göstermenin tam sırası. Güncellenmesinin ardından Aatrox fazladan biraz güce kavuşurken, Udyr de kendi çapında bir güncelleme geçiriyor.
 
-7.7 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/77-yama-notlari
+Son olarak Sezon Ortası öncesi bu son fırsatı değerlendiriyor ve Uğursuz Koruluk ile ARAM'daki bazı oyun sistemlerine ince ayar yaparak hızlı oyun modlarımızdan bazılarında daha net deneyimler sağlamayı amaçlıyoruz.
+
+Şimdi Sonsuz Uçurum'a çıkıp birkaç poro savurmayı ihmal etmeyin.
+
+7.8 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/78-yama-notlari
