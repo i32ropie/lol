@@ -76,7 +76,7 @@ def command_match(m):
         '/match_kr',
         '/match_tr',
         '/match_ru',
-        '/match_oce'])
+        '/match_oce'] and is_admin(m.from_user.id))
 def match_info(m):
     cid = m.chat.id
     uid = m.from_user.id
@@ -114,7 +114,7 @@ def match_info(m):
 def query_summoner(q):
     cid = q.from_user.id
     # if is_beta(cid):
-    if is_banned(cid):
+    if is_banned(cid) or not is_admin(cid):
         return None
     invocador = q.query.split(None, 1)[1]
     region = q.query.split()[0].strip('#')
