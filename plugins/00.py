@@ -27,12 +27,12 @@ def command_cancel(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['cancel_1'][
-                    lang(cid)], reply_markup=types.ReplyKeyboardHide())
+                    lang(cid)], reply_markup=types.ReplyKeyboardRemove(selective=False))
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['cancel_2'][
-                    lang(cid)], reply_markup=types.ReplyKeyboardHide())
+                    lang(cid)], reply_markup=types.ReplyKeyboardRemove(selective=False))
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])

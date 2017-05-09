@@ -6,7 +6,7 @@ from keyboard import markups
 print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  steps.py importado.{/cyan}'))
 
-hideBoard = types.ReplyKeyboardHide()
+hideBoard = types.ReplyKeyboardRemove(selective=False)
 
 reply_to_msg = list()
 send_msg = list()
