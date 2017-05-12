@@ -239,15 +239,14 @@ def get_summoner_info(invocador, region, cid):
     else:
         txt = responses['summoner<30'][lang(cid)] % (
             icon_url, summoner_name, lolking, summoner_level, wins5, wins3, winsA)
-    if is_beta(cid):
-        try:
-            bst = get_3_best_champs(summoner['id'], region, cid)
-            if bst:
-                txt += '\n\n' + responses['best_champs'][lang(cid)] + ':'
-                for x, y in bst.items():
-                    txt += '\n- ' + x + ' _(Level: ' + y + ')_'
-        except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    try:
+        bst = get_3_best_champs(summoner['id'], region, cid)
+        if bst:
+            txt += '\n\n' + responses['best_champs'][lang(cid)] + ':'
+            for x, y in bst.items():
+                txt += '\n- ' + x + ' _(Level: ' + y + ')_'
+    except Exception as e:
+        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
 
 
