@@ -243,7 +243,7 @@ def get_summoner_info(invocador, region, cid):
         try:
             bst = get_3_best_champs(summoner['id'], region, cid)
             if bst:
-                txt += '\n\nBest champions:'
+                txt += '\n\n' + responses['best_champs'][lang(cid)] + ':'
                 for x, y in bst.items():
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except Exception as e:
