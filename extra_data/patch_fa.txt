@@ -1,15 +1,13 @@
-Howdy folks,
+Oh why, hello there!
 
-The midseason train is leaving the station, so hop onboard and we’ll take a look at the cargo we’re carrying.
+Midseason has been here for a patch, which means it’s time to revisit the slate of changes and course-correct for any who aren’t hitting the mark. That means a few followup changes to the three tanks, additional usability for quests, and a tweak to Spirit Visage.
 
-In the first row we have the Maokai, Sejuani and Zac updates. We’re making their kits more distinct and sharpening each of their identities. With tanks on the mind we seized the opportunity to revisit our durability items and how resistances were performing in general. We have some good stuff down below with new items like Gargoyle Stoneplate and Adaptive Helm, as well as shifts of power in items like Guardian Angel and Abyssal Scepter.
+We’re also taking this time to hit some overperforming champions and bring them in line. Fizz and Lulu are no strangers to patch notes, and Ivern has been one of the top junglers for awhile now. Knocking them down a peg should leave other champions more room to shine.
 
-Since we’re on the subject of items, we also wanted to make sure our damage items play nice with the durability changes above. We’re cool with how ability power items are doing, but to hit the right balance on the AD front we need to siphon some power from armor penetration into other stuff.
+Finally we’re delivering modernization improvements to a number of champions. The scale ranges from playstyle updates for Heimerdinger - yes, that Heimerdinger - and Rammus - yes, that Rammus - but also small quality of life tweaks (animations for Riven or Jax).
 
-We’re also adding quests to Support starting items! We wanted supports to have more room to be interactive and meaningful in lane without throwing raw stats and gold at them. We’re also improving the clarity around how they support their team: items now have more detailed stat tracking, crowd control is more visible, and the end-of-the-game screen has some beefed up stats!
+But wait, there’s more! If you enjoyed the ARAM changes from last time, we’re adding more on top of them to streamline the Howling Abyss experience.
 
-Last but not least, Rift Herald has a brand new encounter and reward. Whenever defeated, she can be summoned to wreak havoc on the closest lane - you better pay attention to her otherwise there won’t be much of your base left.
+Whether you’re dropping turrets with Heimerdinger or tremoring them down with Rammus, see you on the Rift, summoners!
 
-Now that we’ve gone over our itinerary, it’s time for this train to get rolling. Choo Choo.
-
-Patch 7.9 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-79-notes
+Patch 7.10 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-710-notes

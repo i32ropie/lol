@@ -1,15 +1,13 @@
-Hola, amigos:
+¡Hola, amigos!
 
-El tren de la mitad de temporada arranca motores, así que subid a bordo para echar un vistazo a todos los cambios que trae.
+Estamos a mitad de temporada desde hace una versión, y eso quiere decir que es hora de volver a echar un vistazo a la pizarra de cambios y corregir aquellos con los que no hemos dado en el clavo. Como resultado, tenemos ajustes a los cambios de los tres tanques, utilidades adicionales para las misiones y un retoque a Rostro espiritual.
 
-En primer lugar, en esta versión presentamos las actualizaciones de Maokai, Sejuani y Zac. Vamos a hacer que sus kits sean más característicos y a definir mejor sus identidades. Con los tanques en mente, hemos aprovechado la oportunidad para revisar los objetos de aguante y las resistencias en general. Traemos novedades interesantes: nuevos objetos como Protector pétreo de gárgola y Yelmo adaptable, además de cambios de poder en otros como Ángel de la guarda y Cetro abisal.
+En esta ocasión, también vamos a equilibrar a algunos de los campeones que están más fuertes. No es la primera vez que Fizz y Lulu aparecen en las notas de la versión, e Ivern lleva un tiempo siendo uno de los junglas más destacados. Si les restamos poder, otros campeones podrán ganar más protagonismo.
 
-Ya que estábamos revisando los objetos, pensamos que sería buena idea que los de daño también se adaptasen a los cambios de aguante. Nos parece bien el punto en el que se encuentran los objetos de poder de habilidad, pero para equilibrar los de daño de ataque hemos tenido que transformar parte del poder de la penetración de armadura en otras características.
+Por último, vamos a implementar mejoras para modernizar a unos cuantos campeones. Desde actualizaciones de estilo de juego para Heimerdinger (sí, ese Heimerdinger) y Rammus (sí, ese Rammus) hasta pequeños retoques de calidad de vida (como animaciones para Riven o Jax).
 
-¡También hemos añadido misiones a los objetos iniciales de apoyo! Queríamos que los apoyos pudieran tener más relevancia y ser más interactivos en la fase de calles sin limitarnos a aumentar sus estadísticas básicas y su oro. También quedará más claro cómo ayudan a su equipo: los objetos ahora registran las estadísticas de forma más detallada, el control de adversario es más visible y la pantalla de final de partida refleja nuevas estadísticas.
+¡Esperad, hay más! Si os gustaron los cambios de ARAM de la última vez, estáis de suerte, porque vamos a implementar más para modernizar la experiencia del Abismo de los Lamentos.
 
-Por último, pero no por ello menos importante, el Heraldo de la Grieta tiene un nuevo estilo de combate y nuevas recompensas. Cuando se le derrota, se le puede invocar para que asedie la calle más cercana, así que más os vale estar atentos, porque si os despistáis os podéis quedar sin base.
+¡Nos vemos en la Grieta, invocadores! Ya sea repartiendo torretas con Heimerdinger o derribándolas con los seísmos de Rammus.
 
-Ahora que ya tenemos claro el itinerario del tren, vamos a ponerlo en marcha. ¡Chu, chu!
-
-Notas de la Versión 7.9 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-79
+Notas de la Versión 7.10 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-710

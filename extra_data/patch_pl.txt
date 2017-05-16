@@ -1,15 +1,13 @@
-Czołem, ludziska.
+Och, witajcie!
 
-Pociąg o nazwie „Środek sezonu” właśnie odjeżdża ze stacji, więc wskakujcie na pokład i zobaczcie, jakie towary przewozi.
+Środek sezonu przyszedł do nas w ostatnim patchu, co oznacza, że nadszedł czas na przyjrzenie się zmianom i naprostowanie wszystkich, które nie do końca się sprawdzają. Oznacza to kilka dalszych zmian dla trójki obrońców, dodatkową użyteczność zadań oraz poprawkę Oblicza Ducha.
 
-W pierwszym rzędzie mamy aktualizacje Maokaia, Sejuani i Zaca. Sprawiamy, że ich umiejętności będą bardziej zróżnicowane i wyostrzamy ich osobowości. Kombinując przy obrońcach postanowiliśmy skorzystać z okazji i spojrzeć na przedmioty zapewniające wytrzymałość oraz to, jak działają odporności. Niżej mamy trochę fajnych rzeczy, jak nowe przedmioty w postaci Kamiennej Płyty Gargulca i Specjalistycznego Hełmu oraz zmiany mocy w przedmiotach takich jak Anioł Stróż i Berło Otchłani.
+Korzystamy także z sytuacji, aby zająć się bohaterami, którzy radzą sobie zbyt dobrze i doprowadzić ich do porządku. Fizz i Lulu często pojawiają się w opisach patchów, a Ivern od jakiegoś czasu jest jednym z najlepszych dżunglerów. Lekkie osłabienie ich powinno umożliwić zabłyśnięcie innym bohaterom.
 
-A skoro mowa o przedmiotach, chcieliśmy także, aby rzeczy od zadawania obrażeń odpowiednio się komponowały z powyższymi zmianami wytrzymałości. Podoba nam się to, jak radzą sobie przedmioty z mocą umiejętności, ale jeżeli chcemy posiadać odpowiednie wyważenie przy przedmiotach z obrażeniami od ataku, musimy przenieść trochę mocy z przebicia pancerza w inne miejsca.
+Na koniec trochę modernizujemy część bohaterów. Zalicza się do tego aktualizacja stylu gry dla Heimerdingera — tak, tego Heimerdingera — i Rammusa — tak, tego Rammusa — oraz drobne usprawnienia (animacje Riven i Jaxa).
 
-Dodajemy także zadania do przedmiotów startowych dla wspierających! Chcieliśmy, aby wspierający byli bardziej znaczący w alei i mieli więcej okazji do interakcji, bez rzucania w ich stronę statystyk i złota. Usprawniamy także przejrzystość tego, jak wspierają swoją drużynę: teraz przedmioty lepiej śledzą statystyki, kontrola tłumu jest lepiej widoczna, a ekran po zakończeniu rozgrywki prezentuje więcej statystyk.
+Ale chwila, to jeszcze nie koniec! Jeżeli podobały się wam ostatnie zmiany w trybie ARAM, to kontynuujemy je, aby jeszcze bardziej ulepszyć starcia na Howling Abyss.
 
-Na zakończenie, starcie z Heroldem zostaje zmienione i oferuje zupełnie nową nagrodę. Gdy się go pokona, można go przywołać, aby siał zniszczenie w najbliższej alei. Nie ignorujcie tego, bo inaczej z waszej bazy zostaną same gruzy.
+Niezależnie od tego, czy będziecie rozstawiać wieżyczki jako Heimerdinger, czy niszczyć je wstrząsami jako Rammus, do zobaczenia na Summoner’s Rift, przywoływacze!
 
-Teraz, gdy omówiliśmy już wszystko, pora rozpocząć podróż. Ciuch, ciuch.
-
-Opis patcha 7.9 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-79
+Opis patcha 7.10 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-710

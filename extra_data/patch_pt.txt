@@ -1,15 +1,13 @@
-E aí, pessoal?
+Ora ora, olá para vocês!
 
-O trem da meia-temporada está deixando a estação, então subam a bordo e vamos dar uma olhada na carga que estamos transportando.
+Entramos na meia-temporada há uma atualização, o que significa que é hora de revisitar o quadro de mudanças e fazer correções naquelas que não estão correspondendo ao objetivo. Isso significa algumas mudanças adicionais nos três tanques, mais usabilidade para as missões e um ajuste no Semblante Espiritual.
 
-Logo de cara, temos as atualizações de Maokai, Sejuani e Zac. Estamos deixando seus kits mais distintos e realçando cada uma das suas identidades. Com os tanques em mente, aproveitamos a oportunidade para rever nossos itens de durabilidade e o desempenho geral das resistências. Temos algumas coisas incríveis aqui embaixo, como os novos itens Placa Gargolítica e Elmo Adaptativo, além de mudanças de poder em itens como o Anjo Guardião e o Cetro Abissal.
+Também aproveitaremos a oportunidade para ajustar Campeões que estão tendo um desempenho muito exagerado e deixá-los mais com o pé no chão. Fizz e Lulu já marcaram presença nas notas da atualização e Ivern tem sido um dos principais caçadores já faz um tempo. Se baixarmos um pouco a bola deles, outros Campeões também terão a oportunidade de se destacarem.
 
-Já que estamos falando de itens, nós também queríamos garantir que nossos itens de dano funcionassem bem com as mudanças de durabilidade acima. Estamos satisfeitos com o desempenho dos itens de Poder de Habilidade, mas para atingir o equilíbrio certo em termos de DdA, precisamos transferir parte do poder de Penetração de Armadura para outras coisas.
+E por fim, nós vamos implementar melhorias de modernização em diversos Campeões, que variam desde atualizações no estilo de jogo de Heimerdinger (é, o Heimerdinger mesmo) e Rammus (é, o Rammus mesmo) até pequenos ajustes na qualidade de vida (animações de Riven e Jax).
 
-Também estamos adicionando missões aos itens iniciais de suporte! Queríamos que os suportes tivessem mais espaço para interagir e fazer a diferença na fase de rotas sem que precisássemos jogar ouro e atributos brutos para cima deles. Também daremos mais clareza ao suporte que eles dão a suas equipes: agora os itens têm um acompanhamento de atributos mais detalhado, os efeitos de Controle de Grupo são mais visíveis e a tela de fim de partida tem estatísticas mais robustas!
+Peraí que tem mais! Se você gostou das últimas alterações no ARAM, estamos adicionando ainda mais alterações para padronizar a experiência em Howling Abyss.
 
-Por último, mas não menos importante, o confronto e a recompensa do Arauto do Vale foram totalmente reformulados. Quando derrotado, ele pode ser invocado para causar o caos na rota mais próxima, então ou vocês prestam atenção nele ou não vai sobrar muito da sua base para contar história.
+Esteja você derrubando torres com Heimerdinger ou fazendo-as tremer com Rammus, vejo vocês no Rift, invocadores!
 
-Agora que já avaliamos nosso itinerário, está na hora deste trem pegar os trilhos. Piuííí.
-
-Notas da Atualização 7.9 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-79
+Notas da Atualização 7.10 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-710

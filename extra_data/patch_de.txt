@@ -1,15 +1,13 @@
-Sei gegrüßt, Beschwörer!
+Hallo zusammen!
 
-Der Zug der Saisonmitte ist bereit zum Abfahren, also schnapp dir schnell einen Sitzplatz und wirf einen Blick auf die anderen Passagiere.
+Die Saisonmitte ist jetzt schon ein Patch her und das heißt, es ist an der Zeit, noch einmal auf die Änderungen zurückzukommen und diejenigen zu korrigieren, die nicht ins Schwarze getroffen haben. Das wären einige Nachbereitungen für die drei Tanks, zusätzliche Verwendbarkeit für Quests und eine Anpassung von Geistessicht.
 
-In der ersten Klasse finden wir Maokai, Sejuani und Zac mit ihren Aktualisierungen. Wir differenzieren ihre Fähigkeitensets und arbeiten ihre Identitäten besser heraus. Im Tank-Abteil sehen wir uns an, wie wir die Gegenstände fürs Durchhaltevermögen ändern und wie sich Resistenzen allgemein so schlagen. Da haben wir einige gute Sachen im Gepäck, was neue Gegenstände wie den Steinpanzer des Wasserspeiers oder den Adaptiven Helm angeht. Und dann gibt es da noch einige Änderungen an älteren Gegenständen wie dem Schutzengel oder dem Höllenzepter.
+Wir nutzen die Zeit auch dazu, einige übermäßig starke Champions wieder auf den Boden der Tatsachen zurückzubringen. Fizz und Lulu sind Stammgäste in unseren Patchnotizen und Ivern war nun schon seit geraumer Zeit einer der besten Jungler. Sie etwas zurechtzustutzen sollte den anderen Champions mehr Gelegenheiten zum Glänzen bieten.
 
-Wo wir gerade beim Gepäck sind, wollen wir natürlich auch sicherstellen, dass die Schadensgegenstände sich mit denen fürs Durchhaltevermögen gut vertragen. Die Gegenstände für die Fähigkeitsstärke schlagen sich ganz gut, aber damit das auch für den Angriffsschaden gilt, müssen wir einen Teil der Stärke der Rüstungsdurchdringung auf andere Dinge verlagern.
+Und schließlich bekommen einige Champions Modernisierungen verpasst. Hier ist alles dabei von Spielstilaktualisierungen für Heimerdinger – ja, genau, Heimerdinger – und Rammus – ja, genau, Rammus – bis hin zu kleinen Anpassungen der Lebensqualität (Animationen für Riven oder Jax).
 
-Außerdem fügen wir Quests für Start-Gegenstände von Supportern hinzu! Wir wollen, dass Supporter mehr Möglichkeiten haben, in der Lane zu interagieren und dort ein interessantes Spiel zu erleben, ohne dass wir sie dafür mit Werten und Gold zuschmeißen müssen. Außerdem machen wir deutlicher, wie sie ihr Team unterstützen: Gegenstände führen jetzt bessere Statistiken, Massenkontrolle ist deutlicher sichtbar und die Spielzusammenfassung ist auch detaillierter!
+Aber da ist noch mehr! Falls dir die letzten ARAM-Änderungen gefallen haben, fügen wir noch weitere hinzu, um die Erfahrung in der Heulenden Schlucht zu optimieren.
 
-Zu guter Letzt ist der Herold der Kluft zu einer ganz neuen Begegnung mit neuer Belohnung geworden. Wird er bezwungen, kann er beschworen werden, um auf der nächstgelegenen Lane für Unruhe zu sorgen – und wenn sich keiner um ihn kümmert, wird deine Basis bald in Schutt und Asche liegen.
+Ob du nun mit Heimerdinger Geschütztürme aufbaust oder sie mit Rammus einreißt: Wir sehen uns in der Kluft, Beschwörer!
 
-Nach diesem Kurzüberblick über den Fahrplan ist es Zeit loszurollen. Tuuut-tuuut!
-
-Patchnotizen 7.9 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-79
+Patchnotizen 7.10 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-710

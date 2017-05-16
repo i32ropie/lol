@@ -1,15 +1,13 @@
 Herkese selam,
 
-Sezon Ortası treni neredeyse kalkmak üzere; o yüzden gelin, taşıdığımız yüklere şöyle bir göz atalım.
+Bir yamadır Sezon Ortası'nın içerisindeyiz ve bu da yaptığımız değişiklikleri gözden geçirip, istediğimiz noktada olmayanları rayına oturtmak için doğru zamanın geldiği anlamına geliyor. Bu yüzden üç tankımız üzerinde daha fazla değişikliğe gidiyor, hedeflere ilave kullanışlılık ekliyor ve Ruh Gömleği'ne biraz ince ayar çekiyoruz.
 
-İlk sırada Maokai, Sejuani ve Zac güncellemeleri bulunuyor. Her birinin yetenek setini daha belirgin hâle getirerek kimliklerini öne çıkarıyoruz. Tanklar demişken, fırsattan istifade dayanıklılık eşyalarına ve dirençlerin genel anlamda nasıl çalıştıklarına yeniden baktık. Gargoyl Taşzırhı ve Değişken Miğfer gibi yeni eşyaların yanında, Koruyucu Melek ve Cehennem Asası gibi güç seviyelerinde değişikliklere gittiğimiz eski eşyalar aşağıda sizi bekliyor.
+Ayrıca hazır elimiz değmişken, gereğinden fazla iyi durumdaki bazı şampiyonlar için bir dengeleme çalışmasına girişiyoruz. Fizz ve Lulu yama notlarında boy göstermeye fazlasıyla alışık ve Ivern de bir süredir oyunun en sağlam ormancılarından biri. Onları birazcık aşağı çekmek diğer şampiyonlara da kendilerini gösterme imkânı tanıyacak.
 
-Ayrıca hasar eşyalarımızın yukarıda bahsettiğimiz dayanıklılık eşyalarını kıskanmadığından da emin olmak istedik. Yetenek gücü eşyalarının şu anki durumundan memnunuz; ancak işin saldırı gücü tarafını dengelemek için zırh delmenin sahip olduğu gücün bir kısmını başka taraflara kaydırmamız gerekiyor.
+Son olarak bazı şampiyonlara, onları daha modern hâle getirecek bazı iyileştirmeler getiriyoruz. Bunların arasında Heimerdinger (hani şu bildiğimiz Heimerdinger) ve Rammus (evet, o Rammus) için oynanış değişiklikleri ile hayatınızı kolaylaştıracak bazı yenilikler (Riven ve Jax için animasyonlar) bulunuyor.
 
-Bunlara ek olarak destek başlangıç eşyalarına hedefler ekliyoruz! Destek şampiyonlarına kuru kuru nitelik ve altın vermeden, onları koridorda daha etkileşimli ve anlamlı kılmak istedik. Takımlarını ne şekilde desteklediklerini de daha açık hâle getiriyoruz: Eşyalar artık daha detaylı istatistik takibine sahip, kitle kontrolü artık daha belirgin ve oyun sonu ekranında daha geniş istatistikler bulunuyor.
+Durun, daha bitmedi! Eğer son getirdiğimiz ARAM değişikliklerini beğendiyseniz, Sonsuz Uçurum deneyimini çok daha derli toplu bir hâle getirecek yeniliklerimize bayılacaksınız.
 
-Son olarak Vadi’nin Alameti artık yepyeni bir karşılaşma biçimine ve ödüle sahip. Alt edildiğinde en yakın koridora korku salması için çağrılabilecek. Ona dikkat etseniz iyi olur yoksa bir anda üssüz kalabilirsiniz.
+Sizleri yeniden Heimerdinger ile her yeri taretlerle doldururken ya da Rammus ile bu taretleri yerle bir ederken görmek için sabırsızlanıyoruz!
 
-Yol haritamızı da çizdiğimize göre artık treni çalıştırabiliriz. Çuf çuf!
-
-7.9 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/79-yama-notlari
+7.10 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/710-yama-notlari

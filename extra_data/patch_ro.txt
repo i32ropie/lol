@@ -1,15 +1,13 @@
-Salutare, oameni buni!
+Ah, salut, salut!
 
-Trenul spre mijlocul sezonului pleacă din stație de la linia 1. Vă rugăm, poftiți în vagoane pentru a vedea noutățile pe care vi le-am pregătit.
+Mijlocul sezonului e live de un patch întreg, deci a venit timpul să analizăm schimbările introduse și să le ajustăm pe cele care nu și-au atins scopurile. Mai exact, le vom aduce câteva modificări celor trei campioni tanc pe care i-am actualizat, misiunile vor deveni mai ușor de înțeles și vom ajusta ''Înfățișarea sufletului''.
 
-În primul vagon veți găsi actualizările lui Maokai, Sejuani și Zac, ale căror abilități devin mai distincte și ale căror identități sunt acum mai bine conturate. Dacă tot am fost cu gândul la campionii-tanc, am profitat de ocazie pentru a actualiza obiectele de rezistență și a analiza cum funcționează rezistențele în general. Avem numai bunătăți acolo, printre care noutăți ca ''Platoșa garguiului'' și ''Coiful cameleonic'', dar și obiecte a căror putere și-a schimbat destinația, cum ar fi ''Îngerul păzitor'' și ''Sceptrul abisal''.
+În plus, profităm de ocazia asta pentru a mai reduce din puterea campionilor care se descurcă PREA bine în momentul de față. Fizz și Lulu sunt clienți fideli ai notelor de patch, iar Ivern e alegerea preferată a junglerilor de ceva timp. Acum că le mai scădem din putere, ceilalți campioni vor avea șansa să arate și ei ce pot.
 
-Și dacă tot vorbim de obiecte, vrem să ne asigurăm că obiectele care provoacă daune se înțeleg bine cu schimbările aduse celor de rezistență. Obiectele de puterea abilităților fac cam ce ar trebui, dar, pentru a nimeri echilibrul perfect în cazul daunelor din atac, trebuie să mutăm o parte din puterea penetrării armurii în alte zone.
+Nu în ultimul rând, le aducem modernizări câtorva campioni: de la actualizări de stil de joc pentru Heimerdinger (da, ACEL Heimerdinger) și Rammus (da, ACEL Rammus), până la mici îmbunătățiri de calitate (animații pentru Riven și Jax).
 
-În plus, obiectele esențiale pentru campionii de suport oferă acum misiuni! Ne dorim ca cei care joacă rolul de suport să poată interacționa mai des și mai semnificativ pe culoar, dar fără să aruncăm în ei cu atribute și aur. Îmbunătățim și claritatea modului în care aceștia își susțin echipa: obiectele au acum statistici mai detaliate, controlul maselor este mai vizibil, iar ecranul de la sfârșitul jocului afișează noi statistici!
+Dar stați așa, încă n-am terminat! Sperăm că v-au plăcut schimbările legate de ARAM din ultimele note de patch, căci am mai adăugat câteva pentru a finisa experiența din Abisul Urletelor.
 
-În cele din urmă, Solul Riftului are un stil de luptă și recompense complet noi. Când e înfrântă (da, Solul e o ''ea''!), poate fi invocată pentru a distruge totul în cale pe culoarul cel mai apropiat. Stați cu ochii pe ea, dacă nu vreți să rămâneți fără bază!
+Indiferent dacă preferați turelele lui Heimerdinger sau trepidațiile lui Rammus, ne vedem în Rift!
 
-Acum că v-am vorbit despre itinerariu, e timpul ca trenul să pornească la drum. În vagoane, vă rugăm!
-
-Notele patch-ului 7.5 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-79
+Notele patch-ului 7.10 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-710

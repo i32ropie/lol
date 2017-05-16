@@ -1,15 +1,13 @@
-Salve gente,
+Ehi, ciao a tutti!
 
-il treno di metà stagione è in partenza! Salite a bordo e date un'occhiata ai passeggeri di oggi.
+La metà stagione è qui con noi da una patch, quindi è il momento di rivedere le modifiche e correggere la rotta in caso non stiano avendo gli effetti sperati. Il che significa che abbiamo modifiche di ritorno per i tre tank, che abbiamo reso le missioni più utilizzabili e che abbiamo ritoccato Corazza spirituale.
 
-In prima classe abbiamo gli aggiornamenti di Maokai, Sejuani e Zac. Vogliamo rendere ciascuno di loro più particolare affinando le differenze dei singoli set di abilità. Con i tank in mente, abbiamo colto l'occasione di rimaneggiare i nostri oggetti di resistenza e come in generale le resistenze si stavano comportando nel gioco. Per questo, in seconda classe potrete incontrare nuovi oggetti come la Lastrapietra del gargoyle e l'Elmo adattivo, insieme a un po' di ribilanciamento di alcuni oggetti come l'Angelo custode e lo Scettro dell'abisso.
+Sfruttiamo l'occasione anche per regolare alcuni campioni troppo forti, rimettendoli in riga. Fizz e Lulu sono apparsi più volte nelle note sulla patch, e Ivern è da tempo una delle giungle più usate. Ridimensionarli un po' lascerà più spazio agli altri campioni.
 
-Già che stiamo parlando di oggetti, volevamo essere sicuri che i nostri oggetti dei danni ben si armonizzassero con i cambi alla resistenza di cui sopra. Ci troviamo bene con le attuali performance degli oggetti di potere magico, ma per essere sicuri di bilanciare appieno le cose dalla prospettiva dell'attacco fisico, dovevamo reindirizzare un po' di potere dalla penetrazione armatura ad altre cose.
+Per finire, abbiamo apportato migliorie per modernizzare alcuni campioni. Andiamo da modifiche allo stile di gioco di Heimerdinger (si, proprio quell'Heimerdinger) e Rammus (sì, quel Rammus), ma anche piccoli ritocchi per l'usabilità (le animazioni di Riven o Jax).
 
-Stiamo per aggiungere anche un po' di missioni agli oggetti iniziali dei supporti! Il nostro obiettivo era quello di permettere ai supporti di essere più dinamici ed avere un impatto più significativo nella fase di corsia, ma senza riempirli di mere statistiche e oro a caso. Volevamo anche che si facesse più chiarezza su come i supporti aiutano la loro squadra: ora gli oggetti hanno un tracciamento delle statistiche più dettagliato, gli effetti di controllo sono più visibili e la schermata di fine partita presenta informazioni più dettagliate.
+Ma non finisce qui! Se vi sono piaciute le modifiche ad ARAM della volta scorsa, vi piacerà anche quello che abbiamo fatto per rendere più fluida l'esperienza in Abisso ululante.
 
-In terza classe, ma con un vagone tutto per sé, il Messaggero della Landa ha un nuovo incontro e ricompensa. Dopo esser stato sconfitto, può essere evocato per portare distruzione nella corsa più vicina. Vi conviene tenerlo d'occhio, o non vi rimarrà molto della vostra base.
+Che siate degli Heimerdinger che sganciano torrette o dei tumultuosi Rammus, ci vediamo nella Landa, evocatori!
 
-Ora che vi ho presentato i passeggeri, è tempo che il treno parta. Ciuf ciuf!
-
-Note sulla patch 7.9 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-79
+Note sulla patch 7.10 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-710

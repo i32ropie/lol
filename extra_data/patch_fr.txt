@@ -1,15 +1,13 @@
 Bonjour à tous !
 
-Le train de la mi-saison est sur le point de quitter la gare, alors embarquez vite avec nous pour voir ce qu'on trouve dans ses wagons.
+La mi-saison est en place depuis un patch, ce qui signifie que nous pouvons à présent faire la liste des modifications et autres changements de cap que nous allons offrir à tous ceux qui ne répondent pas à nos attentes. Nous allons peaufiner la mise à jour de nos tanks, améliorer les quêtes et ajuster le Visage spirituel.
 
-À l'avant du train, nous avons les mises à jour de Maokai, Sejuani et Zac. Nous rendons leurs kits plus distincts et nous affinons leurs identités respectives. Comme nous travaillions sur les tanks, nous en avons profité pour revoir nos objets de durabilité et le fonctionnement général des résistances. De chouettes nouveautés vous attendent ci-dessous, comme les objets Lithoplastron de gargouille et Casque adaptatif, mais certains objets existants ont aussi eu droit à des changements conséquents, comme l'Ange gardien et le Sceptre abyssal.
+Nous en profitons également pour faire rentrer dans le rang certains champions un poil trop forts. Fizz et Lulu sont des habitués des notes de patch, et Ivern est l'un des meilleurs junglers depuis un bon moment. En réduisant un peu leurs forces, nous devrions permettre à d'autres champions de briller.
 
-En parlant des objets : nous voulions également faire en sorte que nos objets de dégâts ne soient pas complètement déséquilibrés par les changements apportés à la durabilité. Nous sommes satisfaits des performances des objets de puissance, mais pour que les objets de dégâts d'attaque atteignent le bon équilibre, il faut transférer une partie de la force de la pénétration d'armure vers d'autres choses.
+Pour finir, nous effectuons des améliorations pour moderniser plusieurs champions. Pour certains, il s'agit de mise à jour de leur style de jeu (Heimerdinger et Rammus), mais d'autres reçoivent de simples ajustements qui vous simplifieront la vie (les animations de Riven et de Jax).
 
-Nous avons aussi ajouté des quêtes aux objets de support ! Nous voulions que les supports aient davantage d'occasions d'agir et d'avoir un impact sur leur voie, sans pour autant les couvrir de PO et augmenter leurs stats. Nous améliorons par ailleurs la clarté qui entoure la contribution des supports à l'effort de guerre : les objets affichent désormais plus de détails, les contrôles de foule sont plus visibles et l'écran de fin de partie vous propose toujours plus de stats à comparer !
+Mais attendez, ce n'est pas tout ! Si vous avez aimé les changements apportés à l'ARAM lors du précédent patch, nous en faisons de nouveau pour fluidifier l'expérience dans l'Abîme hurlant.
 
-Pour finir, le héraut de la Faille vous offre une toute nouvelle récompense... mais le combat contre lui a aussi été entièrement revu ! Une fois le héraut vaincu, vous pouvez l'invoquer pour qu'il aille semer la destruction sur la voie la plus proche. Et si c'est l'équipe adverse qui s'est adjoint ses services, occupez-vous vite de son cas, où votre base ne fera pas long feu.
+Que vous posiez des tourelles avec Heimerdinger ou que vous les secouiez avec Rammus, GLHF dans la Faille !
 
-Maintenant que nous avons jeté un coup d'œil au trajet de notre train, il est l'heure de se mettre en route. Tchou-tchouuuuu.
-
-Notes de patch 7.9 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-79
+Notes de patch 7.10 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-710
