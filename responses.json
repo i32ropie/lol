@@ -1292,7 +1292,7 @@
         "fa":"[⁣](%s)*اسم*: [%s](%s)\n*لِوِل*: _%s_\n\n*بازی های نرمال:\n\t5v5 برد ها*: _%s_\n\t*3v3 بردها*: _%s_\n\t*برد ها در آرام*: _%s_",
         "pl":"[⁣](%s)*Imię*: [%s](%s)\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_",
         "tr":"[⁣](%s)*İsim*: [%s](%s)\n*Seviye*: _%s_\n\n*Normal oyunlar:\n\t5v5 zaferleri*: _%s_\n\t*3v3 zaferleri*: _%s_\n\t*Aram zaferleri*: _%s_",
-        "ro":"[](%s)*Nume*: [%s] (%s)\n*Nivel*: _%s_\n\n*Meciuri normale:\n\tCâștiguri 5v5*: _%s_\n\t*Câștiguri 3v3*: _%s_\n\t*Câștiguri Aram*: _%s_",
+        "ro":"[](%s)*Nume*: [%s](%s)\n*Nivel*: _%s_\n\n*Meciuri normale:\n\tCâștiguri 5v5*: _%s_\n\t*Câștiguri 3v3*: _%s_\n\t*Câștiguri Aram*: _%s_",
         "ru":"[⁣](%s)*Имя*: [%s](%s)\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_"
     },
     "summoner<30_2":{
@@ -1318,7 +1318,7 @@
         "fa":"[⁣](%s)*اسم*: [%s](%s)\n*لِوِل*: _%s_\n\n*بازی های نرمال:\n\t5v5 بردها*: _%s_\n\t*3v3 بردها*: _%s_\n\t*برد ها در آرام*: _%s_\n\n*بازی های رَنک:\n\tلیگ*: _%s_ _%s_\n\t*بردها*: _%s_\n\t*باخت ها*: _%s_\n\t*درصد پیروزی*: _%s_\n\t*امتیاز لیگ*: _%s_",
         "pl":"[⁣](%s)*Imię*: [%s](%s)\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_\n\n*Rankingowe gry:\n\tLiga*: _%s_ _%s_\n\t*Wygrane*: _%s_\n\t*Przegrane*: _%s_\n\t*Winrate*: _%s_\n\t*Punkty ligowe*: _%s_",
         "tr":"[⁣](%s)*İsim*: [%s](%s)\n*Seviye*: _%s_\n\n*Normal oyunlar:\n\t5v5 zaferleri*: _%s_\n\t*3v3 zaferleri*: _%s_\n\t*Aram zaferleri*: _%s_\n\n*Dereceli Oyunlar:\n\tLig*: _%s_ _%s_\n\t*Zaferler*: _%s_\n\t*Yenilgiler*: _%s_\n\t*Kazanma oranı*: _%s_\n\t*Lig puanı*: _%s_",
-        "ro":"[⁣](%s)*Nume*: [%s](%s)\n*Nivel*: _%s_\n\n*Meciuri normale:\n\tCâștiguri 5v5*: _%s_\n\t*Câștiguri 3v3*: _%s_\n\t*Câștiguri Aram*: _%s_\n\n*Meciuri Rank*\n\tLigă*: _%s_ _%s_\n\t*Câștiguri*: _%s_\n\t*Pierderi*: _%s_\n\t*Procent câștiguri*: _%s_\n\t*Puncte ligă*: _%s_",
+        "ro":"[⁣](%s)*Nume*: [%s](%s)\n*Nivel*: _%s_\n\n*Meciuri normale:\n\tCâștiguri 5v5*: _%s_\n\t*Câștiguri 3v3*: _%s_\n\t*Câștiguri Aram*: _%s_\n\n*Meciuri Rank\n\tLigă*: _%s_ _%s_\n\t*Câștiguri*: _%s_\n\t*Pierderi*: _%s_\n\t*Procent câștiguri*: _%s_\n\t*Puncte ligă*: _%s_",
         "ru":"[⁣](%s)*Имя*: [%s](%s)\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_\n\n*Пробед в ранкеде:\n\tЛига*: _%s_ _%s_\n\t*Побед*: _%s_\n\t*Поражений*: _%s_\n\t*Винрейт*: _%s_\n\t*Очки лиги*: _%s_"
     },
     "summoner_30_2":{
