@@ -1,15 +1,15 @@
-Bonjour tout le monde !
+Bonjour à tous !
 
-La mi-saison est sur le point d'arriver et l'équilibrage va être quelque peu approximatif d'ici là, alors voyez ce patch comme une sorte de préparation des choses à venir. Nous nous concentrons cependant sur des changements qui devaient avoir lieu maintenant ou qui auront des effets durables.
+Le train de la mi-saison est sur le point de quitter la gare, alors embarquez vite avec nous pour voir ce qu'on trouve dans ses wagons.
 
-Tout d'abord, nous nous sommes penchés sur les interactions de la latence avec le jeu. Personne n'aime jouer avec une latence élevée, c'est évident, mais certains champions en souffrent beaucoup plus que d'autres. Nous apportons donc quelques changements pour que ces champions soient moins pénalisés lorsque vos contrôles ne sont pas particulièrement réactifs.
+À l'avant du train, nous avons les mises à jour de Maokai, Sejuani et Zac. Nous rendons leurs kits plus distincts et nous affinons leurs identités respectives. Comme nous travaillions sur les tanks, nous en avons profité pour revoir nos objets de durabilité et le fonctionnement général des résistances. De chouettes nouveautés vous attendent ci-dessous, comme les objets Lithoplastron de gargouille et Casque adaptatif, mais certains objets existants ont aussi eu droit à des changements conséquents, comme l'Ange gardien et le Sceptre abyssal.
 
-Ensuite, nous nous intéressons à la scène pro. Le MSI approche lui aussi et nous aimerions nous assurer que certaines aberrations ne dominent pas la phase de choix/bannissement, c'est pourquoi nous leur offrons des modifications bien méritées.
+En parlant des objets : nous voulions également faire en sorte que nos objets de dégâts ne soient pas complètement déséquilibrés par les changements apportés à la durabilité. Nous sommes satisfaits des performances des objets de puissance, mais pour que les objets de dégâts d'attaque atteignent le bon équilibre, il faut transférer une partie de la force de la pénétration d'armure vers d'autres choses.
 
-C'est également le moment idéal d'apporter un peu de réconfort à plusieurs champions un peu faiblards. Aatrox reçoit un supplément de force, tandis qu'Udyr bénéficie à son tour d'une petite mise à jour.
+Nous avons aussi ajouté des quêtes aux objets de support ! Nous voulions que les supports aient davantage d'occasions d'agir et d'avoir un impact sur leur voie, sans pour autant les couvrir de PO et augmenter leurs stats. Nous améliorons par ailleurs la clarté qui entoure la contribution des supports à l'effort de guerre : les objets affichent désormais plus de détails, les contrôles de foule sont plus visibles et l'écran de fin de partie vous propose toujours plus de stats à comparer !
 
-Pour finir, nous en avons aussi profité pour revoir certains systèmes de jeu dans la Forêt torturée et en ARAM, afin d'améliorer nos modes de jeu les plus frénétiques.
+Pour finir, le héraut de la Faille vous offre une toute nouvelle récompense... mais le combat contre lui a aussi été entièrement revu ! Une fois le héraut vaincu, vous pouvez l'invoquer pour qu'il aille semer la destruction sur la voie la plus proche. Et si c'est l'équipe adverse qui s'est adjoint ses services, occupez-vous vite de son cas, où votre base ne fera pas long feu.
 
-Allez-y, les Poros n'attendent que vous !
+Maintenant que nous avons jeté un coup d'œil au trajet de notre train, il est l'heure de se mettre en route. Tchou-tchouuuuu.
 
-Notes de patch 7.8 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-78
+Notes de patch 7.9 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-79

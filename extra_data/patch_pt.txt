@@ -1,15 +1,15 @@
-Fala, galera!
+E aí, pessoal?
 
-A meia-temporada está chegando e o balanceamento vai ficar um pouco instável, então vamos encarar esta Atualização como uma espécie de configuração. Dito isso, vamos nos concentrar em mudanças que precisam ser feitas agora ou mudanças cujos resultados gerarão frutos no futuro.
+O trem da meia-temporada está deixando a estação, então subam a bordo e vamos dar uma olhada na carga que estamos transportando.
 
-Primeiro, vamos aproveitar a oportunidade para analisar a forma como a latência interage com a jogabilidade. Obviamente, ninguém gosta de jogar com a latência alta, mas alguns Campeões são mais afetados do que outros. Vamos incluir algumas mudanças na Qualidade de Vida para deixar esses Campeões menos vulneráveis quando seus comandos não estiverem sendo enviados no tempo ideal.
+Logo de cara, temos as atualizações de Maokai, Sejuani e Zac. Estamos deixando seus kits mais distintos e realçando cada uma das suas identidades. Com os tanques em mente, aproveitamos a oportunidade para rever nossos itens de durabilidade e o desempenho geral das resistências. Temos algumas coisas incríveis aqui embaixo, como os novos itens Placa Gargolítica e Elmo Adaptativo, além de mudanças de poder em itens como o Anjo Guardião e o Cetro Abissal.
 
-Depois temos a cena profissional. Com a chegada do MSI, gostaríamos de ajustar alguns Campeões que estão acima da curva para que eles não dominem totalmente a fase de escolha/banimento.
+Já que estamos falando de itens, nós também queríamos garantir que nossos itens de dano funcionassem bem com as mudanças de durabilidade acima. Estamos satisfeitos com o desempenho dos itens de Poder de Habilidade, mas para atingir o equilíbrio certo em termos de DdA, precisamos transferir parte do poder de Penetração de Armadura para outras coisas.
 
-Por outro lado, agora é o momento perfeito para cuidar melhor de alguns Campeões mais fraquinhos que precisam de um empurrãozinho no estilo de jogo. Aatrox vai ficar um pouco mais forte após sua atualização, e Udyr também vai ganhar uma pequena atualização para chamar de sua.
+Também estamos adicionando missões aos itens iniciais de suporte! Queríamos que os suportes tivessem mais espaço para interagir e fazer a diferença na fase de rotas sem que precisássemos jogar ouro e atributos brutos para cima deles. Também daremos mais clareza ao suporte que eles dão a suas equipes: agora os itens têm um acompanhamento de atributos mais detalhado, os efeitos de Controle de Grupo são mais visíveis e a tela de fim de partida tem estatísticas mais robustas!
 
-Finalmente, nós vamos aproveitar esta oportunidade para fazer ajustes finos nos sistemas de jogo em Twisted Treeline e no ARAM e proporcionar uma experiência mais enxuta em nossos modos de jogo mais rápidos.
+Por último, mas não menos importante, o confronto e a recompensa do Arauto do Vale foram totalmente reformulados. Quando derrotado, ele pode ser invocado para causar o caos na rota mais próxima, então ou vocês prestam atenção nele ou não vai sobrar muito da sua base para contar história.
 
-Então vá já arremessar uns Poros pelo mapa.
+Agora que já avaliamos nosso itinerário, está na hora deste trem pegar os trilhos. Piuííí.
 
-Notas da Atualização 7.8 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-78
+Notas da Atualização 7.9 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-79

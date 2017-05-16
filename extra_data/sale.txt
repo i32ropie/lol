@@ -1,8 +1,8 @@
-/Braum: 487 RP
-/LeeSin: 440 RP
-/Zilean: 292 RP
-/Gragas: 395 RP
-/Karma_2: 260 RP
-/Rammus_2: 375 RP
-/Elise_3: 487 RP
-/Zed_3: 675 RP
+/Lissandra: 487 RP
+/Nocturne: 440 RP
+/Akali: 395 RP
+/Riven: 440 RP
+/Nidalee_4: 260 RP
+/Ahri_2: 375 RP
+/Karthus_3: 487 RP
+/Jinx_2: 675 RP

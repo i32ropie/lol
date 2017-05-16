@@ -1,15 +1,15 @@
-Waddup fam,
+Howdy folks,
 
-Midseason is coming up soon and balance will be a bit wobbly for a patch, so consider this patch more of a setup. That being said, we’re focusing on changes that either need to happen now, or will have evergreen results going forwards.
+The midseason train is leaving the station, so hop onboard and we’ll take a look at the cargo we’re carrying.
 
-First, we’re taking this chance to look at the way latency interacts with gameplay. Obviously, nobody likes playing on high latency, but some champions suffer far more from the impact. We’re putting in some Quality of Life changes to make those champions less punishing when your inputs aren’t quite as responsive.
+In the first row we have the Maokai, Sejuani and Zac updates. We’re making their kits more distinct and sharpening each of their identities. With tanks on the mind we seized the opportunity to revisit our durability items and how resistances were performing in general. We have some good stuff down below with new items like Gargoyle Stoneplate and Adaptive Helm, as well as shifts of power in items like Guardian Angel and Abyssal Scepter.
 
-Then, there’s the pro scene. With MSI coming up, there are a few strong outliers we’d like to make sure aren’t completely dominating pick/ban phase, so we’re making appropriate changes as needed.
+Since we’re on the subject of items, we also wanted to make sure our damage items play nice with the durability changes above. We’re cool with how ability power items are doing, but to hit the right balance on the AD front we need to siphon some power from armor penetration into other stuff.
 
-On the other end of the spectrum, now is the perfect time to show love to some underpowered champions who need playstyle love. Aatrox is getting some extra power in the aftermath of his update, while Udyr is getting a tiny update of his own.
+We’re also adding quests to Support starting items! We wanted supports to have more room to be interactive and meaningful in lane without throwing raw stats and gold at them. We’re also improving the clarity around how they support their team: items now have more detailed stat tracking, crowd control is more visible, and the end-of-the-game screen has some beefed up stats!
 
-Finally, we’re taking this chance to retune some of the game systems in Twisted Treeline and ARAM to give some of our quicker game modes a cleaner experience.
+Last but not least, Rift Herald has a brand new encounter and reward. Whenever defeated, she can be summoned to wreak havoc on the closest lane - you better pay attention to her otherwise there won’t be much of your base left.
 
-So get out there and toss some Poros.
+Now that we’ve gone over our itinerary, it’s time for this train to get rolling. Choo Choo.
 
-Patch 7.8 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-78-notes
+Patch 7.9 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-79-notes

@@ -1,15 +1,15 @@
-Hej, ludziska.
+Czołem, ludziska.
 
-Zbliża się środek sezonu i wyważanie będzie trochę utrudnione na czas jednego patcha, więc ten patch możecie uznać za przygotowanie do tego. To powiedziawszy, skupiamy się na zmianach, które albo muszą zdarzyć się teraz, albo ich rezultaty będą utrzymywać się przez długi czas.
+Pociąg o nazwie „Środek sezonu” właśnie odjeżdża ze stacji, więc wskakujcie na pokład i zobaczcie, jakie towary przewozi.
 
-Po pierwsze, wykorzystujemy tę okazję, by przyjrzeć się temu, jak opóźnienie wpływa na rozgrywkę. Oczywiście nikt nie lubi grać z dużym opóźnieniem, ale niektórzy bohaterowie odczuwają to bardziej niż inni. Wprowadzamy kilka zmian, które sprawią, że nie będą oni aż tak poszkodowani, gdy będą reagować na polecenia z opóźnieniem.
+W pierwszym rzędzie mamy aktualizacje Maokaia, Sejuani i Zaca. Sprawiamy, że ich umiejętności będą bardziej zróżnicowane i wyostrzamy ich osobowości. Kombinując przy obrońcach postanowiliśmy skorzystać z okazji i spojrzeć na przedmioty zapewniające wytrzymałość oraz to, jak działają odporności. Niżej mamy trochę fajnych rzeczy, jak nowe przedmioty w postaci Kamiennej Płyty Gargulca i Specjalistycznego Hełmu oraz zmiany mocy w przedmiotach takich jak Anioł Stróż i Berło Otchłani.
 
-Następnie przechodzimy do rozgrywek profesjonalnych. Ponieważ zbliża się MSI, zajmujemy się kilkoma silnymi postaciami, aby mieć pewność, że nie zdominują całkowicie etapu wyboru i banowania, więc wprowadzamy niezbędne zmiany.
+A skoro mowa o przedmiotach, chcieliśmy także, aby rzeczy od zadawania obrażeń odpowiednio się komponowały z powyższymi zmianami wytrzymałości. Podoba nam się to, jak radzą sobie przedmioty z mocą umiejętności, ale jeżeli chcemy posiadać odpowiednie wyważenie przy przedmiotach z obrażeniami od ataku, musimy przenieść trochę mocy z przebicia pancerza w inne miejsca.
 
-Z drugiej strony teraz nadarza się idealna okazja do wzmocnienia kilku słabszych bohaterów, którzy potrzebują miłości. Aatrox otrzymuje trochę dodatkowej mocy w związku z ostatnią aktualizacją, a Udyr dostaje kilka drobnych zmian.
+Dodajemy także zadania do przedmiotów startowych dla wspierających! Chcieliśmy, aby wspierający byli bardziej znaczący w alei i mieli więcej okazji do interakcji, bez rzucania w ich stronę statystyk i złota. Usprawniamy także przejrzystość tego, jak wspierają swoją drużynę: teraz przedmioty lepiej śledzą statystyki, kontrola tłumu jest lepiej widoczna, a ekran po zakończeniu rozgrywki prezentuje więcej statystyk.
 
-Kończąc, wykorzystujemy okazję, aby poprawić kilka rzeczy związanych z rozgrywką na Twisted Treeline i w trybie ARAM, aby grało się przyjemniej.
+Na zakończenie, starcie z Heroldem zostaje zmienione i oferuje zupełnie nową nagrodę. Gdy się go pokona, można go przywołać, aby siał zniszczenie w najbliższej alei. Nie ignorujcie tego, bo inaczej z waszej bazy zostaną same gruzy.
 
-Ruszajcie do walki i rzucania Poro!
+Teraz, gdy omówiliśmy już wszystko, pora rozpocząć podróż. Ciuch, ciuch.
 
-Opis patcha 7.8 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-78
+Opis patcha 7.9 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-79

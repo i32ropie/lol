@@ -1,15 +1,15 @@
-Ciao amici,
+Salve gente,
 
-la metà stagione è alle porte e il bilanciamento sarà un po' instabile per una patch, quindi considerate questa una patch di preparazione. Detto questo, ci stiamo concentrando su modifiche che devono essere applicate subito o che avranno risultati sempreverdi, pensando al futuro.
+il treno di metà stagione è in partenza! Salite a bordo e date un'occhiata ai passeggeri di oggi.
 
-Per cominciare, cogliamo l'occasione per studiare come la latenza interagisce con il gameplay. Ovviamente a nessuno piace giocare con alta latenza, ma alcuni campioni ne soffrono di più. Abbiamo apportato dei piccoli ritocchi per semplificare la vita a quei campioni, in modo che non vengano puniti troppo quando gli input non sono particolarmente reattivi.
+In prima classe abbiamo gli aggiornamenti di Maokai, Sejuani e Zac. Vogliamo rendere ciascuno di loro più particolare affinando le differenze dei singoli set di abilità. Con i tank in mente, abbiamo colto l'occasione di rimaneggiare i nostri oggetti di resistenza e come in generale le resistenze si stavano comportando nel gioco. Per questo, in seconda classe potrete incontrare nuovi oggetti come la Lastrapietra del gargoyle e l'Elmo adattivo, insieme a un po' di ribilanciamento di alcuni oggetti come l'Angelo custode e lo Scettro dell'abisso.
 
-Poi c'è la scena professionale. Con l'MSI alle porte, ci sono alcuni casi estremi che rischierebbero di dominare la fase di scelta/ban, quindi interveniamo con delle modifiche appropriate.
+Già che stiamo parlando di oggetti, volevamo essere sicuri che i nostri oggetti dei danni ben si armonizzassero con i cambi alla resistenza di cui sopra. Ci troviamo bene con le attuali performance degli oggetti di potere magico, ma per essere sicuri di bilanciare appieno le cose dalla prospettiva dell'attacco fisico, dovevamo reindirizzare un po' di potere dalla penetrazione armatura ad altre cose.
 
-Allo stesso tempo, questo è il momento perfetto per dare un po' di attenzioni ai campioni meno potenti, che hanno bisogno di un po' di affetto. Aatrox riceve un po' di potere in più e Udyr avrà un suo piccolo aggiornamento.
+Stiamo per aggiungere anche un po' di missioni agli oggetti iniziali dei supporti! Il nostro obiettivo era quello di permettere ai supporti di essere più dinamici ed avere un impatto più significativo nella fase di corsia, ma senza riempirli di mere statistiche e oro a caso. Volevamo anche che si facesse più chiarezza su come i supporti aiutano la loro squadra: ora gli oggetti hanno un tracciamento delle statistiche più dettagliato, gli effetti di controllo sono più visibili e la schermata di fine partita presenta informazioni più dettagliate.
 
-Per finire, cogliamo l'occasione per rivedere alcuni dei sistemi di gioco di Selva demoniaca e ARAM, per ripulire l'esperienza delle nostre modalità più rapide.
+In terza classe, ma con un vagone tutto per sé, il Messaggero della Landa ha un nuovo incontro e ricompensa. Dopo esser stato sconfitto, può essere evocato per portare distruzione nella corsa più vicina. Vi conviene tenerlo d'occhio, o non vi rimarrà molto della vostra base.
 
-Quindi ora uscite e andate a lanciare qualche poro!
+Ora che vi ho presentato i passeggeri, è tempo che il treno parta. Ciuf ciuf!
 
-Note sulla patch 7.8 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-78
+Note sulla patch 7.9 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-79

@@ -1,15 +1,15 @@
-¡Hola, amigos!
+Hola, amigos:
 
-La mitad de la temporada está a la vuelta de la esquina y los ajustes de equilibrio requerirán más de una actualización, así que tomaos esta versión como una puesta en marcha. Dicho esto, nos vamos a centrar en los cambios necesarios en este momento y en aquellos que darán su fruto más adelante.
+El tren de la mitad de temporada arranca motores, así que subid a bordo para echar un vistazo a todos los cambios que trae.
 
-En primer lugar, vamos a aprovechar la oportunidad para estudiar cómo afecta la latencia a la experiencia de juego. Obviamente, a nadie le gusta jugar con mucha latencia, pero algunos campeones se ven más afectados. Vamos a implementar algunos cambios de calidad de la experiencia para hacer que esos campeones sufran menos las consecuencias cuando la respuesta no es tan rápida como debería.
+En primer lugar, en esta versión presentamos las actualizaciones de Maokai, Sejuani y Zac. Vamos a hacer que sus kits sean más característicos y a definir mejor sus identidades. Con los tanques en mente, hemos aprovechado la oportunidad para revisar los objetos de aguante y las resistencias en general. Traemos novedades interesantes: nuevos objetos como Protector pétreo de gárgola y Yelmo adaptable, además de cambios de poder en otros como Ángel de la guarda y Cetro abisal.
 
-Por otra parte, vamos a estudiar la escena profesional. Con la inminente celebración del MSI, queremos equilibrar a los campeones más fuertes para que no dominen por completo la fase de selección y bloqueo, y para ello vamos a tomar las medidas necesarias.
+Ya que estábamos revisando los objetos, pensamos que sería buena idea que los de daño también se adaptasen a los cambios de aguante. Nos parece bien el punto en el que se encuentran los objetos de poder de habilidad, pero para equilibrar los de daño de ataque hemos tenido que transformar parte del poder de la penetración de armadura en otras características.
 
-Por otro lado, este es el momento perfecto para darles un poco de amor a los campeones más débiles que necesitan un empujoncito en su estilo de juego. Vamos a otorgarle un poco más de poder a Aatrox después de sus últimas actualizaciones, y vamos a actualizar a Udyr.
+¡También hemos añadido misiones a los objetos iniciales de apoyo! Queríamos que los apoyos pudieran tener más relevancia y ser más interactivos en la fase de calles sin limitarnos a aumentar sus estadísticas básicas y su oro. También quedará más claro cómo ayudan a su equipo: los objetos ahora registran las estadísticas de forma más detallada, el control de adversario es más visible y la pantalla de final de partida refleja nuevas estadísticas.
 
-Por último, vamos a aprovechar la ocasión para poner a punto algunos de los sistemas de juego del Bosque Retorcido y de ARAM para hacer que la experiencia de los modos de juego más rápidos sea más satisfactoria.
+Por último, pero no por ello menos importante, el Heraldo de la Grieta tiene un nuevo estilo de combate y nuevas recompensas. Cuando se le derrota, se le puede invocar para que asedie la calle más cercana, así que más os vale estar atentos, porque si os despistáis os podéis quedar sin base.
 
-¡Preparaos para lanzar unos cuantos poros!
+Ahora que ya tenemos claro el itinerario del tren, vamos a ponerlo en marcha. ¡Chu, chu!
 
-Notas de la Versión 7.8 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-78
+Notas de la Versión 7.9 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-79

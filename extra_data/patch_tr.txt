@@ -1,15 +1,15 @@
-Merhaba millet,
+Herkese selam,
 
-Sezon Ortası'nın eli kulağında ve bir yama boyunca denge biraz 'dengesiz' olabilir; o yüzden, bu yamayı Sezon Ortası'na bir hazırlık olarak düşünürseniz seviniriz. Bu yama döneminde şimdi gerçekleşmesi şart olan, aksi hâlde bundan sonra muallak sonuçlar doğurmaları muhtemel değişikliklere odaklanıyoruz.
+Sezon Ortası treni neredeyse kalkmak üzere; o yüzden gelin, taşıdığımız yüklere şöyle bir göz atalım.
 
-Öncelikle fırsattan istifade, gecikmenin (lag) oynanışa etkisini gözden geçiriyoruz. Elbette kimse yüksek gecikmeyle oynamaktan hoşlanmaz ama bazı şampiyonların gecikmeden daha olumsuz etkilendiğini görüyoruz. Bu yüzden girdileriniz yeterince hızlı olmadığında bu şampiyonların daha az acı çekmesini sağlayacak, hayat kolaylaştıran nitelikte bazı değişiklikler getiriyoruz.
+İlk sırada Maokai, Sejuani ve Zac güncellemeleri bulunuyor. Her birinin yetenek setini daha belirgin hâle getirerek kimliklerini öne çıkarıyoruz. Tanklar demişken, fırsattan istifade dayanıklılık eşyalarına ve dirençlerin genel anlamda nasıl çalıştıklarına yeniden baktık. Gargoyl Taşzırhı ve Değişken Miğfer gibi yeni eşyaların yanında, Koruyucu Melek ve Cehennem Asası gibi güç seviyelerinde değişikliklere gittiğimiz eski eşyalar aşağıda sizi bekliyor.
 
-Tabii profesyonel sahneyi de unutmamak gerek. Sezon Ortası Özel Turnuvası (MSI) yaklaşırken seçim/yasaklama safhasına tamamen damga vurmasını istemediğimiz bazı aşırı güçlü isimlerde gerekli değişiklikleri yapmak istiyoruz.
+Ayrıca hasar eşyalarımızın yukarıda bahsettiğimiz dayanıklılık eşyalarını kıskanmadığından da emin olmak istedik. Yetenek gücü eşyalarının şu anki durumundan memnunuz; ancak işin saldırı gücü tarafını dengelemek için zırh delmenin sahip olduğu gücün bir kısmını başka taraflara kaydırmamız gerekiyor.
 
-Öte yandan oynanış açısından sevgiye muhtaç olan güçsüz birkaç şampiyona da ihtiyaç duydukları sevgiyi göstermenin tam sırası. Güncellenmesinin ardından Aatrox fazladan biraz güce kavuşurken, Udyr de kendi çapında bir güncelleme geçiriyor.
+Bunlara ek olarak destek başlangıç eşyalarına hedefler ekliyoruz! Destek şampiyonlarına kuru kuru nitelik ve altın vermeden, onları koridorda daha etkileşimli ve anlamlı kılmak istedik. Takımlarını ne şekilde desteklediklerini de daha açık hâle getiriyoruz: Eşyalar artık daha detaylı istatistik takibine sahip, kitle kontrolü artık daha belirgin ve oyun sonu ekranında daha geniş istatistikler bulunuyor.
 
-Son olarak Sezon Ortası öncesi bu son fırsatı değerlendiriyor ve Uğursuz Koruluk ile ARAM'daki bazı oyun sistemlerine ince ayar yaparak hızlı oyun modlarımızdan bazılarında daha net deneyimler sağlamayı amaçlıyoruz.
+Son olarak Vadi’nin Alameti artık yepyeni bir karşılaşma biçimine ve ödüle sahip. Alt edildiğinde en yakın koridora korku salması için çağrılabilecek. Ona dikkat etseniz iyi olur yoksa bir anda üssüz kalabilirsiniz.
 
-Şimdi Sonsuz Uçurum'a çıkıp birkaç poro savurmayı ihmal etmeyin.
+Yol haritamızı da çizdiğimize göre artık treni çalıştırabiliriz. Çuf çuf!
 
-7.8 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/78-yama-notlari
+7.9 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/79-yama-notlari
