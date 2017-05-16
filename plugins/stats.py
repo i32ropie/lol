@@ -27,10 +27,9 @@ def command_usuarios(m):
                 'pl': 0,
                 'pt': 0,
                 'ru': 0,
-                'el': 0,
-                'th': 0,
                 'fr': 0,
                 'fa': 0,
+                'ro': 0,
                 'tr': 0},
             'grupos': {
                 'total': 0,
@@ -40,11 +39,10 @@ def command_usuarios(m):
                 'de': 0,
                 'pl': 0,
                 'ru': 0,
-                'el': 0,
-                'th': 0,
                 'pt': 0,
                 'fr': 0,
                 'fa': 0,
+                'ro': 0,
                 'tr': 0}}
         # for uid in users:
         for uid in [z['_id'] for z in db.usuarios.find()]:
@@ -57,10 +55,10 @@ def command_usuarios(m):
         txt = "*Usuarios*: " + str(x['usuarios']['total']) + "\n *-*Español: _" + str(x['usuarios']['es']) + "_\n *-*Inglés: _" \
             + str(x['usuarios']['en']) + "_\n *-*Italiano: _" + str(x['usuarios']['it']) + "_\n *-*Polaco: _" + str(x['usuarios']['pl'])\
             + "_\n *-*Francés: _" + str(x['usuarios']['fr']) + "_\n *-*Alemán: _" + str(x['usuarios']['de']) + "_\n *-*Portugués: _" + str(x['usuarios']['pt']) + "_\n *-*Persa: _" + str(x['usuarios']['fa'])\
-            + "_\n *-*Ruso: _" + str(x['usuarios']['ru']) + "_\n *-*Turco: _" + str(x['usuarios']['tr']) + "_\n *-*Tailandés: _" + str(x['usuarios']['th']) + "_\n *-*Griego: _" + str(x['usuarios']['el']) \
+            + "_\n *-*Ruso: _" + str(x['usuarios']['ru']) + "_\n *-*Turco: _" + str(x['usuarios']['tr']) + "_\n *-*Rumano: _" + str(x['usuarios']['ro']) \
             + '_\n\n*Grupos*: ' + str(x['grupos']['total']) + "\n *-*Español: _" + str(x['grupos']['es']) + "_\n *-*Inglés: _" \
             + str(x['grupos']['en']) + "_\n *-*Italiano: _" + str(x['grupos']['it']) + "_\n *-*Polaco: _" + str(x['grupos']['pl'])\
             + "_\n *-*Francés: _" + str(x['grupos']['fr']) + "_\n *-*Alemán: _" + str(x['grupos']['de']) + "_\n *-*Portugués: _" + str(x['grupos']['pt']) + "_\n *-*Persa: _" \
-            + str(x['grupos']['fa']) + "_\n *-*Ruso: _" + str(x['grupos']['ru']) + "_\n *-*Turco: _" + str(x['grupos']['tr']) + "_\n *-*Tailandés: _" + str(x['grupos']['th']) + "_\n *-*Griego: _" + str(x['grupos']['el']) + '_'
+            + str(x['grupos']['fa']) + "_\n *-*Ruso: _" + str(x['grupos']['ru']) + "_\n *-*Turco: _" + str(x['grupos']['tr']) + "_\n *-*Rumano: _" + str(x['grupos']['ro']) + "_"
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, txt, parse_mode="Markdown")

@@ -11,6 +11,7 @@ print(Color(
         'ROTAÇÃO',
         'ROTACJA',
         'ФРИПИК',
+        'ROTAȚIE',
         'ROTACIÓN',
         'ROTATION',
         'ROTAZIONE',

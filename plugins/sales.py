@@ -13,6 +13,7 @@ print(Color(
         'OFERTA',
         'SALE',
         'OFFERTA',
+        'REDUCERI',
         'РАСПРОДАЖА',
         'ANGEBOTE',
         'VENTE',

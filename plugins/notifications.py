@@ -11,6 +11,7 @@ print(Color(
         'NOTIFICAÇÕES',
         'NOTYFIKACJE',
         'NOTIFICATIONS',
+        'NOTIFICĂRI',
         'NOTIFICACIONES',
         'NOTIFICHE',
         'УВЕДОМЛЕНИЯ',

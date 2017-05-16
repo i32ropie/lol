@@ -29,6 +29,14 @@ markup_en.add(types.KeyboardButton('SUMMONER'), types.KeyboardButton('HIDE KEYBO
 markup_en.add(types.KeyboardButton('ROLES'), types.KeyboardButton('NOTIFICATIONS'), types.KeyboardButton('CREDITS'))
 
 
+markup_ro = types.ReplyKeyboardMarkup(resize_keyboard=True)
+markup_ro.add(types.KeyboardButton('AJUTOR'), types.KeyboardButton('CONTACT'), types.KeyboardButton('INFORMAȚII'))
+markup_ro.add(types.KeyboardButton('PATCH'), types.KeyboardButton('LIMBĂ'), types.KeyboardButton('RATĂ'))
+markup_ro.add(types.KeyboardButton('REDUCERI'), types.KeyboardButton('CAMPIONI'), types.KeyboardButton('ROTAȚIE'))
+markup_ro.add(types.KeyboardButton('INVOCATOR'), types.KeyboardButton('ASCUNDE TASTATURA'), types.KeyboardButton('MECI'))
+markup_ro.add(types.KeyboardButton('ROLURI'), types.KeyboardButton('NOTIFICĂRI'), types.KeyboardButton('CONTRIBUITORI'))
+
+
 markup_it = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_it.add(types.KeyboardButton('AIUTO'), types.KeyboardButton('CONTATTO'), types.KeyboardButton('INFO'))
 markup_it.add(types.KeyboardButton('PATCH'), types.KeyboardButton('LINGUA'), types.KeyboardButton('QUALIFICARE'))
@@ -108,7 +116,8 @@ markups = {
     "th": markup_th,
     "el": markup_el,
     "ru": markup_ru,
-    "tr": markup_tr
+    "tr": markup_tr,
+    "ro": markup_ro
 }
 
 
@@ -152,6 +161,7 @@ def command_help(m):
         "NASCONDI TASTIERA",
         "VERBERGE TASTATUR",
         "CACHER CLAVIER",
+        "ASCUNDE TASTATURA",
         "KLAVYEYİ GİZLE"])
 @bot.message_handler(commands=['hideboard'])
 def command_hideboard(m):

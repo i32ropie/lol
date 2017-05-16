@@ -15,6 +15,7 @@ print(Color(
         'QUALIFICARE',
         'ОТЗЫВ',
         'SIEGESRATE',
+        'RATĂ',
         'NOTER',
         'DEĞER'])
 @bot.message_handler(commands=['rate'])

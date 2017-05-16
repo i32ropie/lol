@@ -15,6 +15,7 @@ markup.add(
     types.KeyboardButton('FRANÇAIS'),
     types.KeyboardButton('PORTUGUÊS'),
     types.KeyboardButton('РУССКИЙ'),
+    types.KeyboardButton('ROMÂNĂ'),
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
     types.KeyboardButton('PERSIAN'),

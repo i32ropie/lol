@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
- 
+
 #################################################
 #                   BOT TOKEN #
 #################################################
@@ -152,7 +152,7 @@ with open('extra_data/file_ids.json', 'r') as f:
 
 data = dict()
 
-for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt', 'ru', 'el', 'th', 'tr']:
+for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt', 'ru', 'el', 'th', 'tr', 'ro']:
     with open('champs_%s.json' % x, 'r') as f:
         data[x] = json.load(f)
 

@@ -41,6 +41,7 @@ def command_patch(m):
         'patch_pl',
         'patch_fr',
         'patch_de',
+        'patch_ro',
         'patch_pt',
         'patch_fa',
         'patch_tr',

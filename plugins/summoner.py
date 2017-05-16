@@ -26,6 +26,7 @@ platform = {
         'PRZYWOŁYWACZ',
         'INVOCADOR',
         'SUMMONER',
+        'INVOCATOR',
         'EVOCATORE',
         'ПРИЗЫВАТЕЛЬ',
         'BESCHWÖRER',

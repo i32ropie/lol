@@ -17,7 +17,8 @@ locales = {
     "el": "el_GR",
     "fr": "fr_FR",
     "fa": "en_US",
-    "tr": "tr_TR"
+    "tr": "tr_TR",
+    "ro": "ro_RO"
 }
 
 platform = {
@@ -35,7 +36,7 @@ platform = {
 
 
 @bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
-                     'MECZ', 'PARTIDA', 'МАТЧ', 'MATCH', 'PARTITA', 'SPIEL', 'PARTIE', 'KARŞILAŞMA'])
+                     'MECZ', 'PARTIDA', 'МАТЧ', 'MATCH', 'PARTITA', 'SPIEL', 'PARTIE', 'KARŞILAŞMA', 'MECI'])
 @bot.message_handler(commands=['match'])
 def command_match(m):
     cid = m.chat.id

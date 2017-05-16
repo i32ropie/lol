@@ -21,7 +21,8 @@ languages = {
     "PERSIAN": "fa",
     "PORTUGUÊS": "pt",
     "РУССКИЙ": "ru",
-    "TÜRKÇE": "tr"
+    "TÜRKÇE": "tr",
+    "ROMÂNĂ": "ro"
     # "ไทย": "th",
     # "ΕΛΛΗΝΙΚΆ": "el"
 }
@@ -173,7 +174,8 @@ def step_update_sale_pic(m):
             'patch_th',
             'patch_ru',
             'patch_el',
-            'patch_tr'])
+            'patch_tr',
+            'patch_ro'])
 def step_update_patch(m):
     cid = m.chat.id
     if m.content_type == 'text':

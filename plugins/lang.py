@@ -18,7 +18,8 @@ markup.add(
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
     types.KeyboardButton('PERSIAN'),
-    types.KeyboardButton('TÜRKÇE'))
+    types.KeyboardButton('TÜRKÇE'),
+    types.KeyboardButton('ROMÂNĂ'))
 
 
 @bot.message_handler(
@@ -26,6 +27,7 @@ markup.add(
         'JĘZYK',
         'IDIOMA',
         'ЯЗЫК',
+        'LIMBĂ',
         'LANGUAGE',
         'LINGUA',
         'SPRACHE',

@@ -16,6 +16,7 @@ print(Color(
         'AIUTO',
         'HILFE',
         'AIDE',
+        'AJUTOR',
         'YARDIM'])
 @bot.message_handler(commands=['help'])
 def command_help(m):

@@ -13,6 +13,7 @@ print(Color(
         'CREDITI',
         'DANKSAGUNGEN',
         'CRÉDITS',
+        'CONTRIBUITORI',
         'АВТОРЫ',
         'JENERİK'])
 @bot.message_handler(commands=['credits'])
