@@ -37,9 +37,9 @@ def command_start(m):
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         try:
-            idioma = m.from_user.language_code[:2]
+            idioma, idioma2 = m.from_user.language_code[:2], m.from_user.language_code
         except:
-            idioma = None
+            idioma, idioma2 = None, None
         if idioma in ['es','en','pt','pl','ro', 'fa', 'it', 'de', 'tr']:
             db.usuarios.insert({
                 "_id": str(cid),
@@ -59,7 +59,8 @@ def command_start(m):
                                  str(cid) +
                                  "\nIdioma: " +
                                  str(lang(cid)) +
-                                 " (Autodetectado)")
+                                 "\nAutodetectado:" +
+                                 str(idioma2))
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['start_autodetect'][

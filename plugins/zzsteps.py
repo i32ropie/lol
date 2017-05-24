@@ -32,6 +32,10 @@ languages = {
     func=lambda msg: next_step_handler(msg.chat.id) == 'start')
 def step_start(m):
     cid = m.chat.id
+    try:
+        language = m.from_user.language_code
+    except:
+        language = None
     if m.content_type == 'text' and not db.usuarios.find_one(str(cid)):
         if m.text in languages:
             db.usuarios.insert({
@@ -57,7 +61,9 @@ def step_start(m):
                              "\nID: " +
                              str(cid) +
                              "\nIdioma: " +
-                             str(lang(cid)))
+                             str(lang(cid)) +
+                             "\nAutodetectado: " +
+                             str(idioma))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(
             cid, responses['start_2'][
