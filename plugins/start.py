@@ -40,7 +40,7 @@ def command_start(m):
             idioma = m.from_user.language_code
         except:
             idioma = None
-        if idioma in ['es','en','pt','pl','ro']:
+        if idioma in ['es','en','pt','pl','ro', 'fa']:
             db.usuarios.insert({
                 "_id": str(cid),
                 "lang": idioma,
