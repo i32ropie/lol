@@ -29,7 +29,7 @@
     "start_autodetect":{
         "es":"Idioma autodetectado: Español\n\nPara cambiarlo utiliza /lang ^^",
         "en":"Language autodetected: English\n\nTo change it use /lang ^^",
-        "it":"",
+        "it":"Lingua rilevata automaticamente: Italiano\n\nPer cambiare usa /lang ^^",
         "de":"",
         "pt":"Linguagem detectada automaticamente: Português\n\nPara mudá-la use /lang ^^",
         "fr":"",
