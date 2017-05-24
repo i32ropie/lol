@@ -36,13 +36,41 @@ def command_start(m):
             send_udp('start')
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(
-            cid,
-            responses['start_1'] %
-            m.from_user.first_name,
-            reply_markup=markup)
-        userStep[cid] = 'start'
+        try:
+            idioma = m.from_user.language_code
+        except:
+            idioma = None
+        if idioma in ['es','en','pt','pl','ro']:
+            db.usuarios.insert({
+                "_id": str(cid),
+                "lang": idioma,
+                "banned": False,
+                "notify": True,
+                "server": "",
+                "summoner": ""
+            })
+            for id in admins:
+                bot.send_chat_action(cid, 'typing')
+                bot.send_message(id, "Nuevo usuario\n\nNombre: " +
+                                 str(m.from_user.first_name) +
+                                 "\nAlias: @" +
+                                 str(m.from_user.username) +
+                                 "\nID: " +
+                                 str(cid) +
+                                 "\nIdioma: " +
+                                 str(lang(cid)))
+            bot.send_chat_action(cid, 'typing')
+            bot.send_message(
+                cid, responses['start_2'][
+                    lang(cid)], reply_markup=hideBoard if cid < 0 else markups[lang(cid)])
+        else:
+            bot.send_chat_action(cid, 'typing')
+            bot.send_message(
+                cid,
+                responses['start_1'] %
+                m.from_user.first_name,
+                reply_markup=markup)
+            userStep[cid] = 'start'
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['start_already_user'][lang(cid)])
