@@ -36,7 +36,7 @@ def listener(messages):
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         if m.content_type == 'text':
-            if m.text.startswith('/') and is_user(cid):
+            if m.text.startswith('/') and is_user(cid) and m.text not in ['/start', '/stop']:
                 process_msg(m)
                 try:
                     send_udp('command')
