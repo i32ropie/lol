@@ -37,10 +37,10 @@ def command_start(m):
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         try:
-            idioma = m.from_user.language_code
+            idioma = m.from_user.language_code[:2]
         except:
             idioma = None
-        if idioma in ['es','en','pt','pl','ro', 'fa', 'it']:
+        if idioma in ['es','en','pt','pl','ro', 'fa', 'it', 'de', 'tr']:
             db.usuarios.insert({
                 "_id": str(cid),
                 "lang": idioma,
