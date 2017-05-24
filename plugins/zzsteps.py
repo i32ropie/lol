@@ -62,7 +62,7 @@ def step_start(m):
                              str(cid) +
                              "\nIdioma: " +
                              str(lang(cid)) +
-                             "\nAutodetectado: " +
+                             "\nDetectado: " +
                              str(idioma))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(
