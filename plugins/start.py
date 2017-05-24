@@ -62,10 +62,10 @@ def command_start(m):
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['start_autodetect'][
-                    lang(cid)])
+                    idioma])
             bot.send_message(
                 cid, responses['start_2'][
-                    lang(cid)])
+                    idioma])
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
