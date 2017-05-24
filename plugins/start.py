@@ -60,7 +60,7 @@ def command_start(m):
                                  "\nIdioma: " +
                                  str(lang(cid)))
             bot.send_chat_action(cid, 'typing')
-            bot.send_mmessage(
+            bot.send_message(
                 cid, responses['start_autodetect'][
                     lang(cid)])
             bot.send_message(
