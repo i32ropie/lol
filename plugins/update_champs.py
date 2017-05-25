@@ -8,7 +8,8 @@ print(Color(
 
 
 def static_get_champion_list(region, data_by_id, locale=None, champ_data=None):
-    url = "https://global.api.riotgames.com/api/lol/static-data/{}/v1.2/champion".format(region.upper())
+    url = "https://global.api.riotgames.com/api/lol/static-data/{}/v1.2/champion".format(
+        region.upper())
     params = {
         "champData": champ_data,
         "dataById": "true" if data_by_id else "false",
@@ -31,7 +32,9 @@ def command_update_champs_1(m):
         return None
     if is_admin(uid):
         msg = bot.send_message(
-            cid, "Descargando nuevas bases de datos de campeones:\n`-Español`\n`-Inglés`\n`-Italiano`\n`-Alemán`\n`-Francés`\n`-Rumano`", parse_mode="Markdown")
+            cid,
+            "Descargando nuevas bases de datos de campeones:\n`-Español`\n`-Inglés`\n`-Italiano`\n`-Alemán`\n`-Francés`\n`-Rumano`",
+            parse_mode="Markdown")
         try:
             aux = {
                 "champs_es.json": static_get_champion_list(
@@ -64,13 +67,18 @@ def command_update_champs_1(m):
                     locale='ro_RO',
                     champ_data=['all'],
                     data_by_id=False)['data']
-                    }
+            }
         except:
             # bot.send_message(cid, "Error descargando nuevas bases de datos.")
-            bot.edit_message_text("Error descargando nuevas bases de datos.", cid, msg.message_id)
+            bot.edit_message_text(
+                "Error descargando nuevas bases de datos.",
+                cid,
+                msg.message_id)
             return
         # bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
-        bot.edit_message_text("Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", cid, msg.message_id, parse_mode="Markdown")
+        bot.edit_message_text("Bases de datos descargadas.\n\n`" +
+                              '\n'.join([i for i in aux]) +
+                              "`", cid, msg.message_id, parse_mode="Markdown")
         # bot.send_message(cid, "Actualizando archivos...")
         bot.edit_message_text("Actualizando archivos...", cid, msg.message_id)
         try:
@@ -79,11 +87,15 @@ def command_update_champs_1(m):
                     json.dump(aux[x], f)
         except:
             # bot.send_message(cid, "Error actualizando archivos.")
-            bot.edit_message_text("Error actualizando archivos.", cid, msg.message_id)
+            bot.edit_message_text(
+                "Error actualizando archivos.", cid, msg.message_id)
             return
 
         # bot.send_message(cid, "Archivos actualizados correctamente.")
-        bot.edit_message_text("Archivos actualizados correctamente.", cid, msg.message_id)
+        bot.edit_message_text(
+            "Archivos actualizados correctamente.",
+            cid,
+            msg.message_id)
         # bot.send_message(cid, "Reiniciando bot...")
         bot.edit_message_text("Reiniciando bot...", cid, msg.message_id)
         exit()
@@ -101,7 +113,9 @@ def command_update_champs_2(m):
         return None
     if is_admin(uid):
         msg = bot.send_message(
-            cid, "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`-Tailandés`\n`-Turco`", parse_mode="Markdown")
+            cid,
+            "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`-Tailandés`\n`-Turco`",
+            parse_mode="Markdown")
         try:
             aux = {
                 "champs_pl.json": static_get_champion_list(
@@ -136,10 +150,15 @@ def command_update_champs_2(m):
                     data_by_id=False)['data']}
         except:
             # bot.send_message(cid, "Error descargando nuevas bases de datos.")
-            bot.edit_message_text("Error descargando nuevas bases de datos.", cid, msg.message_id)
+            bot.edit_message_text(
+                "Error descargando nuevas bases de datos.",
+                cid,
+                msg.message_id)
             return
         # bot.send_message(cid, "Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", parse_mode="Markdown")
-        bot.edit_message_text("Bases de datos descargadas.\n\n`" + '\n'.join([i for i in aux]) + "`", cid, msg.message_id, parse_mode="Markdown")
+        bot.edit_message_text("Bases de datos descargadas.\n\n`" +
+                              '\n'.join([i for i in aux]) +
+                              "`", cid, msg.message_id, parse_mode="Markdown")
         # bot.send_message(cid, "Actualizando archivos...")
         bot.edit_message_text("Actualizando archivos...", cid, msg.message_id)
         try:
@@ -148,11 +167,15 @@ def command_update_champs_2(m):
                     json.dump(aux[x], f)
         except:
             # bot.send_message(cid, "Error actualizando archivos.")
-            bot.edit_message_text("Error actualizando archivos.", cid, msg.message_id)
+            bot.edit_message_text(
+                "Error actualizando archivos.", cid, msg.message_id)
             return
 
         # bot.send_message(cid, "Archivos actualizados correctamente.")
-        bot.edit_message_text("Archivos actualizados correctamente.", cid, msg.message_id)
+        bot.edit_message_text(
+            "Archivos actualizados correctamente.",
+            cid,
+            msg.message_id)
         # bot.send_message(cid, "Reiniciando bot...")
         bot.edit_message_text("Reiniciando bot...", cid, msg.message_id)
         exit()
@@ -169,11 +192,16 @@ def command_update_champs_keys(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        msg = bot.send_message(cid, "Actualizando fichero `champs_keys.json` ...", parse_mode="Markdown")
+        msg = bot.send_message(
+            cid,
+            "Actualizando fichero `champs_keys.json` ...",
+            parse_mode="Markdown")
         try:
-            req = static_get_champion_list(region='euw', data_by_id=True)['data']
+            req = static_get_champion_list(
+                region='euw', data_by_id=True)['data']
         except:
-            bot.edit_message_text("Error descargando el fichero.", cid, msg.message_id)
+            bot.edit_message_text(
+                "Error descargando el fichero.", cid, msg.message_id)
             return
         with open('champs_keys.json', 'w') as f:
             json.dump(req, f)

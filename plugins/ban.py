@@ -32,7 +32,7 @@ def command_ban(m):
                         banned_id)
                 else:
                     db.usuarios.update({"_id": banned_id},
-                        {"$set": {"banned": True}})
+                                       {"$set": {"banned": True}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
                         cid, responses['ban']['success'] %
@@ -45,7 +45,7 @@ def command_ban(m):
                     "notify": True,
                     "server": "",
                     "summoner": ""
-                    })
+                })
                 bot.send_chat_action(cid, 'typing')
                 bot.send_message(cid, responses['ban']['success'] % banned_id)
 
@@ -69,7 +69,7 @@ def command_unban(m):
             if is_user(banned_id):
                 if is_banned(banned_id):
                     db.usuarios.update({"_id": banned_id},
-                        {"$set": {"banned": False}})
+                                       {"$set": {"banned": False}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
                         cid, responses['unban']['success'] %

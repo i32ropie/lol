@@ -66,17 +66,24 @@ def get_summoner_info(invocador, region, cid):
         return txt
     lattest_version = lol_api.static_get_versions()[0]
     icon_id = summoner['profileIconId']
-    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(lattest_version, icon_id)
+    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
+        lattest_version, icon_id)
     summoner_name = summoner['name']
     summoner_id = summoner['id']
-    lolking = "http://www.lolking.net/summoner/" + region + "/" + str(summoner_id)
+    lolking = "http://www.lolking.net/summoner/" + \
+        region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
     try:
         partidas = lol_api.get_stat_summary(
             summoner_id, region=region, season=None)
     except:
         txt = "Error with RIOT servers :("
-        bot.send_message(52033876, "Error obteniendo información de <{}> en <{}> | {}".format(summoner_name, region, cid))
+        bot.send_message(
+            52033876,
+            "Error obteniendo información de <{}> en <{}> | {}".format(
+                summoner_name,
+                region,
+                cid))
         return txt
     if 'playerStatSummaries' in partidas:
         for data in partidas['playerStatSummaries']:
@@ -162,7 +169,8 @@ def get_summoner_info(invocador, region, cid):
 
 
 def get_3_best_champs(summonerId, region, cid):
-    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(region.lower(), platform[region], summonerId)
+    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(
+        region.lower(), platform[region], summonerId)
     params = {
         "api_key": extra['lol_api']
     }
@@ -173,4 +181,5 @@ def get_3_best_champs(summonerId, region, cid):
     if jstr.status_code != 200:
         return None
     else:
-        return OrderedDict([(data[lang(cid)][data['keys'][str(x['championId'])]['key']]['name'], str(x['championLevel'])) for x in json.loads(jstr.text)])
+        return OrderedDict([(data[lang(cid)][data['keys'][str(x['championId'])]['key']][
+                           'name'], str(x['championLevel'])) for x in json.loads(jstr.text)])

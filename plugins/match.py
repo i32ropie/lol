@@ -35,8 +35,17 @@ platform = {
 }
 
 
-@bot.message_handler(func=lambda m: m.content_type == 'text' and m.text in [
-                     'MECZ', 'PARTIDA', 'МАТЧ', 'MATCH', 'PARTITA', 'SPIEL', 'PARTIE', 'KARŞILAŞMA', 'MECI'])
+@bot.message_handler(
+    func=lambda m: m.content_type == 'text' and m.text in [
+        'MECZ',
+        'PARTIDA',
+        'МАТЧ',
+        'MATCH',
+        'PARTITA',
+        'SPIEL',
+        'PARTIE',
+        'KARŞILAŞMA',
+        'MECI'])
 @bot.message_handler(commands=['match'])
 def command_match(m):
     cid = m.chat.id
@@ -111,7 +120,19 @@ def match_info(m):
         bot.send_message(cid, responses['not_user'])
 
 
-@bot.inline_handler(lambda query: len(query.query.split()) > 1 and query.query.split()[0] in ['#euw', '#eune', '#br', '#na', '#las', '#lan', '#kr', '#tr', '#ru', '#oce'])
+@bot.inline_handler(
+    lambda query: len(
+        query.query.split()) > 1 and query.query.split()[0] in [
+            '#euw',
+            '#eune',
+            '#br',
+            '#na',
+            '#las',
+            '#lan',
+            '#kr',
+            '#tr',
+            '#ru',
+        '#oce'])
 def query_summoner(q):
     cid = q.from_user.id
     # if is_beta(cid):
@@ -125,36 +146,59 @@ def query_summoner(q):
     except:
         pass
     else:
-        if get_match_info(invocador, region, cid, inline=True) != 'match_error':
-            aux = types.InlineQueryResultArticle("1",
-                '['+region.upper()+'] '+summoner['name'],
+        if get_match_info(
+                invocador,
+                region,
+                cid,
+                inline=True) != 'match_error':
+            aux = types.InlineQueryResultArticle(
+                "1",
+                '[' + region.upper() + '] ' + summoner['name'],
                 types.InputTextMessageContent(
-                        get_match_info(
-                            invocador,
-                            region,
-                            cid,
-                            inline=True),
-                        parse_mode="Markdown",
-                        disable_web_page_preview=True),
-                description=responses['inline_match_d'][lang(cid)].format(summoner['name']),
+                    get_match_info(
+                        invocador,
+                        region,
+                        cid,
+                        inline=True),
+                    parse_mode="Markdown",
+                    disable_web_page_preview=True),
+                description=responses['inline_match_d'][
+                    lang(cid)].format(
+                    summoner['name']),
                 thumb_url='http://i.imgur.com/IRTLKz4.jpg')
             to_send.append(aux)
         else:
-            aux = types.InlineQueryResultArticle("1",
-                responses['inline_match_error'][lang(cid)],
+            aux = types.InlineQueryResultArticle(
+                "1",
+                responses['inline_match_error'][
+                    lang(cid)],
                 types.InputTextMessageContent(
-                        responses['match_error'][lang(cid)] % (summoner['name']),
-                        parse_mode="Markdown"),
-                description=responses['match_error'][lang(cid)] % (summoner['name']),
+                    responses['match_error'][
+                        lang(cid)] %
+                    (summoner['name']),
+                    parse_mode="Markdown"),
+                description=responses['match_error'][
+                    lang(cid)] %
+                (summoner['name']),
                 thumb_url='http://i.imgur.com/IRTLKz4.jpg')
             to_send.append(aux)
     if to_send:
         bot.answer_inline_query(q.id, to_send, cache_time=1)
     else:
-        aux = types.InlineQueryResultArticle("1",
-            responses['inline_me_error_ttl_2'][lang(cid)],
-            types.InputTextMessageContent(responses['summoner_error'][lang(cid)] % (invocador, region.upper()), parse_mode="Markdown"),
-            description=responses['inline_me_error_d_2'][lang(cid)] % (invocador, region.upper()),
+        aux = types.InlineQueryResultArticle(
+            "1",
+            responses['inline_me_error_ttl_2'][
+                lang(cid)],
+            types.InputTextMessageContent(
+                responses['summoner_error'][
+                    lang(cid)] %
+                (invocador,
+                 region.upper()),
+                parse_mode="Markdown"),
+            description=responses['inline_me_error_d_2'][
+                lang(cid)] %
+            (invocador,
+             region.upper()),
             thumb_url='http://i.imgur.com/IRTLKz4.jpg')
         bot.answer_inline_query(q.id, [aux], cache_time=1)
 
@@ -228,7 +272,8 @@ def get_match_info(invocador, region, cid, inline=False):
     if inline:
         return txt
     else:
-        bot.send_message(cid, txt, parse_mode="Markdown", disable_web_page_preview=True)
+        bot.send_message(cid, txt, parse_mode="Markdown",
+                         disable_web_page_preview=True)
 
 
 def get_summoner_info_2(invocador, region, champion, cid):
@@ -240,7 +285,8 @@ def get_summoner_info_2(invocador, region, champion, cid):
         return txt
     summoner_name = summoner['name']
     summoner_id = summoner['id']
-    lolking = "http://www.lolking.net/summoner/" + region + "/" + str(summoner_id)
+    lolking = "http://www.lolking.net/summoner/" + \
+        region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
     if summoner_level == 30:
         try:

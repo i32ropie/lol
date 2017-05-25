@@ -22,7 +22,8 @@ def command_all_es(m):
         if len(m.text.split()) == 1:
             bot.send_message(cid, "Error, no hay nada para enviar.")
             return
-        for x in [y['_id'] for y in db.usuarios.find({"notify": True, "lang": "es", "banned": False})]:
+        for x in [y['_id'] for y in db.usuarios.find(
+                {"notify": True, "lang": "es", "banned": False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), ' '.join(m.text.split(' ')[1:]))
@@ -32,8 +33,10 @@ def command_all_es(m):
                         delete.append(x)
                         db.usuarios.remove(x)
                 except Exception as z:
-                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -57,7 +60,8 @@ def command_all_en(m):
         if len(m.text.split()) == 1:
             bot.send_message(cid, "Error, no hay nada para enviar.")
             return
-        for x in [y['_id'] for y in db.usuarios.find({"notify": True, "lang": {"$ne": "es"}, "banned": False})]:
+        for x in [y['_id'] for y in db.usuarios.find(
+                {"notify": True, "lang": {"$ne": "es"}, "banned": False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), ' '.join(m.text.split(' ')[1:]))
@@ -67,8 +71,10 @@ def command_all_en(m):
                         delete.append(x)
                         db.usuarios.remove(x)
                 except Exception as z:
-                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -89,7 +95,8 @@ def command_all_s(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        for x in [y['_id'] for y in db.usuarios.find({"notify": True, "banned": False})]:
+        for x in [y['_id']
+                  for y in db.usuarios.find({"notify": True, "banned": False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_s'][lang(x)])
@@ -99,8 +106,10 @@ def command_all_s(m):
                         delete.append(x)
                         db.usuarios.remove(x)
                 except Exception as z:
-                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -121,7 +130,8 @@ def command_all_r(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        for x in [y['_id'] for y in db.usuarios.find({"notify": True, "banned": False})]:
+        for x in [y['_id']
+                  for y in db.usuarios.find({"notify": True, "banned": False})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_r'][lang(x)])
@@ -131,8 +141,10 @@ def command_all_r(m):
                         delete.append(x)
                         db.usuarios.remove(x)
                 except Exception as z:
-                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-                    bot.send_message(52033876, send_exception(z), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))

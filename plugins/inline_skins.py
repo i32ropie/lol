@@ -15,7 +15,9 @@ backward = {
 }
 
 
-@bot.inline_handler(lambda query: query.query.startswith('s ') and len(query.query.split()) == 2)
+@bot.inline_handler(
+    lambda query: query.query.startswith('s ') and len(
+        query.query.split()) == 2)
 def query_skins(q):
     cid = q.from_user.id
     # if is_beta(cid):
@@ -33,9 +35,21 @@ def query_skins(q):
             if c_name == data[lang(cid)][x]['key'].lower():
                 champ = data[lang(cid)][x]
                 for i in champ['skins']:
-                    aux = types.InlineQueryResultPhoto(str(champ['skins'].index(i)),
-                        'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
-                        'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+champ['key']+'_'+str(i['num'])+'.jpg',
+                    aux = types.InlineQueryResultPhoto(
+                        str(
+                            champ['skins'].index(i)),
+                        'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' +
+                        champ['key'] +
+                        '_' +
+                        str(
+                            i['num']) +
+                        '.jpg',
+                        'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' +
+                        champ['key'] +
+                        '_' +
+                        str(
+                            i['num']) +
+                        '.jpg',
                         caption=i['name'])
                     to_send.append(aux)
         if to_send:

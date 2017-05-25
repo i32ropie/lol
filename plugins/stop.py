@@ -14,7 +14,10 @@ def command_stop(m):
         try:
             send_udp('stop')
         except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            bot.send_message(
+                52033876,
+                send_exception(e),
+                parse_mode="Markdown")
         bot.send_sticker(cid, 'BQADBAADKQADYbhQBzwCcUAqk3TaAg')
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])

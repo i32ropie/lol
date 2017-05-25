@@ -67,7 +67,8 @@ def step_start(m):
         bot.send_chat_action(cid, 'typing')
         bot.send_message(
             cid, responses['start_2'][
-                lang(cid)], reply_markup=hideBoard if cid < 0 else markups[lang(cid)])
+                lang(cid)], reply_markup=hideBoard if cid < 0 else markups[
+                lang(cid)])
         userStep[cid] = 0
 
 

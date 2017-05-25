@@ -140,8 +140,8 @@ def contact_format(m):
     m_id = str(m.message_id)
     msg = m.text
     if cid == uid:
-        txt = "Nuevo mensaje\n\nNombre: " + name + "\nAlias: @" + alias + "\nIdioma: " + lang(
-            cid) + "\nM_ID: " + m_id + "\nID: " + cid + "\n\nMensaje: " + msg
+        txt = "Nuevo mensaje\n\nNombre: " + name + "\nAlias: @" + alias + "\nIdioma: " + \
+            lang(cid) + "\nM_ID: " + m_id + "\nID: " + cid + "\n\nMensaje: " + msg
     else:
         txt = "Nuevo mensaje\n\nNombre: " + name + "\nAlias: @" + alias + "\nIdioma: " + lang(
             cid) + "\nM_ID: " + m_id + "\nID: " + cid + "\nUID: " + uid + "\n\nMensaje: " + msg
@@ -152,7 +152,19 @@ with open('extra_data/file_ids.json', 'r') as f:
 
 data = dict()
 
-for x in ['es', 'en', 'de', 'it', 'fr', 'pl', 'pt', 'ru', 'el', 'th', 'tr', 'ro']:
+for x in [
+    'es',
+    'en',
+    'de',
+    'it',
+    'fr',
+    'pl',
+    'pt',
+    'ru',
+    'el',
+    'th',
+    'tr',
+        'ro']:
     with open('champs_%s.json' % x, 'r') as f:
         data[x] = json.load(f)
 

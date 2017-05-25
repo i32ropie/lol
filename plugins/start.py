@@ -35,12 +35,26 @@ def command_start(m):
         try:
             send_udp('start')
         except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            bot.send_message(
+                52033876,
+                send_exception(e),
+                parse_mode="Markdown")
         try:
-            lang1, lang2 = m.from_user.language_code[:2], m.from_user.language_code
+            lang1, lang2 = m.from_user.language_code[
+                :2], m.from_user.language_code
         except:
             lang1, lang2 = None, None
-        if lang1 in ['es','en','pt','pl','ro', 'fa', 'it', 'de', 'tr', 'fr']:
+        if lang1 in [
+            'es',
+            'en',
+            'pt',
+            'pl',
+            'ro',
+            'fa',
+            'it',
+            'de',
+            'tr',
+                'fr']:
             db.usuarios.insert({
                 "_id": str(cid),
                 "lang": lang1,

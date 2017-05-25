@@ -25,6 +25,7 @@ backward = {
     'MonkeyKing': 'Wukong'
 }
 
+
 def listener(messages):
     for m in messages:
         cid = m.chat.id
@@ -34,14 +35,19 @@ def listener(messages):
         try:
             send_udp('rcvd')
         except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            bot.send_message(
+                52033876,
+                send_exception(e),
+                parse_mode="Markdown")
         if m.content_type == 'text':
-            if m.text.startswith('/') and is_user(cid) and m.text not in ['/start', '/stop']:
+            if m.text.startswith(
+                    '/') and is_user(cid) and m.text not in ['/start', '/stop']:
                 process_msg(m)
                 try:
                     send_udp('command')
                 except Exception as e:
-                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+                    bot.send_message(
+                        52033876, send_exception(e), parse_mode="Markdown")
             if cid > 0:
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(
                     m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(cid) + "]: " + m.text + "\n"
@@ -85,7 +91,8 @@ def process_msg(m):
                     try:
                         send_udp('get_champ')
                     except Exception as e:
-                        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+                        bot.send_message(
+                            52033876, send_exception(e), parse_mode="Markdown")
                     try:
                         bot.send_photo(cid, file_ids[no_namebot[0].lower()])
                     except:
@@ -102,7 +109,8 @@ def process_msg(m):
                                 try:
                                     send_udp('get_skin')
                                 except Exception as e:
-                                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+                                    bot.send_message(
+                                        52033876, send_exception(e), parse_mode="Markdown")
                                 try:
                                     bot.send_photo(
                                         cid, file_ids[
@@ -121,7 +129,9 @@ def process_msg(m):
             bot.send_message(cid, txt, parse_mode="Markdown")
 
 
-@bot.inline_handler(lambda query: query.query.startswith('c ') and len(query.query.split()) == 2)
+@bot.inline_handler(
+    lambda query: query.query.startswith('c ') and len(
+        query.query.split()) == 2)
 def query_champ_basic(q):
     cid = q.from_user.id
     if is_banned(cid):
@@ -137,13 +147,14 @@ def query_champ_basic(q):
             if c_name == data[lang(cid)][x]['key'].lower():
                 champ = data[lang(cid)][x]
                 lattest_version = lol_api.static_get_versions()[0]
-                thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(lattest_version, champ['key'])
+                thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(
+                    lattest_version, champ['key'])
                 txt = champ_basic(data[lang(cid)][x], cid, inline=True)
-                aux = types.InlineQueryResultArticle("1",
-                        champ['name'],
-                        types.InputTextMessageContent(txt, parse_mode="Markdown"),
-                        description=responses['inline_champ_d'][lang(cid)].format(champ['name']),
-                        thumb_url=thumb)
+                aux = types.InlineQueryResultArticle(
+                    "1", champ['name'], types.InputTextMessageContent(
+                        txt, parse_mode="Markdown"), description=responses['inline_champ_d'][
+                        lang(cid)].format(
+                        champ['name']), thumb_url=thumb)
                 to_send.append(aux)
         if to_send:
             bot.answer_inline_query(q.id, to_send, cache_time=1)
@@ -151,7 +162,9 @@ def query_champ_basic(q):
         pass
 
 
-@bot.inline_handler(lambda query: query.query.startswith('#c ') and len(query.query.split()) == 2)
+@bot.inline_handler(
+    lambda query: query.query.startswith('#c ') and len(
+        query.query.split()) == 2)
 def query_champ_extra(q):
     cid = q.from_user.id
     try:
@@ -165,13 +178,14 @@ def query_champ_extra(q):
             if c_name == data[lang(cid)][x]['key'].lower():
                 champ = data[lang(cid)][x]
                 lattest_version = lol_api.static_get_versions()[0]
-                thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(lattest_version, champ['key'])
+                thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(
+                    lattest_version, champ['key'])
                 txt = champ_info(data[lang(cid)][x], cid)
-                aux = types.InlineQueryResultArticle("1",
-                        champ['name'],
-                        types.InputTextMessageContent(txt, parse_mode="Markdown"),
-                        description=responses['inline_champ_d'][lang(cid)].format(champ['name']),
-                        thumb_url=thumb)
+                aux = types.InlineQueryResultArticle(
+                    "1", champ['name'], types.InputTextMessageContent(
+                        txt, parse_mode="Markdown"), description=responses['inline_champ_d'][
+                        lang(cid)].format(
+                        champ['name']), thumb_url=thumb)
                 to_send.append(aux)
         if to_send:
             bot.answer_inline_query(q.id, to_send, cache_time=1)
@@ -188,7 +202,8 @@ def champ_basic(chmp, cid, inline=False):
         key2 = chmp['key']
     txt = '_' + chmp['name'] + ', ' + chmp['title'] + '_'
     if inline:
-        txt += '[⁣](http://ddragon.leagueoflegends.com/cdn/img/champion/splash/'+chmp['key']+'_0.jpg)'
+        txt += '[⁣](http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' + \
+            chmp['key'] + '_0.jpg)'
     # Roles
     txt += '\n⁣*' + responses['champ_info']['tags'][lang(cid)] + '*: '
     i = 0
@@ -199,7 +214,9 @@ def champ_basic(chmp, cid, inline=False):
                 txt += ', '
             i += 1
     # Descripción
-    txt += '\n\n_' + chmp['blurb'].replace('<br><br>', '\n').replace('<br>', '\n') + '_ ' + '/' + key + '\_lore'
+    txt += '\n\n_' + chmp['blurb'].replace(
+        '<br><br>', '\n').replace(
+        '<br>', '\n') + '_ ' + '/' + key + '\_lore'
     # Skins
     txt += '\n\n*Skins:*'
     for skin in chmp['skins']:
@@ -226,7 +243,8 @@ def champ_basic(chmp, cid, inline=False):
     #             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     if not inline:
-        txt += '\n\n' + responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
+        txt += '\n\n' + \
+            responses['extra_info'][lang(cid)] + ' /' + key + '\_extra'
     return txt
 
 
@@ -284,16 +302,25 @@ def format_spell(s):
         var = None
     tooltip = s['sanitizedTooltip']
     for x in effect:
-            try:
-                tooltip = tooltip.replace('{{ e%s }}' % (effect.index(x)), x)
-            except Exception as e:
-                bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+        try:
+            tooltip = tooltip.replace('{{ e%s }}' % (effect.index(x)), x)
+        except Exception as e:
+            bot.send_message(
+                52033876,
+                send_exception(e),
+                parse_mode="Markdown")
     if var:
         for x in var:
-                try:
-                    tooltip = tooltip.replace('{{ %s }}' % (x['key']), str(x['coeff'][0]))
-                except Exception as e:
-                    bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            try:
+                tooltip = tooltip.replace(
+                    '{{ %s }}' %
+                    (x['key']), str(
+                        x['coeff'][0]))
+            except Exception as e:
+                bot.send_message(
+                    52033876,
+                    send_exception(e),
+                    parse_mode="Markdown")
     return tooltip
 
 
