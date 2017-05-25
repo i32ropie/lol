@@ -32,7 +32,7 @@
         "it":"Lingua rilevata automaticamente: Italiano\n\nPer cambiare usa /lang ^^",
         "de":"Sprache automatisch erkannt: Deutsch\n\nUm es zu ändern benutze /lang ^^",
         "pt":"Linguagem detectada automaticamente: Português\n\nPara mudá-la use /lang ^^",
-        "fr":"",
+        "fr":"Langue détectée: Français\n\nPour changer, tapez /lang ^^",
         "fa":"زبان خودکار شناسایی شد: Persian\n\nبرای تغییر آن از دستور روبرو استفاده کنید /lang ^^",
         "pl":"Język wykryty automatycznie: Polski\n\nAby go zmienić użyj /lang ^^",
         "tr":"Otomatik algılanan dil: Türkçe\n\nDeğiştirmek için /lang kullanın ^^",

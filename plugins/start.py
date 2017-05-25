@@ -37,13 +37,13 @@ def command_start(m):
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
         try:
-            idioma, idioma2 = m.from_user.language_code[:2], m.from_user.language_code
+            lang1, lang2 = m.from_user.language_code[:2], m.from_user.language_code
         except:
-            idioma, idioma2 = None, None
-        if idioma in ['es','en','pt','pl','ro', 'fa', 'it', 'de', 'tr']:
+            lang1, lang2 = None, None
+        if lang1 in ['es','en','pt','pl','ro', 'fa', 'it', 'de', 'tr', 'fr']:
             db.usuarios.insert({
                 "_id": str(cid),
-                "lang": idioma,
+                "lang": lang1,
                 "banned": False,
                 "notify": True,
                 "server": "",
@@ -60,14 +60,14 @@ def command_start(m):
                                  "\nIdioma: " +
                                  str(lang(cid)) +
                                  "\nDetectado: " +
-                                 str(idioma2))
+                                 str(lang2))
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['start_autodetect'][
-                    idioma])
+                    lang1])
             bot.send_message(
                 cid, responses['start_2'][
-                    idioma])
+                    lang1])
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
