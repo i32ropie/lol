@@ -37,7 +37,7 @@
         "pl":"Język wykryty automatycznie: Polski\n\nAby go zmienić użyj /lang ^^",
         "tr":"Otomatik algılanan dil: Türkçe\n\nDeğiştirmek için /lang kullanın ^^",
         "ro":"Limbă detectată automat: Român\n\nPentru a o schimba, folosește /lang ^^",
-        "ru":""
+        "ru":"Язык автоматически определен как: Русский\n\nДля смены используй /lang"
     },
     "stop":{
         "es":"Esto ha hecho llorar a Amumu :'(\nGracias por haber usado el bot, espero volver a verte por aquí dentro de poco :)",
