@@ -86,7 +86,7 @@ def command_match(m):
         '/match_kr',
         '/match_tr',
         '/match_ru',
-        '/match_oce'] and is_admin(m.from_user.id))
+        '/match_oce'])
 def match_info(m):
     cid = m.chat.id
     uid = m.from_user.id
