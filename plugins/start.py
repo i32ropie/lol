@@ -54,7 +54,7 @@ def command_start(m):
             'it',
             'de',
             'tr',
-            'fr'
+            'fr',
             'ru']:
             db.usuarios.insert({
                 "_id": str(cid),
