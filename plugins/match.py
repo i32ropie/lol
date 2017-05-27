@@ -136,7 +136,7 @@ def match_info(m):
 def query_summoner(q):
     cid = q.from_user.id
     # if is_beta(cid):
-    if is_banned(cid) or not is_admin(cid):
+    if is_banned(cid):
         return None
     invocador = q.query.split(None, 1)[1]
     region = q.query.split()[0].strip('#')
