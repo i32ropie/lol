@@ -100,10 +100,10 @@ def match_info(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        if not is_beta(cid):
-            if cid < 0:
-                bot.send_message(cid, responses['private'][lang(cid)])
-                return None
+        # if not is_beta(cid):
+        #     if cid < 0:
+        #         bot.send_message(cid, responses['private'][lang(cid)])
+        #         return None
         invocador = ' '.join(m.text.split(' ')[1:])
         cmd = m.text.lstrip('/').split(' ')[0].split('@')[0]
         region = cmd.split('_')[1]
@@ -217,12 +217,13 @@ def get_match_info(invocador, region, cid, inline=False):
                     lang(cid)] %
                 (invocador, region.upper()), parse_mode="Markdown")
         return None
-    campeones = lol_api.static_get_champion_list(
-        region=region,
-        locale=locales[
-            lang(cid)],
-        champ_data='altimages',
-        data_by_id=True)['data']
+    # campeones = lol_api.static_get_champion_list(
+    #     region=region,
+    #     locale=locales[
+    #         lang(cid)],
+    #     champ_data='altimages',
+    #     data_by_id=True)['data']
+    campeones = data['keys']
     summoner_name = summoner['name']
     summoner_id = summoner['id']
     try:
