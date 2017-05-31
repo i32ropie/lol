@@ -1,13 +1,13 @@
-Hallo zusammen!
+Sei gegrüßt, Beschwörer!
 
-Die Saisonmitte ist jetzt schon ein Patch her und das heißt, es ist an der Zeit, noch einmal auf die Änderungen zurückzukommen und diejenigen zu korrigieren, die nicht ins Schwarze getroffen haben. Das wären einige Nachbereitungen für die drei Tanks, zusätzliche Verwendbarkeit für Quests und eine Anpassung von Geistessicht.
+Es ist Zeit für Patch 7.11! Also Hände in die Luft und wie wild drauflos geklatscht.
 
-Wir nutzen die Zeit auch dazu, einige übermäßig starke Champions wieder auf den Boden der Tatsachen zurückzubringen. Fizz und Lulu sind Stammgäste in unseren Patchnotizen und Ivern war nun schon seit geraumer Zeit einer der besten Jungler. Sie etwas zurechtzustutzen sollte den anderen Champions mehr Gelegenheiten zum Glänzen bieten.
+Wir haben uns in letzter Zeit des Öfteren an große Veränderungen bei einzelnen Champions gewagt und dieser Trend setzt sich auch in diesem Patch fort. Wenn es uns also angemessen erscheint, werden größere Projekte in Zukunft vom Rest getrennt. Natürlich immer unter der Voraussetzung, dass wir auch welche vorzuzeigen haben. In diesem Patch stehen einige große Änderungen an Rek’Sai, Kindred und Malzahar auf dem Programm.
 
-Und schließlich bekommen einige Champions Modernisierungen verpasst. Hier ist alles dabei von Spielstilaktualisierungen für Heimerdinger – ja, genau, Heimerdinger – und Rammus – ja, genau, Rammus – bis hin zu kleinen Anpassungen der Lebensqualität (Animationen für Riven oder Jax).
+Wir setzten außerdem unsere Folgearbeiten zur Saisonmitte fort. Einige Tanks tun sich ohne den alten Schaden des „Sonnenfeuer-Umhangs“ etwas schwer, weswegen wir ihnen mit ein paar Buffs unter die Arme greifen wollen. Maokai und Zac folgen noch immer nicht wirklich dem Spielstil, den wir uns für sie gewünscht hatten, und bekommen deshalb ebenfalls einige leichte Anpassungen verpasst.
 
-Aber da ist noch mehr! Falls dir die letzten ARAM-Änderungen gefallen haben, fügen wir noch weitere hinzu, um die Erfahrung in der Heulenden Schlucht zu optimieren.
+Hinter der Gameplay-Front finden sich in diesem Patch aber auch noch einige lang erwartete Funktionen! Ein neues 10-Banne-Format wird im Laufe des Patches seinen Weg in unsere normalen und Ranglistenspiele finden. Gegenstandssets treffen ebenfalls endlich im aktualisierten Client ein.
 
-Ob du nun mit Heimerdinger Geschütztürme aufbaust oder sie mit Rammus einreißt: Wir sehen uns in der Kluft, Beschwörer!
+Und jetzt geh da raus und spiele ein bisschen League, Freund!
 
-Patchnotizen 7.10 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-710
+Patchnotizen 7.11 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-711

@@ -1,13 +1,13 @@
-¡Hola, amigos!
+Saludos, invocadores.
+[⁣](https://www.youtube.com/watch?v=hzH31x6VBgM)
+Ahora que la versión 7.11 está aquí, ya podéis poneros a bailar como Beyoncé.
 
-Estamos a mitad de temporada desde hace una versión, y eso quiere decir que es hora de volver a echar un vistazo a la pizarra de cambios y corregir aquellos con los que no hemos dado en el clavo. Como resultado, tenemos ajustes a los cambios de los tres tanques, utilidades adicionales para las misiones y un retoque a Rostro espiritual.
+Hemos estado realizando cambios importantes en campeones con más frecuencia, y en esta versión vamos a seguir haciéndolo. Cuando sea oportuno, vamos a separar los proyectos grandes del resto. En esta versión, son las actualizaciones para Rek'Sai, Kindred y Malzahar.
 
-En esta ocasión, también vamos a equilibrar a algunos de los campeones que están más fuertes. No es la primera vez que Fizz y Lulu aparecen en las notas de la versión, e Ivern lleva un tiempo siendo uno de los junglas más destacados. Si les restamos poder, otros campeones podrán ganar más protagonismo.
+También vamos a continuar con los cambios de mitad de temporada. Sin el daño que la Capa de fuego solar inflige en combate, algunos tanques están teniendo problemas, así que traemos algunas mejoras para echarles una mano. Maokai y Zac siguen sin tener el estilo de juego que nos gustaría, por lo que vamos a hacerles unos retoques más en esta versión.
 
-Por último, vamos a implementar mejoras para modernizar a unos cuantos campeones. Desde actualizaciones de estilo de juego para Heimerdinger (sí, ese Heimerdinger) y Rammus (sí, ese Rammus) hasta pequeños retoques de calidad de vida (como animaciones para Riven o Jax).
+Además de abordar la experiencia de juego, en esta versión también traemos algunas características que todos estábamos esperando. A lo largo de la versión llegará un nuevo formato de 10 bloqueos a las partidas normales y clasificatorias, y estrenaremos los conjuntos de objetos en el cliente actualizado.
 
-¡Esperad, hay más! Si os gustaron los cambios de ARAM de la última vez, estáis de suerte, porque vamos a implementar más para modernizar la experiencia del Abismo de los Lamentos.
+Vamos todos a jugar al LoL, amigos.
 
-¡Nos vemos en la Grieta, invocadores! Ya sea repartiendo torretas con Heimerdinger o derribándolas con los seísmos de Rammus.
-
-Notas de la Versión 7.10 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-710
+Notas de la Versión 7.11 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-711

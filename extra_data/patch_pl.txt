@@ -1,13 +1,13 @@
-Och, witajcie!
+Witajcie, przywoływacze.
 
-Środek sezonu przyszedł do nas w ostatnim patchu, co oznacza, że nadszedł czas na przyjrzenie się zmianom i naprostowanie wszystkich, które nie do końca się sprawdzają. Oznacza to kilka dalszych zmian dla trójki obrońców, dodatkową użyteczność zadań oraz poprawkę Oblicza Ducha.
+Nadeszła pora na patch 7.11, więc podnieście ręce w górę i bijcie brawo.
 
-Korzystamy także z sytuacji, aby zająć się bohaterami, którzy radzą sobie zbyt dobrze i doprowadzić ich do porządku. Fizz i Lulu często pojawiają się w opisach patchów, a Ivern od jakiegoś czasu jest jednym z najlepszych dżunglerów. Lekkie osłabienie ich powinno umożliwić zabłyśnięcie innym bohaterom.
+Coraz częściej zajmowaliśmy się poważniejszymi zmianami u bohaterów i ten patch kontynuuje ten trend. Więc, gdy będzie to pasowało, będziemy oddzielać większe projekty od pozostałych. W tym patchu aktualizujemy Rek’Sai, Kindred i Malzahara!
 
-Na koniec trochę modernizujemy część bohaterów. Zalicza się do tego aktualizacja stylu gry dla Heimerdingera — tak, tego Heimerdingera — i Rammusa — tak, tego Rammusa — oraz drobne usprawnienia (animacje Riven i Jaxa).
+Kontynuujemy także zmiany w środku sezonu. Kilku obrońców kiepsko sobie radziło bez starych obrażeń Słonecznej Peleryny podczas walki, więc mamy dla nich trochę wzmocnień, które pomogą. Maokai i Zac wciąż nie do końca wpisują się w nasze wyobrażenie stylu rozgrywki, więc wprowadzamy kolejne zmiany w tym patchu.
 
-Ale chwila, to jeszcze nie koniec! Jeżeli podobały się wam ostatnie zmiany w trybie ARAM, to kontynuujemy je, aby jeszcze bardziej ulepszyć starcia na Howling Abyss.
+Poza zmianami w rozgrywce, ten patch wprowadza wiele wyczekiwanych od dawna funkcji. Nowy system 10 banów w drafcie pojawi się w rozgrywkach zwykłych i rankingowych jakiś czas po wprowadzeniu patcha, a zestawy przedmiotów zadebiutują w zaktualizowanym kliencie!
 
-Niezależnie od tego, czy będziecie rozstawiać wieżyczki jako Heimerdinger, czy niszczyć je wstrząsami jako Rammus, do zobaczenia na Summoner’s Rift, przywoływacze!
+Ruszajcie i grajcie w League, przyjaciele.
 
-Opis patcha 7.10 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-710
+Opis patcha 7.11 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-711

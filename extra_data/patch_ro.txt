@@ -1,13 +1,13 @@
-Ah, salut, salut!
+Salutare, invocatori!
 
-Mijlocul sezonului e live de un patch întreg, deci a venit timpul să analizăm schimbările introduse și să le ajustăm pe cele care nu și-au atins scopurile. Mai exact, le vom aduce câteva modificări celor trei campioni tanc pe care i-am actualizat, misiunile vor deveni mai ușor de înțeles și vom ajusta ''Înfățișarea sufletului''.
+E timpul să lansăm patch-ul 7.11, așa că toată lumea mânuțele sus!!!
 
-În plus, profităm de ocazia asta pentru a mai reduce din puterea campionilor care se descurcă PREA bine în momentul de față. Fizz și Lulu sunt clienți fideli ai notelor de patch, iar Ivern e alegerea preferată a junglerilor de ceva timp. Acum că le mai scădem din putere, ceilalți campioni vor avea șansa să arate și ei ce pot.
+Am adus tot mai des modificări importante campionilor, iar în acest patch continuăm această tendință. Așa că de acum încolo, vom încerca să separăm proiectele mai mari de restul. Acum e momentul ca Rek'Sai, Kindred și Malzahar să fie actualizați!
 
-Nu în ultimul rând, le aducem modernizări câtorva campioni: de la actualizări de stil de joc pentru Heimerdinger (da, ACEL Heimerdinger) și Rammus (da, ACEL Rammus), până la mici îmbunătățiri de calitate (animații pentru Riven și Jax).
+De asemenea, continuăm modificările de după mijlocul sezonului. Câțiva campioni tanc nu se descurcă prea bine fără daunele pe care le provoca ''Mantia solară'' în lupte, așa că le oferim niște buff-uri care să-i ajute. Maokai și Zac tot nu au tiparele de gameplay pe care ni le-am fi dorit, așa că le mai aducem și lor niște mici ajustări în acest patch.
 
-Dar stați așa, încă n-am terminat! Sperăm că v-au plăcut schimbările legate de ARAM din ultimele note de patch, căci am mai adăugat câteva pentru a finisa experiența din Abisul Urletelor.
+În afară de schimbările de gameplay, acest patch aduce și câteva caracteristici mult-așteptate. Implementăm un nou format draft cu 10 blocări în meciurile normale și ranked, iar seturile de obiecte își fac debutul în clientul actualizat!
 
-Indiferent dacă preferați turelele lui Heimerdinger sau trepidațiile lui Rammus, ne vedem în Rift!
+Nu ne rămâne altceva de făcut decât să mergem să jucăm niște LoL.
 
-Notele patch-ului 7.10 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-710
+Notele patch-ului 7.11 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-711

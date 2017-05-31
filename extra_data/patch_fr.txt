@@ -1,13 +1,13 @@
-Bonjour à tous !
+Bonjour, invocateurs !
 
-La mi-saison est en place depuis un patch, ce qui signifie que nous pouvons à présent faire la liste des modifications et autres changements de cap que nous allons offrir à tous ceux qui ne répondent pas à nos attentes. Nous allons peaufiner la mise à jour de nos tanks, améliorer les quêtes et ajuster le Visage spirituel.
+Faites la ola et tapez dans vos mains (essayez de faire les deux en même temps), car c'est l'heure du patch 7.11.
 
-Nous en profitons également pour faire rentrer dans le rang certains champions un poil trop forts. Fizz et Lulu sont des habitués des notes de patch, et Ivern est l'un des meilleurs junglers depuis un bon moment. En réduisant un peu leurs forces, nous devrions permettre à d'autres champions de briller.
+Nous apportons de plus en plus souvent de gros changements à nos champions, et aujourd'hui ne fera pas exception. Par conséquent, nous séparerons les gros projets du reste quand cela s'avèrera nécessaire. Cette fois, cela concerne donc Rek'Sai, Kindred et Malzahar !
 
-Pour finir, nous effectuons des améliorations pour moderniser plusieurs champions. Pour certains, il s'agit de mise à jour de leur style de jeu (Heimerdinger et Rammus), mais d'autres reçoivent de simples ajustements qui vous simplifieront la vie (les animations de Riven et de Jax).
+Nous continuons également de peaufiner les changements de la mi-saison. Quelques tanks se trouvent en difficulté sans l'avantage que leur offrait autrefois la Cape solaire, alors nous leur avons préparé une poignée de buffs. Comme Maokai et Zac ne répondent toujours pas à nos attentes en terme de gameplay, nous les ajustons encore un peu cette semaine.
 
-Mais attendez, ce n'est pas tout ! Si vous avez aimé les changements apportés à l'ARAM lors du précédent patch, nous en faisons de nouveau pour fluidifier l'expérience dans l'Abîme hurlant.
+Hormis les changements liés au gameplay, ce patch apporte quelques fonctions très attendues. Une nouvelle draft à 10 bannissements débarquera petit à petit dans les modes normal et classé, et les sets d'objets arrivent enfin dans le client mis à jour !
 
-Que vous posiez des tourelles avec Heimerdinger ou que vous les secouiez avec Rammus, GLHF dans la Faille !
+On se donne rendez-vous dans la Faille, les amis !
 
-Notes de patch 7.10 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-710
+Notes de patch 7.11 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-711

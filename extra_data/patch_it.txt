@@ -1,13 +1,13 @@
-Ehi, ciao a tutti!
+Salve, evocatori.
 
-La metà stagione è qui con noi da una patch, quindi è il momento di rivedere le modifiche e correggere la rotta in caso non stiano avendo gli effetti sperati. Il che significa che abbiamo modifiche di ritorno per i tre tank, che abbiamo reso le missioni più utilizzabili e che abbiamo ritoccato Corazza spirituale.
+La patch 7.11 è finalmente arrivata, quindi potete iniziare a urlare, agitare le braccia e strapparvi i capelli dall'emozione.
 
-Sfruttiamo l'occasione anche per regolare alcuni campioni troppo forti, rimettendoli in riga. Fizz e Lulu sono apparsi più volte nelle note sulla patch, e Ivern è da tempo una delle giungle più usate. Ridimensionarli un po' lascerà più spazio agli altri campioni.
+Ultimamente abbiamo apportato alcuni cambiamenti ai campioni più in evidenza con una frequenza maggiore, un trend che prosegue anche in questa patch. D'ora in poi, quando sarà necessario, separeremo i grandi progetti dal resto degli interventi. Nella nuova patch, questi riguardano Rek'Sai, Kindred e Malzahar!
 
-Per finire, abbiamo apportato migliorie per modernizzare alcuni campioni. Andiamo da modifiche allo stile di gioco di Heimerdinger (si, proprio quell'Heimerdinger) e Rammus (sì, quel Rammus), ma anche piccoli ritocchi per l'usabilità (le animazioni di Riven o Jax).
+Proseguiremo anche i nostri interventi di metà stagione. Alcuni tank soffrono la mancanza del vecchio bonus ai danni da combattimento del Mantello del Sole, quindi abbiamo tirato fuori qualche buff per aiutarli. In più, dato che Maokai e Zac non seguono ancora gli schemi di gameplay che avevamo previsto per loro, verranno ulteriormente modificati in questa patch.
 
-Ma non finisce qui! Se vi sono piaciute le modifiche ad ARAM della volta scorsa, vi piacerà anche quello che abbiamo fatto per rendere più fluida l'esperienza in Abisso ululante.
+Oltre ai cambiamenti sul fronte del gameplay, questa patch introduce anche alcune funzionalità molto attese. Tra queste, l'arrivo del formato di selezione a 10 ban nelle partite normali e classificate e il debutto dei set di oggetti nel client aggiornato!
 
-Che siate degli Heimerdinger che sganciano torrette o dei tumultuosi Rammus, ci vediamo nella Landa, evocatori!
+Preparatevi a fare sul serio, gente.
 
-Note sulla patch 7.10 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-710
+Note sulla patch 7.11 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-711
