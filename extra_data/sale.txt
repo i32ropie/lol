@@ -1,8 +1,8 @@
-/Lissandra: 487 RP
-/Nocturne: 440 RP
-/Akali: 395 RP
-/Riven: 440 RP
-/Nidalee_4: 260 RP
-/Ahri_2: 375 RP
-/Karthus_3: 487 RP
-/Jinx_2: 675 RP
+/Vi: 487 RP
+/KogMaw: 440 RP
+/XinZhao: 292 RP
+/Kassadin: 395 RP
+/Sivir_1: 260 RP
+/Irelia_5: 375 RP
+/Vi_2: 487 RP
+/VelKoz_1: 675 RP
