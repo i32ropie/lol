@@ -19,6 +19,7 @@ import re
 import socket
 from collections import OrderedDict
 from pymongo import MongoClient
+import requests
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -202,3 +203,8 @@ def to_json(m):
         else:
             d[x] = y
     return d
+
+
+def static_versions():
+    url = "https://euw1.api.riotgames.com/lol/static-data/v3/versions"
+    return requests.get(url, {'api_key': extra['lol_api']}).json()
