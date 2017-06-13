@@ -1,13 +1,9 @@
-Saudações, Invocadoras e Invocadores.
+Fala, galera.
 
-Está na hora da Atualização 7.11. Botem as mãos pra cima e balancem com gosto.
+A Atualização 7.12 é a primeira em muito tempo que não traz um Campeão novo ou reformulado, mas isso não significa que devemos ignorá-la. Leitura obrigatória para suas partidas na 7.12: consulte os ajustes dos itens de suporte. Estamos tentando diversificar a construção de itens entre suportes mais parrudos e seus compatriotas Encantadores, e as mudanças englobam desde ajustes nos custos até uma total reformulação no Emissário de Zeke (agora Convergência de Zeke). Além disso, temos vários balanceamentos, tanto nos projetos recentes que mencionamos acima, quanto em carinhas novas que já não vemos há um tempo.
 
-Temos feito alterações de Campeões maiores com mais frequência e esta atualização continua nesse ritmo. Então separaremos projetos maiores do restante quando necessário. Esta atualização traz novidades para Rek'Sai, Kindred e Malzahar!
+Desta vez conseguimos mexer em algumas coisas fora do jogo também! Esta é a primeira Atualização que será totalmente jogada no sistema de 10 banimentos, e estamos empolgados para acompanhar a evolução desse meta. O Placar de Controle de Grupo que prometemos na meia-temporada também está aqui! E por último, temos um incrível par de skins lendárias para Riven e Yasuo - as rotas solo nunca estiveram tão na moda.
 
-Também estamos continuando o acompanhamento da meia-temporada. Alguns tanques estavam tendo problemas sem o antigo dano da Capa de Fogo Solar, então trouxemos alguns fortalecimentos para ajudar. Maokai e Zac ainda não estão bem no padrão de mecânica de jogo que gostaríamos, por isso fizemos mais alguns ajustes nesta atualização.
+E por hoje é só, pessoal! "Podagô?"
 
-Além da mecânica de jogo, esta atualização traz também alguns recursos bastante aguardados. O novo formato de 10 banimentos se espalhará para partidas normais e ranqueadas ao longo da atualização e os Arsenais vão estrear no cliente atualizado!
-
-Vão lá e joguem League, pessoal.
-
-Notas da Atualização 7.11 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-711
+Notas da Atualização 7.12 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-712

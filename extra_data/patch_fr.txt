@@ -1,13 +1,9 @@
-Bonjour, invocateurs !
+Bonjour à tous !
 
-Faites la ola et tapez dans vos mains (essayez de faire les deux en même temps), car c'est l'heure du patch 7.11.
+Le patch 7.12 n'offre ni nouveau champion ni refonte de champion (cela faisait longtemps que ce n'était pas arrivé !), mais ça ne signifie pas qu'il ne propose rien d'intéressant. Avant de vous lancer dans la version 7.12 du jeu, nous vous conseillons vivement de lire la section sur les objets de support. Nous voulons améliorer la diversité des builds pour les supports tanky et leurs collègues enchanteurs, et pour cela, nous ajustons quelques coûts et revoyons intégralement le Héraut de Zeke (désormais nommé Convergence de Zeke). Au-delà de ça, nous avons un assortiment d'équilibrages pour les projets dont nous parlions récemment, mais aussi pour quelques champions qui n'étaient plus passés par ici depuis un bail.
 
-Nous apportons de plus en plus souvent de gros changements à nos champions, et aujourd'hui ne fera pas exception. Par conséquent, nous séparerons les gros projets du reste quand cela s'avèrera nécessaire. Cette fois, cela concerne donc Rek'Sai, Kindred et Malzahar !
+Nous avons également de chouettes choses en dehors des champs de bataille ! Ce patch est le tout premier qui sera joué intégralement avec le système à 10 bannissements, et nous avons hâte de voir comment la meta évoluera suite à cela. Le score de contrôle de foule promis pendant la mi-saison est arrivé ! Et pour finir, nous vous proposons de super skins légendaires pour Riven et Yasuo ; les voies en solo n'auront jamais été aussi classes.
 
-Nous continuons également de peaufiner les changements de la mi-saison. Quelques tanks se trouvent en difficulté sans l'avantage que leur offrait autrefois la Cape solaire, alors nous leur avons préparé une poignée de buffs. Comme Maokai et Zac ne répondent toujours pas à nos attentes en terme de gameplay, nous les ajustons encore un peu cette semaine.
+C'est tout pour aujourd'hui ! À vous de jouer !
 
-Hormis les changements liés au gameplay, ce patch apporte quelques fonctions très attendues. Une nouvelle draft à 10 bannissements débarquera petit à petit dans les modes normal et classé, et les sets d'objets arrivent enfin dans le client mis à jour !
-
-On se donne rendez-vous dans la Faille, les amis !
-
-Notes de patch 7.11 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-711
+Notes de patch 7.12 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-712

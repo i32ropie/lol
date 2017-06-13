@@ -1,13 +1,9 @@
-Sei gegrüßt, Beschwörer!
+Was geht ab?
 
-Es ist Zeit für Patch 7.11! Also Hände in die Luft und wie wild drauflos geklatscht.
+7.12 ist der erste Patch seit geraumer Zeit, in dem wir keinen aktualisierten oder neuen Champion für dich parat haben. Das ist aber kein Grund, wegzunicken! Wichtige Infos für deine Spiele auf Patch 7.12: Schau dir unsere Überarbeitung der Supporter-Gegenstände an! Wir versuchen, für eine breitere Gegenstandsvielfalt zwischen robusteren Supportern und Verzauberern zu sorgen, und die Änderungen variieren dabei von einfachen Veränderungen von Preisen bis hin zu einer Komplettüberarbeitung von Zekes Bote (jetzt Zekes Konvergenz). Neben diesem großen Satz an Veränderungen, haben wir auch noch einiges an Spielbalance-Arbeit an bereits früher erwähnten Projekten und einigen alten Freunden zu erledigen.
 
-Wir haben uns in letzter Zeit des Öfteren an große Veränderungen bei einzelnen Champions gewagt und dieser Trend setzt sich auch in diesem Patch fort. Wenn es uns also angemessen erscheint, werden größere Projekte in Zukunft vom Rest getrennt. Natürlich immer unter der Voraussetzung, dass wir auch welche vorzuzeigen haben. In diesem Patch stehen einige große Änderungen an Rek’Sai, Kindred und Malzahar auf dem Programm.
+Dieses Mal gibt es auch einige Verbesserungen außerhalb des Spiels! Das hier ist der erste Patch, bei dem wir vollständig auf das 10-Banne-System wechseln werden, und wir freuen uns darauf, zu beobachten, wie sich das Bann-Metaspiel in Zukunft entwickelt. Die Massenkontrolle-Wertung, die wir zur Saisonmitte versprochen hatten, hat es nun ebenfalls ins Spiel geschafft! Zu guter Letzt haben wir auch noch ein paar coole legendäre Skins für Riven und Yasuo im Gepäck! Die Solo-Lane hat noch nie so stylisch ausgesehen!
 
-Wir setzten außerdem unsere Folgearbeiten zur Saisonmitte fort. Einige Tanks tun sich ohne den alten Schaden des „Sonnenfeuer-Umhangs“ etwas schwer, weswegen wir ihnen mit ein paar Buffs unter die Arme greifen wollen. Maokai und Zac folgen noch immer nicht wirklich dem Spielstil, den wir uns für sie gewünscht hatten, und bekommen deshalb ebenfalls einige leichte Anpassungen verpasst.
+Und das war’s auch schon mit den Anmerkungen! Schnapp sie dir, Champ!
 
-Hinter der Gameplay-Front finden sich in diesem Patch aber auch noch einige lang erwartete Funktionen! Ein neues 10-Banne-Format wird im Laufe des Patches seinen Weg in unsere normalen und Ranglistenspiele finden. Gegenstandssets treffen ebenfalls endlich im aktualisierten Client ein.
-
-Und jetzt geh da raus und spiele ein bisschen League, Freund!
-
-Patchnotizen 7.11 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-711
+Patchnotizen 7.12 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-712

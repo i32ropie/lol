@@ -1,13 +1,9 @@
-Selam Sihirdarlar,
+Selam Arkadaşlar,
 
-7.11 Yaması'nın vakti gelip çattığına göre gelin nelerin değiştiğine şöyle bir göz atalım.
+7.12, uzun süredir beraberinde yeni ya da güncellenmiş bir şampiyon getirmeyen ilk yama olmasına rağmen bazı önemli değişiklikler içeriyor. Bu yamada oyunlarınıza başlamadan önce özellikle destek eşyaları değişikliklerini okumanızı öneriyoruz. Dayanıklı destekler ve efsuncu arkadaşları arasında daha iyi bir eşya çeşitliliği oluşturmak istiyoruz ve değişiklikler bedel ayarlamalarından baştan aşağı yenilenen Zeke'in Habercisi'ne (artık Zeke'in Ahengi) kadar uzanıyor. Bunun ötesinde, hem az önce bahsettiğimiz son dönem projelerimiz hem de bir süredir görmediğimiz bazı yüzler için çeşitli denge düzenlemelerimiz var.
 
-Son zamanlarda köklü şampiyon değişikliklerini daha sık görmeye başladık ve bu durum 7.11 Yaması'nda da devam ediyor. Artık mümkün oldukça büyük projelerimizi diğerlerinden ayrı tutacağız. Dolayısıyla bu yama Rek’Sai, Kindred ve Malzahar için güncellemelerle geliyor.
+Ayrıca oyunun dış bölümleri için de bazı yeniliklerimiz var. Bu, başından itibaren 10'lu yasaklama sistemiyle oynanacak ilk yama ve biz de yasaklama metasının nasıl şekilleneceğini görmek için sabırsızlanıyoruz. Sezon ortasında sözünü verdiğimiz kitle kontrolü skoru özelliği de geldi! Son olarak Yasuo ve Riven için birer efsanevi kostümümüz var. Tek kişilik koridorlar hiç bu kadar havalı görünmemişti.
 
-Ayrıca sezon ortası çalışmalarımızı da sürdürüyoruz. Günateşi Pelerini'nin sağladığı çatışma hasarının kaldırılmasıyla bazı tanklar zorlanmaya başladı ve biz de bu yüzden onlara biraz yardım etmeye karar verdik. Maokai ve Zac hâlâ istediğimiz oynanış düzenine sahip olmadığından bu yamayla onlara da biraz ince ayar çekiyoruz.
+Bu yama için söyleyeceklerimiz bu kadar. Vadi'de görüşmek üzere.
 
-Oynanış değişikliklerinin dışında bu yamayla birlikte uzun zamandır beklenen bazı özellikleri de oyuna getiriyoruz. Yeni 10'lu yasaklama bu yama dönemi içerisinde geliyor ve eşya setleri de güncellenen istemcide ilk defa boy göstermeye hazırlanıyor.
-
-Şimdi gelin biraz LoL oynayalım, dostlar.
-
-7.11 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/711-yama-notlari
+7.12 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/712-yama-notlari

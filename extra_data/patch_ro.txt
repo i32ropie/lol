@@ -1,13 +1,9 @@
-Salutare, invocatori!
+Salutare, prieteni.
 
-E timpul să lansăm patch-ul 7.11, așa că toată lumea mânuțele sus!!!
+7.12 e primul patch din ultima vreme în care nici nu lansăm, nici nu actualizăm vreun campion, dar asta nu înseamnă că ne-am culcat pe-o ureche. Cele mai importante modificări de care trebuie să știți în meciurile din 7.12 sunt cele pentru obiectele de suport. Vrem ca build-urile pentru campionii de suport să difere mai mult între tancuri și amplificatori, așa că avem o gamă variată de schimbări, de la modificări ale prețurilor, până la o actualizare completă a ''Profeției lui Zeke'' (mai nou ''Convergența lui Zeke''). Dincolo de asta, facem o mulțime de echilibrări, atât pentru proiectele recente menționate mai devreme, cât și pentru prieteni vechi pe care nu i-am mai văzut de multă vreme în notele patch-ului.
 
-Am adus tot mai des modificări importante campionilor, iar în acest patch continuăm această tendință. Așa că de acum încolo, vom încerca să separăm proiectele mai mari de restul. Acum e momentul ca Rek'Sai, Kindred și Malzahar să fie actualizați!
+Sărbătorim câteva victorii și în afara jocului! Acesta este primul patch în care toată lumea va beneficia de sistemul de 10 blocări și suntem curioși și nerăbdători să vedem cum se dezvoltă meta-ul. Lansăm și punctajul controlului maselor, pe care vi l-am promis la mijlocul sezonului! Iar la final de tot, avem o pereche grozavă de skin-uri legendare pentru Riven și Yasuo. Culoarele solo arată mai bine ca niciodată.
 
-De asemenea, continuăm modificările de după mijlocul sezonului. Câțiva campioni tanc nu se descurcă prea bine fără daunele pe care le provoca ''Mantia solară'' în lupte, așa că le oferim niște buff-uri care să-i ajute. Maokai și Zac tot nu au tiparele de gameplay pe care ni le-am fi dorit, așa că le mai aducem și lor niște mici ajustări în acest patch.
+Și cam atât pentru acest set de note ale patch-ului! Înainte, spre victorie!
 
-În afară de schimbările de gameplay, acest patch aduce și câteva caracteristici mult-așteptate. Implementăm un nou format draft cu 10 blocări în meciurile normale și ranked, iar seturile de obiecte își fac debutul în clientul actualizat!
-
-Nu ne rămâne altceva de făcut decât să mergem să jucăm niște LoL.
-
-Notele patch-ului 7.11 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-711
+Notele patch-ului 7.12 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-712

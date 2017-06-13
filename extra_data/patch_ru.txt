@@ -1,13 +1,9 @@
-Привет, призыватели!
+Selam Arkadaşlar,
 
-Пришло время для обновления 7.11, так что поднимайте руки вверх, машите ими из стороны в сторону и беззаботно хлопайте в ладоши, как в той песне Бейонсе.
+7.12, uzun süredir beraberinde yeni ya da güncellenmiş bir şampiyon getirmeyen ilk yama olmasına rağmen bazı önemli değişiklikler içeriyor. Bu yamada oyunlarınıza başlamadan önce özellikle destek eşyaları değişikliklerini okumanızı öneriyoruz. Dayanıklı destekler ve efsuncu arkadaşları arasında daha iyi bir eşya çeşitliliği oluşturmak istiyoruz ve değişiklikler bedel ayarlamalarından baştan aşağı yenilenen Zeke'in Habercisi'ne (artık Zeke'in Ahengi) kadar uzanıyor. Bunun ötesinde, hem az önce bahsettiğimiz son dönem projelerimiz hem de bir süredir görmediğimiz bazı yüzler için çeşitli denge düzenlemelerimiz var.
 
-В последнее время часто происходят масштабные изменения чемпионов, и это обновление не станет исключением. Как и раньше, для вашего удобства описание крупных проектов отделено от всего остального. В этом обновлении мы перерабатываем Рек'Сай, Киндред и Мальзахара!
+Ayrıca oyunun dış bölümleri için de bazı yeniliklerimiz var. Bu, başından itibaren 10'lu yasaklama sistemiyle oynanacak ilk yama ve biz de yasaklama metasının nasıl şekilleneceğini görmek için sabırsızlanıyoruz. Sezon ortasında sözünü verdiğimiz kitle kontrolü skoru özelliği de geldi! Son olarak Yasuo ve Riven için birer efsanevi kostümümüz var. Tek kişilik koridorlar hiç bu kadar havalı görünmemişti.
 
-Продолжается внесение изменений по горячим следам середины сезона. Некоторым танкам приходится несладко после уменьшения урона Накидки солнечного пламени, поэтому им подарено несколько усилений. Маокай и Зак все еще играются не так, как нам хотелось бы, поэтому небольшим изменениям подверглись и они.
+Bu yama için söyleyeceklerimiz bu kadar. Vadi'de görüşmek üzere.
 
-А теперь немного отвлечемся от игрового процесса – в этом обновлении вас ждет ряд долгожданных возможностей. После выхода обновления мы будем постепенно включать новую систему 10 блокировок в обычных и ранговых играх, а в клиент наконец-то вернутся наборы предметов!
-
-Что ж, запускайте LoL и марш в Ущелье!
-
-Изменения обновления 7.11 http://ru.leagueoflegends.com/ru/news/game-updates/patch/izmeneniya-obnovleniya-711
+Изменения обновления 7.12 http://ru.leagueoflegends.com/ru/news/game-updates/patch/izmeneniya-obnovleniya-712

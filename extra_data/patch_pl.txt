@@ -1,13 +1,9 @@
-Witajcie, przywoływacze.
+Witajcie, przyjaciele.
 
-Nadeszła pora na patch 7.11, więc podnieście ręce w górę i bijcie brawo.
+7.12 to pierwszy patch od dość dawna, w którym nie ma nowego lub zaktualizowanego bohatera, ale nie oznacza to, że będziemy się obijać. Koniecznie musicie przeczytać jedną rzecz przed pobraniem patcha 7.12: sprawdźcie zmiany przedmiotów dla wspierających. Chcemy stworzyć większą różnorodność kupowanych przedmiotów między obronnymi wspierającymi a zaklinaczami. Zmiany te wprowadzimy począwszy od kosztów a skończywszy na pełnej przeróbce Zwiastuna Zeke’a (obecnie Konwergencja Zeke’a). Poza tym mamy sporo poprawek wyważających, zarówno dla kilku niedawnych pacjentów, jak i twarzy, których nie widzieliśmy od dawna.
 
-Coraz częściej zajmowaliśmy się poważniejszymi zmianami u bohaterów i ten patch kontynuuje ten trend. Więc, gdy będzie to pasowało, będziemy oddzielać większe projekty od pozostałych. W tym patchu aktualizujemy Rek’Sai, Kindred i Malzahara!
+Mamy także trochę zmian poza rozgrywką! To pierwszy patch, który będzie w pełni obsługiwał system 10 banów i nie możemy się doczekać, żeby zobaczyć, jak będzie rozwijać się meta banów. Punkty za kontrolę tłumu obiecane w środku sezonu wreszcie się pojawiają! Na koniec mamy stylową parę legendarnych skórek dla Riven i Yasuo — solowe aleje nigdy nie prezentowały się tak dobrze.
 
-Kontynuujemy także zmiany w środku sezonu. Kilku obrońców kiepsko sobie radziło bez starych obrażeń Słonecznej Peleryny podczas walki, więc mamy dla nich trochę wzmocnień, które pomogą. Maokai i Zac wciąż nie do końca wpisują się w nasze wyobrażenie stylu rozgrywki, więc wprowadzamy kolejne zmiany w tym patchu.
+To tyle, jeśli chodzi o wstęp! Ruszajcie do boju, bohaterowie.
 
-Poza zmianami w rozgrywce, ten patch wprowadza wiele wyczekiwanych od dawna funkcji. Nowy system 10 banów w drafcie pojawi się w rozgrywkach zwykłych i rankingowych jakiś czas po wprowadzeniu patcha, a zestawy przedmiotów zadebiutują w zaktualizowanym kliencie!
-
-Ruszajcie i grajcie w League, przyjaciele.
-
-Opis patcha 7.11 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-711
+Opis patcha 7.12 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-712
