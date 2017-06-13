@@ -1,9 +1,9 @@
-Selam Arkadaşlar,
+Привет, друзья!
 
-7.12, uzun süredir beraberinde yeni ya da güncellenmiş bir şampiyon getirmeyen ilk yama olmasına rağmen bazı önemli değişiklikler içeriyor. Bu yamada oyunlarınıza başlamadan önce özellikle destek eşyaları değişikliklerini okumanızı öneriyoruz. Dayanıklı destekler ve efsuncu arkadaşları arasında daha iyi bir eşya çeşitliliği oluşturmak istiyoruz ve değişiklikler bedel ayarlamalarından baştan aşağı yenilenen Zeke'in Habercisi'ne (artık Zeke'in Ahengi) kadar uzanıyor. Bunun ötesinde, hem az önce bahsettiğimiz son dönem projelerimiz hem de bir süredir görmediğimiz bazı yüzler için çeşitli denge düzenlemelerimiz var.
+7.12 – наше первое обновление за долгое время, в котором нет новых или переработанных чемпионов, однако это вовсе не означает, что можно расслабляться. Прежде чем отправляться на поле боя, вам как минимум стоит ознакомиться с перетасовкой предметов для поддержки. Мы хотим добиться большего разнообразия в сборках между крепкими чемпионами и их коллегами-чародеями, поэтому вносим целый ряд изменений – от корректировки цен до полного обновления Вестника Зика (который теперь зовется Конвергенцией Зика). Кроме того, проведена серьезная работа по балансировке – как с недавними проектами, о которых мы упоминали ранее, так и с новыми лицами, которые давно не заглядывали на огонек.
 
-Ayrıca oyunun dış bölümleri için de bazı yeniliklerimiz var. Bu, başından itibaren 10'lu yasaklama sistemiyle oynanacak ilk yama ve biz de yasaklama metasının nasıl şekilleneceğini görmek için sabırsızlanıyoruz. Sezon ortasında sözünü verdiğimiz kitle kontrolü skoru özelliği de geldi! Son olarak Yasuo ve Riven için birer efsanevi kostümümüz var. Tek kişilik koridorlar hiç bu kadar havalı görünmemişti.
+А еще мы припасли пару вкусностей для внеигровой стадии! Это первое обновление, в котором повсеместно будет использоваться система десяти блокировок, и нам не терпится узнать, как это скажется на мете. А еще наконец введена статистика контроля, обещанная в предсезоне! И последнее: мы приготовили для вас пару легендарных образов для Ривен и Ясуо. Одиночные линии еще никогда не выглядели так круто!
 
-Bu yama için söyleyeceklerimiz bu kadar. Vadi'de görüşmek üzere.
+Вот и все на сегодня! К бою.
 
 Изменения обновления 7.12 http://ru.leagueoflegends.com/ru/news/game-updates/patch/izmeneniya-obnovleniya-712
