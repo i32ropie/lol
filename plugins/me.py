@@ -64,7 +64,7 @@ def get_summoner_info(invocador, region, cid):
         txt = responses['summoner_error'][
             lang(cid)] % (invocador, region.upper())
         return txt
-    lattest_version = static_versions()[0]
+    lattest_version = static_versions()
     icon_id = summoner['profileIconId']
     icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
         lattest_version, icon_id)

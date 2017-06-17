@@ -146,7 +146,7 @@ def query_champ_basic(q):
         for x in data[lang(cid)]:
             if c_name == data[lang(cid)][x]['key'].lower():
                 champ = data[lang(cid)][x]
-                lattest_version = static_versions()[0]
+                lattest_version = static_versions()
                 thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(
                     lattest_version, champ['key'])
                 txt = champ_basic(data[lang(cid)][x], cid, inline=True)
@@ -177,7 +177,7 @@ def query_champ_extra(q):
         for x in data[lang(cid)]:
             if c_name == data[lang(cid)][x]['key'].lower():
                 champ = data[lang(cid)][x]
-                lattest_version = static_versions()[0]
+                lattest_version = static_versions()
                 thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(
                     lattest_version, champ['key'])
                 txt = champ_info(data[lang(cid)][x], cid)
