@@ -11,7 +11,8 @@
         "pl":"Witaj w @LoL_bot. Bot pokaże Ci wszystkie skiny i bohaterów, poinformuje Cię o nowych wyprzedażach oraz dostępnych rotacjach, pokaże informacje na temat przywoływaczy i meczów, który bohater jest słaby lub silny przeciwko innemu, i więcej w niedalekiej przyszłości! :)",
         "tr":"@LoL_bot'a hoşgeldin! Bu bot sana tüm şampiyonları ve kostümleri yeni satışlarıyla ve haftalık rotasyonuyla birlikte sunacak. Aynı zamanda sihirdarların bilgilerini ve maçları sırasında kimin güçlü olduğunu gösterecek. Daha fazla özellik yakında :)",
         "ro":"Bine ai venit în @League_of_Legends_bot. Acest bot iți va arăta toate skin-urile și campionii, iți va trimite notificare când vor fi reduceri și rotații valabile, te va lăsa să vezi informații despre invocatori și meciuri, cine este slab sau puternic împotriva fiecărui campion și mult mai multe lucruri în viitor! :)",
-        "ru":"Добро пожаловать в @LoL_bot. Этот бот покажет Вам все скины и чемпионов, будет уведомлять вас о новых продажах и доступных изменениях, позволит увидеть информацию о призывателях и матчах, а так же узнать слабых или сильных чемпионов в сравнении с Вашим и многое другое! :)"
+        "ru":"Добро пожаловать в @LoL_bot. Этот бот покажет Вам все скины и чемпионов, будет уведомлять вас о новых продажах и доступных изменениях, позволит увидеть информацию о призывателях и матчах, а так же узнать слабых или сильных чемпионов в сравнении с Вашим и многое другое! :)",
+        "ar":"مرحبا بك في @League_of_Legends_bot هذا البوت سوف يظهر لك جميع الأزياء والأبطال، سوف ننبهك في حال وجود تخفيضات اسبوعية أو أبطال مجانيين, سوف نعرض لك معلومات اللاعبين والمباريات، نعرض لك أيضا الأبطال الضعيفين والقويين ضد البطل المختار. والمزيد مستقبلا! :)"
     },
     "start_already_user":{
         "es":"Ya estabas en nuestra base de datos :)",
@@ -24,7 +25,8 @@
         "pl":"Już jesteś w naszej bazie danych :)",
         "tr":"Zaten veritabanımızda varsın :)",
         "ro":"Ai fost deja în baza noastră de date :)",
-        "ru":"Вы уже существуете в нашей базе данных :)"
+        "ru":"Вы уже существуете в нашей базе данных :)",
+        "ar":"أنت بالفعل موجود في قاعدة البيانات :)"
     },
     "start_autodetect":{
         "es":"Idioma autodetectado: Español\n\nPara cambiarlo utiliza /lang ^^",
@@ -37,7 +39,8 @@
         "pl":"Język wykryty automatycznie: Polski\n\nAby go zmienić użyj /lang ^^",
         "tr":"Otomatik algılanan dil: Türkçe\n\nDeğiştirmek için /lang kullanın ^^",
         "ro":"Limbă detectată automat: Român\n\nPentru a o schimba, folosește /lang ^^",
-        "ru":"Язык автоматически определен как: Русский\n\nДля смены используй /lang"
+        "ru":"Язык автоматически определен как: Русский\n\nДля смены используй /lang",
+        "ar":"اللغة الافتراضية: الإنجليزية\nلتغيرها استخدم /lang ^^"
     },
     "stop":{
         "es":"Esto ha hecho llorar a Amumu :'(\nGracias por haber usado el bot, espero volver a verte por aquí dentro de poco :)",
@@ -50,7 +53,8 @@
         "pl":"Amumu się popłakał :'(\nDziękuję za użycie bota, widzimy się niebawem :)",
         "tr":"Amumu gibi ağlattın:'(\nBotu kullandığın için teşekkürler, Umarım yakında görüşürüz :)",
         "ro":"Asta l-a făcut pe Amumu să plângă :'(\nîți mulțumim ca ai folosit bot-ul, sper să te revăd curând :)",
-        "ru":"Это заставляет Амуму плакать :'(\nСпасибо за использование нашего бота, Я надеюсь мы еще увидимся :)"
+        "ru":"Это заставляет Амуму плакать :'(\nСпасибо за использование нашего бота, Я надеюсь мы еще увидимся :)",
+        "ar":"هذا جعل Amumu يبكي :'(\nشكرا لإستعمالك البوت, نرجوا أن نراك قريبا :)"
     },
     "stop_already_unuser":"You are already unsubscribed :'(",
     "not_user":"Sorry but there were a problem locating you in the DB, please use /start to register.",
@@ -66,7 +70,8 @@
         "pl":"Komenda anulowana :)",
         "tr":"Yorum iptal edildi :)",
         "ro":"Comandă anulată :)",
-        "ru":"Команда отменена :)"
+        "ru":"Команда отменена :)",
+        "ar":"تم إلغاء الأمر :)"
     },
     "cancel_2":{
         "es":"No hay ningún comando que cancelar :)",
@@ -79,7 +84,8 @@
         "pl":"Brak komend do anulowania :)",
         "tr":"İptal edecek komut göremiyorum :)",
         "ro":"Nu este nicio comandă ce poate fi anulată :)",
-        "ru":"Нет отменяемой команды :)"
+        "ru":"Нет отменяемой команды :)",
+        "ar":"لا يوجد أمر ليتم إلغاؤه :)"
     },
     "help_1":{
         "es":"El bot dispone de los siguientes comandos:",
@@ -92,7 +98,8 @@
         "pl":"Bot posiada następujące komendy:",
         "tr":"Bot şu komutlara sahip:",
         "ro":"Bot-ul are următoarele comenzi:",
-        "ru":"Бот имеет следущие команды:"
+        "ru":"Бот имеет следущие команды:",
+        "ar":"البوت لديه الأوامر التالية:"
     },
     "roles_1":{
         "es":"*Filtro de campeones.*",
@@ -105,7 +112,8 @@
         "pl":"*Filtr bohaterów.*",
         "tr":"*Şampiyon ayırıcı.*",
         "ro":"*Filtru pentru campioni*",
-        "ru":"*Фильтр чемпионов.*"
+        "ru":"*Фильтр чемпионов.*",
+        "ar":"*تصنيف الأبطال*"
     },
     "roles_2":{
         "es":{
@@ -195,6 +203,14 @@
             "supports":"Фильтровать чемпионов по роли: _Поддержка_",
             "tanks":"Фильтровать чемпионов по роли: _Танк_",
             "adcs":"Фильтровать чемпионов по роли: _Стрелок_"
+        },
+        "ar":{
+        "assassins": "تصنيف الأبطال حسب التخصص: _Assassin_",
+        "fighters": "تصنيف الأبطال حسب التخصص: _Fighter_",
+        "mages": "تصنيف الأبطال حسب التخصص: _Mage_",
+        "supports": "تصنيف الأبطال حسب التخصص: _Support_",
+        "tanks": "تصنيف الأبطال حسب التخصص: _Tank_",
+        "adcs": "تصنيف الأبطال حسب التخصص: _Marksman_"
         }
     },
     "help_2":{
@@ -450,6 +466,29 @@
             "summoner":"Показывает данные для поиска призывателей.",
             "match":"Показать данные для поиска матча.",
             "inline":"Показать помощь для использования инлайн возможности у бота."
+        },
+        "ar":{
+            "notify": "تمكين/تعطيل التنبيهات.",
+            "credits": "شكر وتقدير",
+            "help": "إظهار المساعدة بخصوص الأوامر.",
+            "keyboard": "أظهار لوحة المفاتيح (لا يعمل للمجموعات)",
+            "hideboard": "إخفاء لوحة المفاتيح (لا يعمل للمجموعات)",
+            "lang": "إظهار لوحة المفاتيح لتغيير لغة البوت.",
+            "me": "إحصل على معلومات عن شخصيتك.",
+            "set_name": "أدخل اسم شخصيتك.",
+            "set_region": "أدخل منطقتك",
+            "contact": "أرسل رسالة لمدير البوت",
+            "cancel": "إلغاء الأمر الحالي.",
+            "info": "عرض معلومات عن البوت.",
+            "champs": "إظهار قائمة بأسامي جميع الأبطال.",
+            "roles": "إظهار معلومات لتصنيف الأبطال بتخصصاتهم.",
+            "patch": "إظهار معلومات لآخر باتش.",
+            "sale": "إظهار الأبطال والـSkins المخفضين.",
+            "rotation": "إظهار الأبطال المجانيين لهذا الأسبوع.",
+            "rate": "قيم البوت :)",
+            "summoner": "إظهار معلومات للبحث عن اللاعبين.",
+            "match": "إظهار معلومات للبحث عن المباريات.",
+            "inline": "تظهر المساعدة لإستخدامالبوت في النسق"
         }
     },
     "keyboard_1":{
@@ -463,7 +502,8 @@
         "pl":"Klawiatura uaktywniona.",
         "tr":"Klavye etkinleştirildi.",
         "ro":"Tastatură pornită.",
-        "ru":"Клавиатура включена."
+        "ru":"Клавиатура включена.",
+        "ar":"تم تمكين لوحة المفاتيح."
     },
     "keyboard_2":{
         "es":"Teclado solo disponible para conversaciones privadas.",
@@ -476,7 +516,8 @@
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów.",
         "tr":"Klavye sadece kişisel sohbetler için uygun.",
         "ro":"Tastatura este valabilă doar pentru conversațiile personale.",
-        "ru":"Клавиатура доступна только для персональных чатов."
+        "ru":"Клавиатура доступна только для персональных чатов.",
+        "ar":"لوحة المفاتيح مفعلة فقط في المحادثات الشخصية."
     },
     "hideboard_1":{
         "es":"Teclado desactivado.",
@@ -489,7 +530,8 @@
         "pl":"Klawiatura dezaktywowana.",
         "tr":"Klavye devre dışı bırakıldı.",
         "ro":"Tastatura dezactivată.",
-        "ru":"Клавиатура отключена."
+        "ru":"Клавиатура отключена.",
+        "ar":"تم تعطيل لوحة المفاتيح"
     },
     "hideboard_2":{
         "es":"Teclado solo disponible para conversaciones privadas.",
@@ -502,7 +544,8 @@
         "pl":"Klawiatura jest dostępna tylko dla prywatnych rozmów.",
         "tr":"Klavye sadece kişisel sohbet için uygun.",
         "ro":"Tastatura este valabilă doar pentru conversațiile personale.",
-        "ru":"Клавиатура доступна только в персональных чатах."
+        "ru":"Клавиатура доступна только в персональных чатах.",
+        "ar":"لوحة المفاتيح مفعلة فقط في المحادثات الشخصية."
     },
     "contact_1":{
         "es":"Escribe el mensaje que quieras enviarme.",
@@ -515,7 +558,8 @@
         "pl":"Napisz wiadomość którą chcesz mi wysłać.",
         "tr":"Bana göndermek istediğin mesajı yaz.",
         "ro":"Scrie mesajul pe care vrei să mi-l trimiți.",
-        "ru":"Написать сообщение, которое Вы хотите отправить мне."
+        "ru":"Написать сообщение, которое Вы хотите отправить мне.",
+        "ar":"أدخل الرسالة التي ترغب بإرسالها لي."
     },
     "contact_2":{
         "es":"El mensaje ha sido enviado con éxito.",
@@ -528,7 +572,8 @@
         "pl":"Wiadomość została wysłana poprawnie.",
         "tr":"Mesajın düzgünce gönderildi.",
         "ro":"Mesajul a fost trimis corect.",
-        "ru":"Это сообщение отправлено верно."
+        "ru":"Это сообщение отправлено верно.",
+        "ar":"تم إرسال الرسالة بنجاح."
     },
     "info":{
         "es":"@LoL_bot es un bot de Telegram que dispone de todos los splasharts de los campeones junto con sus aspectos.\nTodas las imágenes pertenencen a 'Riot Games, Inc'.\nEl autor del bot y 'Riot Games, Inc' NO están relacionados.\nEl autor de este Bot es @Edurolp\nSi quieres apoyar el proyecto, puedes contribuir dejando una donación https://www.paypal.me/edurolp",
@@ -541,7 +586,8 @@
         "pl":"@LoL_bot jest botem do Telegram który posiada splashart każdego bohatera jak i skiny.\n\nWszystkie poniższe grafiki należą do 'Riot Games, Inc'.\nAutor bota i 'Riot Games, Inc' nie są ze sobą powiązani.\nAutorem bota jest @Edurolp\nJeśli chcesz wesprzeć projekt, możesz mnie wspomóc dotacją https://www.paypal.me/edurolp",
         "tr":"@LoL_bot Bütün şampiyonların görsellerini ve kostümlerini içinde bulunduran bir Telegram botudur.\n\nBütün görseller 'Riot Games, Inc'e aittir.\nBotun paylaşımcısı ve 'Riot Games, Inc' ilişkili değiller.\nBotu geliştiren kişi @Edurolp\nProjeye destek olmak istiyorsan bana yardımda bulunabilirsin.  https://www.paypal.me/edurolp",
         "ro":"@LoL_bot este un bot Telegram ce are toate splashart-urile si skin-urile campionilor\n\nToate imaginile aparțin 'Riot Games, Inc'.\nAutorul bot-ului și 'Riot Games, Inc' nu sunt legate.\nAutorul bot-ului este @Edurolp\nDacă vrei să susții ptoiectul, mă poți ajuta cu o donație https://www.paypal.me/edurolp",
-        "ru":"@LoL_bot это Telegram бот, который имеет информацию о чемпионах, скинах и статистике.\n\nВсе изображения принадлежат 'Riot Games, Inc'.\nАвтор бота и 'Riot Games Inc' никак не связаны.\nАвтор бота @Edurolp\nЕсли Вы хотите поддержать проект, Вы можете оказать мне материальную поддержку https://www.paypal.me/edurolp"
+        "ru":"@LoL_bot это Telegram бот, который имеет информацию о чемпионах, скинах и статистике.\n\nВсе изображения принадлежат 'Riot Games, Inc'.\nАвтор бота и 'Riot Games Inc' никак не связаны.\nАвтор бота @Edurolp\nЕсли Вы хотите поддержать проект, Вы можете оказать мне материальную поддержку https://www.paypal.me/edurolp",
+        "ar":"@League_of_Legends_bot هو بوت للتيليغرام, والذي يحتوي على جميع صور الأبطال والـSkins.\n\nكل الصور تنتمي لـ 'Riot Games, Inc'\nمؤلف البوت و 'Riot Games, Inc' ليسا مرتبطين\nمؤلف البوت هو @Edurolp\nإذا كنت تريد دعم هذا المشروع, يمكنك أن تساعدني بتبرعك من خلال باي بال\nhttps://www.paypal.me/edurolp"
     },
     "champs":{
         "es":"Los campeones que hay hasta el momento son: ",
@@ -554,7 +600,8 @@
         "pl":"Bohaterami są: ",
         "tr":"Şampiyonlar:",
         "ro":"Campionii sunt: ",
-        "ru":"Чемпионы: "
+        "ru":"Чемпионы: ",
+        "ar":"الأبطال هم: "
     },
     "sale":{
         "es":"Las ofertas de esta semana son:",
@@ -567,7 +614,8 @@
         "pl":"Wyprzedażą tego tygodnia jest:",
         "tr":"Bu haftanın satışları:",
         "ro":"Reducerile pentru aceasta săptămână sunt:",
-        "ru":"В продаже на этой неделе:"
+        "ru":"В продаже на этой неделе:",
+        "ar":"التخفيضات لهذا الأسبوع هي:"
     },
     "rotation":{
         "es":"La rotación de esta semana es:",
@@ -580,7 +628,8 @@
         "pl":"Rotacją na ten tydzień jest:",
         "tr":"Haftanın Rotasyonu:",
         "ro":"Rotația acestei săptămâni este:",
-        "ru":"Доступные герои на этой неделе:"
+        "ru":"Доступные герои на этой неделе:",
+        "ar":"الأبطال المجانيين لهذا الأسبوع هم:"
     },
     "assassins":{
         "es":"Campeones filtrados por: Asesino\n",
@@ -593,7 +642,8 @@
         "pl":"Bohaterowie filtrowani według: Zabójca\n",
         "tr":"Şampiyonlar şuna göre sıralandı: Suikastçı\n",
         "ro":"Campionii au fost filtrați după: Assasin\n",
-        "ru":"Фильтрация чемпионов по: Убийца\n"
+        "ru":"Фильтрация чемпионов по: Убийца\n",
+        "ar":"تصنيف الأبطال حسب: Assassin\n"
     },
     "fighters":{
         "es":"Campeones filtrados por: Luchador\n",
@@ -606,7 +656,8 @@
         "pl":"Bohaterowie filtrowani według: Wojownik\n",
         "tr":"Şampiyonlar şuna göre sıralandı: Savaşçı\n",
         "ro":"Campionii au fost filtrați dupa: Fighter\n",
-        "ru":"Фильтрация чемпионов по: Воин\n"
+        "ru":"Фильтрация чемпионов по: Воин\n",
+        "ar":"تصنيف الأبطال حسب: Fighter\n"
     },
     "mages":{
         "es":"Campeones filtrados por: Mago\n",
@@ -619,7 +670,8 @@
         "pl":"Bohaterowie filtrowani według: Mag\n",
         "tr":"Şampiyonlar şuna göre sıralandı: Büyücü\n",
         "ro":"Campionii filtrați după: Mage\n",
-        "ru":"Фильтрация чемпионов по: Маг\n"
+        "ru":"Фильтрация чемпионов по: Маг\n",
+        "ar":"تصنيف الأبطال حسب: Mage\n"
     },
     "supports":{
         "es":"Campeones filtrados por: Apoyo\n",
@@ -632,7 +684,8 @@
         "pl":"Bohaterowie filtrowani według: Wsparcie\n",
         "tr":"Şampiyonlar şuna göre sıralandı: Destek\n",
         "ro":"Campionii au fost filtrați după: Support\n",
-        "ru":"Фильтрация чемпионов по: Поддержка\n"
+        "ru":"Фильтрация чемпионов по: Поддержка\n",
+        "ar":"تصنيف الأبطال حسب: Support\n"
     },
     "tanks":{
         "es":"Campeones filtrados por: Tanque\n",
@@ -645,7 +698,8 @@
         "pl":"Bohaterowie filtrowani według: Obrońca\n",
         "tr":"Şampiyonlar şuna göre sıralandı: Tank\n",
         "ro":"Campionii au fost filtrați după: Tank\n",
-        "ru":"Фильтрация чемпионов по: Танк\n"
+        "ru":"Фильтрация чемпионов по: Танк\n",
+        "ar":"تصنيف الأبطال حسب: Tank\n"
     },
     "adcs":{
         "es":"Campeones filtrados por: Tirador\n",
@@ -658,7 +712,8 @@
         "pl":"Bohaterowie filtrowani według: Strzelec\n",
         "tr":"Şampiyonlar şuna göre sıralandı: Nişancı\n",
         "ro":"Campionii au fost filtrați după: Marksman\n",
-        "ru":"Фильтрация чемпионов по: Стрелок\n"
+        "ru":"Фильтрация чемпионов по: Стрелок\n",
+        "ar":"تصنيف الأبطال حسب: Marksman\n"
     },
     "rate":{
         "es":"Hola, puedes ayudar al bot enormemente califcándolo con ⭐️⭐️⭐️⭐️⭐️ en el siguiente enlace:\n%s\n\nMuchas gracias! ^^",
@@ -671,7 +726,8 @@
         "pl":"Witaj, możesz wspomóc bota oceniając go ⭐️⭐️⭐️⭐️⭐️ pod następującym linkiem:\n%s\n\nBardzo dziękuję! ^^",
         "tr":"Selam, bota yardım etmek için değerlendirebilirsin.⭐️⭐️⭐️⭐️⭐️ bu linki takip et:\n%s\n\nÇok teşekkürler! ^^",
         "ro":"Bună, ai putea ajuta bot-ul foarte mult, prin a-l evalua cu ⭐️⭐️⭐️⭐️⭐️ în următorul link:\n%s\n\nÎți mulțumesc mult! ^^",
-        "ru":"Привет, Вы можете помочь боту, дав ему рейтинг ⭐️⭐️⭐️⭐️⭐️ по соотвествующей ссылке:\n%s\n\nБольшое спасибо ^^"
+        "ru":"Привет, Вы можете помочь боту, дав ему рейтинг ⭐️⭐️⭐️⭐️⭐️ по соотвествующей ссылке:\n%s\n\nБольшое спасибо ^^",
+        "ar":"مرحبا, يمكنك أن تساعد البوت كثيرا عبر تقييمه بـ⭐️⭐️⭐️⭐️⭐️ في الرابط التالي:\n%s\n\nشكرا جزيلا! ^^"
     },
     "summoner_1":{
         "es":"El bot dispone de una serie de comandos para obtener información sobre invocadores de los distitos servidores. Los comandos son:",
@@ -684,7 +740,8 @@
         "pl":"Bot posiada komendy do uzyskania informacji na temat przywoływaczy na różnych serwerach. Komendy te to: ",
         "tr":"Bot farklı sunuculardaki sihirdarlar hakkında komutlara sahiptir. Komutlar şöyle: ",
         "ro":"Bot-ul are niște comenzi pentru a obține informații despre invocatori din diferite servere. Comenzile sunt: ",
-        "ru":"Бот имеет команды для получения некоторой информации о призывателях на различных серверах. Это команды: "
+        "ru":"Бот имеет команды для получения некоторой информации о призывателях на различных серверах. Это команды: ",
+        "ar":"البوت لديه بعض الأوامر للحصول على معلومات اللاعبين في مختلف السيرفرات. الأوامر هي: "
     },
     "summoner_2":{
         "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
@@ -697,7 +754,8 @@
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz.",
         "tr":"Aramak için '`test`' sihirdar adını değiştirmeyi unutma.",
         "ro":"Ține minte să schimbi 'test' din numele invocatorului pe care îl cauți.",
-        "ru":"Не забудьте сменить '`test`' для призывателя, которого вы ищите."
+        "ru":"Не забудьте сменить '`test`' для призывателя, которого вы ищите.",
+        "ar":"تذكر أن تغير '`test`' إلى اسم اللاعب الذي تبحث عنه."
     },
     "summoner_3":{
         "es":" test - Información del invocador '`test`' en ",
@@ -710,7 +768,8 @@
         "pl":" test - Informacje przywoływacza '`test`' pod ",
         "tr":" test - sihirdar hakkında bilgi '`test`' ",
         "ro":" test - informație despre invocatorul `'test'` la",
-        "ru":" test - Информация о призывателе '`test`' на "
+        "ru":" test - Информация о призывателе '`test`' на ",
+        "ar":" test - معلومات اللاعب '`test`' عند "
     },
     "match_1":{
         "es":"El bot dispone de una serie de comandos para obtener información partidas en los distintos servidores. Los comandos son:",
@@ -723,7 +782,8 @@
         "pl":"Bot posiada komendy do uzyskania informacji na temat meczów na różnych serwerach. Komendy te to: ",
         "tr":"Bot farklı sunuculardaki maçlar için komutlara sahiptir. Komutlar şöyle: ",
         "ro":"Bot-ul are niște comenzi pentru a obținr informații despre meciuri din diferitr servere. Comenzile sunt: ",
-        "ru":"Бот имеет некоторые команды для информации о матчах на разных серверах. Это команды: "
+        "ru":"Бот имеет некоторые команды для информации о матчах на разных серверах. Это команды: ",
+        "ar":"البوت لديه بعض الأوامر للحصول على معلومات حول المباريات في خوادم مختلفة. الأوامر هي:"
     },
     "match_2":{
         "es":"Recuerda cambiar '`test`' por el nombre de invocador que estés buscando.",
@@ -736,7 +796,8 @@
         "pl":"Pamiętaj aby zmienić '`test`' na imię przywoływacza którego szukasz.",
         "tr":"Aramak için '`test`' sihirdar adını değiştirmeyi unutma.",
         "ro":"Ține minte să schimbi `'test'` din numele invocatorului pe care îl cauți.",
-        "ru":"Не забудьте сменить '`test`' для призывателя, которого вы ищите."
+        "ru":"Не забудьте сменить '`test`' для призывателя, которого вы ищите.",
+        "ar":"تذكر لتغير '`test`' لإسم اللاعب الذي تبحث عنه."
     },
     "match_3":{
         "es":" test - Información sobre la partida actual del invocador '`test`' en ",
@@ -749,7 +810,8 @@
         "pl":" test - Informacje na temat aktualnego meczu przywoływacza '`test`' pod ",
         "tr":" test - Sihirdarın şuanki maçı hakkında bilgi '`test`' ",
         "ro":" test - Informații despre meciul curent al invocatorului `'test'` ",
-        "ru":" test - Информация о текущем матче призывателя '`test`' на "
+        "ru":" test - Информация о текущем матче призывателя '`test`' на ",
+        "ar":" test - معلومات عن المباراة الحالية للاعب '`test`' عند "
     },
     "all": "Escribe el mensaje a difundir o usa /cancel para cancelar el comando.",
     "msg":[
@@ -792,7 +854,8 @@
         "pl":"Wybierz język lub wpisz /cancel aby anulować komendę.",
         "tr":"Dil seç yada /cancel yazarak komutu iptal et.",
         "ro":"Alege o limbă sau scrie /cancel pentru a anula comanda.",
-        "ru":"Выберите язык или введите /cancel для отмены."
+        "ru":"Выберите язык или введите /cancel для отмены.",
+        "ar":"اختر اللغة أو نوع / إلغاء لإلغاء الأمر."
     },
     "lang_2":{
         "es": "El idioma ha sido actualizado al Español.",
@@ -805,7 +868,8 @@
         "pl":"Język został ustawiony na Polski",
         "tr":"Türkçe diline güncellendi.",
         "ro":"Limba a fost actualizată în Română",
-        "ru":"Язык был обновлен на Русский."
+        "ru":"Язык был обновлен на Русский.",
+        "ar":"تم تحديث اللغة إلى الإنكليزية"
     },
     "lang_error":{
         "es": "Lo siento pero el idioma _%s_ no está disponible aún. Porfavor selecciona un idioma del teclado.\n\nSi quieres colaborar para traducir el bot al _%s_ contáctame a @Edurolp",
@@ -818,7 +882,8 @@
         "pl":"Przepraszam, ale język _%s_ nie jest wspierany. Proszę wybrać język z klawiatury.\n\nJeśli chcesz wspomóc tłumaczenie bota na _%s_ skontaktuj się ze mną pod @Edurolp",
         "tr":"Üzgünüm ama  _%s_ dili henüz desteklenmiyor. Lütfen klavyeden bir dil seç.\n\n_%s_ Dili hakkında iletişime geçmek istersen: @Edurolp kullanıcı adına mesaj atabilirsin.",
         "ro":"Îmi pare rău dar limba _%s_ nu este suportată încă. Te rog să alegi o limba din tastatură.\n\nDacă vrei să colaborezi în a traduce bot-ul în _%s_ contactează-mă la @Edurolp",
-        "ru":"Ваш язык _%s_ не поддерживается на данный момент. Пожалуйста, выберите язык из клавиатуры.\n\nЕсли Вы хотите помочь с переводом бота на _%s_ свяжитесь с @Edurolp"
+        "ru":"Ваш язык _%s_ не поддерживается на данный момент. Пожалуйста, выберите язык из клавиатуры.\n\nЕсли Вы хотите помочь с переводом бота на _%s_ свяжитесь с @Edurolp",
+        "ar":"انا اسف لاكن اللغة _s%_ غير مدعومة حتى الان . رجائا اختر لغة من الخيارات\n\nاذا كنت تريد ترجمة البوت الى اللغة _s%_ راسلني على @Edurolp"
     },
     "update_rotation_text_1":"Envía la nueva rotación o escribe /cancel para cancelar el comando.",
     "update_rotation_text_2":"Rotación actualizada.",
@@ -829,17 +894,18 @@
     "update_sale_pic_1":"Envía la nueva imagen de las ofertas o escribe /cancel para cancelar el comando.",
     "update_sale_pic_2":"Ofertas actualizadas.",
     "about":{
-        "es":"Gracias a toda la comunidad de desarrolladores de bots para Telegram.\nEn especial a @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot y @Botaniobot por su gran ayuda ^^.\nGracias también a @eternnoir por la maravillosa [API](%s).\nMuchas gracias también a todas las personas que uséis el bot. Sabed que me hace muy feliz que este proyecto vaya creciendo :)\nGracias a los traductores: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "en":"Thanks to all the Telegram's bot developers community.\nIn special to @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot and @Botaniobot for their great help ^^.\nThanks too to @eternnoir for the wonderful [API](%s).\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)\nThanks to the translators: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.\nIn speciale a @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot e @Botaniobot per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa [API](%s).\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :)\nGrazie ai traduttori: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "de":"Danke an die Gemeinschaft der Bot-Entwickler auf Telegram\nBesonders an @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot und @Botaniobot für ihre große Hilfe ^^.\nVielen Dank auch an @eternnoir für die wundervolle [API](%s).\nDanke an alle, die den Bot verwenden. Ich möchte, dass ihr wisst, dass es mich wirklich glücklich stimmt, zu sehen, wie das Projekt wächst. :)\nDanke an die Übersetzer: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "pt":"Agradeço à toda comunidade de desenvolvedores de bots para Telegram.\nEm especial a @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot e @Botaniobot por sua grande ajuda ^^.\nAgradeço também a @eternnoir pela maravilhosa [API](%s).\nMuito obrigado a todas as pessoas que usam o bot. Saiba que estou muito feliz que este projeto continue crescendo :)\nObrigado aos tradutores: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "fr":"Merci à toute la communauté des développeurs de bot Telegram.\nSpécialement à @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot et @Botaniobot pour leur grande aide ^^.\nMerci aussi à @eternnoir pour la merveilleuse [API](%s).\nMerci beaucoup à toutes les personnes qui utilisent ce bot. Sachez que je suis très heureux de voir ce projet s'agrandir de jour en jour :)\nMerci aux traducteurs: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "fa":"با تشکر از تمام توسعه دهندگان ربات.\nتشکر ویژه از @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Sanguchi, @Steel0Eggs, @n8bot و @Botaniobot برای کمک های بسیار ^^.\nهمچنین تشکر از  @eternnoir برای کد رباتی از نوع [API](%s).\nممنونیم از تمام استفاده کنندگان بات. من می خواهم شما بدانید که من بسیار خوشحال هستم چرا که این پروژه در حال رشد است :)\nتشکر از ترجمه کنندگان: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "pl":"Dziękuję społeczności developerskiej bota Telegram.\nA szczególnie @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot oraz @Botaniobot za ich pomoc ^^.\nPodziękowania również dla @eternnoir za świetne [API](%s).\nWielkie dzięki wszystkim korzystającym z bota. Chcę abyście wiedzieli iż jestem bardzo szczęśliwy ponieważ ten projekt wciąż się rozrasta :)\nDziękuję tłumaczom: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "tr":"Telegram bot geliştirme topluluğuna teşekkürler.\nÖzellikle @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot ve @Botaniobot 'a ilgileri için^^.\nAyrıca  @eternnoir'a [API](%s).\nBu botu kullanan herkese de teşekkürler. Bilmenizi isterim ki bu projenin büyüdüğünü gördüğüm için çok mutluyum :)\nÇevirmenlere de ayrıca teşekkürler: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "ro":"Le mulțumesc tuturor din comunitatea developerilor pentru boții din Telegram.\nÎn special lui @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot and @Botaniobot pentru ajutorul lor minunat ^^.\nÎi mulțumesc și lui @eternoir pentru minunatul [API] (%s).\nLe mulțumesc și persoanelor ce folosesc bot-ul. Vreau să știți ca sunt foarte fericit din cauza faptului că acest proiect continuă să crească :)\nLe mulțumesc translatorilor: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910",
-        "ru":"Спасибо всему сообществу разработчиков ботов Telegram.\nОсобенно @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot и @Botaniobot за помощь ^^.\n Спасибо так же @eternnoir за замечательное [API](%s).\nСпасибо всем людям, которые пользуются ботом. Хочу, чтоб вы знали, что я очень рад, потому что проект продолжает расти :)\nСпасибо переводчикам: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910"
+        "es":"Gracias a toda la comunidad de desarrolladores de bots para Telegram.\nEn especial a @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot y @Botaniobot por su gran ayuda ^^.\nGracias también a @eternnoir por la maravillosa [API](%s).\nMuchas gracias también a todas las personas que uséis el bot. Sabed que me hace muy feliz que este proyecto vaya creciendo :)\nGracias a los traductores: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "en":"Thanks to all the Telegram's bot developers community.\nIn special to @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot and @Botaniobot for their great help ^^.\nThanks too to @eternnoir for the wonderful [API](%s).\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)\nThanks to the translators: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "it":"Grazie a tutta la comunità di sviluppatori dei bot per Telegram.\nIn speciale a @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot e @Botaniobot per il loro contributo ^^.\nGrazie anche a @eternnoir per la meravigliosa [API](%s).\nRingrazio anche a tutti coloro che usano questo bot. Sappiate che mi rende felice che questo progetto continui a crescere :)\nGrazie ai traduttori: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "de":"Danke an die Gemeinschaft der Bot-Entwickler auf Telegram\nBesonders an @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot und @Botaniobot für ihre große Hilfe ^^.\nVielen Dank auch an @eternnoir für die wundervolle [API](%s).\nDanke an alle, die den Bot verwenden. Ich möchte, dass ihr wisst, dass es mich wirklich glücklich stimmt, zu sehen, wie das Projekt wächst. :)\nDanke an die Übersetzer: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "pt":"Agradeço à toda comunidade de desenvolvedores de bots para Telegram.\nEm especial a @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot e @Botaniobot por sua grande ajuda ^^.\nAgradeço também a @eternnoir pela maravilhosa [API](%s).\nMuito obrigado a todas as pessoas que usam o bot. Saiba que estou muito feliz que este projeto continue crescendo :)\nObrigado aos tradutores: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "fr":"Merci à toute la communauté des développeurs de bot Telegram.\nSpécialement à @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot et @Botaniobot pour leur grande aide ^^.\nMerci aussi à @eternnoir pour la merveilleuse [API](%s).\nMerci beaucoup à toutes les personnes qui utilisent ce bot. Sachez que je suis très heureux de voir ce projet s'agrandir de jour en jour :)\nMerci aux traducteurs: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "fa":"با تشکر از تمام توسعه دهندگان ربات.\nتشکر ویژه از @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Sanguchi, @Steel0Eggs, @n8bot و @Botaniobot برای کمک های بسیار ^^.\nهمچنین تشکر از  @eternnoir برای کد رباتی از نوع [API](%s).\nممنونیم از تمام استفاده کنندگان بات. من می خواهم شما بدانید که من بسیار خوشحال هستم چرا که این پروژه در حال رشد است :)\nتشکر از ترجمه کنندگان: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "pl":"Dziękuję społeczności developerskiej bota Telegram.\nA szczególnie @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot oraz @Botaniobot za ich pomoc ^^.\nPodziękowania również dla @eternnoir za świetne [API](%s).\nWielkie dzięki wszystkim korzystającym z bota. Chcę abyście wiedzieli iż jestem bardzo szczęśliwy ponieważ ten projekt wciąż się rozrasta :)\nDziękuję tłumaczom: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "tr":"Telegram bot geliştirme topluluğuna teşekkürler.\nÖzellikle @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot ve @Botaniobot 'a ilgileri için^^.\nAyrıca  @eternnoir'a [API](%s).\nBu botu kullanan herkese de teşekkürler. Bilmenizi isterim ki bu projenin büyüdüğünü gördüğüm için çok mutluyum :)\nÇevirmenlere de ayrıca teşekkürler: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "ro":"Le mulțumesc tuturor din comunitatea developerilor pentru boții din Telegram.\nÎn special lui @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot and @Botaniobot pentru ajutorul lor minunat ^^.\nÎi mulțumesc și lui @eternoir pentru minunatul [API] (%s).\nLe mulțumesc și persoanelor ce folosesc bot-ul. Vreau să știți ca sunt foarte fericit din cauza faptului că acest proiect continuă să crească :)\nLe mulțumesc translatorilor: @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "ru":"Спасибо всему сообществу разработчиков ботов Telegram.\nОсобенно @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot и @Botaniobot за помощь ^^.\n Спасибо так же @eternnoir за замечательное [API](%s).\nСпасибо всем людям, которые пользуются ботом. Хочу, чтоб вы знали, что я очень рад, потому что проект продолжает расти :)\nСпасибо переводчикам: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
+        "ar":"شكراً لكل أعضاء مجتمع مطوريين البوت للتلغرام.\nوبالأخص @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @Steel0Eggs, @n8bot and @Botaniobot لمساعدتهم العظيمة ^^.\nوشكراٌ أيضاً لـ @eternnoir من أجل الـ [API](%s) الرائع.\nشكراً جزيلاٌ لكل مستخدمين هذا البوت. أريد اخباركم بأنني جداً سعيد لأن هذا المشروع بتحسن مستمر :)\nوالشكر لجميع المترجمين: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
     },
     "reload":"Restarting. Wait for `5` seconds.",
     "notifications_1":{
@@ -853,7 +919,8 @@
         "pl":"Notyfikacje dezaktywowane. _Nie będziesz_ teraz otrzymywał wiadomości broadcastowych ani ostrzeżeń. Aby ponownie je uaktywnić użyj /notify",
         "tr":"Bildirimler devre dışı bırakıldı. Artık yayın mesajlarını ve uyarılarını almayacaksın. Etkinleştirmek için /notify komutunu kullan.",
         "ro":"Notificările au fost dezactivate. Acum nu _vei_ mai primi mesaje live sau avertismente. Pentru a le activa din nou folosește /notify",
-        "ru":"Уведомления отключены. Если Вы _Не сможете_ получать широковещательные сообщения и предупреждения. Чтоб включить снова введите /notify"
+        "ru":"Уведомления отключены. Если Вы _Не сможете_ получать широковещательные сообщения и предупреждения. Чтоб включить снова введите /notify",
+        "ar":"الإشعارات معطلة: الأن _لن_ تستلم الرسائل المذاعة ولا التحذيرات. لإعادة تفعيلها استخدم /notify"
     },
     "notifications_2":{
         "es":"Notificaciones activadas. Ahora _si_ recibirás mensajes difundidos y avisos. Para desactivarlo utiliza /notify",
@@ -866,7 +933,8 @@
         "pl":"Notyfikacje aktywowane. _Będziesz_ teraz otrzymywał wiadomości broadcastowe oraz ostrzeżenia. Aby dezaktywować użyj /notify",
         "tr":"Bildirimler etkinleştirildi. Artık yayın mesajlarını ve uyarılarını alacaksın. İptal etmek için /notify komutunu kullan.",
         "ro":"Notificări activate. Acum vei _primi_ notificări live si avertismente. Pentru a le dezactiva folosește /notify",
-        "ru":"Уведомления включены. Если Вы _хотите_ получать широковещательные сообщения и предупреждения. Для выключения используй /notify"
+        "ru":"Уведомления включены. Если Вы _хотите_ получать широковещательные сообщения и предупреждения. Для выключения используй /notify",
+        "ar":"الاإشعارات مفعلة: الأن _سوف_ تستلم الرسالات المذاعة و التحذيرات. لتعطيلها اتستخدم /notify"
     },
     "mute":[
         "Elige MUTE para silenciar a los baneados o UNMUTE para hacerles sufrir. O /cancel para no hacer nada.",
@@ -887,7 +955,8 @@
         "pl":"Przykro mi, ale nie dodaliśmy go jeszcze do bota!",
         "tr":"Üzgünüz fakat bunu bota henüz eklemedik!",
         "ro":"Îmi pare rău dar nu am adăugat-o încă la bot!",
-        "ru":"Мне жаль, но мы не можем добавить это в бота!"
+        "ru":"Мне жаль, но мы не можем добавить это в бота!",
+        "ar":"انا اسف لاكن اننا لم نضفه الى البوت بعد"
     },
     "extra_info":{
         "es":"Para ver información detallada del campeón usa",
@@ -900,7 +969,8 @@
         "pl":"Aby uzyskać szczegółowe informacje na temat bohatera, użyj",
         "tr":"Şampiyon hakkında detaylı bilgi için kullan",
         "ro":"Pentru a vedea informații despre folosirea campionilor",
-        "ru":"Чтобы увидеть детали о персонаже используй"
+        "ru":"Чтобы увидеть детали о персонаже используй",
+        "ar":"لترى معلومات مفصلة حول الشخصية استخدم"
     },
     "champ_info":{
         "tags":{
@@ -914,7 +984,8 @@
             "pl":"Role",
             "tr":"Roller",
             "ro":"Roluri",
-            "ru":"Роли"
+            "ru":"Роли",
+            "ar":"الأدوار"
         },
         "stats":{
             "es":"Estadísticas",
@@ -927,7 +998,8 @@
             "pl":"Statystyki",
             "tr":"Istatistikler",
             "ro":"Stats",
-            "ru":"Статистика"
+            "ru":"Статистика",
+            "ar":"احصائيات"
         },
         "spells":{
             "es":"Habilidades",
@@ -940,7 +1012,8 @@
             "pl":"Umiejętności",
             "tr":"Yetenekleri",
             "ro":"Abilități",
-            "ru":"Умения"
+            "ru":"Умения",
+            "ar":"قدرات"
         }
     },
     "stats":{
@@ -955,7 +1028,8 @@
             "pl":"Życie",
             "tr":"Sağlık",
             "ro":"Viață",
-            "ru":"Здоровье"
+            "ru":"Здоровье",
+            "ar":"الصحة"
         },
         "hpregen":{
             "es":"Regeneración de Vida",
@@ -968,7 +1042,8 @@
             "pl":"Regeneracja życia",
             "tr":"Sağlık Yenilenmesi",
             "ro":"Regenerarea vieții",
-            "ru":"Регенерация здоровья"
+            "ru":"Регенерация здоровья",
+            "ar":"مغذي الصحة"
         },
         "attackdamage":{
             "es":"Daño de Ataque",
@@ -981,7 +1056,8 @@
             "pl":"Obrażenia",
             "tr":"Saldırı Hasarı",
             "ro":"Daune Atac",
-            "ru":"Сила атаки"
+            "ru":"Сила атаки",
+            "ar":"ضرر الهجوم"
         },
         "attackrange":{
             "es":"Rango de ataque",
@@ -994,7 +1070,8 @@
             "pl":"Zasięg ataku",
             "tr":"Saldırı Menzili",
             "ro":"Distanța atacului",
-            "ru":"Радиус атаки"
+            "ru":"Радиус атаки",
+            "ar":"هجوم جماعي"
         },
         "movespeed":{
             "es":"Velocidad de Movimiento",
@@ -1007,7 +1084,8 @@
             "pl":"Szybkość ruchu",
             "tr":"Hareket Hızı",
             "ro":"Viteză",
-            "ru":"Скорость передвижения"
+            "ru":"Скорость передвижения",
+            "ar":"سرعة الحركة"
         },
         "armor":{
             "es":"Armadura",
@@ -1020,7 +1098,8 @@
             "pl":"Pancerz",
             "tr":"Zırh",
             "ro":"Armură",
-            "ru":"Броня"
+            "ru":"Броня",
+            "ar":"الدرع"
         },
         "spellblock":{
             "es":"Resistencia Mágica",
@@ -1033,7 +1112,8 @@
             "pl":"Odporność na magię",
             "tr":"Büyü Direnci",
             "ro":"Rezistență Magică",
-            "ru":"Магическое сопротивление"
+            "ru":"Магическое сопротивление",
+            "ar":"مقاومة السحر"
         }
     },
     "tags":{
@@ -1048,7 +1128,8 @@
             "pl":"Zabójca",
             "tr":"Suikastçı",
             "ro":"Assasin",
-            "ru":"Убийца"
+            "ru":"Убийца",
+            "ar":"قاتل"
         },
         "Fighter":{
             "es":"Luchador",
@@ -1061,7 +1142,8 @@
             "pl":"Wojownik",
             "tr":"Savaşçı",
             "ro":"Luptător",
-            "ru":"Воин"
+            "ru":"Воин",
+            "ar":"مقاتل"
         },
         "Figher":{
             "es":"Luchador",
@@ -1074,7 +1156,8 @@
             "pl":"Wojownik",
             "tr":"Savaşçı",
             "ro":"Luptător",
-            "ru":"Воин"
+            "ru":"Воин",
+            "ar":"مقاتل"
         },
         "Melee":{
             "es":"Luchador",
@@ -1087,7 +1170,8 @@
             "pl":"Wojownik",
             "tr":"Savaşçı",
             "ro":"Luptător",
-            "ru":"Воин"
+            "ru":"Воин",
+            "ar":"مقاتل"
         },
         "Mage":{
             "es":"Mago",
@@ -1100,7 +1184,8 @@
             "pl":"Mag",
             "tr":"Büyücü",
             "ro":"Magician",
-            "ru":"Маг"
+            "ru":"Маг",
+            "ar":"ساحر"
         },
         "Support":{
             "es":"Apoyo",
@@ -1113,7 +1198,8 @@
             "pl":"Wsparcie",
             "tr":"Destek",
             "ro":"Support",
-            "ru":"Поддержка"
+            "ru":"Поддержка",
+            "ar":"دعم"
         },
         "Tank":{
             "es":"Tanque",
@@ -1126,7 +1212,8 @@
             "pl":"Obrońca",
             "tr":"Tank",
             "ro":"Tanc",
-            "ru":"Танк"
+            "ru":"Танк",
+            "ar":"دور الـTank"
         },
         "Marksman":{
             "es":"Tirador",
@@ -1139,7 +1226,8 @@
             "pl":"Strzelec",
             "tr":"Nişancı",
             "ro":"Țintaș",
-            "ru":"Стрелок"
+            "ru":"Стрелок",
+            "ar":"دور الهداف"
         }
     },
     "continue":{
@@ -1153,7 +1241,8 @@
         "pl":"Kontynuuj czytanie",
         "tr":"Devamını oku",
         "ro":"Continuă să citești",
-        "ru":"Продолжайте чтение"
+        "ru":"Продолжайте чтение",
+        "ar":"تابع القراءة"
     },
     "passive":{
         "es":"Pasiva",
@@ -1166,7 +1255,8 @@
         "pl":"Pasyw",
         "tr":"Pasif",
         "ro":"Pasivă",
-        "ru":"Пассивное"
+        "ru":"Пассивное",
+        "ar":"خاصية"
     },
     "tier":{
         "es":{
@@ -1267,6 +1357,15 @@
             "DIAMOND":"Алмаз",
             "MASTER":"Мастер",
             "CHALLENGER":"Челленджер"
+        },
+        "ar":{
+            "BRONZE": "مرتبة البرونز",
+            "SILVER": "مرتبة الفضة",
+            "GOLD": "مرتبة الذهب",
+            "PLATINUM": "مرتبة البلاتين",
+            "DIAMOND": "مرتبة الماس",
+            "MASTER": "مستوى السيادة",
+            "CHALLENGER": "مرتبة المنافس"
         }
     },
     "no_summoner":{
@@ -1280,7 +1379,8 @@
         "pl":"Błąd. Musisz wprowadzić imię wywoływacza.\n\nPrzykład: `/%s test`",
         "tr":"Hata. Sihirdarın adını yazmalısın.\n\nÖrnek: `/%s test`",
         "ro":"Eroare. Trebuie să introduci numele invocatorului.\n\nExemplu: `/%s test`",
-        "ru":"Ошибка. Вы должны ввести имя призывателя.\n\nНапример: `/%s test`"
+        "ru":"Ошибка. Вы должны ввести имя призывателя.\n\nНапример: `/%s test`",
+        "ar":"خطأ. يجب عليك إدخال اسم اللاعب.\nمثال: `/%s test`"
     },
     "summoner_error":{
         "es":"Error obteniendo información del invocador '`%s`' en '`%s`'",
@@ -1293,7 +1393,8 @@
         "pl":"Błąd pozyskania informacji wywoływacza '`%s`' na '`%s`'",
         "tr":"Sihirbaz hakkında bilgi alırken hata oluştu : '`%s`' >> '`%s`'",
         "ro":"Eroare în a primi informații despre invocator '`%s`' la '`%s`'",
-        "ru":"Ошибка при получении информации о призывателе '`%s`' at '`%s`'"
+        "ru":"Ошибка при получении информации о призывателе '`%s`' at '`%s`'",
+        "ar":"خطأ في الحصول على معلومات اللاعب '`%s`' في '`%s`'"
     },
     "summoner<30":{
         "es":"[⁣](%s)*Nombre*:[%s](%s)\n*Nivel*: _%s_\n\n*Partidas normales:\n\tVictorias 5c5*: _%s_\n\t*Victorias 3c3*: _%s_\n\t*Victorias Aram*: _%s_",
@@ -1306,7 +1407,8 @@
         "pl":"[⁣](%s)*Imię*: [%s](%s)\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_",
         "tr":"[⁣](%s)*İsim*: [%s](%s)\n*Seviye*: _%s_\n\n*Normal oyunlar:\n\t5v5 zaferleri*: _%s_\n\t*3v3 zaferleri*: _%s_\n\t*Aram zaferleri*: _%s_",
         "ro":"[](%s)*Nume*: [%s](%s)\n*Nivel*: _%s_\n\n*Meciuri normale:\n\tCâștiguri 5v5*: _%s_\n\t*Câștiguri 3v3*: _%s_\n\t*Câștiguri Aram*: _%s_",
-        "ru":"[⁣](%s)*Имя*: [%s](%s)\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_"
+        "ru":"[⁣](%s)*Имя*: [%s](%s)\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_",
+        "ar":"[⁣](%s)*الاسم*: [%s](%s)\n*المستوى*: _%s_\n\n*المباريات العادية:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_"
     },
     "summoner<30_2":{
         "es":"*Nombre*: [%s](%s)\n*Nivel*: _%s_\n*Campeón*: _%s_",
@@ -1319,7 +1421,8 @@
         "pl":"*Imię*: [%s](%s)\n*Level*: _%s_\n*Bohater*: _%s_",
         "tr":"*İsim*: [%s](%s)\n*Seviye*: _%s_\n*Şampiyon*: _%s_",
         "ro":"*Nume*: [%s](%s)\n*Nivel*: _%s_\n*Campion*: _%s_",
-        "ru":"*Имя*: [%s](%s)\n*Уровень*: _%s_\n*Чемпион*: _%s_"
+        "ru":"*Имя*: [%s](%s)\n*Уровень*: _%s_\n*Чемпион*: _%s_",
+        "ar":"*الاسم*: [%s](%s)\n*المستوى*: _%s_\n*الشخصية*: _%s_"
     },
     "summoner_30":{
         "es":"[⁣](%s)*Nombre*: [%s](%s)\n*Nivel*: _%s_\n\n*Partidas normales:\n\tVictorias 5c5*: _%s_\n\t*Victorias 3c3*: _%s_\n\t*Victorias Aram*: _%s_\n\n*Partidas clasifactorias:\n\tLiga*: _%s_ _%s_\n\t*Victorias*: _%s_\n\t*Derrotas*: _%s_\n\t*Winrate*: _%s_\n\t*Puntos de liga*: _%s_",
@@ -1332,7 +1435,8 @@
         "pl":"[⁣](%s)*Imię*: [%s](%s)\n*Level*: _%s_\n\n*Normalne gry:\n\tWygrane 5v5*: _%s_\n\t*Wygrane 3v3*: _%s_\n\t*Wygrane Aram*: _%s_\n\n*Rankingowe gry:\n\tLiga*: _%s_ _%s_\n\t*Wygrane*: _%s_\n\t*Przegrane*: _%s_\n\t*Winrate*: _%s_\n\t*Punkty ligowe*: _%s_",
         "tr":"[⁣](%s)*İsim*: [%s](%s)\n*Seviye*: _%s_\n\n*Normal oyunlar:\n\t5v5 zaferleri*: _%s_\n\t*3v3 zaferleri*: _%s_\n\t*Aram zaferleri*: _%s_\n\n*Dereceli Oyunlar:\n\tLig*: _%s_ _%s_\n\t*Zaferler*: _%s_\n\t*Yenilgiler*: _%s_\n\t*Kazanma oranı*: _%s_\n\t*Lig puanı*: _%s_",
         "ro":"[⁣](%s)*Nume*: [%s](%s)\n*Nivel*: _%s_\n\n*Meciuri normale:\n\tCâștiguri 5v5*: _%s_\n\t*Câștiguri 3v3*: _%s_\n\t*Câștiguri Aram*: _%s_\n\n*Meciuri Rank\n\tLigă*: _%s_ _%s_\n\t*Câștiguri*: _%s_\n\t*Pierderi*: _%s_\n\t*Procent câștiguri*: _%s_\n\t*Puncte ligă*: _%s_",
-        "ru":"[⁣](%s)*Имя*: [%s](%s)\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_\n\n*Пробед в ранкеде:\n\tЛига*: _%s_ _%s_\n\t*Побед*: _%s_\n\t*Поражений*: _%s_\n\t*Винрейт*: _%s_\n\t*Очки лиги*: _%s_"
+        "ru":"[⁣](%s)*Имя*: [%s](%s)\n*Уровень*: _%s_\n\n*Игр в нормале:\n\t5v5 побед*: _%s_\n\t*3v3 побед*: _%s_\n\t*Aram побед*: _%s_\n\n*Пробед в ранкеде:\n\tЛига*: _%s_ _%s_\n\t*Побед*: _%s_\n\t*Поражений*: _%s_\n\t*Винрейт*: _%s_\n\t*Очки лиги*: _%s_",
+        "ar":"[⁣](%s)*الاسم*: [%s](%s)\n*المستوى*: _%s_\n\n* المباريات العادية:\n\tعدد الانتصارات في طور 5 ضد 5*: _%s_\n\t*عدد الانتصارات في طور 3 ضد 3 *: _%s_\n\t*عدد الانتصارات في طور آرام*: _%s_\n\n*المباريات المُقيَمة:\n\tالمرتبة*: _%s_ _%s_\n\t*عدد الانتصارات*: _%s_\n\t*عدد الخسارات*: _%s_\n\t*نسبة الفوز*: _%s_\n\t*نقاط القِسم*: _%s_"
     },
     "summoner_30_2":{
         "es":"*Nombre*: [%s](%s)\n*Liga*: _%s_ _%s_\n*Winrate*: _%s_\n*Campeón*: _%s_",
@@ -1345,7 +1449,8 @@
         "pl":"*Imię*: [%s](%s)\n*Liga*: %s _%s_\n*Winrate*: _%s_\n*Bohater*: _%s_",
         "tr":"*İsim*: [%s](%s)\n*Lig*: _%s_ _%s_\n*Kazanma Oranı*: _%s_\n*Şampiyon*: _%s_",
         "ro":"*Nume*: [%s](%s)\n*Ligă*: _%s_ _%s_\n*Procent câștiguri*: _%s_\n*Campion*: _%s_",
-        "ru":"*Имя*: [%s](%s)\n*Лига*: _%s_ _%s_\n*Винрейт*: _%s_\n*Чемпион*: _%s_"
+        "ru":"*Имя*: [%s](%s)\n*Лига*: _%s_ _%s_\n*Винрейт*: _%s_\n*Чемпион*: _%s_",
+        "ar":"*الاسم*: [%s](%s)\n*المرتبة*: _%s_ _%s_\n*نسبة الفوز*: _%s_\n*الشخصية*: _%s_"
     },
     "private":{
         "es":"Este comando sólo está disponible en chat personal para evitar flood en grupos. Pruébalo en una conversación personal con el bot @LoL_bot",
@@ -1358,7 +1463,8 @@
         "pl":"Komenda dostępna wyłącznie w czatach prywatnych aby zapobiec spamowi w grupach. Wypróbuj ją w czacie prywatnym z botem @LoL_bot",
         "tr":"Bu komutu sadece özel sohbetleri kargaşayı önlemek için kullanabilirsin. Özel sohbetinde botu şöyle kullanabilirsin: @LoL_bot",
         "ro":"Această comanda este valabilă doar in conversație privată pentru a evita flood-ul în grupuri. Încearc-o în conversație privată cu bot-ul @LoL_bot",
-        "ru":"Эта команда доступна только в приватных чатах, для избежания флуда в группах. Попробуй ввести эту команду в приватном чате бота @LoL_bot"
+        "ru":"Эта команда доступна только в приватных чатах, для избежания флуда в группах. Попробуй ввести эту команду в приватном чате бота @LoL_bot",
+        "ar":"هذا الأمر متوفر فقط في المحادثات الشخصية لتفادي الإزعاج في المجموعات. جربها في محادثة شخصية مع البوت\n@LoL_bot"
     },
     "match_error":{
         "es":"El invocador '`%s`' no se encuentra en partida.",
@@ -1371,7 +1477,8 @@
         "pl":"Przywoływacz '`%s`' aktualnie nie jest w grze.",
         "tr":" '`%s`' şuanda oyunda değil.",
         "ro":"Invocatorul '`%s`' nu se joacă momentan.",
-        "ru":"Призыватель '`%s`' сейчас не играет."
+        "ru":"Призыватель '`%s`' сейчас не играет.",
+        "ar":"اللاعب '`%s`' لا يلعب حاليا."
     },
     "match_blue":{
         "es":"Tipo de partida: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Equipo azul\ud83d\udd35\ud83d\udd35\ud83d\udd35",
@@ -1384,7 +1491,8 @@
         "pl":"Tryb gry: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Niebieska drużyna\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "tr":"Oyun modu: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Mavi takım\ud83d\udd35\ud83d\udd35\ud83d\udd35",
         "ro":"Mod de joc: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Echipa albastră\ud83d\udd35\ud83d\udd35\ud83d\udd35",
-        "ru":"Игровой режим: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Синяя команда\ud83d\udd35\ud83d\udd35\ud83d\udd35"
+        "ru":"Игровой режим: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35Синяя команда\ud83d\udd35\ud83d\udd35\ud83d\udd35",
+        "ar":"طور اللعب: %s\n\n\ud83d\udd35\ud83d\udd35\ud83d\udd35فريق الأزرق\ud83d\udd35\ud83d\udd35\ud83d\udd35"
     },
     "match_red":{
         "es":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Equipo rojo\ud83d\udd34\ud83d\udd34\ud83d\udd34",
@@ -1397,7 +1505,8 @@
         "pl":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Czerwona drużyna\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "tr":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Kırmızı Takım\ud83d\udd34\ud83d\udd34\ud83d\udd34",
         "ro":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Echipa roșie\ud83d\udd34\ud83d\udd34\ud83d\udd34",
-        "ru":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Красная команда\ud83d\udd34\ud83d\udd34\ud83d\udd34"
+        "ru":"\ud83d\udd34\ud83d\udd34\ud83d\udd34Красная команда\ud83d\udd34\ud83d\udd34\ud83d\udd34",
+        "ar":"\ud83d\udd34\ud83d\udd34\ud83d\udd34الفريق الاحمر\ud83d\udd34\ud83d\udd34\ud83d\udd34"
     },
     "region_1":{
         "es":"Selecciona tu región de la lista o presiona /cancel para cancelar el comando actual.",
@@ -1410,7 +1519,8 @@
         "pl":"Wybierz swój region z listy lub wciśnij /cancel aby anulować aktualną komendę.",
         "tr":"Listeden bölgeni seç yada /cancel butonuna basarak komutu iptal et.",
         "ro":"Alege-ți regiunea din listă sau apasă /cancel pentru a anula comanda curentă.",
-        "ru":"Укажи свой регион в списке или нажми /cancel чтобы отменить текущую команду."
+        "ru":"Укажи свой регион в списке или нажми /cancel чтобы отменить текущую команду.",
+        "ar":"اختر منطقتك من القائمة أو اضغط /cancel لتلغي الأمر الحالي."
     },
     "region_success":{
         "es":"Región actualizada a: %s",
@@ -1423,7 +1533,8 @@
         "pl":"Region zaktualizowany na: %s",
         "tr":"Bölge %s olarak güncellendi.",
         "ro":"Regiunea actualizată în: %s",
-        "ru":"Регион обновлен на: %s"
+        "ru":"Регион обновлен на: %s",
+        "ar":"حُدثَت المنطقة الى: %s"
     },
     "region_failure":{
         "es":"Lo siento pero esa región no está disponible.",
@@ -1436,7 +1547,8 @@
         "pl":"Przykro mi, ten region nie jest dostępny.",
         "tr":"Üzgünüm fakat bu bölge uygun değil.",
         "ro":"Îmi pare rău dar acea regiune nu este valabilă.",
-        "ru":"Приносим извинения, но данный регион не доступен."
+        "ru":"Приносим извинения, но данный регион не доступен.",
+        "ar":"أعتذر لكن هذه المنطقة غير متاحة"
     },
     "name_1":{
         "es":"Introduce tu nombre de invocador.",
@@ -1449,7 +1561,8 @@
         "pl":"Przedstaw imię swojego przywoływacza.",
         "tr":"Sihirdar adını söyler misin?",
         "ro":"Introdu numele invocatorului.",
-        "ru":"Введите имя призывателя."
+        "ru":"Введите имя призывателя.",
+        "ar":"ادخل اسم لاعبك."
     },
     "name_2":{
         "es":"Tu nombre de invocador ha sido actualizado.",
@@ -1462,7 +1575,8 @@
         "pl":"Imię twojego przywoływacza zostało uaktualnione.",
         "tr":"Sihirdar adın güncellendi.",
         "ro":"Numele invocatorului a fost actualizat.",
-        "ru":"Имя Вашего призывателя было обновлено."
+        "ru":"Имя Вашего призывателя было обновлено.",
+        "ar":"تم تحديث اسم لاعبك."
     },
     "me_error":{
         "es":"Para poder utilizar este comando, primero debes usar /set_region y /set_name.",
@@ -1475,7 +1589,8 @@
         "pl":"Aby użyć tej komendy, musisz wpierw użyć /set_region oraz /set_name.",
         "tr":"Bu komutu kullanmak için, /set_region ve /set_name komutlarını ayarlamalısın.",
         "ro":"Pentru a putea folosi această comanda, trebuie să folosești /set_region și /set_name mai întâi.",
-        "ru":"Для начала использования этой команды, вы должны ввести сначала /set_region и /set_name"
+        "ru":"Для начала использования этой команды, вы должны ввести сначала /set_region и /set_name",
+        "ar":"لتتمكن من استخدام هذا الامر عليك استخدام /set_region و /set_name"
     },
     "beta":{
         "error":"Uso del comando:\n/beta add/del ID",
@@ -1502,7 +1617,8 @@
         "pl":"Witajcie, Przywoływacze! 😁\nCzempioni i skiny na wyprzedaży zostały uaktualnione. (Aktywne od jutra)\nSprawdź pozycje przy pomocy /sale 😁",
         "tr":"Selamlar, Sihirdar! 😁\nSatıştaki şampiyon ve kostümler güncellendi. (Yarından itibaren aktif.)\n/sale ile kontrol edebilirsin 😄",
         "ro":"Bună, Invocatorilor! 😁\nCampionii și skin-urile au fost actualizate. (Active de mâine)\nAruncă-le o privire cu /sale 😄",
-        "ru":"Привет, Призыватель! 😁\nЧемпионы и скины были обновлены для продажи. (Будет активно завтра)\n Проверьте командой /sale 😁"
+        "ru":"Привет, Призыватель! 😁\nЧемпионы и скины были обновлены для продажи. (Будет активно завтра)\n Проверьте командой /sale 😁",
+        "ar":"تحية طيبة، يا ايها الاعلبون! 😁\nتم تحديث تخفيضات الشخصيات والأزياء (نشط من الغد)\nالقي لهم نظرة باستخدام /sale 😄"
     },
     "all_r":{
         "es":"¡Saludos, Invocadores! 😁\nSe han actualizado los campeones y aspectos en oferta, y también la rotación semanal. (Activo a partir de mañana)\nÉchales un vistazo con /sale y /rotation 😄",
@@ -1515,7 +1631,8 @@
         "pl":"Witajcie, Przywoływacze! 😁\nCzempioni i skiny na wyprzedaży zostały uaktualnione, dostępna nowa tygodniowa rotacja. (Aktywne od jutra)\nSprawdź pozycje przy pomocy /sale i /rotation 😁",
         "tr":"Selamlar, Sihirdar! 😁\nSatıştaki şampiyon ve kostümler güncellendi. Haftanın rotasyonu ile birlikte. (Yarından itibaren aktif)\n/sale ve /rotation ile kontrol edebilirsin 😄",
         "ro":"Bună, Invocatorilor! 😁\nCampionii și skin-urile de la reducere au fost actualizate, și rotația săptămânală a campionilor. (Activă de mâine)\nAruncă o privire folosind /sale și /rotation",
-        "ru":"Приветствую, призыватель! 😁\nЧемпионы и скины были обновлены для продажи и так же обновлен список доступных героев на неделе. (Будет активно завтра)\nПроверь это командой /sale и /rotation 😄"
+        "ru":"Приветствую, призыватель! 😁\nЧемпионы и скины были обновлены для продажи и так же обновлен список доступных героев на неделе. (Будет активно завтра)\nПроверь это командой /sale и /rotation 😄",
+        "ar":"تحية طيبة، يا ايها الاعبون! 😁\nتم تحديث تخفيضات الشخصيات والأزياء، وأايضاً الالدورة الإسبوعية (نشط من الغد)\nالقي النظرة عليهم من خلال /sale و /rotation 😄"
     },
     "weak_against":{
         "es":"*Débil contra:* /",
@@ -1528,7 +1645,8 @@
         "pl":"*Słaby przeciwko:* /",
         "tr":"*Karşısında zayıf:* /",
         "ro":"*Slab împotriva:* /",
-        "ru":"*Слаб против:* /"
+        "ru":"*Слаб против:* /",
+        "ar":"*ضعيف ضد:* /"
     },
     "strong_against":{
         "es":"*Fuerte contra:* /",
@@ -1541,20 +1659,22 @@
         "pl":"*Silny przeciwko:* /",
         "tr":"*Karşısında güçlü:* /",
         "ro":"*Puternic împotriva:* /",
-        "ru":"*Силён против:* /"
+        "ru":"*Силён против:* /",
+        "ar":"*قوي ضد:* /"
     },
     "warning":{
         "es":"*Esta información está sacada de internet así que no es 100% fiable porque el meta cambia.*",
         "en":"*This information is taken from internet so it isn't 100% reliable because the meta changes.*",
         "it":"*Questa informazione è presa da internet quindi non è accurata al 100% perchè la Meta cambia.* ",
-        "de":"Die Informationen sind aus dem Internet, was bedeutet, dass sie nicht zu 100% korrekt sind, da sich die Meta ändert.",
+        "de":"*Die Informationen sind aus dem Internet, was bedeutet, dass sie nicht zu 100% korrekt sind, da sich die Meta ändert.*",
         "pt":"*Estas informações foram obtidas da internet, então não é 100% confiável, pois as metas mudam.*",
         "fr":"*Cette information est récupérée sur internet et n'est pas 100% fiable puisque la meta peut changer.*",
         "fa":"*این اطلاعات از اینترنت گرفته شده،پس 100% قابل اعتماد نیست.*",
         "pl":"*Ta informacja pochodzi z internetu, tak więc nie jest w 100% wiarygodna z powodu zmian w meta.*",
         "tr":"*Bu bilgiler internetten alınmıştır, bu nedenle meta değiştikçe % 100 güvenilir değildir. *",
         "ro":"*Această informație este luată de pe internet, deci nu este 100% sigură din cauza schimbărilor de meta.*",
-        "ru":"*Эта информация была взята из сети Интернет, поэтому из-за изменений в тактике она не может быть верна на 100%*"
+        "ru":"*Эта информация была взята из сети Интернет, поэтому из-за изменений в тактике она не может быть верна на 100%*",
+        "ar":"*هذه المعلومات مأخوذة من الانترنت لذا قد تكون ليست صحيحة 100%  لان طريقة العب تتغير*"
     },
     "updates":"@League_of_Legends_channel",
     "inline_champ_d":{
@@ -1568,7 +1688,8 @@
         "pl":"Informacje o {}.",
         "tr":"Hakkında bilgi {}.",
         "ro":"Informație despre {}.",
-        "ru":"Информация о {}."
+        "ru":"Информация о {}.",
+        "ar":"معلومات عن {}"
     },
     "inline_summoner_d":{
         "es":"Información del invocador {}.",
@@ -1581,7 +1702,8 @@
         "pl":"Informacje o przywoływaczu {}.",
         "tr":"Sihirdar hakkında bilgi {}.",
         "ro":"Informație despre invocatorul {}.",
-        "ru":"Информация о призывателе {}."
+        "ru":"Информация о призывателе {}.",
+        "ar":"معلومات عن اللاعب {}."
     },
     "inline_match_d":{
         "es":"Información de la partida actual del invocador {}.",
@@ -1594,7 +1716,8 @@
         "pl":"Informacje o aktualnej rozgrywce przywoływacza {}.",
         "tr":"Sihirdarın şu anki maçı hakkında bilgi {}.",
         "ro":"Informație despre meciul curent al invocatorului {}.",
-        "ru":"Информация о текущем матче призывателя {}."
+        "ru":"Информация о текущем матче призывателя {}.",
+        "ar":"معلومات عن المباراة الحالية للاعب {}."
     },
     "not_user_inline":"Sorry but this feature is only available for users. Please, go to @League_of_Legends_channel and become an user :)",
     "inline_me_error_ttl_2":{
@@ -1608,7 +1731,8 @@
         "pl":"Przywoływacz nie został odnaleziony.",
         "tr":"Sihirdar bulunamadı.",
         "ro":"Invocatorul nu a fost găsit.",
-        "ru":"Призыватель не найден."
+        "ru":"Призыватель не найден.",
+        "ar":"اللاعب لم يوجد"
     },
     "inline_me_error_d_2":{
         "es":"Parece que no existe ningún jugador llamado %s en %s.",
@@ -1621,7 +1745,8 @@
         "pl":"Wygląda na to, że nie ma gracza o nazwie %s w %s.",
         "tr":"Görünüşe göre böyle bir oyuncu bulunmuyor : %s > %s.",
         "ro":"Se pare ca nu este niciun jucător numit %s în %s.",
-        "ru":"Кажется, что нет игрока с именем %s в %s."
+        "ru":"Кажется, что нет игрока с именем %s в %s.",
+        "ar":"يبدو انه لا يوجد أي لاعب يدعى %s في %s."
     },
     "inline_match_error":{
         "es":"Partida no encontrada.",
@@ -1634,20 +1759,22 @@
         "pl":"Mecz nie został odnaleziony.",
         "tr":"Maç bulunamadı.",
         "ro":"Meciul nu a fost găsit.",
-        "ru":"Матч не найден."
+        "ru":"Матч не найден.",
+        "ar":"المباراة لم توجد."
     },
     "best_champs":{
         "es":"Mejores campeones",
         "en":"Best champions",
-        "it":"Miglior campioni.",
-        "de":"Beste Champions.",
-        "pt":"Melhores campeões.",
-        "fr":"Meilleurs champions.",
-        "fa":"بهترین چمپیون ها.",
-        "pl":"Najlepsi bohaterowie.",
-        "tr":"En iyi şampiyonlar.",
-        "ro":"Cei mai buni campioni.",
-        "ru":"Лучший чемпион."
+        "it":"Miglior campioni",
+        "de":"Beste Champions",
+        "pt":"Melhores campeões",
+        "fr":"Meilleurs champions",
+        "fa":"بهترین چمپیون ها",
+        "pl":"Najlepsi bohaterowie",
+        "tr":"En iyi şampiyonlar",
+        "ro":"Cei mai buni campioni",
+        "ru":"Лучший чемпион",
+        "ar":"افضل الابطال"
     },
     "inline_help_t":{
         "es":"AYUDA",
@@ -1660,12 +1787,13 @@
         "pl":"POMOC",
         "tr":"YARDIM",
         "ro":"AJUTOR",
-        "ru":"ПОМОЩЬ"
+        "ru":"ПОМОЩЬ",
+        "ar":"مساعدة"
     },
     "inline_help_1":{
         "es":"El bot dispone de los siguientes comandos inline:",
         "en":"The bot has the following inline commands:",
-        "it":"Il bot ha i seguenti comandi inline",
+        "it":"Il bot ha i seguenti comandi inline:",
         "de":"Der Bot hat folgende Inline Befehle:",
         "pt":"O bot está aceitando os seguintes comandos inline:",
         "fr":"Le bot dispose des commandes alignées suivantes:",
@@ -1673,7 +1801,8 @@
         "pl":"Bot ma następujące komendy inline:",
         "tr":"Bot şu satır içi komutlara sahiptir:",
         "ro":"Botul are următoarele comenzi:",
-        "ru":"Бот поддерживает инлайн команды:"
+        "ru":"Бот поддерживает инлайн команды:",
+        "ar":"البوت لديه الأوامر في النسق التالية:"
     },
     "inline_help_2":{
         "es":{
@@ -1763,6 +1892,14 @@
             "#c":" <champion> `- Показать дополнительную информацию о чемпионе.",
             "region":" <summoner> `- Показать информацию о чемпионе по региону.",
             "#region":" <summoner> `- Показать информацию о текущем матче и чемпионе по региону."
+        },
+        "ar":{
+            "help": "`- إظهار هذه المساعدة",
+            "s": "<champion> `- يظهر أزياء الشخصية.",
+            "c": "<champion> `- يظهر معلومات عن الشخصية.",
+            "#c": "<champion> `- يظهر معلومات إضافية عن الشخصية",
+            "region": "<summoner> `- يظهر معلومات عن اللاعب في المنطقة.",
+            "#region": "<summoner> `- يظهر معلومات حول المباراة الحالية للاعب في المنطقة."
         }
     }
 }

@@ -170,7 +170,7 @@ for x in [
         data[x] = json.load(f)
 
 with open('champs_en.json', 'r') as f:
-    data['fa'] = json.load(f)
+    data['fa'] = data['ar'] = json.load(f)
 
 with open('champs_keys.json', 'r') as f:
     data['keys'] = json.load(f)

@@ -249,7 +249,7 @@ markup_ru.add(
     types.KeyboardButton('АВТОРЫ'))
 
 
-markup_fa = markup_en
+markup_fa = markup_ar = markup_en
 
 
 markups = {
@@ -265,7 +265,8 @@ markups = {
     "el": markup_el,
     "ru": markup_ru,
     "tr": markup_tr,
-    "ro": markup_ro
+    "ro": markup_ro,
+    "ar": markup_ar
 }
 
 

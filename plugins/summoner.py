@@ -120,7 +120,7 @@ def summoner_info(m):
             'kr',
             'tr',
             'ru',
-        'oce'])
+            'oce'])
 def query_summoner(q):
     cid = q.from_user.id
     # if is_beta(cid):

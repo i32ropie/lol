@@ -9,7 +9,6 @@ print(Color(
 @bot.inline_handler(lambda query: query.query.lower() == 'help')
 def query_help(q):
     cid = q.from_user.id
-    # if is_beta(cid):
     if is_banned(cid):
         return None
     txt = responses['inline_help_1'][lang(cid)]

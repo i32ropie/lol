@@ -20,7 +20,6 @@ backward = {
         query.query.split()) == 2)
 def query_skins(q):
     cid = q.from_user.id
-    # if is_beta(cid):
     if is_banned(cid):
         return None
     try:

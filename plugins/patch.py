@@ -46,7 +46,8 @@ def command_patch(m):
         'patch_fa',
         'patch_tr',
         'patch_ru',
-        'patch_el'])
+        'patch_el',
+        'patch_ar'])
 def command_update_patch(m):
     cid = m.chat.id
     uid = m.from_user.id

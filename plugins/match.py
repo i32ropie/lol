@@ -18,7 +18,8 @@ locales = {
     "fr": "fr_FR",
     "fa": "en_US",
     "tr": "tr_TR",
-    "ro": "ro_RO"
+    "ro": "ro_RO",
+    "ar": "en_US"
 }
 
 platform = {

@@ -19,6 +19,7 @@ markup.add(
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
     types.KeyboardButton('PERSIAN'),
+    types.KeyboardButton('ARAB'),
     types.KeyboardButton('TÜRKÇE'))
 
 
@@ -55,7 +56,8 @@ def command_start(m):
             'de',
             'tr',
             'fr',
-            'ru']:
+            'ru',
+            'ar']:
             db.usuarios.insert({
                 "_id": str(cid),
                 "lang": lang1,
