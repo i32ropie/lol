@@ -20,7 +20,7 @@ markup.add(
     types.KeyboardButton('PERSIAN'),
     types.KeyboardButton('TÜRKÇE'),
     types.KeyboardButton('ROMÂNĂ'),
-    types.KeyboardButton('ARAB'))
+    types.KeyboardButton('ARABIC'))
 
 
 @bot.message_handler(

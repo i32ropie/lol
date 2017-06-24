@@ -855,7 +855,7 @@
         "tr":"Dil seç yada /cancel yazarak komutu iptal et.",
         "ro":"Alege o limbă sau scrie /cancel pentru a anula comanda.",
         "ru":"Выберите язык или введите /cancel для отмены.",
-        "ar":"اختر اللغة أو نوع / إلغاء لإلغاء الأمر."
+        "ar": "اختر لغة أو أكتب /cancel لإلغاء الأمر"
     },
     "lang_2":{
         "es": "El idioma ha sido actualizado al Español.",
@@ -869,7 +869,7 @@
         "tr":"Türkçe diline güncellendi.",
         "ro":"Limba a fost actualizată în Română",
         "ru":"Язык был обновлен на Русский.",
-        "ar":"تم تحديث اللغة إلى الإنكليزية"
+        "ar":"تم تحديث اللغة إلى العربية"
     },
     "lang_error":{
         "es": "Lo siento pero el idioma _%s_ no está disponible aún. Porfavor selecciona un idioma del teclado.\n\nSi quieres colaborar para traducir el bot al _%s_ contáctame a @Edurolp",

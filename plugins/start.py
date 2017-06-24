@@ -19,7 +19,7 @@ markup.add(
     # 'ไทย',
     # 'ΕΛΛΗΝΙΚΆ',
     types.KeyboardButton('PERSIAN'),
-    types.KeyboardButton('ARAB'),
+    types.KeyboardButton('ARABIC'),
     types.KeyboardButton('TÜRKÇE'))
 
 

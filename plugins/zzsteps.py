@@ -23,7 +23,7 @@ languages = {
     "РУССКИЙ": "ru",
     "TÜRKÇE": "tr",
     "ROMÂNĂ": "ro",
-    "ARAB": "ar"
+    "ARABIC": "ar"
     # "ไทย": "th",
     # "ΕΛΛΗΝΙΚΆ": "el"
 }
