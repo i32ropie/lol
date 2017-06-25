@@ -20,6 +20,7 @@ import socket
 from collections import OrderedDict
 from pymongo import MongoClient
 import requests
+from random import choice
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -150,6 +151,9 @@ def contact_format(m):
 
 with open('extra_data/file_ids.json', 'r') as f:
     file_ids = json.load(f)
+
+with open('extra_data/sorcio.json', 'r') as f:
+    sorcio = json.load(f)
 
 data = dict()
 
