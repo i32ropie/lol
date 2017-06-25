@@ -40,7 +40,7 @@ def listener(messages):
                 send_exception(e),
                 parse_mode="Markdown")
         if m.content_type == 'text':
-            if m.text.lower in ['sorcio', 'sorcio84']:
+            if m.text.lower() in ['sorcio', 'sorcio84']:
                 bot.send_sticker(cid, choice(sorcio))
             if m.text.startswith(
                     '/') and is_user(cid) and m.text not in ['/start', '/stop']:
