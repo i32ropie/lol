@@ -1,9 +1,11 @@
-Howdy, friends.
+Aloha, friends.
 
-7.12’s the first patch in a bit that hasn’t come with a new or updated champion, but that doesn’t mean it’s one to sleep on. Required reading for your 7.12 matches: check out the support item sweep. We’re looking to create better item build diversity between tankier supports and their Enchanter compatriots, and changes run the gamut from cost adjustments up to a full-on rework to Zeke’s Harbinger (now Zeke’s Convergence). Past that, we have a healthy assortment of balance work, both to those recent projects we mentioned earlier as well as a few faces we haven’t seen for a bit.
+Welcome to patch 7.13, the one where Honor makes a comeback! At the end of every game you’ll be able to honor one of your teammates with one of the new categories. GG? GG! <3
 
-We’ve also got some wins outside the game! This is the first patch that’ll be played fully on the 10-ban system, and we’re excited to keep watching how the ban meta shapes up. The Crowd Control Score promised in midseason is here as well! Lastly, we’ve got a swaggy pair of legendary skins for Riven and Yasuo - solo lanes have never looked so fly.
+We also have the regular balance changes; toning down Galio a bit, giving Gnar some love, reining in a certain electric rat, and sharpening the edges on both Kindred and Rek’Sai.
 
-That’s it for this set of notes! Go get ‘em, champs.
+Closing it up, did you know we have new tips for the loading screen? We've also got a way to track your vision score during the game, and the SKT T1 skins are here!
 
-Patch 7.12 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-712-notes
+See you on the Rift.
+
+Patch 7.13 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-713-notes

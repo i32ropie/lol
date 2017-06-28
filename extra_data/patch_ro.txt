@@ -1,9 +1,11 @@
-Salutare, prieteni.
+Aloha, prieteni.
 
-7.12 e primul patch din ultima vreme în care nici nu lansăm, nici nu actualizăm vreun campion, dar asta nu înseamnă că ne-am culcat pe-o ureche. Cele mai importante modificări de care trebuie să știți în meciurile din 7.12 sunt cele pentru obiectele de suport. Vrem ca build-urile pentru campionii de suport să difere mai mult între tancuri și amplificatori, așa că avem o gamă variată de schimbări, de la modificări ale prețurilor, până la o actualizare completă a ''Profeției lui Zeke'' (mai nou ''Convergența lui Zeke''). Dincolo de asta, facem o mulțime de echilibrări, atât pentru proiectele recente menționate mai devreme, cât și pentru prieteni vechi pe care nu i-am mai văzut de multă vreme în notele patch-ului.
+Bun venit la patch-ul 7.13, cel în care sistemul de ''Onoare'' revine în forță! La sfârșitul fiecărui meci veți putea onora câte un coechipier care s-a încadrat într-una dintre noile categorii. GG? GG! <3
 
-Sărbătorim câteva victorii și în afara jocului! Acesta este primul patch în care toată lumea va beneficia de sistemul de 10 blocări și suntem curioși și nerăbdători să vedem cum se dezvoltă meta-ul. Lansăm și punctajul controlului maselor, pe care vi l-am promis la mijlocul sezonului! Iar la final de tot, avem o pereche grozavă de skin-uri legendare pentru Riven și Yasuo. Culoarele solo arată mai bine ca niciodată.
+În plus, avem și obișnuitele modificări de echilibrare. Îl mai liniștim puțin pe Galio, îi dăm o mână de ajutor lui Gnar, ținem în frâu un anumit ninja electric și îi ajustăm pe Kindred și Rek'Sai pentru binele tuturor.
 
-Și cam atât pentru acest set de note ale patch-ului! Înainte, spre victorie!
+Înainte să încheiem, știați că avem noi sfaturi pentru ecranul de încărcare? Am inclus și un mod prin care vă puteți vedea punctajul viziunii în timpul jocului, iar skin-urile SKT T1 au sosit și ele!
 
-Notele patch-ului 7.12 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-712
+Ne vedem în Rift!
+
+Notele patch-ului 7.13 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-713

@@ -1,9 +1,11 @@
-Salve gente.
+Aloha, amici.
 
-La 7.12 è la prima patch da un po' di tempo che esce senza un campione nuovo o aggiornato, ma questo non vuol dire che sia da sottovalutare. Lettura richiesta per le partite 7.12: consulta l'articolo sugli oggetti di supporto. Vogliamo diversificare meglio le configurazioni di oggetti tra i supporti più tank e i loro compatrioti incantatori, e le modifiche vanno da cambiamenti di prezzo a un restyling completo di Araldo di Zeke (che ora si chiama Convergenza di Zeke). Abbiamo inoltre effettuato molti interventi di bilanciamento, sia per i progetti recenti di cui abbiamo parlato prima che per alcune facce che non vedevamo da un po' di tempo.
+Benvenuti nella patch 7.13, quella che segna il ritorno dell'onore! Alla fine di ogni partita potrete onorare uno dei vostri compagni con una delle nuove categorie. GG? GG! <3
 
-Abbiamo anche avuto qualche vittoria fuori dal gioco! Questa è la prima patch che verrà giocata completamente con il sistema a 10 ban, e non vediamo l'ora di continuare a osservare come si delinea il meta dei ban. È arrivato anche il punteggio degli effetti di controllo che avevamo promesso a metà stagione! Infine, ci sono un paio di aspetti leggendari per Riven e Yasuo... le corsie singole non sono mai state così stilose.
+Abbiamo anche delle modifiche al bilanciamento: freniamo un po' Galio, diamo un po' di attenzioni a Gnar e teniamo a bada un certo ratto elettrico, per poi affilare Kindred e Rek'Sai.
 
-Questo è tutto per le note! Datevi da fare, campioni.
+Per finire, sapevate che abbiamo nuovi suggerimenti per le schermate di caricamento? Abbiamo anche un modo per tenere traccia del punteggio di visione durante la partita e i nuovi aspetti degli SKT T1!
 
-Note sulla patch 7.12 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-712
+Ci vediamo nella Landa!
+
+Note sulla patch 7.13 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-713

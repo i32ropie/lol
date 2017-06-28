@@ -1,9 +1,11 @@
-Witajcie, przyjaciele.
+Aloha, przyjaciele.
 
-7.12 to pierwszy patch od dość dawna, w którym nie ma nowego lub zaktualizowanego bohatera, ale nie oznacza to, że będziemy się obijać. Koniecznie musicie przeczytać jedną rzecz przed pobraniem patcha 7.12: sprawdźcie zmiany przedmiotów dla wspierających. Chcemy stworzyć większą różnorodność kupowanych przedmiotów między obronnymi wspierającymi a zaklinaczami. Zmiany te wprowadzimy począwszy od kosztów a skończywszy na pełnej przeróbce Zwiastuna Zeke’a (obecnie Konwergencja Zeke’a). Poza tym mamy sporo poprawek wyważających, zarówno dla kilku niedawnych pacjentów, jak i twarzy, których nie widzieliśmy od dawna.
+Witamy w patchu 7.13, czyli tym, w którym powraca honor! Na końcu każdej gry możliwe będzie uhonorowanie jednego ze współgraczy w jednej z nowych kategorii. GG? GG! <3
 
-Mamy także trochę zmian poza rozgrywką! To pierwszy patch, który będzie w pełni obsługiwał system 10 banów i nie możemy się doczekać, żeby zobaczyć, jak będzie rozwijać się meta banów. Punkty za kontrolę tłumu obiecane w środku sezonu wreszcie się pojawiają! Na koniec mamy stylową parę legendarnych skórek dla Riven i Yasuo — solowe aleje nigdy nie prezentowały się tak dobrze.
+Wprowadzamy także standardowe zmiany wyważające — osłabiamy trochę Galio, wzmacniamy Gnara, lekko zmieniamy pewnego elektrycznego szczura i dodajemy co nieco Kindred i Rek’Sai.
 
-To tyle, jeśli chodzi o wstęp! Ruszajcie do boju, bohaterowie.
+Na zakończenie, czy wiedzieliście, że mamy nowe porady na ekranie wczytywania? Wprowadzamy także sposób na śledzenie punktów za wizję podczas gry. No i mamy też skórki STK T1!
 
-Opis patcha 7.12 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-712
+Do zobaczenia na Summoner’s Rift.
+
+Opis patcha 7.13 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-713

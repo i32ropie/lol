@@ -1,9 +1,11 @@
-Bonjour à tous !
+Aloha, les amis.
 
-Le patch 7.12 n'offre ni nouveau champion ni refonte de champion (cela faisait longtemps que ce n'était pas arrivé !), mais ça ne signifie pas qu'il ne propose rien d'intéressant. Avant de vous lancer dans la version 7.12 du jeu, nous vous conseillons vivement de lire la section sur les objets de support. Nous voulons améliorer la diversité des builds pour les supports tanky et leurs collègues enchanteurs, et pour cela, nous ajustons quelques coûts et revoyons intégralement le Héraut de Zeke (désormais nommé Convergence de Zeke). Au-delà de ça, nous avons un assortiment d'équilibrages pour les projets dont nous parlions récemment, mais aussi pour quelques champions qui n'étaient plus passés par ici depuis un bail.
+Bienvenue dans les notes du patch 7.13, où l'Honneur fait son grand retour ! À la fin de chaque partie, vous pourrez désormais rendre honneur à l'un de vos équipiers en sélectionnant l'une des catégories proposées. GG ? GG ! <3
 
-Nous avons également de chouettes choses en dehors des champs de bataille ! Ce patch est le tout premier qui sera joué intégralement avec le système à 10 bannissements, et nous avons hâte de voir comment la meta évoluera suite à cela. Le score de contrôle de foule promis pendant la mi-saison est arrivé ! Et pour finir, nous vous proposons de super skins légendaires pour Riven et Yasuo ; les voies en solo n'auront jamais été aussi classes.
+Nous avons également de nouveaux équilibrages : Galio va faire moins mal, Gnar reçoit un peu d'attention, un certain yordle survolté va se calmer un peu et Kindred et Rek'Sai affûtent leurs griffes.
 
-C'est tout pour aujourd'hui ! À vous de jouer !
+Pour finir, nous ajoutons de nouveaux messages sur l'écran de chargement (le saviez-vous ?), un nouveau moyen de suivre votre score de vision durant la partie et les skins SKT T1 !
 
-Notes de patch 7.12 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-712
+À bientôt dans la Faille !
+
+Notes de patch 7.13 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-713

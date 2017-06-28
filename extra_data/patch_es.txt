@@ -1,9 +1,11 @@
-Hola, amigos:
-[⁣](https://www.youtube.com/watch?v=65Qng055Bj4)
-La versión 7.12 es la primera desde hace un tiempo en las que no viene con un campeón actualizado o nuevo, pero eso no significa que vaya a ser siempre así. Lo que hay que saber de la versión 7.12: echad un vistazo a los cambios en los objetos de apoyo. Queremos crear una mayor diversidad de conjuntos de objetos entre los apoyos más tanque y sus compatriotas hechiceros. Los cambios cubren toda la gama, desde ajustes de coste hasta una actualización para Heraldo de Zeke (ahora Convergencia de Zeke). Además de eso, nos estamos esforzando para equilibrar esos proyectos recientes de los que ya hemos hablado y también a algunos campeones que hace tiempo que no retocamos.
+Aloha a todos.
 
-¡También tenemos algunas mejoras fuera de partida! Esta es la primera versión completa con los 10 bloqueos, y nos emociona seguir viendo cómo toma forma el metajuego. Con esta versión también llega la puntuación de control de adversario que prometimos a mitad de temporada. Por último, traemos un par de aspectos legendarios con mucho estilo para Riven y Yasuo. Las calles en solitario lo parten más que nunca.
+¡Bienvenidos a la versión 7.13, en la que el honor vuelve por todo lo alto! Al final de cada partida podréis dar honor a vuestros compañeros con una de las nuevas categorías. ¿GG? ¡GG! <3
 
-¡Y eso es todo en cuanto a estas notas! ¡A por ellos, campeones!
+Además, os traemos los habituales cambios de equilibrio: hemos debilitado un poco a Galio, dado un poco de cariño a Gnar, refrenado a cierta ratilla eléctrica y pulido tanto a Kindred como a Rek'Sai.
 
-Notas de la Versión 7.12 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-712
+Por último, ¿sabíais que traemos nuevos consejos para la pantalla de carga? También hemos encontrado el modo de registrar vuestra puntuación de visión durante la partida, ¡y ya han llegado los aspectos de SKT T1!
+
+¡Nos vemos en la Grieta!
+
+Notas de la Versión 7.13 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-713
