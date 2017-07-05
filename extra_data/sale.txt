@@ -1,8 +1,8 @@
-/Vi: 487 RP
-/KogMaw: 440 RP
-/XinZhao: 292 RP
-/Kassadin: 395 RP
-/Sivir_1: 260 RP
-/Irelia_5: 375 RP
-/Vi_2: 487 RP
-/VelKoz_1: 675 RP
+/KhaZix: 487 RP
+/Kennen: 440 RP
+/Tryndamere: 292 RP
+/Zac: 487 RP
+/Poppy_5: 260 RP
+/Rengar_2: 487 RP
+/Draven_2: 487 RP
+/Ziggs_3: 675 RP

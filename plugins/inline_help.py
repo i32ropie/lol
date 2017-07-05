@@ -6,7 +6,7 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  inline_help.py importado.{/cyan}'))
 
 
-@bot.inline_handler(lambda query: query.query.lower() == 'help' or query.query.empty() )
+@bot.inline_handler(lambda query: query.query.lower() == 'help' or query.query == '' )
 def query_help(q):
     cid = q.from_user.id
     if is_banned(cid):
