@@ -1,11 +1,11 @@
-Aloha, les amis.
+Bonjour, invocateurs !
 
-Bienvenue dans les notes du patch 7.13, où l'Honneur fait son grand retour ! À la fin de chaque partie, vous pourrez désormais rendre honneur à l'un de vos équipiers en sélectionnant l'une des catégories proposées. GG ? GG ! <3
+Bienvenue dans les notes du patch 7.14. Cette semaine, nous recevons la visite de nombreux champions que nous n'avions plus vus depuis un bail, comme Singed et Garen, mais aussi Diana ! La plupart de ces champions ont trop longtemps été en manque d'affection, et nous sommes heureux de pouvoir nous occuper d'eux.
 
-Nous avons également de nouveaux équilibrages : Galio va faire moins mal, Gnar reçoit un peu d'attention, un certain yordle survolté va se calmer un peu et Kindred et Rek'Sai affûtent leurs griffes.
+Du côté des objets, des changements importants ont également lieu. La Cotte épineuse mise à jour offre l'effet Hémorragie aux tanks, tandis que l'Armure roncière rejoint les rangs de l'Hexdrinker et de la Ceinture de mercure en tant que composant. Les objets de létalité ont eux aussi droit à quelques changements, car nous voulions nous assurer qu'ils soient tous intéressants et satisfaisants pour les assassins.
 
-Pour finir, nous ajoutons de nouveaux messages sur l'écran de chargement (le saviez-vous ?), un nouveau moyen de suivre votre score de vision durant la partie et les skins SKT T1 !
+Et pour finir, j'aimerais attirer votre attention sur cette ombre qui plane à l'horizon. Méfiez-vous de Kayn ! Enfin, ça ne changera pas grand-chose quand il surgira d'un mur derrière vous...
 
-À bientôt dans la Faille !
+Ce n'est rien de personnel.
 
-Notes de patch 7.13 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-713
+Notes de patch 7.14 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-714

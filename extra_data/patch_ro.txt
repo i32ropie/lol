@@ -1,11 +1,11 @@
-Aloha, prieteni.
+Salutare invocatori,
 
-Bun venit la patch-ul 7.13, cel în care sistemul de ''Onoare'' revine în forță! La sfârșitul fiecărui meci veți putea onora câte un coechipier care s-a încadrat într-una dintre noile categorii. GG? GG! <3
+Bun venit la patch-ul 7.14. Veți vedea tot felul de campioni care n-au mai trecut pe-aici de multă vreme, cum ar fi Singed, Garen, Diana și... bine, dacă o ținem tot așa, ajungem să cităm tot cuprinsul notelor patch-ului în ordine aleatorie. Mulți dintre ei au ajuns în obscuritate de ceva vreme, așa că ne bucurăm să-i readucem la lumină.
 
-În plus, avem și obișnuitele modificări de echilibrare. Îl mai liniștim puțin pe Galio, îi dăm o mână de ajutor lui Gnar, ținem în frâu un anumit ninja electric și îi ajustăm pe Kindred și Rek'Sai pentru binele tuturor.
+Avem câteva schimbări și pentru obiecte. Actualizarea ''Armurii cu spini'' le dă campionilor cu atribute de tanc acces la ''Răni grave'', iar ''Vesta de mărăcini'' este o componentă asemănătoare cu ''Băutorul de vrăji'' sau ''Brâul din argint viu'', în sensul în care se îmbunătățește într-o versiune mai puternică a ei înșiși. În plus, am revizuit obiectele de letalitate ca să ne asigurăm că le oferim asasinilor alegeri utile și satisfăcătoare.
 
-Înainte să încheiem, știați că avem noi sfaturi pentru ecranul de încărcare? Am inclus și un mod prin care vă puteți vedea punctajul viziunii în timpul jocului, iar skin-urile SKT T1 au sosit și ele!
+În cele din urmă, nu putem să nu menționăm umbrele care se pregătesc să ne învăluie. Stați cu ochii pe Kayn, chiar dacă asta nu vă ajută la nimic atunci când iese din zid fix în spatele vostru.
 
-Ne vedem în Rift!
+Nu că ar avea ceva personal cu voi.
 
-Notele patch-ului 7.13 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-713
+Notele patch-ului 7.14 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-714

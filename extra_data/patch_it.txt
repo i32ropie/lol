@@ -1,11 +1,11 @@
-Aloha, amici.
+Saluti evocatori,
 
-Benvenuti nella patch 7.13, quella che segna il ritorno dell'onore! Alla fine di ogni partita potrete onorare uno dei vostri compagni con una delle nuove categorie. GG? GG! <3
+Benvenuti nella patch 7.14. Questa patch nomina un sacco di campioni che non sentivate da un po', come Singed, Garen, Diana... e a questo punto stiamo solo prendendo contenuti a caso dall'indice. Molti di questi campioni sono rimasti nell'oscurità per un po' e siamo lieti di rispolverarli.
 
-Abbiamo anche delle modifiche al bilanciamento: freniamo un po' Galio, diamo un po' di attenzioni a Gnar e teniamo a bada un certo ratto elettrico, per poi affilare Kindred e Rek'Sai.
+Abbiamo anche delle novità sul fronte degli oggetti. L'aggiornamento della Corazza spinata dà ai campioni tank accesso a Ferita grave, con Corpetto di rovi come componente intermedio sulla falsariga di Mangiamagia, Fascia d'argento vivo e altri oggetti che diventano versioni più grandi di se stessi. Abbiamo anche elaborato gli oggetti per la letalità per garantire che offrano agli assassini scelte interessanti e appaganti.
 
-Per finire, sapevate che abbiamo nuovi suggerimenti per le schermate di caricamento? Abbiamo anche un modo per tenere traccia del punteggio di visione durante la partita e i nuovi aspetti degli SKT T1!
+Per finire, non possiamo non nominare l'ombra che si staglia all'orizzonte. Tenete gli occhi aperti per Kayn, anche se non servirà a niente perché uscirà dalla dannata parete alle vostre spalle.
 
-Ci vediamo nella Landa!
+Niente di personale.
 
-Note sulla patch 7.13 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-713
+Note sulla patch 7.14 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-714

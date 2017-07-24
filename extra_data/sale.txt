@@ -1,8 +1,8 @@
-/KhaZix: 487 RP
-/Kennen: 440 RP
-/Tryndamere: 292 RP
-/Zac: 487 RP
-/Poppy_5: 260 RP
-/Rengar_2: 487 RP
-/Draven_2: 487 RP
-/Ziggs_3: 675 RP
+/Lissandra: 487 RP
+/Skarner: 440 RP
+/Rammus: 292 RP
+/Thresh: 487 RP
+/Orianna_2: 260 RP
+/Amumu_6: 375 RP
+/Tryndamere_5: 487 RP
+/Malphite_6: 487 RP
