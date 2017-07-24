@@ -59,7 +59,7 @@ def command_m(m):
 
 def get_summoner_info(invocador, region, cid):
     try:
-        summoner = lol_api.get_summoner(name=invocador, region=region)
+        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
     except:
         txt = responses['summoner_error'][
             lang(cid)] % (invocador, region.upper())
@@ -75,7 +75,7 @@ def get_summoner_info(invocador, region, cid):
     summoner_level = summoner['summonerLevel']
     try:
         partidas = lol_api.get_stat_summary(
-            summoner_id, region=region, season=None)
+            summoner_id, region=update_region(region), season=None)
     except:
         txt = "Error with RIOT servers :("
         bot.send_message(
@@ -105,7 +105,7 @@ def get_summoner_info(invocador, region, cid):
     if summoner_level == 30:
         try:
             rankeds = lol_api.get_league(
-                summoner_ids=[summoner_id], region=region)
+                summoner_ids=[summoner_id], region=update_region(region))
         except:
             pass
         if 'rankeds' in locals():

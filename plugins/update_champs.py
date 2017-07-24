@@ -8,8 +8,8 @@ print(Color(
 
 
 def static_get_champion_list(region, data_by_id, locale=None, champ_data=None):
-    url = "https://global.api.riotgames.com/api/lol/static-data/{}/v1.2/champion".format(
-        region.upper())
+    url = "https://{}.api.riotgames.com/lol/static-data/v3/champions".format(
+        update_region(region))
     params = {
         "champData": champ_data,
         "dataById": "true" if data_by_id else "false",

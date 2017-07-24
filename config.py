@@ -7,6 +7,7 @@
 
 import os
 import telebot
+# TODO: HAY QUE ACTUALIZAR A LA VERSIÓN NUEVA DE RIOTWATCHER
 from riotwatcher.legacy import RiotWatcher, player_stat_summary_types
 from telebot import types
 from colorclass import Color
@@ -214,4 +215,18 @@ def static_versions():
     try:
         return requests.get(url, {'api_key': extra['lol_api']}).json()[0]
     except:
-        return '7.12.1'
+        return '7.14.1'
+
+
+base_regions = {'euw': 'euw1',
+                'ru': 'ru',
+                'kr': 'kr',
+                'br': 'br1',
+                'oce': 'oc1',
+                'na': 'na1',
+                'eune': 'eun1',
+                'lan': 'la1',
+                'las': 'la2'}
+
+def update_region(reg):
+    return base_regions.get(reg)

@@ -143,7 +143,7 @@ def query_summoner(q):
     region = q.query.split()[0].strip('#')
     to_send = list()
     try:
-        summoner = lol_api.get_summoner(name=invocador, region=region)
+        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
     except:
         pass
     else:
@@ -209,7 +209,7 @@ def get_match_info(invocador, region, cid, inline=False):
     rojo = {}
     txt = ""
     try:
-        summoner = lol_api.get_summoner(name=invocador, region=region)
+        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
     except:
         if not inline:
             bot.send_chat_action(cid, 'typing')
@@ -231,7 +231,7 @@ def get_match_info(invocador, region, cid, inline=False):
         partida = lol_api.get_current_game(
             summoner_id=summoner_id,
             platform_id=platform[region],
-            region=region)
+            region=update_region(region))
     except:
         if not inline:
             bot.send_chat_action(cid, 'typing')
@@ -259,7 +259,7 @@ def get_match_info(invocador, region, cid, inline=False):
     for a, b in azul.items():
         txt += '\n\n' + get_summoner_info_2(
             invocador=a,
-            region=region,
+            region=update_region(region),
             champion=b,
             cid=cid
         )
@@ -267,7 +267,7 @@ def get_match_info(invocador, region, cid, inline=False):
     for a, b in rojo.items():
         txt += '\n\n' + get_summoner_info_2(
             invocador=a,
-            region=region,
+            region=update_region(region),
             champion=b,
             cid=cid
         )
@@ -280,7 +280,7 @@ def get_match_info(invocador, region, cid, inline=False):
 
 def get_summoner_info_2(invocador, region, champion, cid):
     try:
-        summoner = lol_api.get_summoner(name=invocador, region=region)
+        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
     except:
         txt = responses['summoner_error'][
             lang(cid)] % (invocador, region.upper())
@@ -293,7 +293,7 @@ def get_summoner_info_2(invocador, region, champion, cid):
     if summoner_level == 30:
         try:
             rankeds = lol_api.get_league(
-                summoner_ids=[summoner_id], region=region)
+                summoner_ids=[summoner_id], region=update_region(region))
         except:
             pass
         if 'rankeds' in locals():
