@@ -291,11 +291,11 @@ def get_summoner_info_2(invocador, region, champion, cid):
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
     if summoner_level == 30:
-        try:
-            rankeds = lol_api.get_league(
-                summoner_ids=[summoner_id], region=update_region(region))
-        except:
-            pass
+        # try:
+        #     rankeds = lol_api.get_league(
+        #         summoner_ids=[summoner_id], region=update_region(region))
+        # except:
+        #     pass
         if 'rankeds' in locals():
             if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
                 for x in rankeds[str(summoner_id)][0]['entries']:
