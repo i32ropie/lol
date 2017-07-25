@@ -169,8 +169,10 @@ def get_summoner_info(invocador, region, cid):
 
 
 def get_3_best_champs(summonerId, region, cid):
-    url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(
-        region.lower(), platform[region], summonerId)
+    # url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(
+    #     region.lower(), platform[region], summonerId)
+    url = 'https://{}.api.riotgames.com/lol/champion-mastery/v3/champion-masteries/by-summoner/{}'.format(
+        update_region(region.lower()), summonerId)
     params = {
         "api_key": extra['lol_api']
     }
