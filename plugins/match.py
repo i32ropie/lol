@@ -290,40 +290,40 @@ def get_summoner_info_2(invocador, region, champion, cid):
     lolking = "http://www.lolking.net/summoner/" + \
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
-    if summoner_level == 30:
-        # try:
-        #     rankeds = lol_api.get_league(
-        #         summoner_ids=[summoner_id], region=update_region(region))
-        # except:
-        #     pass
-        if 'rankeds' in locals():
-            if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
-                for x in rankeds[str(summoner_id)][0]['entries']:
-                    if str(x['playerOrTeamId']) == str(summoner_id):
-                        info = x
-                        break
-                division = info['division']
-                liga = responses['tier'][
-                    lang(cid)][
-                    rankeds[
-                        str(summoner_id)][0]['tier']]
-                victorias = str(info['wins'])
-                derrotas = str(info['losses'])
-                v1 = float(victorias)
-                d1 = float(derrotas)
-                w1 = int((v1 / (v1 + d1)) * 100)
-                winrate = str(w1).replace('.', '\'') + "%"
-            else:
-                liga = 'Unranked'
-                division = ''
-                winrate = '-'
-        else:
-            liga = 'Unranked'
-            division = ''
-            winrate = '-'
-        txt = responses['summoner_30_2'][lang(cid)] % (
-            summoner_name, lolking, liga, division, winrate, champion)
-    else:
-        txt = responses['summoner<30_2'][lang(cid)] % (
-            summoner_name, lolking, summoner_level, champion)
+    # if summoner_level == 30:
+    #     # try:
+    #     #     rankeds = lol_api.get_league(
+    #     #         summoner_ids=[summoner_id], region=update_region(region))
+    #     # except:
+    #     #     pass
+    #     if 'rankeds' in locals():
+    #         if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
+    #             for x in rankeds[str(summoner_id)][0]['entries']:
+    #                 if str(x['playerOrTeamId']) == str(summoner_id):
+    #                     info = x
+    #                     break
+    #             division = info['division']
+    #             liga = responses['tier'][
+    #                 lang(cid)][
+    #                 rankeds[
+    #                     str(summoner_id)][0]['tier']]
+    #             victorias = str(info['wins'])
+    #             derrotas = str(info['losses'])
+    #             v1 = float(victorias)
+    #             d1 = float(derrotas)
+    #             w1 = int((v1 / (v1 + d1)) * 100)
+    #             winrate = str(w1).replace('.', '\'') + "%"
+    #         else:
+    #             liga = 'Unranked'
+    #             division = ''
+    #             winrate = '-'
+    #     else:
+    #         liga = 'Unranked'
+    #         division = ''
+    #         winrate = '-'
+    #     txt = responses['summoner_30_2'][lang(cid)] % (
+    #         summoner_name, lolking, liga, division, winrate, champion)
+    # else:
+    txt = responses['summoner<30_2'][lang(cid)] % (
+        summoner_name, lolking, summoner_level, champion)
     return txt
