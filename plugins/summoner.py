@@ -189,29 +189,29 @@ def get_summoner_info(invocador, region, cid):
     lolking = "http://www.lolking.net/summoner/" + \
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
-    try:
-        partidas = lol_api.get_stat_summary(
-            summoner_id, region=update_region(region), season=None)
-    except:
-        txt = "Error with RIOT servers :("
-        bot.send_message(
-            52033876,
-            "Error obteniendo información de <{}> en <{}> | {}".format(
-                summoner_name,
-                region,
-                cid))
-        return txt
-    if 'playerStatSummaries' in partidas:
-        for data in partidas['playerStatSummaries']:
-            if data['playerStatSummaryType'] == player_stat_summary_types[0]:
-                normals = data
-                wins5 = str(normals['wins'])
-            elif data['playerStatSummaryType'] == player_stat_summary_types[1]:
-                v3 = data
-                wins3 = str(v3['wins'])
-            elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
-                arams = data
-                winsA = str(arams['wins'])
+    # try:
+    #     partidas = lol_api.get_stat_summary(
+    #         summoner_id, region=update_region(region), season=None)
+    # except:
+    #     txt = "Error with RIOT servers :("
+    #     bot.send_message(
+    #         52033876,
+    #         "Error obteniendo información de <{}> en <{}> | {}".format(
+    #             summoner_name,
+    #             region,
+    #             cid))
+    #     return txt
+    # if 'playerStatSummaries' in partidas:
+    #     for data in partidas['playerStatSummaries']:
+    #         if data['playerStatSummaryType'] == player_stat_summary_types[0]:
+    #             normals = data
+    #             wins5 = str(normals['wins'])
+    #         elif data['playerStatSummaryType'] == player_stat_summary_types[1]:
+    #             v3 = data
+    #             wins3 = str(v3['wins'])
+    #         elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
+    #             arams = data
+    #             winsA = str(arams['wins'])
     if 'wins5' not in locals():
         wins5 = '-'
     if 'wins3' not in locals():
@@ -219,11 +219,11 @@ def get_summoner_info(invocador, region, cid):
     if 'winsA' not in locals():
         winsA = '-'
     if summoner_level == 30:
-        try:
-            rankeds = lol_api.get_league(
-                summoner_ids=[summoner_id], region=update_region(region))
-        except:
-            pass
+        # try:
+        #     rankeds = lol_api.get_league(
+        #         summoner_ids=[summoner_id], region=update_region(region))
+        # except:
+        #     pass
         if 'rankeds' in locals():
             if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
                 for x in rankeds[str(summoner_id)][0]['entries']:
