@@ -1,11 +1,11 @@
-Sei gegrüßt, Beschwörer!
+Was geht bei dir?
 
-Willkommen bei Patch 7.14. In diesem Patch fallen einige Namen, von denen wir schon seit längerer Zeit nichts mehr gehört haben: Singed, Garen oder Diana, um beliebig nur einige aus der Liste zu nennen. Viele dieser Champions sind eine Zeit lang etwas in Vergessenheit geraten, und wir holen sie gerne wieder aus der Mottenkiste hervor und stauben sie ordentlich ab.
+Willkommen zu Patch 7.15, in dem wir mit Cho’Gath wieder einen Schritt zurück gehen und einige der dominanteren Champions in Turnieren ein wenig zügeln.
 
-Auch bei den Gegenständen gibt es einige Änderungen. Die Aktualisierung von Dornenpanzer bietet eher robusten Champions Zugriff auf „Klaffende Wunden“, wobei Dornenweste ihnen auf dem Herstellungspfad ähnlich wie Hextrinker, Quecksilberschärpe und anderen Gegenständen, die Champions buchstäblich über sich hinauswachsen lassen, als Sprungbrett dient. Außerdem haben wir das Sortiment um Gegenstände mit Tödlichkeitsfaktor erweitert, damit auch Assassinen eine Auswahl ganz nach ihrem Geschmack haben.
+Auf der wettkampforientierten Seite des Spiels rücken die regionalen Finalspiele langsam aber sicher näher. Deshalb wollen wir für ein wenig mehr Variation auf der höchsten Spielebene sorgen, aber gleichzeitig auch sicherstellen, dass eine gewisse Stabilität vorhanden ist. Darum gibt es nur viele kleine Änderungen. Zuerst wollen wir ein paar dominante Champions runterschrauben, bevor wir einigen der seltener gespielten Champions ein wenig helfen, um sie über die Schwelle ins professionelle Spiel zu schubsen. Obwohl dieser Patch also ein wenig umfangreicher aussieht, sind die meisten der Änderungen eher klein.
 
-Und schließlich möchten wir auf keinen Fall versäumen, den Schatten zu erwähnen, der sich schon am Horizont abzeichnet. Also halte die Auge offen nach Kayn – wobei es bereits zu spät ist, sobald er aus der Wand hinter dir erscheint.
+Oh, und erinnerst du dich noch an Urgot? Na ja, wir haben seinen Untersetzer ein wenig gepimpt und er wird sich in diesem Patch ebenfalls in die Kluft stürzen – mit feuernden Knien! Das sagen gerne noch einmal. Mit feuernden Knien. Probier sie aus!
 
-Nimm’s nicht persönlich.
+Also raus mit dir in die Kluft und lies dir lieber Urgots Fähigkeiten durch, wenn du nicht auf fürchterliche Weise geschreddert werden willst.
 
-Patchnotizen 7.14 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-714
+Patchnotizen 7.15 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-715

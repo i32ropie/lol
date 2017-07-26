@@ -1,11 +1,11 @@
-Saludos, invocadores.
-[⁣](https://youtu.be/gFzZuMvujSQ)
-Bienvenidos a la versión 7.14. Esta versión trae muchos nombres que no hemos escuchado en bastante tiempo, como Singed, Garen, Diana... Podríamos seguir, pero casi sería como recitaros el índice en otro orden. Muchos de estos campeones han permanecido en la oscuridad durante un tiempo, y nos alegra poder quitarles el polvo.
+Hola a todos:
+[⁣](https://youtu.be/RLa2b12fd_s)
+Bienvenidos a la versión 7.15, en la que ajustamos la actualización de Cho'Gath y rebajamos a algunos de los campeones que más se están escogiendo ahora mismo.
 
-También le damos una sacudida a los objetos. La actualización de Malla de espinas da acceso a Heridas graves a los campeones robustos, con Chaleco de zarzas como parte fundamental (parecido a Sorbemaleficios, Fajín de mercurio y otros objetos que otorgan resistencia). También hemos metido los objetos de letalidad en la tienda para proporcionar opciones más satisfactorias y significativas a los asesinos.
+En cuanto a la escena competitiva, las finales regionales ya están a la vuelta de la esquina. Como resultado, vamos a introducir más variedad en los niveles más altos del juego, pero también a crear algo de estabilidad, y eso conlleva algunos pequeños cambios. Para empezar, vamos a darles unos cachetes a algunos de los campeones preferidos y algo de cariño a aquellos que no se juegan tanto y que necesitan tan solo un empujoncito para llegar la escena profesional. Aunque esta parezca una versión más grande de lo normal, muchos de los cambios son pequeños.
 
-Finalmente, sería una negligencia no mencionar la sombra que acecha por el horizonte. Estad pendientes de Kayn. Aunque no importará una vez que salga de una pared detrás de vosotros.
+Y, por cierto, ¿os acordáis de Urgot? Pues lo hemos tuneado y se dirige a la Grieta como un nuevo coloso con escopetas por rodillas. Habéis oído bien: escopetas por rodillas. Echadle un vistazo.
 
-No es personal, chaval.
+Lanzaos a la Grieta y leed las nuevas habilidades de Urgot o tendréis pesadillas mecánicas cuando veáis lo que pasa si os hace pedazos.
 
-Notas de la Versión 7.14 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-714
+Notas de la Versión 7.15 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-715

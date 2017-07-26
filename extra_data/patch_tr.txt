@@ -1,9 +1,11 @@
-Selam sihirdarlar,
+Herkese selam,
 
-7.14 Yaması'na hoş geldiniz. Bu yamada Singed, Garen ve Diana gibi uzun zamandır ismini duymadığımız şampiyonlar üzerinde duruyoruz. Bu şampiyonların büyük bölümü uzun süredir pek ortalarda görünmüyordu ve onları yeniden görmek gerçekten mutluluk verici.
+Cho'Gath güncellemesini biraz tersine çevirdiğimiz ve rekabetçi ortamlarda baskınlık kuran bazı seçimlerin gücünü biraz aşağı çektiğimiz 7.15 yamasına hoş geldiniz.
 
-Ayrıca eşyalar için de bazı değişikliklerimiz var. Çivili Zırh güncellemesi dayanıklı şampiyonlara Ağır Yara sağlarken; Dikenli Yelek, daha güçlü bir versiyonuna geliştirilebilen önemli bir eşya bileşeni olarak Sihiriçen ve Cıvalı Kuşak gibi eşyaların arasındaki yerini alıyor. Bunların ötesinde, suikastçıların anlamlı ve tatmin edici eşya seçimleri yapabilmeleri için zırh deşme eşyalarını şöyle bir elden geçirdik.
+Rekabetçi demişken Bölge Finalleri de gitgide yaklaşıyor. Bu sebeple oyunun en üst seviyelerindeki çeşitliliği arttırırken istikrarı da korumak istiyoruz ve bu da birçok küçük değişiklik yapacağımız anlamına geliyor. İlk olarak bazı baskın şampiyonların güç musluklarını biraz kısıyor ve profesyonel arenalarda boy göstermeye çok yakın şampiyonlara da biraz ilgi gösteriyoruz. Bu yama alışık olduğunuz yamalara kıyasla biraz daha uzun görünse de yapılan değişikliklerin çoğu oldukça küçük.
 
-Tabii son olarak ufukta bekleyen gölgeden de bahsetmesek olmazdı. Kayn için gözlerinizi dört açın; gerçi bir anda arkanızda belirdiğinde sizi bu bile kurtaramayabilir.
+Bu arada Urgot'u hatırlıyor musunuz? Makinesini baştan aşağı yeniledik ve hem o hem de diz tüfekleri savaş alanlarında dehşet saçmak için sabırsızlanıyor. Aman dikkatli olun.
 
-Demedi demeyin.7.14 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/714-yama-notlari
+Vadi'ye inmeden önce Urgot'un yetenekleri üzerinde şöyle bir göz gezdirmezseniz kendinizi bir anda kıyma makinesinin içinde bulabilirsiniz.
+
+Demedi demeyin.7.15 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/715-yama-notlari

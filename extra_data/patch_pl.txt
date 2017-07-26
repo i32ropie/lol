@@ -1,11 +1,11 @@
-Czołem, Przywoływacze.
+Cześć, ludziska.
 
-Witamy w patchu 7.14. W tym patchu pojawiają się postacie, o których dawno nie słyszeliśmy, poczynając od Singeda, przez Garena, na Dianie kończąc. Cóż, teraz omówimy spis treści w przypadkowej kolejności. Wielu z tych bohaterów od dawna czekało w kolejce do zmian, więc z radością się nimi zajmiemy.
+Witamy w patchu 7.15, tym, w którym cofamy trochę ostatnie zmiany Cho’Gatha oraz osłabiamy kilku dominujących w rozgrywkach rankingowych bohaterów.
 
-Pochylimy się także nad przedmiotami. Aktualizacja Kolczastej Kolczugi daje wytrzymałym bohaterom dostęp do Głębokich Ran, a Kamizelka Cierniowa jest jednym z jej składników, przypominającym Pochłaniacz Uroków, Rtęciową Szarfę i inne przedmioty z kategorii „jestem składnikiem swojej większej wersji”. Wzięliśmy także na warsztat przedmioty z destrukcją, aby zagwarantować, że zabójcy będą mieli sensowne i satysfakcjonujące wybory.
+Jeżeli chodzi o stronę rywalizacji, zbliżają się finały regionalne. W związku z tym staramy się wprowadzić trochę zróżnicowania na najwyższych poziomach rozgrywki, ale także by stworzyć odrobinę stabilności, co oznacza wiele małych zmian. Na początek, osłabiamy trochę najbardziej dominujących bohaterów, jednocześnie wzmacniając trochę tych słabszych, którzy są na krawędzi użyteczności w profesjonalnych rozgrywkach. Więc mimo że może wydawać się, że jest to większy patch niż zazwyczaj, większość zmian jest dość małych.
 
-Na koniec nie możemy zapomnieć o cieniu, który majaczy na horyzoncie. Uważnie wyglądajcie Kayna, chociaż i tak będzie to bez znaczenia, gdy nagle wyłoni się za wami ze ściany.
+A właśnie, pamiętacie Urgota? Trochę go podkręciliśmy i teraz rusza na pole walki jako zupełnie nowy moloch ze strzelbami w kolanach. Powtórzymy to raz jeszcze. Strzelby w kolanach. Obczajcie to.
 
-To nic osobistego.
+Ruszajcie na Summoner’s Rift i zapoznajcie się z umiejętnościami Urgota albo Motor Agonii potnie was na kawałki.
 
-Opis patcha 7.14 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-714
+Opis patcha 7.15 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-715

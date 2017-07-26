@@ -1,11 +1,11 @@
-Bonjour, invocateurs !
+Bonjour à tous !
 
-Bienvenue dans les notes du patch 7.14. Cette semaine, nous recevons la visite de nombreux champions que nous n'avions plus vus depuis un bail, comme Singed et Garen, mais aussi Diana ! La plupart de ces champions ont trop longtemps été en manque d'affection, et nous sommes heureux de pouvoir nous occuper d'eux.
+Bienvenue dans les notes du patch 7.15, où nous calmons un peu Cho'gath et où nous faisons rentrer dans le rang certains choix qui dominent la scène compétitive.
 
-Du côté des objets, des changements importants ont également lieu. La Cotte épineuse mise à jour offre l'effet Hémorragie aux tanks, tandis que l'Armure roncière rejoint les rangs de l'Hexdrinker et de la Ceinture de mercure en tant que composant. Les objets de létalité ont eux aussi droit à quelques changements, car nous voulions nous assurer qu'ils soient tous intéressants et satisfaisants pour les assassins.
+En ce qui concerne la scène compétitive, les finales régionales arrivent d'ailleurs à grands pas. Nous essayons donc d'améliorer la diversité à haut niveau, mais également de stabiliser le jeu, ce qui signifie que nous devons procéder à quelques changements mineurs. Pour commencer, nous atténuons la puissance des champions dominants et nous donnons un coup de pouce aux champions peu joués. Ce patch aura peut-être l'air plus gros que d'habitude, mais la plupart des changements sont assez légers.
 
-Et pour finir, j'aimerais attirer votre attention sur cette ombre qui plane à l'horizon. Méfiez-vous de Kayn ! Enfin, ça ne changera pas grand-chose quand il surgira d'un mur derrière vous...
+Oh, et vous vous souvenez d'Urgot ? Eh bien, nous avons retapé sa carrosserie et il est maintenant prêt à retourner sur le champ de bataille armé de ses canons flambant neufs. Qui sont installés sur ses genoux. Oui, oui. Sur ses genoux.
 
-Ce n'est rien de personnel.
+Foncez maintenant dans la Faille et apprenez vite les compétences d'Urgot, ou ce nouveau colosse risque de vous faire broyer du noir !
 
-Notes de patch 7.14 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-714
+Notes de patch 7.15 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-715

@@ -1,11 +1,11 @@
-Salutare invocatori,
+Salutare, prietenari!
 
-Bun venit la patch-ul 7.14. Veți vedea tot felul de campioni care n-au mai trecut pe-aici de multă vreme, cum ar fi Singed, Garen, Diana și... bine, dacă o ținem tot așa, ajungem să cităm tot cuprinsul notelor patch-ului în ordine aleatorie. Mulți dintre ei au ajuns în obscuritate de ceva vreme, așa că ne bucurăm să-i readucem la lumină.
+Bun venit la patch-ul 7.15, cel în care îl liniștim pe Cho'Gath după ce a luat-o razna în urma actualizării și în care ținem în frâu unele dintre cele mai dominante alegeri competitive din joc.
 
-Avem câteva schimbări și pentru obiecte. Actualizarea ''Armurii cu spini'' le dă campionilor cu atribute de tanc acces la ''Răni grave'', iar ''Vesta de mărăcini'' este o componentă asemănătoare cu ''Băutorul de vrăji'' sau ''Brâul din argint viu'', în sensul în care se îmbunătățește într-o versiune mai puternică a ei înșiși. În plus, am revizuit obiectele de letalitate ca să ne asigurăm că le oferim asasinilor alegeri utile și satisfăcătoare.
+Pentru că tot am adus vorba de competiții, se apropie finalele regionale. De aceea, încercăm să creștem diversitatea și stabilitatea la cele mai înalte niveluri de joc, ceea ce înseamnă că facem multe schimbări minore. Pentru început, vom convinge niște campioni dominanți s-o lase mai moale și le vom da o mână de ajutor celor care, deși sunt mai puțin jucați, sunt aproape gata să-și facă intrarea în meciurile profesioniste. Așa că, deși acest patch poate părea mai măricel decât de obicei, multe schimbări sunt de fapt mici.
 
-În cele din urmă, nu putem să nu menționăm umbrele care se pregătesc să ne învăluie. Stați cu ochii pe Kayn, chiar dacă asta nu vă ajută la nimic atunci când iese din zid fix în spatele vostru.
+A, și îl mai știți pe Urgot? Ei bine, l-am dotat cu tehnologii de măcel de ultimă oră (are inclusiv picioare-puști cu aruncătoare de flăcări!) și acum se îndreaptă spre câmpul de luptă ca un titan nou-nouț. O mai zicem o dată, pentru că sună bine. Picioare-puști cu aruncătoare de flăcări. Luați-le și voi o tură.
 
-Nu că ar avea ceva personal cu voi.
+Înainte să intrați în Rift, noi zicem să aruncați o privire peste abilitățile lui Urgot, ca să nu nimeriți într-un coșmar în care vă face bucăți.
 
-Notele patch-ului 7.14 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-714
+Notele patch-ului 7.15 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-715

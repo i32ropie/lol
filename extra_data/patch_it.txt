@@ -1,11 +1,11 @@
-Saluti evocatori,
+Come va, gente?
 
-Benvenuti nella patch 7.14. Questa patch nomina un sacco di campioni che non sentivate da un po', come Singed, Garen, Diana... e a questo punto stiamo solo prendendo contenuti a caso dall'indice. Molti di questi campioni sono rimasti nell'oscurità per un po' e siamo lieti di rispolverarli.
+Benvenuti alla patch 7.15, in cui rivediamo al ribasso l'aggiornamento di Cho'Gath e ridimensioniamo alcune delle scelte competitive dominanti.
 
-Abbiamo anche delle novità sul fronte degli oggetti. L'aggiornamento della Corazza spinata dà ai campioni tank accesso a Ferita grave, con Corpetto di rovi come componente intermedio sulla falsariga di Mangiamagia, Fascia d'argento vivo e altri oggetti che diventano versioni più grandi di se stessi. Abbiamo anche elaborato gli oggetti per la letalità per garantire che offrano agli assassini scelte interessanti e appaganti.
+E a proposito di competizione, le finali regionali sono ormai alle porte. Per questo motivo cercheremo di dare più varietà ai livelli di gioco più elevati e allo stesso tempo di creare maggior stabilità, e questo si traduce in molti cambiamenti minimi. Per iniziare, daremo un colpetto verso il basso ad alcuni dei campioni più popolari, potenziando invece quelli che compaiono meno spesso nelle partite professionali. Quindi, nonostante questa possa sembrare una patch più grande del solito, molte delle modifiche sono piuttosto ridotte.
 
-Per finire, non possiamo non nominare l'ombra che si staglia all'orizzonte. Tenete gli occhi aperti per Kayn, anche se non servirà a niente perché uscirà dalla dannata parete alle vostre spalle.
+Ah, vi ricordate di Urgot? Beh, abbiamo pimpato il suo corpo meccanico e ora è pronto a scendere in campo come un colosso totalmente nuovo, con tanto di fucili rotulari. Sì, avete capito bene. Fucili rotulari. Andate a vedere, se non ci credete.
 
-Niente di personale.
+In ogni caso, leggetevi le abilità di Urgot prima di scendere nella Landa, o verrete fatti a pezzi dalle nuove capacità del boia.
 
-Note sulla patch 7.14 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-714
+Note sulla patch 7.15 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-715
