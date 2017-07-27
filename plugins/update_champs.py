@@ -11,7 +11,7 @@ def static_get_champion_list(region, data_by_id, locale=None, champ_data=None):
     url = "https://{}.api.riotgames.com/lol/static-data/v3/champions".format(
         update_region(region))
     params = {
-        "champData": champ_data,
+        "tags": champ_data,
         "dataById": "true" if data_by_id else "false",
         "locale": locale,
         "api_key": extra['lol_api']
