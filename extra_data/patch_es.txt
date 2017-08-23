@@ -1,11 +1,9 @@
-Hola a todos:
-[⁣](https://youtu.be/RLa2b12fd_s)
-Bienvenidos a la versión 7.15, en la que ajustamos la actualización de Cho'Gath y rebajamos a algunos de los campeones que más se están escogiendo ahora mismo.
+¡Bienvenidos a una nueva versión!
+[⁣](https://youtu.be/TRv_RYgEHK0)
+La versión 7.17 continúa con los ajustes de equilibrio, pero a esta no podréis llamarla pequeña teniendo en cuenta todo lo demás que está pasando. Ornn aparece tras siglos de soledad (más o menos... Al fin y al cabo es un campeón de top) y llegan cinco guardianas de las estrellas nuevas al parque Valoran de la Grieta. ¿Que no estáis seguros de dónde está el parque Valoran? Preparaos para Invasión, el modo de juego más reciente de League of Legends. Esta versión también trae mejoras para los conjuntos de objetos: ya podéis preseleccionar en qué ranuras van vuestros objetos cuando los elegís.
 
-En cuanto a la escena competitiva, las finales regionales ya están a la vuelta de la esquina. Como resultado, vamos a introducir más variedad en los niveles más altos del juego, pero también a crear algo de estabilidad, y eso conlleva algunos pequeños cambios. Para empezar, vamos a darles unos cachetes a algunos de los campeones preferidos y algo de cariño a aquellos que no se juegan tanto y que necesitan tan solo un empujoncito para llegar la escena profesional. Aunque esta parezca una versión más grande de lo normal, muchos de los cambios son pequeños.
+Aviso: la versión 7.17 es más larga que la inmovilización de la Q de Morgana, así que digeridlas con calma antes de sacar conclusiones en los comentarios de abajo. El siguiente conjunto de notas será para la versión que se juegue en el Mundial.
 
-Y, por cierto, ¿os acordáis de Urgot? Pues lo hemos tuneado y se dirige a la Grieta como un nuevo coloso con escopetas por rodillas. Habéis oído bien: escopetas por rodillas. Echadle un vistazo.
+¡Mucha suerte en vuestras partidas!
 
-Lanzaos a la Grieta y leed las nuevas habilidades de Urgot o tendréis pesadillas mecánicas cuando veáis lo que pasa si os hace pedazos.
-
-Notas de la Versión 7.15 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-715
+Notas de la Versión 7.17 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-717

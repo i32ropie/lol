@@ -1,11 +1,9 @@
-Sup homies,
+Welcome to a new patch, team!
 
-Welcome to patch 7.15, the one where we dial back on the Cho’Gath update and tone down some of the dominant competitive picks in the game.
+Continuing recent trends, 7.17’s light on the balance front, but you’d be hard-pressed to call this patch “small” considering everything else going on! Ornn’s emerging from centuries of solitude (sort of… he is a toplaner, after all), and five new Star Guardians hit the Rift Valoran Park. Not sure where Valoran Park is? Sit tight for Invasion, League’s latest game mode. This patch also brings a sweet improvement to item sets—you can finally pre-select which slots your items go in when you pick ‘em up!
 
-For the competitive side of the game, Regional Finals are approaching. As a result, we’re trying to increase some variance at the highest levels of play, but also to create some stability, and that means many minor changes. To start, we’re giving some dominant champions love taps downwards, as well as showing some love to underplayed champions on the cusp of seeing professional play. So while it may look like a larger patch than usual, many of the changes are pretty small.
+Quick housekeeping note: 7.17’s gonna be a longer patch than usual, so tack some extra days onto your expectations around the usual “during this patch”-esque comments below. The next set of notes will be for the patch we plan to host Worlds on.
 
-Oh, and remember Urgot? Well, we’ve pimped his ride and now he’s headed to the battlefield as a brand new juggernaut, complete with knee-shotguns. We’ll say that one more time for you. Knee-shotguns. Check ‘em out.
+Best of luck in your matches, friends.
 
-So get out there on the Rift and read up on Urgot’s abilities, or you’ll Dread Nought knowing what he does when he grinds you to pieces.
-
-Patch 7.15 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-715-notes
+Patch 7.17 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-717-notes

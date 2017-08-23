@@ -1,11 +1,9 @@
-Was geht bei dir?
+Willkommen zum neuen Patch!
 
-Willkommen zu Patch 7.15, in dem wir mit Cho’Gath wieder einen Schritt zurück gehen und einige der dominanteren Champions in Turnieren ein wenig zügeln.
+Wie schon die vorhergehenden Patches enthält 7.17 nur wenige Balance-Anpassungen, allerdings ist er alles andere als klein! Ornn tritt nach Jahrhunderten der Einsamkeit in Erscheinung (zumindest fast, immerhin ist er ein Top-Laner). Außerdem beehren uns fünf neue Sternenwächter in der Kluft im valoranischen Stadtpark. Du weißt nicht genau, wo der valoranische Stadtpark ist? Es dauert nicht mehr lange, bis du Invasion, den neuen Spielmodus, spielen kannst. In diesem Patch werden auch einige Verbesserungen bei den Gegenstandssets implementiert. Endlich kannst du im Vorhinein wählen, in welchen Inventarplätzen deine Gegenstände landen sollen, wenn du sie kaufst!
 
-Auf der wettkampforientierten Seite des Spiels rücken die regionalen Finalspiele langsam aber sicher näher. Deshalb wollen wir für ein wenig mehr Variation auf der höchsten Spielebene sorgen, aber gleichzeitig auch sicherstellen, dass eine gewisse Stabilität vorhanden ist. Darum gibt es nur viele kleine Änderungen. Zuerst wollen wir ein paar dominante Champions runterschrauben, bevor wir einigen der seltener gespielten Champions ein wenig helfen, um sie über die Schwelle ins professionelle Spiel zu schubsen. Obwohl dieser Patch also ein wenig umfangreicher aussieht, sind die meisten der Änderungen eher klein.
+Kleine organisatorische Anmerkung: Patch 7.17 wird dich länger als üblich begleiten, also dauert es auch ein kleines bisschen länger, bis angekündigte Inhalte freigeschaltet werden. Die nächsten Patchnotizen sind schon für den Patch der Weltmeisterschaft.
 
-Oh, und erinnerst du dich noch an Urgot? Na ja, wir haben seinen Untersetzer ein wenig gepimpt und er wird sich in diesem Patch ebenfalls in die Kluft stürzen – mit feuernden Knien! Das sagen gerne noch einmal. Mit feuernden Knien. Probier sie aus!
+Wir wünschen viel Erfolg für deine Partien.
 
-Also raus mit dir in die Kluft und lies dir lieber Urgots Fähigkeiten durch, wenn du nicht auf fürchterliche Weise geschreddert werden willst.
-
-Patchnotizen 7.15 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-715
+Patchnotizen 7.17 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-717

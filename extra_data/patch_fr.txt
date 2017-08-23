@@ -1,11 +1,9 @@
-Bonjour à tous !
+Bienvenue dans les notes de ce nouveau patch !
 
-Bienvenue dans les notes du patch 7.15, où nous calmons un peu Cho'gath et où nous faisons rentrer dans le rang certains choix qui dominent la scène compétitive.
+Comme les récents patchs, le 7.17 est plutôt léger en équilibrages, mais n'allez pas croire qu'il est tout petit : il se passe plein d'autres choses ! Ornn émerge de ses siècles de solitude (pour devenir un top-laner, parce que la compagnie, ce n'est vraiment pas son truc) et cinq nouveaux Gardiens des étoiles atterrissent dans la Faille le Parc de Valoran. Vous vous demandez où se trouve le Parc de Valoran ? Alors attendez l'arrivée d'Invasion, le tout nouveau mode de jeu de League of Legends. Ce patch apporte également une amélioration bienvenue aux sets d'objets : vous pouvez enfin présélectionner les emplacements dans lesquels vous voulez placer les objets que vous achetez !
 
-En ce qui concerne la scène compétitive, les finales régionales arrivent d'ailleurs à grands pas. Nous essayons donc d'améliorer la diversité à haut niveau, mais également de stabiliser le jeu, ce qui signifie que nous devons procéder à quelques changements mineurs. Pour commencer, nous atténuons la puissance des champions dominants et nous donnons un coup de pouce aux champions peu joués. Ce patch aura peut-être l'air plus gros que d'habitude, mais la plupart des changements sont assez légers.
+Dernière petite remarque : le patch 7.17 couvrira une période plus longue que d'habitude. Le prochain sera celui que nous prévoyons d'utiliser pour le Mondial.
 
-Oh, et vous vous souvenez d'Urgot ? Eh bien, nous avons retapé sa carrosserie et il est maintenant prêt à retourner sur le champ de bataille armé de ses canons flambant neufs. Qui sont installés sur ses genoux. Oui, oui. Sur ses genoux.
+Bonne chance à tous sur le champ de bataille !
 
-Foncez maintenant dans la Faille et apprenez vite les compétences d'Urgot, ou ce nouveau colosse risque de vous faire broyer du noir !
-
-Notes de patch 7.15 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-715
+Notes de patch 7.17 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-717

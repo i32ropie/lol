@@ -1,11 +1,9 @@
-Salutare, prietenari!
+Bun venit la un nou patch, jucători!
 
-Bun venit la patch-ul 7.15, cel în care îl liniștim pe Cho'Gath după ce a luat-o razna în urma actualizării și în care ținem în frâu unele dintre cele mai dominante alegeri competitive din joc.
+Continuăm tendințele recente în materie de patch-uri, ceea ce înseamnă că 7.17 are echilibrări destul de mărunte, dar nu putem spune că e vorba de un patch ''mic'', dat fiind tot ce cuprinde! Ornn se întoarce printre muritori după veacuri de singurătate (aproximativ; în fond, doar este campion pentru culoarul de sus, nu?), iar cinci noi skin-uri Magia Stelelor ajung în Rift Parcul Valoran. Nu știți unde e Parcul Valoran? Atunci stați pe-aproape, pentru că urmează cel mai nou mod de joc din LoL: ''Invazie''. În plus, avem o nouă caracteristică pentru seturile de obiecte – în sfârșit puteți alege din timp în ce sloturi vreți să ajungă obiectele după ce le cumpărați!
 
-Pentru că tot am adus vorba de competiții, se apropie finalele regionale. De aceea, încercăm să creștem diversitatea și stabilitatea la cele mai înalte niveluri de joc, ceea ce înseamnă că facem multe schimbări minore. Pentru început, vom convinge niște campioni dominanți s-o lase mai moale și le vom da o mână de ajutor celor care, deși sunt mai puțin jucați, sunt aproape gata să-și facă intrarea în meciurile profesioniste. Așa că, deși acest patch poate părea mai măricel decât de obicei, multe schimbări sunt de fapt mici.
+O scurtă notă de mentenanță: Patch-ul 7.17 va dura ceva mai mult decât de obicei, așa că adăugați câteva zile la așteptările voastre pentru lucrurile despre care spunem că vor fi ''lansate în decursul acestui patch''. Următoarele note ale patch-ului pe care le vom lansa vor fi cele pentru patch-ul pe care ne propunem să aibă loc Mondialele.
 
-A, și îl mai știți pe Urgot? Ei bine, l-am dotat cu tehnologii de măcel de ultimă oră (are inclusiv picioare-puști cu aruncătoare de flăcări!) și acum se îndreaptă spre câmpul de luptă ca un titan nou-nouț. O mai zicem o dată, pentru că sună bine. Picioare-puști cu aruncătoare de flăcări. Luați-le și voi o tură.
+Vă urăm mult noroc în meciuri, dragi prieteni.
 
-Înainte să intrați în Rift, noi zicem să aruncați o privire peste abilitățile lui Urgot, ca să nu nimeriți într-un coșmar în care vă face bucăți.
-
-Notele patch-ului 7.15 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-715
+Notele patch-ului 7.17 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-717

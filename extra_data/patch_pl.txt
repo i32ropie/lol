@@ -1,11 +1,9 @@
-Cześć, ludziska.
+Witajcie w nowym patchu, drużyno!
 
-Witamy w patchu 7.15, tym, w którym cofamy trochę ostatnie zmiany Cho’Gatha oraz osłabiamy kilku dominujących w rozgrywkach rankingowych bohaterów.
+Patch 7.17 kontynuuje ostatnie trendy i, choć nie wprowadza wielu zmian w zakresie wyważenia gry, zawiera tyle nowości, że na pewno nie można go nazwać małym! Ornn wyłania się po stuleciach samotności (mniej więcej; w końcu jego przeznaczeniem jest górna aleja), a pięć nowych Czarodziejek Gwiazd wkracza na Summoner’s Rift do Valorańskiego Parku. Nie wiecie, gdzie znajduje się Valorański Park? Czekajcie cierpliwie na najnowszy tryb w League — Inwazję. Patch zawiera także użyteczne ulepszenie zestawów przedmiotów: nareszcie będziecie mogli zawczasu wybrać, do których gniazd mają wskoczyć kupione przez was przedmioty!
 
-Jeżeli chodzi o stronę rywalizacji, zbliżają się finały regionalne. W związku z tym staramy się wprowadzić trochę zróżnicowania na najwyższych poziomach rozgrywki, ale także by stworzyć odrobinę stabilności, co oznacza wiele małych zmian. Na początek, osłabiamy trochę najbardziej dominujących bohaterów, jednocześnie wzmacniając trochę tych słabszych, którzy są na krawędzi użyteczności w profesjonalnych rozgrywkach. Więc mimo że może wydawać się, że jest to większy patch niż zazwyczaj, większość zmian jest dość małych.
+Krótka uwaga: patch 7.17 potrwa trochę dłużej niż inne, dlatego uzbrójcie się w cierpliwość, jeśli czekacie na którąś z wymienionych poniżej rzeczy mającą ukazać się później w trakcie tego patcha. Następny opis będzie poświęcony patchowi, na którym rozgrywane będą Mistrzostwa.
 
-A właśnie, pamiętacie Urgota? Trochę go podkręciliśmy i teraz rusza na pole walki jako zupełnie nowy moloch ze strzelbami w kolanach. Powtórzymy to raz jeszcze. Strzelby w kolanach. Obczajcie to.
+Życzymy wam powodzenia podczas gry, przyjaciele.
 
-Ruszajcie na Summoner’s Rift i zapoznajcie się z umiejętnościami Urgota albo Motor Agonii potnie was na kawałki.
-
-Opis patcha 7.15 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-715
+Opis patcha 7.17 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-717
