@@ -1,9 +1,9 @@
 Witajcie w nowym patchu, drużyno!
 
-Patch 7.17 kontynuuje ostatnie trendy i, choć nie wprowadza wielu zmian w zakresie wyważenia gry, zawiera tyle nowości, że na pewno nie można go nazwać małym! Ornn wyłania się po stuleciach samotności (mniej więcej; w końcu jego przeznaczeniem jest górna aleja), a pięć nowych Czarodziejek Gwiazd wkracza na Summoner’s Rift do Valorańskiego Parku. Nie wiecie, gdzie znajduje się Valorański Park? Czekajcie cierpliwie na najnowszy tryb w League — Inwazję. Patch zawiera także użyteczne ulepszenie zestawów przedmiotów: nareszcie będziecie mogli zawczasu wybrać, do których gniazd mają wskoczyć kupione przez was przedmioty!
+Zbliżają się Mistrzostwa, więc żadna z tych zmian nie będzie zbyt agresywna, ale chcemy mieć pewność, że kilku wyjątkowo dominujących bohaterów trochę osłabimy, zaś niegdyś popularnych bohaterów, którzy popadli w zapomnienie, wzmocnimy. Ponieważ stabilność tego patcha jest taka ważna, nie wprowadzamy poważniejszych modyfikacji, które wciąż rozważamy, ale zajmiemy się nimi w przyszłości.
 
-Krótka uwaga: patch 7.17 potrwa trochę dłużej niż inne, dlatego uzbrójcie się w cierpliwość, jeśli czekacie na którąś z wymienionych poniżej rzeczy mającą ukazać się później w trakcie tego patcha. Następny opis będzie poświęcony patchowi, na którym rozgrywane będą Mistrzostwa.
+Przyglądamy się także Ornnowi. Drobne poprawki wprowadziliśmy u niego dwukrotnie podczas ostatniego patcha, ale nadal ma problemy. Nie chcemy przesadzić ze wzmacnianiem go, więc głównie skupiamy się na jego użyteczności i przyglądamy się, jak duże postępy robią osoby grające Ornnem.
 
-Życzymy wam powodzenia podczas gry, przyjaciele.
+Do zobaczenia na Summoner’s Rift.
 
-Opis patcha 7.17 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-717
+Opis patcha 7.18 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-718

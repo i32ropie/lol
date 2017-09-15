@@ -1,9 +1,9 @@
-Bun venit la un nou patch, jucători!
+Salutări și bun venit la un nou patch!
 
-Continuăm tendințele recente în materie de patch-uri, ceea ce înseamnă că 7.17 are echilibrări destul de mărunte, dar nu putem spune că e vorba de un patch ''mic'', dat fiind tot ce cuprinde! Ornn se întoarce printre muritori după veacuri de singurătate (aproximativ; în fond, doar este campion pentru culoarul de sus, nu?), iar cinci noi skin-uri Magia Stelelor ajung în Rift Parcul Valoran. Nu știți unde e Parcul Valoran? Atunci stați pe-aproape, pentru că urmează cel mai nou mod de joc din LoL: ''Invazie''. În plus, avem o nouă caracteristică pentru seturile de obiecte – în sfârșit puteți alege din timp în ce sloturi vreți să ajungă obiectele după ce le cumpărați!
+Mondialele se apropie cu pași repezi, așa că nu vom introduce schimbări agresive cu această ocazie, dar vrem să rezolvăm situația unor campioni prea dominanți și a unora care au rămas uitați de prea multă vreme. Deoarece stabilitatea acestui patch e crucială, nu vom face încă anumite modificări mai profunde pe care le studiem, dar vom reveni la campionii și la obiectele respective în patch-urile viitoare.
 
-O scurtă notă de mentenanță: Patch-ul 7.17 va dura ceva mai mult decât de obicei, așa că adăugați câteva zile la așteptările voastre pentru lucrurile despre care spunem că vor fi ''lansate în decursul acestui patch''. Următoarele note ale patch-ului pe care le vom lansa vor fi cele pentru patch-ul pe care ne propunem să aibă loc Mondialele.
+De asemenea, Ornn va avea parte și el de câteva schimbări. Deși i-am dedicat deja două micropatch-uri în 7.18, încă nu se descurcă prea bine. Nu vrem să-i dăm prea multe buff-uri, așa că ne concentrăm mai ales pe ușurința cu care poate fi jucat. În același timp, ținem sub observație progresul și performanțele jucătorilor care joacă cu Ornn, pe măsură ce aceștia învață să-l stăpânească.
 
-Vă urăm mult noroc în meciuri, dragi prieteni.
+Ne vedem în Rift!
 
-Notele patch-ului 7.17 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-717
+Notele patch-ului 7.18 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-718

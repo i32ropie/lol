@@ -1,9 +1,9 @@
 Benvenuti a questa nuova patch, squadra!
 
-Seguendo il solco tracciato in precedenza, la 7.17 è leggera dal punto di vista del bilanciamento ma è difficile definirla "piccola" visto tutte le altre cose che contiene! Ornn emerge dopo secoli di solitudine (in fin dei conti, è un superiore), e cinque nuove Guardiane Stellari arrivano nella Landa nel Parco di Valoran. Non sapete esattamente cos'è il Parco di Valoran? Preparatevi a Invasione, la nuova modalità di gioco di LoL. Questa patch offre anche un miglioramento ai set di oggetti: finalmente potrete preselezionare in quale slot andranno gli oggetti quando li prendete!
+Stanno arrivando i Mondiali, quindi nessuna di queste modifiche è particolarmente aggressiva, ma vogliamo fare in modo che alcuni campioni dominanti vengano messi in riga e che alcune scelte un tempo popolari ricevano un po' di attenzione. Visto che la stabilità di questa patch è importantissima, non apportiamo alcune modifiche più profonde sulle quali stiamo ancora indagando, ma rivisiteremo campioni e oggetti nelle prossime patch.
 
-Nota di servizio veloce: la 7.17 sarà una patch più lunga del solito, quindi preparatevi a un po' di chiacchiere in più. La prossima serie di note riguarderà la patch con la quale vogliamo che si svolgano i Mondiali.
+Stiamo anche tenendo d'occhio Ornn. Ornn ha ricevuto due micropatch, nella scorsa patch, e ha ancora problemi. Non vogliamo potenziarlo eccessivamente, quindi ci concentriamo sulla sua usabilità, ma terremo d'occhio anche le prestazioni dei giocatori, mano a mano che i potenziali main di Ornn faranno progressi nella curva della maestria.
 
-Buona fortuna con le vostre partite, amici.
+Ci vediamo nella Landa,
 
-Note sulla patch 7.17 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-717
+Note sulla patch 7.18 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-718

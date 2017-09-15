@@ -1,9 +1,11 @@
 Willkommen zum neuen Patch!
 
-Wie schon die vorhergehenden Patches enthält 7.17 nur wenige Balance-Anpassungen, allerdings ist er alles andere als klein! Ornn tritt nach Jahrhunderten der Einsamkeit in Erscheinung (zumindest fast, immerhin ist er ein Top-Laner). Außerdem beehren uns fünf neue Sternenwächter in der Kluft im valoranischen Stadtpark. Du weißt nicht genau, wo der valoranische Stadtpark ist? Es dauert nicht mehr lange, bis du Invasion, den neuen Spielmodus, spielen kannst. In diesem Patch werden auch einige Verbesserungen bei den Gegenstandssets implementiert. Endlich kannst du im Vorhinein wählen, in welchen Inventarplätzen deine Gegenstände landen sollen, wenn du sie kaufst!
+Die Weltmeisterschaft steht bevor, deshalb sind diese Änderungen alles andere als einschneidend. Wir wollten allerdings sichergehen, dass einige der dominanten Ausreißer etwas gezügelt werden und einst beliebte Champions, die an Gunst verloren haben, wieder ein bisschen Liebe bekommen. Stabilität spielt bei diesem Patch eine entscheidende Rolle, deshalb sehen wir von tiefgreifenden Veränderungen, deren Auswirkungen wir immer noch untersuchen müssen, ab. Wir werden auf jeden Fall zu diesen 
 
-Kleine organisatorische Anmerkung: Patch 7.17 wird dich länger als üblich begleiten, also dauert es auch ein kleines bisschen länger, bis angekündigte Inhalte freigeschaltet werden. Die nächsten Patchnotizen sind schon für den Patch der Weltmeisterschaft.
+Champions und Gegenständen in zukünftigen Patches zurückkehren.
 
-Wir wünschen viel Erfolg für deine Partien.
+Auch Ornn sehen wir uns weiterhin genauer an. Im letzten Patch gab es für ihn zwei kleinere Aktualisierungen und dennoch hat er es immer noch schwer. Wir wollen ihn nicht zu stark machen, deshalb konzentrieren wir uns vorrangig auf seine Einsetzbarkeit. Gleichzeitig beobachten wir aber auch weiter die Spielerleistung, während potenzielle Hauptspieler von Ornn ihn langsam meistern.
 
-Patchnotizen 7.17 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-717
+Wir sehen uns in der Kluft.
+
+Patchnotizen 7.18 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-718

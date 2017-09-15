@@ -1,9 +1,9 @@
-¡Bienvenidos a una nueva versión!
-[⁣](https://youtu.be/TRv_RYgEHK0)
-La versión 7.17 continúa con los ajustes de equilibrio, pero a esta no podréis llamarla pequeña teniendo en cuenta todo lo demás que está pasando. Ornn aparece tras siglos de soledad (más o menos... Al fin y al cabo es un campeón de top) y llegan cinco guardianas de las estrellas nuevas al parque Valoran de la Grieta. ¿Que no estáis seguros de dónde está el parque Valoran? Preparaos para Invasión, el modo de juego más reciente de League of Legends. Esta versión también trae mejoras para los conjuntos de objetos: ya podéis preseleccionar en qué ranuras van vuestros objetos cuando los elegís.
+¡Bienvenidos a una nueva versión, equipo!
+[⁣](https://youtu.be/vTIbwrE6EuA)
+El Mundial está al caer, así que ninguno de estos cambios será especialmente agresivo, pero queremos asegurarnos de ajustar algunos de los casos más dominantes y de que algunos campeones que han caído en el olvido reciben algo de cariño. Ya que la estabilidad de esta versión es tan importante, vamos a retrasar los cambios más serios que seguimos investigando, pero volveremos a repasar a esos campeones y objetos en versiones futuras.
 
-Aviso: la versión 7.17 es más larga que la inmovilización de la Q de Morgana, así que digeridlas con calma antes de sacar conclusiones en los comentarios de abajo. El siguiente conjunto de notas será para la versión que se juegue en el Mundial.
+También estamos observando a Ornn. En la última versión microactualizamos a Ornn, pero sigue teniendo problemas. No queremos mejorarlo demasiado, así que nos vamos a centrar sobre todo en su experiencia de uso, aunque seguimos monitorizando su rendimiento a medida que los jugadores de Ornn progresan en la curva de maestría.
 
-¡Mucha suerte en vuestras partidas!
+¡Nos vemos en la Grieta!
 
-Notas de la Versión 7.17 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-717
+Notas de la Versión 7.18 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-718

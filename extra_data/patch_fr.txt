@@ -1,9 +1,9 @@
-Bienvenue dans les notes de ce nouveau patch !
+Bienvenue à tous dans cette nouvelle mise à jour !
 
-Comme les récents patchs, le 7.17 est plutôt léger en équilibrages, mais n'allez pas croire qu'il est tout petit : il se passe plein d'autres choses ! Ornn émerge de ses siècles de solitude (pour devenir un top-laner, parce que la compagnie, ce n'est vraiment pas son truc) et cinq nouveaux Gardiens des étoiles atterrissent dans la Faille le Parc de Valoran. Vous vous demandez où se trouve le Parc de Valoran ? Alors attendez l'arrivée d'Invasion, le tout nouveau mode de jeu de League of Legends. Ce patch apporte également une amélioration bienvenue aux sets d'objets : vous pouvez enfin présélectionner les emplacements dans lesquels vous voulez placer les objets que vous achetez !
+Le Mondial approche et, en conséquence, aucun des changements apportés ici n'est majeur, mais nous voulions nous assurer que certains des champions les plus dominants le soient un peu moins, et que d'autres champions moins populaires retrouvent un peu de lustre. Comme il est très important que cette mise à jour ne pose aucun problème de stabilité, nous nous retenons de faire d'autres changements plus marquants que nous aimerions faire, mais les champions et objets concernés ne seront pas oubliés à l'avenir.
 
-Dernière petite remarque : le patch 7.17 couvrira une période plus longue que d'habitude. Le prochain sera celui que nous prévoyons d'utiliser pour le Mondial.
+Nous apportons aussi quelques modifications à Ornn. Nous avons déjà apporté deux mini-mises à jour à Ornn lors du précédent patch, mais ce n'est pas suffisant. Nous ne voulons pas non plus trop en faire, et nous nous concentrons surtout sur son utilisation cette fois-ci. Néanmoins, nous allons surveiller attentivement les joueurs qui aimeraient en faire leur champion principal, pour voir ce qu'ils arrivent à faire en commençant à le maîtriser.
 
-Bonne chance à tous sur le champ de bataille !
+À très bientôt dans la Faille !
 
-Notes de patch 7.17 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-717
+Notes de patch 7.18 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-718

@@ -1,9 +1,9 @@
 Welcome to a new patch, team!
 
-Continuing recent trends, 7.17’s light on the balance front, but you’d be hard-pressed to call this patch “small” considering everything else going on! Ornn’s emerging from centuries of solitude (sort of… he is a toplaner, after all), and five new Star Guardians hit the Rift Valoran Park. Not sure where Valoran Park is? Sit tight for Invasion, League’s latest game mode. This patch also brings a sweet improvement to item sets—you can finally pre-select which slots your items go in when you pick ‘em up!
+Worlds is coming up, so none of these changes are particularly aggressive, but we do want to make sure that some of the dominant outliers get tapped down a bit, and some popular picks who have fallen out of favor see some love. Because the stability of this patch is so important, we’re holding back on deeper changes that we’re still investigating, but we’ll be revisiting those champions and items in future patches.
 
-Quick housekeeping note: 7.17’s gonna be a longer patch than usual, so tack some extra days onto your expectations around the usual “during this patch”-esque comments below. The next set of notes will be for the patch we plan to host Worlds on.
+We’re also looking at Ornn. We micropatched Ornn twice last patch, and he’s still struggling. We don’t want to overbuff him, so are primarily focusing on his usability, but we’re still monitoring player performance as prospective Ornn mains progress up the mastery curve.
 
-Best of luck in your matches, friends.
+See you on the Rift,
 
-Patch 7.17 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-717-notes
+Patch 7.18 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-718-notes
