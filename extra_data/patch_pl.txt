@@ -1,9 +1,13 @@
-Witajcie w nowym patchu, drużyno!
+Witajcie, Przywoływacze.
 
-Zbliżają się Mistrzostwa, więc żadna z tych zmian nie będzie zbyt agresywna, ale chcemy mieć pewność, że kilku wyjątkowo dominujących bohaterów trochę osłabimy, zaś niegdyś popularnych bohaterów, którzy popadli w zapomnienie, wzmocnimy. Ponieważ stabilność tego patcha jest taka ważna, nie wprowadzamy poważniejszych modyfikacji, które wciąż rozważamy, ale zajmiemy się nimi w przyszłości.
+Witamy w patchu 7.19, czyli tym, który pozostawia patch Mistrzostw z tyłu i może wprowadzić większe zmiany, nad którymi pracowaliśmy. Jest tego sporo, więc bierzmy się do roboty!
 
-Przyglądamy się także Ornnowi. Drobne poprawki wprowadziliśmy u niego dwukrotnie podczas ostatniego patcha, ale nadal ma problemy. Nie chcemy przesadzić ze wzmacnianiem go, więc głównie skupiamy się na jego użyteczności i przyglądamy się, jak duże postępy robią osoby grające Ornnem.
+Po pierwsze, mamy Ognisty Trybularz oraz Jannę, który to duet od dość długiego czasu wykrzywiał styl gry w dolnej alei. Chcemy wyraźniej ukierunkować ich siły i — w przypadku Janny — upewnić się, że ma jakieś słabe strony, które mogą wykorzystać przeciwnicy, ze względu na jej potęgę w późnej fazie gry.
 
-Do zobaczenia na Summoner’s Rift.
+Korzystamy także z okazji, aby zaktualizować umiejętności Azira, odbierając mu trochę mocy (zasięg), ale także zwiększając obrażenia. Azir ma teraz wyraźne słabości, które mogą wykorzystać przeciwnicy, dlatego możemy zostawić go w lepszym położeniu niż we wcześniejszych patchach.
 
-Opis patcha 7.18 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-718
+Kończąc, Xin Zhao nie otrzymał żadnych większych zmian od momentu, w którym usunęliśmy Pożeracza półtora roku temu. Przyglądamy się jego zestawowi umiejętności, aby nadać mu wyraźniejszą tożsamość.
+
+W tym patchu zaktualizowaliśmy wielu bohaterów, więc zapoznajcie się ze zmianami, zanim wskoczycie na Summoner’s Rift!
+
+Opis patcha 7.19 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-719

@@ -1,11 +1,13 @@
-Willkommen zum neuen Patch!
+Sei gegrüßt, Beschwörer!
 
-Die Weltmeisterschaft steht bevor, deshalb sind diese Änderungen alles andere als einschneidend. Wir wollten allerdings sichergehen, dass einige der dominanten Ausreißer etwas gezügelt werden und einst beliebte Champions, die an Gunst verloren haben, wieder ein bisschen Liebe bekommen. Stabilität spielt bei diesem Patch eine entscheidende Rolle, deshalb sehen wir von tiefgreifenden Veränderungen, deren Auswirkungen wir immer noch untersuchen müssen, ab. Wir werden auf jeden Fall zu diesen 
+Willkommen zu Patch 7.19, mit dem wir nun endlich den WM-Patch hinter uns lassen können und einige größere Änderungen einbringen, an denen wir in letzter Zeit gearbeitet haben. Es gibt viel zu besprechen, deswegen fangen wir auch sofort an!
 
-Champions und Gegenständen in zukünftigen Patches zurückkehren.
+Als Erstes haben wir den Glühenden Rauchschwenker und Janna auf dem Schirm, beide haben einige Zeit lang das Spiel auf der unteren Lane zu sehr beeinflusst. Wir versuchen, beiden ein deutlicheres Stärke-Profil zu geben, und wollen speziell in Jannas Fall dafür sorgen, dass ihre Stärke im späten Spiel durch mehr ausnutzbare Schwächen ausgeglichen wird.
 
-Auch Ornn sehen wir uns weiterhin genauer an. Im letzten Patch gab es für ihn zwei kleinere Aktualisierungen und dennoch hat er es immer noch schwer. Wir wollen ihn nicht zu stark machen, deshalb konzentrieren wir uns vorrangig auf seine Einsetzbarkeit. Gleichzeitig beobachten wir aber auch weiter die Spielerleistung, während potenzielle Hauptspieler von Ornn ihn langsam meistern.
+Wir wollen außerdem die Gelegenheit nutzen, Azirs Fähigkeiten zu aktualisieren. Im Klartext bedeutet das, dass wir seine irrelevante Stärke (Reichweite) abschwächen, seinen Schaden aber dafür erhöhen. Durch klarer ausnutzbare Schwachpunkte können wir Azir im Vergleich zu vorangegangenen Patches in einer besseren Verfassung zurücklassen.
 
-Wir sehen uns in der Kluft.
+Zu guter Letzt wollen wir uns noch mit Xin Zhao befassen, an dem wir seit der Entfernung von „Verschlinger“ vor über einem Jahr keine großen Änderungen mehr vorgenommen haben. Wir wollen uns um sein Fähigkeitenset kümmern, um seine Identität genauer herauszuarbeiten.
 
-Patchnotizen 7.18 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-718
+Dieser Patch beinhaltet sehr viele aktualisierte Champions. Du solltest dir daher unbedingt alle Änderungen durchlesen, bevor du dich in die Kluft stürzt!
+
+Patchnotizen 7.19 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-719

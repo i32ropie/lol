@@ -1,9 +1,13 @@
-Benvenuti a questa nuova patch, squadra!
+Salve, evocatori,
 
-Stanno arrivando i Mondiali, quindi nessuna di queste modifiche è particolarmente aggressiva, ma vogliamo fare in modo che alcuni campioni dominanti vengano messi in riga e che alcune scelte un tempo popolari ricevano un po' di attenzione. Visto che la stabilità di questa patch è importantissima, non apportiamo alcune modifiche più profonde sulle quali stiamo ancora indagando, ma rivisiteremo campioni e oggetti nelle prossime patch.
+Benvenuti nella 7.19; ci siamo finalmente lasciati alle spalle la patch dei Mondiali e possiamo introdurre alcuni dei cambiamenti principali ai quali abbiamo lavorato. C'è parecchio da dire, quindi cominciamo!
 
-Stiamo anche tenendo d'occhio Ornn. Ornn ha ricevuto due micropatch, nella scorsa patch, e ha ancora problemi. Non vogliamo potenziarlo eccessivamente, quindi ci concentriamo sulla sua usabilità, ma terremo d'occhio anche le prestazioni dei giocatori, mano a mano che i potenziali main di Ornn faranno progressi nella curva della maestria.
+Prima di tutto abbiamo Incensiere ardente e Janna, che ultimamente hanno monopolizzato il gioco in corsia inferiore. Vogliamo che abbiano entrambi un profilo più definito e, nel caso di Janna, fare in modo che abbia un numero maggiore di debolezze sfruttabili, per compensare la sua potenza a fine partita.
 
-Ci vediamo nella Landa,
+Vogliamo anche aggiornare le abilità di Azir, riducendo la sua forza eccessiva (gittata) ma anche aumentando i danni. Con punti deboli più chiari di cui approfittare, potremo mettere Azir in una condizione migliore rispetto alle patch precedenti.
 
-Note sulla patch 7.18 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-718
+Infine, Xin Zhao non aveva subito modifiche importanti da un anno e mezzo, quando avevamo rimosso Divoratore. Con questo kit vogliamo dargli un'identità più definita.
+
+In questa patch ci sono parecchi campioni aggiornati, quindi leggete tutte le novità prima di entrare nella Landa!
+
+Note sulla patch 7.19 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-719

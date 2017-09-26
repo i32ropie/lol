@@ -1,9 +1,13 @@
-Witajcie w nowym patchu, drużyno!
-[⁣](https://youtu.be/w-SKF8fbhvw)
-Zbliżają się Mistrzostwa, więc żadna z tych zmian nie będzie zbyt agresywna, ale chcemy mieć pewność, że kilku wyjątkowo dominujących bohaterów trochę osłabimy, zaś niegdyś popularnych bohaterów, którzy popadli w zapomnienie, wzmocnimy. Ponieważ stabilność tego patcha jest taka ważna, nie wprowadzamy poważniejszych modyfikacji, które wciąż rozważamy, ale zajmiemy się nimi w przyszłości.
+Saudações, Invocadoras e Invocadores.
 
-Przyglądamy się także Ornnowi. Drobne poprawki wprowadziliśmy u niego dwukrotnie podczas ostatniego patcha, ale nadal ma problemy. Nie chcemy przesadzić ze wzmacnianiem go, więc głównie skupiamy się na jego użyteczności i przyglądamy się, jak duże postępy robią osoby grające Ornnem.
+Boas-vidndas à Atualização 7.19! Finalmente deixamos a atualização do Mundial para trás e agora podemos trazer algumas das maiores mudanças que estavam em desenvolvimento. Há bastante coisa desta vez, então vamos direto ao assunto!
 
-Do zobaczenia na Summoner’s Rift.
+Em primeiro lugar, temos o Turíbulo Ardente e a Janna, que se juntos têm causado na rota inferior, imagina juntos. Queremos dar um perfil de força mais definido a cada um deles, e, no caso da Janna, fazer com que ela tenha fraquezas mais "puníveis" para compensar sua força no final da partida.
 
-Notas da Atualização 7.18 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-718
+Também vamos aproveitar esta oportunidade para dar ao Azir uma atualização de habilidade neste ponto, podando várias de suas forças estranhas (alcance), mas também melhorando seu dano. Com fraquezas mais claras para explorar, conseguiremos deixar o Azir mais equilibrado do que nas atualizações anteriores.
+
+Por fim, o Xin Zhao não havia sido significativamente alterado desde que removemos o Devorador há um ano e meio. Estamos analisando seu kit para dar a ele uma identidade mais clara.
+
+Há vários Campeões atualizados desta vez, então fique por dentro das mudanças antes de pular no Rift de novo!
+
+Notas da Atualização 7.19 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-719

@@ -1,9 +1,13 @@
-Bienvenue à tous dans cette nouvelle mise à jour !
+Bonjour, invocateurs.
 
-Le Mondial approche et, en conséquence, aucun des changements apportés ici n'est majeur, mais nous voulions nous assurer que certains des champions les plus dominants le soient un peu moins, et que d'autres champions moins populaires retrouvent un peu de lustre. Comme il est très important que cette mise à jour ne pose aucun problème de stabilité, nous nous retenons de faire d'autres changements plus marquants que nous aimerions faire, mais les champions et objets concernés ne seront pas oubliés à l'avenir.
+Bienvenue dans le patch 7.19 ! Celui que nous utiliserons pour le Mondial étant maintenant derrière nous, nous pouvons introduire certains des changements importants sur lesquels nous travaillions. Il y en a beaucoup, alors ne perdons pas de temps !
 
-Nous apportons aussi quelques modifications à Ornn. Nous avons déjà apporté deux mini-mises à jour à Ornn lors du précédent patch, mais ce n'est pas suffisant. Nous ne voulons pas non plus trop en faire, et nous nous concentrons surtout sur son utilisation cette fois-ci. Néanmoins, nous allons surveiller attentivement les joueurs qui aimeraient en faire leur champion principal, pour voir ce qu'ils arrivent à faire en commençant à le maîtriser.
+Pour commencer, il y a les changements apportés à l'Encensoir ardent et à Janna, qui avaient tous les deux trop d'importance sur la voie du bas depuis un moment. Nous essayons de clarifier leurs forces, et dans le cas de Janna, nous voulons aussi nous assurer qu'elle a des points faibles plus marqués, pour compenser sa puissance en fin de partie.
 
-À très bientôt dans la Faille !
+Nous en profitons également pour mettre à jour les compétences d'Azir, en réduisant une grande partie de ses forces superflues (comme sa portée), mais en augmentant ses dégâts. Avec des points faibles plus évidents, Azir devrait devenir plus sain.
 
-Notes de patch 7.18 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-718
+Enfin, depuis que nous avons supprimé l'enchantement Dévoreur il y a un an et demi, Xin Zhao n'avait pas vraiment été retouché. Nous modifions l'ensemble de ses compétences pour clarifier son identité.
+
+Les compétences de très nombreux champions sont modifiées aujourd'hui, alors jetez vite un coup d'œil à ce qui suit avant d'aller dans la Faille !
+
+Notes de patch 7.19 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-719

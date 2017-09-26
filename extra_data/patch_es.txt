@@ -1,9 +1,13 @@
-¡Bienvenidos a una nueva versión, equipo!
-[⁣](https://youtu.be/vTIbwrE6EuA)
-El Mundial está al caer, así que ninguno de estos cambios será especialmente agresivo, pero queremos asegurarnos de ajustar algunos de los casos más dominantes y de que algunos campeones que han caído en el olvido reciben algo de cariño. Ya que la estabilidad de esta versión es tan importante, vamos a retrasar los cambios más serios que seguimos investigando, pero volveremos a repasar a esos campeones y objetos en versiones futuras.
+¡Saludos, invocadores!
 
-También estamos observando a Ornn. En la última versión microactualizamos a Ornn, pero sigue teniendo problemas. No queremos mejorarlo demasiado, así que nos vamos a centrar sobre todo en su experiencia de uso, aunque seguimos monitorizando su rendimiento a medida que los jugadores de Ornn progresan en la curva de maestría.
+Bienvenidos a la versión 7.19, la que deja atrás la versión del Mundial y en la que podemos introducir algunos de los cambios importantes en los que hemos estado trabajando. Estas notas son largas, así que vamos a ello.
 
-¡Nos vemos en la Grieta!
+En primer lugar, tenemos a Incensario ardiente y Janna, que han estado desequilibrando la calle inferior durante un tiempo. Queremos que sus potencias sean más claras y, en el caso de Janna, asegurarnos de que se la castiga por sus puntos débiles para compensar su fuerza de final de partida.
 
-Notas de la Versión 7.18 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-718
+Además, aprovechamos la ocasión para actualizar las habilidades de Azir y recortamos muchas de sus fuerzas superfluas (como el alcance), pero también mejoramos su daño. Con más puntos débiles que explotar, podemos dejar a Azir mucho mejor de lo que estaba en versiones anteriores.
+
+Por último, hace más o menos un año y medio que no visitamos a Xin Zhao, poco después de eliminar Devorador. Repasamos su kit para ofrecerle una identidad más nítida.
+
+En esta versión hay muchos campeones actualizados, así que echadle un ojo a los cambios antes de visitar la Grieta.
+
+Notas de la Versión 7.19 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-719

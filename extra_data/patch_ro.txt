@@ -1,9 +1,13 @@
-Salutări și bun venit la un nou patch!
+Salutare, invocatori,
 
-Mondialele se apropie cu pași repezi, așa că nu vom introduce schimbări agresive cu această ocazie, dar vrem să rezolvăm situația unor campioni prea dominanți și a unora care au rămas uitați de prea multă vreme. Deoarece stabilitatea acestui patch e crucială, nu vom face încă anumite modificări mai profunde pe care le studiem, dar vom reveni la campionii și la obiectele respective în patch-urile viitoare.
+Bun venit la patch-ul 7.19, cel în care, în sfârșit, nu ne mai ocupăm de Mondiale și în care putem lansa câteva dintre schimbările mai mari la care am tot lucrat. Avem multe de făcut, așa că hai să-i dăm drumul!
 
-De asemenea, Ornn va avea parte și el de câteva schimbări. Deși i-am dedicat deja două micropatch-uri în 7.18, încă nu se descurcă prea bine. Nu vrem să-i dăm prea multe buff-uri, așa că ne concentrăm mai ales pe ușurința cu care poate fi jucat. În același timp, ținem sub observație progresul și performanțele jucătorilor care joacă cu Ornn, pe măsură ce aceștia învață să-l stăpânească.
+În primul rând, ''Cădelnița aprinsă'' și Janna au cam făcut jocurile pe culoarul de jos de ceva timp încoace, deci e timpul să ne ocupăm de ele. Vrem ca amândouă să aibă un profil mai clar de putere, iar în cazul Jannei vrem să ne asigurăm și că are slăbiciuni mai ușor de pedepsit, care să-i echilibreze forța de la finalul jocului.
 
-Ne vedem în Rift!
+În al doilea rând, profităm de ocazie ca să actualizăm abilitățile lui Azir. Îi eliminăm multe dintre punctele forte inutile, cum ar fi raza de atac, dar îi și creștem daunele. Acum că are puncte slabe mai clare și mai ușor de exploatat, Azir va rămâne într-o poziție mult mai bună pentru sănătatea jocului decât în patch-urile trecute.
 
-Notele patch-ului 7.18 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-718
+În cele din urmă, Xin Zhao n-a mai trecut prin nicio schimbare majoră cam de când am eliminat ''Devoratorul'' acum un an și jumătate. Îi modificăm setul de abilități ca să-i oferim o identitate mai clară.
+
+Am actualizat o grămadă de campioni în acest patch, așa că merită să aruncați un ochi pe lista de schimbări înainte să intrați în Rift!
+
+Notele patch-ului 7.19 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-719
