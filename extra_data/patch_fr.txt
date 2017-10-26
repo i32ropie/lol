@@ -1,9 +1,11 @@
-Bienvenue à tous dans ce nouveau patch !
+Bonjour, invocateurs !
 
-Si vous avez l'étrange impression d'être suivis, vous ne rêvez pas. La mise à jour d'Evelynn est enfin là et elle fait entrer le Démon sadique dans une nouvelle ère. Comme vous vous retrouverez forcément un jour ou l'autre du mauvais côté de ses Piques de haine, nous avons pensé à vous : ce patch marque l'arrivée du système d'emotes dans le monde entier, ce qui vous offrira de nouvelles manières de faire savoir à vos alliés et à vos ennemis ce que vous ressentez vraiment.
+Bienvenue dans les notes du patch 7.21, qui est le tout dernier patch avant le début de la présaison. De gros changements vont bientôt bouleverser le jeu, c'est pourquoi ce patch est plutôt léger. Cela dit, nous nous occupons quand même de certaines aberrations et nous ajustons le style de jeu de quelques champions.
 
-Côté équilibrage, le patch 7.20 est plutôt léger, surtout si on le compare au patch précédent. Nous travaillons d'arrache-pied sur les Runes reforgées, et étant donné les bouleversements que va bientôt connaître League of Legends, nous avons préféré nous concentrer ici sur les changements utiles à long terme, tels que la mise à jour du Gage de Sterak.
+Une poignée de tanks (Galio, Sejuani et Rammus) ont actuellement des stats de base bien trop efficaces. Nous revoyons donc ces valeurs à la baisse, mais dans le cas de Galio, nous augmentons aussi ses ratios. Nous nous sommes également penchés sur deux colosses (Udyr et Urgot) pour les rendre plus fiables en fin de partie. Pour finir, nous modifions certains objets qui dominent le champ de bataille (dédicace à l'Encensoir ardent) ou qui sont décevants depuis trop longtemps.
 
-C'est tout pour cette intro ! Bonne chance dans la Faille et essayez de mettre en application ce que vous pouvez voir pendant les matchs du Mondial !
+Le prochain patch contiendra les Runes reforgées et de nombreux changements, mais d'ici là, amusez-vous bien avec le dernier patch de la saison 7 !
 
-Notes de patch 7.20 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-720
+À bientôt,
+
+Notes de patch 7.19 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-719

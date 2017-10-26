@@ -1,9 +1,11 @@
-Bun venit la un nou patch, oameni buni.
+Salutare, invocatori,
 
-Dacă aveți senzația ciudată că e cineva fix în spatele vostru, sunt șanse mari că nu ați luat-o razna. Actualizarea lui Evelynn e aici, iar îmbrățișarea agoniei e mai seducătoare ca oricând. În plus, dacă ajungeți în bătaia ''Spinilor urii'', vă sărim în ajutor: în acest patch lansăm la nivel global sistemul de animații, deci veți avea la dispoziție noi moduri de a le arăta prietenilor și adversarilor exact ce simțiți.
+Bun venit la patch-ul 7.21, ultimul de dinainte să înceapă de-a binelea presezonul. Vor urma o grămadă de schimbări majore care vor zgudui jocul din temelii, așa că patch-ul de față e ceva mai mic decât de obicei. Acestea fiind zise, ne ocupăm de câțiva campioni care au luat-o înainte prea mult, iar altora le aducem modificări de stil de joc.
 
-Din punctul de vedere al echilibrărilor, 7.20 e un patch lejer, mai ales în comparație cu cel de dinainte. În prezent, lucrăm din greu la ''Refăurirea runelor'' și, din moment ce aceasta va introduce în joc schimbări majore, între timp vom aborda în cadrul patch-urilor doar modificări cu beneficii pe termen lung, cum ar fi actualizarea lui ''Sterak'' de mai jos.
+Câțiva campioni tanc (Galio, Sejuani și Rammus) au prea multă eficiență înnăscută. Le-o scădem, iar în cazul lui Galio, îi dăm la schimb niște rapoarte mai mari cu care să se joace. Ne ocupăm și de doi titani, Udyr și Urgot, și încercăm să-i ajutăm să fie mai consecvenți la sfârșitul jocului. În cele din urmă, ajustăm niște obiecte care fie le-au dominat pe celelalte (salut, ''Cădelniță aprinsă''), fie nu s-au prea impus în ultima vreme.
 
-Cam atât despre acest patch! Mult succes în Rift, în special dacă sunteți nedormiți pentru că jucați LoL și vă uitați și la Mondiale.
+În următorul patch ne vom ocupa de ''Refăurirea runelor'', care va aduce cu sine o grămadă de schimbări. Până atunci, bucurați-vă de ultimul patch din sezonul 7!
 
-Notele patch-ului 7.20 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-720
+Să fie cu noroc!
+
+Notele patch-ului 7.21 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-721

@@ -1,9 +1,11 @@
-Witajcie w kolejnym patchu, drużyno.
+Czołem, przywoływacze.
 
-Jeżeli macie wrażenie, że ktoś się za wami skrada, to prawdopodobnie wcale wam nie odbija. Nadeszła aktualizacja Evelynn, która przedstawia Uścisk Śmierci w zupełnie nowy sposób. Jeżeli znajdziecie się po złej stronie Kolca Nienawiści albo trzech, mamy coś na pocieszenie: w tym patchu na całym świecie wprowadzamy system emotek, dzięki któremu będziecie mogli na wiele nowych sposobów pokazać zarówno sojusznikom, jak i wrogom co tak naprawdę czujecie.
+Witajcie w patchu 7.21, ostatnim, zanim przedsezon ruszy z kopyta. W przygotowaniu mamy wiele dużych zmian, które całkowicie zmienią grę, więc ten patch nie należy do największych. To powiedziawszy, wprowadzamy najbardziej potrzebne zmiany i usprawniamy styl gry kilkoma bohaterami.
 
-Jeżeli chodzi o wyważanie, 7.20 jest dość lekkim patchem, przynajmniej w porównaniu z poprzednim. Ciężko pracujemy nad przygotowaniem gry pod zrekonstruowane runy, a biorąc pod uwagę, jak bardzo wstrząśnie to League, w patchach wolimy skupić się na innych istotnych rzeczach, takich jak poniższa aktualizacja Steraka.
+Paru obrońców — Galio, Sejuani i Rammus — posiada zdecydowanie zbyt dobre statystyki podstawowe. Obniżamy je, a Galio dostaje trochę więcej skalowania do zabawy. Przyjrzeliśmy się również dwóm molochom — Udyrowi i Urgotowi — i chcemy zapewnić im solidniejszą późną fazę gry. Poza tym zmieniamy kilka przedmiotów, które stały się zbyt dominujące (także tego, Ognisty Trybularz) lub nie sprawdzały się najlepiej przez dłuższy czas.
 
-To wszystko, jeśli chodzi o ten patch! Powodzenia na Summoner’s Rift, szczególnie, jeżeli nie możecie się wyspać ze względu na granie w League oraz oglądanie Mistrzostw.
+W następnym patchu pojawią się zrekonstruowane runy i milion innych zmian, ale na chwilę obecną łapcie za klawiatury i bawcie się dobrze w ostatnim patchu sezonu siódmego!
 
-Opis patcha 7.20 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-720
+Pozdrawiamy
+
+Opis patcha 7.21 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-721

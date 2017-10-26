@@ -1,9 +1,11 @@
-Willkommen zu einem weiteren Patch!
+Sei gegrüßt, Beschwörer.
 
-Falls es dir gerade kalt den Rücken runterläuft und es dir so vorkommt, als würdest du beobachtet werden, dann täuschst du dich nicht. Evelynns Aktualisierung ist hier und bringt die Umarmung der Qual auf ganz neue Weise zurück. Doch keine Sorge! Selbst wenn du einen (oder drei) Hassausbrüche in den Rücken bekommen solltest, kannst du mit unserem Stickersystem, das in diesem Patch weltweit eingeführt wird, deine Teamkameraden genau wissen lassen, wie du dich fühlst.
+Willkommen zu Patch 7.21, dem letzten Patch, bevor wir uns endlich in die Vorsaison stürzen. Wir haben viele große Änderungen in unserer Entwicklungsschmiede, die das Spiel künftig so richtig in Schwung bringen werden. Aus diesem Grund zählt dieser Patch auch eher zu den kleineren. Auf der heutigen Tagesordnung stehen ein paar Ausreißer und Änderungen an der Spielweise einiger Champions.
 
-Was Änderungen an der Spielbalance angeht, ist 7.20 – besonders im Vergleich zum letzten Patch – ein ziemliches Leichtgewicht. Wir arbeiten mit Hochdruck daran, unser neues Runensystem einzuführen, und konzentrieren uns daher für den Moment hauptsächlich auf Projekte wie die Sterak-Aktualisierung, die auf lange Sicht positiven Einfluss auf das Spiel haben werden.
+Einige Tanks wie Galio, Sejuani und Rammus haben einfach zu viel Grundeffektivität. Wir werden diese Effektivität allgemein etwas einschränken, aber gleichzeitig Galio mit etwas Skalierung unter die Flügel greifen. Wir werden uns außerdem zwei Moloche – Udyr und Urgot – genauer ansehen und ihnen etwas mehr Zuverlässigkeit im späten Spiel geben. Zu guter Letzt passen wir auch noch ein paar Gegenstände an, die seit einiger Zeit entweder zu sehr die Kluft dominierten (was geht ab, Glühender Rauchschwenker?) oder nicht sonderlich beeindruckend waren.
 
-Und das wird auch schon alles für diesen Patch sein! Viel Erfolg in der Kluft! Besonders denjenigen unter euch, denen es vom League spielen und dem Mitverfolgen der Weltmeisterschaft an Schlaf mangelt.
+Im nächsten Patch erwarten dich die neuen Runen und jede Menge Änderungen, aber für den Augenblick kannst du den letzten Patch der 7. Saison in vollen Zügen auskosten!
 
-Patchnotizen 7.20 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-720
+Mach’s gut,
+
+Patchnotizen 7.21 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-721

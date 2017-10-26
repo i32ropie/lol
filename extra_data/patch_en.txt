@@ -1,9 +1,11 @@
-Welcome to another patch, team.
+Greetings, Summoners,
 
-If you've got the sneaking feeling that someone's behind you, you might not be crazy. Evelynn's update is here, bringing Agony's Embrace back in a brand new way. Should you find yourself on the wrong side of a Hate Spike or three, we've got you covered: the Emotes system launches globally this patch, offering new ways to let friends and foes alike know how you really feel.
+Welcome to patch 7.21, the last one before preseason starts in earnest. We’ve got a lot a big changes coming down the pipeline that will shake up the game, so this patch is a bit on the smaller side. That being said, we’re hitting a few outliers and looking to make playstyle changes to a few champions.
 
-Balance-wise, 7.20's on the lighter side of things, particularly compared to last patch. We're hard at work preparing the way for Runes Reforged, and given how much of a shakeup League's about to see, we're primarily reserving patch work for long-term wins like the Sterak's update below.
+A few tanks - Galio, Sejuani, and Rammus - are sitting at far too much baseline effectiveness. We’re bringing that down, and in Galio’s case, giving him a bit more scaling to play with. We’re also taking a look at two juggernauts - Udyr and Urgot - and looking to give them a more reliable late game. Finally, we’re tweaking some items that have either dominated the landscape (hey there, Ardent Censer) or been underwhelming for awhile.
 
-That'll do it for this patch! Best of luck on the Rift, particularly if you're sleep deprived from playing League and watching Worlds.
+Next patch brings Runes Reforged, and with it will come a ton of change, but for now get out there and enjoy the last patch of Season 7!
 
-Patch 7.20 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-720-notes
+Cheers,
+
+Patch 7.21 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-721-notes

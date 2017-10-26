@@ -1,9 +1,11 @@
-¡Bienvenidos a una nueva versión!
-[⁣](https://youtu.be/B5Ks_HIsU4k)
-Si tenéis la sensación de que alguien os sigue, no estáis locos. La actualización de Evelynn ya está aquí, y trae consigo un estilo totalmente renovado para el Abrazo Agónico. Si os acaba dando alguna Púa de odio (o muchas), no os preocupéis: el sistema de emoticonos llega de forma global con esta versión y ofrece nuevas formas de hacer saber a vuestros amigos y enemigos cómo os sentís.
+Saludos, invocadores.
+[⁣](https://youtu.be/R_oLGsz6xOQ)
+Os damos la bienvenida a la versión 7.21, la última antes de la pretemporada. Se avecinan grandes cambios que transformarán el juego, así que esta versión es algo más pequeña. Dicho esto, nos centramos en casos particulares y realizamos cambios al estilo de juego de algunos campeones.
 
-En comparación a la última versión, la 7.20 no trae demasiados cambios de equilibrio. Nos estamos esforzando para preparar las runas reforjadas y, con el revuelo que va a haber en League of Legends, nos reservamos las versiones para logros a largo plazo, como la actualización de Calibrador de Sterak de más abajo.
+Algunos tanques, como Galio, Sejuani y Rammus, cuentan con demasiada efectividad básica, así que vamos a reducirla y, en el caso de Galio, aumentar su progresión. También les echamos un ojo a dos colosos, Udyr y Urgot, para ofrecerles mejores condiciones de final de partida. Por último, vamos a ajustar algunos objetos que han dominado el panorama (hola, Incensario ardiente) y otros que no se ven desde hace un tiempo.
 
-¡Eso es todo para esta versión! Que tengáis suerte en la Grieta, sobre todo los que no dormís mucho porque jugáis a LoL y además veis el Mundial.
+La siguiente versión incluirá las runas reforjadas y, con ellas, un montón de cambios, pero, por ahora, disfrutad de la última versión de la temporada 7.
 
-Notas de la Versión 7.20 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-720
+Un saludo,
+
+Notas de la Versión 7.21 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-721

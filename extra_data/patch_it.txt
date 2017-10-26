@@ -1,9 +1,11 @@
-Benvenuti a un'altra patch, squadra.
+Salve, evocatori,
 
-Se avete avuto la sensazione che qualcuno si stesse muovendo furtivo alle vostre spalle, forse non siete diventati pazzi. L'aggiornamento di Evelynn è arrivato, rinnovando l'abbraccio agonizzante. Nel caso doveste trovarvi a subire un paio di Aculei dell'odio, niente paura: con questa patch è disponibile per tutti il sistema delle emote, che offre nuovi modi per comunicare il vostro stato d'animo a nemici e alleati.
+benvenuti nella patch 7.21, l'ultima prima dell'inizio della pre-stagione. Abbiamo delle grandi modifiche in arrivo che scuoteranno il gioco, quindi questa patch è più leggera del solito. Detto questo, interveniamo su alcuni casi limite e apportiamo delle piccole modifiche allo stile di gioco di alcuni campioni.
 
-Dal punto di vista del bilanciamento la 7.20 è leggera, specialmente se paragonata all'ultima patch. Stiamo lavorando sodo in vista delle rune riforgiate, e vista la rivoluzione che sta per travolgere LoL stiamo dedicando le patch principalmente a successi a lungo termine come l'aggiornamento al Pegno di Sterak qui sotto.
+Alcuni tank (Galio, Sejuani e Rammus) hanno un'efficacia base troppo alta. La riduciamo e, nel caso di Galio, gli diamo un po' più di crescita. Interveniamo anche su due colossi, Udyr e Urgot, per renderli più affidabili a fine partita. Per finire, ritocchiamo alcuni oggetti che hanno dominato il panorama (ciao, Incensiere ardente) o che sono stati poco performanti.
 
-Per questa patch è tutto! Buona fortuna nella Landa, specialmente se giocare a LoL e seguire i Mondiali non vi sta facendo dormire.
+La prossima patch vedrà l'arrivo delle Rune riforgiate, che porteranno grandi cambiamenti. Per ora, però, andate a godervi l'ultima patch della stagione 7!
 
-Note sulla patch 7.20 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-720
+Saluti,
+
+Note sulla patch 7.21 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-721
