@@ -1,13 +1,9 @@
-Witajcie, Przywoływacze.
+Witajcie w kolejnym patchu, drużyno.
 
-Witamy w patchu 7.19, czyli tym, który pozostawia patch Mistrzostw z tyłu i może wprowadzić większe zmiany, nad którymi pracowaliśmy. Jest tego sporo, więc bierzmy się do roboty!
+Jeżeli macie wrażenie, że ktoś się za wami skrada, to prawdopodobnie wcale wam nie odbija. Nadeszła aktualizacja Evelynn, która przedstawia Uścisk Śmierci w zupełnie nowy sposób. Jeżeli znajdziecie się po złej stronie Kolca Nienawiści albo trzech, mamy coś na pocieszenie: w tym patchu na całym świecie wprowadzamy system emotek, dzięki któremu będziecie mogli na wiele nowych sposobów pokazać zarówno sojusznikom, jak i wrogom co tak naprawdę czujecie.
 
-Po pierwsze, mamy Ognisty Trybularz oraz Jannę, który to duet od dość długiego czasu wykrzywiał styl gry w dolnej alei. Chcemy wyraźniej ukierunkować ich siły i — w przypadku Janny — upewnić się, że ma jakieś słabe strony, które mogą wykorzystać przeciwnicy, ze względu na jej potęgę w późnej fazie gry.
+Jeżeli chodzi o wyważanie, 7.20 jest dość lekkim patchem, przynajmniej w porównaniu z poprzednim. Ciężko pracujemy nad przygotowaniem gry pod zrekonstruowane runy, a biorąc pod uwagę, jak bardzo wstrząśnie to League, w patchach wolimy skupić się na innych istotnych rzeczach, takich jak poniższa aktualizacja Steraka.
 
-Korzystamy także z okazji, aby zaktualizować umiejętności Azira, odbierając mu trochę mocy (zasięg), ale także zwiększając obrażenia. Azir ma teraz wyraźne słabości, które mogą wykorzystać przeciwnicy, dlatego możemy zostawić go w lepszym położeniu niż we wcześniejszych patchach.
+To wszystko, jeśli chodzi o ten patch! Powodzenia na Summoner’s Rift, szczególnie, jeżeli nie możecie się wyspać ze względu na granie w League oraz oglądanie Mistrzostw.
 
-Kończąc, Xin Zhao nie otrzymał żadnych większych zmian od momentu, w którym usunęliśmy Pożeracza półtora roku temu. Przyglądamy się jego zestawowi umiejętności, aby nadać mu wyraźniejszą tożsamość.
-
-W tym patchu zaktualizowaliśmy wielu bohaterów, więc zapoznajcie się ze zmianami, zanim wskoczycie na Summoner’s Rift!
-
-Opis patcha 7.19 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-719
+Opis patcha 7.20 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-720

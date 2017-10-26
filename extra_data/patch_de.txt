@@ -1,13 +1,9 @@
-Sei gegrüßt, Beschwörer!
+Willkommen zu einem weiteren Patch!
 
-Willkommen zu Patch 7.19, mit dem wir nun endlich den WM-Patch hinter uns lassen können und einige größere Änderungen einbringen, an denen wir in letzter Zeit gearbeitet haben. Es gibt viel zu besprechen, deswegen fangen wir auch sofort an!
+Falls es dir gerade kalt den Rücken runterläuft und es dir so vorkommt, als würdest du beobachtet werden, dann täuschst du dich nicht. Evelynns Aktualisierung ist hier und bringt die Umarmung der Qual auf ganz neue Weise zurück. Doch keine Sorge! Selbst wenn du einen (oder drei) Hassausbrüche in den Rücken bekommen solltest, kannst du mit unserem Stickersystem, das in diesem Patch weltweit eingeführt wird, deine Teamkameraden genau wissen lassen, wie du dich fühlst.
 
-Als Erstes haben wir den Glühenden Rauchschwenker und Janna auf dem Schirm, beide haben einige Zeit lang das Spiel auf der unteren Lane zu sehr beeinflusst. Wir versuchen, beiden ein deutlicheres Stärke-Profil zu geben, und wollen speziell in Jannas Fall dafür sorgen, dass ihre Stärke im späten Spiel durch mehr ausnutzbare Schwächen ausgeglichen wird.
+Was Änderungen an der Spielbalance angeht, ist 7.20 – besonders im Vergleich zum letzten Patch – ein ziemliches Leichtgewicht. Wir arbeiten mit Hochdruck daran, unser neues Runensystem einzuführen, und konzentrieren uns daher für den Moment hauptsächlich auf Projekte wie die Sterak-Aktualisierung, die auf lange Sicht positiven Einfluss auf das Spiel haben werden.
 
-Wir wollen außerdem die Gelegenheit nutzen, Azirs Fähigkeiten zu aktualisieren. Im Klartext bedeutet das, dass wir seine irrelevante Stärke (Reichweite) abschwächen, seinen Schaden aber dafür erhöhen. Durch klarer ausnutzbare Schwachpunkte können wir Azir im Vergleich zu vorangegangenen Patches in einer besseren Verfassung zurücklassen.
+Und das wird auch schon alles für diesen Patch sein! Viel Erfolg in der Kluft! Besonders denjenigen unter euch, denen es vom League spielen und dem Mitverfolgen der Weltmeisterschaft an Schlaf mangelt.
 
-Zu guter Letzt wollen wir uns noch mit Xin Zhao befassen, an dem wir seit der Entfernung von „Verschlinger“ vor über einem Jahr keine großen Änderungen mehr vorgenommen haben. Wir wollen uns um sein Fähigkeitenset kümmern, um seine Identität genauer herauszuarbeiten.
-
-Dieser Patch beinhaltet sehr viele aktualisierte Champions. Du solltest dir daher unbedingt alle Änderungen durchlesen, bevor du dich in die Kluft stürzt!
-
-Patchnotizen 7.19 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-719
+Patchnotizen 7.20 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-720

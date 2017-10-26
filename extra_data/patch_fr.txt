@@ -1,13 +1,9 @@
-Bonjour, invocateurs.
+Bienvenue à tous dans ce nouveau patch !
 
-Bienvenue dans le patch 7.19 ! Celui que nous utiliserons pour le Mondial étant maintenant derrière nous, nous pouvons introduire certains des changements importants sur lesquels nous travaillions. Il y en a beaucoup, alors ne perdons pas de temps !
+Si vous avez l'étrange impression d'être suivis, vous ne rêvez pas. La mise à jour d'Evelynn est enfin là et elle fait entrer le Démon sadique dans une nouvelle ère. Comme vous vous retrouverez forcément un jour ou l'autre du mauvais côté de ses Piques de haine, nous avons pensé à vous : ce patch marque l'arrivée du système d'emotes dans le monde entier, ce qui vous offrira de nouvelles manières de faire savoir à vos alliés et à vos ennemis ce que vous ressentez vraiment.
 
-Pour commencer, il y a les changements apportés à l'Encensoir ardent et à Janna, qui avaient tous les deux trop d'importance sur la voie du bas depuis un moment. Nous essayons de clarifier leurs forces, et dans le cas de Janna, nous voulons aussi nous assurer qu'elle a des points faibles plus marqués, pour compenser sa puissance en fin de partie.
+Côté équilibrage, le patch 7.20 est plutôt léger, surtout si on le compare au patch précédent. Nous travaillons d'arrache-pied sur les Runes reforgées, et étant donné les bouleversements que va bientôt connaître League of Legends, nous avons préféré nous concentrer ici sur les changements utiles à long terme, tels que la mise à jour du Gage de Sterak.
 
-Nous en profitons également pour mettre à jour les compétences d'Azir, en réduisant une grande partie de ses forces superflues (comme sa portée), mais en augmentant ses dégâts. Avec des points faibles plus évidents, Azir devrait devenir plus sain.
+C'est tout pour cette intro ! Bonne chance dans la Faille et essayez de mettre en application ce que vous pouvez voir pendant les matchs du Mondial !
 
-Enfin, depuis que nous avons supprimé l'enchantement Dévoreur il y a un an et demi, Xin Zhao n'avait pas vraiment été retouché. Nous modifions l'ensemble de ses compétences pour clarifier son identité.
-
-Les compétences de très nombreux champions sont modifiées aujourd'hui, alors jetez vite un coup d'œil à ce qui suit avant d'aller dans la Faille !
-
-Notes de patch 7.19 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-719
+Notes de patch 7.20 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-720

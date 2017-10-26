@@ -1,13 +1,9 @@
-Salutare, invocatori,
+Bun venit la un nou patch, oameni buni.
 
-Bun venit la patch-ul 7.19, cel în care, în sfârșit, nu ne mai ocupăm de Mondiale și în care putem lansa câteva dintre schimbările mai mari la care am tot lucrat. Avem multe de făcut, așa că hai să-i dăm drumul!
+Dacă aveți senzația ciudată că e cineva fix în spatele vostru, sunt șanse mari că nu ați luat-o razna. Actualizarea lui Evelynn e aici, iar îmbrățișarea agoniei e mai seducătoare ca oricând. În plus, dacă ajungeți în bătaia ''Spinilor urii'', vă sărim în ajutor: în acest patch lansăm la nivel global sistemul de animații, deci veți avea la dispoziție noi moduri de a le arăta prietenilor și adversarilor exact ce simțiți.
 
-În primul rând, ''Cădelnița aprinsă'' și Janna au cam făcut jocurile pe culoarul de jos de ceva timp încoace, deci e timpul să ne ocupăm de ele. Vrem ca amândouă să aibă un profil mai clar de putere, iar în cazul Jannei vrem să ne asigurăm și că are slăbiciuni mai ușor de pedepsit, care să-i echilibreze forța de la finalul jocului.
+Din punctul de vedere al echilibrărilor, 7.20 e un patch lejer, mai ales în comparație cu cel de dinainte. În prezent, lucrăm din greu la ''Refăurirea runelor'' și, din moment ce aceasta va introduce în joc schimbări majore, între timp vom aborda în cadrul patch-urilor doar modificări cu beneficii pe termen lung, cum ar fi actualizarea lui ''Sterak'' de mai jos.
 
-În al doilea rând, profităm de ocazie ca să actualizăm abilitățile lui Azir. Îi eliminăm multe dintre punctele forte inutile, cum ar fi raza de atac, dar îi și creștem daunele. Acum că are puncte slabe mai clare și mai ușor de exploatat, Azir va rămâne într-o poziție mult mai bună pentru sănătatea jocului decât în patch-urile trecute.
+Cam atât despre acest patch! Mult succes în Rift, în special dacă sunteți nedormiți pentru că jucați LoL și vă uitați și la Mondiale.
 
-În cele din urmă, Xin Zhao n-a mai trecut prin nicio schimbare majoră cam de când am eliminat ''Devoratorul'' acum un an și jumătate. Îi modificăm setul de abilități ca să-i oferim o identitate mai clară.
-
-Am actualizat o grămadă de campioni în acest patch, așa că merită să aruncați un ochi pe lista de schimbări înainte să intrați în Rift!
-
-Notele patch-ului 7.19 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-719
+Notele patch-ului 7.20 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-720

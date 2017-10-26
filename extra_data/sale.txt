@@ -1,8 +1,8 @@
-/Lissandra: 487 RP
-/Skarner: 440 RP
-/Rammus: 292 RP
-/Thresh: 487 RP
-/Orianna_2: 260 RP
-/Amumu_6: 375 RP
-/Tryndamere_5: 487 RP
-/Malphite_6: 487 RP
+/RekSai: 487 RP
+/Varus: 440 RP
+/Gragas: 395 RP
+/LeBlanc: 395 RP
+/Nidalee_3: 260 RP
+/Lulu_2: 487 RP
+/Yorick_2: 487 RP
+/Fiddlesticks_8: 675 RP

@@ -1,13 +1,9 @@
-¡Saludos, invocadores!
+¡Bienvenidos a una nueva versión!
+[⁣](https://youtu.be/B5Ks_HIsU4k)
+Si tenéis la sensación de que alguien os sigue, no estáis locos. La actualización de Evelynn ya está aquí, y trae consigo un estilo totalmente renovado para el Abrazo Agónico. Si os acaba dando alguna Púa de odio (o muchas), no os preocupéis: el sistema de emoticonos llega de forma global con esta versión y ofrece nuevas formas de hacer saber a vuestros amigos y enemigos cómo os sentís.
 
-Bienvenidos a la versión 7.19, la que deja atrás la versión del Mundial y en la que podemos introducir algunos de los cambios importantes en los que hemos estado trabajando. Estas notas son largas, así que vamos a ello.
+En comparación a la última versión, la 7.20 no trae demasiados cambios de equilibrio. Nos estamos esforzando para preparar las runas reforjadas y, con el revuelo que va a haber en League of Legends, nos reservamos las versiones para logros a largo plazo, como la actualización de Calibrador de Sterak de más abajo.
 
-En primer lugar, tenemos a Incensario ardiente y Janna, que han estado desequilibrando la calle inferior durante un tiempo. Queremos que sus potencias sean más claras y, en el caso de Janna, asegurarnos de que se la castiga por sus puntos débiles para compensar su fuerza de final de partida.
+¡Eso es todo para esta versión! Que tengáis suerte en la Grieta, sobre todo los que no dormís mucho porque jugáis a LoL y además veis el Mundial.
 
-Además, aprovechamos la ocasión para actualizar las habilidades de Azir y recortamos muchas de sus fuerzas superfluas (como el alcance), pero también mejoramos su daño. Con más puntos débiles que explotar, podemos dejar a Azir mucho mejor de lo que estaba en versiones anteriores.
-
-Por último, hace más o menos un año y medio que no visitamos a Xin Zhao, poco después de eliminar Devorador. Repasamos su kit para ofrecerle una identidad más nítida.
-
-En esta versión hay muchos campeones actualizados, así que echadle un ojo a los cambios antes de visitar la Grieta.
-
-Notas de la Versión 7.19 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-719
+Notas de la Versión 7.20 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-720

@@ -1,13 +1,9 @@
-Salve, evocatori,
+Benvenuti a un'altra patch, squadra.
 
-Benvenuti nella 7.19; ci siamo finalmente lasciati alle spalle la patch dei Mondiali e possiamo introdurre alcuni dei cambiamenti principali ai quali abbiamo lavorato. C'è parecchio da dire, quindi cominciamo!
+Se avete avuto la sensazione che qualcuno si stesse muovendo furtivo alle vostre spalle, forse non siete diventati pazzi. L'aggiornamento di Evelynn è arrivato, rinnovando l'abbraccio agonizzante. Nel caso doveste trovarvi a subire un paio di Aculei dell'odio, niente paura: con questa patch è disponibile per tutti il sistema delle emote, che offre nuovi modi per comunicare il vostro stato d'animo a nemici e alleati.
 
-Prima di tutto abbiamo Incensiere ardente e Janna, che ultimamente hanno monopolizzato il gioco in corsia inferiore. Vogliamo che abbiano entrambi un profilo più definito e, nel caso di Janna, fare in modo che abbia un numero maggiore di debolezze sfruttabili, per compensare la sua potenza a fine partita.
+Dal punto di vista del bilanciamento la 7.20 è leggera, specialmente se paragonata all'ultima patch. Stiamo lavorando sodo in vista delle rune riforgiate, e vista la rivoluzione che sta per travolgere LoL stiamo dedicando le patch principalmente a successi a lungo termine come l'aggiornamento al Pegno di Sterak qui sotto.
 
-Vogliamo anche aggiornare le abilità di Azir, riducendo la sua forza eccessiva (gittata) ma anche aumentando i danni. Con punti deboli più chiari di cui approfittare, potremo mettere Azir in una condizione migliore rispetto alle patch precedenti.
+Per questa patch è tutto! Buona fortuna nella Landa, specialmente se giocare a LoL e seguire i Mondiali non vi sta facendo dormire.
 
-Infine, Xin Zhao non aveva subito modifiche importanti da un anno e mezzo, quando avevamo rimosso Divoratore. Con questo kit vogliamo dargli un'identità più definita.
-
-In questa patch ci sono parecchi campioni aggiornati, quindi leggete tutte le novità prima di entrare nella Landa!
-
-Note sulla patch 7.19 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-719
+Note sulla patch 7.20 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-720

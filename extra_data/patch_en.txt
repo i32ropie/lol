@@ -1,13 +1,9 @@
-Greetings, Summoners,
+Welcome to another patch, team.
 
-Welcome to 7.19, the one where Worlds patch is finally in the rearview mirror and we can introduce some of the bigger changes we’ve been working on. There’s a lot this time around, so let’s dive right in!
+If you've got the sneaking feeling that someone's behind you, you might not be crazy. Evelynn's update is here, bringing Agony's Embrace back in a brand new way. Should you find yourself on the wrong side of a Hate Spike or three, we've got you covered: the Emotes system launches globally this patch, offering new ways to let friends and foes alike know how you really feel.
 
-First, we’ve got Ardent Censer and Janna, both of which have been warping the bot game landscape for awhile. We’re looking to put a clearer strength profile on both of them, and - in Janna’s case - making sure she has more punishable weaknesses as a tradeoff for her late game strength.
+Balance-wise, 7.20's on the lighter side of things, particularly compared to last patch. We're hard at work preparing the way for Runes Reforged, and given how much of a shakeup League's about to see, we're primarily reserving patch work for long-term wins like the Sterak's update below.
 
-We’re also taking this opportunity to give Azir an ability update at this point, trimming a lot of his extraneous strengths (range), but also upgrading his damage. With clearer weaknesses to exploit, we’ll be able to leave Azir in a healthier place than in previous patches.
+That'll do it for this patch! Best of luck on the Rift, particularly if you're sleep deprived from playing League and watching Worlds.
 
-Finally, Xin Zhao hasn’t been touched since we removed Devourer a year and a half ago. We’re looking into his kit to give him a clearer identity.
-
-There's a lot of updated champions this patch, so brush up on the changes before you hop onto the Rift!
-
-Patch 7.19 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-719-notes
+Patch 7.20 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-720-notes
