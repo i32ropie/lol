@@ -7,14 +7,14 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  update_champs.py importado.{/cyan}'))
 
 
-def static_get_champion_list(region, data_by_id, locale=None, champ_data=None):
+def static_get_champion_list(region, data_by_id, locale=None, champ_data=None, lol_api=extra['lol_api']):
     url = "https://{}.api.riotgames.com/lol/static-data/v3/champions".format(
         update_region(region))
     params = {
         "tags": champ_data,
         "dataById": "true" if data_by_id else "false",
         "locale": locale,
-        "api_key": extra['lol_api']
+        "api_key": lol_api
     }
     r = requests.get(url, params)
     return r.json()
@@ -112,6 +112,7 @@ def command_update_champs_2(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        lol_api = extra['lol_api'] if len(m.text.split()) == 1 else m.text.split()[1]
         msg = bot.send_message(
             cid,
             "Descargando nuevas bases de datos de campeones:\n`-Polaco`\n`-Portugués`\n`-Griego`\n`-Ruso`\n`-Tailandés`\n`-Turco`",
@@ -122,32 +123,38 @@ def command_update_champs_2(m):
                     region='euw',
                     locale='pl_PL',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_pt.json": static_get_champion_list(
                     region='euw',
                     locale='pt_BR',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_el.json": static_get_champion_list(
                     region='euw',
                     locale='el_GR',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_ru.json": static_get_champion_list(
                     region='euw',
                     locale='ru_RU',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_th.json": static_get_champion_list(
                     region='euw',
                     locale='th_TH',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_tr.json": static_get_champion_list(
                     region='euw',
                     locale='tr_TR',
                     champ_data=['all'],
-                    data_by_id=False)['data']}
+                    data_by_id=False,
+                    lol_api=lol_api)['data']}
         except:
             # bot.send_message(cid, "Error descargando nuevas bases de datos.")
             bot.edit_message_text(
