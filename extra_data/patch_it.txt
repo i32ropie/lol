@@ -1,11 +1,11 @@
-Salve, evocatori,
+Come va, campioni?
 
-benvenuti nella patch 7.21, l'ultima prima dell'inizio della pre-stagione. Abbiamo delle grandi modifiche in arrivo che scuoteranno il gioco, quindi questa patch è più leggera del solito. Detto questo, interveniamo su alcuni casi limite e apportiamo delle piccole modifiche allo stile di gioco di alcuni campioni.
+La pre-stagione è in pieno svolgimento! Dopo aver affrontato le modifiche al bilanciamento più urgenti in un aggiornamento di metà patch poco dopo il lancio delle Rune riforgiate, eccone qualcuna un po' meno urgente nella 7.23. D'ora in poi torneremo al nostro normale lavoro di bilanciamento (ossia: non ci concentreremo solo sulla forza bruta con le modifiche alla statistiche di base). Abbiamo parlato della nostra filosofia sul bilanciamento delle rune nella pre-stagione sul nostro forum, quindi se volete saperne di più andate a leggerlo! In questa fase di sperimentazione stiamo procedendo con molta cautela e non vediamo l'ora di scoprire cosa succederà dopo tanta teoria.
 
-Alcuni tank (Galio, Sejuani e Rammus) hanno un'efficacia base troppo alta. La riduciamo e, nel caso di Galio, gli diamo un po' più di crescita. Interveniamo anche su due colossi, Udyr e Urgot, per renderli più affidabili a fine partita. Per finire, ritocchiamo alcuni oggetti che hanno dominato il panorama (ciao, Incensiere ardente) o che sono stati poco performanti.
+Dopo aver completato il bilanciamento, abbiamo modificato le curve di esperienza dopo il livello 30 e la ricompensa della missione Prima vittoria del giorno in base ai vostri feedback. Per noi le vostre opinioni sono fondamentali, quindi continuate a inviarcele! In questa patch abbiamo inserito anche alcune funzionalità che ci avete richiesto da tempo: la scheda Aspetti, la possibilità di assistere alle partite Challenger e circa un anno di aggiornamenti di informazioni alla sezione Informazioni sul gioco del sito!
 
-La prossima patch vedrà l'arrivo delle Rune riforgiate, che porteranno grandi cambiamenti. Per ora, però, andate a godervi l'ultima patch della stagione 7!
+Naturalmente non possiamo concludere senza parlare della nuova furfante di LoL. La 7.23 porta Zoe nella Landa, e i portali saranno di gran moda! Fate molta attenzione: quando Zoe sarà in campo, le cose non andranno come potreste pensare.
 
-Saluti,
+BUONA FORTUNA E BUON DIVERTIMENTO,
 
-Note sulla patch 7.21 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-721
+Note sulla patch 7.23 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-723

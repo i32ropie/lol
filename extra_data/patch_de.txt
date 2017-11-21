@@ -1,11 +1,11 @@
-Sei gegrüßt, Beschwörer.
+Wie geht’s?
 
-Willkommen zu Patch 7.21, dem letzten Patch, bevor wir uns endlich in die Vorsaison stürzen. Wir haben viele große Änderungen in unserer Entwicklungsschmiede, die das Spiel künftig so richtig in Schwung bringen werden. Aus diesem Grund zählt dieser Patch auch eher zu den kleineren. Auf der heutigen Tagesordnung stehen ein paar Ausreißer und Änderungen an der Spielweise einiger Champions.
+Die Vorsaison geht mit Volldampf voraus! Nachdem wir kurz nach dem Start der neuen Runen die dringendsten Änderungen an der Spielbalance in einem Zwischenupdate aufgeholt haben, gibt es in 7.23 noch ein paar nicht ganz so dringende Anpassungen. Ab jetzt können wir uns wieder um die normale Arbeit an der Spielbalance kümmern – also mehr als mit Anpassungen von Grundwerten die grundlegende Stärke der Champions zu ändern. Die Philosophie hinter der Balance der Runen in der Vorsaison haben wir in den Foren diskutiert – wenn euch die Kurzversion hier nicht reicht, findet ihr dort mehr Antworten! In dieser Zeit der Experimente sind wir sehr vorsichtig, aber auch extrem gespannt, wie sich diese Theorie in die Praxis umsetzen lässt.
 
-Einige Tanks wie Galio, Sejuani und Rammus haben einfach zu viel Grundeffektivität. Wir werden diese Effektivität allgemein etwas einschränken, aber gleichzeitig Galio mit etwas Skalierung unter die Flügel greifen. Wir werden uns außerdem zwei Moloche – Udyr und Urgot – genauer ansehen und ihnen etwas mehr Zuverlässigkeit im späten Spiel geben. Zu guter Letzt passen wir auch noch ein paar Gegenstände an, die seit einiger Zeit entweder zu sehr die Kluft dominierten (was geht ab, Glühender Rauchschwenker?) oder nicht sonderlich beeindruckend waren.
+Jenseits der Balance haben wir auch die Erfahrungskurven nach Stufe 30 und die des ersten Siegs des Tages basierend auf euren Rückmeldungen angepasst. Deine Gedanken zu dem Thema sind uns unglaublich wichtig – bitte schreib uns weiter! Außerdem haben wir endlich einige langersehnte Funktionen eingebracht: Der Skin-Reiter, die Möglichkeit, bei Spielen der Herausforderer-Klasse zuzusehen, und ungefähr einen Jahressatz an Aktualisierungen bei der Spielinfo-Webseite. All das in einem Update!
 
-Im nächsten Patch erwarten dich die neuen Runen und jede Menge Änderungen, aber für den Augenblick kannst du den letzten Patch der 7. Saison in vollen Zügen auskosten!
+Außerdem muss natürlich noch der neueste Trickster von League erwähnt werden. Ab 7.23 spielt Zoe in der Kluft – und wer schon immer mit Portalen denken wollte, hat jetzt die Chance dazu! Pass auf, wenn Zoe im Spiel ist. Es wird nicht so laufen, wie du denkst!
 
-Mach’s gut,
+GLHF
 
-Patchnotizen 7.21 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-721
+Patchnotizen 7.23 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-723

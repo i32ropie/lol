@@ -1,11 +1,11 @@
-Czołem, przywoływacze.
+Siemanko mistrzowie,
 
-Witajcie w patchu 7.21, ostatnim, zanim przedsezon ruszy z kopyta. W przygotowaniu mamy wiele dużych zmian, które całkowicie zmienią grę, więc ten patch nie należy do największych. To powiedziawszy, wprowadzamy najbardziej potrzebne zmiany i usprawniamy styl gry kilkoma bohaterami.
+przedsezon trwa w najlepsze! Dokonawszy najpilniejszych zmian w aktualizacji patcha krótko po wprowadzeniu zrekonstruowanych run, mamy parę (nie-aż-tak) pilnych zmian w 7.23. Od teraz zaczniemy powracać do normalnego wyważania (czytaj: nie skupiamy się tylko na sile, kiedy zmieniamy podstawowe statystyki). Powiedzieliśmy co nieco o naszej filozofii wyważania run na naszych forach (odnośnik po angielsku), więc jeśli ten wstęp to dla was za mało, przeczytajcie tamten wpis! Jesteśmy super ostrożni w tym czasie eksperymentów i jednocześnie bardzo ciekawi tego, co wyjdzie z tego całego teoretyzowania.
 
-Paru obrońców — Galio, Sejuani i Rammus — posiada zdecydowanie zbyt dobre statystyki podstawowe. Obniżamy je, a Galio dostaje trochę więcej skalowania do zabawy. Przyjrzeliśmy się również dwóm molochom — Udyrowi i Urgotowi — i chcemy zapewnić im solidniejszą późną fazę gry. Poza tym zmieniamy kilka przedmiotów, które stały się zbyt dominujące (także tego, Ognisty Trybularz) lub nie sprawdzały się najlepiej przez dłuższy czas.
+Poza sprawami wyważenia poprawiliśmy krzywą PD po 30. poziomie i misję „Pierwsza wygrana dnia”, opierając się na waszych uwagach. Słuchanie waszych opinii jest dla nas bardzo ważne, więc dzielcie się z nami każdym pomysłem! Zajęliśmy się również paroma pojawiającymi się od dawna prośbami dotyczącymi funkcji. Zakładka ze skórkami, możliwość oglądania Pretendentów i aktualizacja strony z informacjami o grze zostaną wprowadzone w tym patchu!
 
-W następnym patchu pojawią się zrekonstruowane runy i milion innych zmian, ale na chwilę obecną łapcie za klawiatury i bawcie się dobrze w ostatnim patchu sezonu siódmego!
+Wypada jeszcze wspomnieć o najnowszej psotnicy League. W patchu 7.23 na Summoner’s Rift pojawi się Zoe, więc będziecie musieli zacząć myśleć pozaportalowo! Bądźcie uważni, będąc w grze z Zoe — nigdy nie wiadomo, co się może stać.
 
-Pozdrawiamy
+Dobrej zabawy i powodzenia!
 
-Opis patcha 7.21 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-721
+Opis patcha 7.23 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-723

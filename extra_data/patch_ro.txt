@@ -1,11 +1,12 @@
-Salutare, invocatori,
+Salutare, campioni!
 
-Bun venit la patch-ul 7.21, ultimul de dinainte să înceapă de-a binelea presezonul. Vor urma o grămadă de schimbări majore care vor zgudui jocul din temelii, așa că patch-ul de față e ceva mai mic decât de obicei. Acestea fiind zise, ne ocupăm de câțiva campioni care au luat-o înainte prea mult, iar altora le aducem modificări de stil de joc.
+Presezonul e în toi! Am implementat deja cele mai urgente echilibrări încă din cursul patch-ului trecut, imediat după lansarea runelor refăurite, dar mai avem un set de schimbări (nu chiar la fel de) urgente și pentru 7.23. De acum încolo, vom reveni la stilul obișnuit de echilibrări, adică nu ne vom mai ocupa doar de putere brută și modificări ale atributelor de bază. Am discutat deja despre filosofia din spatele echilibrării runelor pe forumurile noastre (postare în limba engleză), deci, dacă această introducere nu vi se pare suficient de detaliată, dați clic pe link! Suntem foarte atenți la ce facem în această perioadă de experimentare și abia așteptăm să vedem ce iese din toate teoriile jucătorilor.
 
-Câțiva campioni tanc (Galio, Sejuani și Rammus) au prea multă eficiență înnăscută. Le-o scădem, iar în cazul lui Galio, îi dăm la schimb niște rapoarte mai mari cu care să se joace. Ne ocupăm și de doi titani, Udyr și Urgot, și încercăm să-i ajutăm să fie mai consecvenți la sfârșitul jocului. În cele din urmă, ajustăm niște obiecte care fie le-au dominat pe celelalte (salut, ''Cădelniță aprinsă''), fie nu s-au prea impus în ultima vreme.
+În afară de echilibrările din joc, am ajustat și viteza de obținere a experienței după nivelul 30 și recompensa pentru ''Prima victorie a zilei'', bazându-ne pe feedback-ul primit de la voi. Părerile voastre sunt incredibil de importante pentru noi, deci nu ezitați să ni le împărtășiți! Cu ocazia acestui patch, lansăm și câteva caracteristici pe care ni le-ați cerut de multă vreme:
+tab-ul pentru skin-uri, posibilitatea de a urmări meciurile din Challenger și o grămadă de actualizări pentru site-ul cu informații despre joc!
 
-În următorul patch ne vom ocupa de ''Refăurirea runelor'', care va aduce cu sine o grămadă de schimbări. Până atunci, bucurați-vă de ultimul patch din sezonul 7!
+N-aveam cum să încheiem introducerea despre patch-ul 7.23 fără s-o amintim pe cea mai nouă farsoare din LoL, Zoe. De-acum înainte, va trebui să fiți cu ochii-n patru după portalurile ei! Și fiți foarte atenți când vă întâlniți cu ea, pentru că socoteala de acasă nu se potrivește mereu cu cea din târg.
 
-Să fie cu noroc!
+GLHF,
 
-Notele patch-ului 7.21 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-721
+Notele patch-ului 7.23 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-723

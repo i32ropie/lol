@@ -1,11 +1,11 @@
-Greetings, Summoners,
+Waddup champs,
 
-Welcome to patch 7.21, the last one before preseason starts in earnest. We’ve got a lot a big changes coming down the pipeline that will shake up the game, so this patch is a bit on the smaller side. That being said, we’re hitting a few outliers and looking to make playstyle changes to a few champions.
+Preseason is at full steam! After shipping the most urgent balance changes in a mid-patch update shortly after Runes Reforged launched, we've got a few (not-quite-as) urgent ones here in 7.23. From here on, we'll start getting back to our normal balance work (read: not just focusing on raw power with base stat changes). We discussed our preseason Runes balance philosophy on our boards, so if this intro wasn't enough, go read that instead! We're being super careful in this time of experimentation, and couldn’t be more excited to see what's coming out of all the theorycrafting.
 
-A few tanks - Galio, Sejuani, and Rammus - are sitting at far too much baseline effectiveness. We’re bringing that down, and in Galio’s case, giving him a bit more scaling to play with. We’re also taking a look at two juggernauts - Udyr and Urgot - and looking to give them a more reliable late game. Finally, we’re tweaking some items that have either dominated the landscape (hey there, Ardent Censer) or been underwhelming for awhile.
+Past the balance side of things, we've adjusted post-30 EXP curves and the First Win of the Day mission reward based on your feedback. Hearing your thoughts is incredibly important to us, so please keep them coming! We're also knocking out a few longstanding feature requests: The Skins Tab, the ability to spectate Challengers, and about a year's worth of updates to the Game Info site all land this patch!
 
-Next patch brings Runes Reforged, and with it will come a ton of change, but for now get out there and enjoy the last patch of Season 7!
+We'd of course be remiss to go without mentioning League's newest trickster. 7.23 brings Zoe to the Rift, and thinking with portals will totally be a thing! Exercise caution—when Zoe's in play, things are not going to go the way you think.
 
-Cheers,
+GLHF,
 
-Patch 7.21 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-721-notes
+Patch 7.23 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-723-notes

@@ -1,11 +1,11 @@
-Saludos, invocadores.
-[⁣](https://youtu.be/R_oLGsz6xOQ)
-Os damos la bienvenida a la versión 7.21, la última antes de la pretemporada. Se avecinan grandes cambios que transformarán el juego, así que esta versión es algo más pequeña. Dicho esto, nos centramos en casos particulares y realizamos cambios al estilo de juego de algunos campeones.
+¡Hola a todos!
 
-Algunos tanques, como Galio, Sejuani y Rammus, cuentan con demasiada efectividad básica, así que vamos a reducirla y, en el caso de Galio, aumentar su progresión. También les echamos un ojo a dos colosos, Udyr y Urgot, para ofrecerles mejores condiciones de final de partida. Por último, vamos a ajustar algunos objetos que han dominado el panorama (hola, Incensario ardiente) y otros que no se ven desde hace un tiempo.
+¡La pretemporada va a toda máquina! Después de implementar los cambios de equilibrio más urgentes en una actualización de mitad de versión poco después del lanzamiento de las runas reforjadas, traemos unos no tan urgentes para la 7.23. A partir de ahora, los cambios de equilibrio volverán a la normalidad (es decir, que no nos centraremos solo en el poder puro con cambios en las estadísticas básicas). Hemos hablado sobre nuestra filosofía para el equilibrio de las runas en la pretemporada en los foros (en inglés), así que, si esta introducción no os es suficiente, echadle un vistazo. Estamos teniendo mucho cuidado ahora que es el momento de experimentar y estamos deseando ver el resultado de todas estas probaturas.
 
-La siguiente versión incluirá las runas reforjadas y, con ellas, un montón de cambios, pero, por ahora, disfrutad de la última versión de la temporada 7.
+Dejando aparte el equilibrio, hemos ajustado las curvas de experiencia a partir del nivel 30 y la recompensa de la primera victoria del día debido a vuestros comentarios. Saber qué pensáis es muy importante para nosotros, ¡así que seguid enviando vuestras opiniones! También llegan varias características que los jugadores llevan pidiendo desde hace mucho tiempo: la pestaña de aspectos, poder ver como espectador partidas del nivel Aspirante y una gran actualización del sitio web sobre información del juego.
 
-Un saludo,
+Sería una negligencia no mencionar también la llegada de la nueva gamberra de League of Legends. Zoe aparecerá en la Grieta en la versión 7.23 y, con ella, ¡pensar con portales será una realidad! Estad atentos cuando Zoe esté en partida, porque viene a romper esquemas.
 
-Notas de la Versión 7.21 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-721
+¡GL, HF!
+
+Notas de la Versión 7.23 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-723

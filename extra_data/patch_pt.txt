@@ -1,11 +1,11 @@
-Saudações, Invocadoras e Invocadores.
+Fala, galera!
 
-Boas-vindas à Atualização 7.21, a última antes da pré-temporada começar a todo vapor. Temos muitas mudanças uma atrás da outra que vão dar uma agitada no jogo, então essa atualização vai ser um pouco menor. Dito isso, nós vamos focar em alguns pontos fora da curva e tentar fazer algumas mudanças no estilo de jogo de alguns Campeões.
+A pré-temporada está aí a todo vapor! Depois de lançar as mudanças de balanceamento mais urgentes em uma Atualização Intermediária logo após o lançamento das Runas Reforjadas, agora temos mais algumas (não tão urgentes) na 7.23. A partir de agora, vamos começar a voltar ao nosso trabalho normal de balanceamento (ou seja: indo além do poder puro e das mudanças nos atributos base). Discutimos a nossa filosofia de balanceamento das runas na pré-temporada nos nossos fóruns, então se esta introdução não foi suficiente, dê uma olhadinha lá! Estamos tendo bastante cuidado neste tempo de experimentação e mal podemos esperar para ver o que vai sair dessa teorização toda.
 
-Alguns tanques (Galio, Sejuani e Rammus) estão desfrutando de muita eficácia nos atributos base. Nós vamos dar uma reduzida nisso e, no caso do Galio, fazer com que ele precise escalar mais. Também daremos uma olhada em dois Colossos (Udyr e Urgot) e tentaremos fazer com que eles tenham um fim de jogo mais consistente. E por último, vamos ajustar alguns itens que estão, há tempos, ou dominando o cenário (né, Turíbulo Ardente?) ou deixando a desejar.
+Além do balanceamento das coisas, ajustamos as curvas de EXP pós-nível 30 e a recompensa da missão de Primeira Vitória do Dia com base no seu feedback. Ouvir as suas ideias é extremamente importante para nós, então continuem mandando! Nesta atualização, também vamos incluir alguns recursos que já estão sendo pedidos há bastante tempo: a aba de skins, a possibilidade de assistir a partidas Desafiantes e cerca de um ano inteiro de atualizações no site de informações de jogo!
 
-A próxima Atualização trará as Runas Reforjadas e, junto com elas, já virão muitas mudanças, mas por enquanto aproveite para curtir a última Atualização da Temporada 7!
+E claro que não dá para deixar de mencionar a mais nova deusa travessa do League: Zoe, que na atualização 7.23 vai chegar ao Rift e fazer você pensar com portais! Mas tenham cuidado: quando a Zoe estiver na área, as coisas não vão funcionar como vocês esperam.
 
-Até mais.
+GLHF,
 
-Notas da Atualização 7.21 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-721
+Notas da Atualização 7.23 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-723
