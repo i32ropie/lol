@@ -1,11 +1,9 @@
-Siemanko mistrzowie,
+Witajcie, Przywoływacze!
 
-przedsezon trwa w najlepsze! Dokonawszy najpilniejszych zmian w aktualizacji patcha krótko po wprowadzeniu zrekonstruowanych run, mamy parę (nie-aż-tak) pilnych zmian w 7.23. Od teraz zaczniemy powracać do normalnego wyważania (czytaj: nie skupiamy się tylko na sile, kiedy zmieniamy podstawowe statystyki). Powiedzieliśmy co nieco o naszej filozofii wyważania run na naszych forach (odnośnik po angielsku), więc jeśli ten wstęp to dla was za mało, przeczytajcie tamten wpis! Jesteśmy super ostrożni w tym czasie eksperymentów i jednocześnie bardzo ciekawi tego, co wyjdzie z tego całego teoretyzowania.
+Nadszedł czas na pierwszy patch nowego sezonu, czyli mamy ostatnią szansę na wprowadzenie zmian, zanim sezon się zacznie! Wprowadziliśmy już dodatkowego patcha (7.24b), by uporządkować stan przedsezonu podczas świątecznej przerwy, więc ten patch jest o wiele mniejszy niż zwykle.
 
-Poza sprawami wyważenia poprawiliśmy krzywą PD po 30. poziomie i misję „Pierwsza wygrana dnia”, opierając się na waszych uwagach. Słuchanie waszych opinii jest dla nas bardzo ważne, więc dzielcie się z nami każdym pomysłem! Zajęliśmy się również paroma pojawiającymi się od dawna prośbami dotyczącymi funkcji. Zakładka ze skórkami, możliwość oglądania Pretendentów i aktualizacja strony z informacjami o grze zostaną wprowadzone w tym patchu!
-
-Wypada jeszcze wspomnieć o najnowszej psotnicy League. W patchu 7.23 na Summoner’s Rift pojawi się Zoe, więc będziecie musieli zacząć myśleć pozaportalowo! Bądźcie uważni, będąc w grze z Zoe — nigdy nie wiadomo, co się może stać.
+Drabinka rankingowa resetuje się wraz z nadejściem tego patcha — do zobaczenia na meczach rozstawiających. Do tego mamy jeszcze parę aktualizacji systemu honoru, które mają na celu nagradzanie honorowych graczy za pomocą fantastycznych łupów!
 
 Dobrej zabawy i powodzenia!
 
-Opis patcha 7.23 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-723
+Opis patcha 8.1 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-81

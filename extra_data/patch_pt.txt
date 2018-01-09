@@ -1,11 +1,9 @@
-Fala, galera!
+Saudações, Invocadoras e Invocadores.
 
-A pré-temporada está aí a todo vapor! Depois de lançar as mudanças de balanceamento mais urgentes em uma Atualização Intermediária logo após o lançamento das Runas Reforjadas, agora temos mais algumas (não tão urgentes) na 7.23. A partir de agora, vamos começar a voltar ao nosso trabalho normal de balanceamento (ou seja: indo além do poder puro e das mudanças nos atributos base). Discutimos a nossa filosofia de balanceamento das runas na pré-temporada nos nossos fóruns, então se esta introdução não foi suficiente, dê uma olhadinha lá! Estamos tendo bastante cuidado neste tempo de experimentação e mal podemos esperar para ver o que vai sair dessa teorização toda.
+Esta é a primeira Atualização da nova temporada, o que significa que é nossa última chance de fazer alterações antes que a temporada comece! Já tivemos uma Atualização extra (7.24b) para finalizar a pré-temporada antes do nosso recesso de fim de ano, então esta Atualização será bem menor do que o normal.
 
-Além do balanceamento das coisas, ajustamos as curvas de EXP pós-nível 30 e a recompensa da missão de Primeira Vitória do Dia com base no seu feedback. Ouvir as suas ideias é extremamente importante para nós, então continuem mandando! Nesta atualização, também vamos incluir alguns recursos que já estão sendo pedidos há bastante tempo: a aba de skins, a possibilidade de assistir a partidas Desafiantes e cerca de um ano inteiro de atualizações no site de informações de jogo!
+O placar das Ranqueadas será zerado nesta Atualização, então preparem-se para conquistar suas novas colocações. Além disso, o sistema de Honra sofrerá algumas atualizações para recompensar os jogadores mais honrados com ótimos espólios!
 
-E claro que não dá para deixar de mencionar a mais nova deusa travessa do League: Zoe, que na atualização 7.23 vai chegar ao Rift e fazer você pensar com portais! Mas tenham cuidado: quando a Zoe estiver na área, as coisas não vão funcionar como vocês esperam.
+GLHF!
 
-GLHF,
-
-Notas da Atualização 7.23 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-723
+Notas da Atualização 8.1 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-81

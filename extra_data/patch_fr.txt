@@ -1,10 +1,8 @@
-Bonjour à tous !
+Bonjour, invocateurs !
 
-La présaison bat son plein ! Les problèmes d'équilibrage les plus urgents ayant été traités dans une mise à jour qui a eu lieu peu après le lancement des Runes reforgées, le patch 7.23 est l'occasion de nous occuper d'autres problèmes un peu moins urgents. À compter de maintenant, nous allons reprendre une méthode d'équilibrage plus classique (comprenez : en ne nous concentrant pas seulement sur les caractéristiques de base pour régler les problèmes). Nous avons déjà détaillé notre approche de l'équilibrage des runes pour la présaison sur le forum, alors n'hésitez pas à lire cet article si cette introduction ne vous suffit pas ! Nous restons très prudents en cette période d'expérimentation, et nous sommes très impatients de voir ce qui va en ressortir en termes de theorycrafting.
+Voici le premier patch de la nouvelle saison, et c'est notre dernière chance d'apporter des modifications avant le début de la saison compétitive ! Nous avions déjà ajouté un patch supplémentaire (7.24b) pour finaliser la présaison avant les vacances de fin d'année, et c'est la raison pour laquelle celui-ci est un peu moins lourd que d'habitude.
 
-En dehors des questions d'équilibrage, après avoir bien lu tous vos commentaires, nous avons modifié les courbes d'expérience après le niveau 30 et la récompense de la première victoire du jour. Savoir ce que vous pensez est très important pour nous, alors continuez de nous donner vos avis ! Nous profitons aussi de ce patch pour répondre à des demandes formulées il y a longtemps : un onglet pour les skins, la possibilité de regarder les matchs des joueurs du palier Challenger et une grosse mise à jour de la section Infos jeu sur notre site Internet !
-
-Pour finir, n'oublions pas de mentionner la nouvelle championne espiègle qui rejoint League of Legends. Zoé débarque dans la Faille avec le patch 7.23, et ses portails vont faire sensation ! Méfiez-vous quand Zoé sera de la partie, car les choses ne se passeront pas toujours comme vous le pensez.
+Les classements sont réinitialisés avec cette mise à jour et c'est l'occasion pour vous de repartir d'un bon pied. Pour accompagner le tout, nous avons apporté quelques mises à jour au système d'Honneur, afin de récompenser les joueurs honorables en leur offrant de jolis cadeaux !
 
 Bonne chance et amusez-vous bien !
 
