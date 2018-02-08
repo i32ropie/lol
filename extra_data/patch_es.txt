@@ -1,9 +1,13 @@
 Saludos, invocadores.
-[⁣](https://youtu.be/jLi4xGPtZ10)
-Esta es la primera versión de la nueva temporada, lo que significa que es nuestra última oportunidad para realizar cambios antes de que comience la temporada. Ya tuvimos una versión extra (7.24b) para poner a punto la pretemporada antes de las vacaciones de Navidad, así que esta versión es bastante más pequeña de lo habitual.
 
-Las clasificatorias se reinician con esta versión. ¡Nos vemos en los posicionamientos! Además, traemos algunas actualizaciones del sistema de honor diseñadas para recompensar a los jugadores honorables con botín del bueno.
+Os damos la bienvenida a las notas de la versión 8.3, en la que Swain recibe un lustroso kit actualizado. Unos cuantos campeones han estado dando la nota, pero no porque sean los más fuertes, sino porque son los que más aptitudes abarcan, así que vamos a definir sus debilidades para darles a los rivales más formas de contrarrestarlos.
+
+Y luego están los típicos campeones que se sirven de los ataques básicos. Maestro Yi y Tryndamere han tenido un año complicado, así que vamos a darles un poco más de daño para ayudarlos a ganar algo de protagonismo. No pretendemos corregir todos los problemas que tienen de una vez, solo hacer que sean menos débiles.
+
+Por último, vamos a bajar del pedestal a los tiradores y campeones de mid que más destacan. Hay unos cuantos que se juegan más que otros y algunos viejos favoritos que han desaparecido prácticamente del mapa.
+
+Así que agarrad el brazo demoníaco de Noxus, recordad que más vale cuervo en mano que ciento volando y salid a la Grieta a aplastar a vuestros enemigos.
 
 ¡GL, HF!
 
-Notas de la Versión 8.1 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-81
+Notas de la Versión 8.3 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-83

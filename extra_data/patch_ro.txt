@@ -1,9 +1,13 @@
-Salutare, invocatori!
+Salutare, invocatori,
 
-Acesta este primul patch al noului sezon, deci e ultima noastră șansă de a introduce schimbări înainte să înceapă acțiunea! Prin 7.24b, am introdus deja ultimele modificări din presezon înainte de vacanța de iarnă, deci 8.1 e mai mic decât v-ați aștepta.
+Bun venit la patch-ul 8.3, cel în care Swain primește un set nou-nouț de abilități. În ultima vreme, câțiva campioni au ieșit în evidență, nu neapărat pentru că sunt cei mai puternici, ci deoarece sunt buni la toate. Drept urmare, le accentuăm slăbiciunile pentru a le oferi adversarilor moduri mai clare de a-i contracara.
 
-Odată cu lansarea acestui patch, vom reseta și clasamentul ranked, așa că vă urăm mult succes în meciurile de plasament! Apropo, sistemul de ''Onoare'' a primit câteva actualizări și acum le va oferi jucătorilor onorabili niște recompense tari de tot!
+Unii din campionii clasici care folosesc atacuri de bază au și ei probleme. Master Yi și Tryndamere au avut un an dificil, așa că le mărim daunele pentru a-i ajuta să devină mai relevanți. Nu intenționăm să le rezolvăm toate problemele în patch-ul de față, ci doar să le creștem puțin puterea.
 
-GLHF!
+În plus, ne vom uita și la țintașii și campionii pentru culoarul de mijloc care ies din tipare în ultima vreme. Unii dintre ei sunt aleși mult prea des în detrimentul celorlalți, iar alții, care erau odată favoriți, au ajuns să nu mai fie în joc aproape deloc.
 
-Notele patch-ului 8.1 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-81
+Sunteți pregătiți? Atunci luați-vă brațul demonic, zburați pe aripile corbilor, intrați în Rift și zdrobiți-vă adversarii!
+
+GLHF,
+
+Notele patch-ului 8.3 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-83

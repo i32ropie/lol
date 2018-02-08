@@ -1,9 +1,13 @@
-Witajcie, Przywoływacze!
+Witajcie, przywoływacze.
 
-Nadszedł czas na pierwszy patch nowego sezonu, czyli mamy ostatnią szansę na wprowadzenie zmian, zanim sezon się zacznie! Wprowadziliśmy już dodatkowego patcha (7.24b), by uporządkować stan przedsezonu podczas świątecznej przerwy, więc ten patch jest o wiele mniejszy niż zwykle.
+Witajcie w patchu 8.3, w którym Swain dostanie lśniący, zaktualizowany zestaw umiejętności. Paru bohaterów ostatnio wyróżnia się niekoniecznie dlatego, że są najsilniejszymi bohaterami, ale dlatego, że dobrze sobie radzą pod każdym względem, więc uwypuklamy ich słabości, by dać przeciwnikom więcej pola na dobrze przemyślaną kontrę.
 
-Drabinka rankingowa resetuje się wraz z nadejściem tego patcha — do zobaczenia na meczach rozstawiających. Do tego mamy jeszcze parę aktualizacji systemu honoru, które mają na celu nagradzanie honorowych graczy za pomocą fantastycznych łupów!
+Należy też wspomnieć o kultowych postaciach, posługujących się głównie atakami podstawowymi. Master Yi i Tryndamere mają za sobą ciężki rok, więc dajemy im trochę więcej obrażeń, by poprawić ich stan. Tym razem naszym zamiarem nie jest naprawienie wszystkich ich problemów — chcemy tylko sprawić, żeby nie byli tak słabi.
+
+Na koniec wgryzamy się w problemy najbardziej odstających środkowych i prowadzących. Znajdziecie tutaj paru świetnych bohaterów, bijących innych na łeb, ale też kilku starych ulubieńców, którzy czasy świetności mają za sobą.
+
+Złapcie zatem za noxiańską rękę demona, zobaczcie kruka cień i wybierzcie się na Summoner’s Rift, by miażdżyć przeciwników.
 
 Dobrej zabawy i powodzenia!
 
-Opis patcha 8.1 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-81
+Opis patcha 8.3 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-83

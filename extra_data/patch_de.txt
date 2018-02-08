@@ -1,9 +1,13 @@
 Sei gegrüßt, Beschwörer.
 
-Der erste Patch der Saison ist hier und damit unsere letzte Chance, Änderungen vor Beginn der neuen Saison vorzunehmen! Wir hatten schon einen zusätzlichen Patch (7.24b), um vor den Feiertagen die Vorsaison abzurunden, also ist der aktuelle Patch kleiner als üblich.
+Willkommen bei Patch 8.3, in dem Swain mit einem schicken, aktualisierten Fähigkeitenset zur Front stößt. Einige Champions stechen nicht unbedingt als die stärksten heraus, sondern weil sie Alleskönner sind. Deswegen heben wir ihre beabsichtigten Schwächen deutlicher hervor, um den Gegnern ein bewussteres Konterspiel zu ermöglichen.
 
-Die Rangliste wird mit diesem Patch zurückgesetzt, also mach dich auf die Platzierungsspiele gefasst. Dazu passend gibt es ein paar Aktualisierungen beim Ehrungssystem, das ehrenhafte Spieler mit schicker Beute belohnt!
+Dann haben wir noch unsere Pappenheimer-Champions, die hauptsächlich normale Angriffe benutzen. Master Yi und Tryndamere hatten ein ziemlich hartes Jahr. Wir wollen sie wieder relevanter machen, indem wir ihren Schaden etwas erhöhen. Natürlich können wir heute nicht all ihre Probleme abdecken, aber sie sollten auf jeden Fall etwas zulegen.
 
-GLHF!
+Zu guter Letzt kümmern wir uns noch um einige Ausreißer bei den Mid-Lanern und Schützen. Momentan gibt es einige Spitzenkandidaten, die andere einfach übertreffen, und ein paar ehemalige Favoriten, die stark in Ungnade gefallen sind.
 
-Patchnotizen 8.1 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-81
+Schwinge deinen noxianischen Dämonenarm, denke daran, dass der Vogel immer noch den Takt angibt, und vernichte deine Gegner in der Kluft.
+
+GLHF
+
+Patchnotizen 8.3 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-83

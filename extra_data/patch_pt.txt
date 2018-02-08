@@ -1,9 +1,13 @@
 Saudações, Invocadoras e Invocadores.
 
-Esta é a primeira Atualização da nova temporada, o que significa que é nossa última chance de fazer alterações antes que a temporada comece! Já tivemos uma Atualização extra (7.24b) para finalizar a pré-temporada antes do nosso recesso de fim de ano, então esta Atualização será bem menor do que o normal.
+Boas-vindas à Atualização 8.3, aquela em que o Swain ganha um kit novinho em folha. Alguns Campeões têm se destacado não exatamente por serem os mais fortes, mas por serem os mais generalistas. Assim, vamos refinar suas fraquezas para dar aos oponentes oportunidades de contra-ataques mais deliberados.
 
-O placar das Ranqueadas será zerado nesta Atualização, então preparem-se para conquistar suas novas colocações. Além disso, o sistema de Honra sofrerá algumas atualizações para recompensar os jogadores mais honrados com ótimos espólios!
+Há também os nossos mais famosos atacantes básicos: Master Yi e Tryndamere têm tido um ano difícil, então vamos dar a eles um pouco mais de dano para deixá-los mais relevantes. Nossa intenção por enquanto não é corrigir todos os problemas deles de uma só vez, e sim deixá-los um pouco menos fracos.
 
-GLHF!
+Por fim, vamos mexer nos pontos fora da curva entre os atiradores e os Campeões da rota do meio. Há alguns Campeões populares que estão sendo muito melhores do que os outros em sua classe, assim como alguns antigos favoritos que agora estão pegando poeira.
 
-Notas da Atualização 8.1 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-81
+Agora pegue seu braço demoníaco e seus passarinhos trevosos e dirija-se ao Rift para assolar os seus inimigos.
+
+GLHF,
+
+Notas da Atualização 8.3 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-83

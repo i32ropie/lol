@@ -1,9 +1,13 @@
 Bonjour, invocateurs !
 
-Voici le premier patch de la nouvelle saison, et c'est notre dernière chance d'apporter des modifications avant le début de la saison compétitive ! Nous avions déjà ajouté un patch supplémentaire (7.24b) pour finaliser la présaison avant les vacances de fin d'année, et c'est la raison pour laquelle celui-ci est un peu moins lourd que d'habitude.
+Bienvenue dans le patch 8.3, celui qui signe l'arrivée d'un tout nouveau kit flambant neuf pour Swain. Quelques champions sont récemment sortis du lot, mais pas tant parce que ce sont les plus forts que parce qu'ils sont plus généralistes que les autres. Nous affûtons donc leurs faiblesses pour que leurs adversaires aient davantage de chances de les contrer.
 
-Les classements sont réinitialisés avec cette mise à jour et c'est l'occasion pour vous de repartir d'un bon pied. Pour accompagner le tout, nous avons apporté quelques mises à jour au système d'Honneur, afin de récompenser les joueurs honorables en leur offrant de jolis cadeaux !
+Parlons ensuite de nos deux célèbres fanatiques du clic droit. Maître Yi et Tryndamere connaissent un début d'année difficile, alors nous augmentons aujourd'hui un peu leurs dégâts pour qu'ils se sentent plus utiles. Nous n'allons pas régler tous leurs problèmes d'un coup avec ce patch, mais seulement leur permettre d'être moins faiblards.
 
-Bonne chance et amusez-vous bien !
+Pour finir, nous nous attaquons à quelques midlaners et tireurs : certains faisaient trop d'ombre à leurs homologues et d'autres n'étaient clairement pas à leur avantage.
 
-Notes de patch 7.19 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-719
+Maintenant, c'est l'heure de déployer vos ailes et d'aller écraser les ennemis de Noxus de votre main démoniaque.
+
+GLHF,
+
+Notes de patch 8.3 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-83
