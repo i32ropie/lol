@@ -1,8 +1,8 @@
 /RekSai: 487 RP
-/Varus: 440 RP
-/Gragas: 395 RP
-/LeBlanc: 395 RP
-/Nidalee_3: 260 RP
-/Lulu_2: 487 RP
-/Yorick_2: 487 RP
-/Fiddlesticks_8: 675 RP
+/Zyra: 440 RP
+/Anivia: 395 RP
+/Brand: 440 RP
+/Nocturne_3: 260 RP
+/Hecarim_6: 375 RP
+/Mordekaiser_4: 487 RP
+/Ivern_1: 675 RP
