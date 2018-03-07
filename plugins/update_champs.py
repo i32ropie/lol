@@ -45,31 +45,31 @@ def command_update_champs_1(m):
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_en.json": static_get_champion_list(
-                    region='euw',
+                    region='na',
                     locale='en_US',
                     champ_data=['all'],
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_it.json": static_get_champion_list(
-                    region='euw',
+                    region='eune',
                     locale='it_IT',
                     champ_data=['all'],
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_de.json": static_get_champion_list(
-                    region='euw',
+                    region='na',
                     locale='de_DE',
                     champ_data=['all'],
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_fr.json": static_get_champion_list(
-                    region='euw',
+                    region='eune',
                     locale='fr_FR',
                     champ_data=['all'],
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_ro.json": static_get_champion_list(
-                    region='euw',
+                    region='eune',
                     locale='ro_RO',
                     champ_data=['all'],
                     data_by_id=False,
@@ -127,7 +127,7 @@ def command_update_champs_2(m):
         try:
             aux = {
                 "champs_pl.json": static_get_champion_list(
-                    region='euw',
+                    region='na',
                     locale='pl_PL',
                     champ_data=['all'],
                     data_by_id=False,
@@ -139,25 +139,25 @@ def command_update_champs_2(m):
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_el.json": static_get_champion_list(
-                    region='euw',
+                    region='na',
                     locale='el_GR',
                     champ_data=['all'],
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_ru.json": static_get_champion_list(
-                    region='euw',
+                    region='na',
                     locale='ru_RU',
                     champ_data=['all'],
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_th.json": static_get_champion_list(
-                    region='euw',
+                    region='eune',
                     locale='th_TH',
                     champ_data=['all'],
                     data_by_id=False,
                     lol_api=lol_api)['data'],
                 "champs_tr.json": static_get_champion_list(
-                    region='euw',
+                    region='na',
                     locale='tr_TR',
                     champ_data=['all'],
                     data_by_id=False,
