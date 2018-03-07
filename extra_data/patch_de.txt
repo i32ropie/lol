@@ -1,13 +1,13 @@
 Sei gegrüßt, Beschwörer.
 
-Willkommen bei Patch 8.3, in dem Swain mit einem schicken, aktualisierten Fähigkeitenset zur Front stößt. Einige Champions stechen nicht unbedingt als die stärksten heraus, sondern weil sie Alleskönner sind. Deswegen heben wir ihre beabsichtigten Schwächen deutlicher hervor, um den Gegnern ein bewussteres Konterspiel zu ermöglichen.
+Willkommen bei Patch 8.5, der im Vergleich zum großen Patch 8.4 eher klein ausfällt. Allerdings kann dein Download etwas länger benötigen, da wir einige Aspekte im Spiel aktualisieren.
 
-Dann haben wir noch unsere Pappenheimer-Champions, die hauptsächlich normale Angriffe benutzen. Master Yi und Tryndamere hatten ein ziemlich hartes Jahr. Wir wollen sie wieder relevanter machen, indem wir ihren Schaden etwas erhöhen. Natürlich können wir heute nicht all ihre Probleme abdecken, aber sie sollten auf jeden Fall etwas zulegen.
+Jetzt aber zurück zum Gameplay! In diesem Patch konzentrieren wir uns auf ein paar Ausreißer in der Profi-Szene, von denen einige schon seit geraumer Zeit Probleme machen (Azir, Galio und Ryze). Nach den massiven Abschwächungen im letzten Patch wollen wir in diesem Patch außerdem Zoe wieder etwas aushelfen und ihr Stärke an Stellen zurückgeben, an denen es in unseren Augen auf lange Sicht Sinn ergibt.
 
-Zu guter Letzt kümmern wir uns noch um einige Ausreißer bei den Mid-Lanern und Schützen. Momentan gibt es einige Spitzenkandidaten, die andere einfach übertreffen, und ein paar ehemalige Favoriten, die stark in Ungnade gefallen sind.
+Seit der Vorsaison haben wir einigen Molochen (Skarner und Volibear) etwas unter die Arme gegriffen. Diese Änderungen haben jedoch dazu geführt, dass sie übermäßig dominant geworden sind. Mit diesem Patch versuchen wir jetzt einen gesunden Mittelweg zwischen ihrer alten und neuen Version.
 
-Schwinge deinen noxianischen Dämonenarm, denke daran, dass der Vogel immer noch den Takt angibt, und vernichte deine Gegner in der Kluft.
+Zu guter Letzt gibt es dann noch einen neuen Schützen in League of Legends, denn Kai’Sa betritt endlich die Kluft. Vergiss deinen Regenschirm nicht, denn wo die „Icathianische Salve“ niederhagelt, wächst kein Gras mehr.
 
 GLHF
 
-Patchnotizen 8.3 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-83
+Patchnotizen 8.5 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-85

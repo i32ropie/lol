@@ -1,13 +1,13 @@
 Saludos, invocadores.
 
-Os damos la bienvenida a las notas de la versión 8.3, en la que Swain recibe un lustroso kit actualizado. Unos cuantos campeones han estado dando la nota, pero no porque sean los más fuertes, sino porque son los que más aptitudes abarcan, así que vamos a definir sus debilidades para darles a los rivales más formas de contrarrestarlos.
+Os damos la bienvenida a la versión 8.5, la "pequeña" después de la 8.4 "grande". La descarga de esta versión es bastante grande, ya que vamos a actualizar algunos recursos del juego.
 
-Y luego están los típicos campeones que se sirven de los ataques básicos. Maestro Yi y Tryndamere han tenido un año complicado, así que vamos a darles un poco más de daño para ayudarlos a ganar algo de protagonismo. No pretendemos corregir todos los problemas que tienen de una vez, solo hacer que sean menos débiles.
+¡Volvamos a la experiencia de juego! En esta versión repasamos varios casos que están destacando en la escena profesional, algunos de los cuales llevan siendo problemáticos desde hace un tiempo (Azir, Galio y Ryze). También revisamos a Zoe tras las duras debilitaciones de la última versión. Le devolvemos poder donde creemos que debería ser más positivo a largo plazo.
 
-Por último, vamos a bajar del pedestal a los tiradores y campeones de mid que más destacan. Hay unos cuantos que se juegan más que otros y algunos viejos favoritos que han desaparecido prácticamente del mapa.
+Desde la pretemporada, les hemos dado más utilidad a un par de colosos (Skarner y Volibear), pero esos cambios los han dejado excesivamente fuertes. Volvemos a un punto medio entre su antiguo estado y su estado actual.
 
-Así que agarrad el brazo demoníaco de Noxus, recordad que más vale cuervo en mano que ciento volando y salid a la Grieta a aplastar a vuestros enemigos.
+Por último, llega a la Grieta la tiradora más nueva de League of Legends: Kai'Sa. Traed paraguas, hay pronóstico de Lluvia de Icathia.
 
 ¡GL, HF!
 
-Notas de la Versión 8.3 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-83
+Notas de la Versión 8.5 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-85

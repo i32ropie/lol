@@ -31,6 +31,7 @@ def command_update_champs_1(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
+        lol_api = extra['lol_api'] if len(m.text.split()) == 1 else m.text.split()[1]
         msg = bot.send_message(
             cid,
             "Descargando nuevas bases de datos de campeones:\n`-Español`\n`-Inglés`\n`-Italiano`\n`-Alemán`\n`-Francés`\n`-Rumano`",
@@ -41,32 +42,38 @@ def command_update_champs_1(m):
                     region='euw',
                     locale='es_ES',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_en.json": static_get_champion_list(
                     region='euw',
                     locale='en_US',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_it.json": static_get_champion_list(
                     region='euw',
                     locale='it_IT',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_de.json": static_get_champion_list(
                     region='euw',
                     locale='de_DE',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_fr.json": static_get_champion_list(
                     region='euw',
                     locale='fr_FR',
                     champ_data=['all'],
-                    data_by_id=False)['data'],
+                    data_by_id=False,
+                    lol_api=lol_api)['data'],
                 "champs_ro.json": static_get_champion_list(
                     region='euw',
                     locale='ro_RO',
                     champ_data=['all'],
-                    data_by_id=False)['data']
+                    data_by_id=False,
+                    lol_api=lol_api)['data']
             }
         except:
             # bot.send_message(cid, "Error descargando nuevas bases de datos.")

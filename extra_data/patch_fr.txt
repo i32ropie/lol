@@ -1,13 +1,13 @@
 Bonjour, invocateurs !
 
-Bienvenue dans le patch 8.3, celui qui signe l'arrivée d'un tout nouveau kit flambant neuf pour Swain. Quelques champions sont récemment sortis du lot, mais pas tant parce que ce sont les plus forts que parce qu'ils sont plus généralistes que les autres. Nous affûtons donc leurs faiblesses pour que leurs adversaires aient davantage de chances de les contrer.
+Bienvenue dans le patch 8.5, qui est plus petit que le précédent. Ce patch est malgré tout assez volumineux, car nous mettons à jour certains éléments techniques du jeu.
 
-Parlons ensuite de nos deux célèbres fanatiques du clic droit. Maître Yi et Tryndamere connaissent un début d'année difficile, alors nous augmentons aujourd'hui un peu leurs dégâts pour qu'ils se sentent plus utiles. Nous n'allons pas régler tous leurs problèmes d'un coup avec ce patch, mais seulement leur permettre d'être moins faiblards.
+Revenons-en au gameplay ! Avec ce patch, nous nous attaquons à quelques problèmes qui affectent la scène professionnelle, parfois même depuis un bon moment (Azir, Galio, Ryze). Nous nous occupons également de Zoé, qui a reçu de gros nerfs à l'occasion du précédent patch ; nous lui rendons cette fois de la puissance là où cela ne devrait pas créer de problèmes à long terme.
 
-Pour finir, nous nous attaquons à quelques midlaners et tireurs : certains faisaient trop d'ombre à leurs homologues et d'autres n'étaient clairement pas à leur avantage.
+Depuis la présaison, nous avons donné plus d'effets utilitaires à certains colosses (Skarner/Volibear), mais ces changements leur ont permis de beaucoup trop dominer le champ de bataille. Nous atténuons donc légèrement leurs nouvelles forces.
 
-Maintenant, c'est l'heure de déployer vos ailes et d'aller écraser les ennemis de Noxus de votre main démoniaque.
+Pour finir, League of Legends accueille un nouveau tireur dans ses rangs : Kai'Sa. Sortez les parapluies : Janna miss météo nous annonce une Pluie d'Icathia !
 
-GLHF,
+GHLF,
 
-Notes de patch 8.3 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-83
+Notes de patch 8.5 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-85

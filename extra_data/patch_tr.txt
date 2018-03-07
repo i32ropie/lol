@@ -1,13 +1,13 @@
-Selamlar sihirdarlar,
+Selam sihirdarlar,
 
-Swain'in yepyeni bir yetenek setine kavuştuğu 8.3 Yaması'na hoş geldiniz. Son zamanlarda birkaç şampiyon gerçekten öne çıkıyor ve bunun sebebi en güçlüler arasında olmaları yerine, genel anlamda birçok şeyi iyi yapmaları. Dolayısıyla sahip olmaları gereken zayıf noktaları biraz daha öne çıkararak rakiplerinin karşı oyun şansını arttırıyoruz.
+Büyük 8.4 Yaması'nın küçük kardeşi 8.5'e hoş geldiniz. Bazı oyun içi öğeleri güncellediğimizden, bu yama aslında büyük miktarda dosya indirmenizi gerektirecek.
 
-Tabii sembolleşmiş normal saldırı şampiyonlarımızı da unutmamak gerek. Master Yi ve Tryndamere zor bir yıl geçiriyor. Bu yüzden sahip oldukları hasarı biraz arttırarak onları daha geçerli seçimler haline getiriyoruz. Tabii şimdilik amacımız sahip oldukları bütün sorunları çözmek değil; yalnızca şu anki kadar zayıf hissetmemelerini sağlamak.
+Oynanışa geri dönmek gerekirse: Bu yamada profesyonel oyunların problem çocuklarını (Azir, Galio, Ryze) gözden geçiriyoruz. Ayrıca son yamadaki ağır değişikliklerin ardından Zoe'ye geri dönüyor; uzun vadede daha sağlıklı olacağını düşündüğümüz yönlerini yeniden güçlendiriyoruz.
 
-Son olarak, orta koridor ve nişancı şampiyonlar arasında ortaya çıkan bazı uç durumlara el atıyoruz. Diğerlerini tamamen gölgede bırakan bazı üst düzey seçimler bulunmasının yanında, eski favorilerden birkaçının gerçekten gözden düştüğü ortada.
+Sezon Öncesi Dönem'den beri bazı ezergeçerlerin (Skarner/Volibear) işlevselliğini epey arttırdık; ancak bu değişikliklerin onları aşırı derecede baskın hale getirdiği bir gerçek. Bu şampiyonları eski ve şu anki halleri arasında bir noktaya çekmeye çalışacağız.
 
-Bu yamada Noxus'lu iblis kolunuzu hazırlayın, sakın kuşlara uymayın ve Vadi'ye inip rakiplerinizi darmadağın edin.
+Son olarak League of Legends'ın en yeni nişancısı Kai'Sa bu yamada Vadi'ye ayak basıyor. Siper alın; çünkü Icathia Yaylımı başlamak üzere.
 
 Bol şans ve iyi eğlenceler,
 
-Demedi demeyin 8.3 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/83-yama-notlari
+Demedi demeyin 8.5 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/85-yama-notlari

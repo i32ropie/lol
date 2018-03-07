@@ -1,13 +1,13 @@
 Greetings, Summoners,
 
-Welcome to patch 8.3, the one where Swain gets a shiny, updated kit. A few champions have been standing out not necessarily because they're the strongest champions, but because they're the most generalist, so we're sharpening their intended weaknesses to give opponents more deliberate counterplay.
+Welcome to patch 8.5, the one that's the "small patch" to 8.4's "big patch". This patch is actually a large download, because we're updating some of our in-game assets.
 
-Then there's our iconic basic attackers. Master Yi and Tryndamere have been having a rough year, so we're giving them a bit more damage to help them be more relevant. We don’t intend to fix all of their problems this time around, just make them feel less weak.
+But back to gameplay! This patch we're taking a look at professional outliers, some of whom have been problem children for awhile now (Azir, Galio, Ryze). We're also revisiting Zoe after heavy nerfs last patch, giving her power back in places we think should be healthier in the long run.
 
-Finally, we're gnawing at the outliers of mid and marksman rosters. There are a few top picks that outclass the others, and some old favorites who have fallen heavily out of favor.
+Then, we've given a couple of juggernauts (Skarner/Volibear) more utility since preseason, but those changes have left them overly dominant. We're dialing back to a middle ground in between their old state and their current state.
 
-So grab your Noxian demon arm, remember that the bird is the word, and get out on the Rift and crush your enemies.
+Finally, League of Legends newest marksman, Kai'Sa, is setting foot on the Rift. Bring an umbrella: the forecast calls for Icathian Rain.
 
-GLHF,
+GHLF,
 
-Patch 8.3 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-83-notes
+Patch 8.5 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-85-notes

@@ -1,13 +1,13 @@
-Witajcie, przywoływacze.
+Czołem, Przywoływacze!
 
-Witajcie w patchu 8.3, w którym Swain dostanie lśniący, zaktualizowany zestaw umiejętności. Paru bohaterów ostatnio wyróżnia się niekoniecznie dlatego, że są najsilniejszymi bohaterami, ale dlatego, że dobrze sobie radzą pod każdym względem, więc uwypuklamy ich słabości, by dać przeciwnikom więcej pola na dobrze przemyślaną kontrę.
+Witajcie w patchu 8.5, który jest „małym bratem” patcha 8.4. Ten patch ma dość duży rozmiar, ponieważ aktualizujemy niektóre z naszych plików gry.
 
-Należy też wspomnieć o kultowych postaciach, posługujących się głównie atakami podstawowymi. Master Yi i Tryndamere mają za sobą ciężki rok, więc dajemy im trochę więcej obrażeń, by poprawić ich stan. Tym razem naszym zamiarem nie jest naprawienie wszystkich ich problemów — chcemy tylko sprawić, żeby nie byli tak słabi.
+Pomówmy jednak o rozgrywce! W tym patchu przyglądamy się najbardziej wyróżniającym się na scenie profesjonalnej bohaterom. Niektórzy z nich sprawiają problemy już od dłuższego czasu (Azir, Galio, Ryze). Ponownie zajmujemy się również Zoe po mocnych osłabieniach z zeszłego patcha i przywracamy jej moc w miejscach, które na dłuższą metę powinny przynieść zdrowsze rezultaty.
 
-Na koniec wgryzamy się w problemy najbardziej odstających środkowych i prowadzących. Znajdziecie tutaj paru świetnych bohaterów, bijących innych na łeb, ale też kilku starych ulubieńców, którzy czasy świetności mają za sobą.
+Daliśmy również paru molochom (Skarnerowi i Volibearowi) więcej użyteczności od przedsezonu, ale w ten sposób sprawiliśmy, że stali się zbyt dominujący. Usprawniamy te zmiany tak, żeby znaleźli się mniej więcej w połowie między ich dawnym a obecnym stanem.
 
-Złapcie zatem za noxiańską rękę demona, zobaczcie kruka cień i wybierzcie się na Summoner’s Rift, by miażdżyć przeciwników.
+A na koniec — najnowszy strzelec w League of Legends, Kai’Sa, postawi stopę na Summoner’s Rift. Pamiętajcie o parasolach, bo prognozy zapowiadają Icathiański Deszcz.
 
 Dobrej zabawy i powodzenia!
 
-Opis patcha 8.3 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-83
+Opis patcha 8.5 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-85

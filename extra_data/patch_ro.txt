@@ -1,13 +1,13 @@
 Salutare, invocatori,
 
-Bun venit la patch-ul 8.3, cel în care Swain primește un set nou-nouț de abilități. În ultima vreme, câțiva campioni au ieșit în evidență, nu neapărat pentru că sunt cei mai puternici, ci deoarece sunt buni la toate. Drept urmare, le accentuăm slăbiciunile pentru a le oferi adversarilor moduri mai clare de a-i contracara.
+Bun venit la patch-ul 8.5, care teoretic e ''patch-ul mic'' după ''patch-ul mare'' 8.4. Însă, deoarece actualizăm o parte din conținutul din joc, vine la pachet cu o cantitate mare de date ce trebuie descărcate.
 
-Unii din campionii clasici care folosesc atacuri de bază au și ei probleme. Master Yi și Tryndamere au avut un an dificil, așa că le mărim daunele pentru a-i ajuta să devină mai relevanți. Nu intenționăm să le rezolvăm toate problemele în patch-ul de față, ci doar să le creștem puțin puterea.
+Așa. Să revenim la gameplay! În acest patch, ne ocupăm de campionii care ies din tipare în mediul profesionist, mai ales că unii dintre ei ne tot fac probleme de ceva timp încoace (Azir, Galio, Ryze). De asemenea, ne întoarcem la Zoe după nerf-urile dure din ultimul patch și îi redăm o parte din forță în anumite situații, într-un fel care ar trebui s-o ajute să funcționeze mai bine pe termen lung.
 
-În plus, ne vom uita și la țintașii și campionii pentru culoarul de mijloc care ies din tipare în ultima vreme. Unii dintre ei sunt aleși mult prea des în detrimentul celorlalți, iar alții, care erau odată favoriți, au ajuns să nu mai fie în joc aproape deloc.
+După presezon, le-am oferit unor titani (lui Skarner și lui Volibear) mai multă utilitate, dar cei doi au început să domine prea tare datorită acesteia. Drept urmare, am încercat să găsim o cale de mijloc între starea lor anterioară și cea curentă.
 
-Sunteți pregătiți? Atunci luați-vă brațul demonic, zburați pe aripile corbilor, intrați în Rift și zdrobiți-vă adversarii!
+Nu în ultimul rând, cel mai nou țintaș din League of Legends, Kai'Sa, va face primii pași în Rift. Nu vă uitați umbrelele acasă, ne așteaptă un ''Potop icathian''.
 
-GLHF,
+GHLF,
 
-Notele patch-ului 8.3 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-83
+Notele patch-ului 8.5 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-85
