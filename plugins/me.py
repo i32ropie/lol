@@ -44,18 +44,65 @@ def command_m(m):
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return
         if summoner and region:
-            bot.send_message(
-                cid,
-                get_summoner_info(
-                    summoner,
-                    region,
-                    cid),
-                parse_mode="Markdown")
+            if not is_admin(cid):
+                bot.send_message(
+                    cid,
+                    get_summoner_info(
+                        summoner,
+                        region,
+                        cid),
+                    parse_mode="Markdown")
+            else:
+                bot.send_message(
+                    cid,
+                    get_summoner_info_2(
+                        summoner,
+                        region,
+                        cid),
+                    parse_mode="Markdown")
         else:
             bot.send_message(cid, responses['me_error'][lang(cid)])
     else:
         bot.send_message(cid, responses['not_user'])
 
+def get_summoner_info_2(invocador, region, cid):
+    try:
+        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
+    except:
+        txt = responses['summoner_error'][
+            lang(cid)] % (invocador, region.upper())
+        return txt
+    lattest_version = static_versions()
+    icon_id = summoner['profileIconId']
+    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
+        lattest_version, icon_id)
+    summoner_name = summoner['name']
+    summoner_id = summoner['id']
+    lolking = "http://www.lolking.net/summoner/" + \
+        region + "/" + str(summoner_id)
+    summoner_level = summoner['summonerLevel']
+    if summoner_level > 29:
+        url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
+        params = {'api_key': extra['lol_api']}
+        r = requests.get(url, params)
+        if r.status_code != 200:
+            txt = "ERROR EN LÍNEA 89 DE me.py"
+            return txt
+        r_json = r.json()
+        if not r_json:
+            return "CONTROLAR USUARIO SIN RANKEDS"
+        if len(r_json) == 1:
+            aux = {r_json[0]['queueType']:r_json[0]}
+        else:
+            aux = {r_json[x]['queueType']:r_json[x] for x in len(r_json)}
+        txt = ""
+        for x in aux:
+            txt += "\n*SoloQ*" if x == "RANKED_SOLO_5x5" else "*FlexQ*" if x == "RANKED_FLEX_SR" else x
+            txt += "\n\tLiga: {} {}".format(responses['tier'][lang(cid)][[aux][x]['tier']], aux[x]['rank'])
+            txt += "\n\tVictorias: {}".format(aux[x]['wins'])
+            txt += "\n\tDerrotas: {}".format(aux[x]['losses'])
+            txt += "\n\nPuntos de liga: {}".format(aux[x]['leaguePoints'])
+        return txt
 
 def get_summoner_info(invocador, region, cid):
     try:
@@ -73,29 +120,6 @@ def get_summoner_info(invocador, region, cid):
     lolking = "http://www.lolking.net/summoner/" + \
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
-    # try:
-    #     partidas = lol_api.get_stat_summary(
-    #         summoner_id, region=update_region(region), season=None)
-    # except:
-    #     txt = "Error with RIOT servers :("
-    #     bot.send_message(
-    #         52033876,
-    #         "Error obteniendo información de <{}> en <{}> | {}".format(
-    #             summoner_name,
-    #             region,
-    #             cid))
-    #     return txt
-    # if 'playerStatSummaries' in partidas:
-    #     for data in partidas['playerStatSummaries']:
-    #         if data['playerStatSummaryType'] == player_stat_summary_types[0]:
-    #             normals = data
-    #             wins5 = str(normals['wins'])
-    #         elif data['playerStatSummaryType'] == player_stat_summary_types[1]:
-    #             v3 = data
-    #             wins3 = str(v3['wins'])
-    #         elif data['playerStatSummaryType'] == player_stat_summary_types[3]:
-    #             arams = data
-    #             winsA = str(arams['wins'])
     if 'wins5' not in locals():
         wins5 = '-'
     if 'wins3' not in locals():
@@ -103,11 +127,6 @@ def get_summoner_info(invocador, region, cid):
     if 'winsA' not in locals():
         winsA = '-'
     if summoner_level == 30:
-        # try:
-        #     rankeds = lol_api.get_league(
-        #         summoner_ids=[summoner_id], region=update_region(region))
-        # except:
-        #     pass
         if 'rankeds' in locals():
             if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
                 for x in rankeds[str(summoner_id)][0]['entries']:
@@ -170,8 +189,6 @@ def get_summoner_info(invocador, region, cid):
 
 
 def get_3_best_champs(summonerId, region, cid):
-    # url = 'https://{}.api.pvp.net/championmastery/location/{}/player/{}/topchampions'.format(
-    #     region.lower(), platform[region], summonerId)
     url = 'https://{}.api.riotgames.com/lol/champion-mastery/v3/champion-masteries/by-summoner/{}'.format(
         update_region(region.lower()), summonerId)
     params = {
