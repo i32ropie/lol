@@ -1411,18 +1411,18 @@
         "ar":"[⁣](%s)*الاسم*: [%s](%s)\n*المستوى*: _%s_\n\n*المباريات العادية:\n\t5v5 wins*: _%s_\n\t*3v3 wins*: _%s_\n\t*Aram wins*: _%s_"
     },
     "summoner<30_2":{
-        "es":"*Nombre*: [%s](%s)\n*Nivel*: _%s_\n*Campeón*: _%s_",
-        "en":"*Name*: [%s](%s)\n*Level*: _%s_\n*Champion*: _%s_",
-        "it":"*Nome*: [%s](%s)\n*Livello*: _%s_\n*Campione*: _%s_",
-        "de":"*Name*: [%s](%s)\n*Stufe*: _%s_\n*Champion*: _%s_",
-        "pt":"*Nome*: [%s](%s)\n*Nível*: _%s_\n*Campeão*: _%s_",
-        "fr":"*Nom*: [%s](%s)\n*Niveau*: _%s_\n*Champion*: _%s_",
-        "fa":"*اسم*: [%s](%s)\n*لِوِل*: _%s_\n*چمپیون*: _%s_",
-        "pl":"*Imię*: [%s](%s)\n*Level*: _%s_\n*Bohater*: _%s_",
-        "tr":"*İsim*: [%s](%s)\n*Seviye*: _%s_\n*Şampiyon*: _%s_",
-        "ro":"*Nume*: [%s](%s)\n*Nivel*: _%s_\n*Campion*: _%s_",
-        "ru":"*Имя*: [%s](%s)\n*Уровень*: _%s_\n*Чемпион*: _%s_",
-        "ar":"*الاسم*: [%s](%s)\n*المستوى*: _%s_\n*الشخصية*: _%s_"
+        "es":"*Nombre*: [{}]({})\n*Nivel*: _{}_\n*Campeón*: _{}_",
+        "en":"*Name*: [{}]({})\n*Level*: _{}_\n*Champion*: _{}_",
+        "it":"*Nome*: [{}]({})\n*Livello*: _{}_\n*Campione*: _{}_",
+        "de":"*Name*: [{}]({})\n*Stufe*: _{}_\n*Champion*: _{}_",
+        "pt":"*Nome*: [{}]({})\n*Nível*: _{}_\n*Campeão*: _{}_",
+        "fr":"*Nom*: [{}]({})\n*Niveau*: _{}_\n*Champion*: _{}_",
+        "fa":"*اسم*: [{}]({})\n*لِوِل*: _{}_\n*چمپیون*: _{}_",
+        "pl":"*Imię*: [{}]({})\n*Level*: _{}_\n*Bohater*: _{}_",
+        "tr":"*İsim*: [{}]({})\n*Seviye*: _{}_\n*Şampiyon*: _{}_",
+        "ro":"*Nume*: [{}]({})\n*Nivel*: _{}_\n*Campion*: _{}_",
+        "ru":"*Имя*: [{}]({})\n*Уровень*: _{}_\n*Чемпион*: _{}_",
+        "ar":"*الاسم*: [{}]({})\n*المستوى*: _{}_\n*الشخصية*: _{}_"
     },
     "summoner_30":{
         "es":"[⁣](%s)*Nombre*: [%s](%s)\n*Nivel*: _%s_\n\n*Partidas normales:\n\tVictorias 5c5*: _%s_\n\t*Victorias 3c3*: _%s_\n\t*Victorias Aram*: _%s_\n\n*Partidas clasifactorias:\n\tLiga*: _%s_ _%s_\n\t*Victorias*: _%s_\n\t*Derrotas*: _%s_\n\t*Winrate*: _%s_\n\t*Puntos de liga*: _%s_",

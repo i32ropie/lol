@@ -285,16 +285,12 @@ def get_summoner_info(invocador, region, champion, cid):
         txt = responses['summoner_error'][
             lang(cid)] % (invocador, region.upper())
         return txt
-    lattest_version = static_versions()
-    icon_id = summoner['profileIconId']
-    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
-        lattest_version, icon_id)
     summoner_name = summoner['name']
     summoner_id = summoner['id']
     lolking = "http://www.lolking.net/summoner/" + \
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
-    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
+    txt = responses['summoner<30_2'][lang(cid)].format(summoner_name, lolking, summoner_level, champion)
     return txt
 
 # def get_summoner_info_2(invocador, region, champion, cid):
