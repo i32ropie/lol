@@ -44,7 +44,7 @@ def command_m(m):
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return
         if summoner and region:
-            if not is_admin(cid):
+            if not is_beta(cid):
                 bot.send_message(
                     cid,
                     get_summoner_info(
