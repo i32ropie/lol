@@ -1453,18 +1453,18 @@
         "ar":"[⁣]({})*الاسم*: [{}]({})\n*المستوى*: _{}_\n\n_"
     },
     "summoner_30_beta_2":{
-        "es":"*{}\n\tLiga*: _{}_ _{}_\n\t*Victorias*: _{}_\n\t*Derrotas*: _{}_\n\t*Winrate*: _{}_\n\t*Puntos de liga*: _{}_",
-        "en":"*{}\n\tLeague*: _{}_ _{}_\n\t*Wins*: _{}_\n\t*Defeats*: _{}_\n\t*Winrate*: _{}_\n\t*League points*: _{}_",
-        "it":"*{}\n\tLega: _{}_ _{}_\n\t*Vittorie*: _{}_\n\t*Sconfitte*: _{}_\n\t*WinRate*: _{}_\n\t*Punti lega*: _{}_",
-        "de":"*{}\n\tLiga*: _{}_ _{}_\n\t*Siege*: _{}_\n\t*Niederlagen*: _{}_\n\t*Siegesquote*: _{}_\n\t*Ligapunkte*: _{}_",
-        "pt":"*{}\n\tLiga*: _{}_ _{}_\n\t*Vitórias*: _{}_\n\t*Derrotas*: _{}_\n\t*Porcentagem de vitórias*: _{}_\n\t*Pontos de Liga*: _{}_",
-        "fr":"*{}\n\tLigue*: _{}_ _{}_\n\t*Victoires*: _{}_\n\t*Défaites*: _{}_\n\t*RatioVictoires*: _{}_\n\t*Ligue points*: _{}_",
-        "fa":"*{}\n\tلیگ*: _{}_ _{}_\n\t*بردها*: _{}_\n\t*باخت ها*: _{}_\n\t*درصد پیروزی*: _{}_\n\t*امتیاز لیگ*: _{}_",
-        "pl":"*{}\n\tLiga*: _{}_ _{}_\n\t*Wygrane*: _{}_\n\t*Przegrane*: _{}_\n\t*Winrate*: _{}_\n\t*Punkty ligowe*: _{}_",
-        "tr":"*{}\n\tLig*: _{}_ _{}_\n\t*Zaferler*: _{}_\n\t*Yenilgiler*: _{}_\n\t*Kazanma oranı*: _{}_\n\t*Lig puanı*: _{}_",
-        "ro":"*{}\n\tLigă*: _{}_ _{}_\n\t*Câștiguri*: _{}_\n\t*Pierderi*: _{}_\n\t*Procent câștiguri*: _{}_\n\t*Puncte ligă*: _{}_",
-        "ru":"*{}\n\tЛига*: _{}_ _{}_\n\t*Побед*: _{}_\n\t*Поражений*: _{}_\n\t*Винрейт*: _{}_\n\t*Очки лиги*: _{}_",
-        "ar":"*{}\n\tالمرتبة*: _{}_ _{}_\n\t*عدد الانتصارات*: _{}_\n\t*عدد الخسارات*: _{}_\n\t*نسبة الفوز*: _{}_\n\t*نقاط القِسم*: _{}_"
+        "es":"*{}\n\tLiga*: _{}_ _{}_\n\t*Victorias*: _{}_\n\t*Derrotas*: _{}_\n\t*Puntos de liga*: _{}_",
+        "en":"*{}\n\tLeague*: _{}_ _{}_\n\t*Wins*: _{}_\n\t*Defeats*: _{}_\n\t*League points*: _{}_",
+        "it":"*{}\n\tLega: _{}_ _{}_\n\t*Vittorie*: _{}_\n\t*Sconfitte*: _{}_\n\t*Punti lega*: _{}_",
+        "de":"*{}\n\tLiga*: _{}_ _{}_\n\t*Siege*: _{}_\n\t*Niederlagen*: _{}_\n\t*Ligapunkte*: _{}_",
+        "pt":"*{}\n\tLiga*: _{}_ _{}_\n\t*Vitórias*: _{}_\n\t*Derrotas*: _{}_\n\t*Porcentagem *Pontos de Liga*: _{}_",
+        "fr":"*{}\n\tLigue*: _{}_ _{}_\n\t*Victoires*: _{}_\n\t*Défaites*: _{}_\n\t*Ligue points*: _{}_",
+        "fa":"*{}\n\tلیگ*: _{}_ _{}_\n\t*بردها*: _{}_\n\t*باخت ها*: _{}_\n\t*امتیاز لیگ*: _{}_",
+        "pl":"*{}\n\tLiga*: _{}_ _{}_\n\t*Wygrane*: _{}_\n\t*Przegrane*: _{}_\n\t*Punkty ligowe*: _{}_",
+        "tr":"*{}\n\tLig*: _{}_ _{}_\n\t*Zaferler*: _{}_\n\t*Yenilgiler*: _{}_\n\t*Lig puanı*: _{}_",
+        "ro":"*{}\n\tLigă*: _{}_ _{}_\n\t*Câștiguri*: _{}_\n\t*Pierderi*: _{}_\n\t*Puncte ligă*: _{}_",
+        "ru":"*{}\n\tЛига*: _{}_ _{}_\n\t*Побед*: _{}_\n\t*Поражений*: _{}_\n\t*Очки лиги*: _{}_",
+        "ar":"*{}\n\tالمرتبة*: _{}_ _{}_\n\t*عدد الانتصارات*: _{}_\n\t*عدد الخسارات*: _{}_\n\t*نقاط القِسم*: _{}_"
     },
     "summoner_30_2":{
         "es":"*Nombre*: [%s](%s)\n*Liga*: _%s_ _%s_\n*Winrate*: _%s_\n*Campeón*: _%s_",
