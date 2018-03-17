@@ -44,22 +44,29 @@ def command_m(m):
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return
         if summoner and region:
-            if not is_beta(cid):
-                bot.send_message(
-                    cid,
-                    get_summoner_info(
-                        summoner,
-                        region,
-                        cid),
-                    parse_mode="Markdown")
-            else:
-                bot.send_message(
-                    cid,
-                    get_summoner_info_2(
-                        summoner,
-                        region,
-                        cid),
-                    parse_mode="Markdown")
+            # if not is_beta(cid):
+            #     bot.send_message(
+            #         cid,
+            #         get_summoner_info(
+            #             summoner,
+            #             region,
+            #             cid),
+            #         parse_mode="Markdown")
+            # else:
+            #     bot.send_message(
+            #         cid,
+            #         get_summoner_info_2(
+            #             summoner,
+            #             region,
+            #             cid),
+            #         parse_mode="Markdown")
+            bot.send_message(
+                cid,
+                get_summoner_info_2(
+                    summoner,
+                    region,
+                    cid),
+                parse_mode="Markdown")
         else:
             bot.send_message(cid, responses['me_error'][lang(cid)])
     else:
@@ -110,92 +117,92 @@ def get_summoner_info_2(invocador, region, cid):
                 txt += '\n\n*' + responses['best_champs'][lang(cid)] + '*:'
                 for x, y in bst.items():
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
-        except:
-            pass
+        except Exception as e:
+            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
 
-def get_summoner_info(invocador, region, cid):
-    try:
-        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
-    except:
-        txt = responses['summoner_error'][
-            lang(cid)] % (invocador, region.upper())
-        return txt
-    lattest_version = static_versions()
-    icon_id = summoner['profileIconId']
-    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
-        lattest_version, icon_id)
-    summoner_name = summoner['name']
-    summoner_id = summoner['id']
-    lolking = "http://www.lolking.net/summoner/" + \
-        region + "/" + str(summoner_id)
-    summoner_level = summoner['summonerLevel']
-    if 'wins5' not in locals():
-        wins5 = '-'
-    if 'wins3' not in locals():
-        wins3 = '-'
-    if 'winsA' not in locals():
-        winsA = '-'
-    if summoner_level == 30:
-        if 'rankeds' in locals():
-            if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
-                for x in rankeds[str(summoner_id)][0]['entries']:
-                    if str(x['playerOrTeamId']) == str(summoner_id):
-                        info = x
-                        break
-                division = info['division']
-                liga = responses['tier'][
-                    lang(cid)][
-                    rankeds[
-                        str(summoner_id)][0]['tier']]
-                victorias = str(info['wins'])
-                derrotas = str(info['losses'])
-                v1 = float(victorias)
-                d1 = float(derrotas)
-                w1 = int((v1 / (v1 + d1)) * 100)
-                winrate = str(w1).replace('.', '\'') + "%"
-                lp = str(info['leaguePoints'])
-            else:
-                liga = 'Unranked'
-                division = ''
-                victorias = '-'
-                derrotas = '-'
-                winrate = '-'
-                lp = '-'
-        else:
-            liga = 'Unranked'
-            division = ''
-            victorias = '-'
-            derrotas = '-'
-            winrate = '-'
-            lp = '-'
-        txt = responses['summoner_30'][
-            lang(cid)] % (icon_url,
-                          summoner_name,
-                          lolking,
-                          summoner_level,
-                          wins5,
-                          wins3,
-                          winsA,
-                          liga,
-                          division,
-                          victorias,
-                          derrotas,
-                          winrate,
-                          lp)
-    else:
-        txt = responses['summoner<30'][lang(cid)] % (
-            icon_url, summoner_name, lolking, summoner_level, wins5, wins3, winsA)
-    txt = '\n'.join(txt.split('\n')[:2])
-    try:
-        bst = get_3_best_champs(summoner['id'], region, cid)
-        if bst:
-            txt += '\n\n' + responses['best_champs'][lang(cid)] + ':'
-            for x, y in bst.items():
-                txt += '\n- ' + x + ' _(Level: ' + y + ')_'
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    return txt
+# def get_summoner_info(invocador, region, cid):
+#     try:
+#         summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
+#     except:
+#         txt = responses['summoner_error'][
+#             lang(cid)] % (invocador, region.upper())
+#         return txt
+#     lattest_version = static_versions()
+#     icon_id = summoner['profileIconId']
+#     icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
+#         lattest_version, icon_id)
+#     summoner_name = summoner['name']
+#     summoner_id = summoner['id']
+#     lolking = "http://www.lolking.net/summoner/" + \
+#         region + "/" + str(summoner_id)
+#     summoner_level = summoner['summonerLevel']
+#     if 'wins5' not in locals():
+#         wins5 = '-'
+#     if 'wins3' not in locals():
+#         wins3 = '-'
+#     if 'winsA' not in locals():
+#         winsA = '-'
+#     if summoner_level == 30:
+#         if 'rankeds' in locals():
+#             if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
+#                 for x in rankeds[str(summoner_id)][0]['entries']:
+#                     if str(x['playerOrTeamId']) == str(summoner_id):
+#                         info = x
+#                         break
+#                 division = info['division']
+#                 liga = responses['tier'][
+#                     lang(cid)][
+#                     rankeds[
+#                         str(summoner_id)][0]['tier']]
+#                 victorias = str(info['wins'])
+#                 derrotas = str(info['losses'])
+#                 v1 = float(victorias)
+#                 d1 = float(derrotas)
+#                 w1 = int((v1 / (v1 + d1)) * 100)
+#                 winrate = str(w1).replace('.', '\'') + "%"
+#                 lp = str(info['leaguePoints'])
+#             else:
+#                 liga = 'Unranked'
+#                 division = ''
+#                 victorias = '-'
+#                 derrotas = '-'
+#                 winrate = '-'
+#                 lp = '-'
+#         else:
+#             liga = 'Unranked'
+#             division = ''
+#             victorias = '-'
+#             derrotas = '-'
+#             winrate = '-'
+#             lp = '-'
+#         txt = responses['summoner_30'][
+#             lang(cid)] % (icon_url,
+#                           summoner_name,
+#                           lolking,
+#                           summoner_level,
+#                           wins5,
+#                           wins3,
+#                           winsA,
+#                           liga,
+#                           division,
+#                           victorias,
+#                           derrotas,
+#                           winrate,
+#                           lp)
+#     else:
+#         txt = responses['summoner<30'][lang(cid)] % (
+#             icon_url, summoner_name, lolking, summoner_level, wins5, wins3, winsA)
+#     txt = '\n'.join(txt.split('\n')[:2])
+#     try:
+#         bst = get_3_best_champs(summoner['id'], region, cid)
+#         if bst:
+#             txt += '\n\n' + responses['best_champs'][lang(cid)] + ':'
+#             for x, y in bst.items():
+#                 txt += '\n- ' + x + ' _(Level: ' + y + ')_'
+#     except Exception as e:
+#         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+#     return txt
 
 
 def get_3_best_champs(summonerId, region, cid):
