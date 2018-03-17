@@ -95,9 +95,9 @@ def get_summoner_info_2(invocador, region, cid):
             aux = {r_json[0]['queueType']:r_json[0]}
         else:
             aux = {r_json[x]['queueType']:r_json[x] for x in len(r_json)}
-        txt = "[⁣]({})*Nombre*: [{}]({})\n*Nivel*: _{}_\n\n".format(icon_url, summoner_name, lolking, summoner_level)
+        txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
         for x in aux:
-            txt += "*{}*\n\t*Liga*: _{}_ _{}_\n\t*Victorias*: _{}_\n\t*Derrotas*: _{}_\n\t*Puntos de liga*: _{}_".format(
+            txt += responses['summoner_30_beta_2'][lang(cid)].format(
                         "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,
                         responses['tier'][lang(cid)][aux[x]['tier']],
                         aux[x]['rank'],
@@ -107,7 +107,7 @@ def get_summoner_info_2(invocador, region, cid):
         try:
             bst = get_3_best_champs(summoner['id'], region, cid)
             if bst:
-                txt += '\n\n' + responses['best_champs'][lang(cid)] + ':'
+                txt += '\n\n*' + responses['best_champs'][lang(cid)] + '*:'
                 for x, y in bst.items():
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except:
