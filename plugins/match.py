@@ -101,10 +101,6 @@ def match_info(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        # if not is_beta(cid):
-        #     if cid < 0:
-        #         bot.send_message(cid, responses['private'][lang(cid)])
-        #         return None
         invocador = ' '.join(m.text.split(' ')[1:])
         cmd = m.text.lstrip('/').split(' ')[0].split('@')[0]
         region = cmd.split('_')[1]
@@ -136,7 +132,6 @@ def match_info(m):
         '#oce'])
 def query_summoner(q):
     cid = q.from_user.id
-    # if is_beta(cid):
     if is_banned(cid):
         return None
     invocador = q.query.split(None, 1)[1]
@@ -218,12 +213,6 @@ def get_match_info(invocador, region, cid, inline=False):
                     lang(cid)] %
                 (invocador, region.upper()), parse_mode="Markdown")
         return None
-    # campeones = lol_api.static_get_champion_list(
-    #     region=region,
-    #     locale=locales[
-    #         lang(cid)],
-    #     champ_data='altimages',
-    #     data_by_id=True)['data']
     campeones = data['keys']
     summoner_name = summoner['name']
     summoner_id = summoner['id']
@@ -292,53 +281,3 @@ def get_summoner_info(invocador, region, champion, cid):
     summoner_level = summoner['summonerLevel']
     txt = responses['summoner<30_2'][lang(cid)].format(summoner_name, lolking, summoner_level, champion)
     return txt
-
-# def get_summoner_info_2(invocador, region, champion, cid):
-#     try:
-#         summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
-#     except:
-#         txt = responses['summoner_error'][
-#             lang(cid)] % (invocador, region.upper())
-#         return txt
-#     summoner_name = summoner['name']
-#     summoner_id = summoner['id']
-#     lolking = "http://www.lolking.net/summoner/" + \
-#         region + "/" + str(summoner_id)
-#     summoner_level = summoner['summonerLevel']
-#     # if summoner_level == 30:
-#     #     # try:
-#     #     #     rankeds = lol_api.get_league(
-#     #     #         summoner_ids=[summoner_id], region=update_region(region))
-#     #     # except:
-#     #     #     pass
-#     #     if 'rankeds' in locals():
-#     #         if rankeds[str(summoner_id)][0]['queue'] == "RANKED_SOLO_5x5":
-#     #             for x in rankeds[str(summoner_id)][0]['entries']:
-#     #                 if str(x['playerOrTeamId']) == str(summoner_id):
-#     #                     info = x
-#     #                     break
-#     #             division = info['division']
-#     #             liga = responses['tier'][
-#     #                 lang(cid)][
-#     #                 rankeds[
-#     #                     str(summoner_id)][0]['tier']]
-#     #             victorias = str(info['wins'])
-#     #             derrotas = str(info['losses'])
-#     #             v1 = float(victorias)
-#     #             d1 = float(derrotas)
-#     #             w1 = int((v1 / (v1 + d1)) * 100)
-#     #             winrate = str(w1).replace('.', '\'') + "%"
-#     #         else:
-#     #             liga = 'Unranked'
-#     #             division = ''
-#     #             winrate = '-'
-#     #     else:
-#     #         liga = 'Unranked'
-#     #         division = ''
-#     #         winrate = '-'
-#     #     txt = responses['summoner_30_2'][lang(cid)] % (
-#     #         summoner_name, lolking, liga, division, winrate, champion)
-#     # else:
-#     txt = responses['summoner<30_2'][lang(cid)] % (
-#         summoner_name, lolking, summoner_level, champion)
-#     return txt
