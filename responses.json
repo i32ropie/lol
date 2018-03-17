@@ -1457,7 +1457,7 @@
         "en":"\n\n*{}\n\tLeague*: _{}_ _{}_\n\t*Wins*: _{}_\n\t*Defeats*: _{}_\n\t*League points*: _{}_",
         "it":"\n\n*{}\n\tLega: _{}_ _{}_\n\t*Vittorie*: _{}_\n\t*Sconfitte*: _{}_\n\t*Punti lega*: _{}_",
         "de":"\n\n*{}\n\tLiga*: _{}_ _{}_\n\t*Siege*: _{}_\n\t*Niederlagen*: _{}_\n\t*Ligapunkte*: _{}_",
-        "pt":"\n\n*{}\n\tLiga*: _{}_ _{}_\n\t*Vitórias*: _{}_\n\t*Derrotas*: _{}_\n\t*Porcentagem *Pontos de Liga*: _{}_",
+        "pt":"\n\n*{}\n\tLiga*: _{}_ _{}_\n\t*Vitórias*: _{}_\n\t*Derrotas*: _{}_\n\t*Pontos de Liga*: _{}_",
         "fr":"\n\n*{}\n\tLigue*: _{}_ _{}_\n\t*Victoires*: _{}_\n\t*Défaites*: _{}_\n\t*Ligue points*: _{}_",
         "fa":"\n\n*{}\n\tلیگ*: _{}_ _{}_\n\t*بردها*: _{}_\n\t*باخت ها*: _{}_\n\t*امتیاز لیگ*: _{}_",
         "pl":"\n\n*{}\n\tLiga*: _{}_ _{}_\n\t*Wygrane*: _{}_\n\t*Przegrane*: _{}_\n\t*Punkty ligowe*: _{}_",
