@@ -98,7 +98,7 @@ def get_summoner_info_2(invocador, region, cid):
         txt = ""
         for x in aux:
             txt += "\n*SoloQ*" if x == "RANKED_SOLO_5x5" else "*FlexQ*" if x == "RANKED_FLEX_SR" else x
-            txt += "\n\tLiga: {} {}".format(responses['tier'][lang(cid)][[aux][x]['tier']], aux[x]['rank'])
+            txt += "\n\tLiga: {} {}".format(responses['tier'][lang(cid)][aux[x]['tier']], aux[x]['rank'])
             txt += "\n\tVictorias: {}".format(aux[x]['wins'])
             txt += "\n\tDerrotas: {}".format(aux[x]['losses'])
             txt += "\n\nPuntos de liga: {}".format(aux[x]['leaguePoints'])
