@@ -257,26 +257,91 @@ def get_match_info(invocador, region, cid, inline=False):
                 rojo[str(jugadores['summonerName'])] = 'Taliyah'
     txt += responses['match_blue'][lang(cid)] % (partida['gameMode'])
     for a, b in azul.items():
-        txt += '\n\n' + get_summoner_info_2(
-            invocador=a,
-            region=update_region(region),
-            champion=b,
-            cid=cid
-        )
+        if not is_admin(cid):
+            txt += '\n\n' + get_summoner_info_2(
+                invocador=a,
+                region=update_region(region),
+                champion=b,
+                cid=cid
+            )
+        else:
+            txt += '\n\n' + get_summoner_info_3(
+                invocador=a,
+                region=update_region(region),
+                champion=b,
+                cid=cid
+            )
     txt += '\n\n' + responses['match_red'][lang(cid)]
     for a, b in rojo.items():
-        txt += '\n\n' + get_summoner_info_2(
-            invocador=a,
-            region=update_region(region),
-            champion=b,
-            cid=cid
-        )
+        if not is_admin(cid):
+            txt += '\n\n' + get_summoner_info_2(
+                invocador=a,
+                region=update_region(region),
+                champion=b,
+                cid=cid
+            )
+        else:
+            txt += '\n\n' + get_summoner_info_3(
+                invocador=a,
+                region=update_region(region),
+                champion=b,
+                cid=cid
+            )
     if inline:
         return txt
     else:
         bot.send_message(cid, txt, parse_mode="Markdown",
                          disable_web_page_preview=True)
 
+
+def get_summoner_info_3(invocador, region, champion, cid):
+    try:
+        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
+    except:
+        txt = responses['summoner_error'][
+            lang(cid)] % (invocador, region.upper())
+        return txt
+    lattest_version = static_versions()
+    icon_id = summoner['profileIconId']
+    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
+        lattest_version, icon_id)
+    summoner_name = summoner['name']
+    summoner_id = summoner['id']
+    lolking = "http://www.lolking.net/summoner/" + \
+        region + "/" + str(summoner_id)
+    summoner_level = summoner['summonerLevel']
+    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
+    if summoner_level > 29:
+        url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
+        params = {'api_key': extra['lol_api']}
+        r = requests.get(url, params)
+        if r.status_code != 200:
+            txt = "ERROR EN LÍNEA 89 DE me.py"
+            return txt
+        r_json = r.json()
+        if not r_json:
+            aux = {}
+        if len(r_json) == 1:
+            aux = {r_json[0]['queueType']:r_json[0]}
+        else:
+            aux = {x['queueType']:x for x in r_json}
+        for x in aux:
+            txt += responses['summoner_30_beta_2'][lang(cid)].format(
+                        "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,
+                        responses['tier'][lang(cid)][aux[x]['tier']],
+                        aux[x]['rank'],
+                        aux[x]['wins'],
+                        aux[x]['losses'],
+                        aux[x]['leaguePoints'])
+        try:
+            bst = get_3_best_champs(summoner['id'], region, cid)
+            if bst:
+                txt += '\n\n*' + responses['best_champs'][lang(cid)] + '*:'
+                for x, y in bst.items():
+                    txt += '\n- ' + x + ' _(Level: ' + y + ')_'
+        except Exception as e:
+            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    return txt
 
 def get_summoner_info_2(invocador, region, champion, cid):
     try:
