@@ -86,9 +86,9 @@ def summoner_info(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        invocador = ' '.join(m.text.split(' ')[1:])
+        summoner = ' '.join(m.text.split(' ')[1:])
         region = m.text.lstrip('/').split(' ')[0].split('@')[0].lower()
-        if not invocador:
+        if not summoner:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['no_summoner'][
@@ -96,13 +96,29 @@ def summoner_info(m):
                 (region), parse_mode="Markdown")
         else:
             bot.send_chat_action(cid, 'typing')
-            bot.send_message(
-                cid,
-                get_summoner_info(
-                    invocador,
-                    region,
-                    cid),
-                parse_mode="Markdown")
+            if not is_beta(cid):
+                bot.send_message(
+                    cid,
+                    get_summoner_info(
+                        summoner,
+                        region,
+                        cid),
+                    parse_mode="Markdown")
+            else:
+                bot.send_message(
+                    cid,
+                    get_summoner_info_2(
+                        summoner,
+                        region,
+                        cid),
+                    parse_mode="Markdown")
+            # bot.send_message(
+            #     cid,
+            #     get_summoner_info(
+            #         invocador,
+            #         region,
+            #         cid),
+            #     parse_mode="Markdown")
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
@@ -172,6 +188,54 @@ def query_summoner(q):
             thumb_url='http://i.imgur.com/IRTLKz4.jpg')
         bot.answer_inline_query(q.id, [aux], cache_time=1)
 
+def get_summoner_info_2(invocador, region, cid):
+    try:
+        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
+    except:
+        txt = responses['summoner_error'][
+            lang(cid)] % (invocador, region.upper())
+        return txt
+    lattest_version = static_versions()
+    icon_id = summoner['profileIconId']
+    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
+        lattest_version, icon_id)
+    summoner_name = summoner['name']
+    summoner_id = summoner['id']
+    lolking = "http://www.lolking.net/summoner/" + \
+        region + "/" + str(summoner_id)
+    summoner_level = summoner['summonerLevel']
+    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
+    if summoner_level > 29:
+        url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
+        params = {'api_key': extra['lol_api']}
+        r = requests.get(url, params)
+        if r.status_code != 200:
+            txt = "ERROR EN LÍNEA 89 DE me.py"
+            return txt
+        r_json = r.json()
+        if not r_json:
+            aux = {}
+        if len(r_json) == 1:
+            aux = {r_json[0]['queueType']:r_json[0]}
+        else:
+            aux = {x['queueType']:x for x in r_json}
+        for x in aux:
+            txt += responses['summoner_30_beta_2'][lang(cid)].format(
+                        "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,
+                        responses['tier'][lang(cid)][aux[x]['tier']],
+                        aux[x]['rank'],
+                        aux[x]['wins'],
+                        aux[x]['losses'],
+                        aux[x]['leaguePoints'])
+        try:
+            bst = get_3_best_champs(summoner['id'], region, cid)
+            if bst:
+                txt += '\n\n*' + responses['best_champs'][lang(cid)] + '*:'
+                for x, y in bst.items():
+                    txt += '\n- ' + x + ' _(Level: ' + y + ')_'
+        except:
+            pass
+    return txt
 
 def get_summoner_info(invocador, region, cid):
     try:
