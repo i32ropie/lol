@@ -1,8 +1,8 @@
-/RekSai: 487 RP
-/Zyra: 440 RP
-/Anivia: 395 RP
-/Brand: 440 RP
-/Nocturne_3: 260 RP
-/Hecarim_6: 375 RP
-/Mordekaiser_4: 487 RP
-/Ivern_1: 675 RP
+/Taliyah: 487 RP
+/Malzahar: 440 RP
+/Kassadin: 395 RP
+/Zed: 440 RP
+/Ashe_2: 260 RP
+/Jayce_4: 375 RP
+/Jinx_1: 487 RP
+/Kennen_4: 487 RP

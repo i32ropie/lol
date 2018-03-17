@@ -95,7 +95,7 @@ def get_summoner_info_2(invocador, region, cid):
         if len(r_json) == 1:
             aux = {r_json[0]['queueType']:r_json[0]}
         else:
-            aux = {r_json[x]['queueType']:r_json[x] for x in len(r_json)}
+            aux = {x['queueType']:x for x in r_json}
         for x in aux:
             txt += responses['summoner_30_beta_2'][lang(cid)].format(
                         "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,

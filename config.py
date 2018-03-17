@@ -211,11 +211,7 @@ def to_json(m):
 
 
 def static_versions():
-    url = "https://euw1.api.riotgames.com/lol/static-data/v3/versions"
-    try:
-        return requests.get(url, {'api_key': extra['lol_api']}).json()[0]
-    except:
-        return '7.14.1'
+    return '8.5.2'
 
 
 base_regions = {'euw': 'euw1',
