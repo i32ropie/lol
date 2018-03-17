@@ -110,6 +110,8 @@ def get_summoner_info_2(invocador, region, cid):
                 txt += '\n\n' + responses['best_champs'][lang(cid)] + ':'
                 for x, y in bst.items():
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
+        except:
+            pass
         return txt
 
 def get_summoner_info(invocador, region, cid):
