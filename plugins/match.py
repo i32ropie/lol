@@ -283,7 +283,7 @@ def get_match_info(invocador, region, cid, inline=False):
         else:
             txt += '\n\n' + get_summoner_info_3(
                 invocador=a,
-                region=update_region(region),
+                region=region,
                 champion=b,
                 cid=cid
             )
@@ -311,36 +311,6 @@ def get_summoner_info_3(invocador, region, champion, cid):
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
     txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
-    if summoner_level > 29:
-        url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
-        params = {'api_key': extra['lol_api']}
-        r = requests.get(url, params)
-        if r.status_code != 200:
-            txt = "ERROR EN LÍNEA 89 DE me.py"
-            return txt
-        r_json = r.json()
-        if not r_json:
-            aux = {}
-        if len(r_json) == 1:
-            aux = {r_json[0]['queueType']:r_json[0]}
-        else:
-            aux = {x['queueType']:x for x in r_json}
-        for x in aux:
-            txt += responses['summoner_30_beta_2'][lang(cid)].format(
-                        "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,
-                        responses['tier'][lang(cid)][aux[x]['tier']],
-                        aux[x]['rank'],
-                        aux[x]['wins'],
-                        aux[x]['losses'],
-                        aux[x]['leaguePoints'])
-        try:
-            bst = get_3_best_champs(summoner['id'], region, cid)
-            if bst:
-                txt += '\n\n*' + responses['best_champs'][lang(cid)] + '*:'
-                for x, y in bst.items():
-                    txt += '\n- ' + x + ' _(Level: ' + y + ')_'
-        except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
 
 def get_summoner_info_2(invocador, region, champion, cid):
