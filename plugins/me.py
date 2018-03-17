@@ -81,6 +81,7 @@ def get_summoner_info_2(invocador, region, cid):
     lolking = "http://www.lolking.net/summoner/" + \
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
+    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
     if summoner_level > 29:
         url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
         params = {'api_key': extra['lol_api']}
@@ -90,12 +91,11 @@ def get_summoner_info_2(invocador, region, cid):
             return txt
         r_json = r.json()
         if not r_json:
-            return "CONTROLAR USUARIO SIN RANKEDS"
+            aux = {}
         if len(r_json) == 1:
             aux = {r_json[0]['queueType']:r_json[0]}
         else:
             aux = {r_json[x]['queueType']:r_json[x] for x in len(r_json)}
-        txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
         for x in aux:
             txt += responses['summoner_30_beta_2'][lang(cid)].format(
                         "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,
@@ -112,7 +112,7 @@ def get_summoner_info_2(invocador, region, cid):
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except:
             pass
-        return txt
+    return txt
 
 def get_summoner_info(invocador, region, cid):
     try:
