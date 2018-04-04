@@ -75,7 +75,7 @@ userStep = dict()
 
 
 def is_recent(m):
-    return (time.time() - m.date) < 5
+    return (time.time() - m.date) < 60
 
 
 def is_banned(uid):
