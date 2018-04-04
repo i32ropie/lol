@@ -1,13 +1,11 @@
-Salve, evocatori!
+Salve evocatori!
 
-Benvenuti nella patch 8.5, la "piccola patch" dopo la "grossa patch" della 8.4. Si tratta in realtà di un grande download, a causa dell'aggiornamento di alcuni asset di gioco.
+Benvenuti nella patch 8.7, quella in cui nerfiamo Irelia. Scusate, mi dicono che è quella in cui aggiorniamo Irelia. La danzatrice delle lame più amata dai giocatori torna nella Landa con un nuovo modello e un nuovo kit.
 
-Ma torniamo al gameplay! In questa patch ci occupiamo dei casi limite per definizione, e alcuni di essi ci hanno dato dei grattacapi per diverso tempo (Azir, Galio, Ryze). Torniamo anche su Zoe dopo i pesanti nerf della scorsa patch, restituendole potenza in modo che sia più sana in ottica futura.
+Diamo seguito anche alle modifiche a Lama crepuscolare della scorsa patch, occupandoci degli assassini che ne hanno risentito più (o meno) di quanto ci aspettassimo.
 
-Abbiamo dato più utilità a due colossi (Skarner/Volibear), dalla prestagione, ma le modifiche li hanno resi troppo dominanti. Torniamo a una via di mezzo tra il vecchio stato e quello attuale.
+Per finire, interveniamo su Calzari del ninja. Sono diventati la scelta dominante e, pur avendo senso per i tank, sono un po' preoccupanti se visti come scelta invitante anche dai tiratori.
 
-Per finire, la nuova tiratrice di League of Legends, Kai'Sa, debutta nella Landa. Portate l'ombrello: le previsioni parlano di Pioggia di Icathia.
+Quindi tuffatevi nella Landa e divertitevi!
 
-Buona fortuna,
-
-Note sulla patch 8.5 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-85
+Note sulla patch 8.7 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-87

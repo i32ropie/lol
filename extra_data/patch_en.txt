@@ -1,13 +1,11 @@
 Greetings, Summoners,
 
-Welcome to patch 8.5, the one that's the "small patch" to 8.4's "big patch". This patch is actually a large download, because we're updating some of our in-game assets.
+Welcome to patch 8.7, the one where we nerf Irelia. Sorry, I'm being told that's update Irelia. Everyone's favorite Blade Dancer is hitting the Rift with a new model and kit.
 
-But back to gameplay! This patch we're taking a look at professional outliers, some of whom have been problem children for awhile now (Azir, Galio, Ryze). We're also revisiting Zoe after heavy nerfs last patch, giving her power back in places we think should be healthier in the long run.
+We're also following up on the Duskblade changes from last patch, visiting the assassins who were affected more—or less—than we'd expected.
 
-Then, we've given a couple of juggernauts (Skarner/Volibear) more utility since preseason, but those changes have left them overly dominant. We're dialing back to a middle ground in between their old state and their current state.
+Finally, we're hitting Ninja Tabi. Those boots had taken over as the dominant choice, and while that makes sense on tanks, it's a bit concerning when they're such a compelling purchase for marksmen as well.
 
-Finally, League of Legends newest marksman, Kai'Sa, is setting foot on the Rift. Bring an umbrella: the forecast calls for Icathian Rain.
+So hop out on the Rift, and remember, GLHF,
 
-GHLF,
-
-Patch 8.5 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-85-notes
+Patch 8.7 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-87-notes

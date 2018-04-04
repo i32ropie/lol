@@ -1,13 +1,11 @@
 Bonjour, invocateurs !
 
-Bienvenue dans le patch 8.5, qui est plus petit que le précédent. Ce patch est malgré tout assez volumineux, car nous mettons à jour certains éléments techniques du jeu.
+Bienvenue dans les notes du patch 8.7, celui dans lequel nous nerfons Irelia. Ah… Attendez, on me signale dans l'oreillette que nous mettons à jour Irelia. Oui, c'est bien ça, la Danseuse des lames débarque dans la Faille avec un nouveau modèle et un nouveau kit !
 
-Revenons-en au gameplay ! Avec ce patch, nous nous attaquons à quelques problèmes qui affectent la scène professionnelle, parfois même depuis un bon moment (Azir, Galio, Ryze). Nous nous occupons également de Zoé, qui a reçu de gros nerfs à l'occasion du précédent patch ; nous lui rendons cette fois de la puissance là où cela ne devrait pas créer de problèmes à long terme.
+Nous effectuons également quelques ajustements sur les assassins qui ont été trop (ou pas assez) affectés par la mise à jour de l'Épée vespérale.
 
-Depuis la présaison, nous avons donné plus d'effets utilitaires à certains colosses (Skarner/Volibear), mais ces changements leur ont permis de beaucoup trop dominer le champ de bataille. Nous atténuons donc légèrement leurs nouvelles forces.
+Pour finir, nous avons modifié les Tabi ninja. Ces bottes sont devenues un choix incontournable ; si ça paraît logique chez les tanks, ça l'est beaucoup moins quand des tireurs se sentent obligés de les acheter.
 
-Pour finir, League of Legends accueille un nouveau tireur dans ses rangs : Kai'Sa. Sortez les parapluies : Janna miss météo nous annonce une Pluie d'Icathia !
+Rendez-vous dans la Faille et amusez-vous bien !
 
-GHLF,
-
-Notes de patch 8.5 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-85
+Notes de patch 8.7 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-87

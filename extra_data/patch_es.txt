@@ -1,13 +1,11 @@
 Saludos, invocadores.
 
-Os damos la bienvenida a la versión 8.5, la "pequeña" después de la 8.4 "grande". La descarga de esta versión es bastante grande, ya que vamos a actualizar algunos recursos del juego.
+Bienvenidos a la versión 8.7, en la que debilitamos a Irelia; perdón, en la que actualizamos a Irelia. La Danza de las Cuchillas llega a la Grieta con un modelo y un kit nuevo.
 
-¡Volvamos a la experiencia de juego! En esta versión repasamos varios casos que están destacando en la escena profesional, algunos de los cuales llevan siendo problemáticos desde hace un tiempo (Azir, Galio y Ryze). También revisamos a Zoe tras las duras debilitaciones de la última versión. Le devolvemos poder donde creemos que debería ser más positivo a largo plazo.
+También continuamos con los cambios al Filoscuro de la última versión: echamos un vistazo a los asesinos que se vieron afectados más (o menos) de lo que esperábamos.
 
-Desde la pretemporada, les hemos dado más utilidad a un par de colosos (Skarner y Volibear), pero esos cambios los han dejado excesivamente fuertes. Volvemos a un punto medio entre su antiguo estado y su estado actual.
+Por último, retocamos las Tabi de ninja. Son las botas predilectas de los jugadores y, aunque tiene sentido que los tanques las compren, nos preocupa que también sea una adquisición tan atractiva para los tiradores.
 
-Por último, llega a la Grieta la tiradora más nueva de League of Legends: Kai'Sa. Traed paraguas, hay pronóstico de Lluvia de Icathia.
+Nos vemos en la Grieta. ¡GL, HF!
 
-¡GL, HF!
-
-Notas de la Versión 8.5 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-85
+Notas de la Versión 8.7 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-87

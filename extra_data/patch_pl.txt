@@ -1,13 +1,11 @@
-Czołem, Przywoływacze!
+Witajcie, przywoływacze.
 
-Witajcie w patchu 8.5, który jest „małym bratem” patcha 8.4. Ten patch ma dość duży rozmiar, ponieważ aktualizujemy niektóre z naszych plików gry.
+Witamy w patchu 8.7 — tym, w którym osłabiamy Irelię. A nie, przepraszam, aktualizujemy Irelię. Lubiana przez wszystkich Tańcząca z Ostrzami przybywa na Summoner’s Rift z nowym modelem i umiejętnościami.
 
-Pomówmy jednak o rozgrywce! W tym patchu przyglądamy się najbardziej wyróżniającym się na scenie profesjonalnej bohaterom. Niektórzy z nich sprawiają problemy już od dłuższego czasu (Azir, Galio, Ryze). Ponownie zajmujemy się również Zoe po mocnych osłabieniach z zeszłego patcha i przywracamy jej moc w miejscach, które na dłuższą metę powinny przynieść zdrowsze rezultaty.
+Kontynuujemy zmiany z ostatniego patcha związane z Mrocznym Ostrzem, przyglądając się zabójcom, na których wpłynęły one w mniejszym lub większym stopniu, niż się tego spodziewaliśmy.
 
-Daliśmy również paru molochom (Skarnerowi i Volibearowi) więcej użyteczności od przedsezonu, ale w ten sposób sprawiliśmy, że stali się zbyt dominujący. Usprawniamy te zmiany tak, żeby znaleźli się mniej więcej w połowie między ich dawnym a obecnym stanem.
+Na koniec zajmujemy się Tabi Ninja. Te buty stały się niezwykle popularne i kupowanie ich ma sens w przypadku obrońców, ale jednocześnie nie powinny być aż tak atrakcyjnym wyborem dla strzelców.
 
-A na koniec — najnowszy strzelec w League of Legends, Kai’Sa, postawi stopę na Summoner’s Rift. Pamiętajcie o parasolach, bo prognozy zapowiadają Icathiański Deszcz.
+Ruszajcie więc na Summoner’s Rift, bawcie się dobrze i powodzenia.
 
-Dobrej zabawy i powodzenia!
-
-Opis patcha 8.5 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-85
+Opis patcha 8.7 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-87
