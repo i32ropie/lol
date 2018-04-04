@@ -1455,7 +1455,7 @@
     "summoner_30_beta_2":{
         "es":"\n\n*{}\n\tLiga*: _{}_ _{}_\n\t*Victorias*: _{}_\n\t*Derrotas*: _{}_\n\t*Puntos de liga*: _{}_",
         "en":"\n\n*{}\n\tLeague*: _{}_ _{}_\n\t*Wins*: _{}_\n\t*Defeats*: _{}_\n\t*League points*: _{}_",
-        "it":"\n\n*{}\n\tLega: _{}_ _{}_\n\t*Vittorie*: _{}_\n\t*Sconfitte*: _{}_\n\t*Punti lega*: _{}_",
+        "it":"\n\n*{}\n\tLega*: _{}_ _{}_\n\t*Vittorie*: _{}_\n\t*Sconfitte*: _{}_\n\t*Punti lega*: _{}_",
         "de":"\n\n*{}\n\tLiga*: _{}_ _{}_\n\t*Siege*: _{}_\n\t*Niederlagen*: _{}_\n\t*Ligapunkte*: _{}_",
         "pt":"\n\n*{}\n\tLiga*: _{}_ _{}_\n\t*Vitórias*: _{}_\n\t*Derrotas*: _{}_\n\t*Pontos de Liga*: _{}_",
         "fr":"\n\n*{}\n\tLigue*: _{}_ _{}_\n\t*Victoires*: _{}_\n\t*Défaites*: _{}_\n\t*Ligue points*: _{}_",
