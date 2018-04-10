@@ -285,7 +285,11 @@ def champ_info(chmp, cid):
         if i in range(4):
             txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
             txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
-            txt += '\n_' + format_spell(habilidad) + '_\n'
+            if not is_beta(cid):
+                txt += '\n_' + \
+                    remove_tag(habilidad['description'].replace('<br>', '\n')) + '_' + '\n'
+            else:
+                txt += '\n_' + format_spell(habilidad) + '_\n'
             i += 1
         else:
             break
