@@ -330,8 +330,9 @@ def format_spell2(s):
     tooltip = s['sanitizedTooltip']
     for i,x in enumerate(s['effectBurn']):
         tooltip = tooltip.replace("{{{{ e{} }}}}".format(i), x)
-    for x in s.get('vars'):
-        tooltip = tooltip.replace("{{{{ {} }}}}".format(x['key']), str(x['coeff'][0]))
+    if s.get('vars'):
+        for x in s.get('vars'):
+            tooltip = tooltip.replace("{{{{ {} }}}}".format(x['key']), str(x['coeff'][0]))
     tooltip = re.sub("\{\{ f[0-9] \}\}", "[0]", tooltip)
     return tooltip
 
