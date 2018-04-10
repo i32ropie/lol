@@ -285,7 +285,7 @@ def champ_info(chmp, cid):
         if i in range(4):
             txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
             txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
-            txt += '\n_' + format_spell2(habilidad) + '_\n'
+            txt += '\n_' + format_spell(habilidad) + '_\n'
             i += 1
         else:
             break
