@@ -1,8 +1,8 @@
-/Taliyah: 487 RP
-/Malzahar: 440 RP
-/Kassadin: 395 RP
-/Zed: 440 RP
-/Ashe_2: 260 RP
-/Jayce_4: 375 RP
-/Jinx_1: 487 RP
-/Kennen_4: 487 RP
+/Aatrox: 487 RP
+/Fizz: 440 RP
+/Olaf: 395 RP
+/Urgot: 395 RP
+/Caitlyn_1: 260 RP
+/Mordekaiser_3: 487 RP
+/Malzahar_4: 487 RP
+/Varus_6: 675 RP
