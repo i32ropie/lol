@@ -91,7 +91,7 @@ def command_update_champs_1(m):
         try:
             for x in aux:
                 with open(x, 'w') as f:
-                    json.dump(aux[x], f)
+                    json.dump(aux[x], f, indent=4)
         except:
             # bot.send_message(cid, "Error actualizando archivos.")
             bot.edit_message_text(
@@ -178,7 +178,7 @@ def command_update_champs_2(m):
         try:
             for x in aux:
                 with open(x, 'w') as f:
-                    json.dump(aux[x], f)
+                    json.dump(aux[x], f, indent=4)
         except:
             # bot.send_message(cid, "Error actualizando archivos.")
             bot.edit_message_text(
@@ -218,6 +218,6 @@ def command_update_champs_keys(m):
                 "Error descargando el fichero.", cid, msg.message_id)
             return
         with open('champs_keys.json', 'w') as f:
-            json.dump(req, f)
+            json.dump(req, f, indent=4)
         bot.edit_message_text("Éxito. Reiniciando bot...", cid, msg.message_id)
         exit()
