@@ -289,7 +289,7 @@ def champ_info(chmp, cid):
                 txt += '\n_' + \
                     remove_tag(habilidad['description'].replace('<br>', '\n')) + '_' + '\n'
             else:
-                txt += '\n_' + format_spell(habilidad) + '_\n'
+                txt += '\n_' + format_spell2(habilidad) + '_\n'
             i += 1
         else:
             break
@@ -323,6 +323,16 @@ def format_spell(s):
                     52033876,
                     send_exception(e),
                     parse_mode="Markdown")
+    return tooltip
+
+
+def format_spell2(s):
+    tooltip = s['sanitizedTooltip']
+    for i,x in enumerate(s['effectBurn']):
+        tooltip = tooltip.replace("{{{{ e{} }}}}".format(i), x)
+    for x in s.get('vars'):
+        tooltip = tooltip.replace
+    tooltip = re.sub("\{\{ f[0-9] \}\}", "[0]", tooltip)
     return tooltip
 
 
