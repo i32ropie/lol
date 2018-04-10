@@ -285,11 +285,7 @@ def champ_info(chmp, cid):
         if i in range(4):
             txt += '\n*' + j[i] + ': ' + habilidad['name'] + '*'
             txt += '\n *CD:* _' + habilidad['cooldownBurn'] + '_'
-            if not is_beta(cid):
-                txt += '\n_' + \
-                    remove_tag(habilidad['description'].replace('<br>', '\n')) + '_' + '\n'
-            else:
-                txt += '\n_' + format_spell2(habilidad) + '_\n'
+            txt += '\n_' + format_spell2(habilidad) + '_\n'
             i += 1
         else:
             break
@@ -297,36 +293,6 @@ def champ_info(chmp, cid):
 
 
 def format_spell(s):
-    effect = s['effectBurn']
-    if 'vars' in s:
-        var = s['vars']
-    else:
-        var = None
-    tooltip = s['sanitizedTooltip']
-    for x in effect:
-        try:
-            tooltip = tooltip.replace('{{ e%s }}' % (effect.index(x)), x)
-        except Exception as e:
-            bot.send_message(
-                52033876,
-                send_exception(e),
-                parse_mode="Markdown")
-    if var:
-        for x in var:
-            try:
-                tooltip = tooltip.replace(
-                    '{{ %s }}' %
-                    (x['key']), str(
-                        x['coeff'][0]))
-            except Exception as e:
-                bot.send_message(
-                    52033876,
-                    send_exception(e),
-                    parse_mode="Markdown")
-    return tooltip
-
-
-def format_spell2(s):
     tooltip = s['sanitizedTooltip']
     for i,x in enumerate(s['effectBurn']):
         tooltip = tooltip.replace("{{{{ e{} }}}}".format(i), x)
