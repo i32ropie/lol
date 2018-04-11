@@ -20,6 +20,7 @@ def command_admin(m):
         txt = """
 Comandos de administración
 
+/github - Comprueba si hay actualizaciones en github y reinicia el bot sin es necesario.
 /all\_es _<mensaje>_ - Difundido a chats españoles.
 /all\_en _<mensaje>_- Difundido a chats *NO* españoles.
 /all\_s - Difundido de ofertas (Usar los jueves).
