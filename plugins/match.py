@@ -138,7 +138,7 @@ def query_summoner(q):
     region = q.query.split()[0].strip('#')
     to_send = list()
     try:
-        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
+        summoner = get_summoner(name=invocador, region=update_region(region))
     except:
         pass
     else:
@@ -204,7 +204,7 @@ def get_match_info(invocador, region, cid, inline=False):
     rojo = {}
     txt = ""
     try:
-        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
+        summoner = get_summoner(name=invocador, region=update_region(region))
     except:
         if not inline:
             bot.send_chat_action(cid, 'typing')
@@ -217,9 +217,8 @@ def get_match_info(invocador, region, cid, inline=False):
     summoner_name = summoner['name']
     summoner_id = summoner['id']
     try:
-        partida = lol_api.get_current_game(
+        partida = get_current_game(
             summoner_id=summoner_id,
-            platform_id=platform[region],
             region=update_region(region))
     except:
         if not inline:
@@ -246,7 +245,7 @@ def get_match_info(invocador, region, cid, inline=False):
                 rojo[str(jugadores['summonerName'])] = 'Taliyah'
     txt += responses['match_blue'][lang(cid)] % (partida['gameMode'])
     for a, b in azul.items():
-        txt += '\n\n' + get_summoner_info(
+        txt += '\n\n' + get_summoner_info_match(
             invocador=a,
             region=region,
             champion=b,
@@ -254,7 +253,7 @@ def get_match_info(invocador, region, cid, inline=False):
         )
     txt += '\n\n' + responses['match_red'][lang(cid)]
     for a, b in rojo.items():
-        txt += '\n\n' + get_summoner_info(
+        txt += '\n\n' + get_summoner_info_match(
             invocador=a,
             region=region,
             champion=b,
@@ -267,9 +266,9 @@ def get_match_info(invocador, region, cid, inline=False):
                          disable_web_page_preview=True)
 
 
-def get_summoner_info(invocador, region, champion, cid):
+def get_summoner_info_match(invocador, region, champion, cid):
     try:
-        summoner = lol_api.get_summoner(name=invocador, region=update_region(region))
+        summoner = get_summoner(name=invocador, region=update_region(region))
     except:
         txt = responses['summoner_error'][
             lang(cid)] % (invocador, region.upper())

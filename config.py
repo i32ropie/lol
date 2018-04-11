@@ -7,8 +7,6 @@
 
 import os
 import telebot
-# TODO: HAY QUE ACTUALIZAR A LA VERSIÓN NUEVA DE RIOTWATCHER
-from riotwatcher.legacy import RiotWatcher, player_stat_summary_types
 from telebot import types
 from colorclass import Color
 import json
@@ -32,31 +30,12 @@ with open('extra_data/extra.json', 'r') as f:
 
 bot = telebot.TeleBot(extra['token'])
 logBot = telebot.TeleBot(extra['token_logbot'])
-lol_api = RiotWatcher(extra['lol_api'])
 admins = extra['admins']
 filtered = list()
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 MESSAGE = extra['udp_message']
 UDP_IP = extra['udp_ip']
 UDP_PORT = extra['udp_port']
-
-easter_eggs = {
-    "rapsodas": "rapsidas",
-    "alin": "nigro",
-    "abu": "matas",
-    "vir": "igriv",
-    "igriv": "vir",
-    "loma": "Best streamer EUW: http://www.twitch.tv/lomavid",
-    "lomavid": "Best streamer EUW: http://www.twitch.tv/lomavid",
-    "lomadien": "Best streamer EUW: http://www.twitch.tv/lomavid",
-    "mega": "flipetis",
-    "vikked": "pͪͪuͮͮt̐̐ő̋ ̞͆r̉̉a̓̓n̒̒d͛͛o̍̍m͔͐ ヽ༼ຈل͜ຈ༽ﾉ",
-    "putaama": "xeha",
-    "xeha": "putaama",
-    "zewi": "Fanático de lo sensual",
-    "hernando": "vinicius",
-    "programame esta": "`#include <iostream>\n\nvoid main(){\n    std::cout << \"Prográmame esta\" << std::endl;\n}`"
-}
 
 
 client = MongoClient('localhost:27017')
@@ -224,5 +203,95 @@ base_regions = {'euw': 'euw1',
                 'lan': 'la1',
                 'las': 'la2'}
 
+
 def update_region(reg):
     return base_regions.get(reg)
+
+
+def get_3_best_champs(summonerId, region, cid):
+    url = 'https://{}.api.riotgames.com/lol/champion-mastery/v3/champion-masteries/by-summoner/{}'.format(
+        update_region(region.lower()), summonerId)
+    params = {
+        "api_key": extra['lol_api']
+    }
+    jstr = requests.get(
+        url=url,
+        params=params
+    )
+    if jstr.status_code != 200:
+        return None
+    else:
+        return OrderedDict([(data[lang(cid)][data['keys'][str(x['championId'])]['key']][
+                           'name'], str(x['championLevel'])) for x in jstr.json()[:3]])
+
+
+def get_summoner(name, region):
+    url = "https://{}.api.riotgames.com/lol/summoner/v3/summoners/by-name/{}".format(region, name)
+    params = {
+        'api_key': extra['lol_api']
+    }
+    r = requests.get(url, params)
+    if r.status_code != 200:
+        raise Exception("Error finding {} in {}".format(name, region))
+    return r.json()
+
+
+def get_current_game(summoner_id, region):
+    url = "https://{}.api.riotgames.com/lol/spectator/v3/active-games/by-summoner/{}".format(region, summoner_id)
+    params = {
+        'api_key': extra['lol_api']
+    }
+    r = requests.get(url, params)
+    if r.status_code != 200:
+        raise Exception("The summoner with ID {} is not in game.".format(summoner_id))
+    return r.json()
+
+
+def get_summoner_info(invocador, region, cid):
+    try:
+        summoner = get_summoner(name=invocador, region=update_region(region))
+    except:
+        txt = responses['summoner_error'][
+            lang(cid)] % (invocador, region.upper())
+        return txt
+    lattest_version = static_versions()
+    icon_id = summoner['profileIconId']
+    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
+        lattest_version, icon_id)
+    summoner_name = summoner['name']
+    summoner_id = summoner['id']
+    lolking = "http://www.lolking.net/summoner/" + \
+        region + "/" + str(summoner_id)
+    summoner_level = summoner['summonerLevel']
+    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
+    if summoner_level > 29:
+        url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
+        params = {'api_key': extra['lol_api']}
+        r = requests.get(url, params)
+        if r.status_code != 200:
+            txt = "ERROR EN LÍNEA 89 DE me.py"
+            return txt
+        r_json = r.json()
+        if not r_json:
+            aux = {}
+        if len(r_json) == 1:
+            aux = {r_json[0]['queueType']:r_json[0]}
+        else:
+            aux = {x['queueType']:x for x in r_json}
+        for x in aux:
+            txt += responses['summoner_30_beta_2'][lang(cid)].format(
+                        "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,
+                        responses['tier'][lang(cid)][aux[x]['tier']],
+                        aux[x]['rank'],
+                        aux[x]['wins'],
+                        aux[x]['losses'],
+                        aux[x]['leaguePoints'])
+        try:
+            bst = get_3_best_champs(summoner['id'], region, cid)
+            if bst:
+                txt += '\n\n*' + responses['best_champs'][lang(cid)] + '*:'
+                for x, y in bst.items():
+                    txt += '\n- ' + x + ' _(Level: ' + y + ')_'
+        except Exception as e:
+            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+    return txt
