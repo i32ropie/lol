@@ -201,7 +201,8 @@ base_regions = {'euw': 'euw1',
                 'na': 'na1',
                 'eune': 'eun1',
                 'lan': 'la1',
-                'las': 'la2'}
+                'las': 'la2',
+                'tr': 'tr1'}
 
 
 def update_region(reg):
