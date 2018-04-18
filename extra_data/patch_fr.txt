@@ -1,11 +1,9 @@
 Bonjour, invocateurs !
+[⁣](https://youtu.be/M3OTaiivlV0)
+Bienvenue dans le patch 8.8 ! Alors que nous approchons de la mi-saison, les prochains mois seront riches en événements (MSI, lancement de Clash et début du segment d’été, pour n’en citer que quelques-uns). Cela met beaucoup de pression sur certains patchs spécifiques. Pour compenser, le schéma « gros patch, petit patch » va devenir « patch moyen, patch moyen » pendant quelques temps.
 
-Bienvenue dans les notes du patch 8.7, celui dans lequel nous nerfons Irelia. Ah… Attendez, on me signale dans l'oreillette que nous mettons à jour Irelia. Oui, c'est bien ça, la Danseuse des lames débarque dans la Faille avec un nouveau modèle et un nouveau kit !
+Cela étant dit, nous avons inclus de grosses modifications dans celui-ci ! Tout d’abord, nous nous sommes penchés sur un certain duo de champions que nous avons eu un peu de mal à gérer. En essayant de rendre Ahri et LeBlanc moins frustrantes à affronter, nous avons fini par trop les éloigner de leur rôle d’assassin : elles sont devenues des mages spécialistes du kiting grâce à leur mobilité et leurs contrôles de foule. Avec ce patch, nous allons essayer de leur restituer un style de jeu plus proche des assassins, tout en gardant le meilleur des modifications précédentes (qui avaient réussi au moins une chose : faire d’elle des adversaires plus justes). Nous devrons garder un œil sur elles au cours des prochains patchs, mais de manière générale, elles devraient mieux parvenir à appliquer leur burst sur des cibles prioritaires et à transformer leur avance en victoire.
 
-Nous effectuons également quelques ajustements sur les assassins qui ont été trop (ou pas assez) affectés par la mise à jour de l'Épée vespérale.
+Amusez-vous bien, et à bientôt sur la Faille !
 
-Pour finir, nous avons modifié les Tabi ninja. Ces bottes sont devenues un choix incontournable ; si ça paraît logique chez les tanks, ça l'est beaucoup moins quand des tireurs se sentent obligés de les acheter.
-
-Rendez-vous dans la Faille et amusez-vous bien !
-
-Notes de patch 8.7 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-87
+Notes de patch 8.8 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-88

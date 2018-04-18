@@ -1,11 +1,9 @@
 Greetings, Summoners,
+[⁣](https://youtu.be/Ucm9huBoZX4)
+Welcome to patch 8.8! As we move towards the middle of the season, the next few months will be jam-packed with a bunch of events (MSI, the launch of Clash, and start of the summer split to name a few). This puts a lot of pressure on specific patches, so "big patch, small patch" is gonna look like "medium patch, medium patch" for a little while.
 
-Welcome to patch 8.7, the one where we nerf Irelia. Sorry, I'm being told that's update Irelia. Everyone's favorite Blade Dancer is hitting the Rift with a new model and kit.
+That being said, there are some pretty big changes this patch! First, we're taking a look at a duo of champions who we've struggled to handle. As we tried to make LeBlanc and Ahri less frustrating to play against, we ended up shifting them too far away from being assassins; instead shaping them into mages that kite opponents with mobility and crowd control. This patch, we're trying to push them back into an assassin playstyle, while keeping some of the fairness gains of their prior updates. We'll have to keep an eye on them in the coming patches, but in general they should excel at bursting priority targets and snowballing that lead into a win.
 
-We're also following up on the Duskblade changes from last patch, visiting the assassins who were affected more—or less—than we'd expected.
+GLHF, and we'll see you on the Rift!
 
-Finally, we're hitting Ninja Tabi. Those boots had taken over as the dominant choice, and while that makes sense on tanks, it's a bit concerning when they're such a compelling purchase for marksmen as well.
-
-So hop out on the Rift, and remember, GLHF,
-
-Patch 8.7 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-87-notes
+Patch 8.8 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-88-notes

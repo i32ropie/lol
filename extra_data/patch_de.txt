@@ -1,11 +1,9 @@
 Sei gegrüßt, Beschwörer!
+[⁣](https://youtu.be/95MycN77HzM)
+Wilkommen zu Patch 8.8! Die Saisonmitte rückt immer näher und die nächsten Monate sind vollgepackt mit jeder Menge Veranstaltungen (darunter das MSI, der Start von Clash sowie der Beginn der Sommer-Splits). Einige spezielle Patches sind besonders davon betroffen, deswegen wird der Zyklus „großer Patch, kleiner Patch“ eher für eine Weile wie „mittlerer Patch, mittlerer Patch“ aussehen.
 
-Willkommen bei Patch 8.7, in dem wir endlich Irelia abschwächen. Ah Moment, nein, wir aktualisieren sie nur. Deine Lieblingsklingentänzerin wird die Kluft mit einem neuen Modell und überarbeitetem Fähigkeitenset unsicher machen.
+Allerdings haben wir in diesem Patch trotzdem ein paar große Änderungen im Gepäck! Als Erstes schauen wir uns zwei ganz besondere Champions an, die sich in einer Nische eingenistet haben, die uns schon lange vor Probleme stellt. Als wir LeBlanc und Ahri (die zwei AP-Assassinen) etwas weniger frustrierend machen wollten, änderten wir ihre Assassinenidentität zu sehr ab und verwandelten sie stattdessen in Magier, die ihre Gegner dank hoher Mobilität und Massenkontrolle leicht mit aggressivem Flüchten in Schach halten konnten. In diesem Patch machen wir einige dieser Änderungen wieder rückgängig, damit sie erneut zu Assassinen werden, behalten aber faire Vorteile der früheren Aktualisierungen bei. Wir werden sie in den kommenden Patches im Auge behalten, aber im Allgemeinen sollten sie nun leichter Ziele mit Priorität ausschalten und dann durch diese Vorteile immer stärker werden können, was letzten Endes zu einem Sieg führen sollte.
 
-Außerdem gibt es noch einige Nachbesserungen zu den Änderungen an der Dämmerungsklinge vom letzten Patch. Einige der Assassinen waren von den Änderungen in größerem oder geringerem Umfang betroffen, als wir erwartet hatten.
+GLHF und wir sehen uns in der Kluft!
 
-Zu guter Letzt kommen dann noch die Ninja-Tabi auf unsere Werkbank. Sie waren in letzter Zeit ein wenig zu dominant. Bei Tanks ergeben sie natürlich Sinn, aber wenn sie selbst Schützen als gute Investition ansehen, dann läuft etwas falsch.
-
-Hüpf in die Kluft und vergiss nie: GLHF!
-
-Patchnotizen 8.7 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-87
+Patchnotizen 8.8 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-88

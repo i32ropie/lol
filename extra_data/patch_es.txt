@@ -1,11 +1,9 @@
 Saludos, invocadores.
+[⁣](https://youtu.be/kuUGUFDsYos)
+¡Bienvenidos a la versión 8.8! A medida que nos acercamos a la mitad de la temporada, los meses que se acercan estarán cada vez más repletos de eventos (como el MSI, el lanzamiento de Clash y el comienzo del split de verano, por mencionar algunos). Esto añade mucha presión a los cambios introducidos en cada versión, así que la estructura “versión pequeña, versión grande” va a parecer más bien “versión mediana, versión mediana” durante un tiempo.
 
-Bienvenidos a la versión 8.7, en la que debilitamos a Irelia; perdón, en la que actualizamos a Irelia. La Danza de las Cuchillas llega a la Grieta con un modelo y un kit nuevo.
+Veréis que hay unos cuantos cambios importantes en esta versión. En primer lugar, le damos un repaso a un par de campeonas que nos ha costado mucho gestionar. Al intentar que jugar contra LeBlanc y Ahri resultara menos frustrante, acabamos por dejarlas demasiado lejos de lo que debería ser un asesino; en su lugar, se convirtieron en campeonas que funcionaban como un mago, manejando a sus enemigos con la ayuda de su movilidad y control de adversario. Con esta versión, nuestra intención es devolverles su capacidad de funcionar como asesinas sin descartar algunos de los ajustes que recibieron sus estilos de juego en actualizaciones anteriores. Las seguiremos de cerca en las próximas versiones, pero, en términos generales, su punto fuerte debería ser ahora aniquilar los objetivos prioritarios y crear un efecto de bola de nieve.
 
-También continuamos con los cambios al Filoscuro de la última versión: echamos un vistazo a los asesinos que se vieron afectados más (o menos) de lo que esperábamos.
+¡GL, HF! Nos vemos en la Grieta.
 
-Por último, retocamos las Tabi de ninja. Son las botas predilectas de los jugadores y, aunque tiene sentido que los tanques las compren, nos preocupa que también sea una adquisición tan atractiva para los tiradores.
-
-Nos vemos en la Grieta. ¡GL, HF!
-
-Notas de la Versión 8.7 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-87
+Notas de la Versión 8.8 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-88

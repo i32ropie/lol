@@ -1,11 +1,9 @@
 Salutare, invocatori,
+[⁣](https://youtu.be/_oUvctupE5Q)
+Bun venit la patch-ul 8.8! Pe măsură ce ne apropiem de mijlocul sezonului, următoarele câteva luni vor fi pline de evenimente (cum ar fi MSI, lansarea turneelor Clash și începutul etapei de vară). Asta pune foarte multă presiune pe anumite patch-uri, așa că schimbăm un pic cadența, de la patch mare-patch mic, la patch mediu-patch mediu.
 
-Bun venit la patch-ul 8.7, cel în care Irelia primește un nerf. Pardon, tocmai mi s-a șoptit în cască – de fapt, e cel în care o actualizăm pe Irelia. Dansatoarea noastră preferată reintră în Rift cu un model actualizat și un nou set de abilități.
+Acestea fiind zise, patch-ul de față aduce niște schimbări importante. În primul rând, ne ocupăm de doi campioni cu care nu am prea știut ce să facem. Am tot încercat să le facem pe LeBlanc și Ahri mai puțin frustrante pentru inamici, dar le-am modificat atât de mult, încât s-au îndepărtat de ideea de asasini. În acest patch, încercăm să le readucem pe cele două la un stil de joc mai potrivit pentru asasini, păstrând totodată părțile bune din actualizările anterioare. Va trebui să stăm cu ochii pe ele în patch-urile următoare. Dar, în general, LeBlanc și Ahri ar trebui să poată ucide ușor țintele prioritare, iar apoi să-și transforme avantajul într-o victorie.
 
-După schimbările pe care i le-am adus ''Amurgului lui Draktharr'' în ultimul patch, vom arunca o privire asupra asasinilor care au fost afectați mai mult (sau mai puțin) decât ne așteptam.
+GLHF și ne vedem în Rift!
 
-Nu în ultimul rând, vom modifica și ''Cizmele tabi de ninja''. Acestea au devenit încălțările cumpărate cel mai des și, deși are logică să fie o alegere bună pentru tancuri, e o problemă când și țintașii le preferă.
-
-Acestea fiind spuse, vă așteptăm în Rift! GLHF,
-
-Notele patch-ului 8.7 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-87
+Notele patch-ului 8.8 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-88

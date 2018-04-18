@@ -1,11 +1,13 @@
-Witajcie, przywoływacze.
+Czołem, przywoływacze.
+[⁣](https://youtu.be/P0FWN4GITF4)
+Witajcie w patchu 8.8. Jako że zbliżamy się do połowy sezonu, następne kilka miesięcy będzie obfitowało w wydarzenia (MSI, wypuszczanie Clash, początek letniego splitu itd.). Wywiera to niesamowitę presję na niektóre patche, więc zamiast serii „duży patch, mały patch”, przez jakiś czas będziemy raczej mieć „średni patch, średni patch”.
 
-Witamy w patchu 8.7 — tym, w którym osłabiamy Irelię. A nie, przepraszam, aktualizujemy Irelię. Lubiana przez wszystkich Tańcząca z Ostrzami przybywa na Summoner’s Rift z nowym modelem i umiejętnościami.
+To powiedziawszy, w tym patchu mamy całkiem spore zmiany! Po pierwsze, przyglądamy się duetowi bohaterek, które przysparzają nam kłopotów. Staraliśmy się sprawić, by granie przeciwko LeBlanc i Ahri (głównej parze zabójczyń korzystających z mocy umiejętności) było mniej frustrujące. Trochę przeholowaliśmy, ponieważ oddaliły się one od zabójczyń i stały się magami, które utrzymują wrogów na dystans dzięki mobilności i efektom kontroli tłumu. W tym patchu cofamy te zmiany i staramy się przywrócić naszym dziewczynom styl gry zabójców, jednocześnie pozostawiając zdrowe modyfikacje z ich poprzednich aktualizacji. Będziemy się im przyglądać w nadchodzących patchach, ale ogólnie ich główną siłą powinno być zabijanie priorytetowych celów i przekształcanie tej przewagi w zwycięstwo.
 
-Kontynuujemy zmiany z ostatniego patcha związane z Mrocznym Ostrzem, przyglądając się zabójcom, na których wpłynęły one w mniejszym lub większym stopniu, niż się tego spodziewaliśmy.
+Pod lupę bierzemy również Vi, której ciosy nie są aż tak mocne, jak byśmy chcieli. Ponadto pierwotnie miała być górną, więc mamy nadzieję dać jej trochę elastyczności co do wybieranej przez nią roli i dać jej możliwość gry w górnej alei.
 
-Na koniec zajmujemy się Tabi Ninja. Te buty stały się niezwykle popularne i kupowanie ich ma sens w przypadku obrońców, ale jednocześnie nie powinny być aż tak atrakcyjnym wyborem dla strzelców.
+No i na koniec mamy parę prostych zmian wyważających — osłabienia lub wzmocnienia dla bohaterów, którzy są zbyt słabi lub zbyt mocni. Kilka z nich ma na celu wyeliminowanie specyficznych mocnych stron (szczególnie takich, które dominują rozgrywki na wysokich poziomach), a inne mają wyważyć bohaterów najbardziej odstających w kolejce solo.
 
-Ruszajcie więc na Summoner’s Rift, bawcie się dobrze i powodzenia.
+Dobrej zabawy i powodzenia! Widzimy się na Summoner’s Rift!
 
-Opis patcha 8.7 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-87
+Opis patcha 8.8 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-88
