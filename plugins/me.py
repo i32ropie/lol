@@ -30,13 +30,16 @@ def command_m(m):
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return
         if summoner and region:
+            keyboard = types.InlineKeyboardMarkup()
+            keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
             bot.send_message(
                 cid,
                 get_summoner_info(
                     summoner,
                     region,
                     cid),
-                parse_mode="Markdown")
+                parse_mode="Markdown",
+                reply_markup=keyboard)
         else:
             bot.send_message(cid, responses['me_error'][lang(cid)])
     else:

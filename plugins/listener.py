@@ -77,7 +77,6 @@ def process_msg(m):
         no_namebot = command.split('@')
         txt = ""
         separe = no_namebot[0].split('_')
-        champ_key = separe[0]
         if separe[0].lower() == 'wukong':
             separe[0] = 'monkeyking'
         elif separe[0].lower() in ['monkeyking', 'bardo']:
@@ -127,8 +126,15 @@ def process_msg(m):
                         txt += champ_lore(data[lang(cid)][x], cid)
                     break
         if txt:
-            bot.send_chat_action(cid, 'typing')
-            bot.send_message(cid, txt, parse_mode="Markdown")
+            if len(separe) == 1:
+                keyboard = types.InlineKeyboardMarkup()
+                keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="c {}".format(separe[0])))
+                keyboard.add(types.InlineKeyboardButton(responses['share_skins'][lang(cid)], switch_inline_query="s {}".format(separe[0])))
+                bot.send_chat_action(cid, 'typing')
+                bot.send_message(cid, txt, parse_mode="Markdown", reply_markup=keyboard)
+            else:
+                bot.send_chat_action(cid, 'typing')
+                bot.send_message(cid, txt, parse_mode="Markdown")
 
 
 @bot.inline_handler(
@@ -218,7 +224,9 @@ def champ_basic(chmp, cid, inline=False):
     # Descripción
     txt += '\n\n_' + chmp['blurb'].replace(
         '<br><br>', '\n').replace(
-        '<br>', '\n') + '_ ' + '/' + key + '\_lore'
+        '<br>', '\n') + '_ '
+    if not inline:
+        txt += '/' + key + '\_lore'
     # Skins
     txt += '\n\n*Skins:*'
     for skin in chmp['skins']:
@@ -228,21 +236,6 @@ def champ_basic(chmp, cid, inline=False):
                     str(skin['num']) + ': ' + skin['name']
             else:
                 txt += '\n  • ' + skin['name']
-    # if not inline:
-    #     try:
-    #         r = requests.get('http://www.championselect.net/champions/' + key.lower())
-    #     except Exception as e:
-    #         return bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    #     if r.status_code == 200:
-    #         try:
-    #             soup = BeautifulSoup(r.text, 'html.parser')
-    #             weak_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='weak-block')[0].findAll(class_='name')}
-    #             strong_against = {x.string.replace("'","").replace(" ","") for x in soup.findAll(class_='strong-block')[0].findAll(class_='name')}
-    #             txt += '\n\n' + responses['warning'][lang(cid)]
-    #             txt += '\n' + responses['weak_against'][lang(cid)] + ', /'.join(list(weak_against)[:5])
-    #             txt += '\n' + responses['strong_against'][lang(cid)] + ', /'.join(list(strong_against)[:5])
-    #         except Exception as e:
-    #             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     txt += '\n\n[BUILD](http://www.probuilds.net/champions/details/' + key2 + ')'
     if not inline:
         txt += '\n\n' + \
