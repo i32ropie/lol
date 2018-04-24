@@ -1929,5 +1929,19 @@
             "region": "<summoner> `- يظهر معلومات عن اللاعب في المنطقة.",
             "#region": "<summoner> `- يظهر معلومات حول المباراة الحالية للاعب في المنطقة."
         }
+    },
+    "share":{
+        "es":"Compartir",
+        "en":"Share",
+        "it":"Condividere",
+        "de":"Aktie",
+        "pt":"Compartilhar",
+        "fr":"Partager",
+        "fa":"سهم",
+        "pl":"Dzielić",
+        "tr":"Pay",
+        "ro":"Acțiune",
+        "ru":"Поделиться",
+        "ar":"شارك"
     }
 }
