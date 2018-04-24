@@ -81,8 +81,8 @@ def summoner_info(m):
                     lang(cid)] %
                 (region), parse_mode="Markdown")
         else:
-            keyboard = types.InlineKeyboardMarkup()
-            keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
+            #keyboard = types.InlineKeyboardMarkup()
+            #keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid,
@@ -90,8 +90,7 @@ def summoner_info(m):
                     summoner,
                     region,
                     cid),
-                parse_mode="Markdown",
-                reply_markup=keyboard)
+                parse_mode="Markdown")
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
