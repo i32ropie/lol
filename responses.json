@@ -1943,5 +1943,19 @@
         "ro":"Acțiune",
         "ru":"Поделиться",
         "ar":"شارك"
+    },
+    "share_skins":{
+        "es":"Compartir Skins",
+        "en":"Share Skins",
+        "it":"Condividere Skins",
+        "de":"Aktie Skins",
+        "pt":"Compartilhar Skins",
+        "fr":"Partager Skins",
+        "fa":"سهم Skins",
+        "pl":"Dzielić Skins",
+        "tr":"Pay Skins",
+        "ro":"Acțiune Skins",
+        "ru":"Поделиться Skins",
+        "ar":"شارك Skins"
     }
 }
