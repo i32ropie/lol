@@ -242,7 +242,7 @@ def get_current_game(summoner_id, region):
     params = {
         'api_key': extra['lol_api']
     }
-    r = requests.get(url, params)
+    r = requests.get(url=url, params=params)
     if r.status_code != 200:
         raise Exception("The summoner with ID {} is not in game.".format(summoner_id))
     return r.json()
