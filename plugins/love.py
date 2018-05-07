@@ -21,7 +21,7 @@ def command_COMANDO(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        txt = "@GoRhY: 11.11€ ❤❤\nNicolas: 10€ ❤\nLuvo: 5€ ❤️\nVir: 5€ ❤️\nDiego: 5€ ❤️\nA-man: 5$ ❤️\n@Webrom: 3€ ❤️\nMiri (pelirosa): 2.50€ ❤️\n@Princebot: 1€ ❤️\nDavid (Cocho): 1€ ❤️\nAlbertisiu: 1€ ❤️\nMaciek: 0.69€ ❤️\nZimoon: 0.50€ ❤️\nFrederik: 0.30€ ❤️\nFausto: 0.11€ ❤️\nAlbert: 0.10€ ❤️\nPablo: 0.10€ ❤️\nTicho: 0.10€ ❤️\nMichael (flame): 0.03€ ❤️\n@PilaricaBot: 0.02€ ❤️\nMario (Abumatas): 0.01€ ❤️"
+        txt = "@GoRhY: 11.11€ ❤❤\nNicolas: 10€ ❤\nLuvo: 5€ ❤️\nVir: 5€ ❤️\nDiego: 5€ ❤️\nA-man: 5$ ❤️\n@Webrom: 3€ ❤️\nMiri (pelirosa): 2.50€ ❤️\n@Principebot: 1€ ❤️\nDavid (Cocho): 1€ ❤️\nAlbertisiu: 1€ ❤️\nMaciek: 0.69€ ❤️\nZimoon: 0.50€ ❤️\nFrederik: 0.30€ ❤️\nFausto: 0.11€ ❤️\nAlbert: 0.10€ ❤️\nPablo: 0.10€ ❤️\nTicho: 0.10€ ❤️\nMichael (flame): 0.03€ ❤️\n@PilaricaBot: 0.02€ ❤️\nMario (Abumatas): 0.01€ ❤️"
         bot.send_message(cid, txt)
     else:
         bot.send_message(cid, responses['not_user'])
