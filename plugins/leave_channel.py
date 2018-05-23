@@ -10,9 +10,12 @@ print(Color(
 def leave_channel(m):
     cid = m.chat.id
     username = m.chat.username
-    bot.send_message(
-        cid,
-        "Hello. The channel creator added @LoL_bot as an administrator without @Edurolp permission. The bot will now leave the channel.")
+    try:
+        bot.send_message(
+            cid,
+            "Hello. The channel creator added @LoL_bot as an administrator without @Edurolp permission. The bot will now leave the channel.")
+    except:
+        pass
     bot.leave_chat(cid)
     bot.send_message(
         52033876,
