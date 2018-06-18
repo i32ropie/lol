@@ -190,7 +190,7 @@ def to_json(m):
 
 
 def static_versions():
-    return '8.10.1'
+    return '8.12.1'
 
 
 base_regions = {'euw': 'euw1',
