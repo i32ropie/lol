@@ -1,9 +1,9 @@
 Selam sihirdarlar,
-[⁣](https://youtu.be/5mT7kFvai34)
-8.8 Yaması'na hoş geldiniz. Sezonun ortasına yaklaşırken, önümüzdeki birkaç ay etkinliklerle dolu olacak (MSI, Clash'in çıkışı ve yaz mevsiminin başlangıcı bunlardan bazıları). Tabii bu da belli yamalara büyük ölçüde baskı yapacağından, ''büyük yama, küçük yama'' şeklinde ilerleyen döngümüz bir süreliğine ''orta boy yama, orta boy yama'' şeklini alacak.
+[⁣](https://youtu.be/Pn2hT12cuv4)
+Yakın geçmişe dönüp baktığımızda 8.9'un büyücü değişikliklerini, 8.10'un orman çalışmalarını ve son olarak da 8.11'in nişancı ayarlamalarını görüyoruz. 8.12 Yaması'yla birlikte bu ''Sezon Ortası Dönem'' süreci de sonlanıyor (bunu bu şekilde isimlendirmemizin sebebiyse, şu anda sezonun ortasında olmamız ama hiçbir yamanın kendi başına bir ''Sezon Ortası Dönem'' etkinliği olarak belirlenmemesi). Bu yamada son birkaç sistem değişikliği daha olsa da gözümüzü öncekilerin devamı niteliğindeki çalışmalara diktik bile. Şu an ve Sezon Öncesi Dönem arasındaki zaman için planımız genel olarak cilaya ve denge sorunlarına odaklanmak. Yani yamalar Sezon Öncesi Dönem gelene kadar son birkaç ay içinde gördükleriniz kadar karmaşık olmayacak.
 
-Yine de bu yamada bazı önemli değişikliklerimiz var. Öncelikle bizi gerçekten zorlayan iki şampiyonu gözden geçiriyoruz. LeBlanc ve Ahri'ye karşı oynamayı daha eğlenceli hale getirmeye çalışırken, onları suikastçı olmaktan biraz fazla uzaklaştırarak rakiplerine hareketlilik ve kitle kontrolüyle vurkaç yapan şampiyonlara dönüştürdük. Bu yamamızda onları yeniden suikastçı oynanışına kaydırıp önceki güncellemelerle kazandıkları adilliğin bir kısmını da korumaya çalışıyoruz. İkiliyi önümüzdeki yamalar boyunca izlemeye devam etmemiz gerekecek. Ancak genel konuşmak gerekirse güçlü yönleri, öncelikli hedefleri çabucak ortadan kaldırabilmek ve bu avantajı kullanarak galibiyete ulaşmak olmalı.
+8.12'ye dönersek, bu yamada takım arkadaşlarına kalkan veren yeteneklerin süresini ve Yasak İdol serisinin gücünü aşağı çekerek kalkanlara karşı oynamayı biraz daha adil hale getirmeye çalışacağız. Eğer bu yamayı Açık Beta'da takip ettiyseniz, dövüşçülere oyunun ileri safhalarında yardım edecek bazı eşya değişikliklerini de fark etmişsinizdir. Dövüşçüler, son birkaç yamada çevrelerinde gerçekleşen değişiklikler sayesinde epey güçlendi ve manzaranın hâlâ hızla değiştiğini görüyoruz. Dolayısıyla her şey rayına oturana kadar bu değişikliklerin büyük bölümünü oyuna getirmeyeceğiz; aksi halde artık yardıma ihtiyaç duymayan bir sınıfı daha da güçlendirmemiz mümkün.
 
-Herkese Vadi'de bol şans ve iyi eğlenceler!
+Herkese bol şans ve iyi eğlenceler,
 
-Demedi demeyin 8.8 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/88-yama-notlari
+Demedi demeyin 8.12 Yama Notları http://tr.leagueoflegends.com/tr/news/game-updates/patch/812-yama-notlari

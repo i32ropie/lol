@@ -1,13 +1,9 @@
 Czołem, przywoływacze.
-[⁣](https://youtu.be/P0FWN4GITF4)
-Witajcie w patchu 8.8. Jako że zbliżamy się do połowy sezonu, następne kilka miesięcy będzie obfitowało w wydarzenia (MSI, wypuszczanie Clash, początek letniego splitu itd.). Wywiera to niesamowitę presję na niektóre patche, więc zamiast serii „duży patch, mały patch”, przez jakiś czas będziemy raczej mieć „średni patch, średni patch”.
+[⁣](https://youtu.be/8vu2UCFVExw)
+W ostatnim czasie widzieliśmy zmiany magów w patchu 8.9, przemiany dżungli w 8.10 i niedawne modyfikacje strzelców w 8.11. Patch 8.12 kończy ten „śródsezonowy” okres nazwany tak, ponieważ jesteśmy w połowie sezonu, lecz żaden patch nie został jeszcze tak ochrzczony. Znajdziecie tutaj parę finalnych zmian systemowych, ale już skupiamy się na pracach poprawkowych. Plan na czas od teraz do przedsezonu obejmuje głównie wyrównywanie niedoskonałości i korygowanie problemów związanych z wyważeniem, co znaczy, że dopóki nie nadejdzie przedsezon, patche będą wprowadzały mniejsze zamieszanie niż to, które widzieliście na przestrzeni kilku poprzednich miesięcy.
 
-To powiedziawszy, w tym patchu mamy całkiem spore zmiany! Po pierwsze, przyglądamy się duetowi bohaterek, które przysparzają nam kłopotów. Staraliśmy się sprawić, by granie przeciwko LeBlanc i Ahri (głównej parze zabójczyń korzystających z mocy umiejętności) było mniej frustrujące. Trochę przeholowaliśmy, ponieważ oddaliły się one od zabójczyń i stały się magami, które utrzymują wrogów na dystans dzięki mobilności i efektom kontroli tłumu. W tym patchu cofamy te zmiany i staramy się przywrócić naszym dziewczynom styl gry zabójców, jednocześnie pozostawiając zdrowe modyfikacje z ich poprzednich aktualizacji. Będziemy się im przyglądać w nadchodzących patchach, ale ogólnie ich główną siłą powinno być zabijanie priorytetowych celów i przekształcanie tej przewagi w zwycięstwo.
+A teraz coś o 8.12! Zmodyfikowaliśmy przedmioty dla wojowników i daliśmy im dwie nowe zabawki. Osąd Atmy i Włócznia Shojin pozwalają wojownikom przekształcić zdobytą we wczesnej fazie gry przewagę na wpływ na walki drużynowe w późnej fazie. Osłabiamy również czas działania sojuszniczych umiejętności zapewniających tarcze i siłę przedmiotów związanych z Bluźnierczym Bożkiem. Celem tych zmian jest sprawienie, żeby granie przeciwko tarczom było bardziej fair.
 
-Pod lupę bierzemy również Vi, której ciosy nie są aż tak mocne, jak byśmy chcieli. Ponadto pierwotnie miała być górną, więc mamy nadzieję dać jej trochę elastyczności co do wybieranej przez nią roli i dać jej możliwość gry w górnej alei.
+Dobrej zabawy i powodzenia!
 
-No i na koniec mamy parę prostych zmian wyważających — osłabienia lub wzmocnienia dla bohaterów, którzy są zbyt słabi lub zbyt mocni. Kilka z nich ma na celu wyeliminowanie specyficznych mocnych stron (szczególnie takich, które dominują rozgrywki na wysokich poziomach), a inne mają wyważyć bohaterów najbardziej odstających w kolejce solo.
-
-Dobrej zabawy i powodzenia! Widzimy się na Summoner’s Rift!
-
-Opis patcha 8.8 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-88
+Opis patcha 8.12 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-812

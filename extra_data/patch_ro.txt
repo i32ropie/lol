@@ -1,9 +1,9 @@
 Salutare, invocatori,
-[⁣](https://youtu.be/_oUvctupE5Q)
-Bun venit la patch-ul 8.8! Pe măsură ce ne apropiem de mijlocul sezonului, următoarele câteva luni vor fi pline de evenimente (cum ar fi MSI, lansarea turneelor Clash și începutul etapei de vară). Asta pune foarte multă presiune pe anumite patch-uri, așa că schimbăm un pic cadența, de la patch mare-patch mic, la patch mediu-patch mediu.
+[⁣](https://youtu.be/xoC0dTa8NGQ)
+În patch-urile recente, am asistat la schimbări aduse magilor în 8.9, modificări aduse junglei în 8.10 și, cel mai recent, la ajustări aplicate țintașilor. Patch-ul 8.12 încheie acest interval de la mijlocul sezonului, pe care l-am numit astfel pentru că, deși suntem la mijlocul sezonului, n-am avut niciun patch dedicat explicit acestei perioade. Aducem o serie de schimbări finale sistemului, însă accentul e mai degrabă pe consecințele și impactul schimbărilor de până acum. Planul între momentul de acum și presezon e, în principal, să șlefuim ce e de șlefuit și să ne ocupăm de echilibrări, ceea ce înseamnă că până atunci patch-urile nu vor mai fi atât de radicale precum cele din ultimele luni.
 
-Acestea fiind zise, patch-ul de față aduce niște schimbări importante. În primul rând, ne ocupăm de doi campioni cu care nu am prea știut ce să facem. Am tot încercat să le facem pe LeBlanc și Ahri mai puțin frustrante pentru inamici, dar le-am modificat atât de mult, încât s-au îndepărtat de ideea de asasini. În acest patch, încercăm să le readucem pe cele două la un stil de joc mai potrivit pentru asasini, păstrând totodată părțile bune din actualizările anterioare. Va trebui să stăm cu ochii pe ele în patch-urile următoare. Dar, în general, LeBlanc și Ahri ar trebui să poată ucide ușor țintele prioritare, iar apoi să-și transforme avantajul într-o victorie.
+Să revenim la 8.12! Micșorăm un pic durata scuturilor oferite aliaților prin abilități, precum și puterea ''Idolului interzis'' și a îmbunătățirilor sale, pentru a face scuturile mai ușor de contracarat. Dacă ai urmărit ce se întâmplă în PBE în acest patch, poate că ai observat și câteva schimbări ale unor obiecte pentru a-i ajuta pe luptători să aibă un impact mai mare asupra luptelor de echipă din etapa de final a jocului. Luptătorii au devenit mai puternici de-a lungul ultimelor patch-uri datorită schimbărilor din jurul lor, iar lucrurile sunt în continuare într-o schimbare rapidă. Amânăm majoritatea acestor modificări până se liniștesc lucrurile puțin, ca să nu oferim mai multă putere unei clase care de fapt nu mai are nevoie de ajutor.
 
-GLHF și ne vedem în Rift!
+GLHF,
 
-Notele patch-ului 8.8 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-88
+Notele patch-ului 8.12 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-812

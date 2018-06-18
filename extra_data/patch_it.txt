@@ -1,9 +1,9 @@
 Salve evocatori!
-[⁣](https://youtu.be/jngjWVUT42M)
-Benvenuti nella patch 8.8! Avvicinandoci alla metà della stagione, i prossimi mesi saranno pieni zeppi di eventi (per menzionarne alcuni, l'MSI, l'avvio di Clash e l'inizio del Summer Split). Questo mette molta pressione su specifiche patch, quindi "patch grande, patch piccola" cambierà per un po' in "patch media, patch media".
+[⁣](https://youtu.be/Xl3jsmnnBE0)
+Nella storia recente abbiamo visto modifiche ai maghi nella 8.9, cambi nella giungla nella 8.10 e più di recente ritocchi ai tiratori nella 8.11. La 8.12 mette fine a questo periodo di "metà stagione", così chiamato perché siamo a metà stagione ma non c'è stata una patch ufficiale delle "metà stagione". In questa patch troviamo alcune modifiche finali ai sistemi, ma la nostra priorità si è già spostata sui ritocchi. Il nostro piano, da ora fino alla pre-stagione, è di levigare il gameplay e risolvere i problemi di bilanciamento. In questo modo, quando arriverà la pre-stagione, le patch saranno meno distruttive rispetto ai mesi passati.
 
-Detto questo, in questa patch troverete delle modifiche notevoli! In primo luogo, prendiamo in esame due campioni che ci hanno dato svariati grattacapi. Nel nostro sforzo di rendere LeBlanc e Ahri meno frustranti da affrontare, le abbiamo allontanate troppo dalla loro natura di assassine, trasformandole in maghi che fanno kiting sfruttando la mobilità e gli effetti di controllo. In questa patch cerchiamo di indirizzarle verso uno stile da assassine, mantenendo alcuni dei guadagni di salute dei precedenti aggiornamenti. Le terremo d'occhio nelle prossime patch, ma in generale dovrebbero eccellere nelle raffiche ai danni dei bersagli prioritari e nell'innescare una valanga vittoriosa a partire da quel vantaggio.
+Torniamo alla 8.12! Abbiamo ritocchi agli oggetti da combattenti, tra cui due nuovi oggetti. Giudizio di Atma e Lancia di Shojin danno modo ai combattenti di trasformare i vantaggi ottenuti a inizio partita in forza durante i combattimenti a squadre a fine partita. Riduciamo anche la durata delle abilità con scudo alleate e la forza della linea Idolo proibito, con l'obiettivo di rendere gli scudi più equi per i nemici che li affrontano.
 
-GLHF, ci vediamo sulla Landa!
+Buon divertimento,
 
-Note sulla patch 8.8 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-88
+Note sulla patch 8.12 http://euw.leagueoflegends.com/it/news/game-updates/patch/note-sulla-patch-812

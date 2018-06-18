@@ -1,9 +1,9 @@
 Saudações, Invocadoras e Invocadores.
-[⁣](https://youtu.be/5GUo3zEV4NY)
-Boas-vindas à Atualização 8.8! Estamos chegando na metade da Temporada e os próximos meses estarão recheados de eventos (MSI, o lançamento do Clash, o início de uma nova etapa competitiva, e não para por aí). Isso coloca bastante pressão em algumas Atualizações específicas, então não teremos tanto Atualizações grandonas ou pequenininhas - e sim Atualizações médias durante um tempo.
+[⁣](https://youtu.be/KwF_RYnAr2M)
+Recentemente, vimos algumas mudanças nos magos na 8.9, alterações na selva na 8.10, e mais recentemente ainda, ajustes nos atiradores durante a 8.11. A 8.12 encerra esse período de "meia-temporada", nomeado assim por estarmos no meio da temporada, mas nenhuma Atualização foi feita como um evento de "meia-temporada". Algumas mudanças sistêmicas finais estão nessa Atualização, porém nosso foco já está voltado para o que vem a seguir. O plano entre agora e a pré-temporada é principalmente atar as pontas soltas e resolver os problemas de balanceamento, o que significa que até a pré-temporada, as atualização serão menos significativas do que as que tivemos nos últimos meses.
 
-Mesmo assim, ainda vamos ter mudanças significativas nesta Atualização! Primeiro, vamos trabalhar em duas Campeãs que são verdadeiros desafios para nós. Quando tentamos amenizar a frustração de jogar contra a LeBlanc e a Ahri, acabamos afastando-as de seu papel como assassinas e acabamos transformando-as em magas que conduzem os oponentes com mobilidade e Controle de Grupo. Nesta atualização, vamos tentar recuperar um estilo de jogo condizente com a função de assassinas, mas mantendo os ganhos das suas atualizações anteriores. Vamos ter que ficar de olho nelas nas próximas Atualizações - mas, no geral, elas serão particularmente boas em causar dano explosivo a alvos prioritários e levar efeitos bola de neve em vitórias.
+De volta a 8.12! Estamos diminuindo a duração das habilidades de escudo em aliados e fortalecendo linha de itens com o Ídolo Proibido, com o objetivo de tornar os escudos mais justos para os inimigos que jogam contra eles. Se você esteve de olho no APT durante essa atualização, deve ter visto algumas mudanças de itens para ajudar os Lutadores a carregar os confrontos de equipe do final da partida. Lutadores ficaram fortes com o passar das últimas atualizações graças ao que mudou ao redor deles, e o cenário ainda está mudando rapidamente. Vamos segurar a maioria dessas mudanças até a poeira baixar, para que não ocorra um fortalecimento de uma classe que não precisa mais de ajuda.
 
-GLHF e a gente se vê no Rift!
+GLHF,
 
-Notas da Atualização 8.8 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-88
+Notas da Atualização 8.12 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-812
