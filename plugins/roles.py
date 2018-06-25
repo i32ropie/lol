@@ -44,9 +44,9 @@ def command_champs(m):
         for (k, v) in sorted(data[lang(cid)].items(),
                              key=lambda x: x[1]['name']):
             if k in changeds:
-                txt += '\n/' + changeds[k] + ' ' + v['title']
+                txt += '\n/' + changeds[k]
             else:
-                txt += '\n/' + k + ' ' + v['title']
+                txt += '\n/' + k
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, txt)
     else:
