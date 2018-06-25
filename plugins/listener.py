@@ -152,7 +152,8 @@ def query_champ_basic(q):
         elif c_name == 'monkeyking':
             c_name = 'wukong'
         for x in data[lang(cid)]:
-            if c_name == data[lang(cid)][x]['key'].lower():
+            #if c_name == data[lang(cid)][x]['key'].lower():
+            if data[lang(cid)][x]['key'].lower().startswith(c_name):
                 champ = data[lang(cid)][x]
                 lattest_version = static_versions()
                 thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(
@@ -183,7 +184,8 @@ def query_champ_extra(q):
         elif c_name == 'monkeyking':
             c_name = 'wukong'
         for x in data[lang(cid)]:
-            if c_name == data[lang(cid)][x]['key'].lower():
+            #if c_name == data[lang(cid)][x]['key'].lower():
+            if data[lang(cid)][x]['key'].lower().startswith(c_name):
                 champ = data[lang(cid)][x]
                 lattest_version = static_versions()
                 thumb = 'http://ddragon.leagueoflegends.com/cdn/{}/img/champion/{}.png'.format(
