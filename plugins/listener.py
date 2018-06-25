@@ -146,6 +146,7 @@ def query_champ_basic(q):
         return None
     try:
         to_send = list()
+        article_id = 1
         c_name = q.query.split()[1].lower()
         if c_name == 'wukong':
             c_name = 'monkeyking'
@@ -160,11 +161,12 @@ def query_champ_basic(q):
                     lattest_version, champ['key'])
                 txt = champ_basic(data[lang(cid)][x], cid, inline=True)
                 aux = types.InlineQueryResultArticle(
-                    "1", champ['name'], types.InputTextMessageContent(
+                    article_id, champ['name'], types.InputTextMessageContent(
                         txt, parse_mode="Markdown"), description=responses['inline_champ_d'][
                         lang(cid)].format(
                         champ['name']), thumb_url=thumb)
                 to_send.append(aux)
+                article_id += 1
         if to_send:
             bot.answer_inline_query(q.id, to_send, cache_time=1)
     except:
@@ -178,6 +180,7 @@ def query_champ_extra(q):
     cid = q.from_user.id
     try:
         to_send = list()
+        article_id = 1
         c_name = q.query.split()[1].lower()
         if c_name == 'wukong':
             c_name = 'monkeyking'
@@ -192,11 +195,12 @@ def query_champ_extra(q):
                     lattest_version, champ['key'])
                 txt = champ_info(data[lang(cid)][x], cid)
                 aux = types.InlineQueryResultArticle(
-                    "1", champ['name'], types.InputTextMessageContent(
+                    article_id, champ['name'], types.InputTextMessageContent(
                         txt, parse_mode="Markdown"), description=responses['inline_champ_d'][
                         lang(cid)].format(
                         champ['name']), thumb_url=thumb)
                 to_send.append(aux)
+                article_id += 1
         if to_send:
             bot.answer_inline_query(q.id, to_send, cache_time=1)
     except:
