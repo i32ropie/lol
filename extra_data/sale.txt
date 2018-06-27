@@ -1,8 +1,8 @@
-/Aatrox: 487 RP
-/Fizz: 440 RP
-/Olaf: 395 RP
-/Urgot: 395 RP
-/Caitlyn_1: 260 RP
-/Mordekaiser_3: 487 RP
-/Malzahar_4: 487 RP
-/Varus_6: 675 RP
+/Kalista: 487 RP
+/Ezreal: 440 RP
+/Sona: 395 RP
+/Kled: 487 RP
+/Mordekaiser_2: 260 RP
+/JarvanIV_3: 487 RP
+/Sion_4: 487 RP
+/Lulu_6: 675 RP
