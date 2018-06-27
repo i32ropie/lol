@@ -9,6 +9,7 @@ print(Color(
 
 
 @bot.message_handler(commands=['update_patch'])
+def update_patch_auto(m):
     cid = m.chat.id
     uid = m.from_user.id
     try:
