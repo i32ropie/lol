@@ -3,6 +3,7 @@
 from config import *
 import re
 from bs4 import BeautifulSoup
+import os
 
 print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  update_patch.py importado.{/cyan}'))
@@ -20,7 +21,7 @@ def update_patch_auto(m):
         return None
     if is_admin(uid):
         invisible_character = "⁣"
-        for x in [x for x os.listdir('extra_data') if x.startswith('patch')]:
+        for x in [x for x in os.listdir('extra_data') if x.startswith('patch')]:
             # If patch is empty, continue
             if not [y for y in open(x)]:
                 continue
