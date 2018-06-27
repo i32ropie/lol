@@ -1,9 +1,9 @@
-Bonjour, invocateurs !
-[⁣](https://youtu.be/yZN9B_9RaMI)
-Précédemment, dans League of Legends : le patch 8.9 a apporté des changements aux mages, le patch 8.10 a révisé la jungle et le patch 8.11 a ajusté les tireurs. Aujourd'hui, le patch 8.12 est le dernier de la série des patchs de mi-saison. Cette semaine, nous apportons encore quelques changements à des systèmes du jeu, mais notre attention est déjà tournée en partie vers le peaufinage de toutes les modifications effectuées dernièrement. Jusqu'à la présaison, notre plan est à présent de soigner les détails et de régler les problèmes d'équilibrage. En conséquence, les prochains patchs ne bouleverseront pas le jeu autant que les mises à jour de ces derniers mois.
+[⁣](https://www.youtube.com/embed/jz0aVS351vk)Bienvenue dans le patch 8.13, où nous réglons les nombreux problèmes qui avaient bien besoin d'être corrigés suite aux changements apportés par les derniers patchs.
 
-Intéressons-nous sans plus tarder à la version 8.12 du jeu ! Nous nous avons revu à la baisse la durée des boucliers offerts par les compétences alliées et l'efficacité de l'Idole interdite et de ses dérivés, afin de rendre les boucliers plus justes pour les ennemis. Si vous avez suivi l'évolution des changements sur le PBE, vous avez certainement vu les changements de certains objets pour aider les combattants à briller dans les combats d'équipes en fin de partie. Au cours des patchs précédents, les combattants sont devenus extrêmement puissants grâce aux changements qui les ont affectés, et l'environnement du jeu continue d'évoluer rapidement. Nous attendons que les choses se tassent avant de sortir ces nouveautés pour ne pas renforcer une classe qui n'en a plus besoin.
+Tout d'abord, nous remettons un peu de force dans les kits de certains tireurs adeptes des coups critiques, car ils vivent des moments difficiles sur la voie du bas. Nous voulons préserver autant que possible la diversité sur cette voie, mais nous devons aussi nous assurer que suffisamment de tireurs (notamment ceux qui s'appuient sur les attaques de base et les coups critiques) soient viables.
 
-Bonne chance et amusez-vous bien !
+De nombreuses parties ont été jouées depuis la refonte d'Irelia et la sortie de Pyke et nous avons constaté qu'ils avaient tous deux un peu trop de burst, alors nous allons ajuster leurs styles de jeu.
 
-Notes de patch 8.12 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-812
+Pour finir, Aatrox Aa reçu sAa refonte tant Aattendue. Aiguisez votre nouvelle Épée des Darkin et ravagez la Faille de l'invocateur !
+
+Notes de patch 8.13 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-813

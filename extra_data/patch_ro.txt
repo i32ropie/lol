@@ -1,9 +1,9 @@
-Salutare, invocatori,
-[⁣](https://youtu.be/xoC0dTa8NGQ)
-În patch-urile recente, am asistat la schimbări aduse magilor în 8.9, modificări aduse junglei în 8.10 și, cel mai recent, la ajustări aplicate țintașilor. Patch-ul 8.12 încheie acest interval de la mijlocul sezonului, pe care l-am numit astfel pentru că, deși suntem la mijlocul sezonului, n-am avut niciun patch dedicat explicit acestei perioade. Aducem o serie de schimbări finale sistemului, însă accentul e mai degrabă pe consecințele și impactul schimbărilor de până acum. Planul între momentul de acum și presezon e, în principal, să șlefuim ce e de șlefuit și să ne ocupăm de echilibrări, ceea ce înseamnă că până atunci patch-urile nu vor mai fi atât de radicale precum cele din ultimele luni.
+[⁣](https://www.youtube.com/embed/O8ljruS-T9Q)Bun venit la patch-ul 8.13, cel în care echilibrăm campionii care au ieșit din tipare după schimbările majore introduse în ultimele patch-uri.
 
-Să revenim la 8.12! Micșorăm un pic durata scuturilor oferite aliaților prin abilități, precum și puterea ''Idolului interzis'' și a îmbunătățirilor sale, pentru a face scuturile mai ușor de contracarat. Dacă ai urmărit ce se întâmplă în PBE în acest patch, poate că ai observat și câteva schimbări ale unor obiecte pentru a-i ajuta pe luptători să aibă un impact mai mare asupra luptelor de echipă din etapa de final a jocului. Luptătorii au devenit mai puternici de-a lungul ultimelor patch-uri datorită schimbărilor din jurul lor, iar lucrurile sunt în continuare într-o schimbare rapidă. Amânăm majoritatea acestor modificări până se liniștesc lucrurile puțin, ca să nu oferim mai multă putere unei clase care de fapt nu mai are nevoie de ajutor.
+În primul și în primul rând, mărim din nou puterea anumitor țintași axați pe lovituri critice, mai exact a celor care nu au prea ținut piept competiției de pe culoarul de jos. Încercăm să menținem parțial această diversitate a culoarului, dar vrem să ne asigurăm și că un număr suficient de mare de țintași (mai ales cei care atacă repetat și provoacă o grămadă de lovituri critice) reprezintă o alegere viabilă pentru jucători.
 
-GLHF,
+Deoarece a trecut deja ceva timp de la actualizarea Ireliei și de la lansarea lui Pyke și deci am văzut cum se comportă, le micșorăm daunele bruște.
 
-Notele patch-ului 8.12 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-812
+Nu în ultimul rând, odată cu acest patch lansăm și actualizarea lui Aatrox – noua sabie darkin e gata să-și răpună inamicii în Riftul Invocatorului!
+
+Notele patch-ului 8.13 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-813

@@ -1,9 +1,9 @@
-Saludos, invocadores.
-[⁣](https://youtu.be/c62jT8mh-a8)
-Últimamente, se han realizado cambios a los magos en la versión 8.9, modificaciones en la jungla en la versión 8.10 y ajustes a los tiradores en la reciente versión 8.11. La versión 8.12 da por concluida la franja de "mitad de temporada", a la que llamamos así porque nos encontramos a mitad de temporada, pero ninguna de estas versiones ha sido concebida como un evento propio de esta franja. Aunque en esta versión se incluyen algunos cambios de sistema definitivos, nuestra vista está fija en lo que vendrá a continuación. El plan entre ahora y la pretemporada es limar las imprecisiones y los problemas de equilibrio, lo que significa que hasta la llegada de la pretemporada, las versiones os afectarán menos que las de los últimos meses.
+[⁣](https://www.youtube.com/embed/bPmIETevSnU)Os damos la bienvenida a la versión 8.13, en la que pulimos a fondo los casos extremos que han aparecido como resultado de los grandes cambios realizados en las últimas versiones.
 
-¡Ahora hablemos de la versión 8.12! Hemos reducido la duración de las habilidades de escudo a aliados y el poder de la línea de objetos de Ídolo prohibido para que los escudos puedan ser combatidos de forma más justa. Si habéis estado atentos a la beta durante esta versión, habréis visto algunos cambios a los objetos que ayudan a los luchadores a ganar los combates de final de partida. Durante las últimas versiones, los luchadores se han hecho cada vez más fuertes gracias a los cambios relacionados con ellos, y el panorama está cambiando rápidamente. Vamos a retrasar la mayoría de estos cambios hasta que se calme la cosa para no potenciar a una clase que ya no necesita ayuda.
+Para empezar, vamos a devolver poder a los kits de varios tiradores de crítico que han sufrido bastante frente a la competencia en la calle inferior. Nuestra intención no es perder esa diversidad en la calle, pero queremos asegurarnos de que suficientes tiradores (sobre todo los de "atacar mucho de seguido y realizar muchos impactos críticos") sean buenas opciones.
 
-¡GL, HF!
+Puesto que ya hemos tenido suficientes partidas desde la actualización de Irelia y el lanzamiento de Pyke, vamos a ajustar a estos dos campeones para que sus estilos de juego se alejen un poco de ese exceso de daño explosivo que tienen.
 
-Notas de la Versión 8.12 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-812
+Por último, hemos aactualizado aa Aatrox, ¡así que echadle un vistazo a la nueva Espada de los Oscuros en la Grieta del Invocador!
+
+Notas de la Versión 8.13 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-813

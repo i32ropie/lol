@@ -1,9 +1,9 @@
-Czołem, przywoływacze.
-[⁣](https://youtu.be/8vu2UCFVExw)
-W ostatnim czasie widzieliśmy zmiany magów w patchu 8.9, przemiany dżungli w 8.10 i niedawne modyfikacje strzelców w 8.11. Patch 8.12 kończy ten „śródsezonowy” okres nazwany tak, ponieważ jesteśmy w połowie sezonu, lecz żaden patch nie został jeszcze tak ochrzczony. Znajdziecie tutaj parę finalnych zmian systemowych, ale już skupiamy się na pracach poprawkowych. Plan na czas od teraz do przedsezonu obejmuje głównie wyrównywanie niedoskonałości i korygowanie problemów związanych z wyważeniem, co znaczy, że dopóki nie nadejdzie przedsezon, patche będą wprowadzały mniejsze zamieszanie niż to, które widzieliście na przestrzeni kilku poprzednich miesięcy.
+[⁣](https://www.youtube.com/embed/9ziwgsgI7l0)Witajcie w patchu 8.13, w którym szlifujemy sporo nierówności związanych z dużymi zmianami przeprowadzonymi w ciągu kilku ostatnich patchów.
 
-A teraz coś o 8.12! Zmodyfikowaliśmy przedmioty dla wojowników i daliśmy im dwie nowe zabawki. Osąd Atmy i Włócznia Shojin pozwalają wojownikom przekształcić zdobytą we wczesnej fazie gry przewagę na wpływ na walki drużynowe w późnej fazie. Osłabiamy również czas działania sojuszniczych umiejętności zapewniających tarcze i siłę przedmiotów związanych z Bluźnierczym Bożkiem. Celem tych zmian jest sprawienie, żeby granie przeciwko tarczom było bardziej fair.
+Na początek przywracamy trochę mocy do zestawów umiejętności paru strzelców opierających się głównie na trafieniach krytycznych, którzy ostatnio napotykali twardy opór w dolnej alei. Chcemy utrzymać tę różnorodność w alei, jednocześnie upewniając się, że wystarczająco wielu strzelców (szczególnie tych z rodzaju „zaatakuję cię milion razy z rzędu i tyle samo razy trafię krytycznie”) będzie solidnych.
 
-Dobrej zabawy i powodzenia!
+Skoro rozegrano już parę gier od czasu przeróbki Irelii i wypuszczenia Pyke’a, modyfikujemy obydwoje bohaterów, by ich styl gry nie opierał się za bardzo na zadawanych za darmo obrażeniach eksplozywnych.
 
-Opis patcha 8.12 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-812
+NAa koniec Aatrox wreszcie dostAał przeróbkę, więc uważajcie na odświeżone Ostrze Darkinów na Summoner’s Rift!
+
+Opis patcha 8.13 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-813

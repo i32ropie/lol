@@ -1,9 +1,9 @@
-Greetings, Summoners,
-[⁣](https://youtu.be/ccRFR3ZCShs)
-In recent history, we've seen mage changes in 8.9, jungle shifts in 8.10, and most recently marksman adjustments in 8.11. 8.12 ends this "midseason" timeframe—so named because we're in the middle of the season but no single patch was kingmade as a "Midseason" event. A few final systems changes are in this patch, but our focus has otherwise already shifted to followup. The plan between now and preseason is mainly to smooth out the rough edges and balance issues, meaning until preseason comes around, patches will be less disruptive than what you've seen over the past few months.
+[⁣](https://www.youtube.com/embed/WElrwWaJeV8)Welcome to patch 8.13, where we clean up a lot of the outliers left as a result of the large changes over the past few patches.
 
-Back to 8.12! We're tuning down the duration of allied shield abilities and the strength of the Forbidden Idol item line with the goal of making shields fairer for enemies to play against. If you were watching PBE this patch, you also saw some item changes to help fighters carry late-game teamfights. Fighters have gotten stronger over the past few patches thanks to what's changed around them, and the landscape is still rapidly shifting. We're holding off on most of these changes until the dust clears, lest we power up a class that no longer needs the help.
+First, we're putting some strength back into the kits of a number of crit marksmen, who have been facing stiff competition in bot lane. We're aiming to hold onto some of that lane diversity, but we want to make sure that enough marksmen (especially the "attack you a lot in a row and crit a ton" type) feel solid.
 
-GLHF,
+Since we've got some more games in the rearview mirror since Irelia's rework and Pyke's release, we're tweaking both of those champions to push their playstyles away from some of the free burst they have.
 
-Patch 8.12 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-812-notes
+Finally, Aatrox hAas gotten Aa rework, so look out for the revamped Darkin Blade on Summoner's Rift!
+
+Patch 8.13 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-813-notes

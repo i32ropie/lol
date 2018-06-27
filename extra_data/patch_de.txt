@@ -1,9 +1,9 @@
-Sei gegrüßt, Beschwörer!
-[⁣](https://youtu.be/XXmT_pcHjME)
-In letzter Zeit haben wir eine Menge Änderungen vorgenommen: In 8.9 an den Magiern, in 8.10 am Dschungel und in 8.11 an den Schützen. 8.12 wird der letzte Patch der Saisonmitte, die dieses Jahr ohne großes Event auskommen muss. In diesem Patch erwarten dich einige letzte Änderungen an Spielsystemen, ansonsten ist unser Blick aber bereits fest auf die Nachbereitung gerichtet. Bis zur Vorsaison wird es daher unser Hauptziel sein, das Spiel auszubalancieren und Unebenheiten und Kanten zu glätten. Das bedeutet, dass die kommenden Patches keine so einschneidenden Änderungen mehr bringen wie in den letzten Monaten.
+[⁣](https://www.youtube.com/embed/5AqSECk4ssM)Willkommen bei Patch 8.13, in dem wir mit einigen der Ausreißer aufräumen, die nach den großen Veränderungen der letzten Patches übriggeblieben sind.
 
-Zurück zu 8.12! Wir verringern die Dauer von Schilden durch Fähigkeiten von Verbündeten und die Stärke der Gegenstandsreihe rund um den Verbotenen Götzen. So haben Gegner es nicht mehr ganz so schwer, gegen Schilde anzukommen. Wenn du die PBE in diesem Patch im Auge behalten hast, konntest du einige Veränderungen an Gegenständen verfolgen, die Kämpfern im späten Spiel eine tragende Rolle in Teamkämpfen ermöglichen sollten. Kämpfer sind über die letzten Patches stärker geworden, da sich das Drumherum geändert hat, und die Lage hat sich noch nicht beruhigt. Wir halten die meisten Veränderungen noch zurück, bis der Staub sich gelegt hat, damit wir nicht eine Klasse stärken, die keine Hilfe benötigt.
+Zuallererst verbessern wir die Fähigkeitensets einer ganzen Reihe an Schützen mit kritischen Treffern, die im Augenblick mit heftiger Konkurrenz zu kämpfen haben. Natürlich wollen wir, dass möglichst viele verschiedene Champions auf der unteren Lane gespielt werden können, aber gleichzeitig sollen sich genug Schützen solide spielen lassen. Das gilt besonders für die Schützen, die oft hintereinander normal angreifen und viele kritische Treffer landen.
 
-GLHF
+Irelias Überarbeitung und Pykes Veröffentlichung liegen jetzt einige Zeit zurück und wir denken, dass Anpassungen nötig sind. Ihre Spielstile sollten sich nicht zu sehr auf die geschenkten Schadensspitzen verlassen.
 
-Patchnotizen 8.12 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-812
+Zu guter Letzt hat Aatrox eine Überarbeitung bekommen, halte also die Augen nach der Klinge der Düsteren offen!
+
+Patchnotizen 8.13 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-813

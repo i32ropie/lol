@@ -1,9 +1,9 @@
-Saudações, Invocadoras e Invocadores.
-[⁣](https://youtu.be/KwF_RYnAr2M)
-Recentemente, vimos algumas mudanças nos magos na 8.9, alterações na selva na 8.10, e mais recentemente ainda, ajustes nos atiradores durante a 8.11. A 8.12 encerra esse período de "meia-temporada", nomeado assim por estarmos no meio da temporada, mas nenhuma Atualização foi feita como um evento de "meia-temporada". Algumas mudanças sistêmicas finais estão nessa Atualização, porém nosso foco já está voltado para o que vem a seguir. O plano entre agora e a pré-temporada é principalmente atar as pontas soltas e resolver os problemas de balanceamento, o que significa que até a pré-temporada, as atualização serão menos significativas do que as que tivemos nos últimos meses.
+[⁣](https://www.youtube.com/embed/AfIkutPGMfw)Boas vindas à Atualização 8.13, em que limpamos muitos dos resquícios das grandes mudanças das últimas atualizações.
 
-De volta a 8.12! Estamos diminuindo a duração das habilidades de escudo em aliados e fortalecendo linha de itens com o Ídolo Proibido, com o objetivo de tornar os escudos mais justos para os inimigos que jogam contra eles. Se você esteve de olho no APT durante essa atualização, deve ter visto algumas mudanças de itens para ajudar os Lutadores a carregar os confrontos de equipe do final da partida. Lutadores ficaram fortes com o passar das últimas atualizações graças ao que mudou ao redor deles, e o cenário ainda está mudando rapidamente. Vamos segurar a maioria dessas mudanças até a poeira baixar, para que não ocorra um fortalecimento de uma classe que não precisa mais de ajuda.
+Primeiramente, estamos restaurando um pouco da força de vários atiradores de acerto crítico, que têm enfrentado uma baita concorrência na rota inferior. Queremos manter a diversidade na rota, mas também ter certeza de que continuaremos a ter atiradores (especialmente do tipo "montão de ataque e montão de crítico") consistentes.
 
-GLHF,
+Agora, passadas algumas partidas desde a reformulação da Irelia e do lançamento de Pyke, vamos ajustar ambos os campeões para distanciá-los de seus estilos de jogo com padrão explosivo gratuito.
 
-Notas da Atualização 8.12 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-812
+Por fim, Aatrox ganhou sua reformulação, então cuidado versão melhorada da Espada Darkin melhorada em Summoner's Rift!
+
+Notas da Atualização 8.13 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-813
