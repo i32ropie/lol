@@ -22,6 +22,8 @@ def update_patch_auto(m):
     if is_admin(uid):
         invisible_character = "⁣"
         for x in [x for x in os.listdir('extra_data') if x.startswith('patch')]:
+            # First we root of the file
+            x = "extra_data/{}".format(x)
             # If patch is empty, continue
             if not [y for y in open(x)]:
                 continue
