@@ -49,7 +49,7 @@ def update_patch_auto(m):
 
             r = requests.get(patch_url_new)
             if r.status_code != 200:
-                return bot.send_message(uid, "Error parseando la siguiente URL: {}".format(patch_url_new))
+                return bot.send_message(cid, "Error parseando la siguiente URL: {}".format(patch_url_new))
 
             soup = BeautifulSoup(r.text, 'html.parser')
             youtube_link = ""
@@ -59,10 +59,11 @@ def update_patch_auto(m):
                         youtube_link = y.attrs['src']
                         break
             except:
-                bot.send_message(uid, "Error obteniendo URL de youtube")
+                bot.send_message(cid, "Error obteniendo URL de youtube")
             if youtube_link:
                 new_patch_notes = "[{}]({}){}\n\n{}".format(invisible_character, youtube_link, '\n\n'.join(list(filter(None, [x.strip() for x in soup.find('blockquote').prettify().split('\n') if not '<' in x]))), new_last_line)
             else:
                 new_patch_notes = "{}\n\n{}".format('\n\n'.join(list(filter(None, [x.strip() for x in soup.find('blockquote').prettify().split('\n') if not '<' in x]))), new_last_line)
             with open(x, 'w') as f:
                 f.write(new_patch_notes)
+        bot.send_message(cid, "Done :)")
