@@ -47,7 +47,8 @@ with open('responses.json', encoding='utf-8') as f:
 
 
 def send_udp(txt):
-    sock.sendto(MESSAGE.format(txt).encode(), (UDP_IP, UDP_PORT))
+    pass
+    #sock.sendto(MESSAGE.format(txt).encode(), (UDP_IP, UDP_PORT))
 
 
 userStep = dict()
