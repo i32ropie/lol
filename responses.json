@@ -893,6 +893,11 @@
     "update_sale_text_2":"Ofertas actualizadas.",
     "update_sale_pic_1":"Envía la nueva imagen de las ofertas o escribe /cancel para cancelar el comando.",
     "update_sale_pic_2":"Ofertas actualizadas.",
+    "update_champs_no_version":"Pásame la versión, ejemplo: *8.17.1*",
+    "update_champs_1":"Descargando archivo: {}",
+    "update_champs_2":"Descarga terminada, empieza la descompresión del archivo.",
+    "update_champs_3":"Descompresión terminada, empieza la generación de archivos.",
+    "update_champs_4":"Archivos generados, borrando restos y reiniciando bot.",
     "about":{
         "es":"Gracias a toda la comunidad de desarrolladores de bots para Telegram.\nEn especial a @PilaricaBot, @Gorhy, @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @PrincipeBot, @Steel0Eggs, @n8bot y @Botaniobot por su gran ayuda ^^.\nGracias también a @eternnoir por la maravillosa [API](%s).\nMuchas gracias también a todas las personas que uséis el bot. Sabed que me hace muy feliz que este proyecto vaya creciendo :)\nGracias a los traductores: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
         "en":"Thanks to all the Telegram's bot developers community.\nIn special to @PilaricaBot, @Gorhy, @pelijaro, @luksireiku, @skgsergio, @rockneurotiko, @Garfieldrockero, @Sanguchi, @PrincipeBot, @Steel0Eggs, @n8bot and @Botaniobot for their great help ^^.\nThanks too to @eternnoir for the wonderful [API](%s).\nThanks a lot to all the people that use the bot. I want you to know that I’m very happy because this project keeps growing :)\nThanks to the translators: @dogukanyildiz @massimogennaro @Andrea\\_Gravano @luca\\_ka @m4cca @Kootnik @Chrome\\_Sparks @Datana @Xeharat Kheops11 @Reza6612 @Arquimago @aRandomStranger @disinterpreter @imandaneshi @Akatsuki3910 @aipls",
