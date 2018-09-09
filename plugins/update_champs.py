@@ -23,10 +23,10 @@ def command_update_champs(m):
         version = m.text.split(None, 1)[1]
         file_name = 'dragontail-{}.tgz'.format(version)
         bot.send_message(cid, responses['update_champs_1'].format(file_name))
-        print(os.popen('wget https://ddragon.leagueoflegends.com/cdn/{}'.format(file_name)).read())
+        os.popen('wget -q https://ddragon.leagueoflegends.com/cdn/{}'.format(file_name)).read()
         os.mkdir('tmp')
         bot.send_message(cid, responses['update_champs_2'])
-        print(os.popen('tar -xvzf {} -C tmp/'.format(file_name)).read())
+        os.popen('tar -xvf {} -C tmp/'.format(file_name)).read()
         bot.send_message(cid, responses['update_champs_3'])
         with open('champs_es.json', 'w') as f:
             with open('tmp/{}/data/es_ES/championFull.json'.format(version)) as z:
@@ -92,5 +92,5 @@ def command_update_champs(m):
             for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
             json.dump(aux, f, indent=4)
         bot.send_message(cid, responses['update_champs_4'])
-        print(os.popen('rm -rf tmp/ {}'.format(file_name)).read())
+        os.popen('rm -rf tmp/ {}'.format(file_name)).read()
         exit()
