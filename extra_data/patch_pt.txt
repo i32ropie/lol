@@ -1,9 +1,5 @@
-[⁣](https://www.youtube.com/embed/AfIkutPGMfw)Boas vindas à Atualização 8.13, em que limpamos muitos dos resquícios das grandes mudanças das últimas atualizações.
+[⁣](https://www.youtube.com/embed/XUKDoN3SbNU)A Atualização 8.18 traz a primeira onda de mudanças focada no Campeonato Mundial que ocorrerá no final do ano. Em alguns casos, isso significa frear Campeões fora da curva que dominam demais nas escolhas e banimentos (e também aqueles que possivelmente substituiriam esses Campeões após isso). Em outros, isso significa fortalecer Campeões que estão às margens das escolhas consideráveis que receberam nerf na temporada, em certos casos. Assim, a Atualização 8.19 trará mais uma rodada dessas alterações.
 
-Primeiramente, estamos restaurando um pouco da força de vários atiradores de acerto crítico, que têm enfrentado uma baita concorrência na rota inferior. Queremos manter a diversidade na rota, mas também ter certeza de que continuaremos a ter atiradores (especialmente do tipo "montão de ataque e montão de crítico") consistentes.
+Voltando ao aqui e agora, o alfa da Blitz do Nexus terminará na 8.18. Mas não se preocupem, vocês não ficarão de mãos vazias: a Odisseia, nosso mais novo evento, já está aí! Então junte-se à tripulação e divirta-se destruindo uns babacas espaciais!
 
-Agora, passadas algumas partidas desde a reformulação da Irelia e do lançamento de Pyke, vamos ajustar ambos os campeões para distanciá-los de seus estilos de jogo com padrão explosivo gratuito.
-
-Por fim, Aatrox ganhou sua reformulação, então cuidado versão melhorada da Espada Darkin melhorada em Summoner's Rift!
-
-Notas da Atualização 8.13 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-813
+Notas da Atualização 8.18 http://br.leagueoflegends.com/pt/news/game-updates/patch/notas-da-atualizacao-818

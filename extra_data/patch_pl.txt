@@ -1,9 +1,5 @@
-[⁣](https://www.youtube.com/embed/9ziwgsgI7l0)Witajcie w patchu 8.13, w którym szlifujemy sporo nierówności związanych z dużymi zmianami przeprowadzonymi w ciągu kilku ostatnich patchów.
+[⁣](https://www.youtube.com/embed/Ymp-pkR9c5g)Patch 8.18 przynosi pierwszą falę zmian przygotowanych z myślą o Mistrzostwach Świata, które odbędą się później w tym roku. W niektórych przypadkach oznacza to przytemperowanie najbardziej problematycznych bohaterów dominujących fazę banów i wyborów (oraz tych bohaterów, którzy prawdopodobnie przejęliby po nich pałeczkę po wprowadzeniu zmian). W innych przypadkach oznacza to wzmocnienie bohaterów, którym niewiele brakuje do bycia wybieranymi i których osłabiliśmy wcześniej w tym sezonie. Patch 8.19 będzie zawierał kolejną serię takich zmian.
 
-Na początek przywracamy trochę mocy do zestawów umiejętności paru strzelców opierających się głównie na trafieniach krytycznych, którzy ostatnio napotykali twardy opór w dolnej alei. Chcemy utrzymać tę różnorodność w alei, jednocześnie upewniając się, że wystarczająco wielu strzelców (szczególnie tych z rodzaju „zaatakuję cię milion razy z rzędu i tyle samo razy trafię krytycznie”) będzie solidnych.
+A wracając do teraźniejszości: testy wersji alfa Nexus Blitz dobiegają końca w 8.18, ale nie zostawimy was z pustymi rękami. Odyseja, nasze najnowsze wydarzenie, już tu jest, więc dołączcie do załogi i zmiażdżcie kilku kosmicznych nerdów!
 
-Skoro rozegrano już parę gier od czasu przeróbki Irelii i wypuszczenia Pyke’a, modyfikujemy obydwoje bohaterów, by ich styl gry nie opierał się za bardzo na zadawanych za darmo obrażeniach eksplozywnych.
-
-NAa koniec Aatrox wreszcie dostAał przeróbkę, więc uważajcie na odświeżone Ostrze Darkinów na Summoner’s Rift!
-
-Opis patcha 8.13 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-813
+Opis patcha 8.18 http://eune.leagueoflegends.com/pl/news/game-updates/patch/opis-patcha-818

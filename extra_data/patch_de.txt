@@ -1,9 +1,5 @@
-[⁣](https://www.youtube.com/embed/5AqSECk4ssM)Willkommen bei Patch 8.13, in dem wir mit einigen der Ausreißer aufräumen, die nach den großen Veränderungen der letzten Patches übriggeblieben sind.
+[⁣](https://www.youtube.com/embed/HhEfwkLahaQ)Mit Patch 8.18 treten die ersten Änderungen in Kraft, die auf die bevorstehende WM abzielen. Zum einen nehmen wir uns die Champions vor, die Auswahl- und Bannphasen dominieren (und jene, die das Potenzial dazu haben). Zum anderen verbessern wir Champs, die fast gut genug sind, gespielt zu werden, darunter auch einige, die wir in dieser Saison abgeschwächt hatten. Patch 8.19 wird noch weitere Änderungen dieser Art enthalten.
 
-Zuallererst verbessern wir die Fähigkeitensets einer ganzen Reihe an Schützen mit kritischen Treffern, die im Augenblick mit heftiger Konkurrenz zu kämpfen haben. Natürlich wollen wir, dass möglichst viele verschiedene Champions auf der unteren Lane gespielt werden können, aber gleichzeitig sollen sich genug Schützen solide spielen lassen. Das gilt besonders für die Schützen, die oft hintereinander normal angreifen und viele kritische Treffer landen.
+Die Alphaversion von „Blitzpartie“ endet zwar mit 8.18, aber wir lassen dich nicht im Stich. Unser neuestes Event, „Odyssee“, hat begonnen! Mach mit und erledige ein paar Weltraumknalltüten!
 
-Irelias Überarbeitung und Pykes Veröffentlichung liegen jetzt einige Zeit zurück und wir denken, dass Anpassungen nötig sind. Ihre Spielstile sollten sich nicht zu sehr auf die geschenkten Schadensspitzen verlassen.
-
-Zu guter Letzt hat Aatrox eine Überarbeitung bekommen, halte also die Augen nach der Klinge der Düsteren offen!
-
-Patchnotizen 8.13 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-813
+Patchnotizen 8.18 http://euw.leagueoflegends.com/de/news/game-updates/patch/patchnotizen-818

@@ -1,9 +1,5 @@
-[⁣](https://www.youtube.com/embed/bPmIETevSnU)Os damos la bienvenida a la versión 8.13, en la que pulimos a fondo los casos extremos que han aparecido como resultado de los grandes cambios realizados en las últimas versiones.
+[⁣](https://www.youtube.com/embed/0yXcNTrzuJY)La versión 8.18 nos trae la primera tanda de cambios centrados en el Mundial de este año. En determinados casos, esto significa una revisión de los campeones más fuertes que dominan la fase de selección y bloqueo (así como a los campeones con más papeletas para sustituirlos). En otros, mejoraremos a determinados campeones que están a un empujoncito de ser considerados como elección y que debilitamos a principios de temporada (en algunos casos). La versión 8.19 tendrá otra ronda de este tipo de cambios.
 
-Para empezar, vamos a devolver poder a los kits de varios tiradores de crítico que han sufrido bastante frente a la competencia en la calle inferior. Nuestra intención no es perder esa diversidad en la calle, pero queremos asegurarnos de que suficientes tiradores (sobre todo los de "atacar mucho de seguido y realizar muchos impactos críticos") sean buenas opciones.
+En cuanto al presente, la alfa de Bombardeo al nexo termina con la versión 8.18, pero no os vamos a dejar con las manos vacías. Llega Odisea, nuestro evento más reciente, ¡así que uníos a la tripulación y aplastad a unos cuantos frikis del espacio!
 
-Puesto que ya hemos tenido suficientes partidas desde la actualización de Irelia y el lanzamiento de Pyke, vamos a ajustar a estos dos campeones para que sus estilos de juego se alejen un poco de ese exceso de daño explosivo que tienen.
-
-Por último, hemos aactualizado aa Aatrox, ¡así que echadle un vistazo a la nueva Espada de los Oscuros en la Grieta del Invocador!
-
-Notas de la Versión 8.13 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-813
+Notas de la Versión 8.18 http://euw.leagueoflegends.com/es/news/game-updates/patch/notas-de-la-version-818

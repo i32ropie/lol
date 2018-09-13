@@ -1,9 +1,5 @@
-[⁣](https://www.youtube.com/embed/O8ljruS-T9Q)Bun venit la patch-ul 8.13, cel în care echilibrăm campionii care au ieșit din tipare după schimbările majore introduse în ultimele patch-uri.
+[⁣](https://www.youtube.com/embed/LV8CJipS2Ks)Patch-ul 8.18 introduce prima serie de schimbări axate pe Campionatul Mondial din acest an. În unele cazuri, asta înseamnă că vom scădea puterea campionilor care domină faza de alegeri și blocări (și a celor care probabil ar începe să domine în locul lor). În alte cazuri, le vom acorda buff-uri campionilor care sunt aproape de punctul în care ar fi aleși; unii dintre ei chiar au fost jucați de-a lungul sezonului, dar le-am micșorat puterea între timp. Patch-ul 8.19 va continua această serie de schimbări.
 
-În primul și în primul rând, mărim din nou puterea anumitor țintași axați pe lovituri critice, mai exact a celor care nu au prea ținut piept competiției de pe culoarul de jos. Încercăm să menținem parțial această diversitate a culoarului, dar vrem să ne asigurăm și că un număr suficient de mare de țintași (mai ales cei care atacă repetat și provoacă o grămadă de lovituri critice) reprezintă o alegere viabilă pentru jucători.
+Revenind la momentul actual, testarea alpha a modului Nexus Blitz se sfârșește odată cu patch-ul 8.18, dar stați liniștiți, o să aveți ce face. Tocmai am lansat un nou eveniment: ''Odisee''. Așa că nu mai stați pe gânduri, alăturați-vă echipajului și distrugeți cât mai mulți tocilari spațiali!
 
-Deoarece a trecut deja ceva timp de la actualizarea Ireliei și de la lansarea lui Pyke și deci am văzut cum se comportă, le micșorăm daunele bruște.
-
-Nu în ultimul rând, odată cu acest patch lansăm și actualizarea lui Aatrox – noua sabie darkin e gata să-și răpună inamicii în Riftul Invocatorului!
-
-Notele patch-ului 8.13 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-813
+Notele patch-ului 8.18 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-818

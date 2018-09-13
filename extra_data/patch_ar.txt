@@ -1,9 +1,7 @@
-[⁣](https://www.youtube.com/embed/WElrwWaJeV8)Welcome to patch 8.13, where we clean up a lot of the outliers left as a result of the large changes over the past few patches.
+[⁣](https://www.youtube.com/embed/gj40w6uVTSM)8.18 brings us the first wave of changes focused on the World Championship later this year. In some cases, this means reining in outliers who are dominating pick-ban (as well as champs likely to take over
 
-First, we're putting some strength back into the kits of a number of crit marksmen, who have been facing stiff competition in bot lane. We're aiming to hold onto some of that lane diversity, but we want to make sure that enough marksmen (especially the "attack you a lot in a row and crit a ton" type) feel solid.
+once those outliers are addressed). Other times, it means buffing champs who are on the cusp of consideration—picks we nerfed earlier in the season, in a few cases. 8.19 will contain another round of these changes.
 
-Since we've got some more games in the rearview mirror since Irelia's rework and Pyke's release, we're tweaking both of those champions to push their playstyles away from some of the free burst they have.
+Back to the here and now, the Nexus Blitz alpha ends with 8.18, but we aren't leaving you high and dry. Odyssey, our newest event, is here, so join the crew and smash some space nerds!
 
-Finally, Aatrox hAas gotten Aa rework, so look out for the revamped Darkin Blade on Summoner's Rift!
-
-Patch 8.13 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-813-notes
+Patch 8.18 notes http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-818-notes

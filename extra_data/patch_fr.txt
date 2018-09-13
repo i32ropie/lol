@@ -1,9 +1,5 @@
-[⁣](https://www.youtube.com/embed/jz0aVS351vk)Bienvenue dans le patch 8.13, où nous réglons les nombreux problèmes qui avaient bien besoin d'être corrigés suite aux changements apportés par les derniers patchs.
+[⁣](https://www.youtube.com/embed/BbRAU4XEuio)Le patch 8.18 apporte la première série de changements voués à préparer le terrain du Mondial de cette année. Dans certains cas, nous avons modéré les champions omniprésents durant la phase de sélection/bannissement (même chose pour les champions qui risquent de prendre ensuite le relais). Dans d'autres, nous avons buffé les champions qui pourraient être intéressants à sélectionner (certains d'entre eux avaient été nerfés au cours de la saison). Le patch 8.19 contiendra une autre série de changements du même genre.
 
-Tout d'abord, nous remettons un peu de force dans les kits de certains tireurs adeptes des coups critiques, car ils vivent des moments difficiles sur la voie du bas. Nous voulons préserver autant que possible la diversité sur cette voie, mais nous devons aussi nous assurer que suffisamment de tireurs (notamment ceux qui s'appuient sur les attaques de base et les coups critiques) soient viables.
+Revenons maintenant au présent : le test alpha du Raid du Nexus prend fin avec le patch 8.18, mais nous avons un tout nouvel événement pour vous : Odyssée ! Rejoignez l'équipage et allez exploser des monstres de l'espace !
 
-De nombreuses parties ont été jouées depuis la refonte d'Irelia et la sortie de Pyke et nous avons constaté qu'ils avaient tous deux un peu trop de burst, alors nous allons ajuster leurs styles de jeu.
-
-Pour finir, Aatrox Aa reçu sAa refonte tant Aattendue. Aiguisez votre nouvelle Épée des Darkin et ravagez la Faille de l'invocateur !
-
-Notes de patch 8.13 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-813
+Notes de patch 8.18 http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-818

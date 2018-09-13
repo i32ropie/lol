@@ -1,8 +1,8 @@
-/Kalista: 487 RP
-/Ezreal: 440 RP
-/Sona: 395 RP
-/Kled: 487 RP
-/Mordekaiser_2: 260 RP
-/JarvanIV_3: 487 RP
-/Sion_4: 487 RP
-/Lulu_6: 675 RP
+/Yasuo: 487 RP
+/Xerath: 440 RP
+/MissFortune: 395 RP
+/Volibear: 487 RP
+/Shyvana_2: 260 RP
+/Katarina_5: 375 RP
+/Shen_5: 487 RP
+/TwistedFate_10: 675 RP
