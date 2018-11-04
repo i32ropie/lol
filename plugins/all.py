@@ -32,7 +32,7 @@ def command_all_es(m):
                     if e.result.status_code == 403:
                         delete.append(x)
                         # db.usuarios.remove(x)
-                        # db.usuarios.update({"_id": x, {"$set": {"active": False}})
+                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")
@@ -71,7 +71,7 @@ def command_all_en(m):
                     if e.result.status_code == 403:
                         delete.append(x)
                         # db.usuarios.remove(x)
-                        db.usuarios.update({"_id": x, {"$set": {"active": False}})
+                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")
@@ -107,7 +107,7 @@ def command_all_s(m):
                     if e.result.status_code == 403:
                         delete.append(x)
                         # db.usuarios.remove(x)
-                        db.usuarios.update({"_id": x, {"$set": {"active": False}})
+                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")
@@ -143,7 +143,7 @@ def command_all_r(m):
                     if e.result.status_code == 403:
                         delete.append(x)
                         # db.usuarios.remove(x)
-                        db.usuarios.update({"_id": x, {"$set": {"active": False}})
+                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")
