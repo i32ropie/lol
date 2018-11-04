@@ -84,8 +84,12 @@ def is_beta(uid):
     return uid in extra['beta']
 
 
+def was_user(cid):
+    return db.usuarios.find_one(str(cid)) is not None and db.usuarios.find_one(str(cid))['active'] == False
+
+
 def is_user(cid):
-    return db.usuarios.find_one(str(cid)) is not None
+    return db.usuarios.find_one(str(cid)) is not None and db.usuarios.find_one(str(cid))['active'] == True
 
 
 def is_admin(cid):

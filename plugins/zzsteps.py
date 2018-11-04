@@ -33,20 +33,38 @@ languages = {
     func=lambda msg: next_step_handler(msg.chat.id) == 'start')
 def step_start(m):
     cid = m.chat.id
+    date = m.date
     try:
         language = m.from_user.language_code
     except:
         language = None
     if m.content_type == 'text' and not db.usuarios.find_one(str(cid)):
         if m.text in languages:
-            db.usuarios.insert({
-                "_id": str(cid),
-                "lang": languages[m.text],
-                "banned": False,
-                "notify": True,
-                "server": "",
-                "summoner": ""
-            })
+            # db.usuarios.insert({
+            #     "_id": str(cid),
+            #     "lang": languages[m.text],
+            #     "banned": False,
+            #     "notify": True,
+            #     "server": "",
+            #     "summoner": ""
+            # })
+            if was_user(cid):
+                db.usuarios.update({"_id": str(cid)}, {"$set": {"active": True}})
+                db.usuarios.update({"_id": str(cid)}, {"$push": {"returns": date}})
+                db.usuarios.update({"_id": str(cid)}, {"$set": {"lang": languages[m.text]}})
+                db.usuarios.update({"_id": str(cid)}, {"$set": {"notify": True}})
+            else:
+                db.usuarios.insert({
+                    "_id": str(cid),
+                    "lang": languages[m.text],
+                    "banned": False,
+                    "notify": True,
+                    "server": "",
+                    "summoner": "",
+                    "active": True,
+                    "register": date,
+                    "returns": []
+                })
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(

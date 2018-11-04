@@ -21,7 +21,8 @@ def command_stop(m):
         bot.send_sticker(cid, 'BQADBAADKQADYbhQBzwCcUAqk3TaAg')
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])
-        db.usuarios.remove(str(cid))
+        # db.usuarios.remove(str(cid))
+        db.usuarios.update({"_id": str(cid)}, {"$set": {"active": False}})
         for id in admins:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(id, "Usuario eliminado:\n\nNombre: " +

@@ -27,6 +27,7 @@ markup.add(
 def command_start(m):
     cid = m.chat.id
     uid = m.from_user.id
+    date = m.date
     if is_banned(uid) or is_banned(cid):
         if not extra['muted']:
             bot.send_chat_action(cid, 'typing')
@@ -58,14 +59,23 @@ def command_start(m):
             'fr',
             'ru',
             'ar']:
-            db.usuarios.insert({
-                "_id": str(cid),
-                "lang": lang1,
-                "banned": False,
-                "notify": True,
-                "server": "",
-                "summoner": ""
-            })
+            if was_user(cid):
+                db.usuarios.update({"_id": str(cid)}, {"$set": {"active": True}})
+                db.usuarios.update({"_id": str(cid)}, {"$push": {"returns": date}})
+                db.usuarios.update({"_id": str(cid)}, {"$set": {"lang": lang1}})
+                db.usuarios.update({"_id": str(cid)}, {"$set": {"notify": True}})
+            else:
+                db.usuarios.insert({
+                    "_id": str(cid),
+                    "lang": lang1,
+                    "banned": False,
+                    "notify": True,
+                    "server": "",
+                    "summoner": "",
+                    "active": True,
+                    "register": date,
+                    "returns": []
+                })
             for id in admins:
                 bot.send_chat_action(cid, 'typing')
                 bot.send_message(id, "Nuevo usuario\n\nNombre: " +

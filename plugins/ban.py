@@ -10,6 +10,7 @@ print(Color(
 def command_ban(m):
     cid = m.chat.id
     uid = m.from_user.id
+    date = m.date
     try:
         send_udp('ban')
     except Exception as e:
@@ -38,13 +39,24 @@ def command_ban(m):
                         cid, responses['ban']['success'] %
                         banned_id)
             else:
+                # db.usuarios.insert({
+                #     "_id": banned_id,
+                #     "lang": "en",
+                #     "banned": True,
+                #     "notify": True,
+                #     "server": "",
+                #     "summoner": ""
+                # })
                 db.usuarios.insert({
                     "_id": banned_id,
                     "lang": "en",
                     "banned": True,
                     "notify": True,
                     "server": "",
-                    "summoner": ""
+                    "summoner": "",
+                    "active": True,
+                    "register": date,
+                    "returns": []
                 })
                 bot.send_chat_action(cid, 'typing')
                 bot.send_message(cid, responses['ban']['success'] % banned_id)
