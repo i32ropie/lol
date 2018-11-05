@@ -11,7 +11,7 @@ def command_user_info(m):
     cid = m.chat.id
     uid = m.from_user.id
     try:
-        send_udp('comando')
+        send_udp('user_info')
     except Exception as e:
         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
