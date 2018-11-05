@@ -1962,5 +1962,19 @@
         "ro":"Acțiune Skins",
         "ru":"Поделиться Skins",
         "ar":"شارك Skins"
+    },
+    "user_info":{
+        "es":"Fecha de registro: {}\nNotificaciones: {}\nNombre de invocador: {}\nServidor: {}",
+        "en":"Registration date: {}\nNotifications: {}\nSummoner name: {}\nServer: {}",
+        "it":"Data di registrazione: {}\nNotifiche: {}\nNome di evocatore: {}\nRegione: {}",
+        "de":"Registrierungsdatum: {}\nBenachrichtigungen: {}\nSummoner Namen: {}\nRegion: {}",
+        "pt":"Data de registro: {}\nNotificações: {}\nNome de invocador: {}\nRegião: {}",
+        "fr":"Date d'inscription: {}\nNotifications: {}\nNom d'invocateur: {}\nRégion: {}",
+        "fa":"Registration date: {}\nNotifications: {}\nSummoner name: {}\nServer: {}",
+        "pl":"Data rejestracji: {}\nNotyfikacje: {}\nImię przywoływacza: {}\nRegion: {}",
+        "tr":"Kayıt Tarihi: {}\nBildirimler: {}\nSummoner adı: {}\nSunucu: {}",
+        "ro":"Data Înregistrării: {}\nNotificările: {}\nNumele invocatorului: {}\nRegiunea: {}",
+        "ru":"Дата регистрации: {}\nУведомления: {}\nИмя призывателя: {}\nРегион: {}",
+        "ar":"Registration date: {}\nNotifications: {}\nSummoner name: {}\nServer: {}"
     }
 }

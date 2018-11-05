@@ -110,6 +110,18 @@ def isint(s):
     return s.isdigit()
 
 
+def user_info(cid):
+    from datetime import datetime
+    yes = "✔️"
+    no = "✖️"
+    user = db.usuarios.find_one(str(cid))
+    reg_date = datetime.fromtimestamp(int(user['register'])).strftime('%x - %X')
+    notifications = yes if user['notify'] else no
+    summoner_name = user['summoner'] if user['summoner'] else no
+    region = user['region'] if user['region'] else no
+    return responses['user_info'][lang(cid)].format(reg_date, notifications, summoner_name, region)
+
+
 def escape_markup(text):
     if not isinstance(text, str):
         return text
