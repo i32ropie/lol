@@ -1964,17 +1964,17 @@
         "ar":"شارك Skins"
     },
     "user_info":{
-        "es":"Fecha de registro: {}\nNotificaciones: {}\nNombre de invocador: {}\nServidor: {}",
-        "en":"Registration date: {}\nNotifications: {}\nSummoner name: {}\nServer: {}",
-        "it":"Data di registrazione: {}\nNotifiche: {}\nNome di evocatore: {}\nRegione: {}",
-        "de":"Registrierungsdatum: {}\nBenachrichtigungen: {}\nSummoner Namen: {}\nRegion: {}",
-        "pt":"Data de registro: {}\nNotificações: {}\nNome de invocador: {}\nRegião: {}",
-        "fr":"Date d'inscription: {}\nNotifications: {}\nNom d'invocateur: {}\nRégion: {}",
-        "fa":"Registration date: {}\nNotifications: {}\nSummoner name: {}\nServer: {}",
-        "pl":"Data rejestracji: {}\nNotyfikacje: {}\nImię przywoływacza: {}\nRegion: {}",
-        "tr":"Kayıt Tarihi: {}\nBildirimler: {}\nSummoner adı: {}\nSunucu: {}",
-        "ro":"Data Înregistrării: {}\nNotificările: {}\nNumele invocatorului: {}\nRegiunea: {}",
-        "ru":"Дата регистрации: {}\nУведомления: {}\nИмя призывателя: {}\nРегион: {}",
-        "ar":"Registration date: {}\nNotifications: {}\nSummoner name: {}\nServer: {}"
+        "es":"*Fecha de registro*: _{}_\n*Notificaciones*: _{}_\n*Nombre de invocador*: _{}_\n*Servidor*: _{}_",
+        "en":"*Registration date*: _{}_\n*Notifications*: _{}_\n*Summoner name*: _{}_\n*Server*: _{}_",
+        "it":"*Data di registrazione*: _{}_\n*Notifiche*: _{}_\n*Nome di evocatore*: _{}_\n*Regione*: _{}_",
+        "de":"*Registrierungsdatum*: _{}_\n*Benachrichtigungen*: _{}_\n*Summoner Namen*: _{}_\n*Region*: _{}_",
+        "pt":"*Data de registro*: _{}_\n*Notificações*: _{}_\n*Nome de invocador*: _{}_\n*Região*: _{}_",
+        "fr":"*Date d'inscription*: _{}_\n*Notifications*: _{}_\n*Nom d'invocateur*: _{}_\n*Région*: _{}_",
+        "fa":"*Registration date*: _{}_\n*Notifications*: _{}_\n*Summoner name*: _{}_\n*Server*: _{}_",
+        "pl":"*Data rejestracji*: _{}_\n*Notyfikacje*: _{}_\n*Imię przywoływacza*: _{}_\n*Region*: _{}_",
+        "tr":"*Kayıt Tarihi*: _{}_\n*Bildirimler*: _{}_\n*Summoner adı*: _{}_\n*Sunucu*: _{}_",
+        "ro":"*Data Înregistrării*: _{}_\n*Notificările*: _{}_\n*Numele invocatorului*: _{}_\n*Regiunea*: _{}_",
+        "ru":"*Дата регистрации*: _{}_\n*Уведомления*: _{}_\n*Имя призывателя*: _{}_\n*Регион*: _{}_",
+        "ar":"*Registration date*: _{}_\n*Notifications*: _{}_\n*Summoner name*: _{}_\n*Server*: _{}_"
     }
 }

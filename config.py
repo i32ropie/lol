@@ -115,7 +115,7 @@ def user_info(cid):
     yes = "✔️"
     no = "✖️"
     user = db.usuarios.find_one(str(cid))
-    reg_date = datetime.fromtimestamp(int(user['register'])).strftime('%x - %X')
+    reg_date = datetime.fromtimestamp(int(user['register'])).strftime('%x')
     notifications = yes if user['notify'] else no
     summoner_name = user['summoner'] if user['summoner'] else no
     region = user['server'] if user['server'] else no
