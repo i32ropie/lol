@@ -1976,5 +1976,19 @@
         "ro":"*Data Înregistrării*: _{}_\n*Notificările*: _{}_\n*Numele invocatorului*: _{}_\n*Regiunea*: _{}_",
         "ru":"*Дата регистрации*: _{}_\n*Уведомления*: _{}_\n*Имя призывателя*: _{}_\n*Регион*: _{}_",
         "ar":"*Registration date*: _{}_\n*Notifications*: _{}_\n*Summoner name*: _{}_\n*Server*: _{}_"
+    },
+    "group_info":{
+        "es":"*Fecha de registro*: _{}_\n*Notificaciones*: _{}_",
+        "en":"*Registration date*: _{}_\n*Notifications*: _{}_",
+        "it":"*Data di registrazione*: _{}_\n*Notifiche*: _{}_",
+        "de":"*Registrierungsdatum*: _{}_\n*Benachrichtigungen*: _{}_",
+        "pt":"*Data de registro*: _{}_\n*Notificações*: _{}_",
+        "fr":"*Date d'inscription*: _{}_\n*Notifications*: _{}_",
+        "fa":"*Registration date*: _{}_\n*Notifications*: _{}_",
+        "pl":"*Data rejestracji*: _{}_\n*Notyfikacje*: _{}_",
+        "tr":"*Kayıt Tarihi*: _{}_\n*Bildirimler*: _{}_",
+        "ro":"*Data Înregistrării*: _{}_\n*Notificările*: _{}_",
+        "ru":"*Дата регистрации*: _{}_\n*Уведомления*: _{}_",
+        "ar":"*Registration date*: _{}_\n*Notifications*: _{}_"
     }
 }

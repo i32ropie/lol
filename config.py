@@ -119,7 +119,7 @@ def user_info(cid):
     notifications = yes if user['notify'] else no
     summoner_name = user['summoner'] if user['summoner'] else no
     region = user['server'] if user['server'] else no
-    return responses['user_info'][lang(cid)].format(reg_date, notifications, summoner_name, region)
+    return responses['user_info'][lang(cid)].format(reg_date, notifications, summoner_name, region) if int(cid) > 0 else responses['group_info'][lang(cid)].format(reg_date, notifications)
 
 
 def escape_markup(text):
