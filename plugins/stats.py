@@ -28,35 +28,35 @@ def command_usuarios(m):
             'groups': {
                 'total': db.usuarios.find({'active':True, '_id':{'$regex':'^-'}}).count(),
                 'detailed': {
-                    'es': db.usuarios.find({'active':True, 'lang': 'es', '_id':{'$regex':'^-'}}).count(),
-                    'en': db.usuarios.find({'active':True, 'lang': 'en', '_id':{'$regex':'^-'}}).count(),
-                    'it': db.usuarios.find({'active':True, 'lang': 'it', '_id':{'$regex':'^-'}}).count(),
-                    'de': db.usuarios.find({'active':True, 'lang': 'de', '_id':{'$regex':'^-'}}).count(),
-                    'pt': db.usuarios.find({'active':True, 'lang': 'pt', '_id':{'$regex':'^-'}}).count(),
-                    'fr': db.usuarios.find({'active':True, 'lang': 'fr', '_id':{'$regex':'^-'}}).count(),
-                    'fa': db.usuarios.find({'active':True, 'lang': 'fa', '_id':{'$regex':'^-'}}).count(),
-                    'pl': db.usuarios.find({'active':True, 'lang': 'pl', '_id':{'$regex':'^-'}}).count(),
-                    'tr': db.usuarios.find({'active':True, 'lang': 'tr', '_id':{'$regex':'^-'}}).count(),
-                    'ro': db.usuarios.find({'active':True, 'lang': 'ro', '_id':{'$regex':'^-'}}).count(),
-                    'ru': db.usuarios.find({'active':True, 'lang': 'ru', '_id':{'$regex':'^-'}}).count(),
-                    'ar': db.usuarios.find({'active':True, 'lang': 'ar', '_id':{'$regex':'^-'}}).count()
+                    'Spanish': db.usuarios.find({'active':True, 'lang': 'es', '_id':{'$regex':'^-'}}).count(),
+                    'English': db.usuarios.find({'active':True, 'lang': 'en', '_id':{'$regex':'^-'}}).count(),
+                    'Italian': db.usuarios.find({'active':True, 'lang': 'it', '_id':{'$regex':'^-'}}).count(),
+                    'German': db.usuarios.find({'active':True, 'lang': 'de', '_id':{'$regex':'^-'}}).count(),
+                    'Portuguese': db.usuarios.find({'active':True, 'lang': 'pt', '_id':{'$regex':'^-'}}).count(),
+                    'French': db.usuarios.find({'active':True, 'lang': 'fr', '_id':{'$regex':'^-'}}).count(),
+                    'Persian': db.usuarios.find({'active':True, 'lang': 'fa', '_id':{'$regex':'^-'}}).count(),
+                    'Polish': db.usuarios.find({'active':True, 'lang': 'pl', '_id':{'$regex':'^-'}}).count(),
+                    'Turkish': db.usuarios.find({'active':True, 'lang': 'tr', '_id':{'$regex':'^-'}}).count(),
+                    'Romanian': db.usuarios.find({'active':True, 'lang': 'ro', '_id':{'$regex':'^-'}}).count(),
+                    'Russian': db.usuarios.find({'active':True, 'lang': 'ru', '_id':{'$regex':'^-'}}).count(),
+                    'Arab': db.usuarios.find({'active':True, 'lang': 'ar', '_id':{'$regex':'^-'}}).count()
                 }
             },
             'privates': {
                 'total': db.usuarios.find({'active':True, '_id':{'$regex':'^[^-]'}}).count(),
                 'detailed': {
-                    'es': db.usuarios.find({'active':True, 'lang': 'es', '_id':{'$regex':'^[^-]'}}).count(),
-                    'en': db.usuarios.find({'active':True, 'lang': 'en', '_id':{'$regex':'^[^-]'}}).count(),
-                    'it': db.usuarios.find({'active':True, 'lang': 'it', '_id':{'$regex':'^[^-]'}}).count(),
-                    'de': db.usuarios.find({'active':True, 'lang': 'de', '_id':{'$regex':'^[^-]'}}).count(),
-                    'pt': db.usuarios.find({'active':True, 'lang': 'pt', '_id':{'$regex':'^[^-]'}}).count(),
-                    'fr': db.usuarios.find({'active':True, 'lang': 'fr', '_id':{'$regex':'^[^-]'}}).count(),
-                    'fa': db.usuarios.find({'active':True, 'lang': 'fa', '_id':{'$regex':'^[^-]'}}).count(),
-                    'pl': db.usuarios.find({'active':True, 'lang': 'pl', '_id':{'$regex':'^[^-]'}}).count(),
-                    'tr': db.usuarios.find({'active':True, 'lang': 'tr', '_id':{'$regex':'^[^-]'}}).count(),
-                    'ro': db.usuarios.find({'active':True, 'lang': 'ro', '_id':{'$regex':'^[^-]'}}).count(),
-                    'ru': db.usuarios.find({'active':True, 'lang': 'ru', '_id':{'$regex':'^[^-]'}}).count(),
-                    'ar': db.usuarios.find({'active':True, 'lang': 'ar', '_id':{'$regex':'^[^-]'}}).count()
+                    'Spanish': db.usuarios.find({'active':True, 'lang': 'es', '_id':{'$regex':'^[^-]'}}).count(),
+                    'English': db.usuarios.find({'active':True, 'lang': 'en', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Italian': db.usuarios.find({'active':True, 'lang': 'it', '_id':{'$regex':'^[^-]'}}).count(),
+                    'German': db.usuarios.find({'active':True, 'lang': 'de', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Portuguese': db.usuarios.find({'active':True, 'lang': 'pt', '_id':{'$regex':'^[^-]'}}).count(),
+                    'French': db.usuarios.find({'active':True, 'lang': 'fr', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Persian': db.usuarios.find({'active':True, 'lang': 'fa', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Polish': db.usuarios.find({'active':True, 'lang': 'pl', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Turkish': db.usuarios.find({'active':True, 'lang': 'tr', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Romanian': db.usuarios.find({'active':True, 'lang': 'ro', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Russian': db.usuarios.find({'active':True, 'lang': 'ru', '_id':{'$regex':'^[^-]'}}).count(),
+                    'Arab': db.usuarios.find({'active':True, 'lang': 'ar', '_id':{'$regex':'^[^-]'}}).count()
                 }
             }            
         }
