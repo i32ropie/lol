@@ -16,51 +16,58 @@ def command_usuarios(m):
         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
-    if is_admin(uid):
-        x = {
-            'usuarios': {
-                'total': 0,
-                'es': 0,
-                'en': 0,
-                'it': 0,
-                'de': 0,
-                'pl': 0,
-                'pt': 0,
-                'ru': 0,
-                'fr': 0,
-                'fa': 0,
-                'ro': 0,
-                'tr': 0,
-                'ar': 0},
-            'grupos': {
-                'total': 0,
-                'es': 0,
-                'en': 0,
-                'it': 0,
-                'de': 0,
-                'pl': 0,
-                'ru': 0,
-                'pt': 0,
-                'fr': 0,
-                'fa': 0,
-                'ro': 0,
-                'tr': 0,
-                'ar': 0}}
-        # for uid in users:
-        for uid in [z['_id'] for z in db.usuarios.find()]:
-            if int(uid) > 0:
-                x['usuarios']['total'] += 1
-                x['usuarios'][lang(uid)] += 1
-            else:
-                x['grupos']['total'] += 1
-                x['grupos'][lang(uid)] += 1
-        txt = "*Usuarios*: " + str(x['usuarios']['total']) + "\n *-*Español: _" + str(x['usuarios']['es']) + "_\n *-*Inglés: _" \
-            + str(x['usuarios']['en']) + "_\n *-*Italiano: _" + str(x['usuarios']['it']) + "_\n *-*Polaco: _" + str(x['usuarios']['pl'])\
-            + "_\n *-*Francés: _" + str(x['usuarios']['fr']) + "_\n *-*Alemán: _" + str(x['usuarios']['de']) + "_\n *-*Portugués: _" + str(x['usuarios']['pt']) + "_\n *-*Persa: _" + str(x['usuarios']['fa'])\
-            + "_\n *-*Ruso: _" + str(x['usuarios']['ru']) + "_\n *-*Turco: _" + str(x['usuarios']['tr']) + "_\n *-*Árabe: _" + str(x['usuarios']['ar']) + "_\n *-*Rumano: _" + str(x['usuarios']['ro']) \
-            + '_\n\n*Grupos*: ' + str(x['grupos']['total']) + "\n *-*Español: _" + str(x['grupos']['es']) + "_\n *-*Inglés: _" \
-            + str(x['grupos']['en']) + "_\n *-*Italiano: _" + str(x['grupos']['it']) + "_\n *-*Polaco: _" + str(x['grupos']['pl'])\
-            + "_\n *-*Francés: _" + str(x['grupos']['fr']) + "_\n *-*Alemán: _" + str(x['grupos']['de']) + "_\n *-*Portugués: _" + str(x['grupos']['pt']) + "_\n *-*Persa: _" \
-            + str(x['grupos']['fa']) + "_\n *-*Ruso: _" + str(x['grupos']['ru']) + "_\n *-*Turco: _" + str(x['grupos']['tr']) + "_\n *-*Árabe: _" + str(x['grupos']['ar']) + "_\n *-*Rumano: _" + str(x['grupos']['ro']) + "_"
-        bot.send_chat_action(cid, 'typing')
-        bot.send_message(cid, txt, parse_mode="Markdown")
+    if is_banned(uid) or is_banned(cid):
+        if not extra['muted']:
+            bot.send_chat_action(cid, 'typing')
+            bot.reply_to(m, responses['banned'])
+        return None
+    if is_user(cid):
+        users = {
+            'total': db.usuarios.find().count(),
+            'active': db.usuarios.find({'active':True}).count(),
+            'groups': {
+                'total': db.usuarios.find({'active':True, '_id':{'$regex':'^-'}}).count(),
+                'detailed': {
+                    'es': db.usuarios.find({'active':True, 'lang': 'es', '_id':{'$regex':'^-'}}).count(),
+                    'en': db.usuarios.find({'active':True, 'lang': 'en', '_id':{'$regex':'^-'}}).count(),
+                    'it': db.usuarios.find({'active':True, 'lang': 'it', '_id':{'$regex':'^-'}}).count(),
+                    'de': db.usuarios.find({'active':True, 'lang': 'de', '_id':{'$regex':'^-'}}).count(),
+                    'pt': db.usuarios.find({'active':True, 'lang': 'pt', '_id':{'$regex':'^-'}}).count(),
+                    'fr': db.usuarios.find({'active':True, 'lang': 'fr', '_id':{'$regex':'^-'}}).count(),
+                    'fa': db.usuarios.find({'active':True, 'lang': 'fa', '_id':{'$regex':'^-'}}).count(),
+                    'pl': db.usuarios.find({'active':True, 'lang': 'pl', '_id':{'$regex':'^-'}}).count(),
+                    'tr': db.usuarios.find({'active':True, 'lang': 'tr', '_id':{'$regex':'^-'}}).count(),
+                    'ro': db.usuarios.find({'active':True, 'lang': 'ro', '_id':{'$regex':'^-'}}).count(),
+                    'ru': db.usuarios.find({'active':True, 'lang': 'ru', '_id':{'$regex':'^-'}}).count(),
+                    'ar': db.usuarios.find({'active':True, 'lang': 'ar', '_id':{'$regex':'^-'}}).count()
+                }
+            },
+            'privates': {
+                'total': db.usuarios.find({'active':True, '_id':{'$regex':'^[^-]'}}).count(),
+                'detailed': {
+                    'es': db.usuarios.find({'active':True, 'lang': 'es', '_id':{'$regex':'^[^-]'}}).count(),
+                    'en': db.usuarios.find({'active':True, 'lang': 'en', '_id':{'$regex':'^[^-]'}}).count(),
+                    'it': db.usuarios.find({'active':True, 'lang': 'it', '_id':{'$regex':'^[^-]'}}).count(),
+                    'de': db.usuarios.find({'active':True, 'lang': 'de', '_id':{'$regex':'^[^-]'}}).count(),
+                    'pt': db.usuarios.find({'active':True, 'lang': 'pt', '_id':{'$regex':'^[^-]'}}).count(),
+                    'fr': db.usuarios.find({'active':True, 'lang': 'fr', '_id':{'$regex':'^[^-]'}}).count(),
+                    'fa': db.usuarios.find({'active':True, 'lang': 'fa', '_id':{'$regex':'^[^-]'}}).count(),
+                    'pl': db.usuarios.find({'active':True, 'lang': 'pl', '_id':{'$regex':'^[^-]'}}).count(),
+                    'tr': db.usuarios.find({'active':True, 'lang': 'tr', '_id':{'$regex':'^[^-]'}}).count(),
+                    'ro': db.usuarios.find({'active':True, 'lang': 'ro', '_id':{'$regex':'^[^-]'}}).count(),
+                    'ru': db.usuarios.find({'active':True, 'lang': 'ru', '_id':{'$regex':'^[^-]'}}).count(),
+                    'ar': db.usuarios.find({'active':True, 'lang': 'ar', '_id':{'$regex':'^[^-]'}}).count()
+                }
+            }            
+        }
+        text = "*Total*: _{}_\n*Active*: _{}_\n\n*Group chats*: _{}_\n\t- {}\n\n*Private chats*: _{}_\n\t- {}".format(
+            users['total'],
+            users['active'],
+            users['groups']['total'],
+            '\n\t- '.join(['*{}*: _{}_'.format(x[0], x[1]) for x in sorted(users['groups']['detailed'].items(), key=lambda x: x[1], reverse=True)]),
+            users['privates']['total'],
+            '\n\t- '.join(['*{}*: _{}_'.format(x[0], x[1]) for x in sorted(users['privates']['detailed'].items(), key=lambda x: x[1], reverse=True)])
+        )
+        bot.send_message(cid, text, parse_mode="Markdown")
+    else:
+        bot.send_message(cid, responses['not_user'])
