@@ -118,7 +118,7 @@ def user_info(cid, language=None):
     reg_date = datetime.fromtimestamp(int(user['register'])).strftime('%d/%m/%Y')
     notifications = yes if user['notify'] else no
     summoner_name = user['summoner'] if user['summoner'] else no
-    region = user['server'] if user['server'] else no
+    region = user['server'].upper() if user['server'] else no
     return responses['user_info'][lang(cid) if not language else language].format(reg_date, notifications, summoner_name, region) if int(cid) > 0 else responses['group_info'][lang(cid) if not language else language].format(reg_date, notifications)
 
 
