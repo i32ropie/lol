@@ -22,6 +22,6 @@ def command_user_info(m):
         return None
     if is_admin(uid):
         try:
-            bot.send_message(cid, user_info(m.text.split()[1]), parse_mode="Markdown")
+            bot.send_message(cid, user_info(m.text.split()[1], lang(cid)), parse_mode="Markdown")
         except:
             pass
