@@ -278,10 +278,12 @@ def get_summoner_info(invocador, region, cid):
         lattest_version, icon_id)
     summoner_name = summoner['name']
     summoner_id = summoner['id']
+    opgg_region = region.lower() if region.lower() != 'kr' else 'www'
+    opgg = 'http://{}.op.gg/summoner/userName={}'.format(opgg_region, ''.join(summoner_name.split()))
     lolking = "http://www.lolking.net/summoner/" + \
         region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
-    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, lolking, summoner_level)
+    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, opgg, summoner_level)
     if summoner_level > 29:
         url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
         params = {'api_key': extra['lol_api']}
