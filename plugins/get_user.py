@@ -6,8 +6,8 @@ print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  get_user.py importado.{/cyan}'))
 
 
-@bot.message_handler(commands=['get_user'], func=lambda m: len(m.text.split()) == 2)
-def command_user_info(m):
+@bot.message_handler(commands=['get_user'], func=lambda m: m.text and len(m.text.split()) == 2)
+def command_get_user_info(m):
     cid = m.chat.id
     uid = m.from_user.id
     try:
