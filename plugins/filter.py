@@ -20,7 +20,7 @@ def command_filter(m):
         bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(cid):
         ID = int(m.text.split()[1])
-        if ID not in filtered and is_user(ID):
+        if ID not in filtered:
             filtered.append(ID)
             bot.send_message(cid, "El chat {} será redirigido.".format(ID))
         elif ID in filtered:
