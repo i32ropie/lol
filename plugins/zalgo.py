@@ -43,7 +43,7 @@ zalgo_mid = [
 
 
 @bot.message_handler(commands=['zalgo'])
-def command_COMANDO(m):
+def command_res(m):
     cid = m.chat.id
     uid = m.from_user.id
     try:

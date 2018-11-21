@@ -7,7 +7,7 @@ print(Color(
 
 
 @bot.message_handler(commands=['mine'])
-def command_COMANDO(m):
+def command_mine(m):
     cid = m.chat.id
     uid = m.from_user.id
     try:

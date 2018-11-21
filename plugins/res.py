@@ -10,7 +10,7 @@ print(Color(
     commands=['res'],
     func=lambda m: m.reply_to_message and m.content_type == 'text' and len(
         m.text.split()) > 1)
-def command_COMANDO(m):
+def command_res(m):
     cid = m.chat.id
     uid = m.from_user.id
     try:

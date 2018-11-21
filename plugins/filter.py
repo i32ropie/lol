@@ -11,7 +11,7 @@ print(Color(
     func=lambda m: m.content_type == 'text' and len(
         m.text.split()) == 2 and isint(
             m.text.split()[1]))
-def command_COMANDO(m):
+def command_filter(m):
     cid = m.chat.id
     uid = m.from_user.id
     try:
