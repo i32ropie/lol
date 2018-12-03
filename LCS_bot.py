@@ -37,4 +37,4 @@ print(Color(
 #                    POLLING                    #
 #################################################
 
-bot.polling(True)
+bot.infinity_polling(none_stop = True)
