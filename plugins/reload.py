@@ -21,4 +21,4 @@ def command_reload(m):
         bot.send_message(cid, responses['reload'], parse_mode="Markdown")
         print(Color(
             '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}Reiniciando @LoL_bot{/cyan}'))
-        exit()
+        os.popen('pm2 restart LCS_bot')

@@ -20,4 +20,4 @@ def command_github(m):
         pull_info = os.popen('git pull').read()
         bot.send_message(cid, pull_info)
         if not pull_info.startswith('Already'):
-            exit()
+            os.popen('pm2 restart LCS_bot')
