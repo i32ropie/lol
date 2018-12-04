@@ -93,4 +93,4 @@ def command_update_champs(m):
             json.dump(aux, f, indent=4)
         bot.send_message(cid, responses['update_champs_4'])
         os.popen('rm -rf tmp/ {}'.format(file_name)).read()
-        exit()
+        os.popen('pm2 restart LCS_bot')
