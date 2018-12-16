@@ -1265,6 +1265,7 @@
     },
     "tier":{
         "es":{
+            "IRON":"Hierro",
             "BRONZE":"Bronce",
             "SILVER":"Plata",
             "GOLD":"Oro",
@@ -1274,6 +1275,7 @@
             "CHALLENGER":"Aspirante"
         },
         "en":{
+            "IRON":"Iron",
             "BRONZE":"Bronze",
             "SILVER":"Silver",
             "GOLD":"Gold",
@@ -1283,6 +1285,7 @@
             "CHALLENGER":"Challenger"
         },
         "it":{
+            "IRON":"Ferro",
             "BRONZE":"Bronzo",
             "SILVER":"Argento",
             "GOLD":"Oro",
@@ -1292,6 +1295,7 @@
             "CHALLENGER":"Challenger"
         },
         "de":{
+            "IRON":"Eisen",
             "BRONZE":"Bronze",
             "SILVER":"Silber",
             "GOLD":"Gold",
@@ -1301,6 +1305,7 @@
             "CHALLENGER":"Herausforderer"
         },
         "pt":{
+            "IRON":"Ferro",
             "BRONZE":"Bronze",
             "SILVER":"Prata",
             "GOLD":"Ouro",
@@ -1310,6 +1315,7 @@
             "CHALLENGER":"Desafiante"
         },
         "fr":{
+            "IRON":"Fer",
             "BRONZE":"Bronze",
             "SILVER":"Argent",
             "GOLD":"Or",
@@ -1319,6 +1325,7 @@
             "CHALLENGER":"Challenger"
         },
 		"fa":{
+            "IRON":"Iron-اهن",
             "BRONZE":"Bronze-بُرنز",
             "SILVER":"Silver-سیلور",
             "GOLD":"Gold-گُلد",
@@ -1328,6 +1335,7 @@
             "CHALLENGER":"Challenger-چَلِنچِر"
         },
         "pl":{
+            "IRON":"Żelazo",
             "BRONZE":"Brąz",
             "SILVER":"Srebro",
             "GOLD":"Złoto",
@@ -1337,6 +1345,7 @@
             "CHALLENGER":"Pretendent"
         },
         "tr":{
+            "IRON":"Demir",
             "BRONZE": "Bronz",
             "SILVER": "Gümüş",
             "GOLD": "Altın",
@@ -1346,6 +1355,7 @@
             "CHALLENGER": "Şampiyonluk "
         },
         "ro":{
+            "IRON":"Fier",
             "BRONZE": "Bronz",
             "SILVER": "Argint",
             "GOLD": "Aur",
@@ -1355,6 +1365,7 @@
             "CHALLENGER": "Challenger"
         },
         "ru":{
+            "IRON":"Железо",
             "BRONZE":"Бронза",
             "SILVER":"Серебро",
             "GOLD":"Золото",
@@ -1364,6 +1375,7 @@
             "CHALLENGER":"Челленджер"
         },
         "ar":{
+            "IRON":"مرتبة حديد",
             "BRONZE": "مرتبة البرونز",
             "SILVER": "مرتبة الفضة",
             "GOLD": "مرتبة الذهب",
