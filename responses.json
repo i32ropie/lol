@@ -1272,6 +1272,7 @@
             "PLATINUM":"Platino",
             "DIAMOND":"Diamante",
             "MASTER":"Maestro",
+            "GRANDMASTER":"Gran Maestro",
             "CHALLENGER":"Aspirante"
         },
         "en":{
@@ -1282,6 +1283,7 @@
             "PLATINUM":"Platinum",
             "DIAMOND":"Diamond",
             "MASTER":"Master",
+            "GRANDMASTER":"Grand Master",
             "CHALLENGER":"Challenger"
         },
         "it":{
@@ -1292,6 +1294,7 @@
             "PLATINUM":"Platino",
             "DIAMOND":"Diamante",
             "MASTER":"Master",
+            "GRANDMASTER":"Grand Master",
             "CHALLENGER":"Challenger"
         },
         "de":{
@@ -1302,6 +1305,7 @@
             "PLATINUM":"Platin",
             "DIAMOND":"Diamant",
             "MASTER":"Meister",
+            "GRANDMASTER":"Grand Meister",
             "CHALLENGER":"Herausforderer"
         },
         "pt":{
@@ -1312,6 +1316,7 @@
             "PLATINUM":"Platina",
             "DIAMOND":"Diamante",
             "MASTER":"Mestre",
+            "GRANDMASTER":"Grand Mestre",
             "CHALLENGER":"Desafiante"
         },
         "fr":{
@@ -1322,6 +1327,7 @@
             "PLATINUM":"Platine",
             "DIAMOND":"Diamant",
             "MASTER":"Maître",
+            "GRANDMASTER":"Grand Maître",
             "CHALLENGER":"Challenger"
         },
 		"fa":{
@@ -1332,6 +1338,7 @@
             "PLATINUM":"Platinum-پلاتینیوم",
             "DIAMOND":"Diamond-دایموند",
             "MASTER":"Master-مَستر",
+            "GRANDMASTER":"Grand Master",
             "CHALLENGER":"Challenger-چَلِنچِر"
         },
         "pl":{
@@ -1342,6 +1349,7 @@
             "PLATINUM":"Platyna",
             "DIAMOND":"Diament",
             "MASTER":"Mistrz",
+            "GRANDMASTER":"Grand Master",
             "CHALLENGER":"Pretendent"
         },
         "tr":{
@@ -1352,6 +1360,7 @@
             "PLATINUM": "Platinyum",
             "DIAMOND": "Elmas",
             "MASTER": "Üstad",
+            "GRANDMASTER":"Grand Master",
             "CHALLENGER": "Şampiyonluk "
         },
         "ro":{
@@ -1362,6 +1371,7 @@
             "PLATINUM": "Platină",
             "DIAMOND": "Diamant",
             "MASTER": "Maestru",
+            "GRANDMASTER":"Grand Master",
             "CHALLENGER": "Challenger"
         },
         "ru":{
@@ -1372,6 +1382,7 @@
             "PLATINUM":"Платина",
             "DIAMOND":"Алмаз",
             "MASTER":"Мастер",
+            "GRANDMASTER":"Grand Мастер",
             "CHALLENGER":"Челленджер"
         },
         "ar":{
@@ -1382,6 +1393,7 @@
             "PLATINUM": "مرتبة البلاتين",
             "DIAMOND": "مرتبة الماس",
             "MASTER": "مستوى السيادة",
+            "GRANDMASTER":"Grand Master",
             "CHALLENGER": "مرتبة المنافس"
         }
     },
