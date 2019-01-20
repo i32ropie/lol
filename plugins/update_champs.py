@@ -24,7 +24,10 @@ def command_update_champs(m):
         file_name = 'dragontail-{}.tgz'.format(version)
         bot.send_message(cid, responses['update_champs_1'].format(file_name))
         os.popen('wget -q https://ddragon.leagueoflegends.com/cdn/{}'.format(file_name)).read()
-        os.mkdir('tmp')
+        try:
+            os.mkdir('tmp')
+        except:
+            pass
         bot.send_message(cid, responses['update_champs_2'])
         os.popen('tar -xvf {} -C tmp/'.format(file_name)).read()
         bot.send_message(cid, responses['update_champs_3'])
