@@ -229,7 +229,7 @@ def update_region(reg):
 
 
 def get_3_best_champs(summonerId, region, cid):
-    url = 'https://{}.api.riotgames.com/lol/champion-mastery/v3/champion-masteries/by-summoner/{}'.format(
+    url = 'https://{}.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/{}'.format(
         update_region(region.lower()), summonerId)
     params = {
         "api_key": extra['lol_api']
@@ -246,7 +246,7 @@ def get_3_best_champs(summonerId, region, cid):
 
 
 def get_summoner(name, region):
-    url = "https://{}.api.riotgames.com/lol/summoner/v3/summoners/by-name/{}".format(region, name)
+    url = "https://{}.api.riotgames.com/lol/summoner/v4/summoners/by-name/{}".format(region, name)
     params = {
         'api_key': extra['lol_api']
     }
@@ -257,7 +257,7 @@ def get_summoner(name, region):
 
 
 def get_current_game(summoner_id, region):
-    url = "https://{}.api.riotgames.com/lol/spectator/v3/active-games/by-summoner/{}".format(region, summoner_id)
+    url = "https://{}.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/{}".format(region, summoner_id)
     params = {
         'api_key': extra['lol_api']
     }
@@ -287,7 +287,7 @@ def get_summoner_info(invocador, region, cid):
     summoner_level = summoner['summonerLevel']
     txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, opgg, summoner_level)
     if summoner_level > 29:
-        url = "https://{}.api.riotgames.com/lol/league/v3/positions/by-summoner/{}".format(update_region(region), summoner_id)
+        url = "https://{}.api.riotgames.com/lol/league/v4/positions/by-summoner/{}".format(update_region(region), summoner_id)
         params = {'api_key': extra['lol_api']}
         r = requests.get(url, params)
         if r.status_code != 200:
