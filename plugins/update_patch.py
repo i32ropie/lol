@@ -49,7 +49,8 @@ def update_patch_auto(m):
 
             r = requests.get(patch_url_new)
             if r.status_code != 200:
-                return bot.send_message(cid, "Error parseando la siguiente URL: {}".format(patch_url_new))
+                bot.send_message(cid, "Error parseando la siguiente URL: {}".format(patch_url_new))
+                continue
 
             soup = BeautifulSoup(r.text, 'html.parser')
             youtube_link = ""
