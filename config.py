@@ -287,7 +287,7 @@ def get_summoner_info(invocador, region, cid):
     summoner_level = summoner['summonerLevel']
     txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, opgg, summoner_level)
     if summoner_level > 29:
-        url = "https://{}.api.riotgames.com/lol/league/v4/positions/by-summoner/{}".format(update_region(region), summoner_id)
+        url = "https://{}.api.riotgames.com/lol/league/v4/entries/by-summoner/{}".format(update_region(region), summoner_id)
         params = {'api_key': extra['lol_api']}
         r = requests.get(url, params)
         if r.status_code != 200:
