@@ -1,5 +1,11 @@
-[⁣](https://www.youtube.com/embed/LV8CJipS2Ks)Patch-ul 8.18 introduce prima serie de schimbări axate pe Campionatul Mondial din acest an. În unele cazuri, asta înseamnă că vom scădea puterea campionilor care domină faza de alegeri și blocări (și a celor care probabil ar începe să domine în locul lor). În alte cazuri, le vom acorda buff-uri campionilor care sunt aproape de punctul în care ar fi aleși; unii dintre ei chiar au fost jucați de-a lungul sezonului, dar le-am micșorat puterea între timp. Patch-ul 8.19 va continua această serie de schimbări.
+[⁣](https://www.youtube.com/embed/90mktWdN3-o)Salutări, genii ale tacticii! Sunteți gata pentru Maeștri tacticieni?
 
-Revenind la momentul actual, testarea alpha a modului Nexus Blitz se sfârșește odată cu patch-ul 8.18, dar stați liniștiți, o să aveți ce face. Tocmai am lansat un nou eveniment: ''Odisee''. Așa că nu mai stați pe gânduri, alăturați-vă echipajului și distrugeți cât mai mulți tocilari spațiali!
+Patch-ul 9.13 marchează lansarea oficială a mult-așteptatului mod de joc! Începând de azi, va deveni disponibil rând pe rând în fiecare regiune. Vom continua să îl actualizăm și să-l îmbunătățim împreună cu voi, deci vă rugăm să ne trimiteți feedback și să raportați bug-urile întâlnite!
 
-Notele patch-ului 8.18 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-818
+De asemenea, odată cu acest patch, și Qiyana ajunge în Rift. Împărăteasa elementelor e perfectă pentru cei care adoră să joace cu asasini rapizi, care provocă daune mari.
+
+Vrem și să le mulțumim pe această cale tuturor celor care au urmărit campania lansată de echipa de echilibrări, despre ciclul de viață al patch-urilor! Ne-a făcut mare plăcere să vă oferim detalii din culise despre procesul de echilibrare și să vă explicăm mai pe larg motivele pentru care aplicăm buff-uri și nerf-uri și modul în care o facem. Cei care au stat cu ochii pe Nexus și pe planurile noastre pentru campioni sigur nu sunt surprinși de schimbările pentru Illaoi, Pyke și Udyr și nici de nerf-urile Sonei (oooof).
+
+P.S. Morocănilă e cea mai tare mică legendă. Știți voi la cine ne referim.
+
+Notele patch-ului 9.13 http://eune.leagueoflegends.com/ro/news/game-updates/patch/notele-patch-ului-913
