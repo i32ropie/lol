@@ -32,17 +32,20 @@ def update_patch_auto(m):
             # Extract URL
             patch_url_base = last_line.split()[-1]
             # Extract patch number
-            patch_id_base = re.search('[0-9]+', patch_url_base).group(0)
+            patch_id_url_base = re.search('[0-9]+', patch_url_base).group(0)
+
             # Calculate new one
-            patch_id_new = str(int(patch_id_base) + 1)
+            # patch_id_new = str(int(patch_id_base) + 1)
             # Generate new URL
-            patch_url_new = patch_url_base.replace(patch_id_base, patch_id_new)
+            # patch_url_new = patch_url_base.replace(patch_id_base, patch_id_new)
 
             # Extract patch number from last line
             patch_id_base = re.search('[0-9]+\.[0-9]+', last_line).group(0)
             # Generate new patch number
             patch_id_new = patch_id_base.split('.')
             patch_id_new[-1] = str(int(patch_id_new[-1]) + 1)
+            patch_id_url_new = "".join(patch_id_new)
+            patch_url_new = patch_url_base.replace(patch_id_url_base, patch_id_url_new)
             patch_id_new = ".".join(patch_id_new)
             # Update last line URL
             new_last_line = last_line.replace(patch_url_base, patch_url_new).replace(patch_id_base, patch_id_new)
