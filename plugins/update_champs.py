@@ -21,79 +21,47 @@ def command_update_champs(m):
         if(len(m.text.split()) != 2):
             return bot.send_message(cid, responses['update_champs_no_version'], parse_mode="Markdown")
         version = m.text.split(None, 1)[1]
-        file_name = 'dragontail-{}.tgz'.format(version)
-        bot.send_message(cid, responses['update_champs_1'].format(file_name))
-        os.popen('wget -q https://ddragon.leagueoflegends.com/cdn/{}'.format(file_name)).read()
-        try:
-            os.mkdir('tmp')
-        except:
-            pass
-        bot.send_message(cid, responses['update_champs_2'])
-        os.popen('tar -xvf {} -C tmp/'.format(file_name)).read()
-        bot.send_message(cid, responses['update_champs_3'])
-        with open('champs_es.json', 'w') as f:
-            with open('tmp/{}/data/es_ES/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
+        langs = ['es_ES', 'en_US', 'it_IT', 'de_DE', 'fr_FR', 'ro_RO', 'pl_PL', 'pt_BR', 'el_GR', 'ru_RU', 'th_TH', 'tr_TR']
+        url = 'http://ddragon.leagueoflegends.com/cdn/{}/data/{}/championFull.json'
+        splash = 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{}_{}.jpg'
+
+        for z in langs:
+            r = requests.get(url.format(version, z))
+            aux = r.json()['data']
+            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
+            with open(f'champs_{z.split("_")[0]}.json', 'w') as f:
+                json.dump(aux, f, indent=4)
+
+        with open('champs_keys.json', 'w') as f:
+            print('Generando champs_keys.json')
+            r = requests.get(url.format(version, langs[0]))
+            aux = r.json()['data']
             aux_2 = {y['key']:{'id':int(y['key']), 'key': y['id'], 'name': y['name']} for x, y in aux.items()}
-            with open('champs_keys.json', 'w') as j:
-                json.dump(aux_2, j, indent=4)
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_en.json', 'w') as f:
-            with open('tmp/{}/data/en_US/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_it.json', 'w') as f:
-            with open('tmp/{}/data/it_IT/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_de.json', 'w') as f:
-            with open('tmp/{}/data/de_DE/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_fr.json', 'w') as f:
-            with open('tmp/{}/data/fr_FR/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_ro.json', 'w') as f:
-            with open('tmp/{}/data/ro_RO/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_pl.json', 'w') as f:
-            with open('tmp/{}/data/pl_PL/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_pt.json', 'w') as f:
-            with open('tmp/{}/data/pt_BR/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_el.json', 'w') as f:
-            with open('tmp/{}/data/el_GR/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_ru.json', 'w') as f:
-            with open('tmp/{}/data/ru_RU/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_th.json', 'w') as f:
-            with open('tmp/{}/data/th_TH/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        with open('champs_tr.json', 'w') as f:
-            with open('tmp/{}/data/tr_TR/championFull.json'.format(version)) as z:
-                aux = json.load(z)['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            json.dump(aux, f, indent=4)
-        bot.send_message(cid, responses['update_champs_4'])
-        os.popen('rm -rf tmp/ {}'.format(file_name)).read()
+            json.dump(aux_2, f, indent=4)
+
+        with open('champs_es.json') as f:
+            champs = json.load(f)
+
+        with open('extra_data/file_ids.json') as f:
+            file_ids = json.load(f)
+
+        for x, y in champs.items():
+            print(f'Campeón cargado: {x}')
+            for z in [z.get('num') for z in y.get('skins')]:
+                clave = x.lower()
+                if z != 0:
+                    clave += f'_{z}'
+                if file_ids.get(clave) is None:
+                    print(f'\tObteniendo la siguiente imagen: {splash.format(x, z)}')
+                    r = requests.get(splash.format(x, z))
+                    if r.status_code != 200:
+                        print(f'\t\tERROR, status_code = {r.status_code}')
+                        continue
+                    msg = bot.send_photo(52033876, r.content)
+                    valor = msg.photo[-1].file_id
+                    file_ids[clave] = valor
+
+        with open('extra_data/file_ids.json', 'w') as f:
+            json.dump(file_ids, f, indent=2)
+
         os.popen('pm2 restart LCS_bot')
