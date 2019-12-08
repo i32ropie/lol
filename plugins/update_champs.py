@@ -29,7 +29,7 @@ def command_update_champs(m):
             r = requests.get(url.format(version, z))
             aux = r.json()['data']
             for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            with open(f'champs_{z.split("_")[0]}.json', 'w') as f:
+            with open('champs_{}.json'.format(z.split("_")[0]), 'w') as f:
                 json.dump(aux, f, indent=4)
 
         with open('champs_keys.json', 'w') as f:
@@ -46,16 +46,16 @@ def command_update_champs(m):
             file_ids = json.load(f)
 
         for x, y in champs.items():
-            print(f'Campeón cargado: {x}')
+            print('Campeón cargado: {}'.format(x))
             for z in [z.get('num') for z in y.get('skins')]:
                 clave = x.lower()
                 if z != 0:
-                    clave += f'_{z}'
+                    clave += '_{}'.format(z)
                 if file_ids.get(clave) is None:
-                    print(f'\tObteniendo la siguiente imagen: {splash.format(x, z)}')
+                    print('\tObteniendo la siguiente imagen: {}'.format(splash.format(x, z)))
                     r = requests.get(splash.format(x, z))
                     if r.status_code != 200:
-                        print(f'\t\tERROR, status_code = {r.status_code}')
+                        print('\t\tERROR, status_code = {}'.format(r.status_code))
                         continue
                     msg = bot.send_photo(52033876, r.content)
                     valor = msg.photo[-1].file_id
