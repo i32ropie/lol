@@ -62,6 +62,6 @@ def command_update_champs(m):
                     file_ids[clave] = valor
 
         with open('extra_data/file_ids.json', 'w') as f:
-            json.dump(file_ids, f, indent=2, sorted_keys=True)
+            json.dump(file_ids, f, indent=2, sort_keys=True)
 
         os.popen('pm2 restart LCS_bot')
