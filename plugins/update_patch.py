@@ -3,6 +3,7 @@
 from config import *
 import re
 from bs4 import BeautifulSoup
+from lxml import html
 import os
 
 print(Color(
@@ -32,7 +33,7 @@ def update_patch_auto(m):
             # Extract URL
             patch_url_base = last_line.split()[-1]
             # Extract patch number
-            patch_id_url_base = re.search('[0-9]+', patch_url_base).group(0)
+            patch_id_url_base = re.search('[0-9]+[0-9]+', patch_url_base).group(0)
 
             # Calculate new one
             # patch_id_new = str(int(patch_id_base) + 1)
@@ -44,7 +45,7 @@ def update_patch_auto(m):
             # Generate new patch number
             patch_id_new = patch_id_base.split('.')
             patch_id_new[-1] = str(int(patch_id_new[-1]) + 1)
-            patch_id_url_new = "".join(patch_id_new)
+            patch_id_url_new = "-".join(patch_id_new)
             patch_url_new = patch_url_base.replace(patch_id_url_base, patch_id_url_new)
             patch_id_new = ".".join(patch_id_new)
             # Update last line URL
@@ -56,18 +57,27 @@ def update_patch_auto(m):
                 continue
 
             soup = BeautifulSoup(r.text, 'html.parser')
-            youtube_link = ""
-            try:
-                for y in soup.findAll('iframe'):
-                    if 'youtu' in y.attrs['src']:
-                        youtube_link = y.attrs['src']
-                        break
-            except:
-                bot.send_message(cid, "Error obteniendo URL de youtube")
-            if youtube_link:
-                new_patch_notes = "[{}]({}){}\n\n{}".format(invisible_character, youtube_link, '\n\n'.join(list(filter(None, [x.strip() for x in soup.find('blockquote').prettify().split('\n') if not '<' in x]))), new_last_line)
+            tree = html.fromstring(r.content)
+            highlights = tree.xpath('//img[contains(@src, "lolstatic")]/@src')
+            if highlights:
+                highlights = highlights[0]
+            # youtube_link = ""
+            # try:
+            #     for y in soup.findAll('iframe'):
+            #         if 'youtu' in y.attrs['src']:
+            #             youtube_link = y.attrs['src']
+            #             break
+            # except:
+            #     bot.send_message(cid, "Error obteniendo URL de youtube")
+                new_patch_notes = "[{}]({}){}\n\n{}".format(
+                    invisible_character, 
+                    highlights,
+                    re.sub(r'<a href="(.*)">(.*)</a>', r'[\2](\1)', ''.join(list(filter(None, [x.strip().replace('<br/>', '\n').replace('<a',' <a') for x in soup.find('blockquote').prettify().split('\n') if not '<bl' in x and not '<e' in x and not '</e' in x and not '</bl' in x])))), 
+                    new_last_line)
             else:
-                new_patch_notes = "{}\n\n{}".format('\n\n'.join(list(filter(None, [x.strip() for x in soup.find('blockquote').prettify().split('\n') if not '<' in x]))), new_last_line)
+                new_patch_notes = "{}\n\n{}".format(
+                    re.sub(r'<a href="(.*)">(.*)</a>', r'[\2](\1)', ''.join(list(filter(None, [x.strip().replace('<br/>', '\n').replace('<a',' <a') for x in soup.find('blockquote').prettify().split('\n') if not '<bl' in x and not '<e' in x and not '</e' in x and not '</bl' in x])))), 
+                    new_last_line)
             with open(x, 'w') as f:
                 f.write(new_patch_notes)
         bot.send_message(cid, "Done :)")
