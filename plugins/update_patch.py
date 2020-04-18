@@ -58,7 +58,7 @@ def update_patch_auto(m):
 
             soup = BeautifulSoup(r.text, 'html.parser')
             tree = html.fromstring(r.content)
-            highlights = tree.xpath('//img[contains(@src, "lolstatic")]/@src')
+            highlights = tree.xpath('//img[contains(@src, "Patch-")]/@src')
             if highlights:
                 highlights = highlights[0]
             # youtube_link = ""
