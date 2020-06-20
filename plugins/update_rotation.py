@@ -28,7 +28,7 @@ def update_rotation_auto(m):
     if not is_recent(m):
         return None
     if is_admin(uid):
-        if len(m.text.split() != 2:
+        if len(m.text.split()) != 2:
             return bot.send_message(cid, responses['update_rotation_no_url'], parse_mode="Markdown")
         link = m.text.split()[1]
         r = requests.get(link)
