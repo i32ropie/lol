@@ -43,7 +43,7 @@ def update_rotation_auto(m):
         with open('extra_data/extra.json', 'w') as f:
             json.dump(extra, f, indent=4)
         champ_names = tree.xpath('//a[contains(@href, "/champions/")]/text()')
-        champ_keys = [y['key'] for x,y in data['keys'] if y['name'] in champ_names]
+        champ_keys = [y['key'] for x,y in data['keys'].items() if y['name'] in champ_names]
         champ_keys = [backward[x] if x in backward else x for x in champ_keys]
         with open('extra_data/sale.txt','w') as f:
             f.write('/{}'.format('\n/'.join(champ_keys)))
