@@ -44,7 +44,7 @@ def update_rotation_auto(m):
             json.dump(extra, f, indent=4)
         champ_names = tree.xpath('//a[contains(@href, "/champions/")]/text()')
         champ_keys = [y['key'] for x,y in data['keys'].items() if y['name'] in champ_names]
-        champ_keys = [backward[x] if x in backward else x for x in champ_keys]
+        champ_keys = sorted([backward[x] if x in backward else x for x in champ_keys])
         with open('extra_data/rotation.txt','w') as f:
             f.write('/{}'.format('\n/'.join(champ_keys)))
         bot.send_message(cid, responses['update_rotation_end'])
