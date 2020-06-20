@@ -40,7 +40,7 @@ def update_rotation_auto(m):
             return bot.send_message(cid, responses['update_rotation_no_img'])
         img = bot.send_photo(cid, requests.get(img).content).photo[-1].file_id
         extra['rotation'] = img
-        with open('extra/extra.json', 'w') as f:
+        with open('extra_data/extra.json', 'w') as f:
             json.dump(extra, f, indent=4)
         champ_names = tree.xpath('//a[contains(@href, "/champions/")]/text()')
         champ_keys = [y['key'] for x,y in data['keys'] if y['name'] in champ_names]
