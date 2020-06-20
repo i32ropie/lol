@@ -2014,5 +2014,8 @@
         "ro":"*Data Înregistrării*: _{}_\n*Notificările*: _{}_",
         "ru":"*Дата регистрации*: _{}_\n*Уведомления*: _{}_",
         "ar":"*Registration date*: _{}_\n*Notifications*: _{}_"
-    }
+    },
+    "update_rotation_no_url": "No se ha especificado URL a parsear",
+    "update_rotation_no_img": "No hay imágenes de rotación en la URL",
+    "update_rotation_end": "Actualizado :)"
 }
