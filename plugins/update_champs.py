@@ -49,7 +49,7 @@ def command_update_champs(m):
             print('Campeón cargado: {}'.format(x))
             for z in [z.get('num') for z in y.get('skins')]:
                 clave = x.lower()
-                if clave is 'monkeyking':
+                if clave == 'monkeyking':
                     clave = 'wukong'
                 if z != 0:
                     clave += '_{}'.format(z)
