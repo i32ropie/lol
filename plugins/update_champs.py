@@ -26,18 +26,25 @@ def command_update_champs(m):
         splash = 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{}_{}.jpg'
 
         for z in langs:
+            bot.send_message(cid, "Consultando información para el idioma '{}'".format(z))
             r = requests.get(url.format(version, z))
-            aux = r.json()['data']
-            for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
-            with open('champs_{}.json'.format(z.split("_")[0]), 'w') as f:
-                json.dump(aux, f, indent=4)
+            if r.status_code == 200:
+                aux = r.json()['data']
+                for x, y in aux.items(): y['key'], y['id'] = y['id'], int(y['key'])
+                with open('champs_{}.json'.format(z.split("_")[0]), 'w') as f:
+                    json.dump(aux, f, indent=4)
+            else:
+                bot.send_message(cid, "No se ha conseguido extraer información de la URL {}".format(url.format(version, z)))
 
-        with open('champs_keys.json', 'w') as f:
-            print('Generando champs_keys.json')
-            r = requests.get(url.format(version, langs[0]))
+        bot.send_message(cid, "Generando champs_keys.json")
+        r = requests.get(url.format(version, langs[0]))
+        if r.status_code == 200:
             aux = r.json()['data']
             aux_2 = {y['key']:{'id':int(y['key']), 'key': y['id'], 'name': y['name']} for x, y in aux.items()}
-            json.dump(aux_2, f, indent=4)
+            with open('champs_keys.json', 'w') as f:
+                json.dump(aux_2, f, indent=4)
+        else:
+            bot.send_message(cid, "No se ha conseguido extraer información de la URL {}".format(url.format(version, langs[0])))
 
         with open('champs_es.json') as f:
             champs = json.load(f)
