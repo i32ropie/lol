@@ -317,3 +317,6 @@ def get_summoner_info(invocador, region, cid):
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     return txt
+
+def restart_process():
+    os.popen('kill -9 {}'.format(os.getpid()))
