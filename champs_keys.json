@@ -34,6 +34,11 @@
         "key": "Annie",
         "name": "Annie"
     },
+    "523": {
+        "id": 523,
+        "key": "Aphelios",
+        "name": "Aphelios"
+    },
     "22": {
         "id": 22,
         "key": "Ashe",
@@ -314,6 +319,11 @@
         "key": "Leona",
         "name": "Leona"
     },
+    "876": {
+        "id": 876,
+        "key": "Lillia",
+        "name": "Lillia"
+    },
     "127": {
         "id": 127,
         "key": "Lissandra",
@@ -464,6 +474,11 @@
         "key": "RekSai",
         "name": "Rek'Sai"
     },
+    "526": {
+        "id": 526,
+        "key": "Rell",
+        "name": "Rell"
+    },
     "58": {
         "id": 58,
         "key": "Renekton",
@@ -489,6 +504,11 @@
         "key": "Ryze",
         "name": "Ryze"
     },
+    "360": {
+        "id": 360,
+        "key": "Samira",
+        "name": "Samira"
+    },
     "113": {
         "id": 113,
         "key": "Sejuani",
@@ -498,6 +518,16 @@
         "id": 235,
         "key": "Senna",
         "name": "Senna"
+    },
+    "147": {
+        "id": 147,
+        "key": "Seraphine",
+        "name": "Seraphine"
+    },
+    "875": {
+        "id": 875,
+        "key": "Sett",
+        "name": "Sett"
     },
     "35": {
         "id": 35,
@@ -649,6 +679,11 @@
         "key": "Vi",
         "name": "Vi"
     },
+    "234": {
+        "id": 234,
+        "key": "Viego",
+        "name": "Viego"
+    },
     "112": {
         "id": 112,
         "key": "Viktor",
@@ -688,6 +723,11 @@
         "id": 157,
         "key": "Yasuo",
         "name": "Yasuo"
+    },
+    "777": {
+        "id": 777,
+        "key": "Yone",
+        "name": "Yone"
     },
     "83": {
         "id": 83,
