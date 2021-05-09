@@ -32,24 +32,12 @@ def listener(messages):
         uid = m.from_user.id
         if is_banned(uid) or is_banned(cid):
             return None
-        try:
-            send_udp('rcvd')
-        except Exception as e:
-            bot.send_message(
-                52033876,
-                send_exception(e),
-                parse_mode="Markdown")
         if m.content_type == 'text':
             if m.text.lower() in ['sorcio', 'sorcio84']:
                 bot.send_sticker(cid, choice(sorcio))
             if m.text.startswith(
                     '/') and is_user(cid) and m.text not in ['/start', '/stop']:
                 process_msg(m)
-                try:
-                    send_udp('command')
-                except Exception as e:
-                    bot.send_message(
-                        52033876, send_exception(e), parse_mode="Markdown")
             if cid > 0:
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(
                     m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(cid) + "]: " + m.text + "\n"
@@ -90,11 +78,6 @@ def process_msg(m):
                     return None
                 if len(separe) == 1:
                     try:
-                        send_udp('get_champ')
-                    except Exception as e:
-                        bot.send_message(
-                            52033876, send_exception(e), parse_mode="Markdown")
-                    try:
                         bot.send_photo(cid, file_ids[no_namebot[0].lower()])
                     except:
                         bot.send_chat_action(cid, 'typing')
@@ -107,11 +90,6 @@ def process_msg(m):
                     if isint(separe[1]):
                         for num in data[lang(cid)][x]['skins']:
                             if num['num'] == int(separe[1]):
-                                try:
-                                    send_udp('get_skin')
-                                except Exception as e:
-                                    bot.send_message(
-                                        52033876, send_exception(e), parse_mode="Markdown")
                                 try:
                                     bot.send_photo(
                                         cid, file_ids[

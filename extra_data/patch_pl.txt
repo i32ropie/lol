@@ -1,7 +1,13 @@
-[⁣](https://lolstatic-a.akamaihd.net/content/eu/PatchHighlights/2020/Patch_10_3_Infographic_1080x1080-pol.jpg)Cześć, przyjaciele!
+[⁣](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt95dc5782089baf45/6087e97b162d47104df486bb/PL-Patch-11.png)Kwiatki kwitną, ptaszki ćwierkają, a przed nami ulubiony czas roku — środek sezonu!
 
-Ten opis patcha jest naprawdę spory. Mamy tutaj tyle naprawionych błędów. Sennę z Prestiżowej Edycji. Prace nad Akali. Osłabienie mojej kochanej Sony. Wzmocnienia dla dżunglerów! I, co prawdopodobnie najważniejsze, przygotowaliśmy niesamowite aktualizacje efektów wizualnych dla kilku naszych najstarszych i najulubieńszych bohaterów.
+Zmian jest sporo, więc warto je podsumować. Po pierwsze wprowadziliśmy kilka zmian w przedmiotach dla obrońców: osłabiliśmy Turbochemiczny Pojemnik i wzmocniliśmy parę przedmiotów dla wojowników (Taniec Śmierci i Koniec Rozumu). Przygotowania do MSI trwają, dlatego stwierdziliśmy, że to właściwy czas na lekkie zamieszanie w mecie profesjonalnych rozgrywek. Oznacza to, że dominujące od dłuższego czasu gwiazdy, np. Gragas, wycofają się odrobinę i zrobią miejsce na scenie dla starych znajomych — takich jak Shen czy Lulu.
 
-Użyjcie tego portalu, jeśli szukacie [opisu patcha TFT](https://eune.leagueoflegends.com/pl-pl/news/game-updates/teamfight-tactics-patch-10-3-notes/)!
+W poprzednim patchu zaszaleliśmy nieco ze wzmocnieniami części bohaterów, przez co zbyt łatwo zdominowali oni Summoner’s Rift. Nasi koledzy i koleżanki, m.in. Diana oraz Morgana, rozpanoszyli się w dżungli na dobre, dlatego zdecydowaliśmy się wprowadzić pewne zmiany — co prawda osłabiają one skuteczność tych bohaterów, ale nie odbierają im dżunglerskiego potencjału. To samo tyczy się pewnego krwiożerczego żniwiarza oraz fioletowego olbrzyma, których również ustawiliśmy do pionu w ich alejach.
 
-Opis patcha 10.3 https://eune.leagueoflegends.com/pl-pl/news/game-updates/patch-10-3-notes/
+Co jeszcze? Zaktualizowaliśmy interakcję Tarika z niektórymi bohaterami, aby jego sojusznicy, którzy nie znajdują się w danym momencie na mapie, nie zyskiwali dodatkowych korzyści. Ponadto wyeliminowaliśmy sporo błędów związanych z Viego. Pamiętajcie też, że rozpoczyna się druga część sezonu rankingowego, więc pora dotrzeć do wymarzonego kręgu.
+
+I to tyle! Do następnego razu.
+
+TFT: Osąd jest już z nami, sądzimy więc, że warto zerknąć na [opis patcha TFT](https://eune.leagueoflegends.com/pl-pl/news/game-updates/teamfight-tactics-patch-11-9-notes/), zanim Czarna Mgła wszystkich nas pochłonie!
+
+Opis patcha 11.9 https://eune.leagueoflegends.com/pl-pl/news/game-updates/patch-11-9-notes/

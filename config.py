@@ -20,6 +20,8 @@ from collections import OrderedDict
 from pymongo import MongoClient
 import requests
 from random import choice
+import logging
+import _thread
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -28,29 +30,19 @@ from random import choice
 with open('extra_data/extra.json', 'r') as f:
     extra = json.load(f)
 
+telebot.logger.setLevel(logging.DEBUG)
+
 bot = telebot.TeleBot(extra['token'])
 logBot = telebot.TeleBot(extra['token_logbot'])
 admins = extra['admins']
 filtered = list()
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-MESSAGE = extra['udp_message']
-UDP_IP = extra['udp_ip']
-UDP_PORT = extra['udp_port']
 
-
-client = MongoClient('localhost:27017')
-db = client.users
+client = MongoClient('database:27017')
+db = client.lol_bot
 
 
 with open('responses.json', encoding='utf-8') as f:
     responses = json.load(f, object_pairs_hook=OrderedDict)
-
-
-def send_udp(txt):
-    try:
-        sock.sendto(MESSAGE.format(txt).encode(), (UDP_IP, UDP_PORT))
-    except:
-        pass
 
 
 userStep = dict()
@@ -62,7 +54,7 @@ def is_recent(m):
 
 def is_banned(uid):
     if is_user(uid):
-        return db.usuarios.find_one(str(uid))['banned']
+        return db.users.find_one(str(uid))['banned']
     else:
         return False
 
@@ -75,8 +67,8 @@ def next_step_handler(uid):
 
 
 def lang(uid):
-    if db.usuarios.find_one(str(uid)):
-        return db.usuarios.find_one(str(uid))['lang']
+    if db.users.find_one(str(uid)):
+        return db.users.find_one(str(uid))['lang']
     else:
         return 'en'
 
@@ -87,11 +79,11 @@ def is_beta(uid):
 
 
 def was_user(cid):
-    return db.usuarios.find_one(str(cid)) is not None and db.usuarios.find_one(str(cid))['active'] == False
+    return db.users.find_one(str(cid)) is not None and db.users.find_one(str(cid))['active'] == False
 
 
 def is_user(cid):
-    return db.usuarios.find_one(str(cid)) is not None and db.usuarios.find_one(str(cid))['active'] == True
+    return db.users.find_one(str(cid)) is not None and db.users.find_one(str(cid))['active'] == True
 
 
 def is_admin(cid):
@@ -116,7 +108,7 @@ def user_info(cid, language=None):
     from datetime import datetime
     yes = "✔️"
     no = "✖️"
-    user = db.usuarios.find_one(str(cid))
+    user = db.users.find_one(str(cid))
     reg_date = datetime.fromtimestamp(int(user['register'])).strftime('%d/%m/%Y')
     notifications = yes if user['notify'] else no
     summoner_name = user['summoner'] if user['summoner'] else no
@@ -282,8 +274,8 @@ def get_summoner_info(invocador, region, cid):
     summoner_id = summoner['id']
     opgg_region = region.lower() if region.lower() != 'kr' else 'www'
     opgg = 'http://{}.op.gg/summoner/userName={}'.format(opgg_region, ''.join(summoner_name.split()))
-    lolking = "http://www.lolking.net/summoner/" + \
-        region + "/" + str(summoner_id)
+    # lolking = "http://www.lolking.net/summoner/" + \
+    #     region + "/" + str(summoner_id)
     summoner_level = summoner['summonerLevel']
     txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, opgg, summoner_level)
     if summoner_level > 29:
@@ -319,4 +311,4 @@ def get_summoner_info(invocador, region, cid):
     return txt
 
 def restart_process():
-    os.popen('kill -9 {}'.format(os.getpid()))
+     _thread.interrupt_main()

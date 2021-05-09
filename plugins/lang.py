@@ -23,25 +23,21 @@ markup.add(
     types.KeyboardButton('ARABIC'))
 
 
-@bot.message_handler(
-    func=lambda m: m.content_type == 'text' and m.text in [
-        'JĘZYK',
-        'IDIOMA',
-        'ЯЗЫК',
-        'LIMBĂ',
-        'LANGUAGE',
-        'LINGUA',
-        'SPRACHE',
-        'LANGUE',
-        'DİL'])
+# @bot.message_handler(
+#     func=lambda m: m.content_type == 'text' and m.text in [
+#         'JĘZYK',
+#         'IDIOMA',
+#         'ЯЗЫК',
+#         'LIMBĂ',
+#         'LANGUAGE',
+#         'LINGUA',
+#         'SPRACHE',
+#         'LANGUE',
+#         'DİL'])
 @bot.message_handler(commands=['lang'])
 def command_lang(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('lang')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

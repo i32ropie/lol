@@ -51,10 +51,6 @@ platform = {
 def command_match(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('match')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid):
@@ -91,10 +87,6 @@ def command_match(m):
 def match_info(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp(m.text.lstrip('/').split(' ')[0].split('@')[0].lower())
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_banned(uid):
         if not extra['muted']:
             bot.send_chat_action(cid, 'typing')

@@ -22,10 +22,6 @@ print(Color(
 def command_rate(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('rate')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     url = 'https://telegram.me/storebot?start=LoL_bot'
     if not is_recent(m):
         return None

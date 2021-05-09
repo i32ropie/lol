@@ -21,10 +21,6 @@ print(Color(
 def command_notify(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('notify')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -33,12 +29,12 @@ def command_notify(m):
             bot.reply_to(m, responses['banned'])
         return None
     if is_user(cid):
-        if db.usuarios.find_one(str(cid))['notify']:
+        if db.users.find_one(str(cid))['notify']:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
                 cid, responses['notifications_1'][
                     lang(cid)], parse_mode="Markdown")
-            db.usuarios.update(
+            db.users.update(
                 {"_id": str(cid)},
                 {"$set": {"notify": False}})
         else:
@@ -46,7 +42,7 @@ def command_notify(m):
             bot.send_message(
                 cid, responses['notifications_2'][
                     lang(cid)], parse_mode="Markdown")
-            db.usuarios.update(
+            db.users.update(
                 {"_id": str(cid)},
                 {"$set": {"notify": True}})
     else:

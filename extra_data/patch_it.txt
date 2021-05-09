@@ -1,7 +1,13 @@
-[⁣](https://lolstatic-a.akamaihd.net/content/eu/PatchHighlights/2020/Patch_10_3_Infographic_1080x1080-ita.jpg)Ciao, amici!
+[⁣](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt34f7ce8831650634/6087e9785907c910150f7542/IT-Patch-11.png)I fiori sbocciano e gli uccellini cinguettano: è arrivato il nostro periodo preferito dell'anno, la metà stagione!
 
-Queste note sulla patch sono piuttosto voluminose. Guardate tutti i bug risolti. Guardate Senna (edizione prestigio). Guardate i cambi su Akali. Guardate cosa hanno fatto alla mia preferita. Guardate i buff nella giungla! E, forse cosa più importante, in questa patch ci sono dei favolosi aggiornamenti agli effetti grafici di alcuni dei nostri campioni più vecchi e amati.
+Questa volta c'è della roba forte, quindi cerchiamo di farne un riassunto. Innanzitutto, abbiamo dato una scossa al sistema dei tank con un nerf a Chemtank turbo e dei buff ad alcuni oggetti per questo ruolo che ci sembravano un po' troppo deboli (Danza della Morte e Speranza perduta). In secondo luogo, in preparazione all'MSI, abbiamo rimescolato il meta per il gioco professionistico, diversificando la rosa di campioni che salirà sul palcoscenico, cercando di dare meno spazio a scelte ovvie come Gragas e mettendo sotto i riflettori vecchie conoscenze come Shen e Lulu.
 
-Attraversate questo portale se cercate le [note sulla patch di TFT](https://euw.leagueoflegends.com/it/news/game-updates/patch/teamfight-tactics-patch-103-notes)!
+Oltre a questi interventi, ci siamo resi conto di aver buffato eccessivamente alcuni campioni nell'ultima patch, che sono diventati subito problematici nella Landa. Stiamo parlando, per esempio, di Diana e Morgana che, grazie alla loro nuova potenza, si sono subito trovate a loro agio nella giungla. Adesso le abbiamo leggermente ridimensionate, pur conservandone l'efficacia in questo ruolo. Lo stesso vale per un certo mietitore rosso e un ammasso di muscoli violaceo nelle loro rispettive corsie.
 
-Note sulla patch 10.3 https://euw.leagueoflegends.com/it-it/news/game-updates/patch-10-3-notes/
+Che altro? L'interazione di Taric con alcuni campioni è stata aggiornata, in modo che i benefici conferiti da questo personaggio non vengano applicati ad alleati che non sono sulla mappa. Abbiamo liberato Viego da numerosi bug. Inizia la seconda fase delle Classificate, che vi porterà a raggiungere il livello dei vostri sogni.
+
+Questo è quanto! Alla prossima.
+
+TFT: Giudizio è qui e, a nostro giudizio, fareste meglio a leggere le [note sulla patch di TFT](https://euw.leagueoflegends.com/it-it/news/game-updates/teamfight-tactics-patch-11-9-notes/)prima che la Nebbia Oscura ci corrompa tutti!
+
+Note sulla patch 11.9 https://euw.leagueoflegends.com/it-it/news/game-updates/patch-11-9-notes/

@@ -14,10 +14,6 @@ print(Color(
 def update_patch_auto(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp(m.text.lstrip('/').split(' ')[0].split('@')[0].lower())
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):

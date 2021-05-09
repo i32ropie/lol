@@ -11,10 +11,6 @@ def command_ban(m):
     cid = m.chat.id
     uid = m.from_user.id
     date = m.date
-    try:
-        send_udp('ban')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -32,14 +28,14 @@ def command_ban(m):
                         cid, responses['ban']['failure'][1] %
                         banned_id)
                 else:
-                    db.usuarios.update({"_id": banned_id},
+                    db.users.update({"_id": banned_id},
                                        {"$set": {"banned": True}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
                         cid, responses['ban']['success'] %
                         banned_id)
             else:
-                # db.usuarios.insert({
+                # db.users.insert({
                 #     "_id": banned_id,
                 #     "lang": "en",
                 #     "banned": True,
@@ -47,7 +43,7 @@ def command_ban(m):
                 #     "server": "",
                 #     "summoner": ""
                 # })
-                db.usuarios.insert({
+                db.users.insert({
                     "_id": banned_id,
                     "lang": "en",
                     "banned": True,
@@ -66,10 +62,6 @@ def command_ban(m):
 def command_unban(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('unban')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(uid):
         try:
             banned_id = m.text.split(' ')[1]
@@ -80,7 +72,7 @@ def command_unban(m):
         if isint(banned_id):
             if is_user(banned_id):
                 if is_banned(banned_id):
-                    db.usuarios.update({"_id": banned_id},
+                    db.users.update({"_id": banned_id},
                                        {"$set": {"banned": False}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
@@ -102,10 +94,6 @@ def command_unban(m):
 def command_mute(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('mute')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(uid):
         extra['muted'] = True
         bot.send_chat_action(cid, 'typing')
@@ -118,10 +106,6 @@ def command_mute(m):
 def command_unmute(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('unmute')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(uid):
         extra['muted'] = False
         bot.send_chat_action(cid, 'typing')

@@ -12,10 +12,6 @@ print(Color(
 def command_m(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('me')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid):
@@ -24,8 +20,8 @@ def command_m(m):
         return None
     if is_user(cid):
         try:
-            summoner = db.usuarios.find_one(str(uid))['summoner']
-            region = db.usuarios.find_one(str(uid))['server']
+            summoner = db.users.find_one(str(uid))['summoner']
+            region = db.users.find_one(str(uid))['server']
         except:
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return

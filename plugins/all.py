@@ -10,10 +10,6 @@ print(Color(
 def command_all_es(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('all_es')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):
@@ -22,7 +18,7 @@ def command_all_es(m):
         if len(m.text.split()) == 1:
             bot.send_message(cid, "Error, no hay nada para enviar.")
             return
-        for x in [y['_id'] for y in db.usuarios.find(
+        for x in [y['_id'] for y in db.users.find(
                 {"notify": True, "lang": "es", "banned": False, "active": True})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
@@ -31,8 +27,8 @@ def command_all_es(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.usuarios.remove(x)
-                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove(x)
+                        db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")
@@ -49,10 +45,6 @@ def command_all_es(m):
 def command_all_en(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('all_en')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):
@@ -61,7 +53,7 @@ def command_all_en(m):
         if len(m.text.split()) == 1:
             bot.send_message(cid, "Error, no hay nada para enviar.")
             return
-        for x in [y['_id'] for y in db.usuarios.find(
+        for x in [y['_id'] for y in db.users.find(
                 {"notify": True, "lang": {"$ne": "es"}, "banned": False, "active": True})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
@@ -70,8 +62,8 @@ def command_all_en(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.usuarios.remove(x)
-                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove(x)
+                        db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")
@@ -88,17 +80,13 @@ def command_all_en(m):
 def command_all_s(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('all_s')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):
         return None
     if is_admin(uid):
         for x in [y['_id']
-                  for y in db.usuarios.find({"notify": True, "banned": False, "active": True})]:
+                  for y in db.users.find({"notify": True, "banned": False, "active": True})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_s'][lang(x)])
@@ -106,8 +94,8 @@ def command_all_s(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.usuarios.remove(x)
-                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove(x)
+                        db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")
@@ -124,17 +112,13 @@ def command_all_s(m):
 def command_all_r(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('all_r')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     save = list()
     delete = list()
     if not is_recent(m):
         return None
     if is_admin(uid):
         for x in [y['_id']
-                  for y in db.usuarios.find({"notify": True, "banned": False, "active": True})]:
+                  for y in db.users.find({"notify": True, "banned": False, "active": True})]:
             try:
                 bot.send_chat_action(int(x), 'typing')
                 bot.send_message(int(x), responses['all_r'][lang(x)])
@@ -142,8 +126,8 @@ def command_all_r(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.usuarios.remove(x)
-                        db.usuarios.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove(x)
+                        db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         52033876, send_exception(e), parse_mode="Markdown")

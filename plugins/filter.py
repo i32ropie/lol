@@ -14,10 +14,6 @@ print(Color(
 def command_filter(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('res')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if is_admin(cid):
         ID = int(m.text.split()[1])
         if ID not in filtered:

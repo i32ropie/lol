@@ -1,7 +1,13 @@
-[⁣](https://lolstatic-a.akamaihd.net/content/eu/PatchHighlights/2020/Patch_10_3_Infographic_1080x1080-rum.jpg)Salutare, prieteni!
+[⁣](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4e5cd58775674f5a/6087e97e5907c910150f7546/RO-Patch-11.png)Copacii au înflorit, păsărelele ciripesc – a început perioada noastră preferată: mijlocul sezonului!
 
-Aceste note ale patch-ului conțin destul de multe informații. Ia uitați câte bug-uri am eliminat. Ia uitați-o pe Senna de la True Damage (ediția ''Prestigiu''). Ia uitați ce modificări suferă Akali. Ia uitați ce i-au făcut. Și ia uitați-vă la toate buff-urile pentru junglă! Poate cel mai important, însă, acest patch vine cu o serie uimitoare de actualizări ale efectelor vizuale și sonore pentru cei mai vechi și mai iubiți campioni.
+Patch-ul de față e destul de lung, deci haideți să începem cu un rezumat. În primul rând, modificăm sistemul pentru tancuri prin nerf-ul primit de ''Chimrezervorul turbo'' și introducem buff-uri pentru câteva obiecte de luptători mai slabe. Apoi, pentru a ne pregăti de MSI, încingem atmosfera din jocul-meta de pe scena profesionistă introducând pe scenă un grup diversificat de campioni. Astfel, campionii dominanți precum Gragas fac un pas în spate și îi lasă pe vechii favoriți (Shen, Lulu) să se mai bucure și ei de lumina reflectoarelor.
 
-Folosiți acest portal dacă sunteți în căutarea [notelor patch-ului pentru TFT](https://eune.leagueoflegends.com/ro-ro/news/game-updates/teamfight-tactics-patch-10-3-notes/)!
+În afară de asta, în ultimul patch am exagerat puțin cu câțiva campioni și am reușit să-i transformăm în principalii delincvenți din Rift. Campioni precum Diana și Morgana, a căror putere nouă i-a ajutat să se acomodeze prea ușor în junglă, vor fi de acum mai slabi, dar puterea pe rolul lor nu va scădea. Darkinul cu coasă și doctorul mov primesc același tratament.
 
-Notele patch-ului 10.3 https://eune.leagueoflegends.com/ro-ro/news/game-updates/patch-10-3-notes/
+Ce-ar mai fi? Am actualizat interacțiunea lui Taric cu anumiți campioni, astfel încât să nu le mai ofere beneficii aliaților care nu se află pe hartă. Viego a scăpat de o mulțime de bug-uri. Începe a doua etapă a meciurilor ranked – sperăm că o să ajungeți în categoria visurilor voastre.
+
+Cam asta e tot! Pe data viitoare.
+
+TFT: Ziua judecății a sosit! Citiți [notele patch-ului pentru TFT](https://eune.leagueoflegends.com/ro-ro/news/game-updates/teamfight-tactics-patch-11-9-notes/)înainte ca Negura Întunecată să ne corupă pe toți!
+
+Notele patch-ului 11.9 https://eune.leagueoflegends.com/ro-ro/news/game-updates/patch-11-9-notes/

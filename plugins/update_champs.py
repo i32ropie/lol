@@ -11,10 +11,6 @@ print(Color(
 def command_update_champs(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('update_champs')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_admin(uid):
@@ -40,7 +36,7 @@ def command_update_champs(m):
         r = requests.get(url.format(version, langs[0]))
         if r.status_code == 200:
             aux = r.json()['data']
-            aux_2 = {y['key']:{'id':int(y['key']), 'key': y['id'], 'name': y['name']} for x, y in aux.items()}
+            aux_2 = {y['key']:{'id':int(y['key']), 'key': y['id'], 'name': y['name']} for _, y in aux.items()}
             with open('champs_keys.json', 'w') as f:
                 json.dump(aux_2, f, indent=4)
         else:

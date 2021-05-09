@@ -274,10 +274,6 @@ markups = {
 def command_help(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('keyboard')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):
@@ -316,10 +312,6 @@ def command_help(m):
 def command_hideboard(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('hideboard')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid) or is_banned(cid):

@@ -20,10 +20,6 @@ print(Color(
 def command_credits(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('credits')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     url = 'https://github.com/eternnoir/pyTelegramBotAPI'
     if not is_recent(m):
         return None

@@ -1,7 +1,13 @@
-[⁣](https://lolstatic-a.akamaihd.net/content/eu/PatchHighlights/2020/Patch_10_3_Infographic_1080x1080-spa.jpg)¡Buenas!
+[⁣](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7e5c619d4f06bb2e/6087e970b9440f10206e93ed/ES-Patch-11.png)Los pétalos de las flores se abren, los pájaros cantan y ya está aquí nuestra época favorita del año: ¡la mitad de la temporada!
 
-Estas notas de la versión son muy grandes. Mirad todas las correcciones de errores. Mirad a Senna edición de prestigio. Mirad los cambios de Akali. Mirad qué le han hecho a mi Sona. ¡Mirad las mejoras de la jungla! Y quizá lo más importante sea que en esta versión traemos unas impresionantes actualizaciones de efectos visuales para algunos de nuestros campeones más antiguos y queridos.
+Esta vez es un poco compleja, así que vamos a hacer un resumen. En primer lugar, alteramos el sistema de tanques con la debilitación de Quimiotanque turbo y las mejoras para algunos de los objetos más débiles de luchadores (Baile de la muerte y Final del ingenio). Después, como preparación para el MSI, vamos a trastocar el metajuego profesional, añadiendo diversidad al escenario. Esto significa bajarle los humos a los campeones que más predominan, como Gragas, para que otros viejos conocidos, como Shen y Lulu, puedan encontrar su momento de gloria.
 
-Si lo que estáis buscando son las [notas de la versión de TFT](https://euw.leagueoflegends.com/es-es/news/game-updates/teamfight-tactics-patch-10-3-notes/), ¡adentraos en este portal!
+Por último, nos pasamos un poco con un par de campeones en la última versión, y empezaron rápidamente a hacer fechorías en la Grieta. Campeones como Diana y Morgana, cuyo nuevo nivel de poder ayudó a que se asentaran cómodamente en la jungla, reciben debilitaciones leves a la vez que conservan el poder en su rol. Lo mismo ocurre con cierto segador rojo y un trozo de carne magenta en sus calles.
 
-Notas de la Versión 10.3 https://euw.leagueoflegends.com/es-es/news/game-updates/patch-10-3-notes/
+¿Qué más? Se actualiza la interacción de Taric con ciertos campeones para que ya no aplique beneficios a los aliados que no estén en el mapa. Corregimos numerosos errores de Viego. Comienza la segunda vuelta de las clasificatorias, donde alcanzaréis vuestro nivel soñado.
+
+¡Y eso es todo! Nos vemos.
+
+Ha llegado TFT: Juicio final ¡y nuestro buen juicio nos dice que os gustará echar un vistazo a las [notas de la versión de TFT](https://euw.leagueoflegends.com/es-es/news/game-updates/teamfight-tactics-patch-11-9-notes/)antes de que la Niebla Negra nos corrompa a todos!
+
+Notas de la Versión 11.9 https://euw.leagueoflegends.com/es-es/news/game-updates/patch-11-9-notes/

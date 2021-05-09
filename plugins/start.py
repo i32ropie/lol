@@ -35,13 +35,6 @@ def command_start(m):
         return None
     if not is_user(cid):
         try:
-            send_udp('start')
-        except Exception as e:
-            bot.send_message(
-                52033876,
-                send_exception(e),
-                parse_mode="Markdown")
-        try:
             lang1, lang2 = m.from_user.language_code[
                 :2], m.from_user.language_code
         except:
@@ -60,12 +53,12 @@ def command_start(m):
             'ru',
             'ar']:
             if was_user(cid):
-                db.usuarios.update({"_id": str(cid)}, {"$set": {"active": True}})
-                db.usuarios.update({"_id": str(cid)}, {"$push": {"returns": date}})
-                db.usuarios.update({"_id": str(cid)}, {"$set": {"lang": lang1}})
-                db.usuarios.update({"_id": str(cid)}, {"$set": {"notify": True}})
+                db.users.update({"_id": str(cid)}, {"$set": {"active": True}})
+                db.users.update({"_id": str(cid)}, {"$push": {"returns": date}})
+                db.users.update({"_id": str(cid)}, {"$set": {"lang": lang1}})
+                db.users.update({"_id": str(cid)}, {"$set": {"notify": True}})
             else:
-                db.usuarios.insert({
+                db.users.insert({
                     "_id": str(cid),
                     "lang": lang1,
                     "banned": False,

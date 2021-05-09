@@ -10,10 +10,6 @@ print(Color(
 def command_get_user_info(m):
     cid = m.chat.id
     uid = m.from_user.id
-    try:
-        send_udp('get_user')
-    except Exception as e:
-        bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
     if not is_recent(m):
         return None
     if is_banned(uid):

@@ -11,18 +11,11 @@ def command_stop(m):
     cid = m.chat.id
     uid = m.from_user.id
     if is_user(cid):
-        try:
-            send_udp('stop')
-        except Exception as e:
-            bot.send_message(
-                52033876,
-                send_exception(e),
-                parse_mode="Markdown")
         bot.send_sticker(cid, 'BQADBAADKQADYbhQBzwCcUAqk3TaAg')
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])
-        # db.usuarios.remove(str(cid))
-        db.usuarios.update({"_id": str(cid)}, {"$set": {"active": False}})
+        # db.users.remove(str(cid))
+        db.users.update({"_id": str(cid)}, {"$set": {"active": False}})
         for id in admins:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(id, "Usuario eliminado:\n\nNombre: " +

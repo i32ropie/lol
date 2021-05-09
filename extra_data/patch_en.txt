@@ -1,7 +1,13 @@
-Hi friends!
+Flowers are blooming, birds are chirping, and it’s our favorite time of the year— Midseason!
 
-These patch notes are very big. Look at all our bugfixes. Look at Prestige Edition Senna. Look at the Akali work. Look at what they did to my girl. Look at the buffs to jungle! And maybe even most importantly, we got some amazing VFX updates this patch for some of our oldest and most beloved champions.
+This one's a bit of a doozy, so let's give you a rundown. First, we’ve got a shakeup to the tank system with the nerf of Turbo Chemtank and buffs to a few underpowered fighter items (Death’s Dance and Wit’s End). Then, in preparation for MSI, we’re shuffling up the meta for Pro play by bringing a diversified crew onto the stage. This means dominant names like Gragas take a step back to let old friends like Shen and Lulu try some time in the spotlight.
 
-Take this portal if you're looking for [TFT's patch notes](https://na.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-10-3-notes/)!
+Past these, we overshot on a few champions last patch who quickly grew to be main offenders on the Rift. Folks like Diana and Morgana, whose newfound power helped them settle too comfortably in the jungle, are getting taken down a peg while preserving strength in the role. The same goes for a certain red reaper and a magenta meatball in their respective lanes.
 
-Patch 10.3 notes https://euw.leagueoflegends.com/en-gb/news/game-updates/patch-10-3-notes/
+What else? Taric’s interaction with certain champs gets updated so that he no longer applies benefits to allies that aren’t on the map. Viego gets a lot of bugs out of his system. The second leg of Ranked begins, and you make it to the tier of your dreams.
+
+And that’s it! We’ll see ya in the next one.
+
+TFT: Reckoning has arrived, and we reckon you'll want to check the [TFT patch notes](https://na.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-11-9-notes/)before the Black Mist corrupts us all!
+
+Patch 11.9 notes https://euw.leagueoflegends.com/en-gb/news/game-updates/patch-11-9-notes/

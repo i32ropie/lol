@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    bot:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: unless-stopped
+        volumes:
+            - .:/usr/src/app/
+        depends_on:
+            - database
+    database:
+        image: "mvertes/alpine-mongo"
+        restart: unless-stopped
+        volumes:
+            - db:/data/db
+
+volumes:
+    db: {}
