@@ -114,7 +114,7 @@ def query_summoner(q):
     except:
         pass
     else:
-        lattest_version = static_versions()
+        lattest_version = get_static_version()
         icon_id = summoner['profileIconId']
         icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
             lattest_version, icon_id)

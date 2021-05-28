@@ -65,8 +65,10 @@ def command_update_champs(m):
                     msg = bot.send_photo(52033876, r.content)
                     valor = msg.photo[-1].file_id
                     file_ids[clave] = valor
-
+        bot.send_message(cid, "Hemos terminado de actualizar las imágenes, actualizamos el fichero de file_ids")
         with open('extra_data/file_ids.json', 'w') as f:
             json.dump(file_ids, f, indent=2, sort_keys=True)
-
+        bot.send_message(cid, "Actualizado fichero de file_ids. Actualizamos ahora la configuración con la versión de estáticos")
+        set_static_version(version)
+        bot.send_message(cid, "Actualizada versión estática, reiniciamos")
         restart_process()
