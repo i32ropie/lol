@@ -374,13 +374,14 @@ def get_summoner_info(invocador, region, cid):
         # Información de partidas TFT
         try:
             for x in rank_tft:
-                txt += responses['summoner_30_beta_2'][lang(cid)].format(
-                            "Ranked TFT" if x == "RANKED_TFT" else x,
-                            responses['tier'][lang(cid)][rank_tft[x]['tier']],
-                            rank_tft[x]['rank'],
-                            rank_tft[x]['wins'],
-                            rank_tft[x]['losses'],
-                            rank_tft[x]['leaguePoints'])
+                if x == "RANKED_TFT":
+                    txt += responses['summoner_30_beta_2'][lang(cid)].format(
+                                "Ranked TFT",
+                                responses['tier'][lang(cid)][rank_tft[x]['tier']],
+                                rank_tft[x]['rank'],
+                                rank_tft[x]['wins'],
+                                rank_tft[x]['losses'],
+                                rank_tft[x]['leaguePoints'])
         except Exception as e:
             bot.send_message(52033876, f"invocador={invocador}\nregion={region}")
             bot.send_message(52033876, f"summoner_tft={summoner_tft}")
