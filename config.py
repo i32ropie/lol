@@ -409,7 +409,7 @@ def get_matches_info(invocador, region, cid):
             x = process_match_lol(summoner_lol['accountId'], 'euw1', y)
             game_mode = [z for z in data['queues'] if z['queueId'] == x['queue_id']][0]['description']
             date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
-            win = 'Victory' if x['match']['win'] else 'Defeat'
+            win = responses['victory'][lang(cid)] if x['match']['win'] else responses['defeat'][lang(cid)]
             result = '{}/{}/{}'.format(x['match']['kills'], x['match']['assists'], x['match']['deaths'])
             champ = data['keys'][str(x['match']['championId'])]['name']
             game_duration = str(timedelta(seconds=x['game_duration']))
@@ -420,7 +420,7 @@ def get_matches_info(invocador, region, cid):
             x = process_match_tft(summoner_tft['puuid'], 'europe', y)
             game_mode = x['game_mode']
             date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
-            win = 'Victory' if x['match']['placement'] == 1 else 'Defeat'
+            win = responses['victory'][lang(cid)] if x['match']['placement'] == 1 else responses['defeat'][lang(cid)]
             result = 'Placement {}'.format(x['match']['placement'])
             game_duration = str(timedelta(seconds=x['game_duration']))
             txt += responses['base_txt_tft'][lang(cid)].format(game_mode, win, date, game_duration, result)
