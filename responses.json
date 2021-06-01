@@ -2087,5 +2087,33 @@
         "ro":"*Mode*: _{}_ - _{}_\n*Date*: _{}_\n*Game duration*: _{}_\n*Result*: _{}_\n*Champion*: _{}_\n\n",
         "ru":"*Mode*: _{}_ - _{}_\n*Date*: _{}_\n*Game duration*: _{}_\n*Result*: _{}_\n*Champion*: _{}_\n\n",
         "ar":"*Mode*: _{}_ - _{}_\n*Date*: _{}_\n*Game duration*: _{}_\n*Result*: _{}_\n*Champion*: _{}_\n\n"
+    },
+    "victory": {
+        "es":"Victoria",
+        "en":"Victory",
+        "it":"Vittoria",
+        "de":"Sieg",
+        "pt":"Vitória",
+        "fr":"Victoire",
+        "fa":"پیروزی",
+        "pl":"Zwycięstwo",
+        "tr":"Zafer",
+        "ro":"Victorie",
+        "ru":"Победа",
+        "ar":"فوز"
+    },
+    "defeat": {
+        "es":"Derrota",
+        "en":"Defeat",
+        "it":"Sconfiggi",
+        "de":"Niederlage",
+        "pt":"Derrota",
+        "fr":"Défaite",
+        "fa":"شکست دادن",
+        "pl":"Pokonać",
+        "tr":"Yenilgi",
+        "ro":"Înfrângere",
+        "ru":"Победить",
+        "ar":"هزيمة"
     }
 }
