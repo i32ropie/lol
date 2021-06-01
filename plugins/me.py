@@ -26,16 +26,31 @@ def command_m(m):
             bot.send_message(cid, responses['me_error'][lang(cid)])
             return
         if summoner and region:
-            keyboard = types.InlineKeyboardMarkup()
-            keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
-            bot.send_message(
-                cid,
-                get_summoner_info(
+            res_text, res_info = get_summoner_info(
                     summoner,
                     region,
-                    cid),
-                parse_mode="Markdown",
-                reply_markup=keyboard)
+                    cid)
+            if res_info:
+                keyboard = types.InlineKeyboardMarkup()
+                # if is_beta(cid):
+                c_data = {
+                    "r":region,
+                    "s":summoner,
+                    "a":"h"
+                }
+                keyboard.add(types.InlineKeyboardButton(responses['matches_history'][lang(cid)], callback_data=json.dumps(c_data)))
+
+                keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
+                bot.send_message(
+                    cid,
+                    res_text,
+                    parse_mode="Markdown",
+                    reply_markup=keyboard)
+            else:
+                bot.send_message(
+                    cid,
+                    res_text,
+                    parse_mode="Markdown")
         else:
             bot.send_message(cid, responses['me_error'][lang(cid)])
     else:

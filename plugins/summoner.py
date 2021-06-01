@@ -74,6 +74,12 @@ def summoner_info(m):
                 (region), parse_mode="Markdown")
         else:
             keyboard = types.InlineKeyboardMarkup()
+            c_data = {
+                "r":region,
+                "s":summoner,
+                "a":"h"
+            }
+            keyboard.add(types.InlineKeyboardButton(responses['matches_history'][lang(cid)], callback_data=json.dumps(c_data)))
             keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
             bot.send_chat_action(cid, 'typing')
             bot.send_message(

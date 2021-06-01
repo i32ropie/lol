@@ -22,6 +22,7 @@ import requests
 from random import choice
 import logging
 import _thread
+from datetime import datetime, timedelta
 
 #################################################
 #          USEFUL FUNCTIONS AND DATAS           #
@@ -170,6 +171,10 @@ with open('champs_en.json', 'r') as f:
 with open('champs_keys.json', 'r') as f:
     data['keys'] = json.load(f)
 
+with open('queues.json', 'r') as f:
+    data['queues'] = json.load(f)
+
+
 
 def line(alt=False):
     if alt:
@@ -220,9 +225,21 @@ base_regions = {'euw': 'euw1',
                 'las': 'la2',
                 'tr': 'tr1'}
 
+tft_regions = {
+    'euw': 'europe',
+    'eune': 'europe',
+    'tr': 'europe',
+    'ru': 'europe',
+    'kr': 'asia',
+    'na': 'americas',
+    'br': 'americas',
+    'lan': 'americas',
+    'las': 'americas',
+    'oce': 'americas'
+}
 
-def update_region(reg):
-    return base_regions.get(reg)
+def update_region(reg, mode='lol'):
+    return base_regions.get(reg) if mode == 'lol' else tft_regions.get(reg)
 
 
 def get_3_best_champs(summonerId, region, cid):
@@ -257,27 +274,22 @@ def get_summoner(name, region, mode='lol'):
 
 
 def get_matches_id_tft(puuid, region, count=5):
-    url = f'https://{region}.api.riotgames.com/tft/match/v1/matches/by-puuid/{puuid}/ids'
-    params = {
-        'api_key': extra['tft_api'],
-        'count': count
-    }
-    r = requests.get(url, params)
-    if r.status_code != 200:
-        raise Exception(f"Error finding matches for {puuid} in {region}")
-    return r.json()
+    return get_matches_id(puuid, region, 'tft', count)
 
 
-def get_matches_id_lol(accountId, region, count=5):
-    url = f'https://{region}.api.riotgames.com/lol/match/v4/matchlists/by-account/{accountId}'
+def get_matches_id_lol(account_id, region, count=5):
+    output = []
+    url = f'https://{region}.api.riotgames.com/lol/match/v4/matchlists/by-account/{account_id}'
     params = {
         'api_key': extra['lol_api'],
         'endIndex': count
     }
     r = requests.get(url, params)
     if r.status_code != 200:
-        raise Exception(f"Error finding matches for {accountId} in {region}")
-    return r.json()
+        raise Exception(f"Error finding matches for {account_id} in {region}")
+    if r.json()['matches']:
+        output = [x['gameId'] for x in r.json()['matches']]
+    return output
 
 
 def get_matches_id(puuid, region, mode='lol', count=5):
@@ -295,6 +307,32 @@ def get_matches_id(puuid, region, mode='lol', count=5):
     return r.json()
 
 
+def process_match_lol(account_id, region, match_id):
+    url = f'https://{region}.api.riotgames.com/lol/match/v4/matches/{match_id}'
+    params = {
+        'api_key': extra['lol_api']
+    }
+    r = requests.get(url, params)
+    if r.status_code != 200:
+        raise Exception(f"Error finding match {match_id}")
+    match = r.json()
+    output = {}
+    if match:
+        p_id = [x['participantId']-1 for x in match['participantIdentities'] if x['player']['accountId'] == account_id][0]
+        s = match['participants'][p_id]['stats']
+        s['championId'] = match['participants'][p_id]['championId']
+        output = {
+            'game_mode': match['gameMode'],
+            'match': match['participants'][p_id]['stats'],
+            'timestamp': match['gameCreation'],
+            'game_duration': match['gameDuration'],
+            'queue_id': match['queueId']
+        }
+    return output
+
+def process_match_tft(puuid, region, match_id):
+    return process_match(puuid, region, match_id, 'tft')
+
 def process_match(puuid, region, match_id, mode = 'lol'):
     if mode == 'tft':
         url = f'https://{region}.api.riotgames.com/tft/match/v1/matches/{match_id}'
@@ -305,15 +343,22 @@ def process_match(puuid, region, match_id, mode = 'lol'):
     }
     r = requests.get(url, params)
     if r.status_code != 200:
-        raise Exception(f"Error finding match {puuid}")
+        raise Exception(f"Error finding match {match_id}")
     match = r.json()
     output = {}
     if mode == 'tft':
-        output = [x for x in match['info']['participants'] if x['puuid'] == puuid][0]
+        output = {
+            'game_mode': 'TFT',
+            'match': [x for x in match['info']['participants'] if x['puuid'] == puuid][0],
+            'timestamp': match['info']['game_datetime'],
+            'game_duration': int(match['info']['game_length'])
+        }
+        
     else:
         output = {
             'game_mode': match['info']['gameMode'],
-            'summoner': [x for x in match['info']['participants'] if x['puuid'] == puuid][0]
+            'match': [x for x in match['info']['participants'] if x['puuid'] == puuid][0],
+            'timestamp': match['info']['game_datetime']
         }
     return output
 
@@ -339,14 +384,57 @@ def get_rank_info(summoner_id, region, mode='lol'):
     return output
 
 
-def get_summoner_info(invocador, region, cid):
+def get_matches_info(invocador, region, cid):
     try:
         summoner_lol = get_summoner(invocador, update_region(region))
         summoner_tft = get_summoner(invocador, update_region(region), 'tft')
     except:
         txt = responses['summoner_error'][
             lang(cid)] % (invocador, region.upper())
-        return txt
+        return txt, False
+    lattest_version = get_static_version()
+    icon_id = summoner_lol['profileIconId']
+    icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
+        lattest_version, icon_id)
+    summoner_name = summoner_lol['name']
+    opgg_region = region.lower() if region.lower() != 'kr' else 'www'
+    opgg = 'http://{}.op.gg/summoner/userName={}'.format(opgg_region, ''.join(summoner_name.split()))
+    summoner_level = summoner_lol['summonerLevel']
+    txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, opgg, summoner_level)
+    m_lol = get_matches_id_lol(summoner_lol['accountId'], update_region(region))
+    m_tft = get_matches_id(summoner_tft['puuid'], update_region(region, 'tft'), 'tft')
+    if m_lol:
+        txt += "\n\n\n*LOL*\n\n"
+        for y in m_lol:
+            x = process_match_lol(summoner_lol['accountId'], 'euw1', y)
+            game_mode = [z for z in data['queues'] if z['queueId'] == x['queue_id']][0]['description']
+            date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
+            win = 'Victory' if x['match']['win'] else 'Defeat'
+            result = '{}/{}/{}'.format(x['match']['kills'], x['match']['assists'], x['match']['deaths'])
+            champ = data['keys'][str(x['match']['championId'])]['name']
+            game_duration = str(timedelta(seconds=x['game_duration']))
+            txt += responses['base_txt_lol'][lang(cid)].format(game_mode, win, date, game_duration, result, champ)
+    if m_tft:
+        txt += "\n*TFT*\n\n"
+        for y in m_tft:
+            x = process_match_tft(summoner_tft['puuid'], 'europe', y)
+            game_mode = x['game_mode']
+            date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
+            win = 'Victory' if x['match']['placement'] == 1 else 'Defeat'
+            result = 'Placement {}'.format(x['match']['placement'])
+            game_duration = str(timedelta(seconds=x['game_duration']))
+            txt += responses['base_txt_tft'][lang(cid)].format(game_mode, win, date, game_duration, result)
+    return txt, True
+
+
+def get_summoner_info(invocador, region, cid, basic=False):
+    try:
+        summoner_lol = get_summoner(invocador, update_region(region))
+        summoner_tft = get_summoner(invocador, update_region(region), 'tft')
+    except:
+        txt = responses['summoner_error'][
+            lang(cid)] % (invocador, region.upper())
+        return txt, False
     lattest_version = get_static_version()
     icon_id = summoner_lol['profileIconId']
     icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
@@ -358,6 +446,8 @@ def get_summoner_info(invocador, region, cid):
     #     region + "/" + str(summoner_id)
     summoner_level = summoner_lol['summonerLevel']
     txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, opgg, summoner_level)
+    if basic:
+        return txt, True
     if summoner_level > 29:
         rank_lol = get_rank_info(summoner_lol['id'], update_region(region), 'lol')
         rank_tft = get_rank_info(summoner_tft['id'], update_region(region), 'tft')
@@ -395,7 +485,7 @@ def get_summoner_info(invocador, region, cid):
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except Exception as e:
             bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
-    return txt
+    return txt, True
 
 def restart_process():
      _thread.interrupt_main()
