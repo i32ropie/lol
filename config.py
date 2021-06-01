@@ -406,7 +406,7 @@ def get_matches_info(invocador, region, cid):
     if m_lol:
         txt += "\n\n\n*LOL*\n\n"
         for y in m_lol:
-            x = process_match_lol(summoner_lol['accountId'], 'euw1', y)
+            x = process_match_lol(summoner_lol['accountId'], update_region(region), y)
             game_mode = [z for z in data['queues'] if z['queueId'] == x['queue_id']][0]['description']
             date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
             win = responses['victory'][lang(cid)] if x['match']['win'] else responses['defeat'][lang(cid)]
@@ -417,7 +417,7 @@ def get_matches_info(invocador, region, cid):
     if m_tft:
         txt += "\n*TFT*\n\n"
         for y in m_tft:
-            x = process_match_tft(summoner_tft['puuid'], 'europe', y)
+            x = process_match_tft(summoner_tft['puuid'], update_region(region, 'tft'), y)
             game_mode = x['game_mode']
             date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
             win = responses['victory'][lang(cid)] if x['match']['placement'] == 1 else responses['defeat'][lang(cid)]
