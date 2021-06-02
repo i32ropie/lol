@@ -66,6 +66,7 @@ def summoner_info(m):
     if is_user(cid):
         summoner = ' '.join(m.text.split(' ')[1:])
         region = m.text.lstrip('/').split(' ')[0].split('@')[0].lower()
+        
         if not summoner:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(
@@ -73,23 +74,27 @@ def summoner_info(m):
                     lang(cid)] %
                 (region), parse_mode="Markdown")
         else:
-            keyboard = types.InlineKeyboardMarkup()
-            c_data = {
-                "r":region,
-                "s":summoner,
-                "a":"h"
-            }
-            keyboard.add(types.InlineKeyboardButton(responses['matches_history'][lang(cid)], callback_data=json.dumps(c_data)))
-            keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
-            bot.send_chat_action(cid, 'typing')
-            bot.send_message(
-                cid,
-                get_summoner_info(
+            res_text, res_info = get_summoner_info(
                     summoner,
                     region,
-                    cid),
-                parse_mode="Markdown",
-                reply_markup=keyboard)
+                    cid)
+            if res_info:
+                keyboard = types.InlineKeyboardMarkup()
+                c_data = {
+                    "r":region,
+                    "s":summoner,
+                    "a":"h"
+                }
+                keyboard.add(types.InlineKeyboardButton(responses['matches_history'][lang(cid)], callback_data=json.dumps(c_data)))
+                keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
+                bot.send_chat_action(cid, 'typing')
+                bot.send_message(
+                    cid,
+                    res_text,
+                    parse_mode="Markdown",
+                    reply_markup=keyboard)
+            else:
+                bot.send_message(cid, responses['me_error'][lang(cid)])
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
@@ -124,20 +129,36 @@ def query_summoner(q):
         icon_id = summoner['profileIconId']
         icon_url = "http://ddragon.leagueoflegends.com/cdn/{}/img/profileicon/{}.png".format(
             lattest_version, icon_id)
-        aux = types.InlineQueryResultArticle(
-            "1",
-            '[' + region.upper() + '] ' + summoner['name'],
-            types.InputTextMessageContent(
-                get_summoner_info(
-                    invocador,
-                    region,
-                    cid),
-                parse_mode="Markdown"),
-            thumb_url=icon_url,
-            description=responses['inline_summoner_d'][
-                lang(cid)].format(
-                summoner['name']))
-        to_send.append(aux)
+        res_text, res_info = get_summoner_info(
+                invocador,
+                region,
+                cid)
+        if res_info:
+            keyboard = types.InlineKeyboardMarkup()
+            c_data = {
+                    "r":region,
+                    "s":invocador,
+                    "a":"h"
+                }
+            # keyboard.add(types.InlineKeyboardButton(responses['matches_history'][lang(cid)], callback_data=json.dumps(c_data)))
+            keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, invocador)))
+
+            get_summoner_info(
+                        invocador,
+                        region,
+                        cid)[0]
+            aux = types.InlineQueryResultArticle(
+                "1",
+                '[' + region.upper() + '] ' + summoner['name'],
+                types.InputTextMessageContent(
+                    res_text,
+                    parse_mode="Markdown"),
+                thumb_url=icon_url,
+                reply_markup=keyboard,
+                description=responses['inline_summoner_d'][
+                    lang(cid)].format(
+                    summoner['name']))
+            to_send.append(aux)
     if to_send:
         bot.answer_inline_query(q.id, to_send, cache_time=1)
     else:
