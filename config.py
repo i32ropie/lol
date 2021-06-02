@@ -214,16 +214,18 @@ def set_static_version(static_version):
         json.dump(extra, f, indent=4)
 
 
-base_regions = {'euw': 'euw1',
-                'ru': 'ru',
-                'kr': 'kr',
-                'br': 'br1',
-                'oce': 'oc1',
-                'na': 'na1',
-                'eune': 'eun1',
-                'lan': 'la1',
-                'las': 'la2',
-                'tr': 'tr1'}
+base_regions = {
+    'euw': 'euw1',
+    'ru': 'ru',
+    'kr': 'kr',
+    'br': 'br1',
+    'oce': 'oc1',
+    'na': 'na1',
+    'eune': 'eun1',
+    'lan': 'la1',
+    'las': 'la2',
+    'tr': 'tr1'
+}
 
 tft_regions = {
     'euw': 'europe',

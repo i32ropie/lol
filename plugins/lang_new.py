@@ -31,7 +31,7 @@ markup.add(telebot.types.InlineKeyboardButton('TÜRKÇE', callback_data='lang tr
         'SPRACHE',
         'LANGUE',
         'DİL'])
-@bot.message_handler(commands=['lang_new'])
+@bot.message_handler(commands=['lang'])
 def command_COMANDO(m):
     cid = m.chat.id
     uid = m.from_user.id

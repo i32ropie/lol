@@ -34,7 +34,7 @@ markup.add(
 #         'SPRACHE',
 #         'LANGUE',
 #         'DİL'])
-@bot.message_handler(commands=['lang'])
+@bot.message_handler(commands=['lang_old'])
 def command_lang(m):
     cid = m.chat.id
     uid = m.from_user.id
