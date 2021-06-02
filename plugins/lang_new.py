@@ -43,7 +43,7 @@ def command_COMANDO(m):
         return None
     if is_user(cid):
         # Mandar mensaje con teclado
-        bot.send_message(cid, "Selecciona un idioma", reply_markup=markup)
+        bot.send_message(cid, responses['lang_new'][lang(cid)], reply_markup=markup)
     else:
         bot.send_message(cid, responses['not_user'])
 

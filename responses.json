@@ -843,6 +843,20 @@
             "Error. El usuario con ID %s no está en la base de datos."
         ]
     },
+    "lang_new":{
+        "es": "Selecciona un idioma.",
+        "en": "Select a language.",
+        "it":"Seleziona una lingua.",
+        "de":"Wähle eine Sprache.",
+        "pt":"Selecione um idioma.",
+        "fr":"Sélectionne une langue.",
+        "fa":"زبان را انتخاب کنید",
+        "pl":"Wybierz język.",
+        "tr":"Dil seç.",
+        "ro":"Alege o limbă.",
+        "ru":"Выберите язык.",
+        "ar": "اختر لغة"
+    },
     "lang_1":{
         "es": "Selecciona un idioma o escribe /cancel para cancelar el comando.",
         "en": "Select a language or type /cancel to cancel the command.",
