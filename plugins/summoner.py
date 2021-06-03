@@ -94,7 +94,7 @@ def summoner_info(m):
                     parse_mode="Markdown",
                     reply_markup=keyboard)
             else:
-                bot.send_message(cid, res_text)
+                bot.send_message(cid, res_text, parse_mode="Markdown")
     else:
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['not_user'])
