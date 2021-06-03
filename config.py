@@ -318,9 +318,12 @@ def process_match_lol(account_id, region, match_id):
     if r.status_code != 200:
         raise Exception(f"Error finding match {match_id}")
     match = r.json()
+    print(match)
     output = {}
     if match:
-        p_id = [x['participantId']-1 for x in match['participantIdentities'] if x['player']['accountId'] == account_id][0]
+        p_id = [x['participantId']-1 for x in match['participantIdentities'] if x['player']['currentAccountId'] == account_id]
+        if not p_id:
+            p_id = [x['participantId']-1 for x in match['participantIdentities'] if x['player']['accountId'] == account_id]
         s = match['participants'][p_id]['stats']
         s['championId'] = match['participants'][p_id]['championId']
         output = {
