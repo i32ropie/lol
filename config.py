@@ -324,6 +324,7 @@ def process_match_lol(account_id, region, match_id):
         p_id = [x['participantId']-1 for x in match['participantIdentities'] if x['player']['currentAccountId'] == account_id]
         if not p_id:
             p_id = [x['participantId']-1 for x in match['participantIdentities'] if x['player']['accountId'] == account_id]
+        p_id = p_id[0]
         s = match['participants'][p_id]['stats']
         s['championId'] = match['participants'][p_id]['championId']
         output = {
