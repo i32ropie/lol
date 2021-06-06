@@ -2,61 +2,49 @@
 
 Documentation of my [League of Legends](http://telegram.me/LoL_bot) Bot for Telegram.
 
-<!-- # Requirements
-
-### [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
-
-### [Importdir.py](https://gitlab.com/aurelien-lourot/importdir)
-
-### [Riot-Watcher](https://github.com/pseudonym117/Riot-Watcher)
-
-### [ColorClass](https://github.com/Robpol86/colorclass) -->
 
 # Getting Started
 
-## IMPORTANT
+First of all, this bot is running under Docker with the help of Docker Compose, so you need to install it.
 
-This is outdated. I'll update it as soon as possible. Stay tunned :)
+- [Install Docker](https://docs.docker.com/engine/install/)
+- [Install Docker Compose](https://docs.docker.com/compose/install/)
 
-First of all, this bot is running in Python 3 so you need to install it and also pip for installing the modules.
+Then you need to create your configuration file. You can file a sample configuration file at `extra_data/extra.json.sample` so you can just remove the `.sample` part and edit it with your configuration.
+
+For setting up your configuration, you should edit the next parameters from that file:
+
+- **admins**: Change `admin_id` with your Telegram ID
+- **token**: Your bot token. Get it from [Bot Father](https://telegram.me/botfather)
+- **token_logbot**: Your logging bot token. This is optional, only if you are going to use the `/log` command
+- **lol_api**: Your LoL API key from RIOT. Request it at the [developer's portal](https://developer.riotgames.com/)
+- **tft_api**: Your TFT API key from RIOT. Request it at the [developer's portal](https://developer.riotgames.com/)
+
+You can use the developing token for both **lol_api** and **tft_api** for your tests, but the ideal is to request an API key for accessing the LoL API and the TFT API.
+
+Next thing you should be changing is the file `extra_data/file_ids.json` replacing the content with only this:
+
+```json
+{}
+```
+
+That's pretty much all the pre-steps you should do before setting up the bot. If you have already done all the above steps, you can now run the bot by typing this in the folder where the bot is:
+
 ```bash
-sudo apt-get install python3 python3-pip
+docker-compose up -d --build
 ```
 
-Then, you need the used modules.
-```markdown
-Tip: Type `pip` and double-tab to see different possibilities, maybe you need to need to use `pip-3.X` or only `pip`.
-```
+If you followed all the steps, your bot should have received a message from your bot telling you it has started.
+
+Now you should use the command `/update_champs x.x.1` changing `x.x` with the lattest version of the game, so if the lattest version is the `11.12` you should send to the bot `/update_champs 11.12.1`. Then the bot will start sending you some messages and it will send you all the game splasharts to fill the file `extra_data/file_ids.json` automatically.
+
+Now it is your time to play with the bot, learn how it works internally and make a pull request with some interesting new features :) PS: You can use the file called `plantilla.py` as a template for new commands 😉
+
+For troubleshooting, check the bot logs by typing:
+
 ```bash
-sudo pip3 install colorclass
-sudo pip3 install pyTelegramBotAPI
-sudo pip3 install riotwatcher
-sudo pip3 install psutil
+docker-compose logs -f
 ```
-
-Then, you need an `API key` from here https://developer.riotgames.com/ and a `Token` from http://telegram.me/BotFather.
-
-When you have the `API key` and the `Token`, paste them into `extra_data/extra.json.sample` and delete the `.sample` from the filename.
-
-Remove also `.sample` from `usuarios.json.sample`.
-
-Also, the `extra_data/file_ids.json` won't work for you, so you need to download the pictures and create your own `file_ids.json` file. For this, go to http://ddragon.leagueoflegends.com/tool/ and download the `dragontail-VERSION.tgz`. Extract the pics (located at `img/champion/splash/`) and use this little script in the same folder as the extracted pics are:
-```bash
-wget https://gist.githubusercontent.com/i32ropie/895ce1c9e4cb3a822c19/raw/d975557a5511fc6488a70a08505409daa39f4f65/script.py
-# Now edit the script and add your personal ID and your Token to it, I'll use nano for this. Tip: To leave&save use ctrl+X, Y, ENTER.
-nano script.py
-python3 script.py
-```
-
-Once you have your `file_ids.json`, replace the one at `extra_data` with yours.
-
-We are almost done, now go to the project folder and create a new folder called `logs`.
-```bash
-mkdir logs
-```
-
-Finally, to run our bot we just need to type: `./LCS_bot.py`.
-
 # Commands
 
 ### Main commands
