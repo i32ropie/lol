@@ -43,10 +43,10 @@ def listener(messages):
                 log_line = "<" + str(m.message_id) + "> " + time.strftime("%d %b %Y %H:%M:%S ", time.localtime()) + str(
                     m.from_user.first_name) + " (@" + str(m.from_user.username) + ") <- [" + str(uid) + "][" + str(cid) + "]: " + m.text + "\n"
             if cid in filtered:
-                bot.send_message(52033876, log_line)
+                bot.send_message(get_admin(), log_line)
             elif extra["log"]:
                 try:
-                    logBot.send_message(52033876, log_line)
+                    logBot.send_message(get_admin(), log_line)
                 except:
                     pass
 

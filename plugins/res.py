@@ -27,6 +27,6 @@ def command_res(m):
                 reply_to_message_id=m_id)
         except Exception as e:
             bot.send_message(
-                52033876,
+                get_admin(),
                 send_exception(e),
                 parse_mode="Markdown")

@@ -1,20 +1,15 @@
 {
-    "rotation":"file_id",
-    "sale":"file_id",
-    "token":"<TOKEN>",
-    "token_logbot":"<TOKEN>",
-    "lol_api":"<API_KEY>",
-    "botan_token":"<BOTAN_TOKEN>",
-    "log":true,
-    "admins":[
-        0
+    "beta": [],
+    "muted": true,
+    "static_version": "11.11.1",
+    "admins": [
+        admin_id
     ],
-    "beta":[
-        0
-    ],
-    "muted":false,
-    "udp_ip":"<SERVER>",
-    "udp_port":"<PORT>",
-    "udp_message":"<PREFIX>",
-    "static_version":"<CURRENT_STATIC_VERSION>"
+    "token": "bot_token",
+    "token_logbot": "log_bot_token",
+    "lol_api": "lol_api_key",
+    "tft_api": "tft_api_key",
+    "rotation": "rotation_file_id",
+    "sale": "sale_file_id",
+    "log": false
 }

@@ -26,9 +26,9 @@ print(Color(
 
 
 try:
-    bot.send_message(52033876, "@LoL_bot ha sido encendido")
+    bot.send_message(get_admin(), f"@{bot_username} ha sido encendido")
 except Exception as e:
-    bot.send_message(52033876, str(e))
+    bot.send_message(get_admin(), str(e))
 
 print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}@LoL_bot ha sido encendido.{/cyan}\n'))

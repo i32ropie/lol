@@ -45,7 +45,7 @@ with open('responses.json', encoding='utf-8') as f:
 
 
 userStep = dict()
-
+bot_username = bot.get_me().username
 
 def is_recent(m):
     return (time.time() - m.date) < 60
@@ -88,6 +88,10 @@ def is_user(cid):
 def is_admin(cid):
     """ Función para comprobar si un ID es admin """
     return int(cid) in admins
+
+
+def get_admin():
+    return admins[0]
 
 
 def remove_tag(text):
@@ -468,10 +472,10 @@ def get_summoner_info(invocador, region, cid, basic=False):
                                 rank_tft[x]['losses'],
                                 rank_tft[x]['leaguePoints'])
         except Exception as e:
-            bot.send_message(52033876, f"invocador={invocador}\nregion={region}")
-            bot.send_message(52033876, f"summoner_tft={summoner_tft}")
-            bot.send_message(52033876, f"rank_tft={rank_tft}")
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            bot.send_message(get_admin(), f"invocador={invocador}\nregion={region}")
+            bot.send_message(get_admin(), f"summoner_tft={summoner_tft}")
+            bot.send_message(get_admin(), f"rank_tft={rank_tft}")
+            bot.send_message(get_admin(), send_exception(e), parse_mode="Markdown")
         try:
             bst = get_3_best_champs(summoner_lol['id'], region, cid)
             if bst:
@@ -479,7 +483,7 @@ def get_summoner_info(invocador, region, cid, basic=False):
                 for x, y in bst.items():
                     txt += '\n- ' + x + ' _(Level: ' + y + ')_'
         except Exception as e:
-            bot.send_message(52033876, send_exception(e), parse_mode="Markdown")
+            bot.send_message(get_admin(), send_exception(e), parse_mode="Markdown")
     return txt, True
 
 def restart_process():

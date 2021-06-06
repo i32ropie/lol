@@ -34,7 +34,7 @@ def command_info(m):
         bot.send_message(
             cid,
             responses['info'][
-                lang(cid)],
+                lang(cid)].format(bot_username),
             reply_markup=markup,
             disable_web_page_preview=True)
     else:

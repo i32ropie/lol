@@ -18,7 +18,7 @@ def leave_channel(m):
         pass
     bot.leave_chat(cid)
     bot.send_message(
-        52033876,
+        get_admin(),
         "Bot eliminado de un canal\n\nID: {}\nAlias: @{}".format(
             cid,
             username))

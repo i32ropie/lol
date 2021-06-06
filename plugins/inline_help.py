@@ -13,7 +13,7 @@ def query_help(q):
         return None
     txt = responses['inline_help_1'][lang(cid)]
     for x, y in responses['inline_help_2'][lang(cid)].items():
-        txt += '\n`@LoL_bot ' + x + y
+        txt += f'\n`@{bot_username} ' + x + y
     aux = types.InlineQueryResultArticle(
         '1',
         responses['inline_help_t'][

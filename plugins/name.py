@@ -24,6 +24,6 @@ def command_set_name(m):
                     lang(cid)])
             userStep[cid] = 'name'
         else:
-            bot.send_message(cid, responses['private'][lang(cid)])
+            bot.send_message(cid, responses['private'][lang(cid)].format(bot_username))
     else:
         bot.send_message(cid, responses['not_user'])

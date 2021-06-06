@@ -31,9 +31,9 @@ def command_all_es(m):
                         db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
-                        52033876, send_exception(e), parse_mode="Markdown")
+                        get_admin(), send_exception(e), parse_mode="Markdown")
                     bot.send_message(
-                        52033876, send_exception(z), parse_mode="Markdown")
+                        get_admin(), send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -66,9 +66,9 @@ def command_all_en(m):
                         db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
-                        52033876, send_exception(e), parse_mode="Markdown")
+                        get_admin(), send_exception(e), parse_mode="Markdown")
                     bot.send_message(
-                        52033876, send_exception(z), parse_mode="Markdown")
+                        get_admin(), send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -98,9 +98,9 @@ def command_all_s(m):
                         db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
-                        52033876, send_exception(e), parse_mode="Markdown")
+                        get_admin(), send_exception(e), parse_mode="Markdown")
                     bot.send_message(
-                        52033876, send_exception(z), parse_mode="Markdown")
+                        get_admin(), send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))
@@ -130,9 +130,9 @@ def command_all_r(m):
                         db.users.update({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
-                        52033876, send_exception(e), parse_mode="Markdown")
+                        get_admin(), send_exception(e), parse_mode="Markdown")
                     bot.send_message(
-                        52033876, send_exception(z), parse_mode="Markdown")
+                        get_admin(), send_exception(z), parse_mode="Markdown")
             else:
                 save.append(x)
         aux = "Conservados: {}\nEliminados: {}".format(len(save), len(delete))

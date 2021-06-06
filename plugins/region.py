@@ -36,6 +36,6 @@ def command_set_region(m):
                     lang(cid)], reply_markup=markup)
             userStep[cid] = 'region'
         else:
-            bot.send_message(cid, responses['private'][lang(cid)])
+            bot.send_message(cid, responses['private'][lang(cid)].format(bot_username))
     else:
         bot.send_message(cid, responses['not_user'])

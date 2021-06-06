@@ -87,7 +87,7 @@ def command_start(m):
                     lang1])
             bot.send_message(
                 cid, responses['start_2'][
-                    lang1])
+                    lang1].format(bot_username))
         else:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(

@@ -71,7 +71,7 @@ def command_update_champs(m):
                     if r.status_code != 200:
                         print('\t\tERROR, status_code = {}'.format(r.status_code))
                         continue
-                    msg = bot.send_photo(52033876, r.content)
+                    msg = bot.send_photo(get_admin(), r.content)
                     valor = msg.photo[-1].file_id
                     file_ids[clave] = valor
         bot.send_message(cid, "Hemos terminado de actualizar las imágenes, actualizamos el fichero de file_ids")
