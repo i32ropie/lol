@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from config import *
-import re
-from bs4 import BeautifulSoup
 from lxml import html
-import os
+
 
 print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  update_rotation.py importado.{/cyan}'))
@@ -39,8 +37,8 @@ def update_rotation_auto(m):
         with open('extra_data/extra.json', 'w') as f:
             json.dump(extra, f, indent=4)
         champ_names = tree.xpath('//a[contains(@href, "/champions/")]/text()')
-        champ_keys = [y['key'] for x,y in data['keys'].items() if y['name'] in champ_names]
-        champ_keys = sorted([backward[x] if x in backward else x for x in champ_keys])
+        champ_keys = [y['key'] if y['key'] not in backward else backward[y['key']] for _,y in data['keys'].items() if y['name'] in champ_names]
+        champ_keys = sorted(champ_keys)
         with open('extra_data/rotation.txt','w') as f:
             f.write('/{}'.format('\n/'.join(champ_keys)))
         bot.send_message(cid, responses['update_rotation_end'])

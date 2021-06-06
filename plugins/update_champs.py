@@ -6,6 +6,13 @@ import requests
 print(Color(
     '{autored}[{/red}{autoyellow}+{/yellow}{autored}]{/red} {autocyan}  update_champs.py importado.{/cyan}'))
 
+backward = {
+    'Chogath': 'ChoGath',
+    'FiddleSticks': 'Fiddlesticks',
+    'Leblanc': 'LeBlanc',
+    'Khazix': 'KhaZix',
+    'MonkeyKing': 'Wukong'
+}
 
 @bot.message_handler(commands=['update_champs'])
 def command_update_champs(m):
@@ -42,20 +49,22 @@ def command_update_champs(m):
         else:
             bot.send_message(cid, "No se ha conseguido extraer información de la URL {}".format(url.format(version, langs[0])))
 
-        with open('champs_es.json') as f:
+        with open('champs_en.json') as f:
             champs = json.load(f)
 
         with open('extra_data/file_ids.json') as f:
             file_ids = json.load(f)
 
+        skins_map = {}
         for x, y in champs.items():
             print('Campeón cargado: {}'.format(x))
-            for z in [z.get('num') for z in y.get('skins')]:
+            for z,n in [(z.get('num'),z.get('name')) for z in y.get('skins')]:
                 clave = x.lower()
                 if clave == 'monkeyking':
                     clave = 'wukong'
                 if z != 0:
                     clave += '_{}'.format(z)
+                    skins_map[n] = '{}_{}'.format(x if x not in backward else backward[x], z)
                 if file_ids.get(clave) is None:
                     print('\tObteniendo la siguiente imagen: {}'.format(splash.format(x, z)))
                     r = requests.get(splash.format(x, z))
@@ -68,6 +77,8 @@ def command_update_champs(m):
         bot.send_message(cid, "Hemos terminado de actualizar las imágenes, actualizamos el fichero de file_ids")
         with open('extra_data/file_ids.json', 'w') as f:
             json.dump(file_ids, f, indent=2, sort_keys=True)
+        with open('champs_skins.json', 'w') as f:
+            json.dump(skins_map, f, indent=2)
         bot.send_message(cid, "Actualizado fichero de file_ids. Actualizamos ahora la configuración con la versión de estáticos")
         set_static_version(version)
         bot.send_message(cid, "Actualizada versión estática, reiniciamos")

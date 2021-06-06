@@ -1,11 +1,6 @@
 beautifulsoup4
 bs4
-certifi
-chardet
 colorclass
-idna
 pymongo
 pyTelegramBotAPI
 requests
-six
-soupsieve

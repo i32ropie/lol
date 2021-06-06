@@ -2032,6 +2032,9 @@
     "update_rotation_no_url": "No se ha especificado URL a parsear",
     "update_rotation_no_img": "No hay imágenes de rotación en la URL",
     "update_rotation_end": "Actualizado :)",
+    "update_sale_no_url": "No se ha especificado URL a parsear",
+    "update_sale_no_img": "No hay imágenes de ofertas en la URL",
+    "update_sale_end": "Actualizado :)",
     "matches_history": {
         "es":"Historial de partidas",
         "en":"Matches history",

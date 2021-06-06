@@ -11,11 +11,9 @@ from telebot import types
 from colorclass import Color
 import json
 import time
-import six
 import sys
 import traceback
 import re
-import socket
 from collections import OrderedDict
 from pymongo import MongoClient
 import requests
@@ -174,7 +172,8 @@ with open('champs_keys.json', 'r') as f:
 with open('queues.json', 'r') as f:
     data['queues'] = json.load(f)
 
-
+with open('champs_skins.json', 'r') as f:
+    data['skins'] = json.load(f)
 
 def line(alt=False):
     if alt:
@@ -193,16 +192,6 @@ def send_exception(exception):
         for val in row:
             message += '`' + str(val) + '`\n'
     return message
-
-
-def to_json(m):
-    d = {}
-    for x, y in six.iteritems(m.__dict__):
-        if hasattr(y, '__dict__'):
-            d[x] = to_json(y)
-        else:
-            d[x] = y
-    return d
 
 
 def get_static_version():
