@@ -11,7 +11,10 @@ def command_stop(m):
     cid = m.chat.id
     uid = m.from_user.id
     if is_user(cid):
-        bot.send_sticker(cid, 'BQADBAADKQADYbhQBzwCcUAqk3TaAg')
+        try:
+            bot.send_sticker(cid, 'BQADBAADKQADYbhQBzwCcUAqk3TaAg')
+        except:
+            bot.send_sticker(cid, open('amumu.webp', 'rb'))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])
         # db.users.remove(str(cid))
