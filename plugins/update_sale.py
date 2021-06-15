@@ -40,8 +40,8 @@ def update_rotation_auto(m):
         champ_prices = [': ' + x.replace('-','').strip() for x in tree.xpath('//a[contains(@href, "/champions/")]/parent::li/text()') if x.strip()]
         champs = sorted(zip(champ_keys, champ_prices))
         txt = '/{}'.format('\n/'.join([''.join(x) for x in champs]))
-        skins_base = [[y.strip() for y in ''.join([z.strip() for z in x.xpath('b/text()')+x.xpath('text()')]).split('/')] for x in tree.xpath('//h4') if x.xpath('@id') and x.xpath('@id')[0].isdigit()]
-        skins = [': '.join([data['skins'][x[0]], x[1]]) for x in skins_base]
+        skins_base = [[y.strip() for y in ''.join([z.strip().replace('K/DA','KDA') for z in x.xpath('b/text()')+x.xpath('text()')]).split('/')] for x in tree.xpath('//h4') if x.xpath('@id') and x.xpath('@id')[0].isdigit()]
+        skins = [': '.join([data['skins'][x[0].replace('KDA', 'K/DA').lower()], x[1]]) for x in skins_base]
         txt += '\n/{}'.format('\n/'.join(skins))
         with open('extra_data/sale.txt','w') as f:
             f.write(txt)

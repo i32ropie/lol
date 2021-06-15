@@ -64,7 +64,7 @@ def command_update_champs(m):
                     clave = 'wukong'
                 if z != 0:
                     clave += '_{}'.format(z)
-                    skins_map[n] = '{}_{}'.format(x if x not in backward else backward[x], z)
+                    skins_map[n.lower()] = '{}_{}'.format(x if x not in backward else backward[x], z)
                 if file_ids.get(clave) is None:
                     print('\tObteniendo la siguiente imagen: {}'.format(splash.format(x, z)))
                     r = requests.get(splash.format(x, z))
