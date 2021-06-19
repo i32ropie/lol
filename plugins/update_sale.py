@@ -42,7 +42,7 @@ def update_rotation_auto(m):
         txt = '/{}'.format('\n/'.join([''.join(x) for x in champs]))
         skins_base = [[y.strip() for y in ''.join([z.strip().replace('K/DA','KDA') for z in x.xpath('b/text()')+x.xpath('text()')]).split('/')] for x in tree.xpath('//h4') if x.xpath('@id') and x.xpath('@id')[0].isdigit()]
         skins = [': '.join([data['skins'][x[0].replace('KDA', 'K/DA').lower()], x[1]]) for x in skins_base]
-        txt += '\n/{}'.format('\n/'.join(skins))
+        txt += '\n/{}'.format('\n/'.join(skins)).replace('-','')
         with open('extra_data/sale.txt','w') as f:
             f.write(txt)
         bot.send_message(cid, responses['update_sale_end'])
