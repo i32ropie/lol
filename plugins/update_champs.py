@@ -81,5 +81,12 @@ def command_update_champs(m):
             json.dump(skins_map, f, indent=2)
         bot.send_message(cid, "Actualizado fichero de file_ids. Actualizamos ahora la configuración con la versión de estáticos")
         set_static_version(version)
-        bot.send_message(cid, "Actualizada versión estática, reiniciamos")
+        bot.send_message(cid, "Actualizada versión estática, actualizamos fichero queues.json")
+        r = requests.get('https://static.developer.riotgames.com/docs/lol/queues.json')
+        if r.status_code == 200:
+            with open('queues.json' ,'w') as f:
+                json.dump(r.json(), f)
+            bot.send_message(cid, "Actualizado fichero queues.json, reiniciamos")
+        else:
+            bot.send_message(cid, "Error actualizando fichero queues.json, reiniciamos")
         restart_process()

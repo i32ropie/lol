@@ -257,43 +257,46 @@ def step_name(m):
 
 @bot.callback_query_handler(func=lambda m: True)
 def inline_button(call):
-    cid = call.message.chat.id
-    mid = call.message.message_id
-    info = json.loads(call.data)
-    region = info['r']
-    summoner = info['s']
-    action = info['a']
-    c_data = {
-        'r':info['r'],
-        's':info['s'],
-        'a':'h' if action == 'i' else 'i'
-    }
-    keyboard = types.InlineKeyboardMarkup()
-    keyboard.add(types.InlineKeyboardButton(responses['summoner_info' if action == 'h' else 'matches_history'][lang(cid)], callback_data=json.dumps(c_data)))
-    keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
-    if action == 'h':
-        res_text, res_info = get_summoner_info(
-                        summoner,
-                        region,
-                        cid,
-                        True)
-        if res_info:
-            # Mandamos mensaje de 'cargando' y empezamos a sacar info de partidas
-            res_text += '\n\n{}'.format(responses['loading'][lang(cid)])
-            bot.edit_message_text(res_text, cid, mid, parse_mode="markdown", reply_markup=keyboard)
-            res_text, res_info = get_matches_info(summoner, region, cid)
+    try:
+        cid = call.message.chat.id
+        mid = call.message.message_id
+        info = json.loads(call.data)
+        region = info['r']
+        summoner = info['s']
+        action = info['a']
+        c_data = {
+            'r':info['r'],
+            's':info['s'],
+            'a':'h' if action == 'i' else 'i'
+        }
+        keyboard = types.InlineKeyboardMarkup()
+        keyboard.add(types.InlineKeyboardButton(responses['summoner_info' if action == 'h' else 'matches_history'][lang(cid)], callback_data=json.dumps(c_data)))
+        keyboard.add(types.InlineKeyboardButton(responses['share'][lang(cid)], switch_inline_query="{} {}".format(region, summoner)))
+        if action == 'h':
+            res_text, res_info = get_summoner_info(
+                            summoner,
+                            region,
+                            cid,
+                            True)
+            if res_info:
+                # Mandamos mensaje de 'cargando' y empezamos a sacar info de partidas
+                res_text += '\n\n{}'.format(responses['loading'][lang(cid)])
+                bot.edit_message_text(res_text, cid, mid, parse_mode="markdown", reply_markup=keyboard)
+                res_text, res_info = get_matches_info(summoner, region, cid)
+                if res_info:
+                    bot.edit_message_text(res_text, cid, mid, parse_mode="markdown", reply_markup=keyboard)
+                else:
+                    bot.edit_message_text(res_text, cid, mid, parse_mode="Markdown")    
+            else:
+                bot.edit_message_text(res_text, cid, mid, parse_mode="Markdown")
+        else:
+            res_text, res_info = get_summoner_info(
+                            summoner,
+                            region,
+                            cid)
             if res_info:
                 bot.edit_message_text(res_text, cid, mid, parse_mode="markdown", reply_markup=keyboard)
             else:
-                bot.edit_message_text(res_text, cid, mid, parse_mode="Markdown")    
-        else:
-            bot.edit_message_text(res_text, cid, mid, parse_mode="Markdown")
-    else:
-        res_text, res_info = get_summoner_info(
-                        summoner,
-                        region,
-                        cid)
-        if res_info:
-            bot.edit_message_text(res_text, cid, mid, parse_mode="markdown", reply_markup=keyboard)
-        else:
-            bot.edit_message_text(res_text, cid, mid, parse_mode="Markdown")
+                bot.edit_message_text(res_text, cid, mid, parse_mode="Markdown")
+    except Exception as e:
+        bot.send_message(get_admin(), send_exception(e), parse_mode="Markdown")
