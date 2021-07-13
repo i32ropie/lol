@@ -486,5 +486,16 @@ def get_summoner_info(invocador, region, cid, basic=False):
             bot.send_message(get_admin(), send_exception(e), parse_mode="Markdown")
     return txt, True
 
+
+def get_current_game(summoner_id, region):
+    url = "https://{}.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/{}".format(region, summoner_id)
+    params = {
+        'api_key': extra['lol_api']
+    }
+    r = requests.get(url=url, params=params)
+    if r.status_code != 200:
+        raise Exception("The summoner with ID {} is not in game.".format(summoner_id))
+    return r.json()
+
 def restart_process():
      _thread.interrupt_main()
