@@ -7,7 +7,7 @@ services:
             dockerfile: Dockerfile
         restart: unless-stopped
         volumes:
-            - .:/usr/src/app/
+            - ./:/usr/src/app
         depends_on:
             - database
     database:
