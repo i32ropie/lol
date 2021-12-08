@@ -53,12 +53,12 @@ def command_start(m):
             'ru',
             'ar']:
             if was_user(cid):
-                db.users.update({"_id": str(cid)}, {"$set": {"active": True}})
-                db.users.update({"_id": str(cid)}, {"$push": {"returns": date}})
-                db.users.update({"_id": str(cid)}, {"$set": {"lang": lang1}})
-                db.users.update({"_id": str(cid)}, {"$set": {"notify": True}})
+                db.users.update_one({"_id": str(cid)}, {"$set": {"active": True}})
+                db.users.update_one({"_id": str(cid)}, {"$push": {"returns": date}})
+                db.users.update_one({"_id": str(cid)}, {"$set": {"lang": lang1}})
+                db.users.update_one({"_id": str(cid)}, {"$set": {"notify": True}})
             else:
-                db.users.insert({
+                db.users.insert_one({
                     "_id": str(cid),
                     "lang": lang1,
                     "banned": False,

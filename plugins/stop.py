@@ -17,8 +17,8 @@ def command_stop(m):
             bot.send_sticker(cid, open('amumu.webp', 'rb'))
         bot.send_chat_action(cid, 'typing')
         bot.send_message(cid, responses['stop'][lang(cid)])
-        # db.users.remove(str(cid))
-        db.users.update({"_id": str(cid)}, {"$set": {"active": False}})
+        # db.users.remove_one(str(cid))
+        db.users.update_one({"_id": str(cid)}, {"$set": {"active": False}})
         for id in admins:
             bot.send_chat_action(cid, 'typing')
             bot.send_message(id, "Usuario eliminado:\n\nNombre: " +

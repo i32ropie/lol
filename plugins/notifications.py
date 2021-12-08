@@ -34,7 +34,7 @@ def command_notify(m):
             bot.send_message(
                 cid, responses['notifications_1'][
                     lang(cid)], parse_mode="Markdown")
-            db.users.update(
+            db.users.update_one(
                 {"_id": str(cid)},
                 {"$set": {"notify": False}})
         else:
@@ -42,7 +42,7 @@ def command_notify(m):
             bot.send_message(
                 cid, responses['notifications_2'][
                     lang(cid)], parse_mode="Markdown")
-            db.users.update(
+            db.users.update_one(
                 {"_id": str(cid)},
                 {"$set": {"notify": True}})
     else:

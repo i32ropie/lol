@@ -27,8 +27,8 @@ def command_all_es(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.users.remove(x)
-                        db.users.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove_one(x)
+                        db.users.update_one({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         get_admin(), send_exception(e), parse_mode="Markdown")
@@ -62,8 +62,8 @@ def command_all_en(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.users.remove(x)
-                        db.users.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove_one(x)
+                        db.users.update_one({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         get_admin(), send_exception(e), parse_mode="Markdown")
@@ -94,8 +94,8 @@ def command_all_s(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.users.remove(x)
-                        db.users.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove_one(x)
+                        db.users.update_one({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         get_admin(), send_exception(e), parse_mode="Markdown")
@@ -126,8 +126,8 @@ def command_all_r(m):
                 try:
                     if e.result.status_code == 403:
                         delete.append(x)
-                        # db.users.remove(x)
-                        db.users.update({"_id": x}, {"$set": {"active": False}})
+                        # db.users.remove_one(x)
+                        db.users.update_one({"_id": x}, {"$set": {"active": False}})
                 except Exception as z:
                     bot.send_message(
                         get_admin(), send_exception(e), parse_mode="Markdown")

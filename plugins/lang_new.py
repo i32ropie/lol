@@ -53,7 +53,7 @@ def callback_lang(call):
     cid = call.message.chat.id
     mid = call.message.message_id
     user_lang = call.data.split(' ')[-1]
-    db.users.update(
+    db.users.update_one(
         {"_id": str(cid)},
         {"$set": {"lang": user_lang}}
     )

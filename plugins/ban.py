@@ -28,14 +28,14 @@ def command_ban(m):
                         cid, responses['ban']['failure'][1] %
                         banned_id)
                 else:
-                    db.users.update({"_id": banned_id},
+                    db.users.update_one({"_id": banned_id},
                                        {"$set": {"banned": True}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(
                         cid, responses['ban']['success'] %
                         banned_id)
             else:
-                # db.users.insert({
+                # db.users.insert_one({
                 #     "_id": banned_id,
                 #     "lang": "en",
                 #     "banned": True,
@@ -43,7 +43,7 @@ def command_ban(m):
                 #     "server": "",
                 #     "summoner": ""
                 # })
-                db.users.insert({
+                db.users.insert_one({
                     "_id": banned_id,
                     "lang": "en",
                     "banned": True,
@@ -72,7 +72,7 @@ def command_unban(m):
         if isint(banned_id):
             if is_user(banned_id):
                 if is_banned(banned_id):
-                    db.users.update({"_id": banned_id},
+                    db.users.update_one({"_id": banned_id},
                                        {"$set": {"banned": False}})
                     bot.send_chat_action(cid, 'typing')
                     bot.send_message(

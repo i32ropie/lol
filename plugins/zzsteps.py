@@ -40,7 +40,7 @@ def step_start(m):
         language = None
     if m.content_type == 'text' and not db.users.find_one(str(cid)):
         if m.text in languages:
-            # db.users.insert({
+            # db.users.insert_one({
             #     "_id": str(cid),
             #     "lang": languages[m.text],
             #     "banned": False,
@@ -49,12 +49,12 @@ def step_start(m):
             #     "summoner": ""
             # })
             if was_user(cid):
-                db.users.update({"_id": str(cid)}, {"$set": {"active": True}})
-                db.users.update({"_id": str(cid)}, {"$push": {"returns": date}})
-                db.users.update({"_id": str(cid)}, {"$set": {"lang": languages[m.text]}})
-                db.users.update({"_id": str(cid)}, {"$set": {"notify": True}})
+                db.users.update_one({"_id": str(cid)}, {"$set": {"active": True}})
+                db.users.update_one({"_id": str(cid)}, {"$push": {"returns": date}})
+                db.users.update_one({"_id": str(cid)}, {"$set": {"lang": languages[m.text]}})
+                db.users.update_one({"_id": str(cid)}, {"$set": {"notify": True}})
             else:
-                db.users.insert({
+                db.users.insert_one({
                     "_id": str(cid),
                     "lang": languages[m.text],
                     "banned": False,
@@ -118,7 +118,7 @@ def step_lang(m):
     cid = m.chat.id
     if m.content_type == 'text':
         if m.text in languages:
-            db.users.update(
+            db.users.update_one(
                 {"_id": str(cid)},
                 {"$set": {"lang": languages[m.text]}}
             )
@@ -226,7 +226,7 @@ def step_region(m):
         userStep[cid] = 0
         if m.text.upper() in ['EUW', 'EUNE', 'BR', 'NA',
                               'LAS', 'LAN', 'KR', 'TR', 'RU', 'OCE']:
-            db.users.update(
+            db.users.update_one(
                 {"_id": str(cid)},
                 {"$set": {"server": m.text.lower()}}
             )
@@ -250,7 +250,7 @@ def step_name(m):
     if m.content_type == 'text':
         userStep[cid] = 0
         bot.send_message(cid, responses['name_2'][lang(cid)])
-        db.users.update(
+        db.users.update_one(
             {"_id": str(cid)},
             {"$set": {"summoner": m.text}}
         )
