@@ -48,6 +48,7 @@ def update_patch_auto(m):
             new_last_line = last_line.replace(patch_url_base, patch_url_new).replace(patch_id_base, patch_id_new)
 
             r = requests.get(patch_url_new)
+            r.encoding = r.apparent_encoding
             if r.status_code != 200:
                 bot.send_message(cid, "Error parseando la siguiente URL: {}".format(patch_url_new))
                 continue
@@ -74,6 +75,6 @@ def update_patch_auto(m):
                 new_patch_notes = "{}\n\n{}".format(
                     re.sub(r'<a href="(.*)">(.*)</a>', r'[\2](\1)', ''.join(list(filter(None, [x.strip().replace('<br/>', '\n').replace('<a',' <a') for x in soup.find('blockquote').prettify().split('\n') if not '<bl' in x and not '<e' in x and not '</e' in x and not '</bl' in x])))), 
                     new_last_line)
-            with open(x, 'w') as f:
+            with open(x, 'w', encoding='utf-8') as f:
                 f.write(new_patch_notes)
         bot.send_message(cid, "Done :)")
