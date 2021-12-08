@@ -357,7 +357,9 @@ def process_match(puuid, region, match_id, mode = 'lol'):
         output = {
             'game_mode': match['info']['gameMode'],
             'match': [x for x in match['info']['participants'] if x['puuid'] == puuid][0],
-            'timestamp': match['info']['game_datetime']
+            'timestamp': match['info']['gameStartTimestamp'],
+            'game_duration': match['info']['gameDuration'],
+            'queue_id': match['info']['queueId']
         }
     return output
 
@@ -400,12 +402,13 @@ def get_matches_info(invocador, region, cid):
     opgg = 'http://{}.op.gg/summoner/userName={}'.format(opgg_region, ''.join(summoner_name.split()))
     summoner_level = summoner_lol['summonerLevel']
     txt = responses['summoner_30_beta_1'][lang(cid)].format(icon_url, summoner_name, opgg, summoner_level)
-    m_lol = get_matches_id_lol(summoner_lol['accountId'], update_region(region))
+    # m_lol = get_matches_id_lol(summoner_lol['accountId'], update_region(region))
+    m_lol = get_matches_id(summoner_lol['puuid'], update_region(region, 'tft'), 'lol')
     m_tft = get_matches_id(summoner_tft['puuid'], update_region(region, 'tft'), 'tft')
     if m_lol:
         txt += "\n\n\n*LOL*\n\n"
         for y in m_lol:
-            x = process_match_lol(summoner_lol['accountId'], update_region(region), y)
+            x = process_match(summoner_lol['puuid'], update_region(region, 'tft'), y, 'lol')
             game_mode = [z for z in data['queues'] if z['queueId'] == x['queue_id']][0]['description']
             date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
             win = responses['victory'][lang(cid)] if x['match']['win'] else responses['defeat'][lang(cid)]
@@ -416,7 +419,7 @@ def get_matches_info(invocador, region, cid):
     if m_tft:
         txt += "\n*TFT*\n\n"
         for y in m_tft:
-            x = process_match_tft(summoner_tft['puuid'], update_region(region, 'tft'), y)
+            x = process_match(summoner_tft['puuid'], update_region(region, 'tft'), y, 'tft')
             game_mode = x['game_mode']
             date = datetime.fromtimestamp(x['timestamp']/1000).strftime('%d/%m/%Y - %H:%M')
             win = responses['victory'][lang(cid)] if x['match']['placement'] == 1 else responses['defeat'][lang(cid)]
@@ -451,7 +454,7 @@ def get_summoner_info(invocador, region, cid, basic=False):
         rank_lol = get_rank_info(summoner_lol['id'], update_region(region), 'lol')
         rank_tft = get_rank_info(summoner_tft['id'], update_region(region), 'tft')
         # Información de partidas LOL
-        for x in rank_lol:
+        for x in [x for x in rank_lol if rank_lol[x].get('tier')]:
             txt += responses['summoner_30_beta_2'][lang(cid)].format(
                         "SoloQ" if x == "RANKED_SOLO_5x5" else "FlexQ" if x == "RANKED_FLEX_SR" else x,
                         responses['tier'][lang(cid)][rank_lol[x]['tier']],
