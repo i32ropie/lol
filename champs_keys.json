@@ -14,6 +14,11 @@
         "key": "Akali",
         "name": "Akali"
     },
+    "166": {
+        "id": 166,
+        "key": "Akshan",
+        "name": "Akshan"
+    },
     "12": {
         "id": 12,
         "key": "Alistar",
@@ -484,6 +489,11 @@
         "key": "Rell",
         "name": "Rell"
     },
+    "888": {
+        "id": 888,
+        "key": "Renata",
+        "name": "Renata Glasc"
+    },
     "58": {
         "id": 58,
         "key": "Renekton",
@@ -679,6 +689,11 @@
         "key": "Velkoz",
         "name": "Vel'Koz"
     },
+    "711": {
+        "id": 711,
+        "key": "Vex",
+        "name": "Vex"
+    },
     "254": {
         "id": 254,
         "key": "Vi",
@@ -753,6 +768,11 @@
         "id": 238,
         "key": "Zed",
         "name": "Zed"
+    },
+    "221": {
+        "id": 221,
+        "key": "Zeri",
+        "name": "Zeri"
     },
     "115": {
         "id": 115,

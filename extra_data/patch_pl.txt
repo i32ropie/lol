@@ -1,13 +1,9 @@
-[⁣](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt95dc5782089baf45/6087e97b162d47104df486bb/PL-Patch-11.png)Kwiatki kwitną, ptaszki ćwierkają, a przed nami ulubiony czas roku — środek sezonu!
+[⁣](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt048a3c12c2582518/62620661d22f554a53caad9a/042622_12_8_PatchNotes_Infographic.jpg)MSI! MSI!
 
-Zmian jest sporo, więc warto je podsumować. Po pierwsze wprowadziliśmy kilka zmian w przedmiotach dla obrońców: osłabiliśmy Turbochemiczny Pojemnik i wzmocniliśmy parę przedmiotów dla wojowników (Taniec Śmierci i Koniec Rozumu). Przygotowania do MSI trwają, dlatego stwierdziliśmy, że to właściwy czas na lekkie zamieszanie w mecie profesjonalnych rozgrywek. Oznacza to, że dominujące od dłuższego czasu gwiazdy, np. Gragas, wycofają się odrobinę i zrobią miejsce na scenie dla starych znajomych — takich jak Shen czy Lulu.
+Tak, dobrze słyszeliście. To właśnie na tym patchu zostaną rozegrane zawody [Mid-Season Invitational 2022](https://lolesports.com/article/mid-season-invitational-2022-update/bltd6b5a63691b4faf6), które rozpoczną się 10 maja! Tym razem wprowadzimy zróżnicowaną mieszankę wzmocnień i osłabień bohaterów na światowej scenie oraz długo wyczekiwaną aktualizację Swaina. W opisie znajdziecie też więcej informacji o zawartości mitycznej, w tym o kamieniach milowych imprezy — w samą porę dla Prestiżowej Senny Zaćmienia Księżyca oraz wszystkich innych rycerzy Zaćmienia Słońca i Księżyca. Na koniec wspomnimy również o kilku nicponiach i maruderach w najnowszym zestawie skórek.
 
-W poprzednim patchu zaszaleliśmy nieco ze wzmocnieniami części bohaterów, przez co zbyt łatwo zdominowali oni Summoner’s Rift. Nasi koledzy i koleżanki, m.in. Diana oraz Morgana, rozpanoszyli się w dżungli na dobre, dlatego zdecydowaliśmy się wprowadzić pewne zmiany — co prawda osłabiają one skuteczność tych bohaterów, ale nie odbierają im dżunglerskiego potencjału. To samo tyczy się pewnego krwiożerczego żniwiarza oraz fioletowego olbrzyma, których również ustawiliśmy do pionu w ich alejach.
+Komu będziecie kibicować w przyszłym tygodniu?
 
-Co jeszcze? Zaktualizowaliśmy interakcję Tarika z niektórymi bohaterami, aby jego sojusznicy, którzy nie znajdują się w danym momencie na mapie, nie zyskiwali dodatkowych korzyści. Ponadto wyeliminowaliśmy sporo błędów związanych z Viego. Pamiętajcie też, że rozpoczyna się druga część sezonu rankingowego, więc pora dotrzeć do wymarzonego kręgu.
+Zapoznajcie się z niewielkimi zmianami, które pojawią się w TFT, w opisie patcha [tutaj](https://eune.leagueoflegends.com/pl-pl/news/game-updates/teamfight-tactics-patch-12-8-notes/), podczas gdy zawodnicy szlifują swoje umiejętności przed mistrzostwami świata Bajerów i Gadżetów, które rozpoczną się 29 kwietnia!
 
-I to tyle! Do następnego razu.
-
-TFT: Osąd jest już z nami, sądzimy więc, że warto zerknąć na [opis patcha TFT](https://eune.leagueoflegends.com/pl-pl/news/game-updates/teamfight-tactics-patch-11-9-notes/), zanim Czarna Mgła wszystkich nas pochłonie!
-
-Opis patcha 11.9 https://eune.leagueoflegends.com/pl-pl/news/game-updates/patch-11-9-notes/
+Opis patcha 12.8 https://eune.leagueoflegends.com/pl-pl/news/game-updates/patch-12-8-notes/

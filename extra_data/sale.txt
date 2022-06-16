@@ -1,8 +1,20 @@
-/Yasuo: 487 RP
-/Xerath: 440 RP
-/MissFortune: 395 RP
-/Volibear: 487 RP
-/Shyvana_2: 260 RP
-/Katarina_5: 375 RP
-/Shen_5: 487 RP
-/TwistedFate_10: 675 RP
+/LeeSin: 352 RP (60%)
+/Nami: 395 RP (55%)
+/Sejuani: 440 RP (50%)
+/Vladimir: 395 RP (50%)
+/Yuumi: 536 RP (45%)
+/Anivia_17: 1012 RP (25%)
+/Viktor_1: 438 RP (55%)
+/KhaZix_2: 390RP (60%)
+/Thresh_6: 742RP (45%)
+/Jinx_13: 675RP (50%)
+/Lulu_5: 540RP (60%)
+/Nocturne_3: 208RP (60%)
+/Jhin_14: 975 RP (27%)
+/Gangplank_5: 390 RP (60%)
+/Janna_7: 742RP (45%)
+/AurelionSol_11: 877 RP (35%)
+/Braum_24: 810 RP (40%)
+/Akali_15: 944 RP (30%)
+/Wukong_1: 390RP (60%)
+/MissFortune_2: 233 RP (55%)
